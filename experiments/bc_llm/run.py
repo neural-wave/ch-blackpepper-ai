@@ -8,7 +8,9 @@
 
 Classifiers are gradient-boosted trees on the stage-1 features, out-of-fold on train (5 folds as in
 smalltalk.py / evidence.py), fit on all train for eval. theta is picked on train only (best train score over
---thetas), then eval is run once at that theta.
+--thetas), then eval is run once at that theta. The pipeline is not rerun: each theta replays only its
+decision-dependent tail on the state saved by the features step (seconds per theta). LLM scores are read from
+outputs/bc_llm/llm/, never recomputed.
 
 python -m experiments.bc_llm.run --exp E1
 python -m experiments.bc_llm.run --exp E4 --llm qwen35_4b
@@ -26,7 +28,7 @@ from sklearn.ensemble import HistGradientBoostingClassifier
 from sklearn.metrics import roc_auc_score
 
 from .common import OUT, folds, load_json, metrics, save_json, span_cost
-from .features import EMBEDDING_FEATURES, run_pipeline
+from .features import EMBEDDING_FEATURES, finalize_split, load_states
 
 EXPERIMENTS = {
     "E0": "baseline: relevance score >= t_keep 0.5",
@@ -58,8 +60,9 @@ def _matrix(rows, names, llm):
 def classifier_probs(tr, ev, use_embeddings: bool, llm_tr=None, llm_ev=None):
     """OOF probabilities on train, full-train-model probabilities on eval."""
     names = sorted(n for n in tr[0]["f"] if use_embeddings or n not in EMBEDDING_FEATURES)
+    # early_stopping off: sklearn turns it on only above 10k samples, i.e. for the eval model but not the folds.
     model = lambda: HistGradientBoostingClassifier(max_depth=4, learning_rate=0.05, max_iter=300,
-                                                   l2_regularization=1.0, random_state=0)
+                                                   l2_regularization=1.0, early_stopping=False, random_state=0)
     fold = folds()
     lab = [r for r in tr if r["y"] is not None]
     X_tr, X_lab = _matrix(tr, names, llm_tr), _matrix(lab, names, llm_tr)
@@ -114,6 +117,8 @@ def _span_stats(rows, p, keep):
 def run(exp: str, llm_tag: str | None, thetas: list[float], delta: float, limit: int | None):
     tr, ev = load_json(OUT / "features_train.json"), load_json(OUT / "features_eval.json")
     t0 = time.time()
+    # Pipeline state saved by the features step (built once here if missing); each theta only replays the tail.
+    states = {s: load_states(s, limit) for s in ("train", "eval")}
     result = {"exp": exp, "desc": EXPERIMENTS[exp], "llm": llm_tag, "train_sweep": []}
     llm_tr = llm_ev = None
     if exp in NEEDS_LLM:
@@ -128,7 +133,7 @@ def run(exp: str, llm_tag: str | None, thetas: list[float], delta: float, limit:
         p_tr = {r["key"]: r["f"]["score"] for r in tr}
         p_ev = {r["key"]: r["f"]["score"] for r in ev}
         for split, rows, p in (("train", tr, p_tr), ("eval", ev, p_ev)):
-            res = metrics(split, run_pipeline(split, keep=None, limit=limit)[0])
+            res = metrics(split, finalize_split(states[split]))
             row = _row(res) | _span_stats(rows, p, keep(rows))
             result["train_sweep" if split == "train" else "eval"] = [row] if split == "train" else row
         result["theta"] = 0.5
@@ -148,7 +153,7 @@ def run(exp: str, llm_tag: str | None, thetas: list[float], delta: float, limit:
             else:
                 k_tr = {r["key"]: bool(p_tr[r["key"]] >= theta) for r in tr}
                 k_ev = {r["key"]: bool(p_ev[r["key"]] >= theta) for r in ev}
-            res = metrics("train", run_pipeline("train", keep=k_tr, limit=limit)[0])
+            res = metrics("train", finalize_split(states["train"], k_tr))
             row = {"theta": theta} | _row(res) | _span_stats(tr, p_tr, k_tr) | extra
             result["train_sweep"].append(row)
             print(json.dumps({k: v for k, v in row.items() if k != "by_type"}))
@@ -156,7 +161,7 @@ def run(exp: str, llm_tag: str | None, thetas: list[float], delta: float, limit:
                 best = (row, k_ev, extra)
         row, k_ev, extra = best
         result["theta"] = row["theta"]
-        res = metrics("eval", run_pipeline("eval", keep=k_ev, limit=limit)[0])
+        res = metrics("eval", finalize_split(states["eval"], k_ev))
         result["eval"] = {"theta": row["theta"]} | _row(res) | _span_stats(ev, p_ev, k_ev) | extra
     result["llm_calls_eval"] = (result["eval"].get("llm_calls_eval") if exp == "E6" else
                                 1.0 if exp in NEEDS_LLM else 0.0)
