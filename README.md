@@ -8,8 +8,9 @@ encounter's ICD-10 codes. Runs fully on-prem (no cloud models, < 4 GB VRAM).
 
 ## Setup
 ```bash
-python3.12 -m venv .venv
-source .venv/bin/activate
+conda create -n blackpepper python=3.12
+conda activate blackpepper
+pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
 pip install -r requirements.txt
 ```
 Hugging Face models (`cambridgeltl/SapBERT-from-PubMedBERT-fulltext`, `obi/deid_roberta_i2b2`) download on first
