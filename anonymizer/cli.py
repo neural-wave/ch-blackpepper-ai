@@ -35,6 +35,9 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("--a-ideas", default=",".join(map(str, Config.a_ideas)),
                    help="personal-data extensions of study G; '' turns them off")
     p.add_argument("--no-cache", action="store_true", help="recompute model outputs instead of reusing .cache/")
+    p.add_argument("--no-decider", action="store_true", help="b/c by relevance threshold only (no LLM)")
+    p.add_argument("--llm-batch", type=int, default=Config.llm_batch, help="LLM judge spans per forward pass")
+    p.add_argument("--vram-cap-gb", type=float, default=None, help="hard CUDA memory cap; OOM if exceeded")
     p.add_argument("--device", default="auto")
     p.add_argument("--limit", type=int, default=None)
     a = p.parse_args(argv)
@@ -42,18 +45,20 @@ def main(argv: list[str] | None = None) -> None:
     cfg = Config(t_keep=a.t_keep, t_remove=a.t_remove, use_deid_ner=not a.no_ner, device=a.device,
                  signals=tuple(int(x) for x in a.signals.split(",")), keep_symptoms=a.keep_symptoms,
                  smalltalk=not a.no_smalltalk, smalltalk_threshold=a.smalltalk_threshold, cache=not a.no_cache,
-                 a_ideas=tuple(int(x) for x in a.a_ideas.split(",") if x))
+                 a_ideas=tuple(int(x) for x in a.a_ideas.split(",") if x), decider=not a.no_decider,
+                 llm_batch=a.llm_batch)
+    if a.vram_cap_gb and torch.cuda.is_available():
+        torch.cuda.set_per_process_memory_fraction(
+            min(1.0, a.vram_cap_gb * 1e9 / torch.cuda.get_device_properties(0).total_memory))
     encounters = load_encounters(a.input)[:a.limit]
     t0 = time.time()
     anon = Anonymizer(cfg)
-    outputs, logs = [], []
-    for enc in tqdm(encounters, desc="anonymizing", file=sys.stderr):
-        codes = no_code_predictions(anon, enc) if a.no_codes else None
-        out, log = anon.anonymize(enc, codes)
-        if a.no_codes:
-            log["predicted_codes"] = codes
-        outputs.append(out)
-        logs.append(log)
+    codes = [no_code_predictions(anon, enc) for enc in encounters] if a.no_codes else None
+    results = anon.anonymize_all(encounters, codes, progress=lambda it: tqdm(it, desc="anonymizing", file=sys.stderr))
+    outputs, logs = [o for o, _ in results], [l for _, l in results]
+    if a.no_codes:
+        for log, c in zip(logs, codes):
+            log["predicted_codes"] = c
     elapsed = time.time() - t0
 
     save_jsonl(outputs, a.output)

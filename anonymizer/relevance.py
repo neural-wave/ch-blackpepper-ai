@@ -27,9 +27,13 @@ EXPANSIONS = json.loads((Path(__file__).parent / "resources" / "code_expansions.
 class Embedder:
     def __init__(self, model_name: str, device: str, persist: bool = False):
         self.tok, self.model = load_hf(model_name, "base", device)
-        self.model_name = model_name
+        self.model_name, self.device = model_name, device
         self._cache: dict[str, np.ndarray] = {}
         self._store = EmbeddingStore(model_name) if persist else None
+
+    def release(self):
+        """Drop the model (frees GPU memory for the LLM stage); reloaded on the next uncached call."""
+        self.tok = self.model = None
 
     def __call__(self, texts: list[str], batch_size: int = 256) -> np.ndarray:
         missing = [t for t in dict.fromkeys(texts) if t not in self._cache]
@@ -37,6 +41,8 @@ class Embedder:
             self._cache.update(self._store.get_many(missing))
             missing = [t for t in missing if t not in self._cache]
         fresh = {}
+        if missing and self.model is None:
+            self.tok, self.model = load_hf(self.model_name, "base", self.device)
         for i in range(0, len(missing), batch_size):
             batch = missing[i:i + batch_size]
             enc = self.tok(batch, padding=True, truncation=True, max_length=32, return_tensors="pt").to(self.model.device)
@@ -47,7 +53,7 @@ class Embedder:
             fresh.update(zip(batch, cls))
         if self._store:
             self._store.put_many(fresh)
-        dim = self.model.config.hidden_size
+        dim = self.model.config.hidden_size if self.model is not None else 768
         return np.stack([self._cache[t] for t in texts]) if texts else np.zeros((0, dim), dtype=np.float32)
 
 

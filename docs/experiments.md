@@ -340,3 +340,50 @@ the leaderboard baseline (entity on, s1–5, t0.5). Sweep: `python -m anonymizer
 - A pseudo-GT cleanup (idea 6) was prototyped and dropped: the GT stays fixed for comparability.
 - Promoted: `a_ideas=(1,2,3,4)` is the default baseline (defaults reproduce train 0.774 / eval 0.754).
 - Next: small LLM / GLiNER span extractor for the long tail (idea 5), pending model download.
+
+## 2026-10-17 — Study H: learned b/c decider (classifier, LLM judge, stacking, cascade)
+Diagnosis on the previous baseline (train): b errors are mostly **detected but wrongly kept** (28 % of b
+occurrences) rather than undetected (14 %); c losses are detected spans scored 0.3–0.5 (17 %). Precision of the keep
+rules vs the pseudo GT (train / eval): lexical 0.99 / 0.99, same category 0.99 / 0.99, signal 5 0.92 / 0.91, same
+block 0.86 / 0.62, SapBERT 0.5–0.6 0.76 / 0.69, same chapter 0.67 / 0.69 (0.52 / 0.64 for R/Z codes). One b/a
+occurrence weighs ~2.7× a c occurrence in the score, so a keep rule pays off only above ~73 % precision — several did
+not, which is why the t_keep curve was flat. 38 % of b occurrences sit in a negated context vs 10 % of c.
+
+Setup (`experiments/bc_llm/`, RTX 4090): same detection as the baseline; only the keep/remove decision of detected
+clinical spans changes. Labels: c → keep, b or overlap with a → remove (without a-negatives a_removed fell to 0.70:
+kept spans block small talk and win overlaps). Classifier = HistGradientBoosting on 55 features (relevance signals,
+negation, note section, Assessment/Plan mention, counts, entity kind), out-of-fold on train (5 folds as small talk),
+fit on all train for eval. LLM judge = one forward pass, P(Yes) over {Yes, yes} vs {No, no} for "is this marked
+mention evidence for / cause of / treatment of one of these codes?", span in its sentence ±1, zero-shot, 4-bit NF4.
+θ picked on train, eval run once. Each θ replays only the decision tail on a saved pipeline state.
+
+| exp | decider | θ | train priv / c / score | eval priv / c / score | eval AUC | LLM calls |
+|---|---|---|---|---|---|---|
+| E0 | baseline (relevance ≥ 0.5) | 0.5 | 0.727 / 0.821 / 0.774 | 0.674 / 0.834 / 0.754 | 0.799 | 0 % |
+| E1 | classifier, all features | 0.8 | 0.824 / 0.824 / 0.824 | 0.783 / 0.820 / 0.801 | 0.877 | 0 % |
+| E2 | classifier, no embedding features | 0.7 | 0.755 / 0.851 / 0.803 | 0.723 / 0.853 / 0.788 | 0.854 | 0 % |
+| E3 | LLM only, Qwen3.5-2B | 0.5 | 0.686 / 0.868 / 0.777 | 0.665 / 0.862 / 0.763 | 0.823 | 100 % |
+| E3 | LLM only, MedGemma 1.5 4B | 0.3 | 0.700 / 0.856 / 0.778 | 0.693 / 0.846 / 0.769 | 0.825 | 100 % |
+| E3 | LLM only, Qwen3.5-4B | 0.2 | 0.777 / 0.861 / 0.819 | 0.766 / 0.883 / 0.825 | 0.915 | 100 % |
+| **E4** | **classifier + Qwen3.5-4B** | 0.8 | 0.826 / 0.867 / **0.846** | 0.792 / 0.883 / **0.838** | 0.929 | 100 % |
+| E5 | classifier, no embeddings + Qwen3.5-4B | 0.7 | 0.792 / 0.895 / 0.844 | 0.763 / 0.918 / 0.840 | 0.931 | 100 % |
+| E6 | cascade E1, band ±0.1 → Qwen3.5-4B | 0.7 | 0.807 / 0.869 / 0.838 | 0.768 / 0.880 / 0.824 | 0.878 | 18 % |
+
+LLM cost (4-bit, RTX 4090, batch 32): Qwen3.5-4B 0.031 s/span, Qwen3.5-2B 0.013, MedGemma 0.017. Peak VRAM at batch 1
+under a hard 4 GB cap (`--vram-cap-gb 4`, last-token logits only): Qwen3.5-2B 1.86 GB, Qwen3.5-4B 3.47 GB, MedGemma
+3.52 GB (+ CUDA context). Earlier 7–10 GB peaks were full-vocabulary logits for every position (fixed).
+
+Findings:
+- The learned classifier alone beats every threshold setting (+0.050 train / +0.047 eval); the LLM judge alone is a
+  better ranker (eval AUC 0.915 vs 0.877) but conservative (best θ 0.2) and loses code evidence (eval c:FINDING 0.79).
+- They are complementary: stacking (E4) adds +0.022 / +0.037 over E1 and +0.027 / +0.013 over the LLM alone; eval
+  c_kept 0.820 → 0.883 at equal privacy.
+- With the LLM in, SapBERT features no longer matter (E5 ties E4); without it they are worth +0.02 (E1 vs E2).
+  SapBERT stays in the pipeline (entity gate at detection, relevance guard on personal spans).
+- The cascade gets ~80 % of the gain with 18 % of the LLM calls (−0.008 / −0.014 vs E4).
+- Model choice: Qwen3.5-4B ≫ MedGemma 1.5 4B ≈ Qwen3.5-2B. MedGemma puts only 65 % of the next-token mass on Yes/No
+  (Qwen 99 %) — this prompt format does not suit it; not tuned further.
+- Remaining b gap in E4 (eval): b:PROCEDURE 0.42, b:LAB 0.31; c:FINDING 0.81.
+- Caveat: pseudo GT and judge are both LLMs; part of the judge's gain may be agreement with the annotator.
+- Promoted: E4 is the default (`anonymizer/decider.py`, `Config.decider`); `--no-decider` restores the study G
+  baseline. The CLI runs in phases (detection → release SapBERT / de-id → LLM alone → classifier → rewrite).

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import copy
 import random
 import re
 from collections import defaultdict
@@ -27,6 +28,14 @@ PROPAGATED = {"LOC", "HOSP", "ORG", "OCCUPATION", "WORKPLACE"}
 # An activity/pet next to an injury or allergy cue is the mechanism of a coded problem when one of these is coded.
 CAUSE_CODES = {"ACTIVITY": ("S", "T", "M", "W", "X", "V", "Y"),
                "PET": ("J30", "J45", "L23", "L50", "T78", "W53", "W54", "W55", "A69")}
+# Clinical spans the learned b/c decider (decider.py) acts on.
+DECIDED_LABELS = ("DISEASE", "CHEMICAL", "ENTITY")
+
+
+def span_key(encounter_id: str | None, s: Span) -> str:
+    return f"{encounter_id}|{s.field}|{s.start}|{s.end}"
+
+
 GENERALIZED_TAGS = {"FAMILY": "[family member]", "PET": "[pet]", "ACTIVITY": "[activity]", "WORKPLACE": "[workplace]",
                     "QUASI": "[life event]", "WORK": "[work detail]", "HOUSEHOLD": "[household detail]",
                     "SOCIAL": "[social history detail]"}
@@ -48,12 +57,42 @@ class Anonymizer:
 
     # ------------------------------------------------------------------ public
     def anonymize(self, enc: dict, codes: list[dict] | None = None) -> tuple[dict, dict]:
-        """Return (anonymized encounter, decision log). `codes` overrides the encounter's codes (no-code mode)."""
+        """Return (anonymized encounter, decision log). `codes` overrides the encounter's codes (no-code mode).
+        Uses the relevance threshold for b/c; anonymize_all also applies the learned decider."""
+        return self.finalize(self.prepare(enc, codes))
+
+    def anonymize_all(self, encounters: list[dict], codes: list[list[dict] | None] | None = None,
+                      progress=None) -> list[tuple[dict, dict]]:
+        """All encounters in phases so only one GPU model is resident at a time (<= 4 GB VRAM): detection with
+        SapBERT + de-id NER, then (decider on) those released and the 4-bit LLM judge loaded alone."""
+        codes = codes or [None] * len(encounters)
+        it = progress(list(zip(encounters, codes))) if progress else zip(encounters, codes)
+        states = [self.prepare(e, c) for e, c in it]
+        keep = None
+        if self.cfg.decider:
+            from . import decider
+            self.release_models()
+            keep = decider.decide(states, self.cfg, self.device)
+        return [self.finalize(st, keep) for st in states]
+
+    def release_models(self):
+        """Free SapBERT and the de-id model from the GPU (reloaded lazily if needed again)."""
+        import gc
+        import torch
+        from .models import load_hf
+        self.embedder.release()
+        load_hf.cache_clear()
+        gc.collect()
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+
+    # ------------------------------------------------- prepare (decision-independent) / finalize
+    def prepare(self, enc: dict, codes: list[dict] | None = None) -> dict:
+        """Everything that does not depend on the b/c decision: detections, scores, personal data, names,
+        small-talk probabilities."""
         codes = enc["icd10_codes"] if codes is None else codes
         self._eid = enc.get("encounter_id")
-        rng = random.Random(f"{self.cfg.seed}:{enc.get('encounter_id')}")
         texts = {f: enc[f] for f in FIELDS}
-
         clinical = self._clinical_spans(texts, codes)
         personal = self._personal_spans(texts)
         names = self._name_spans(texts, personal, clinical)
@@ -62,16 +101,48 @@ class Anonymizer:
         personal += self._propagate(texts, personal)
         if 3 in self.cfg.a_ideas:
             personal += self._propagate_ext(texts, personal)
+        state = {"enc": enc, "codes": codes, "clinical": clinical, "personal": personal, "names": names,
+                 "registry": dict(self._registry),
+                 "smalltalk": smalltalk.predict(texts["dialogue"], self._eid) if self.cfg.smalltalk else []}
+        if self.cfg.decider:
+            from . import decider
+            state["features"] = decider.span_features(self, state)
+        for s in clinical + personal:
+            s.extra.pop("match", None)      # re.Match: not picklable, never read when writing the output
+        return state
+
+    def finalize(self, state: dict, keep: dict[str, bool] | None = None) -> tuple[dict, dict]:
+        """Decision-dependent tail. `keep` (span key "eid|field|start|end" -> bool) overrides the threshold
+        decision for detected clinical spans. The state is not modified (replayable)."""
+        enc, codes = state["enc"], state["codes"]
+        p_keep = state.get("p_keep", {})
+        eid = enc.get("encounter_id")
+        texts = {f: enc[f] for f in FIELDS}
+        clinical, personal, names = copy.deepcopy((state["clinical"], state["personal"], state["names"]))
+        if keep is not None:
+            for s in clinical:
+                key = span_key(eid, s)
+                k = keep.get(key) if s.label in DECIDED_LABELS else None
+                why = f"decider p={p_keep[key]:.2f}" if key in p_keep else "b/c decider"
+                if k is True:
+                    s.category, s.action, s.reason = CLINICAL_CODE, KEEP, f"code evidence ({why})"
+                    s.extra["prio"] = PRIORITY["code"]
+                elif k is False:
+                    s.category, s.action = CLINICAL_OTHER, REMOVE
+                    s.reason = f"unrelated to encounter codes ({why}); removed"
+                    s.extra["prio"] = PRIORITY["clinical"]
         spans = clinical + personal
         if 2 in self.cfg.a_ideas:
             spans += self._social_history_spans(texts["note"], spans, codes)
         if self.cfg.smalltalk:
-            spans += self._smalltalk_spans(texts["dialogue"], spans, enc.get("encounter_id"))
+            spans += self._smalltalk_spans(texts["dialogue"], spans, eid, preds=state["smalltalk"])
         chosen = self._resolve(spans)
 
+        rng = random.Random(f"{self.cfg.seed}:{eid}")
         out = dict(enc)
         for f in FIELDS:
             out[f] = self._apply(texts[f], [s for s in chosen if s.field == f], rng)
+        self._registry = state["registry"]
         out, leaks = self._sweep_names(out, names)
 
         evidence = defaultdict(int)
@@ -79,7 +150,7 @@ class Anonymizer:
             if s.category == CLINICAL_CODE and s.matched_code:
                 evidence[s.matched_code] += 1
         log = {
-            "encounter_id": enc.get("encounter_id"),
+            "encounter_id": eid,
             "decisions": [s.to_log() for s in sorted(chosen, key=lambda s: (s.field, s.start))],
             "codes_without_evidence": [c["code"] for c in codes if not evidence.get(c["code"])],
             "name_leaks_swept": leaks,
@@ -167,10 +238,11 @@ class Anonymizer:
                 s.reason = f"{s.label.lower()} kept: evidence for {r['code']} ({r['reason']})"
                 s.extra["prio"] = PRIORITY["code"]
 
-    def _smalltalk_spans(self, text: str, spans: list[Span], encounter_id: str | None) -> list[Span]:
+    def _smalltalk_spans(self, text: str, spans: list[Span], encounter_id: str | None,
+                         preds: list | None = None) -> list[Span]:
         """Whole dialogue units classified as small talk, unless they hold anything kept for the codes."""
         out = []
-        for s, e, p in smalltalk.predict(text, encounter_id):
+        for s, e, p in (smalltalk.predict(text, encounter_id) if preds is None else preds):
             if p < self.cfg.smalltalk_threshold:
                 continue
             inside = [x for x in spans if x.field == "dialogue" and x.start < e and s < x.end]

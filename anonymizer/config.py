@@ -42,6 +42,13 @@ class Config:
     # routines, work, household, life events), 2 SOCIAL HISTORY sentences without code evidence generalized,
     # 3 activities / life events propagated across fields by stem, 4 strict injury cue.
     a_ideas: tuple[int, ...] = (1, 2, 3, 4)
+    # Learned b/c decider (anonymizer/decider.py, study H): classifier + 4-bit LLM judge replace t_keep for detected
+    # clinical spans in Anonymizer.anonymize_all. False = relevance threshold only (study G baseline).
+    decider: bool = True
+    decider_theta: float = 0.8      # keep if P(code evidence) >= theta (picked on train)
+    llm_model: str = "Qwen/Qwen3.5-4B"
+    llm_quant: str | None = "4bit"  # bitsandbytes NF4 on CUDA: ~3.5 GB peak; None = bf16 (does not fit 4 GB)
+    llm_batch: int = 1              # spans per forward pass; 1 = minimum VRAM
     # Reuse model outputs (spans, embeddings) across runs: .cache/spans.sqlite, .cache/embeddings.sqlite.
     cache: bool = True
     device: str = "auto"        # auto | cpu | mps | cuda

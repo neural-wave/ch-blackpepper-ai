@@ -9,7 +9,11 @@ utility. Must run on-prem, ≤4 GB VRAM at eval. Strategy in `docs/strategy.md`,
   - fields: `encounter_id`, `dataset` (aci / virtassist / virtscribe), `dialogue`, `note`, `icd10_codes[{code, description}]`
   - ACI-Bench + ICD annotations (amazon-science/toward-clinical-coding-verification-adaptation, CC BY-NC 4.0)
 - `anonymizer/`
-  - `cli.py` — entry point; `pipeline.py` — `Anonymizer` (stages 1–5), `no_code_predictions`
+  - `cli.py` — entry point; `pipeline.py` — `Anonymizer` (stages 1–5): `prepare` (decision-independent) +
+    `finalize` (b/c decision tail, replayable); `anonymize_all` runs phases so one GPU model is resident at a time;
+    `no_code_predictions`
+  - `decider.py` — learned b/c decider (study H, default): span features + 4-bit LLM judge (Qwen3.5-4B P(Yes)) +
+    gradient-boosted classifier → `.cache/decider.joblib` (OOF models for train encounters); `--no-decider` = old threshold
   - `phi_rules.py` (regex/rules), `phi_ner.py` (obi/deid_roberta_i2b2), `medical.py` (scispaCy BC5CDR + en_core_sci_md untyped entities + measurements)
   - `phi_context.py` — quasi-identifiers (holidays, family, pets, brands/teams, workplaces, activities + injury cue)
   - `smalltalk.py` — small-talk unit classifier trained on train pseudo GT → `.cache/smalltalk.joblib`
@@ -35,6 +39,9 @@ utility. Must run on-prem, ≤4 GB VRAM at eval. Strategy in `docs/strategy.md`,
 - `python -m anonymizer.evaluate_gt --anonymized outputs/eval_anonymized.jsonl [--misses 20]`
 - `python -m anonymizer.evaluate_gt --original train --gt train --anonymized outputs/train_anonymized.jsonl` (dev loop)
 - `python -m anonymizer.smalltalk --train` — refit small-talk classifier after pseudo GT changes
+- `python -m anonymizer.decider --train [--features outputs/bc_llm/features_train.json --llm-scores outputs/bc_llm/llm/qwen35_4b_q4_train.json]`
+  — fit the b/c decider (GPU for the LLM; 4-bit needs CUDA + bitsandbytes, Mac falls back to bf16)
+- CLI: `--no-decider`, `--llm-batch N`, `--vram-cap-gb 4` (hard CUDA cap: OOM if exceeded)
 - `python -m anonymizer.sweep --split train --out outputs/sweep_train` (eval → `outputs/sweep`) — ablation: relevance signals × keep_symptoms
 - `python -m anonymizer.sweep --grid a_ideas --split train --out outputs/a_ideas_train` — study G personal-data extensions
 - CLI knobs: `--signals 1,2,3,4,5` (1 SapBERT sim, 2 lexical, 3 same ICD category, 4 same block/chapter, 5 learned evidence), `--keep-symptoms` (default off), `--t-keep` (default 0.5), `--a-ideas 1,2,3,4` (study G personal-data extensions in `phi_context.py` / `pipeline.py`, default on; `--a-ideas ''` = off). Defaults = baseline in `docs/leaderboard.md`
