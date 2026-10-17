@@ -2,8 +2,8 @@
 for, a cause of, or a treatment of one of the encounter's ICD-10 codes. One forward pass per span, no generation:
 P(Yes) = softmax over the next-token logits of {Yes, yes} vs {No, no}.
 
-python -m experiments.bc_llm.llm_score --model qwen35_4b                 # preset or any HF model id
-python -m experiments.bc_llm.llm_score --model Qwen/Qwen3.5-4B --tag q4 --quant 4bit --batch 16
+python -m experiments.bc_llm.llm_score --model qwen35_4b                 # 4-bit (default) -> tag qwen35_4b_q4
+python -m experiments.bc_llm.llm_score --model Qwen/Qwen3.5-4B --quant none --tag qwen35_4b_bf16   # bf16 ceiling
 -> outputs/bc_llm/llm/<tag>_{train,eval}.json  {"meta": {...}, "p": {span key: P(Yes)}}
 Presets: see common.LLM_PRESETS. Needs features_{split}.json from stage 1.
 """
@@ -122,13 +122,17 @@ def main(argv=None):
     p.add_argument("--splits", default="train,eval")
     p.add_argument("--batch", type=int, default=16)
     p.add_argument("--dtype", default="bf16", choices=["bf16", "fp16", "fp32"])
-    p.add_argument("--quant", default=None, choices=["4bit", "8bit"], help="bitsandbytes quantization (CUDA)")
+    # Default 4-bit: the eval box has <= 4 GB VRAM; "none" (bf16) only to measure the quality ceiling.
+    p.add_argument("--quant", default="4bit", choices=["4bit", "8bit", "none"], help="bitsandbytes quantization (CUDA)")
     p.add_argument("--attn", default=None, help="attn_implementation, e.g. sdpa / flash_attention_2")
     p.add_argument("--device", default="auto")
     p.add_argument("--limit", type=int, default=None, help="first N spans per split (smoke test)")
     a = p.parse_args(argv)
+    a.quant = None if a.quant == "none" else a.quant
     model_id = LLM_PRESETS.get(a.model, a.model)
     tag = a.tag or (a.model if a.model in LLM_PRESETS else re.sub(r"[^a-z0-9]+", "_", a.model.lower()))
+    if a.tag is None and a.quant:
+        tag += {"4bit": "_q4", "8bit": "_q8"}[a.quant]
     device = a.device if a.device != "auto" else (
         "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
     tok, model = load_model(model_id, device, a.dtype, a.quant, a.attn)
