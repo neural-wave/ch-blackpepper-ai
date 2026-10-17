@@ -294,6 +294,9 @@ def load_bundle(cfg: Config) -> dict:
 def decide(states: list[dict], cfg: Config, device: str, progress=None) -> dict[str, bool]:
     """keep/remove for every detected clinical span of every state; sets state["p_keep"] for the log."""
     bundle = load_bundle(cfg)
+    if progress is None:
+        from tqdm import tqdm
+        progress = lambda it: tqdm(it, desc=f"llm judge (batch {cfg.llm_batch})", file=sys.stderr)
     llm, meta = llm_scores(states, cfg, device, progress)
     print(f"[decider] LLM {cfg.llm_model} ({cfg.llm_quant}): {meta}", file=sys.stderr)
     keep = {}
