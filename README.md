@@ -13,8 +13,17 @@ conda activate blackpepper
 pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
 pip install -r requirements.txt
 ```
-Hugging Face models (`cambridgeltl/SapBERT-from-PubMedBERT-fulltext`, `obi/deid_roberta_i2b2`) download on first
-run. The ICD-10-CM embedding index is built once (~1–2 min) and cached in `.cache/`.
+Hugging Face models (`cambridgeltl/SapBERT-from-PubMedBERT-fulltext`, `obi/deid_roberta_i2b2`, `Qwen/Qwen3.5-4B`)
+download on first run. The ICD-10-CM embedding index is built once (~1–2 min) and cached in `.cache/`. Our trained
+classifiers ship in `models/` (`decider.joblib`, `smalltalk.joblib`): no training needed for inference.
+
+## End-to-end inference
+```bash
+./run_inference.sh                                  # eval split -> outputs/eval_anonymized.jsonl + metrics
+./run_inference.sh path/to/file.jsonl out.jsonl     # any file with the input schema
+./run_inference.sh eval out.jsonl --no-decider      # no LLM judge (no CUDA GPU)
+```
+Runs under a hard 4 GB VRAM cap. The 4-bit LLM judge needs CUDA; elsewhere it loads in bf16 (slower, ~8 GB).
 
 ## Usage
 ```bash
@@ -28,8 +37,14 @@ python -m anonymizer.cli --input eval --no-codes --output outputs/eval_anonymize
 python -m anonymizer.evaluate --original eval --anonymized outputs/eval_anonymized.jsonl
 ```
 
-Options: `--t-keep` / `--t-remove` (privacy–utility thresholds), `--no-ner` (rules only), `--device cpu|cuda|mps`,
-`--limit N`.
+Options: `--no-decider` (relevance threshold instead of the LLM judge), `--vram-cap-gb 4`, `--t-keep` / `--t-remove`
+(privacy–utility thresholds), `--no-ner` (rules only), `--device cpu|cuda|mps`, `--limit N`.
+
+## Retraining (optional)
+```bash
+python -m anonymizer.smalltalk --train      # -> models/smalltalk.joblib
+python -m anonymizer.decider --train        # -> models/decider.joblib (runs the LLM on train; GPU)
+```
 
 ## Output
 - `<output>.jsonl` — same schema as the input; `dialogue` and `note` anonymized, `icd10_codes` unchanged.

@@ -4,7 +4,7 @@ A TF-IDF + logistic-regression classifier trained on the train pseudo ground tru
 contains a personal quasi-identifier (a: QUASI / OCCUPATION / LOCATION / DATE) and no code evidence (c).
 Train encounters are scored by the fold model that did not see them, so train metrics stay honest.
 
-python -m anonymizer.smalltalk --train      # fit, cross-validate, cache to .cache/smalltalk.joblib
+python -m anonymizer.smalltalk --train      # fit, cross-validate, save to models/smalltalk.joblib
 """
 
 from __future__ import annotations
@@ -14,9 +14,9 @@ import json
 import re
 from functools import lru_cache
 
-from .config import CACHE_DIR, ROOT
+from .config import MODELS_DIR, ROOT
 
-MODEL_PATH = CACHE_DIR / "smalltalk.joblib"
+MODEL_PATH = MODELS_DIR / "smalltalk.joblib"
 SPEAKER = re.compile(r"\[[a-z_ ]+\]", re.IGNORECASE)
 MAX_WORDS = 30
 POS_TYPES = {"QUASI", "OCCUPATION", "LOCATION", "DATE"}
@@ -93,7 +93,7 @@ def train() -> dict:
         oof += zip(m.predict_proba([t for t, _ in te])[:, 1], [y for _, y in te])
     full = _fit([t for eid in ids for t, _ in rows[eid]], [y for eid in ids for _, y in rows[eid]])
     bundle = {"full": full, "folds": models, "fold_of": folds}
-    CACHE_DIR.mkdir(exist_ok=True)
+    MODELS_DIR.mkdir(exist_ok=True)
     joblib.dump(bundle, MODEL_PATH)
     n_pos = sum(y for _, y in oof)
     print(f"units {len(oof)}, positive {n_pos}")

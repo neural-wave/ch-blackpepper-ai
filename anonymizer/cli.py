@@ -47,6 +47,9 @@ def main(argv: list[str] | None = None) -> None:
                  smalltalk=not a.no_smalltalk, smalltalk_threshold=a.smalltalk_threshold, cache=not a.no_cache,
                  a_ideas=tuple(int(x) for x in a.a_ideas.split(",") if x), decider=not a.no_decider,
                  llm_batch=a.llm_batch)
+    if cfg.decider:
+        from . import decider
+        decider.load_bundle(cfg)    # fail now, not after minutes of stages 1-4
     if a.vram_cap_gb and torch.cuda.is_available():
         torch.cuda.set_per_process_memory_fraction(
             min(1.0, a.vram_cap_gb * 1e9 / torch.cuda.get_device_properties(0).total_memory))

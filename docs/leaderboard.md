@@ -14,7 +14,7 @@ zero-shot P(Yes) of Qwen3.5-4B (4-bit) replaces t_keep for detected clinical spa
 | eval | 0.886 | 0.732 | 0.792 | 0.883 | 0.838 |
 
 Config: study G config + `decider=True`, `decider_theta=0.8`, `llm_model="Qwen/Qwen3.5-4B"`, `llm_quant="4bit"`,
-`llm_batch=1`; classifier in `.cache/decider.joblib` (`python -m anonymizer.decider --train`). Peak VRAM of the LLM
+`llm_batch=1`; classifier in `models/decider.joblib` (`python -m anonymizer.decider --train`). Peak VRAM of the LLM
 stage 3.47 GB (batch 1, hard 4 GB cap, RTX 4090); it runs alone after SapBERT / de-id are released.
 
 Notes:

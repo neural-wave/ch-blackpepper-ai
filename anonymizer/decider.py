@@ -3,7 +3,7 @@
 zero-shot P(Yes) of a 4-bit LLM judge ("is this span evidence for one of the codes?"). Replaces t_keep.
 
 The LLM runs alone on the GPU after SapBERT / de-id are released (Anonymizer.anonymize_all) -> peak VRAM ~3.5 GB.
-Classifier bundle in .cache/decider.joblib; train encounters use out-of-fold models (same folds as smalltalk.py).
+Classifier bundle in models/decider.joblib; train encounters use out-of-fold models (same folds as smalltalk.py).
 
 python -m anonymizer.decider --train                       # features + LLM on train, fit, save
 python -m anonymizer.decider --train --features outputs/bc_llm/features_train.json \
@@ -22,10 +22,10 @@ from collections import defaultdict
 import numpy as np
 
 from . import evidence
-from .config import CACHE_DIR, ROOT, Config
+from .config import MODELS_DIR, ROOT, Config
 from .relevance import RelevanceScorer, hierarchy
 
-MODEL_PATH = CACHE_DIR / "decider.joblib"
+MODEL_PATH = MODELS_DIR / "decider.joblib"
 N_FOLDS = 5
 DECIDED = ("DISEASE", "CHEMICAL", "ENTITY")
 
@@ -284,7 +284,7 @@ def fit(rows: list[dict], llm: dict[str, float], cfg: Config, llm_meta: dict | N
 def load_bundle(cfg: Config) -> dict:
     import joblib
     if not MODEL_PATH.exists():
-        raise SystemExit(f"{MODEL_PATH} missing: run `python -m anonymizer.decider --train` (or --no-decider)")
+        raise SystemExit(f"{MODEL_PATH} missing: copy the trained bundle there, run `python -m anonymizer.decider --train`, or use --no-decider")
     bundle = joblib.load(MODEL_PATH)
     if bundle["llm_model"] != cfg.llm_model:
         raise SystemExit(f"decider was trained with {bundle['llm_model']}, config uses {cfg.llm_model}: retrain")
@@ -340,7 +340,7 @@ def main(argv=None):
     if any("y" not in r for r in rows):
         gt_labels("train", rows)
     bundle = fit(rows, llm, cfg, meta)
-    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    MODELS_DIR.mkdir(parents=True, exist_ok=True)
     joblib.dump(bundle, MODEL_PATH)
     print(f"decider: {bundle['n_train']} labelled train spans, {len(bundle['names'])} features + LLM, "
           f"theta {bundle['theta']} -> {MODEL_PATH}")

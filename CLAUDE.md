@@ -13,10 +13,10 @@ utility. Must run on-prem, ≤4 GB VRAM at eval. Strategy in `docs/strategy.md`,
     `finalize` (b/c decision tail, replayable); `anonymize_all` runs phases so one GPU model is resident at a time;
     `no_code_predictions`
   - `decider.py` — learned b/c decider (study H, default): span features + 4-bit LLM judge (Qwen3.5-4B P(Yes)) +
-    gradient-boosted classifier → `.cache/decider.joblib` (OOF models for train encounters); `--no-decider` = old threshold
+    gradient-boosted classifier → `models/decider.joblib` (OOF models for train encounters); `--no-decider` = old threshold
   - `phi_rules.py` (regex/rules), `phi_ner.py` (obi/deid_roberta_i2b2), `medical.py` (scispaCy BC5CDR + en_core_sci_md untyped entities + measurements)
   - `phi_context.py` — quasi-identifiers (holidays, family, pets, brands/teams, workplaces, activities + injury cue)
-  - `smalltalk.py` — small-talk unit classifier trained on train pseudo GT → `.cache/smalltalk.joblib`
+  - `smalltalk.py` — small-talk unit classifier trained on train pseudo GT → `models/smalltalk.joblib`
   - `cache.py` — disk cache of model outputs (scispaCy/de-id spans, SapBERT embeddings) in `.cache/*.sqlite`;
     keyed by model + detector source hash, so studies reuse them (`--no-cache` to bypass)
   - `relevance.py` — SapBERT embedder, ICD-10-CM index, code-conditioned relevance scorer
@@ -30,6 +30,13 @@ utility. Must run on-prem, ≤4 GB VRAM at eval. Strategy in `docs/strategy.md`,
   or HF id), `run.py` (E0–E6 with real metrics, `--summary`); outputs in `outputs/bc_llm/`
 - `pseudo_gt/` — LLM-annotated a/b/c spans: `guidelines.md`, `validate.py`, `train/<encounter_id>.json` (all 140),
   `eval/<encounter_id>.json` (all 67). Tune on train; use eval only for final scoring.
+- `final_submission/` — jury deliverables: `report.docx` (editable, built by `make_docx.js`, needs `npm i docx`; uses
+  `figures/*.png`) and `report.html` → `report.pdf` (print with headless Chrome
+  `--print-to-pdf`), `make_figures.py` → `figures/*.svg` (stdlib only; numbers hard-coded from leaderboard / study H
+  sweeps); `presentation/make_deck.js` → `presentation/deck.pptx` (dark 16:9 deck, pptxgenjs; slide charts drawn
+  as shapes; `make_visuals.py` → dark knob chart in `presentation/visuals/`). Submission rules: `task/guidelines.md`
+- `models/` — our trained classifiers (`decider.joblib`, `smalltalk.joblib`), tracked so inference works from a clean clone
+- `run_inference.sh` — end-to-end entry point (cli under 4 GB cap + proxy metrics)
 - `docs/` — strategy, architecture, `experiments.md` (log of studies/results — append new ones), `leaderboard.md` (all runs ranked; current baseline); `outputs/` — generated (gitignored); `.cache/` — ICD index (gitignored)
 
 ## Commands

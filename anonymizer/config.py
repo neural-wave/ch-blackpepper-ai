@@ -7,6 +7,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE_DIR = ROOT / ".cache"
+# Our trained classifiers, tracked in git so a fresh clone runs inference without retraining.
+MODELS_DIR = ROOT / "models"
 
 
 @dataclass

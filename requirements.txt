@@ -7,10 +7,11 @@ numpy==1.26.4
 tqdm==4.70.1
 scikit-learn==1.9.1
 joblib==1.6.0
+# 4-bit LLM judge of the b/c decider (CUDA; elsewhere the judge falls back to bf16)
+accelerate
+bitsandbytes
 # spaCy models
 en_ner_bc5cdr_md @ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bc5cdr_md-0.5.4.tar.gz
 en_core_sci_md @ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_md-0.5.4.tar.gz
 # evaluation reference only
 en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
-accelerate
-bitsandbytes
