@@ -38,6 +38,10 @@ class Config:
     # Small-talk filter (anonymizer/smalltalk.py): dialogue units above this probability are removed whole.
     smalltalk: bool = True
     smalltalk_threshold: float = 0.6
+    # Personal-data extensions (study G, docs/experiments.md), all off in the baseline: 1 extended rules (bare kin,
+    # third-person hobbies, routines, work, household, life events), 2 SOCIAL HISTORY sentences without code
+    # evidence generalized, 3 activities / life events propagated across fields by stem, 4 strict injury cue.
+    a_ideas: tuple[int, ...] = ()
     # Reuse model outputs (spans, embeddings) across runs: .cache/spans.sqlite, .cache/embeddings.sqlite.
     cache: bool = True
     device: str = "auto"        # auto | cpu | mps | cuda

@@ -19,7 +19,7 @@ utility. Must run on-prem, ≤4 GB VRAM at eval. Strategy in `docs/strategy.md`,
   - `spans.py` (Span + categories/actions), `config.py` (thresholds), `models.py` (cached loaders), `data.py` (I/O)
   - `evaluate.py` — local proxy metrics (no labels)
   - `evaluate_gt.py` — scores output against pseudo ground truth (a_removed, b_removed, privacy, c_kept)
-  - `sweep.py` — runs signal/keep_symptoms combinations, writes `outputs/sweep/results.json`
+  - `sweep.py` — ablation grids (`--grid signals|thresholds|a_ideas`), writes `<out>/results.json`
   - `resources/lexicons.py` (names, eponyms, occupations, generic-term stoplist), `resources/code_expansions.json` (ICD category → terms)
 - `pseudo_gt/` — LLM-annotated a/b/c spans: `guidelines.md`, `validate.py`, `train/<encounter_id>.json` (all 140),
   `eval/<encounter_id>.json` (all 67). Tune on train; use eval only for final scoring.
@@ -33,7 +33,8 @@ utility. Must run on-prem, ≤4 GB VRAM at eval. Strategy in `docs/strategy.md`,
 - `python -m anonymizer.evaluate_gt --original train --gt train --anonymized outputs/train_anonymized.jsonl` (dev loop)
 - `python -m anonymizer.smalltalk --train` — refit small-talk classifier after pseudo GT changes
 - `python -m anonymizer.sweep --split train --out outputs/sweep_train` (eval → `outputs/sweep`) — ablation: relevance signals × keep_symptoms
-- CLI knobs: `--signals 1,2,3,4,5` (1 SapBERT sim, 2 lexical, 3 same ICD category, 4 same block/chapter, 5 learned evidence), `--keep-symptoms` (default off), `--t-keep` (default 0.5). Defaults = baseline in `docs/leaderboard.md`
+- `python -m anonymizer.sweep --grid a_ideas --split train --out outputs/a_ideas_train` — study G personal-data extensions
+- CLI knobs: `--signals 1,2,3,4,5` (1 SapBERT sim, 2 lexical, 3 same ICD category, 4 same block/chapter, 5 learned evidence), `--keep-symptoms` (default off), `--t-keep` (default 0.5), `--a-ideas 1,2,3,4` (study G personal-data extensions in `phi_context.py` / `pipeline.py`, default off). Defaults = baseline in `docs/leaderboard.md`
 - `python pseudo_gt/validate.py pseudo_gt/{train,eval}/*.json`
 - `python -m anonymizer.data --split eval --show 0`
 

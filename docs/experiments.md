@@ -310,3 +310,32 @@ so entity spans are either kept or left in place, never removed.
 entity kinds, keep_symptoms off, rules 1–7). A plain `python -m anonymizer.cli` run reproduces it exactly: train
 a 0.851 / b 0.574 / privacy 0.707 / c 0.822, eval 0.822 / 0.552 / 0.658 / 0.833. Supersedes "Current best
 configuration" above. Ranking of all runs: [leaderboard.md](leaderboard.md).
+
+## 2026-10-17 — Study G: personal-data extensions on the new baseline
+Follow-up to the category-a error analysis. Ideas behind `Config.a_ideas` / `--a-ideas` (off by default), on top of
+the leaderboard baseline (entity on, s1–5, t0.5). Sweep: `python -m anonymizer.sweep --grid a_ideas --split train`.
+1. Extended rules (`phi_context._detect_extended`): bare kin ("Older sister", "Maternal grandmother"), household
+   ("lives with …", "no siblings", "expecting a newborn"), third-person hobbies ("avid runner", "enjoys …"),
+   exercise routines (movement + distance/frequency), work phrases ("works from home", "sedentary job", "coworker"),
+   home / travel life events. New tags `[work detail]`, `[household detail]`.
+2. SOCIAL HISTORY sentences in the note with no code-evidence span → `[social history detail]` (substance sentences
+   kept when a substance-use code is present).
+3. Activities / life events propagated across fields (single-word lexicon hobbies by stem).
+4. Strict injury cue: mechanism words only (no "pain", "since", "started"), window 8, plus "while/when/from X".
+
+| ideas | train a | train b | train c | train score | eval a | eval b | eval c | eval score |
+|---|---|---|---|---|---|---|---|---|
+| none | 0.851 | 0.574 | 0.822 | 0.764 | 0.822 | 0.552 | 0.833 | 0.746 |
+| 1 | 0.883 | 0.575 | 0.821 | 0.772 | 0.849 | 0.552 | 0.833 | 0.751 |
+| 2 | 0.858 | 0.576 | 0.821 | 0.767 | 0.833 | 0.554 | 0.833 | 0.748 |
+| 3 | 0.852 | 0.574 | 0.822 | 0.765 | 0.822 | 0.552 | 0.833 | 0.746 |
+| 4 | 0.850 | 0.574 | 0.821 | 0.764 | 0.825 | 0.552 | 0.834 | 0.747 |
+| 1+2+3+4 | 0.888 | 0.578 | 0.821 | 0.774 | 0.860 | 0.554 | 0.834 | 0.754 |
+
+- All of the gain is category a (+0.037 train / +0.038 eval); b and c move ≤ 0.004. Occupation 0.63 → 0.82 (train),
+  0.42 → 0.60 (eval); QUASI 0.66 → 0.74 / 0.58 → 0.67.
+- Idea 1 is the driver; 2 is small and free; 3 is ~0 (the note paraphrases, it does not repeat strings).
+- Idea 4 swaps keeps rather than reducing them (121 → 114 kept activities on train: drops hunting-as-hobby but also
+  gymnastics / trampoline injuries; adds yoga, golf, football via "after/from/playing").
+- A pseudo-GT cleanup (idea 6) was prototyped and dropped: the GT stays fixed for comparability.
+- Next: small LLM / GLiNER span extractor for the long tail (idea 5), pending model download.

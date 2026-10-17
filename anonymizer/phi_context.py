@@ -65,14 +65,32 @@ INJURY_CUE = (r"\b(?:hurt|hurts|hurting|injur\w*|fell|fall|falling|fallen|twist\
 CUE_WINDOW = 12     # words on each side
 
 
+# Idea 4: only mechanism words, not symptoms or time words ("pain", "since", "started" sit next to most hobbies).
+STRICT_CUE = (r"\b(?:hurt|hurts|hurting|injur\w*|fell|fall|falling|fallen|twist\w*|roll(?:ed|ing)|pop(?:ped)?|"
+              r"sprain\w*|strain\w*|tore|torn|landed|landing|slipp\w*|trip(?:ped)?|struck|collid\w*|tackl\w*|"
+              r"jamm\w*|broke|broken|fracture\w*|overuse|repetitive|blister\w*|bite|bit|bitten|scratch\w*|"
+              r"allerg\w*|asthma|dander|sneez\w*|wheez\w*|hives|tick|accident|crash\w*|ran into)\b")
+# "while/when/during <activity>", "from <activity>": the activity is the circumstance of the problem.
+CAUSAL_LEFT = r"\b(?:while|when|during|from|after|playing|doing)\s+(?:\w+\s+){0,2}$"
+STRICT_WINDOW = 8
+
+
+def _cue_strict(text: str, s: int, e: int) -> bool:
+    left = " ".join(re.findall(r"\S+", text[max(0, s - 200):s])[-STRICT_WINDOW:])
+    right = " ".join(re.findall(r"\S+", text[e:e + 200])[:STRICT_WINDOW])
+    return bool(re.search(STRICT_CUE, left + " " + right, _I) or re.search(CAUSAL_LEFT, left + " ", _I))
+
+
 def _cue_near(text: str, s: int, e: int) -> bool:
     left = " ".join(re.findall(r"\S+", text[max(0, s - 200):s])[-CUE_WINDOW:])
     right = " ".join(re.findall(r"\S+", text[e:e + 200])[:CUE_WINDOW])
     return bool(re.search(INJURY_CUE, left + " " + right, _I))
 
 
-def detect(text: str, field: str) -> list[Span]:
+def detect(text: str, field: str, ideas: frozenset = frozenset()) -> list[Span]:
+    """`ideas` = personal-data extensions of study G (Config.a_ideas): 1 extra rules, 4 strict injury cue."""
     spans: list[Span] = []
+    cue = _cue_strict if 4 in ideas else _cue_near
 
     def add(s, e, label, source, **extra):
         if s < e:
@@ -87,7 +105,7 @@ def detect(text: str, field: str) -> list[Span]:
     for m in re.finditer(FAMILY_BARE, text, _I):
         add(m.start(), m.end(), "FAMILY", "rule:family")
     for m in re.finditer(PET, text, _I):
-        add(m.start(), m.end(), "PET", "rule:pet", cause_cue=_cue_near(text, *m.span()))
+        add(m.start(), m.end(), "PET", "rule:pet", cause_cue=cue(text, *m.span()))
     for m in re.finditer(WORKPLACE, text, _I):
         add(*m.span("w"), "WORKPLACE", "rule:workplace")
     for m in re.finditer(SCHOOLING, text, _I):
@@ -97,10 +115,10 @@ def detect(text: str, field: str) -> list[Span]:
     for m in re.finditer(LIFE_EVENT, text, _I):
         add(m.start(), m.end(), "QUASI", "rule:life_event")
     for m in re.finditer(ACTIVITY, text, _I):
-        add(m.start(), m.end(), "ACTIVITY", "rule:activity", cause_cue=_cue_near(text, *m.span()))
+        add(m.start(), m.end(), "ACTIVITY", "rule:activity", cause_cue=cue(text, *m.span()))
     for m in re.finditer(ACTIVITY_FRAME, text, _I):
         g = "act" if m.group("act") else "act2"
-        add(*m.span(g), "ACTIVITY", "rule:activity_frame", cause_cue=_cue_near(text, *m.span(g)))
+        add(*m.span(g), "ACTIVITY", "rule:activity_frame", cause_cue=cue(text, *m.span(g)))
     for m in re.finditer(BRAND, text, _I):
         add(m.start(), m.end(), "ORG", "rule:brand")
     for m in re.finditer(TEAM, text, _I):
@@ -109,4 +127,59 @@ def detect(text: str, field: str) -> list[Span]:
         window = text[max(0, m.start() - 120):m.end() + 120]
         if re.search(SPORTS_CONTEXT, window, _I):
             add(*m.span("t"), "ORG", "rule:team")
+    if 1 in ideas:
+        spans += _detect_extended(text, field, cue)
+    return spans
+
+
+# ---------------------------------------------------------------- idea 1: extended rules (study G)
+# Kin without a possessive ("Older sister has ...", "Maternal grandmother"): notes drop the "my/his/her".
+_KIN_BARE = (r"(?:grand)?(?:mother|father|ma|pa)|mom|dad|mama|papa|parents|sisters?|brothers?|siblings?|"
+             r"grandparents?|great[- ]aunt|great[- ]uncle|aunts?|uncles?|cousins?|wife|husband|spouse|daughters?|"
+             r"sons|twins?|kids|children|roommates?|boyfriend|girlfriend|fianc[ée]e?|friends?|significant other|"
+             r"lady friend|partners?")
+_KIN_MOD = r"(?:(?:maternal|paternal|older|younger|little|big|twin|other|oldest|youngest|eldest|step-?)\s+)*"
+KIN_BARE = rf"\b(?:the\s+|a\s+)?{_KIN_MOD}(?:{_KIN_BARE})\b"
+HOUSEHOLD = (r"\b(?:lives? (?:alone|with (?:\w+\s+){0,4}?(?:\w+))(?=[.,;!?]|\s+and\b|\s+in\b|$)|"
+             r"married(?: with (?:\w+\s+)?children)?|(?:has|have) no siblings|do not have any siblings|"
+             r"(?:been )?dating(?: for (?:\w+\s+){1,2}years?)?|(?:was |is )?adopted|"
+             r"(?:expecting|about to have) a (?:newborn|new baby|baby)(?: baby)?|new baby|"
+             r"(?:about to |going to )?be(?:come)? a (?:father|mother|dad|mom)|impending (?:father|mother)hood|"
+             r"household (?:family )?members|family (?:get[- ]togethers|gatherings|support(?: system)?))\b")
+_ACT_AGENT = r"runner|biker|cyclist|golfer|skier|swimmer|hiker|climber|gymnast|athlete|hunter|surfer|lifter"
+_ACT_ANY = rf"{_alt(set(ACTIVITIES) | set(ACTIVITY_GENERIC))}|{_ACT_AGENT}"
+HOBBY_3P = (rf"\b(?:enjoys|likes|loves|avid|frequent|keen|regular|big|passionate)\s+(?:to\s+)?(?:\w+\s+){{0,2}}?"
+            rf"(?:{_ACT_ANY})\b|\b(?:{_ACT_AGENT})\b")
+# Exercise routine: movement verb + amount/frequency ("bike 30 miles", "walks 30-minutes most days").
+_MOVE = r"walk\w*|run|runs|running|jog\w*|ride|rides|riding|bike|bikes|biking|bicycle|cycl\w*|swim\w*|hik\w*|ski\w*"
+HABIT = (rf"\b(?:power\s+)?(?:{_MOVE})\b[^.?!\n]{{0,40}}?\b(?:\d+(?:\s*(?:to|-)\s*\d+)?|one|two|three|four|five|six|"
+         rf"ten|twenty|thirty|a few|a couple)\s*[- ]?(?:miles?|minutes?|hours?|times (?:a|per) (?:week|day)|"
+         rf"days? (?:a|per|of the) week)\b|"
+         rf"\b(?:power walking|long walks|morning walks|my walks|take walks|taking (?:lots of )?walks|go(?:es|ing)? for "
+         rf"(?:a |long )?(?:run|walk|walks|bike ride)|ride (?:a|the|my) bike|rid(?:es|ing) (?:a|the|his|her|my|their) "
+         rf"bike|hit(?:ting)? the gym|lift(?:s|ed)? weights|strength training|walking program|gym routine|"
+         rf"gym membership|stretching (?:out )?every morning|outdoor stretching|very active|active lifestyle|"
+         rf"sedentary lifestyle)\b")
+WORK = (r"\b(?:works? (?:from|at) home|working (?:from|at) home|(?:sedentary|desk|office|physical|labor-intensive|"
+        r"manual|construction|new|old) job|(?:at|for|from) work\b|stress(?:ed)? (?:at|with) work|"
+        r"(?:work(?:ing)?|putting in) (?:more|longer|extra) hours|increased workload|co-?workers?|(?:my|your|his|her) "
+        r"boss|(?:my|his|her|other) employe+s|short-staffed|onboarding|(?:my|his|her|your) job|(?:go|going|went) "
+        r"(?:back )?to work|switching jobs|retiring|veteran|workaholic|typing all day|sit(?:s|ting)? (?:at|behind) "
+        r"(?:a|her|his|my|the) desk|(?:works|working) at a desk|standing all day|in the office|computer screen all day|"
+        r"employed in \w+|studying (?:to be )?(?:a |an )?\w+)\b")
+LIFE_EXT = (r"\b(?:(?:renovat|remodel)\w*\s+(?:the |my |his |her |our |your |their )?\w+|man cave|"
+            r"construction on (?:the |their |his |her |my |our )?\w+|home renovations?|"
+            r"(?:recently )?travel(?:ed|led|ing)? (?:internationally|abroad|overseas|all over (?:the )?\w+)|"
+            r"(?:a )?trip planned|planning a trip|(?:long|business|work) trip|due to travel|prior to traveling|"
+            r"(?:bought|purchased) a (?:new )?(?:house|home)|moved (?:out )?(?:in|to) the city|surprise party|"
+            r"having people over|weekend plans?|trade show|convention)\b")
+
+
+def _detect_extended(text: str, field: str, cue) -> list[Span]:
+    spans = []
+    for pat, label, cued in ((KIN_BARE, "FAMILY", False), (HOUSEHOLD, "HOUSEHOLD", False), (HOBBY_3P, "ACTIVITY", True),
+                             (HABIT, "ACTIVITY", True), (WORK, "WORK", False), (LIFE_EXT, "QUASI", False)):
+        for m in re.finditer(pat, text, _I):
+            extra = {"cause_cue": cue(text, *m.span())} if cued else {}
+            spans.append(Span(field, m.start(), m.end(), m.group(0), label, f"rule:ext_{label.lower()}", extra=extra))
     return spans

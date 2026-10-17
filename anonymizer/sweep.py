@@ -2,9 +2,11 @@
 
   signals     relevance signal sets x keep_symptoms (saves outputs + decision logs per run)
   thresholds  t_keep x t_remove at the current defaults (metrics only)
+  a_ideas     personal-data extensions of study G (Config.a_ideas)
 
 python -m anonymizer.sweep --split train --out outputs/sweep_train
 python -m anonymizer.sweep --grid thresholds --split train --out outputs/thresholds_train
+python -m anonymizer.sweep --grid a_ideas --split train --out outputs/a_ideas_train
 """
 
 from __future__ import annotations
@@ -26,7 +28,8 @@ SIGNAL_SETS = [(1,), (1, 2), (1, 2, 3), (1, 2, 3, 4)]
 # range (< ~0.52): t_keep only matters between steps, t_remove inside the continuous range.
 T_KEEP = [0.55, 0.6, 0.72, 0.9, 0.93, 0.97, 1.0]
 T_REMOVE = [0.3, 0.4, 0.5, 0.6]
-TYPES = ["a:QUASI", "a:OCCUPATION", "b:CONDITION", "b:FINDING", "b:MEDICATION", "b:PROCEDURE",
+A_IDEA_SETS = [(), (1,), (2,), (3,), (4,), (1, 3), (1, 2, 3), (1, 2, 3, 4)]
+TYPES = ["a:QUASI", "a:OCCUPATION", "a:LOCATION", "a:NAME", "a:AGE", "a:DATE", "b:CONDITION", "b:FINDING", "b:MEDICATION", "b:PROCEDURE",
          "c:CONDITION", "c:FINDING", "c:MEDICATION", "c:PROCEDURE"]
 
 
@@ -48,7 +51,7 @@ def _run(anon, encounters, original, gt, name, out_dir=None, **meta) -> dict:
 
 def main(argv: list[str] | None = None) -> None:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("--grid", choices=["signals", "thresholds"], default="signals")
+    p.add_argument("--grid", choices=["signals", "thresholds", "a_ideas"], default="signals")
     p.add_argument("--split", default="eval")
     p.add_argument("--out", default="outputs/sweep")
     p.add_argument("--t-keep", default=",".join(map(str, T_KEEP)))
@@ -68,6 +71,12 @@ def main(argv: list[str] | None = None) -> None:
                 name = f"s{''.join(map(str, signals))}_sym{'on' if keep_symptoms else 'off'}"
                 rows.append(_run(anon, encounters, original, gt, name, a.out, signals="+".join(map(str, signals)),
                                  keep_symptoms=keep_symptoms))
+    elif a.grid == "a_ideas":
+        for ideas in A_IDEA_SETS:
+            anon.cfg.a_ideas = ideas
+            name = "base" if not ideas else "ideas" + "".join(map(str, ideas))
+            rows.append(_run(anon, encounters, original, gt, name, a.out,
+                             a_ideas="+".join(map(str, ideas)) or "-"))
     else:
         for tk in map(float, a.t_keep.split(",")):
             for tr in map(float, a.t_remove.split(",")):

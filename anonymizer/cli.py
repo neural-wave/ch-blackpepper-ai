@@ -32,6 +32,7 @@ def main(argv: list[str] | None = None) -> None:
                    help="keep symptoms/findings regardless of relevance score")
     p.add_argument("--no-smalltalk", action="store_true", help="disable the small-talk unit filter")
     p.add_argument("--smalltalk-threshold", type=float, default=Config.smalltalk_threshold)
+    p.add_argument("--a-ideas", default="", help="personal-data extensions of study G, e.g. 1,2,3,4 (default none)")
     p.add_argument("--no-cache", action="store_true", help="recompute model outputs instead of reusing .cache/")
     p.add_argument("--device", default="auto")
     p.add_argument("--limit", type=int, default=None)
@@ -39,7 +40,8 @@ def main(argv: list[str] | None = None) -> None:
 
     cfg = Config(t_keep=a.t_keep, t_remove=a.t_remove, use_deid_ner=not a.no_ner, device=a.device,
                  signals=tuple(int(x) for x in a.signals.split(",")), keep_symptoms=a.keep_symptoms,
-                 smalltalk=not a.no_smalltalk, smalltalk_threshold=a.smalltalk_threshold, cache=not a.no_cache)
+                 smalltalk=not a.no_smalltalk, smalltalk_threshold=a.smalltalk_threshold, cache=not a.no_cache,
+                 a_ideas=tuple(int(x) for x in a.a_ideas.split(",") if x))
     encounters = load_encounters(a.input)[:a.limit]
     t0 = time.time()
     anon = Anonymizer(cfg)

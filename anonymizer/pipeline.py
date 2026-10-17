@@ -21,14 +21,21 @@ TAGS = {"DATE": "[DATE]", "DOB": "[DATE]", "YEAR": "[YEAR]", "PHONE": "[PHONE]",
 # Higher = wins overlaps.
 PRIORITY = {"smalltalk": 5, "direct": 4, "code": 3, "personal": 2, "clinical": 1, "measure": 0}
 # Personal spans that could themselves be code evidence (e.g. Y92 place, Y93 activity) get a relevance guard.
-GUARDED = {"LOC", "HOSP", "ORG", "OTHERPHI", "OCCUPATION", "ACTIVITY", "PET", "WORKPLACE"}
+GUARDED = {"LOC", "HOSP", "ORG", "OTHERPHI", "OCCUPATION", "ACTIVITY", "PET", "WORKPLACE", "WORK"}
 # Detected once in an encounter -> every other mention of the same string is treated the same way.
 PROPAGATED = {"LOC", "HOSP", "ORG", "OCCUPATION", "WORKPLACE"}
 # An activity/pet next to an injury or allergy cue is the mechanism of a coded problem when one of these is coded.
 CAUSE_CODES = {"ACTIVITY": ("S", "T", "M", "W", "X", "V", "Y"),
                "PET": ("J30", "J45", "L23", "L50", "T78", "W53", "W54", "W55", "A69")}
 GENERALIZED_TAGS = {"FAMILY": "[family member]", "PET": "[pet]", "ACTIVITY": "[activity]", "WORKPLACE": "[workplace]",
-                    "QUASI": "[life event]"}
+                    "QUASI": "[life event]", "WORK": "[work detail]", "HOUSEHOLD": "[household detail]",
+                    "SOCIAL": "[social history detail]"}
+# Idea 3: labels whose mentions are copied across fields (by stem for activities).
+PROPAGATED_EXT = {"ACTIVITY", "QUASI", "WORK", "HOUSEHOLD"}
+# Idea 2: a SOCIAL HISTORY sentence about substances stays when a substance-use code is present.
+SUBSTANCE = r"\b(?:smok\w*|tobacco|cigar\w*|vap\w*|alcohol|drink\w*|beer|wine|liquor|drugs?|marijuana|cannabis)\b"
+SUBSTANCE_CODES = ("F10", "F11", "F12", "F13", "F14", "F15", "F16", "F17", "F18", "F19", "Z72", "Z87.891", "Z71.4",
+                   "Z71.6", "T65.2")
 
 
 class Anonymizer:
@@ -53,7 +60,11 @@ class Anonymizer:
         personal = [s for s in personal if s.label != "NAME"] + names
         self._guard_personal(personal, codes)
         personal += self._propagate(texts, personal)
+        if 3 in self.cfg.a_ideas:
+            personal += self._propagate_ext(texts, personal)
         spans = clinical + personal
+        if 2 in self.cfg.a_ideas:
+            spans += self._social_history_spans(texts["note"], spans, codes)
         if self.cfg.smalltalk:
             spans += self._smalltalk_spans(texts["dialogue"], spans, enc.get("encounter_id"))
         chosen = self._resolve(spans)
@@ -120,7 +131,7 @@ class Anonymizer:
         spans = []
         for f, text in texts.items():
             spans += phi_rules.detect(text, f)
-            spans += phi_context.detect(text, f)
+            spans += phi_context.detect(text, f, frozenset(self.cfg.a_ideas))
             if self.cfg.use_deid_ner:
                 spans += cache.spans(phi_ner.detect, text, f, self.cfg.deid_model, self.device, enabled=self.cfg.cache)
         for s in spans:
@@ -169,6 +180,62 @@ class Anonymizer:
                       reason=f"small talk (p={p:.2f}): personal context without clinical content; removed")
             sp.extra["prio"] = PRIORITY["smalltalk"]
             out.append(sp)
+        return out
+
+    @staticmethod
+    def _social_history_spans(text: str, spans: list[Span], codes: list[dict]) -> list[Span]:
+        """Idea 2: SOCIAL HISTORY sentences in the note with no code evidence are generalized whole."""
+        m = re.search(r"(?m)^SOCIAL HISTORY\s*$", text)
+        if not m:
+            return []
+        end = re.search(r"(?m)^[A-Z][A-Z /&]{3,}\s*$", text[m.end():])
+        sec_end = m.end() + end.start() if end else len(text)
+        substance_coded = any(c["code"].startswith(SUBSTANCE_CODES) for c in codes)
+        out = []
+        for sm in re.finditer(r"[^.!?\n]+[.!?]?", text[m.end():sec_end]):
+            s, e = m.end() + sm.start(), m.end() + sm.end()
+            sent = text[s:e]
+            if len(sent.strip()) < 3:
+                continue
+            if substance_coded and re.search(SUBSTANCE, sent, re.IGNORECASE):
+                continue
+            inside = [x for x in spans if x.field == "note" and x.start < e and s < x.end]
+            if any(x.category == CLINICAL_CODE or x.start < s or x.end > e for x in inside):
+                continue
+            lead = len(sent) - len(sent.lstrip())
+            sp = Span("note", s + lead, e, sent.strip(), "SOCIAL", "rule:social_history", category=PERSONAL,
+                      action=GENERALIZE, reason="social history sentence without code evidence; generalized")
+            sp.extra["prio"] = PRIORITY["smalltalk"]
+            out.append(sp)
+        return out
+
+    @staticmethod
+    def _propagate_ext(texts: dict, spans: list[Span]) -> list[Span]:
+        """Idea 3: activities and life events said in the dialogue are restated in the note (and back)."""
+        keys = {}
+        for s in spans:
+            if s.label not in PROPAGATED_EXT or s.action == KEEP or len(s.text) < 4 or len(s.text.split()) > 4:
+                continue
+            t = s.text.lower().strip()
+            # Single-word lexicon hobbies match by stem ("golfing" -> golf, golfer); generic movements ("walking")
+            # only verbatim, since they are also gait/exam findings.
+            by_stem = s.label == "ACTIVITY" and " " not in t and s.source == "rule:activity"
+            pat = rf"{re.escape(_stem(t))}(?:ing|er|ers|s|es|ed)?" if by_stem else re.escape(t)
+            if s.label == "ACTIVITY" and not by_stem and " " not in t:
+                continue
+            if t in GENERIC_TERMS or len(_stem(t)) < 3:
+                continue
+            keys.setdefault(pat, s)
+        out = []
+        for pat, src in keys.items():
+            for f, text in texts.items():
+                for m in re.finditer(rf"(?<![\w\[]){pat}(?!\w)", text, re.IGNORECASE):
+                    if any(o.field == f and o.start < m.end() and m.start() < o.end for o in spans + out):
+                        continue
+                    out.append(Span(f, m.start(), m.end(), m.group(0), src.label, "propagated_ext",
+                                    category=src.category, action=src.action,
+                                    reason=f"same {src.label.lower()} as a detected mention",
+                                    extra={k: v for k, v in src.extra.items() if k != "match"}))
         return out
 
     @staticmethod
