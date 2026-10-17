@@ -1,0 +1,549 @@
+{
+ "encounter_id": "D2N188",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "jaqueline",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "jacqueline",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "north point",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "biking location"
+  },
+  {
+   "field": "dialogue",
+   "text": "colorado",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "state"
+  },
+  {
+   "field": "dialogue",
+   "text": "mountain biking lesson",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "mountain biking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "injury mechanism activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "fell off your bike",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "twisted your ankle",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "sprain mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "ankle twisted outward",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "sprain mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "injured your ankle",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "ankle injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "outer ankle",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "pain location"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbing",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated numbness"
+  },
+  {
+   "field": "dialogue",
+   "text": "tingling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "neuro symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "limping",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "functional impairment ankle"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.401A",
+   "why": "ankle pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "crack",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "injury sound"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema and erythema on the lateral malleolus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecchymosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "excoriations",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation of the right lateral malleolus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "decreased flexion and extension of the right ankle",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "ankle imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "no acute fracture or bony abnormality",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "rules out fracture"
+  },
+  {
+   "field": "dialogue",
+   "text": "soft tissue injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "sprain"
+  },
+  {
+   "field": "dialogue",
+   "text": "acute right ankle sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "air cast",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice the area",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight-bear as tolerated",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "further imaging",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "Jacqueline Price",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Price",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "28-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "right ankle injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "Right ankle injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "mountain biking lessons",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "mountain biking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "injury mechanism activity"
+  },
+  {
+   "field": "note",
+   "text": "ankle twisted outward",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "sprain mechanism"
+  },
+  {
+   "field": "note",
+   "text": "tingling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "neuro symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness in her toes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "neuro symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness in the right ankle",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "neuro symptom"
+  },
+  {
+   "field": "note",
+   "text": "difficulty walking",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "functional impairment"
+  },
+  {
+   "field": "note",
+   "text": "limp",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "functional impairment"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.401A",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "crack",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "injury sound"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "right ankle pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "ankle pain"
+  },
+  {
+   "field": "note",
+   "text": "Mild edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "edema and erythema on the lateral malleolus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "ecchymosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "excoriations",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with palpation of the right lateral malleolus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "Decreased flexion and extension of the right ankle",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the right foot",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "no acute fracture or bony abnormalities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "rules out fracture"
+  },
+  {
+   "field": "note",
+   "text": "Acute right ankle sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Aircast",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "ice the area",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "weight-bear as tolerated",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "formal physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "further imaging",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "workup"
+  }
+ ]
+}

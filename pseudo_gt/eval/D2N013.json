@@ -1,0 +1,461 @@
+{
+ "encounter_id": "D2N013",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "john",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "55-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "different events",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific life events"
+  },
+  {
+   "field": "dialogue",
+   "text": "a lot of visitors",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal life context"
+  },
+  {
+   "field": "dialogue",
+   "text": "anxiety",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "stress and strain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "epilepsy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G40.909",
+   "why": "coded epilepsy"
+  },
+  {
+   "field": "dialogue",
+   "text": "seizures",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G40.909",
+   "why": "epilepsy symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "keppra",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G40.909",
+   "why": "epilepsy treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "abnormal lab finding",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.9",
+   "why": "hyperglycemia leading to diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood sugar",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes evidence"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes evidence"
+  },
+  {
+   "field": "dialogue",
+   "text": "sugar intake",
+   "category": "c",
+   "type": "QUASI",
+   "code": "E11.9",
+   "why": "diabetes cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "glucose",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes labs",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "newly diagnosed diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diabetes"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizziness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "trace pitting edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "fluid from ER"
+  },
+  {
+   "field": "dialogue",
+   "text": "retaining a little bit of fluid",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "fluid from ER"
+  },
+  {
+   "field": "note",
+   "text": "John Brooks",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "55-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "different events",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific life events"
+  },
+  {
+   "field": "note",
+   "text": "a lot of visitors",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal life context"
+  },
+  {
+   "field": "note",
+   "text": "anxiety",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "epilepsy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G40.909",
+   "why": "coded epilepsy"
+  },
+  {
+   "field": "note",
+   "text": "Epilepsy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G40.909",
+   "why": "coded epilepsy"
+  },
+  {
+   "field": "note",
+   "text": "seizures",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G40.909",
+   "why": "epilepsy symptom"
+  },
+  {
+   "field": "note",
+   "text": "Keppra",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G40.909",
+   "why": "epilepsy treatment"
+  },
+  {
+   "field": "note",
+   "text": "Abnormal labs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.9",
+   "why": "hyperglycemia"
+  },
+  {
+   "field": "note",
+   "text": "abnormal lab finding",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.9",
+   "why": "hyperglycemia"
+  },
+  {
+   "field": "note",
+   "text": "elevated blood sugar levels",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes evidence"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "sugar intake",
+   "category": "c",
+   "type": "QUASI",
+   "code": "E11.9",
+   "why": "diabetes cause"
+  },
+  {
+   "field": "note",
+   "text": "Hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "Non-fasting glucose",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "blood glucose level",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "Newly diagnosed diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diabetes"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "dizziness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "fevers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "wheezes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "rales",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "Trace pitting edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  }
+ ]
+}

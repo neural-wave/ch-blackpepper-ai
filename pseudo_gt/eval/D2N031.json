@@ -1,0 +1,1053 @@
+{
+ "encounter_id": "D2N031",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "sophia brown",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "brown",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "dialogue",
+   "text": "stewart",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor surname"
+  },
+  {
+   "field": "dialogue",
+   "text": "3/17/1946",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "DOB"
+  },
+  {
+   "field": "dialogue",
+   "text": "january 20th , 2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "lumpectomy date"
+  },
+  {
+   "field": "dialogue",
+   "text": "october 2019",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "mammogram date"
+  },
+  {
+   "field": "dialogue",
+   "text": "november 3rd , 2019",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "ultrasound date"
+  },
+  {
+   "field": "dialogue",
+   "text": "december 5th , 2019",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "biopsy date"
+  },
+  {
+   "field": "dialogue",
+   "text": "january 2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "mammogram date"
+  },
+  {
+   "field": "dialogue",
+   "text": "january , 2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "mammogram date"
+  },
+  {
+   "field": "dialogue",
+   "text": "2018",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "colonoscopy year"
+  },
+  {
+   "field": "dialogue",
+   "text": "april of 2022",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "planned mammogram"
+  },
+  {
+   "field": "dialogue",
+   "text": "i have five",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "number of children"
+  },
+  {
+   "field": "dialogue",
+   "text": "g5 p5",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "parity reveals family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "they're all having kids of their own",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "i do not have any siblings",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "dcis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D05.1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "ductal carcinoma in situ",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D05.1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "invasive ductal carcinoma of the right breast",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D05.1",
+   "why": "coded breast cancer"
+  },
+  {
+   "field": "dialogue",
+   "text": "right breast lumpectomy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lumpectomy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "calcification in your right breast",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D05.1",
+   "why": "presenting finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "mammogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "screening/surveillance"
+  },
+  {
+   "field": "dialogue",
+   "text": "ultrasound of your right breast",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "mass at the two o'clock position",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D05.1",
+   "why": "tumor"
+  },
+  {
+   "field": "dialogue",
+   "text": "ultrasound-guided core needle biopsy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "er positive , pr positive",
+   "category": "c",
+   "type": "LAB",
+   "code": "D05.1",
+   "why": "tumor markers"
+  },
+  {
+   "field": "dialogue",
+   "text": "eight millimeter tumor",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D05.1",
+   "why": "tumor"
+  },
+  {
+   "field": "dialogue",
+   "text": "margins were negative",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D05.1",
+   "why": "pathology"
+  },
+  {
+   "field": "dialogue",
+   "text": "lymph nodes",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "nodal removal"
+  },
+  {
+   "field": "dialogue",
+   "text": "negative for malignancy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D05.1",
+   "why": "pathology"
+  },
+  {
+   "field": "dialogue",
+   "text": "self breast exams",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "surveillance"
+  },
+  {
+   "field": "dialogue",
+   "text": "skin thickening at the medial inferior aspect of the right breast",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D05.1",
+   "why": "post-radiation change"
+  },
+  {
+   "field": "dialogue",
+   "text": "radiation skin changes",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D05.1",
+   "why": "treatment effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "radiation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "radiation therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "endocrine therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "declined treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "palpable masses",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D05.1",
+   "why": "exam for recurrence"
+  },
+  {
+   "field": "dialogue",
+   "text": "recurrence",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D05.1",
+   "why": "surveillance"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecog performance status",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D05.1",
+   "why": "oncology status"
+  },
+  {
+   "field": "dialogue",
+   "text": "colonoscopy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "polyp",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "benign tubular adenoma",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "post-menopausal",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "hormone replacement therapy",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight loss or gain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "bone pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "urinary symptoms",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood in the stools",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "joint pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "high cholesterol",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "cholesterol",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "coq10",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "vitamin d",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "vitamin c",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "fish oil",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "elderberry fruit",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "tubes tied",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "non-hodgkin's lymphoma",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "prostate cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "breast cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoke",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "former smoker"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergic to penicillin",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "allergy"
+  },
+  {
+   "field": "note",
+   "text": "Sophia Brown",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "Brown",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "note",
+   "text": "75 y.o.",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "10/2019",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "mammogram date"
+  },
+  {
+   "field": "note",
+   "text": "11/03/2019",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "ultrasound date"
+  },
+  {
+   "field": "note",
+   "text": "12/05/2019",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "biopsy date"
+  },
+  {
+   "field": "note",
+   "text": "01/20/2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "lumpectomy date"
+  },
+  {
+   "field": "note",
+   "text": "01/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "mammogram date"
+  },
+  {
+   "field": "note",
+   "text": "2018",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "colonoscopy year"
+  },
+  {
+   "field": "note",
+   "text": "04/2022",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "planned mammogram"
+  },
+  {
+   "field": "note",
+   "text": "G5P5",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "parity"
+  },
+  {
+   "field": "note",
+   "text": "Patient has 5 children and multiple grandchildren",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "note",
+   "text": "She has no siblings",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "note",
+   "text": "right ductal carcinoma in situ (DCIS)",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D05.1",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "DCIS",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D05.1",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "right DCIS",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D05.1",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "invasive ductal carcinoma of the right breast",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D05.1",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "screening mammogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "mammogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "surveillance"
+  },
+  {
+   "field": "note",
+   "text": "calcification in the right breast",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D05.1",
+   "why": "finding"
+  },
+  {
+   "field": "note",
+   "text": "right breast ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "mass at the 2 o\u2019clock position",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D05.1",
+   "why": "tumor"
+  },
+  {
+   "field": "note",
+   "text": "ultrasound-guided core needle biopsy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "ER-positive, PR-positive",
+   "category": "c",
+   "type": "LAB",
+   "code": "D05.1",
+   "why": "markers"
+  },
+  {
+   "field": "note",
+   "text": "lumpectomy with lymphadenectomy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "lumpectomy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Right lumpectomy, lymphadenectomy x5",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "negative margins",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D05.1",
+   "why": "pathology"
+  },
+  {
+   "field": "note",
+   "text": "adjuvant radiation therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Endocrine therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "declined"
+  },
+  {
+   "field": "note",
+   "text": "endocrine therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "declined"
+  },
+  {
+   "field": "note",
+   "text": "self-breast exams",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D05.1",
+   "why": "surveillance"
+  },
+  {
+   "field": "note",
+   "text": "ECOG performance status",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D05.1",
+   "why": "oncology status"
+  },
+  {
+   "field": "note",
+   "text": "palpable masses",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D05.1",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "skin thickening at the medial inferior aspect of the right breast",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D05.1",
+   "why": "radiation change"
+  },
+  {
+   "field": "note",
+   "text": "radiation skin changes",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D05.1",
+   "why": "radiation change"
+  },
+  {
+   "field": "note",
+   "text": "recurrent disease",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D05.1",
+   "why": "surveillance"
+  },
+  {
+   "field": "note",
+   "text": "colonoscopy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "sigmoid polypectomy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "tubular adenoma",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "hormone replacement therapy",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Hypercholesterolemia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "high cholesterol",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "cholesterol",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Bilateral tubal ligation",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Former smoker",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Non-Hodgkin\u2019s lymphoma",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "Prostate cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "heart disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "breast cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated family history"
+  },
+  {
+   "field": "note",
+   "text": "Co-Q 10",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Vitamin D",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Vitamin C",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Fish oil",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Elderberry fruit",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Penicillin",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "allergy"
+  },
+  {
+   "field": "note",
+   "text": "weight loss",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "weight gain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "bone pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "urinary symptoms",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "blood in the stools",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "back pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "joint pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  }
+ ]
+}

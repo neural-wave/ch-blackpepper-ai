@@ -1,0 +1,717 @@
+{
+ "encounter_id": "D2N006",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "anna",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "44-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M19.90",
+   "why": "coded osteoarthritis"
+  },
+  {
+   "field": "dialogue",
+   "text": "gout",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M10.9",
+   "why": "coded gout"
+  },
+  {
+   "field": "dialogue",
+   "text": "reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded GERD"
+  },
+  {
+   "field": "dialogue",
+   "text": "pilates",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M19.90",
+   "why": "exercise advised as arthritis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lifting weights",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M19.90",
+   "why": "exercise helping arthritis"
+  },
+  {
+   "field": "dialogue",
+   "text": "joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M19.90",
+   "why": "arthritis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M19.90",
+   "why": "arthritis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "right first big toe",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M10.9",
+   "why": "gout location"
+  },
+  {
+   "field": "dialogue",
+   "text": "allopurinol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M10.9",
+   "why": "gout treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "flare ups",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M10.9",
+   "why": "gout flares"
+  },
+  {
+   "field": "dialogue",
+   "text": "omeprazole",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "GERD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "dietary modifications",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K21.9",
+   "why": "GERD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "throwing up",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "vomiting assessed with reflux"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "vomiting assessed with reflux"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "assessed with reflux"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "assessed with reflux"
+  },
+  {
+   "field": "dialogue",
+   "text": "bloated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "assessed with reflux"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal distension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "assessed with reflux"
+  },
+  {
+   "field": "dialogue",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight loss",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to your right upper quadrant",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "gallbladder concern, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "rebound or guarding",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "peritoneal signs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "gall bladder",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "suspected gallbladder disease, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M19.90",
+   "why": "knee arthritis finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "slight pain to palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M19.90",
+   "why": "knee arthritis finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "decreased range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M19.90",
+   "why": "knee arthritis finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "autoimmune panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "M19.90",
+   "why": "arthritis workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "autoimmune labs",
+   "category": "c",
+   "type": "LAB",
+   "code": "M19.90",
+   "why": "arthritis workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M19.90",
+   "why": "arthritis imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "residual arthritis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M19.90",
+   "why": "x-ray finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated, unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "right upper quadrant ultrasound",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "gallstone workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "gallstones",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "suspected, not coded"
+  },
+  {
+   "field": "note",
+   "text": "Anna Mitchell",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Mitchell",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "44-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M19.90",
+   "why": "coded osteoarthritis"
+  },
+  {
+   "field": "note",
+   "text": "Arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M19.90",
+   "why": "coded osteoarthritis"
+  },
+  {
+   "field": "note",
+   "text": "gout",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M10.9",
+   "why": "coded gout"
+  },
+  {
+   "field": "note",
+   "text": "Gout",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M10.9",
+   "why": "coded gout"
+  },
+  {
+   "field": "note",
+   "text": "reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded GERD"
+  },
+  {
+   "field": "note",
+   "text": "acid reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded GERD"
+  },
+  {
+   "field": "note",
+   "text": "Acid reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded GERD"
+  },
+  {
+   "field": "note",
+   "text": "pilates",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M19.90",
+   "why": "exercise advised as arthritis treatment"
+  },
+  {
+   "field": "note",
+   "text": "lifting weights",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M19.90",
+   "why": "exercise helping arthritis"
+  },
+  {
+   "field": "note",
+   "text": "joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M19.90",
+   "why": "arthritis symptom"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M19.90",
+   "why": "arthritis treatment"
+  },
+  {
+   "field": "note",
+   "text": "Physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M19.90",
+   "why": "arthritis treatment"
+  },
+  {
+   "field": "note",
+   "text": "right first big toe",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M10.9",
+   "why": "gout location"
+  },
+  {
+   "field": "note",
+   "text": "allopurinol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M10.9",
+   "why": "gout treatment"
+  },
+  {
+   "field": "note",
+   "text": "flare ups",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M10.9",
+   "why": "gout flares"
+  },
+  {
+   "field": "note",
+   "text": "flares",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M10.9",
+   "why": "gout flares"
+  },
+  {
+   "field": "note",
+   "text": "omeprazole",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "GERD treatment"
+  },
+  {
+   "field": "note",
+   "text": "dietary modifications",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K21.9",
+   "why": "GERD treatment"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "assessed with reflux"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "assessed with reflux"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "assessed with reflux"
+  },
+  {
+   "field": "note",
+   "text": "bloating",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "assessed with reflux"
+  },
+  {
+   "field": "note",
+   "text": "blood in her stool",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated, unrelated"
+  },
+  {
+   "field": "note",
+   "text": "weight gain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated, unrelated"
+  },
+  {
+   "field": "note",
+   "text": "weight loss",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated, unrelated"
+  },
+  {
+   "field": "note",
+   "text": "fevers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated, unrelated"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated, unrelated"
+  },
+  {
+   "field": "note",
+   "text": "hematochezia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated, unrelated"
+  },
+  {
+   "field": "note",
+   "text": "melena",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated, unrelated"
+  },
+  {
+   "field": "note",
+   "text": "wheezes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "rales",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "gallops",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "rubs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain to palpation of the right upper quadrant",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "gallbladder concern"
+  },
+  {
+   "field": "note",
+   "text": "rebound or guarding",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "peritoneal signs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M19.90",
+   "why": "knee arthritis finding"
+  },
+  {
+   "field": "note",
+   "text": "Slight pain to palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M19.90",
+   "why": "knee arthritis finding"
+  },
+  {
+   "field": "note",
+   "text": "decreased range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M19.90",
+   "why": "knee arthritis finding"
+  },
+  {
+   "field": "note",
+   "text": "Autoimmune panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "M19.90",
+   "why": "arthritis workup"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M19.90",
+   "why": "arthritis imaging"
+  },
+  {
+   "field": "note",
+   "text": "right knee x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M19.90",
+   "why": "arthritis imaging"
+  },
+  {
+   "field": "note",
+   "text": "residual arthritis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M19.90",
+   "why": "x-ray finding"
+  },
+  {
+   "field": "note",
+   "text": "fractures",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "ultrasound of her right upper quadrant",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "gallbladder workup"
+  },
+  {
+   "field": "note",
+   "text": "biliary etiology",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "suspected, not coded"
+  }
+ ]
+}

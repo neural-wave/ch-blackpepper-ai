@@ -1,0 +1,533 @@
+{
+ "encounter_id": "D2N175",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "natalie",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "39-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "power walking every day",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "exercise routine"
+  },
+  {
+   "field": "dialogue",
+   "text": "power walking about , at least 30 minutes every day",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "exercise routine"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes evidence"
+  },
+  {
+   "field": "dialogue",
+   "text": "fasting blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes evidence"
+  },
+  {
+   "field": "dialogue",
+   "text": "abnormal lab",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "elevated glucose/A1c"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "jardiance",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "avoiding sugars",
+   "category": "c",
+   "type": "QUASI",
+   "code": "E11.9",
+   "why": "diabetes diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "cbc",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "cmp",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "antihypertensive"
+  },
+  {
+   "field": "dialogue",
+   "text": "acl repair",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z98.89",
+   "why": "postprocedural state"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z98.89",
+   "why": "postprocedural state"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z98.89",
+   "why": "post-ACL rehab"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea , vomiting , or diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "difficulty urinating",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "burning when you urinate",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "belly pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling in your legs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Natalie Price",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "39-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "power walking 30 minutes every day",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "exercise routine"
+  },
+  {
+   "field": "note",
+   "text": "diabetes type 2",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes type 2",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes evidence"
+  },
+  {
+   "field": "note",
+   "text": "blood glucose levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "Hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes evidence"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes evidence"
+  },
+  {
+   "field": "note",
+   "text": "abnormal labs",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "elevated glucose/A1c"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "Jardiance",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "avoiding sugars",
+   "category": "c",
+   "type": "QUASI",
+   "code": "E11.9",
+   "why": "diabetes diet"
+  },
+  {
+   "field": "note",
+   "text": "CBC",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes workup"
+  },
+  {
+   "field": "note",
+   "text": "CMP",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes workup"
+  },
+  {
+   "field": "note",
+   "text": "lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes workup"
+  },
+  {
+   "field": "note",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "antihypertensive"
+  },
+  {
+   "field": "note",
+   "text": "right ACL repair",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z98.89",
+   "why": "postprocedural state"
+  },
+  {
+   "field": "note",
+   "text": "ACL repair",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z98.89",
+   "why": "postprocedural state"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea on exertion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "difficulty urinating",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "burning when she urinates",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "urinary pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "thyromegaly or lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "wheezes, rales, or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "lower extremity edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam finding"
+  }
+ ]
+}

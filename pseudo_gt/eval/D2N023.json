@@ -1,0 +1,533 @@
+{
+ "encounter_id": "D2N023",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "paul edwards",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "january 15th 1962",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "59 year old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "november 24th 2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "last visit date"
+  },
+  {
+   "field": "dialogue",
+   "text": "the 28th",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of first dose"
+  },
+  {
+   "field": "dialogue",
+   "text": "thursday or friday",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "specific upcoming dose day"
+  },
+  {
+   "field": "dialogue",
+   "text": "work out",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "exercise habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "get my life together",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal life context"
+  },
+  {
+   "field": "dialogue",
+   "text": "med calendar",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "walmart pharmacy",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named store"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypogonadism",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E29.1",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "testosterone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E29.1",
+   "why": "hypogonadism treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "testosterone's",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E29.1",
+   "why": "hypogonadism treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "testosterone replacement",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E29.1",
+   "why": "hypogonadism treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "the test",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E29.1",
+   "why": "testosterone"
+  },
+  {
+   "field": "dialogue",
+   "text": "levels were less than 300",
+   "category": "c",
+   "type": "LAB",
+   "code": "E29.1",
+   "why": "low testosterone baseline"
+  },
+  {
+   "field": "dialogue",
+   "text": "psa",
+   "category": "c",
+   "type": "LAB",
+   "code": "E29.1",
+   "why": "TRT monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "red blood cell count",
+   "category": "c",
+   "type": "LAB",
+   "code": "E29.1",
+   "why": "TRT monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood thickness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E29.1",
+   "why": "TRT risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "estradiol",
+   "category": "c",
+   "type": "LAB",
+   "code": "E29.1",
+   "why": "TRT monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "estrogen levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "E29.1",
+   "why": "TRT monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "estrogen control",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E29.1",
+   "why": "TRT side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "gynecomastia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E29.1",
+   "why": "TRT/hypogonadism related concern"
+  },
+  {
+   "field": "dialogue",
+   "text": "indole-3-carbinol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E29.1",
+   "why": "estrogen control on TRT"
+  },
+  {
+   "field": "dialogue",
+   "text": "broccoli extract",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E29.1",
+   "why": "estrogen control on TRT"
+  },
+  {
+   "field": "dialogue",
+   "text": "hiv positive",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "finasteride",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded indication"
+  },
+  {
+   "field": "dialogue",
+   "text": "cialis",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded indication"
+  },
+  {
+   "field": "dialogue",
+   "text": "cholesterol",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lipid not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "triglycerides",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lipid not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "high triglycerides",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "cholesterol problems",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetic control",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "cardioprotective",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart attack",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "bloodwork",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "general labs"
+  },
+  {
+   "field": "note",
+   "text": "Paul Edwards",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "Mr. Edwards",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "59-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "11/24/2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "last visit date"
+  },
+  {
+   "field": "note",
+   "text": "11/24/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "lab date"
+  },
+  {
+   "field": "note",
+   "text": "get his life \"together.\"",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal life context"
+  },
+  {
+   "field": "note",
+   "text": "get his life together",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal life context"
+  },
+  {
+   "field": "note",
+   "text": "med calendar",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal habit"
+  },
+  {
+   "field": "note",
+   "text": "days he exercises",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "exercise habit"
+  },
+  {
+   "field": "note",
+   "text": "hypogonadism",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E29.1",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Hypogonadism",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E29.1",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "testosterone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E29.1",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Testosterone cypionate",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E29.1",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "testosterone cypionate",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E29.1",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Total testosterone",
+   "category": "c",
+   "type": "LAB",
+   "code": "E29.1",
+   "why": "TRT monitoring"
+  },
+  {
+   "field": "note",
+   "text": "testosterone levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "E29.1",
+   "why": "TRT monitoring"
+  },
+  {
+   "field": "note",
+   "text": "PSA",
+   "category": "c",
+   "type": "LAB",
+   "code": "E29.1",
+   "why": "TRT monitoring"
+  },
+  {
+   "field": "note",
+   "text": "red blood cell count",
+   "category": "c",
+   "type": "LAB",
+   "code": "E29.1",
+   "why": "TRT monitoring"
+  },
+  {
+   "field": "note",
+   "text": "estradiol",
+   "category": "c",
+   "type": "LAB",
+   "code": "E29.1",
+   "why": "TRT monitoring"
+  },
+  {
+   "field": "note",
+   "text": "estrogen levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "E29.1",
+   "why": "TRT monitoring"
+  },
+  {
+   "field": "note",
+   "text": "estrogen control",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E29.1",
+   "why": "TRT side effect"
+  },
+  {
+   "field": "note",
+   "text": "gynecomastia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E29.1",
+   "why": "TRT/hypogonadism related concern"
+  },
+  {
+   "field": "note",
+   "text": "Indole-3-carbinol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E29.1",
+   "why": "estrogen control on TRT"
+  },
+  {
+   "field": "note",
+   "text": "broccoli extract",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E29.1",
+   "why": "estrogen control on TRT"
+  },
+  {
+   "field": "note",
+   "text": "HIV",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Finasteride",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded indication"
+  },
+  {
+   "field": "note",
+   "text": "Cialis",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded indication"
+  },
+  {
+   "field": "note",
+   "text": "triglycerides",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lipid not coded"
+  },
+  {
+   "field": "note",
+   "text": "Triglycerides",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lipid not coded"
+  },
+  {
+   "field": "note",
+   "text": "cholesterol",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lipid not coded"
+  }
+ ]
+}

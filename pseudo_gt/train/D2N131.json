@@ -1,0 +1,357 @@
+{
+ "encounter_id": "D2N131",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "susan",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "26-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "stress at work",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "work context"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "hypertension symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney transplant",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z94.0",
+   "why": "coded status"
+  },
+  {
+   "field": "dialogue",
+   "text": "immunosuppression medications",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z94.0",
+   "why": "transplant medication"
+  },
+  {
+   "field": "dialogue",
+   "text": "two out of six systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated murmur"
+  },
+  {
+   "field": "dialogue",
+   "text": "scar on the left , uh , left plank",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z94.0",
+   "why": "transplant scar"
+  },
+  {
+   "field": "dialogue",
+   "text": "lower extremity edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "creatinine",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z94.0",
+   "why": "transplant kidney function"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney function",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z94.0",
+   "why": "transplant kidney function"
+  },
+  {
+   "field": "dialogue",
+   "text": "ekg",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "hypertension workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "coreg",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "carvedilol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipid panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "routine lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "complete metabolic panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "routine lab"
+  },
+  {
+   "field": "note",
+   "text": "Susan Watson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "26-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "stress at work",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "work context"
+  },
+  {
+   "field": "note",
+   "text": "High blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "hypertension symptom"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea on exertion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "kidney transplant",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z94.0",
+   "why": "coded status"
+  },
+  {
+   "field": "note",
+   "text": "Status post kidney transplant",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z94.0",
+   "why": "coded status"
+  },
+  {
+   "field": "note",
+   "text": "immunosuppression medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z94.0",
+   "why": "transplant medication"
+  },
+  {
+   "field": "note",
+   "text": "thyromegaly or lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "2/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated murmur"
+  },
+  {
+   "field": "note",
+   "text": "No edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "Scar on left flank",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z94.0",
+   "why": "transplant scar"
+  },
+  {
+   "field": "note",
+   "text": "Creatinine",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z94.0",
+   "why": "transplant kidney function"
+  },
+  {
+   "field": "note",
+   "text": "Kidney function",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z94.0",
+   "why": "transplant kidney function"
+  },
+  {
+   "field": "note",
+   "text": "Electrocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "hypertension workup"
+  },
+  {
+   "field": "note",
+   "text": "lipid panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "routine lab"
+  },
+  {
+   "field": "note",
+   "text": "metabolic panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "routine lab"
+  },
+  {
+   "field": "note",
+   "text": "carvedilol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "hypertension treatment"
+  }
+ ]
+}

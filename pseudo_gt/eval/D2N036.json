@@ -1,0 +1,469 @@
+{
+ "encounter_id": "D2N036",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "george",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "yard work",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "patient job"
+  },
+  {
+   "field": "dialogue",
+   "text": "landscaper",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "patient job"
+  },
+  {
+   "field": "dialogue",
+   "text": "my other employes",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "owns business with employees"
+  },
+  {
+   "field": "dialogue",
+   "text": "yard work and maintenance flower beds",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "landscaping",
+   "category": "c",
+   "type": "OCCUPATION",
+   "code": "G56.03",
+   "why": "stated cause of carpal tunnel (repetitive labor)"
+  },
+  {
+   "field": "dialogue",
+   "text": "repetitive type movements",
+   "category": "c",
+   "type": "QUASI",
+   "code": "G56.03",
+   "why": "cause of carpal tunnel"
+  },
+  {
+   "field": "dialogue",
+   "text": "repetitive actions",
+   "category": "c",
+   "type": "QUASI",
+   "code": "G56.03",
+   "why": "cause of carpal tunnel"
+  },
+  {
+   "field": "dialogue",
+   "text": "heavy labor",
+   "category": "c",
+   "type": "QUASI",
+   "code": "G56.03",
+   "why": "cause of carpal tunnel"
+  },
+  {
+   "field": "dialogue",
+   "text": "active repetitive motions",
+   "category": "c",
+   "type": "QUASI",
+   "code": "G56.03",
+   "why": "cause of carpal tunnel"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness and tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain in your wrist",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "numb",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "my hands asleep",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS nocturnal symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "weaker",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G56.03",
+   "why": "CTS weakness"
+  },
+  {
+   "field": "dialogue",
+   "text": "weakness in my left hand",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS weakness"
+  },
+  {
+   "field": "dialogue",
+   "text": "dropping things",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "drop things",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "grip strength is less on the left",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G56.03",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "feels a little more weird on the thumb side",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G56.03",
+   "why": "sensory finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "jolt or a zing in my finger tips",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G56.03",
+   "why": "tinel response"
+  },
+  {
+   "field": "dialogue",
+   "text": "bilateral positive tinel's sign",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G56.03",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "bilateral carpal tunnel syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "carpal tunnel syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "emg",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "activity modification",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "wrist splint",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G56.03",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "diagnostic testing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgical intervention",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS treatment option"
+  },
+  {
+   "field": "dialogue",
+   "text": "beer or two",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "alcohol use"
+  },
+  {
+   "field": "dialogue",
+   "text": "alcohol consumption",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "alcohol use"
+  },
+  {
+   "field": "dialogue",
+   "text": "rheumatoid arthritis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negative history"
+  },
+  {
+   "field": "note",
+   "text": "George Lewis",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "57-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "landscaping",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "patient job (social history)"
+  },
+  {
+   "field": "note",
+   "text": "repetitive motions",
+   "category": "c",
+   "type": "QUASI",
+   "code": "G56.03",
+   "why": "cause of carpal tunnel"
+  },
+  {
+   "field": "note",
+   "text": "active repetitive motions",
+   "category": "c",
+   "type": "QUASI",
+   "code": "G56.03",
+   "why": "cause of carpal tunnel"
+  },
+  {
+   "field": "note",
+   "text": "wrist and hand pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "note",
+   "text": "intermittent numbness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "note",
+   "text": "weakness in his left hand",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS weakness"
+  },
+  {
+   "field": "note",
+   "text": "left hand weakness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS weakness"
+  },
+  {
+   "field": "note",
+   "text": "drops objects",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "note",
+   "text": "Decreased sensation in the right thumb and index finger",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G56.03",
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Grip strength is less on the left",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G56.03",
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Positive Tinel sign bilaterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G56.03",
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Bilateral carpal tunnel syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "carpal tunnel syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "activity modification",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "note",
+   "text": "wrist splint",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G56.03",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "note",
+   "text": "EMG",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS workup"
+  },
+  {
+   "field": "note",
+   "text": "diagnostic testing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS workup"
+  },
+  {
+   "field": "note",
+   "text": "surgical intervention",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS treatment option"
+  },
+  {
+   "field": "note",
+   "text": "rheumatoid arthritis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negative history"
+  },
+  {
+   "field": "note",
+   "text": "1 to 2 beers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "alcohol use"
+  }
+ ]
+}

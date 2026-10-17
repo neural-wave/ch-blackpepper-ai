@@ -1,0 +1,605 @@
+{
+ "encounter_id": "D2N144",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "tyler nelson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "nelson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "3 , 6 , 1949",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "385729",
+   "category": "a",
+   "type": "CONTACT_ID",
+   "code": null,
+   "why": "medical record number"
+  },
+  {
+   "field": "dialogue",
+   "text": "rheumatoid arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M06.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "steroid injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded site"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee is still swollen",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "whole leg is getting swollen",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R60.0",
+   "why": "coded edema"
+  },
+  {
+   "field": "dialogue",
+   "text": "swollen",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R60.0",
+   "why": "edema"
+  },
+  {
+   "field": "dialogue",
+   "text": "compression socks",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R60.0",
+   "why": "edema treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "stiff",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cane",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "mobility aid for knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "xeljanz",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M06.9",
+   "why": "RA treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "celebrex",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M06.9",
+   "why": "RA treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "range of motion slightly diminished",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pitting around the knee and ankle",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R60.0",
+   "why": "edema exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "normal capillary refill",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee is hot",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "inflammation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee inflammation"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery consult",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "steroid shot",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema in your legs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R60.0",
+   "why": "coded edema"
+  },
+  {
+   "field": "dialogue",
+   "text": "salty snacks",
+   "category": "c",
+   "type": "QUASI",
+   "code": "R60.0",
+   "why": "edema contributor"
+  },
+  {
+   "field": "dialogue",
+   "text": "salt intake",
+   "category": "c",
+   "type": "QUASI",
+   "code": "R60.0",
+   "why": "edema contributor"
+  },
+  {
+   "field": "dialogue",
+   "text": "cmp levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "M06.9",
+   "why": "RA medication monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "fluid aspiration and steroid injection procedure",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee procedure"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypopigmentation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "procedure risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "soft tissue atrophy",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "procedure risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "tendon ruptures",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "procedure risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "transient hypoglycemia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "procedure risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood tinged fluid",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "aspirate"
+  },
+  {
+   "field": "dialogue",
+   "text": "triamcinolone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "knee injection"
+  },
+  {
+   "field": "dialogue",
+   "text": "lidocaine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "knee injection"
+  },
+  {
+   "field": "note",
+   "text": "Nelson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "72-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "03/04/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "last visit date"
+  },
+  {
+   "field": "note",
+   "text": "rheumatoid arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M06.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Rheumatoid arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M06.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "steroid injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "Steroid injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "right knee pain and swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "right knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded site"
+  },
+  {
+   "field": "note",
+   "text": "cane",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "mobility aid"
+  },
+  {
+   "field": "note",
+   "text": "whole right leg swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R60.0",
+   "why": "coded edema"
+  },
+  {
+   "field": "note",
+   "text": "support hose",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R60.0",
+   "why": "edema treatment"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "Swollen right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "slightly reduced range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Skin warm to touch",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Lower right leg pits with pressure",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R60.0",
+   "why": "edema exam"
+  },
+  {
+   "field": "note",
+   "text": "Fluid aspiration",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee procedure"
+  },
+  {
+   "field": "note",
+   "text": "fluid aspiration",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee procedure"
+  },
+  {
+   "field": "note",
+   "text": "hypopigmentation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "procedure risk"
+  },
+  {
+   "field": "note",
+   "text": "soft tissue atrophy",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "procedure risk"
+  },
+  {
+   "field": "note",
+   "text": "tendon ruptures",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "procedure risk"
+  },
+  {
+   "field": "note",
+   "text": "transient hyperglycemia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "procedure risk"
+  },
+  {
+   "field": "note",
+   "text": "blood-tinged fluid",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "aspirate"
+  },
+  {
+   "field": "note",
+   "text": "triamcinolone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "knee injection"
+  },
+  {
+   "field": "note",
+   "text": "lidocaine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "knee injection"
+  },
+  {
+   "field": "note",
+   "text": "High risk medication use",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded"
+  },
+  {
+   "field": "note",
+   "text": "High-risk medication use",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded"
+  },
+  {
+   "field": "note",
+   "text": "Lower extremity pitting edema",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R60.0",
+   "why": "coded edema"
+  },
+  {
+   "field": "note",
+   "text": "Xeljanz XR",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M06.9",
+   "why": "RA treatment"
+  },
+  {
+   "field": "note",
+   "text": "Xeljanz",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M06.9",
+   "why": "RA treatment"
+  },
+  {
+   "field": "note",
+   "text": "Celebrex",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M06.9",
+   "why": "RA treatment"
+  },
+  {
+   "field": "note",
+   "text": "CMP levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "M06.9",
+   "why": "RA medication monitoring"
+  },
+  {
+   "field": "note",
+   "text": "inflammation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee inflammation"
+  },
+  {
+   "field": "note",
+   "text": "x-ray of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee imaging"
+  },
+  {
+   "field": "note",
+   "text": "compression stockings",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R60.0",
+   "why": "edema treatment"
+  },
+  {
+   "field": "note",
+   "text": "elevate feet",
+   "category": "c",
+   "type": "QUASI",
+   "code": "R60.0",
+   "why": "edema treatment"
+  },
+  {
+   "field": "note",
+   "text": "low salt diet",
+   "category": "c",
+   "type": "QUASI",
+   "code": "R60.0",
+   "why": "edema treatment"
+  }
+ ]
+}

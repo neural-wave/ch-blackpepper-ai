@@ -1,0 +1,637 @@
+{
+ "encounter_id": "D2N122",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "kyle",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "i have horses",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "possession/lifestyle"
+  },
+  {
+   "field": "dialogue",
+   "text": "loading some pay",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "farm activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "four hundred bills a day",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "farm activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "biking",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "track seventy one hundred hybrid",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "possession"
+  },
+  {
+   "field": "dialogue",
+   "text": "old rail road right away",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "local trail"
+  },
+  {
+   "field": "dialogue",
+   "text": "sixty miles of trails",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "local trail"
+  },
+  {
+   "field": "dialogue",
+   "text": "my kids",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "my mom",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "cough",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "bronchitis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "pneumonia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded"
+  },
+  {
+   "field": "dialogue",
+   "text": "cold",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded"
+  },
+  {
+   "field": "dialogue",
+   "text": "breast cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "lung infections",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded history"
+  },
+  {
+   "field": "dialogue",
+   "text": "clicks rubs or murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R91.1",
+   "why": "nodule detection"
+  },
+  {
+   "field": "dialogue",
+   "text": "lung nodule",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "cat scan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R91.1",
+   "why": "nodule imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.1",
+   "why": "nodule risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "previous smoker",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.1",
+   "why": "nodule risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.1",
+   "why": "nodule symptom screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "lung cancer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.1",
+   "why": "nodule differential/family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "malignancies",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.1",
+   "why": "nodule risk screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest ct",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R91.1",
+   "why": "nodule imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "solitary two centimeter nodule in the lateral aspect of the right upper lobe",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.1",
+   "why": "coded finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "nodule is smooth",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.1",
+   "why": "nodule finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "emphysematous disease",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.1",
+   "why": "nodule imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "right upper lobe lung nodule",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "pulmonary function test",
+   "category": "c",
+   "type": "LAB",
+   "code": "R91.1",
+   "why": "nodule workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "pft",
+   "category": "c",
+   "type": "LAB",
+   "code": "R91.1",
+   "why": "nodule workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "pet ct",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R91.1",
+   "why": "nodule workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "cancer or inflammatory",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.1",
+   "why": "nodule differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "video assisted thoracoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R91.1",
+   "why": "nodule treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "general anesthesia",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R91.1",
+   "why": "nodule surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest tube",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R91.1",
+   "why": "nodule surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "benign nodule",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.1",
+   "why": "nodule differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "rheumatoid arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M06.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "ra",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M06.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M06.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "methotrexate",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M06.9",
+   "why": "RA treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "flares",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M06.9",
+   "why": "RA flares"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling to to your knuckles",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M06.9",
+   "why": "RA finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "rheumatologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M06.9",
+   "why": "RA follow-up"
+  },
+  {
+   "field": "note",
+   "text": "enjoys biking",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "his mother",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "Cough",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded symptom"
+  },
+  {
+   "field": "note",
+   "text": "cough",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded symptom"
+  },
+  {
+   "field": "note",
+   "text": "lung infections or pneumonia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded history"
+  },
+  {
+   "field": "note",
+   "text": "breast cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "clicks, rubs, or murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac"
+  },
+  {
+   "field": "note",
+   "text": "lower extremity edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "smoking tobacco",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.1",
+   "why": "nodule risk factor"
+  },
+  {
+   "field": "note",
+   "text": "smoking history",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.1",
+   "why": "nodule risk factor"
+  },
+  {
+   "field": "note",
+   "text": "lung cancer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.1",
+   "why": "nodule differential/family history"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.1",
+   "why": "nodule symptom screen"
+  },
+  {
+   "field": "note",
+   "text": "CT scan of chest",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R91.1",
+   "why": "nodule imaging"
+  },
+  {
+   "field": "note",
+   "text": "chest CT",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R91.1",
+   "why": "nodule imaging"
+  },
+  {
+   "field": "note",
+   "text": "solitary 2 cm nodule in the lateral aspect of the right upper lobe",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.1",
+   "why": "coded finding"
+  },
+  {
+   "field": "note",
+   "text": "nodule is smooth",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.1",
+   "why": "nodule finding"
+  },
+  {
+   "field": "note",
+   "text": "emphysematous disease",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.1",
+   "why": "nodule imaging"
+  },
+  {
+   "field": "note",
+   "text": "Right upper lobe lung nodule",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "right upper lobe lung nodule",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "benign nodule",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.1",
+   "why": "nodule differential"
+  },
+  {
+   "field": "note",
+   "text": "surgically removed",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R91.1",
+   "why": "nodule treatment"
+  },
+  {
+   "field": "note",
+   "text": "general anesthesia",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R91.1",
+   "why": "nodule surgery"
+  },
+  {
+   "field": "note",
+   "text": "3 small incisions",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R91.1",
+   "why": "nodule surgery"
+  },
+  {
+   "field": "note",
+   "text": "chest tube",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R91.1",
+   "why": "nodule surgery"
+  },
+  {
+   "field": "note",
+   "text": "Pulmonary function test",
+   "category": "c",
+   "type": "LAB",
+   "code": "R91.1",
+   "why": "nodule workup"
+  },
+  {
+   "field": "note",
+   "text": "PET CT",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R91.1",
+   "why": "nodule workup"
+  },
+  {
+   "field": "note",
+   "text": "cancerous or inflammatory",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.1",
+   "why": "nodule differential"
+  },
+  {
+   "field": "note",
+   "text": "video assisted thoracoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R91.1",
+   "why": "nodule treatment"
+  },
+  {
+   "field": "note",
+   "text": "rheumatoid arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M06.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Rheumatoid arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M06.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "methotrexate",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M06.9",
+   "why": "RA treatment"
+  },
+  {
+   "field": "note",
+   "text": "Mild swelling to the 3rd digit knuckles on the bilateral hands, consistent with RA",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M06.9",
+   "why": "RA finding"
+  },
+  {
+   "field": "note",
+   "text": "rheumatologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M06.9",
+   "why": "RA follow-up"
+  }
+ ]
+}

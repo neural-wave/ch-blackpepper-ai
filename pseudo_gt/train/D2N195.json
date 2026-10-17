@@ -1,0 +1,645 @@
+{
+ "encounter_id": "D2N195",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "matthew",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "unc",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports team"
+  },
+  {
+   "field": "dialogue",
+   "text": "the game last night",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "event"
+  },
+  {
+   "field": "dialogue",
+   "text": "google",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "information source"
+  },
+  {
+   "field": "dialogue",
+   "text": "playing basketball",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "went up for a rebound",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee just popped",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "knee swelling"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "knee injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "inside of the knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "medial location"
+  },
+  {
+   "field": "dialogue",
+   "text": "favoring it",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "gait change"
+  },
+  {
+   "field": "dialogue",
+   "text": "achy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "pain character"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.411A",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "norvasta",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure cuff",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "BP monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "strawberries can lower your blood pressures",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "diet question"
+  },
+  {
+   "field": "dialogue",
+   "text": "pumice granite seeds",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "diet question"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "upsets my stomach",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "metformin side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "consult nutrition",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "log book",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "glucose log"
+  },
+  {
+   "field": "dialogue",
+   "text": "strawberries",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "sugar diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "grade two out of systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "cardiac finding not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation of the medial aspect of that right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecchymosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "negative varus and valgus test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "redness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.411A",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "no fractures no bony abnormalities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "mcl tear",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "ligament injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "mcl strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "twisted your knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.411A",
+   "why": "workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.411A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee immobilizer",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.411A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Matthew Allen",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "40-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "knee injury"
+  },
+  {
+   "field": "note",
+   "text": "right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "knee injury"
+  },
+  {
+   "field": "note",
+   "text": "went up for a rebound while playing basketball",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "playing basketball",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "felt a pop in his knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "knee swelling"
+  },
+  {
+   "field": "note",
+   "text": "difficulty with ambulation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "functional impairment"
+  },
+  {
+   "field": "note",
+   "text": "favoring his left leg",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "gait change"
+  },
+  {
+   "field": "note",
+   "text": "aching",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "pain character"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.411A",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "A1C",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "gastrointestinal upset",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "metformin side effect"
+  },
+  {
+   "field": "note",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "strawberries",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "sugar diet"
+  },
+  {
+   "field": "note",
+   "text": "consult with a nutritionist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes diet"
+  },
+  {
+   "field": "note",
+   "text": "Grade 2/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Pain with palpation over the medial aspect",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Mild pain with flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Edema, swelling, and ecchymosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Mild redness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Negative varus and valgus stress test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "4 views of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.411A",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "fractures or dislocations",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "Right knee MCL strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "MCL tear",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "ligament injury"
+  },
+  {
+   "field": "note",
+   "text": "MRI of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.411A",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.411A",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.411A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "knee immobilizer",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.411A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "non weight-bearing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.411A",
+   "why": "treatment"
+  }
+ ]
+}

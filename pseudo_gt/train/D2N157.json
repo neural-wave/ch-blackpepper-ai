@@ -1,0 +1,861 @@
+{
+ "encounter_id": "D2N157",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "jose",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "doctor miller",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "nephrologist name"
+  },
+  {
+   "field": "dialogue",
+   "text": "jimmy g",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "named person (sports)"
+  },
+  {
+   "field": "dialogue",
+   "text": "erin rogers",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "named person (sports)"
+  },
+  {
+   "field": "dialogue",
+   "text": "west coast",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "origin region"
+  },
+  {
+   "field": "dialogue",
+   "text": "la",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "city/team"
+  },
+  {
+   "field": "dialogue",
+   "text": "super bowl",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific event"
+  },
+  {
+   "field": "dialogue",
+   "text": "san francisco forty nine",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "sports team"
+  },
+  {
+   "field": "dialogue",
+   "text": "san francisco",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "city/team"
+  },
+  {
+   "field": "dialogue",
+   "text": "chocolate chip cookies",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal preference"
+  },
+  {
+   "field": "dialogue",
+   "text": "i live with my dog",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "living situation"
+  },
+  {
+   "field": "dialogue",
+   "text": "i'm retiring",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "employment status"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart attack",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD event"
+  },
+  {
+   "field": "dialogue",
+   "text": "stent",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "stents",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "left anterior descending artery",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD location"
+  },
+  {
+   "field": "dialogue",
+   "text": "aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "brilinta",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "fish oil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "cardiac med"
+  },
+  {
+   "field": "dialogue",
+   "text": "crestor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD statin"
+  },
+  {
+   "field": "dialogue",
+   "text": "statin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cholesterol medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "muscle aches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizzy",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "med side effect, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "beta-blocker",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "metoprolol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "dietitian",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.22",
+   "why": "diabetes education"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.22",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetic education",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.22",
+   "why": "diabetes education"
+  },
+  {
+   "field": "dialogue",
+   "text": "a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.22",
+   "why": "diabetes control"
+  },
+  {
+   "field": "dialogue",
+   "text": "glucose",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.22",
+   "why": "diabetes control"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.22",
+   "why": "diabetes control"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney function",
+   "category": "c",
+   "type": "LAB",
+   "code": "N18.30",
+   "why": "CKD monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "creatinine",
+   "category": "c",
+   "type": "LAB",
+   "code": "N18.30",
+   "why": "CKD monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "contrast dye",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "imaging exposure"
+  },
+  {
+   "field": "dialogue",
+   "text": "nephrologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N18.30",
+   "why": "CKD follow-up"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney doctor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N18.30",
+   "why": "CKD follow-up"
+  },
+  {
+   "field": "dialogue",
+   "text": "stage three ckd",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N18.30",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "stage three kidney disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N18.30",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N18.30",
+   "why": "avoid NSAID in CKD"
+  },
+  {
+   "field": "dialogue",
+   "text": "advil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N18.30",
+   "why": "avoid NSAID in CKD"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "headache treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "jugular venous distention or carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "three out of six systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "chronic murmur not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "chronic murmur not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "one plus nonpitting edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "med-related edema"
+  },
+  {
+   "field": "dialogue",
+   "text": "puffiness in your legs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "med-related edema"
+  },
+  {
+   "field": "dialogue",
+   "text": "cardiac rehab",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "stress test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "stage three chronic kidney disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N18.30",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "insulin regimen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.22",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "kinda down",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "less sad",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "harming yourself or harming others",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "lonely",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression context"
+  },
+  {
+   "field": "dialogue",
+   "text": "psychiatry",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "difficulty adjusting after having a heart attack",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression context"
+  },
+  {
+   "field": "note",
+   "text": "west coast",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "origin region"
+  },
+  {
+   "field": "note",
+   "text": "San Francisco 49ers",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "sports team"
+  },
+  {
+   "field": "note",
+   "text": "lives with his dog",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "living situation"
+  },
+  {
+   "field": "note",
+   "text": "Dr. Miller",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "nephrologist name"
+  },
+  {
+   "field": "note",
+   "text": "heart attack",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD event"
+  },
+  {
+   "field": "note",
+   "text": "coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.22",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.22",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "stent placement at the left anterior descending artery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "stents",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Brilinta",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "fish oil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "cardiac med"
+  },
+  {
+   "field": "note",
+   "text": "Crestor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD statin"
+  },
+  {
+   "field": "note",
+   "text": "metoprolol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "non-pitting lower extremity edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "med-related edema"
+  },
+  {
+   "field": "note",
+   "text": "1+ non-pitting lower extremity edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "med-related edema"
+  },
+  {
+   "field": "note",
+   "text": "1+ non-pitting edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "med-related edema"
+  },
+  {
+   "field": "note",
+   "text": "muscle aches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "dizziness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "med side effect"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded symptom"
+  },
+  {
+   "field": "note",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Mild depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "suicidal ideation or homicidal ideation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression screening"
+  },
+  {
+   "field": "note",
+   "text": "feeling depressed",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression symptom"
+  },
+  {
+   "field": "note",
+   "text": "lonely",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression context"
+  },
+  {
+   "field": "note",
+   "text": "does not have a support system",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression context"
+  },
+  {
+   "field": "note",
+   "text": "Referral to psychiatry",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "note",
+   "text": "jugular venous distention or carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated neck exam"
+  },
+  {
+   "field": "note",
+   "text": "wheezes, rales, or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated lung exam"
+  },
+  {
+   "field": "note",
+   "text": "3/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "chronic murmur"
+  },
+  {
+   "field": "note",
+   "text": "3/6 ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "chronic murmur"
+  },
+  {
+   "field": "note",
+   "text": "creatinine",
+   "category": "c",
+   "type": "LAB",
+   "code": "N18.30",
+   "why": "CKD monitoring"
+  },
+  {
+   "field": "note",
+   "text": "cardiac rehab",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath on exertion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD symptom"
+  },
+  {
+   "field": "note",
+   "text": "stress test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD workup"
+  },
+  {
+   "field": "note",
+   "text": "Stage 3 chronic kidney disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N18.30",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "nephrology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N18.30",
+   "why": "CKD follow-up"
+  },
+  {
+   "field": "note",
+   "text": "nephrologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N18.30",
+   "why": "CKD follow-up"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.22",
+   "why": "diabetes control"
+  },
+  {
+   "field": "note",
+   "text": "dietitian referral",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.22",
+   "why": "diabetes education"
+  },
+  {
+   "field": "note",
+   "text": "diabetes education",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.22",
+   "why": "diabetes education"
+  },
+  {
+   "field": "note",
+   "text": "insulin regimen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.22",
+   "why": "diabetes treatment"
+  }
+ ]
+}

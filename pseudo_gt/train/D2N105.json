@@ -1,0 +1,1261 @@
+{
+ "encounter_id": "D2N105",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "diana scott",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "diana",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "12/8/1920",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "7/9/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of service"
+  },
+  {
+   "field": "dialogue",
+   "text": "you are 100",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "madison",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "staff name"
+  },
+  {
+   "field": "dialogue",
+   "text": "end of the driveway",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "home detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "culdesac",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "residence detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "my son",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "my brother",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "my eldest sister",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart murmur",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "cardiac murmur",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "4/6 systolic murmur at the right upper sternal border",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R01.1",
+   "why": "murmur exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "4/6 systolic murmur at the upper right sternal border",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R01.1",
+   "why": "murmur exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild radiation to the carotids",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R01.1",
+   "why": "murmur exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "normal s1 and s2",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R01.1",
+   "why": "cardiac exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "s2 is relatively preserved",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R01.1",
+   "why": "murmur severity"
+  },
+  {
+   "field": "dialogue",
+   "text": "aortic stenosis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "murmur etiology"
+  },
+  {
+   "field": "dialogue",
+   "text": "aorta stenosis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "murmur etiology"
+  },
+  {
+   "field": "dialogue",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R01.1",
+   "why": "murmur workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "transcatheter aortic valve replacement",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R01.1",
+   "why": "AS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tavr",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R01.1",
+   "why": "AS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgical aortic valve replacement",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R01.1",
+   "why": "AS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "savr",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R01.1",
+   "why": "AS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "diastolic dysfunction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R01.1",
+   "why": "prior echo finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "volume overloaded",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R01.1",
+   "why": "cardiac assessment"
+  },
+  {
+   "field": "dialogue",
+   "text": "short of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "AS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "AS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "AS symptom screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "fatigue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "AS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "overly tired",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "AS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "ankles swell",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "cardiac symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling in the legs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "cardiac symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "passing out",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R42",
+   "why": "syncope screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "pvcs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I49.3",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "frequent pvcs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I49.3",
+   "why": "EKG finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "ekg",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I49.3",
+   "why": "PVC detection"
+  },
+  {
+   "field": "dialogue",
+   "text": "irregular heartbeats",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I49.3",
+   "why": "PVC symptom screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "skips a beat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I49.3",
+   "why": "PVC symptom screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "palpitations",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I49.3",
+   "why": "PVC symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "tachycardia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I49.3",
+   "why": "referral reason"
+  },
+  {
+   "field": "dialogue",
+   "text": "sinus rhythm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I49.3",
+   "why": "EKG finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "anterior septum infarct pattern",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I49.3",
+   "why": "EKG finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "ischemic evaluation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I49.3",
+   "why": "PVC workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart mon- monitor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I49.3",
+   "why": "PVC burden"
+  },
+  {
+   "field": "dialogue",
+   "text": "monitor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I49.3",
+   "why": "PVC burden"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "amlodipine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "simvastatin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E78.5",
+   "why": "lipid treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipids",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.5",
+   "why": "hyperlipidemia"
+  },
+  {
+   "field": "dialogue",
+   "text": "statin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E78.5",
+   "why": "lipid treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypolipidemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.5",
+   "why": "coded diagnosis (misstated)"
+  },
+  {
+   "field": "dialogue",
+   "text": "leg pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.5",
+   "why": "possible statin side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "severe pains in my legs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.5",
+   "why": "possible statin side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "bilateral leg pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.5",
+   "why": "possible statin side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "coronary artery d- , artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.5",
+   "why": "statin indication"
+  },
+  {
+   "field": "dialogue",
+   "text": "hyperthyroidism",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E03.9",
+   "why": "thyroid disease (misstated)"
+  },
+  {
+   "field": "dialogue",
+   "text": "levothyroxine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E03.9",
+   "why": "hypothyroid treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lightheaded",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R42",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizzy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R42",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizziness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R42",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "lightheadedness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R42",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "meclizine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R42",
+   "why": "dizziness treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest x-ray",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain pills",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "analgesic"
+  },
+  {
+   "field": "dialogue",
+   "text": "walker",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "mobility aid"
+  },
+  {
+   "field": "dialogue",
+   "text": "lost a little bit of weight",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "weight change"
+  },
+  {
+   "field": "dialogue",
+   "text": "fevers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgeries",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "surgical history"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart attack",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "stroke",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "sugar diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart problem",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart problems",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoked",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated smoking"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergies to medicines",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated allergies"
+  },
+  {
+   "field": "dialogue",
+   "text": "gait is normal",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "neuro exam"
+  },
+  {
+   "field": "note",
+   "text": "Diana Scott",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Scott",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "Diana",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "note",
+   "text": "100-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "cul-de-sac",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "residence detail"
+  },
+  {
+   "field": "note",
+   "text": "end of the driveway",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "home detail"
+  },
+  {
+   "field": "note",
+   "text": "Son had a myocardial infarction",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "Brother had a stroke and has diabetes",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "Older sister has an unknown heart problem",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "Heart murmur",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "heart murmur",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Cardiac murmur",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "4/6 systolic murmur at the RUSB",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R01.1",
+   "why": "murmur exam"
+  },
+  {
+   "field": "note",
+   "text": "mild radiation to the carotids",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R01.1",
+   "why": "murmur exam"
+  },
+  {
+   "field": "note",
+   "text": "Normal S1, S2 preserved",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R01.1",
+   "why": "cardiac exam"
+  },
+  {
+   "field": "note",
+   "text": "S2 is relatively preserved",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R01.1",
+   "why": "murmur severity"
+  },
+  {
+   "field": "note",
+   "text": "aortic stenosis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "murmur etiology"
+  },
+  {
+   "field": "note",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R01.1",
+   "why": "murmur workup"
+  },
+  {
+   "field": "note",
+   "text": "valvular disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "murmur workup"
+  },
+  {
+   "field": "note",
+   "text": "diastolic dysfunction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R01.1",
+   "why": "prior echo finding"
+  },
+  {
+   "field": "note",
+   "text": "TAVR procedure",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R01.1",
+   "why": "AS treatment"
+  },
+  {
+   "field": "note",
+   "text": "TAVR evaluation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R01.1",
+   "why": "AS treatment"
+  },
+  {
+   "field": "note",
+   "text": "surgical AVR",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R01.1",
+   "why": "AS treatment"
+  },
+  {
+   "field": "note",
+   "text": "volume overloaded",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R01.1",
+   "why": "cardiac assessment"
+  },
+  {
+   "field": "note",
+   "text": "cardiovascular testing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R01.1",
+   "why": "murmur workup"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "AS symptom"
+  },
+  {
+   "field": "note",
+   "text": "overly tired",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "AS symptom"
+  },
+  {
+   "field": "note",
+   "text": "fatigue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "AS symptom"
+  },
+  {
+   "field": "note",
+   "text": "ankles have been swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "cardiac symptom"
+  },
+  {
+   "field": "note",
+   "text": "Lower extremity edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R01.1",
+   "why": "cardiac exam"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "AS symptom screen"
+  },
+  {
+   "field": "note",
+   "text": "syncope",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R42",
+   "why": "syncope screen"
+  },
+  {
+   "field": "note",
+   "text": "palpitations",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I49.3",
+   "why": "PVC symptom"
+  },
+  {
+   "field": "note",
+   "text": "PVCs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I49.3",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "frequent PVCs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I49.3",
+   "why": "EKG finding"
+  },
+  {
+   "field": "note",
+   "text": "EKG",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I49.3",
+   "why": "PVC detection"
+  },
+  {
+   "field": "note",
+   "text": "irregular rhythm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I49.3",
+   "why": "PVC exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Sinus rhythm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I49.3",
+   "why": "EKG finding"
+  },
+  {
+   "field": "note",
+   "text": "anterior septal infarct pattern",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I49.3",
+   "why": "EKG finding"
+  },
+  {
+   "field": "note",
+   "text": "tachycardia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I49.3",
+   "why": "referral reason"
+  },
+  {
+   "field": "note",
+   "text": "ischemic evaluation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I49.3",
+   "why": "PVC workup"
+  },
+  {
+   "field": "note",
+   "text": "heart monitor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I49.3",
+   "why": "PVC burden"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "Amlodipine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "amlodipine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "Hyperlipidemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.5",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Simvastatin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E78.5",
+   "why": "lipid treatment"
+  },
+  {
+   "field": "note",
+   "text": "simvastatin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E78.5",
+   "why": "lipid treatment"
+  },
+  {
+   "field": "note",
+   "text": "statin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E78.5",
+   "why": "lipid treatment"
+  },
+  {
+   "field": "note",
+   "text": "CAD",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.5",
+   "why": "statin indication"
+  },
+  {
+   "field": "note",
+   "text": "bilateral leg pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.5",
+   "why": "possible statin side effect"
+  },
+  {
+   "field": "note",
+   "text": "Hypothyroid",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E03.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypothyroidism",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E03.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Levothyroxine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E03.9",
+   "why": "hypothyroid treatment"
+  },
+  {
+   "field": "note",
+   "text": "levothyroxine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E03.9",
+   "why": "hypothyroid treatment"
+  },
+  {
+   "field": "note",
+   "text": "dizzy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R42",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "Lightheadedness/dizziness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R42",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "lightheadedness and dizziness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R42",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "lightheadedness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R42",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "Meclizine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R42",
+   "why": "dizziness treatment"
+  },
+  {
+   "field": "note",
+   "text": "meclizine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R42",
+   "why": "dizziness treatment"
+  },
+  {
+   "field": "note",
+   "text": "fevers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "chest x-ray",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated imaging"
+  },
+  {
+   "field": "note",
+   "text": "pain medicine",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "analgesic"
+  },
+  {
+   "field": "note",
+   "text": "walker",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "mobility aid"
+  },
+  {
+   "field": "note",
+   "text": "weight has been slowly decreasing",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "weight change"
+  },
+  {
+   "field": "note",
+   "text": "polypharmacy",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "medication burden"
+  },
+  {
+   "field": "note",
+   "text": "myocardial infarction",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "stroke",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "heart disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "drug allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated allergies"
+  },
+  {
+   "field": "note",
+   "text": "frailty",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "general condition"
+  },
+  {
+   "field": "note",
+   "text": "Gait normal for age",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "neuro exam"
+  }
+ ]
+}

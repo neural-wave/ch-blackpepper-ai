@@ -1,0 +1,469 @@
+{
+ "encounter_id": "D2N115",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "jack",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "played football",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "past sport"
+  },
+  {
+   "field": "dialogue",
+   "text": "neck pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S16.1XXA",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "car accident",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S16.1XXA",
+   "why": "injury cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "my neck went forward and my head went forward really quick",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S16.1XXA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "back of my neck",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S16.1XXA",
+   "why": "injury site"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S16.1XXA",
+   "why": "neck pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S16.1XXA",
+   "why": "post-injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "hearing problems visual disturbances",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S16.1XXA",
+   "why": "injury screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "emergency room",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S16.1XXA",
+   "why": "post-accident care"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling or bruising",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S16.1XXA",
+   "why": "neck injury screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "positive pain to palpation of the soft tissues of the neck",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S16.1XXA",
+   "why": "neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "positive pain with flexion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S16.1XXA",
+   "why": "neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "severe positive pain to extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S16.1XXA",
+   "why": "neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "positive pain with rotation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S16.1XXA",
+   "why": "neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "positive pain on lateral bending",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S16.1XXA",
+   "why": "neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S16.1XXA",
+   "why": "neck workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture or bony abnormalities",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S16.1XXA",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "neck strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S16.1XXA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "anti-inflammatories",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S16.1XXA",
+   "why": "neck treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S16.1XXA",
+   "why": "neck treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "muscle relaxant",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S16.1XXA",
+   "why": "neck treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "flexeril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S16.1XXA",
+   "why": "neck treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S16.1XXA",
+   "why": "neck workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "concussion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S16.1XXA",
+   "why": "injury ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "whiplash",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S16.1XXA",
+   "why": "coded injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical rehab",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S16.1XXA",
+   "why": "neck treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "chiropractor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S16.1XXA",
+   "why": "neck treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S16.1XXA",
+   "why": "neck treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "impingement of like the nerves",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S16.1XXA",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Jack Torres",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "40-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "played football",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "past sport"
+  },
+  {
+   "field": "note",
+   "text": "Neck pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S16.1XXA",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "neck pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S16.1XXA",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "motor vehicle accident",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S16.1XXA",
+   "why": "injury cause"
+  },
+  {
+   "field": "note",
+   "text": "whiplash",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S16.1XXA",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "emergency room",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S16.1XXA",
+   "why": "post-accident care"
+  },
+  {
+   "field": "note",
+   "text": "swelling or bruising",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S16.1XXA",
+   "why": "neck injury screen"
+  },
+  {
+   "field": "note",
+   "text": "posterior aspect of his neck",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S16.1XXA",
+   "why": "injury site"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S16.1XXA",
+   "why": "neck treatment"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S16.1XXA",
+   "why": "post-injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "hearing problems or visual disturbances",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S16.1XXA",
+   "why": "injury screen"
+  },
+  {
+   "field": "note",
+   "text": "visual disturbances",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S16.1XXA",
+   "why": "injury screen"
+  },
+  {
+   "field": "note",
+   "text": "hearing loss",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S16.1XXA",
+   "why": "injury screen"
+  },
+  {
+   "field": "note",
+   "text": "No swelling noted",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S16.1XXA",
+   "why": "neck exam"
+  },
+  {
+   "field": "note",
+   "text": "Positive pain to palpation of the soft tissues of the neck",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S16.1XXA",
+   "why": "neck exam"
+  },
+  {
+   "field": "note",
+   "text": "Positive pain with flexion, rotation, and lateral bending",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S16.1XXA",
+   "why": "neck exam"
+  },
+  {
+   "field": "note",
+   "text": "Severe pain with extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S16.1XXA",
+   "why": "neck exam"
+  },
+  {
+   "field": "note",
+   "text": "3 views of the cervical spine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S16.1XXA",
+   "why": "neck x-ray"
+  },
+  {
+   "field": "note",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S16.1XXA",
+   "why": "neck x-ray"
+  },
+  {
+   "field": "note",
+   "text": "fractures or bony abnormalities",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S16.1XXA",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Neck strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S16.1XXA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S16.1XXA",
+   "why": "neck treatment"
+  },
+  {
+   "field": "note",
+   "text": "Flexeril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S16.1XXA",
+   "why": "neck treatment"
+  },
+  {
+   "field": "note",
+   "text": "MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S16.1XXA",
+   "why": "neck workup"
+  },
+  {
+   "field": "note",
+   "text": "physical rehab",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S16.1XXA",
+   "why": "neck treatment"
+  },
+  {
+   "field": "note",
+   "text": "chiropractor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S16.1XXA",
+   "why": "neck treatment"
+  }
+ ]
+}

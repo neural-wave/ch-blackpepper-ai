@@ -1,0 +1,389 @@
+{
+ "encounter_id": "D2N019",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "hernandez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "dialogue",
+   "text": "fisher",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor name"
+  },
+  {
+   "field": "dialogue",
+   "text": "48-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age"
+  },
+  {
+   "field": "dialogue",
+   "text": "moving to a new home",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M77.11",
+   "why": "cause of injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "moving boxes from the truck into the house",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M77.11",
+   "why": "cause of injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "moving those boxes",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M77.11",
+   "why": "cause of injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "popping",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.11",
+   "why": "injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.11",
+   "why": "injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M77.11",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.11",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "throbbing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.11",
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "anaphylaxis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "epipen",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated med"
+  },
+  {
+   "field": "dialogue",
+   "text": "carotid",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "neck surgery",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness over your lateral epicondyle",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.11",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.11",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "redness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.11",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with flexion , extension of your elbow",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.11",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain on the dorsal aspect of your- of your forearm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.11",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.11",
+   "why": "imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray of your elbow",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.11",
+   "why": "imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "no fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.11",
+   "why": "imaging result"
+  },
+  {
+   "field": "dialogue",
+   "text": "lateral epicondylitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.11",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M77.11",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "sling",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.11",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Hernandez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "note",
+   "text": "48-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age"
+  },
+  {
+   "field": "note",
+   "text": "Right elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.11",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "right elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.11",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "moving boxes from the truck into the house",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M77.11",
+   "why": "cause of injury"
+  },
+  {
+   "field": "note",
+   "text": "pop in her elbow",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.11",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.11",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M77.11",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "anaphylaxis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "note",
+   "text": "EpiPen",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated med"
+  },
+  {
+   "field": "note",
+   "text": "neck surgery",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  },
+  {
+   "field": "note",
+   "text": "tenderness over the lateral epicondyle",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.11",
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Swelling and redness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.11",
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Pain with flexion and extension of the elbow",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.11",
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Pain over the dorsal aspect of the forearm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.11",
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "X-rays of the right elbow",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.11",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "no obvious signs of acute fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.11",
+   "why": "imaging result"
+  },
+  {
+   "field": "note",
+   "text": "Mild effusion about the lateral aspect",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.11",
+   "why": "imaging result"
+  },
+  {
+   "field": "note",
+   "text": "Right elbow lateral epicondylitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.11",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "sling",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.11",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "anti-inflammatory medications",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M77.11",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M77.11",
+   "why": "treatment"
+  }
+ ]
+}

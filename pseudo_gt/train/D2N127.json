@@ -1,0 +1,669 @@
+{
+ "encounter_id": "D2N127",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "brandon",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "pamela",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "other provider name"
+  },
+  {
+   "field": "dialogue",
+   "text": "doctor collins",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "other provider name"
+  },
+  {
+   "field": "dialogue",
+   "text": "february",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "month of accident"
+  },
+  {
+   "field": "dialogue",
+   "text": "my mother",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "the lawyer",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "legal involvement"
+  },
+  {
+   "field": "dialogue",
+   "text": "my lawyer",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "legal involvement"
+  },
+  {
+   "field": "dialogue",
+   "text": "multiple car crashes",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life events"
+  },
+  {
+   "field": "dialogue",
+   "text": "the ones that are my fault",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life events"
+  },
+  {
+   "field": "dialogue",
+   "text": "neck pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "car crash",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S13.9XXD",
+   "why": "injury cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain clinic",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S13.9XXD",
+   "why": "neck pain care"
+  },
+  {
+   "field": "dialogue",
+   "text": "fentanyl",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S13.9XXD",
+   "why": "neck pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "stiffness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "neck symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "sharp incapacitating pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "neck pain character"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "post-injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizziness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "post-injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "visual disturbances",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "post-injury screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "neuro symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "spasms",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "neck symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain on palpation both on the bony process and on the muscle",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S13.9XXD",
+   "why": "neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "moderate range of movement",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S13.9XXD",
+   "why": "neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "really hurts to bend forward and backwards",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S13.9XXD",
+   "why": "neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "bruising",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S13.9XXD",
+   "why": "neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S13.9XXD",
+   "why": "neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "laceration",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S13.9XXD",
+   "why": "neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S13.9XXD",
+   "why": "neck imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "neck sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "broken neck",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "ct",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S13.9XXD",
+   "why": "neck imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S13.9XXD",
+   "why": "neck imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S13.9XXD",
+   "why": "neck treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "exercises",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S13.9XXD",
+   "why": "neck treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "robaxin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S13.9XXD",
+   "why": "neck treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain medicine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S13.9XXD",
+   "why": "neck pain referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "heat pad",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S13.9XXD",
+   "why": "neck treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "icyhot",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S13.9XXD",
+   "why": "neck treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "biofreeze",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S13.9XXD",
+   "why": "neck treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S13.9XXD",
+   "why": "neck treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "local injections",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S13.9XXD",
+   "why": "neck treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "therapist",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "prior therapy"
+  },
+  {
+   "field": "dialogue",
+   "text": "therapy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "prior therapy"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "prior unspecified surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "my back hurt",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded back pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "fatigue",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded symptom"
+  },
+  {
+   "field": "note",
+   "text": "Brandon Green",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "46-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "02/2022",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "accident date"
+  },
+  {
+   "field": "note",
+   "text": "4 motor vehicle accidents",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life events"
+  },
+  {
+   "field": "note",
+   "text": "Neck pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "neck pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "motor vehicle accident",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S13.9XXD",
+   "why": "injury cause"
+  },
+  {
+   "field": "note",
+   "text": "pain clinic",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S13.9XXD",
+   "why": "neck pain care"
+  },
+  {
+   "field": "note",
+   "text": "fentanyl",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S13.9XXD",
+   "why": "neck pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "sharp and incapacitating",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "neck pain character"
+  },
+  {
+   "field": "note",
+   "text": "stiffness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "neck symptom"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "post-injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "occasional dizziness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "post-injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "dizziness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "post-injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "visual disturbances",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "post-injury screen"
+  },
+  {
+   "field": "note",
+   "text": "numbness in his left arm and right leg",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "neuro symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "neuro symptom"
+  },
+  {
+   "field": "note",
+   "text": "spasms",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "neck symptom"
+  },
+  {
+   "field": "note",
+   "text": "occasional swelling and bruising of the neck",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "neck symptom"
+  },
+  {
+   "field": "note",
+   "text": "No lacerations",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S13.9XXD",
+   "why": "neck exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain on palpation on the bony process and muscle",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S13.9XXD",
+   "why": "neck exam"
+  },
+  {
+   "field": "note",
+   "text": "Moderate ROM",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S13.9XXD",
+   "why": "neck exam"
+  },
+  {
+   "field": "note",
+   "text": "No bruising or edema noted",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S13.9XXD",
+   "why": "neck exam"
+  },
+  {
+   "field": "note",
+   "text": "X-rays of the neck",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S13.9XXD",
+   "why": "neck imaging"
+  },
+  {
+   "field": "note",
+   "text": "fractures",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Neck sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S13.9XXD",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S13.9XXD",
+   "why": "neck imaging"
+  },
+  {
+   "field": "note",
+   "text": "Robaxin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S13.9XXD",
+   "why": "neck treatment"
+  },
+  {
+   "field": "note",
+   "text": "heating pad",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S13.9XXD",
+   "why": "neck treatment"
+  },
+  {
+   "field": "note",
+   "text": "IcyHot",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S13.9XXD",
+   "why": "neck treatment"
+  },
+  {
+   "field": "note",
+   "text": "Biofreeze",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S13.9XXD",
+   "why": "neck treatment"
+  },
+  {
+   "field": "note",
+   "text": "home exercise program",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S13.9XXD",
+   "why": "neck treatment"
+  },
+  {
+   "field": "note",
+   "text": "therapy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "prior therapy"
+  },
+  {
+   "field": "note",
+   "text": "surgery",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "prior unspecified surgery"
+  },
+  {
+   "field": "note",
+   "text": "neck and back pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded back pain component"
+  },
+  {
+   "field": "note",
+   "text": "fatigue",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded symptom"
+  }
+ ]
+}

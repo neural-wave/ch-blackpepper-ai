@@ -1,0 +1,549 @@
+{
+ "encounter_id": "D2N038",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "bruce",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "august first",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "screening date"
+  },
+  {
+   "field": "dialogue",
+   "text": "i do have a wife and kids",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "i used to party a lot",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal lifestyle history"
+  },
+  {
+   "field": "dialogue",
+   "text": "hep c",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B17.1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "hepatitis c",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B17.1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "hep c diagnosis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B17.1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "viral infection that does affect your liver",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B17.1",
+   "why": "coded disease description"
+  },
+  {
+   "field": "dialogue",
+   "text": "liver disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B17.1",
+   "why": "hep C liver disease"
+  },
+  {
+   "field": "dialogue",
+   "text": "iv drug use",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B17.1",
+   "why": "risk factor/cause of hep C"
+  },
+  {
+   "field": "dialogue",
+   "text": "iv drugs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B17.1",
+   "why": "risk factor/cause of hep C"
+  },
+  {
+   "field": "dialogue",
+   "text": "hep c partners",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B17.1",
+   "why": "risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "hcv antibody test",
+   "category": "c",
+   "type": "LAB",
+   "code": "B17.1",
+   "why": "diagnostic test"
+  },
+  {
+   "field": "dialogue",
+   "text": "hep c antibody test",
+   "category": "c",
+   "type": "LAB",
+   "code": "B17.1",
+   "why": "diagnostic test"
+  },
+  {
+   "field": "dialogue",
+   "text": "liver panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "B17.1",
+   "why": "liver workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "elevated ast",
+   "category": "c",
+   "type": "LAB",
+   "code": "B17.1",
+   "why": "liver evidence"
+  },
+  {
+   "field": "dialogue",
+   "text": "your alt",
+   "category": "c",
+   "type": "LAB",
+   "code": "B17.1",
+   "why": "liver workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "albumin",
+   "category": "c",
+   "type": "LAB",
+   "code": "B17.1",
+   "why": "liver workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "total bilirubin",
+   "category": "c",
+   "type": "LAB",
+   "code": "B17.1",
+   "why": "liver workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "hep c rna",
+   "category": "c",
+   "type": "LAB",
+   "code": "B17.1",
+   "why": "confirmatory test"
+  },
+  {
+   "field": "dialogue",
+   "text": "hcv genotype",
+   "category": "c",
+   "type": "LAB",
+   "code": "B17.1",
+   "why": "confirmatory test"
+  },
+  {
+   "field": "dialogue",
+   "text": "fibrosis of the liver",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B17.1",
+   "why": "severity workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "ultrasound elasto elastography",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "B17.1",
+   "why": "fibrosis workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "no jaundice",
+   "category": "c",
+   "type": "FINDING",
+   "code": "B17.1",
+   "why": "liver exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "hepatosplenomegaly",
+   "category": "c",
+   "type": "FINDING",
+   "code": "B17.1",
+   "why": "liver exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "splenomegaly",
+   "category": "c",
+   "type": "FINDING",
+   "code": "B17.1",
+   "why": "liver exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "anxious",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "alcohol use",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "beer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "alcohol use not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoke",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "tobacco use not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "cigarettes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "tobacco use not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoking",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "tobacco use not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "depression",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "grade two out of six systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "lungs are clear without wheezes rales or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "gait disturbance or edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "Bruce Ward",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "60-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "married with children",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "note",
+   "text": "Hepatitis C",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B17.1",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "hepatitis C",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B17.1",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "hepatitis C antibody test",
+   "category": "c",
+   "type": "LAB",
+   "code": "B17.1",
+   "why": "diagnostic"
+  },
+  {
+   "field": "note",
+   "text": "HCV antibody test",
+   "category": "c",
+   "type": "LAB",
+   "code": "B17.1",
+   "why": "diagnostic"
+  },
+  {
+   "field": "note",
+   "text": "intravenous drug use",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B17.1",
+   "why": "risk factor"
+  },
+  {
+   "field": "note",
+   "text": "IV drug use",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B17.1",
+   "why": "risk factor"
+  },
+  {
+   "field": "note",
+   "text": "Liver panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "B17.1",
+   "why": "liver workup"
+  },
+  {
+   "field": "note",
+   "text": "elevated AST",
+   "category": "c",
+   "type": "LAB",
+   "code": "B17.1",
+   "why": "liver evidence"
+  },
+  {
+   "field": "note",
+   "text": "ALT",
+   "category": "c",
+   "type": "LAB",
+   "code": "B17.1",
+   "why": "liver workup"
+  },
+  {
+   "field": "note",
+   "text": "albumin",
+   "category": "c",
+   "type": "LAB",
+   "code": "B17.1",
+   "why": "liver workup"
+  },
+  {
+   "field": "note",
+   "text": "total bilirubin",
+   "category": "c",
+   "type": "LAB",
+   "code": "B17.1",
+   "why": "liver workup"
+  },
+  {
+   "field": "note",
+   "text": "hepatitis C RNA",
+   "category": "c",
+   "type": "LAB",
+   "code": "B17.1",
+   "why": "confirmatory"
+  },
+  {
+   "field": "note",
+   "text": "HCV genotype",
+   "category": "c",
+   "type": "LAB",
+   "code": "B17.1",
+   "why": "confirmatory"
+  },
+  {
+   "field": "note",
+   "text": "ultrasound elastography",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "B17.1",
+   "why": "fibrosis workup"
+  },
+  {
+   "field": "note",
+   "text": "fibrosis of the liver",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B17.1",
+   "why": "severity"
+  },
+  {
+   "field": "note",
+   "text": "No jaundice",
+   "category": "c",
+   "type": "FINDING",
+   "code": "B17.1",
+   "why": "liver exam"
+  },
+  {
+   "field": "note",
+   "text": "hepatosplenomegaly",
+   "category": "c",
+   "type": "FINDING",
+   "code": "B17.1",
+   "why": "liver exam"
+  },
+  {
+   "field": "note",
+   "text": "anxious",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "heavy alcohol use",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "beer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "smokes 1 to 2 cigarettes per day",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "tobacco not coded"
+  },
+  {
+   "field": "note",
+   "text": "smoking 1 to 2 cigarettes per day",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "tobacco not coded"
+  },
+  {
+   "field": "note",
+   "text": "high blood pressure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "depression",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "Grade 2 out of 6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Lungs are clear without wheezes, rales, or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  }
+ ]
+}

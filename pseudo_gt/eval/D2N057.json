@@ -1,0 +1,573 @@
+{
+ "encounter_id": "D2N057",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "joseph",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "trade show convention",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific event"
+  },
+  {
+   "field": "dialogue",
+   "text": "ride bikes",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "riding a bike",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "ride the lot of rails the trails",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "cycling hobby/location"
+  },
+  {
+   "field": "dialogue",
+   "text": "rails the trails",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "trail network"
+  },
+  {
+   "field": "dialogue",
+   "text": "eight hundred miles",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "cycling achievement"
+  },
+  {
+   "field": "dialogue",
+   "text": "runner",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "flip flops",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "mexican's food",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "food preference"
+  },
+  {
+   "field": "dialogue",
+   "text": "on my feet every day",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "fishing season",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "fishing",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "catching blue going croppy",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "fishing hobby detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "big toe hurts",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M20.21",
+   "why": "hallux rigidus symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "a little red",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M20.21",
+   "why": "toe redness"
+  },
+  {
+   "field": "dialogue",
+   "text": "throbbing pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M20.21",
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "sharp stabbing pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M20.21",
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "walking on my heel",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M20.21",
+   "why": "compensatory gait"
+  },
+  {
+   "field": "dialogue",
+   "text": "red and warm to touch",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M20.21",
+   "why": "toe inflammation"
+  },
+  {
+   "field": "dialogue",
+   "text": "injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M20.21",
+   "why": "negated injury history"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M20.21",
+   "why": "toe pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M20.21",
+   "why": "exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "ten degrees of plantar flexion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M20.21",
+   "why": "exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "grinding",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M20.21",
+   "why": "crepitus"
+  },
+  {
+   "field": "dialogue",
+   "text": "bone spur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M20.21",
+   "why": "exam/x-ray"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M20.21",
+   "why": "imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "large spur there on the top of your big toe joint",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M20.21",
+   "why": "x-ray finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "lost a lot of the cartilage",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M20.21",
+   "why": "x-ray finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M20.21",
+   "why": "hallux rigidus"
+  },
+  {
+   "field": "dialogue",
+   "text": "hallux rigidus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M20.21",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "orthotic",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M20.21",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "orthotics",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M20.21",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "anti-inflammatory medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M20.21",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "anti-inflammatory",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M20.21",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M20.21",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "shot",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M20.21",
+   "why": "treatment option"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M20.21",
+   "why": "treatment option"
+  },
+  {
+   "field": "dialogue",
+   "text": "clean out the joint",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M20.21",
+   "why": "treatment option"
+  },
+  {
+   "field": "dialogue",
+   "text": "fuse the big toe joint",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M20.21",
+   "why": "treatment option"
+  },
+  {
+   "field": "dialogue",
+   "text": "trouble with your stomach",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "GI history screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "irritate the stomach",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "NSAID side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "heartburn",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "NSAID side effect"
+  },
+  {
+   "field": "note",
+   "text": "Joseph Walker",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "58-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "trade show convention",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific event"
+  },
+  {
+   "field": "note",
+   "text": "bicycle ride",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "Right great toe pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M20.21",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "right great toe pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M20.21",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "throbbing and burning",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M20.21",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "sharp, stabbing pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M20.21",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "redness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M20.21",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "ambulating on his heel",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M20.21",
+   "why": "compensatory gait"
+  },
+  {
+   "field": "note",
+   "text": "injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M20.21",
+   "why": "negated injury history"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M20.21",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "10 degrees of plantar flexion with pain",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M20.21",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain to palpation of the right great toe",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M20.21",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "bone spur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M20.21",
+   "why": "exam/x-ray"
+  },
+  {
+   "field": "note",
+   "text": "X-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M20.21",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M20.21",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "large bone spur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M20.21",
+   "why": "x-ray finding"
+  },
+  {
+   "field": "note",
+   "text": "loss of cartilage",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M20.21",
+   "why": "x-ray finding"
+  },
+  {
+   "field": "note",
+   "text": "arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M20.21",
+   "why": "hallux rigidus"
+  },
+  {
+   "field": "note",
+   "text": "Right foot hallux rigidus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M20.21",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hallux rigidus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M20.21",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "custom orthotics",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M20.21",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "orthotics",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M20.21",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M20.21",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "cortisone injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M20.21",
+   "why": "treatment option"
+  },
+  {
+   "field": "note",
+   "text": "surgical intervention",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M20.21",
+   "why": "treatment option"
+  },
+  {
+   "field": "note",
+   "text": "gastrointestinal issues",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "NSAID side effect"
+  }
+ ]
+}

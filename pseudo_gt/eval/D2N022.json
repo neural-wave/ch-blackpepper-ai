@@ -1,0 +1,1013 @@
+{
+ "encounter_id": "D2N022",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "philip gutierrez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "gutierrez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "dialogue",
+   "text": "1/12/71",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "50-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "march",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "month of accident"
+  },
+  {
+   "field": "dialogue",
+   "text": "4/24/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "MRI date"
+  },
+  {
+   "field": "dialogue",
+   "text": "alice davis",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "physician name"
+  },
+  {
+   "field": "dialogue",
+   "text": "point may orthopedics",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named clinic"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray tech",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "patient job"
+  },
+  {
+   "field": "dialogue",
+   "text": "right-handed",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "handedness"
+  },
+  {
+   "field": "dialogue",
+   "text": "motor vehicle accident",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M65.841",
+   "why": "cause of post-traumatic tenosynovitis"
+  },
+  {
+   "field": "dialogue",
+   "text": "passenger in , uh , a car that was rear-ended",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M65.841",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "wreck",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M65.841",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "hyperextension injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M65.841",
+   "why": "cause of coded condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "injection of the a1 polyregion",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "treatment option"
+  },
+  {
+   "field": "dialogue",
+   "text": "steroid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "therapeutic steroid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "capsular strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M65.841",
+   "why": "differential of finger injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "rupture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M65.841",
+   "why": "differential of finger injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "fds tendon",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "affected tendon"
+  },
+  {
+   "field": "dialogue",
+   "text": "focal soft tissue swelling over the right index mcp joint",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "MRI finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "partial-thickness tear of the right fds",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "MRI finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenosynovitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M65.841",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "no bony abnormalities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "x-ray finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "swollen",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "ca n't make a fist",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "a tear in my finger",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "MRI finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "occupational therapist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "occupational therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "treatment option"
+  },
+  {
+   "field": "dialogue",
+   "text": "10-degree pip-flexed",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "a little numb",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "slightly diminished over the pip of the index finger",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "splint",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "partial tear in one of the two flexor tendons",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "diagnosis explanation"
+  },
+  {
+   "field": "dialogue",
+   "text": "flexor digitorum superficialis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "affected tendon"
+  },
+  {
+   "field": "dialogue",
+   "text": "scar tissue and inflammation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "pathophysiology"
+  },
+  {
+   "field": "dialogue",
+   "text": "scar tissue",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "pathophysiology"
+  },
+  {
+   "field": "dialogue",
+   "text": "cortisone injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "betamethasone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "celestone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "stiff , sore finger",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "post-traumatic inflammation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M65.841",
+   "why": "diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "post-traumatic rather severe stenosing tenosynovitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M65.841",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "steroid injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "trigger injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "trigger finger injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lidocaine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M65.841",
+   "why": "procedure anesthetic"
+  },
+  {
+   "field": "dialogue",
+   "text": "flexor tendon sheath",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "injection target"
+  },
+  {
+   "field": "dialogue",
+   "text": "palmar vein bled",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "procedure complication"
+  },
+  {
+   "field": "dialogue",
+   "text": "icing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "post-procedure care"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M65.841",
+   "why": "post-procedure care"
+  },
+  {
+   "field": "dialogue",
+   "text": "dexamethasone",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "drug reaction/allergy"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart to race",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "drug reaction"
+  },
+  {
+   "field": "dialogue",
+   "text": "methylprednisolone",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "drug allergy"
+  },
+  {
+   "field": "dialogue",
+   "text": "itching",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "drug reaction"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negative history"
+  },
+  {
+   "field": "dialogue",
+   "text": "rheumatoid arthritis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negative history"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure pill",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated HTN med"
+  },
+  {
+   "field": "dialogue",
+   "text": "arthritis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negative x-ray finding unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Philip Gutierrez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Gutierrez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "note",
+   "text": "50-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "03/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "accident date"
+  },
+  {
+   "field": "note",
+   "text": "March",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "accident month"
+  },
+  {
+   "field": "note",
+   "text": "04/24/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "MRI date"
+  },
+  {
+   "field": "note",
+   "text": "Alice Davis",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "physician name"
+  },
+  {
+   "field": "note",
+   "text": "Point May Orthopedics",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named clinic"
+  },
+  {
+   "field": "note",
+   "text": "x-ray technician",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "patient job"
+  },
+  {
+   "field": "note",
+   "text": "right-hand-dominant",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "handedness"
+  },
+  {
+   "field": "note",
+   "text": "motor vehicle accident",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M65.841",
+   "why": "cause of post-traumatic tenosynovitis"
+  },
+  {
+   "field": "note",
+   "text": "passenger in a vehicle that was rear-ended",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M65.841",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "hyperextension injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M65.841",
+   "why": "cause of coded condition"
+  },
+  {
+   "field": "note",
+   "text": "hyperextending his right index finger",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M65.841",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "injection of the A1 pulley region",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "treatment option"
+  },
+  {
+   "field": "note",
+   "text": "steroid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "capsular strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M65.841",
+   "why": "differential"
+  },
+  {
+   "field": "note",
+   "text": "rupture of the \"FDS tendon.\"",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M65.841",
+   "why": "differential"
+  },
+  {
+   "field": "note",
+   "text": "unable to make a fist",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "pain and swelling in the right index finger",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "pulling, tearing sensation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "Right index finger pain",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "right index finger splint",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Slightly diminished sensation to light touch",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "no swelling or ecchymosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "10 degree PIP joint flexed position",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "X-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "no bony abnormalities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "x-ray finding"
+  },
+  {
+   "field": "note",
+   "text": "focal soft tissue swelling over the right index MCP joint",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "MRI finding"
+  },
+  {
+   "field": "note",
+   "text": "partial-thickness tear of the right FDS",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "MRI finding"
+  },
+  {
+   "field": "note",
+   "text": "tenosynovitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M65.841",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Stenosing tenosynovitis of right index finger",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M65.841",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "post-traumatic stenosing tenosynovitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M65.841",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "stenosing tenosynovitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M65.841",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "post-traumatic inflammation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M65.841",
+   "why": "pathophysiology"
+  },
+  {
+   "field": "note",
+   "text": "flexor digitorum superficialis tendon",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "affected tendon"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "corticosteroid injections",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Surgical correction",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "treatment option"
+  },
+  {
+   "field": "note",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "treatment option"
+  },
+  {
+   "field": "note",
+   "text": "trigger finger cortisone injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Right index trigger finger injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "occupational therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Occupational therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Celestone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M65.841",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "lidocaine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M65.841",
+   "why": "procedure anesthetic"
+  },
+  {
+   "field": "note",
+   "text": "flexor tendon sheath",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "injection target"
+  },
+  {
+   "field": "note",
+   "text": "small palmar vein that bled",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M65.841",
+   "why": "procedure complication"
+  },
+  {
+   "field": "note",
+   "text": "icing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M65.841",
+   "why": "post-procedure care"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M65.841",
+   "why": "post-procedure care"
+  },
+  {
+   "field": "note",
+   "text": "dexamethasone",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "drug reaction"
+  },
+  {
+   "field": "note",
+   "text": "Dexamethasone",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "drug allergy"
+  },
+  {
+   "field": "note",
+   "text": "heart to race",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "drug reaction"
+  },
+  {
+   "field": "note",
+   "text": "palpitations",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "drug reaction"
+  },
+  {
+   "field": "note",
+   "text": "methylprednisolone",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "drug allergy"
+  },
+  {
+   "field": "note",
+   "text": "Methylprednisolone",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "drug allergy"
+  },
+  {
+   "field": "note",
+   "text": "itching",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "drug reaction"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negative history"
+  },
+  {
+   "field": "note",
+   "text": "rheumatoid arthritis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negative history"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "arthritis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negative x-ray finding"
+  }
+ ]
+}

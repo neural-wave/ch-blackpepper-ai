@@ -1,0 +1,325 @@
+{
+ "encounter_id": "D2N053",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "barbara",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "my sister",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family member detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "i do dye my hair",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "itchy scalp pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.0",
+   "why": "psoriasis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "itchy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.0",
+   "why": "psoriasis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "itching",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.0",
+   "why": "psoriasis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "dandruff",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.0",
+   "why": "psoriasis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "scaly",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L40.0",
+   "why": "psoriasis finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "demarcated scaly erythematous plaques",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L40.0",
+   "why": "psoriasis finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "white dander",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L40.0",
+   "why": "psoriasis finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "scalp psoriasis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "high levels of stress",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.0",
+   "why": "psoriasis trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "t gel",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L40.0",
+   "why": "psoriasis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "t-gel shampoo",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L40.0",
+   "why": "psoriasis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "head and shoulders",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L40.0",
+   "why": "tried for scalp"
+  },
+  {
+   "field": "dialogue",
+   "text": "castor oil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L40.0",
+   "why": "tried for scalp"
+  },
+  {
+   "field": "dialogue",
+   "text": "clobetasol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L40.0",
+   "why": "psoriasis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "steroids",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L40.0",
+   "why": "psoriasis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "steroid solution",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L40.0",
+   "why": "psoriasis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "flareups",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.0",
+   "why": "psoriasis flares"
+  },
+  {
+   "field": "dialogue",
+   "text": "flare ups",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.0",
+   "why": "psoriasis flares"
+  },
+  {
+   "field": "dialogue",
+   "text": "rashes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "joint pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight loss",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "dry scalp",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "sister's symptom"
+  },
+  {
+   "field": "note",
+   "text": "Itchy scalp pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.0",
+   "why": "psoriasis symptom"
+  },
+  {
+   "field": "note",
+   "text": "scalp pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.0",
+   "why": "psoriasis symptom"
+  },
+  {
+   "field": "note",
+   "text": "itchy scalp",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.0",
+   "why": "psoriasis symptom"
+  },
+  {
+   "field": "note",
+   "text": "demarcated scaly, erythematous plaques",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L40.0",
+   "why": "psoriasis finding"
+  },
+  {
+   "field": "note",
+   "text": "Scalp psoriasis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "scalp psoriasis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "clobetasol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L40.0",
+   "why": "psoriasis treatment"
+  },
+  {
+   "field": "note",
+   "text": "T/Gel shampoo",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L40.0",
+   "why": "psoriasis treatment"
+  },
+  {
+   "field": "note",
+   "text": "steroids",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L40.0",
+   "why": "psoriasis treatment"
+  },
+  {
+   "field": "note",
+   "text": "flare ups",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.0",
+   "why": "psoriasis flares"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "weight loss",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "joint pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "rashes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  }
+ ]
+}

@@ -1,0 +1,429 @@
+{
+ "encounter_id": "D2N034",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "alan",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "running and jogging and lifting weights",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "exercise hobbies"
+  },
+  {
+   "field": "dialogue",
+   "text": "work in my basement",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.412",
+   "why": "suspected cause of shoulder problem"
+  },
+  {
+   "field": "dialogue",
+   "text": "new ceiling",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.412",
+   "why": "suspected cause of shoulder problem"
+  },
+  {
+   "field": "dialogue",
+   "text": "working on your basement",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.412",
+   "why": "suspected cause of shoulder problem"
+  },
+  {
+   "field": "dialogue",
+   "text": "left shoulder pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.412",
+   "why": "coded shoulder condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "shoulder pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.412",
+   "why": "coded shoulder condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain of my shoulder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.412",
+   "why": "coded shoulder condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "pains in my shoulders",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.412",
+   "why": "prior shoulder pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.412",
+   "why": "shoulder pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "icing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.412",
+   "why": "shoulder treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "iced",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.412",
+   "why": "shoulder treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "affecting my sleep",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.412",
+   "why": "shoulder pain impact"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.412",
+   "why": "negated, shoulder neuro check"
+  },
+  {
+   "field": "dialogue",
+   "text": "tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.412",
+   "why": "negated, shoulder neuro check"
+  },
+  {
+   "field": "dialogue",
+   "text": "limited active and passive range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.412",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness of the greater",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.412",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "tuberosity of the humerus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.412",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness at the sternoclavicular",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.412",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "acromioclavicular joints",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.412",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray of your shoulder",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.412",
+   "why": "shoulder imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "fractures",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "bony abnormalities",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "rotator cuff tendinopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.412",
+   "why": "likely cause of shoulder effusion/pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "injured tendons",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.412",
+   "why": "rotator cuff explanation"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri of your left shoulder",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.412",
+   "why": "shoulder imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.412",
+   "why": "shoulder treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pt",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.412",
+   "why": "shoulder treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "rehab",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.412",
+   "why": "shoulder treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "steroid injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.412",
+   "why": "shoulder treatment option"
+  },
+  {
+   "field": "note",
+   "text": "Alan Mitchell",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "69-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "renovating his basement",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.412",
+   "why": "suspected cause of shoulder problem"
+  },
+  {
+   "field": "note",
+   "text": "new ceiling",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.412",
+   "why": "suspected cause of shoulder problem"
+  },
+  {
+   "field": "note",
+   "text": "Left shoulder pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.412",
+   "why": "coded shoulder condition"
+  },
+  {
+   "field": "note",
+   "text": "left shoulder pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.412",
+   "why": "coded shoulder condition"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.412",
+   "why": "shoulder pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "iced",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.412",
+   "why": "shoulder treatment"
+  },
+  {
+   "field": "note",
+   "text": "difficulty sleeping",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.412",
+   "why": "shoulder pain impact"
+  },
+  {
+   "field": "note",
+   "text": "numbness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.412",
+   "why": "negated, shoulder neuro check"
+  },
+  {
+   "field": "note",
+   "text": "tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.412",
+   "why": "negated, shoulder neuro check"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.412",
+   "why": "shoulder treatment"
+  },
+  {
+   "field": "note",
+   "text": "Limited active and passive ROM",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.412",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "note",
+   "text": "Tenderness over the greater tuberosity of the humerus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.412",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "note",
+   "text": "No tenderness at the sternoclavicular or AC joints",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.412",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "note",
+   "text": "X-rays of the left shoulder",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.412",
+   "why": "shoulder imaging"
+  },
+  {
+   "field": "note",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.412",
+   "why": "shoulder imaging"
+  },
+  {
+   "field": "note",
+   "text": "fracture",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "bony abnormalities",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "rotator cuff tendinopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.412",
+   "why": "likely cause of shoulder effusion/pain"
+  },
+  {
+   "field": "note",
+   "text": "MRI of the left shoulder",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.412",
+   "why": "shoulder imaging"
+  },
+  {
+   "field": "note",
+   "text": "MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.412",
+   "why": "shoulder imaging"
+  },
+  {
+   "field": "note",
+   "text": "steroid injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.412",
+   "why": "shoulder treatment option"
+  }
+ ]
+}

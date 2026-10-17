@@ -1,0 +1,685 @@
+{
+ "encounter_id": "D2N190",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "beverly",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "howard",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "partner",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relationship detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "children's hospital",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "workplace"
+  },
+  {
+   "field": "dialogue",
+   "text": "baby rocker",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job"
+  },
+  {
+   "field": "dialogue",
+   "text": "nicu's",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "workplace unit"
+  },
+  {
+   "field": "dialogue",
+   "text": "rocking kids",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job"
+  },
+  {
+   "field": "dialogue",
+   "text": "walks with my dog",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby/pet"
+  },
+  {
+   "field": "dialogue",
+   "text": "walking dogs",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby/pet"
+  },
+  {
+   "field": "dialogue",
+   "text": "walking the dog",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby/pet"
+  },
+  {
+   "field": "dialogue",
+   "text": "swim",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "gym",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle"
+  },
+  {
+   "field": "dialogue",
+   "text": "play sports",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "athletic history"
+  },
+  {
+   "field": "dialogue",
+   "text": "high school",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "education/sport history"
+  },
+  {
+   "field": "dialogue",
+   "text": "rockets",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports team"
+  },
+  {
+   "field": "dialogue",
+   "text": "nets",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports team"
+  },
+  {
+   "field": "dialogue",
+   "text": "bulls",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports team"
+  },
+  {
+   "field": "dialogue",
+   "text": "dallas",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "city of residence"
+  },
+  {
+   "field": "dialogue",
+   "text": "fell off of my tandem bike",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "cause of knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "hit it on the curb",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee trauma"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded site"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee has been hurting",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "band-aid",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "wound care"
+  },
+  {
+   "field": "dialogue",
+   "text": "medial joint line tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pes bursa nontender",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "popliteal space is nontender",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "abrasions",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee wound"
+  },
+  {
+   "field": "dialogue",
+   "text": "clicks",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "full extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "medial collateral ligament intact",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "lateral collateral ligament intact",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "laxity posterior drawer",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "one plus posterior drawer",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "anterior drawer negative",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "lachman negative",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "crepitus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "negative mcmurray",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "unstable",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee instability"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "bone spurs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "x-ray finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "posterior cruciate ligament",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "suspected injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri scan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "meniscus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "chipped some cartilage",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "brace",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "bracing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice ice packs",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee swelling"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "possible treatment"
+  },
+  {
+   "field": "note",
+   "text": "Beverly Howard",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "33-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "walking her dogs",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby/pet"
+  },
+  {
+   "field": "note",
+   "text": "swimming",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "Children's Hospital",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "workplace"
+  },
+  {
+   "field": "note",
+   "text": "right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "fell off of a tandem bicycle",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "cause"
+  },
+  {
+   "field": "note",
+   "text": "struck her right knee on a curb",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "cause"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "clicking",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee symptom"
+  },
+  {
+   "field": "note",
+   "text": "instability",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee symptom"
+  },
+  {
+   "field": "note",
+   "text": "Tenderness along the medial joint line",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Pes bursa is nontender",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Popliteal space is nontender",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "dime-sized abrasion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee wound"
+  },
+  {
+   "field": "note",
+   "text": "Laxity with posterior drawer testing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "1+ posterior drawer test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Negative Lachman test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "No crepitus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Negative McMurray test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "4 views of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "fractures or dislocations",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "possible posterior cruciate ligament sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "suspected cause"
+  },
+  {
+   "field": "note",
+   "text": "posterior cruciate ligament injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "suspected cause"
+  },
+  {
+   "field": "note",
+   "text": "MRI of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "MRI, right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "brace",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "formal physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "ice her right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee swelling"
+  },
+  {
+   "field": "note",
+   "text": "Prescription medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "pain treatment"
+  }
+ ]
+}

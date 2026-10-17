@@ -1,0 +1,1013 @@
+{
+ "encounter_id": "D2N180",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "shirley taylor",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "ms. taylor",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "taylor",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "5/4/1961",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "0000123",
+   "category": "a",
+   "type": "CONTACT_ID",
+   "code": null,
+   "why": "medical record number"
+  },
+  {
+   "field": "dialogue",
+   "text": "60 year old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "dr. jacob ward",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "referring doctor"
+  },
+  {
+   "field": "dialogue",
+   "text": "jacob ward",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "referring doctor"
+  },
+  {
+   "field": "dialogue",
+   "text": "dr . lopez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor name"
+  },
+  {
+   "field": "dialogue",
+   "text": "lopez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor name"
+  },
+  {
+   "field": "dialogue",
+   "text": "2/5/21",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "imaging date"
+  },
+  {
+   "field": "dialogue",
+   "text": "last december",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of accident"
+  },
+  {
+   "field": "dialogue",
+   "text": "bilateral carpal tunnel syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "bilateral hand numbness and tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness and tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "tingling and numbness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "sore",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "throb",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "weaker",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "less sensitive",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "parasthesia , bilateral hands",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "car wreck",
+   "category": "c",
+   "type": "QUASI",
+   "code": "G56.03",
+   "why": "cause of wrist trauma"
+  },
+  {
+   "field": "dialogue",
+   "text": "broke them",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "prior wrist fractures causing CTS"
+  },
+  {
+   "field": "dialogue",
+   "text": "splint",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "splints",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nerve pain medicine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G56.03",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pin prick sensation diminished in the third and forth fingers on the right",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G56.03",
+   "why": "CTS exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "tinel's sign positive at both wrists and both elbows",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G56.03",
+   "why": "CTS exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "emg",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "ncv",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "hand clinic referral",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "symptomatic injections",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "carpal tunnel release surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "orthopedist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "thyroid issues",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS differential (negated)"
+  },
+  {
+   "field": "dialogue",
+   "text": "pre-diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "bilateral cubital tunnel syndrome",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "differential not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "ct brain",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "metastatic disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "acute intercranial abnormalities",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "stiffness in my neck",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "hit my head",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "head injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "contusion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "head injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "chronic kidney disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "gout",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "anxiety",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "gerd",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "carvedilol",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "antihypertensive"
+  },
+  {
+   "field": "dialogue",
+   "text": "lexapro",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "anxiolytic"
+  },
+  {
+   "field": "dialogue",
+   "text": "sulfa drugs",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "drug allergy"
+  },
+  {
+   "field": "dialogue",
+   "text": "rash",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "allergic reaction"
+  },
+  {
+   "field": "dialogue",
+   "text": "fatigue",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight gain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "excessive appetite",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "bloating",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "floaters",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "leg swelling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "always hungry",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nail bed trenches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "dryness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "itching",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "muscle pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "reflexes are one plus and symmetric",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "toes are down going bilaterally",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "60-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "last December",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of accident"
+  },
+  {
+   "field": "note",
+   "text": "02/05/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "imaging date"
+  },
+  {
+   "field": "note",
+   "text": "Bilateral carpal tunnel syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Upper extremity tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness and tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness, tingling, and pain in both hands",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "note",
+   "text": "tingle",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "note",
+   "text": "tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "note",
+   "text": "sore with palpation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "note",
+   "text": "weaker than before",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "note",
+   "text": "less sensitive than they should be",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "note",
+   "text": "bilateral paresthesia of hands",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "note",
+   "text": "broke both wrists",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "prior wrist fractures causing CTS"
+  },
+  {
+   "field": "note",
+   "text": "MVA",
+   "category": "c",
+   "type": "QUASI",
+   "code": "G56.03",
+   "why": "cause of wrist trauma"
+  },
+  {
+   "field": "note",
+   "text": "splint",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "note",
+   "text": "splints",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "note",
+   "text": "nerve pain medicine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G56.03",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "note",
+   "text": "pinprick sensation diminished in the 3rd and 4th fingers on the right and the 4th and 5th fingers on the left",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G56.03",
+   "why": "CTS exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Tinel's sign positive at both wrists and both elbows",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G56.03",
+   "why": "CTS exam finding"
+  },
+  {
+   "field": "note",
+   "text": "EMG/NCV",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS workup"
+  },
+  {
+   "field": "note",
+   "text": "Hand Clinic referral",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS referral"
+  },
+  {
+   "field": "note",
+   "text": "symptomatic injections",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "note",
+   "text": "carpal tunnel release surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "note",
+   "text": "orthopedist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.03",
+   "why": "CTS referral"
+  },
+  {
+   "field": "note",
+   "text": "thyroid issues",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS differential (negated)"
+  },
+  {
+   "field": "note",
+   "text": "prediabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS risk factor"
+  },
+  {
+   "field": "note",
+   "text": "Prediabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.03",
+   "why": "CTS risk factor"
+  },
+  {
+   "field": "note",
+   "text": "bilateral cubital tunnel syndrome",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "differential not coded"
+  },
+  {
+   "field": "note",
+   "text": "stiffness in her neck",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "hit her head",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "head injury"
+  },
+  {
+   "field": "note",
+   "text": "contusion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "head injury"
+  },
+  {
+   "field": "note",
+   "text": "carvedilol",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "antihypertensive"
+  },
+  {
+   "field": "note",
+   "text": "Carvedilol",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "antihypertensive"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "note",
+   "text": "Lexapro",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "anxiolytic"
+  },
+  {
+   "field": "note",
+   "text": "anxiety",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "note",
+   "text": "Chronic kidney disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "note",
+   "text": "CKD",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "note",
+   "text": "Gastric esophageal reflux disorder",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "note",
+   "text": "GERD",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "note",
+   "text": "Sulfa",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "drug allergy"
+  },
+  {
+   "field": "note",
+   "text": "rash",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "allergic reaction"
+  },
+  {
+   "field": "note",
+   "text": "increased fatigue",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "note",
+   "text": "weight gain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "note",
+   "text": "floaters",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "note",
+   "text": "leg swelling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "note",
+   "text": "excessive hunger and bloating",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "note",
+   "text": "excessive hunger",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "note",
+   "text": "gout",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS condition"
+  },
+  {
+   "field": "note",
+   "text": "muscle pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "note",
+   "text": "nail bed changes, dryness, and itching",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS symptom"
+  },
+  {
+   "field": "note",
+   "text": "Toes are downgoing bilaterally",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "CT brain with and without contrast",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated imaging"
+  },
+  {
+   "field": "note",
+   "text": "metastatic disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "acute intracranial abnormalities",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated imaging finding"
+  }
+ ]
+}

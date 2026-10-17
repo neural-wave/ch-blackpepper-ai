@@ -1,0 +1,1109 @@
+{
+ "encounter_id": "D2N027",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "eugene walker",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "walker",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "4/14/1960",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "61-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "1/22/2013",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "surgery date"
+  },
+  {
+   "field": "dialogue",
+   "text": "1/20/2013",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "surgery date"
+  },
+  {
+   "field": "dialogue",
+   "text": "4/10/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "blood work date"
+  },
+  {
+   "field": "dialogue",
+   "text": "september 9th , 2019",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "stress test date"
+  },
+  {
+   "field": "dialogue",
+   "text": "january 15th , '21",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "vaccine date"
+  },
+  {
+   "field": "dialogue",
+   "text": "february 5th , '21",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "vaccine date"
+  },
+  {
+   "field": "dialogue",
+   "text": "tyler",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "friend name"
+  },
+  {
+   "field": "dialogue",
+   "text": "lewis",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor name"
+  },
+  {
+   "field": "dialogue",
+   "text": "vincent sanchez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "cardiologist name"
+  },
+  {
+   "field": "dialogue",
+   "text": "hopkins",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named hospital"
+  },
+  {
+   "field": "dialogue",
+   "text": "ride my bike",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "cycling hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "road bike",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "cycling hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "long bike ride",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "cycling hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "40 miles",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "cycling achievement"
+  },
+  {
+   "field": "dialogue",
+   "text": "bike 30 miles",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "cycling hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "bicycle around 20 to 30 miles",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "cycling hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "lecture",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "lecturer job"
+  },
+  {
+   "field": "dialogue",
+   "text": "5:45 swim",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "swimming routine"
+  },
+  {
+   "field": "dialogue",
+   "text": "aortic valve replacement",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "completed treatment being followed up"
+  },
+  {
+   "field": "dialogue",
+   "text": "ascending aortic aneurysm repair",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "completed treatment being followed up"
+  },
+  {
+   "field": "dialogue",
+   "text": "aortic aneurysm repair",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "completed treatment being followed up"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart thing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z09",
+   "why": "valve condition followed up"
+  },
+  {
+   "field": "dialogue",
+   "text": "valve",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "valve replacement follow-up"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "valve surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "post-valve follow-up"
+  },
+  {
+   "field": "dialogue",
+   "text": "stress test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "post-valve follow-up"
+  },
+  {
+   "field": "dialogue",
+   "text": "cardiology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "post-valve follow-up referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "clindamycin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z09",
+   "why": "endocarditis prophylaxis after valve replacement"
+  },
+  {
+   "field": "dialogue",
+   "text": "alkaline phosphatase",
+   "category": "c",
+   "type": "LAB",
+   "code": "R74.8",
+   "why": "elevated serum enzyme"
+  },
+  {
+   "field": "dialogue",
+   "text": "alkaline phosphatate",
+   "category": "c",
+   "type": "LAB",
+   "code": "R74.8",
+   "why": "elevated serum enzyme"
+  },
+  {
+   "field": "dialogue",
+   "text": "liver",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R74.8",
+   "why": "possible source of alk phos"
+  },
+  {
+   "field": "dialogue",
+   "text": "bone health",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R74.8",
+   "why": "possible source of alk phos"
+  },
+  {
+   "field": "dialogue",
+   "text": "a gt",
+   "category": "c",
+   "type": "LAB",
+   "code": "R74.8",
+   "why": "GGT for alk phos workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "cmd",
+   "category": "c",
+   "type": "LAB",
+   "code": "R74.8",
+   "why": "CMP showing alk phos"
+  },
+  {
+   "field": "dialogue",
+   "text": "cmv",
+   "category": "c",
+   "type": "LAB",
+   "code": "R74.8",
+   "why": "abnormal lab referenced (alk phos)"
+  },
+  {
+   "field": "dialogue",
+   "text": "fatigue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.8",
+   "why": "listed under lung field finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "tired",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.8",
+   "why": "listed under lung field finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "tiredness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.8",
+   "why": "listed under lung field finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "fatigued",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.8",
+   "why": "listed under lung field finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "purse my lips",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.8",
+   "why": "abnormal lung finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pursed lips breathing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.8",
+   "why": "abnormal lung finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pursed lip breathing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.8",
+   "why": "abnormal lung finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "purse his lips",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.8",
+   "why": "abnormal lung finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "wheezing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.8",
+   "why": "lung finding workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "exhalation is low",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.8",
+   "why": "abnormal lung finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "low exhalation phase",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.8",
+   "why": "abnormal lung finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "exhalation phase is low",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.8",
+   "why": "abnormal lung finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pulmonary function test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R91.8",
+   "why": "lung finding workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "pfts",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R91.8",
+   "why": "lung finding workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "lung field abnormal finding",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.8",
+   "why": "coded lung finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "testicular exams",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N50.89",
+   "why": "testicular nodule context"
+  },
+  {
+   "field": "dialogue",
+   "text": "nodule on my right testicle",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N50.89",
+   "why": "coded genital disorder"
+  },
+  {
+   "field": "dialogue",
+   "text": "nodule in your right testicle",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N50.89",
+   "why": "coded genital disorder"
+  },
+  {
+   "field": "dialogue",
+   "text": "palpable nodule",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N50.89",
+   "why": "coded genital disorder"
+  },
+  {
+   "field": "dialogue",
+   "text": "right testicular nodule",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N50.89",
+   "why": "coded genital disorder"
+  },
+  {
+   "field": "dialogue",
+   "text": "epididymis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N50.89",
+   "why": "nodule location"
+  },
+  {
+   "field": "dialogue",
+   "text": "vasectomy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N50.89",
+   "why": "nodule workup history"
+  },
+  {
+   "field": "dialogue",
+   "text": "variococele",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N50.89",
+   "why": "nodule differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "urology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N50.89",
+   "why": "nodule referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N50.89",
+   "why": "nodule workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "hernia",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipid panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "total cholesterol",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "hdl",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "ldl",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "triglycerides",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "tsh",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "cbc",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "vitamin d level",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "vitamin d3",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated supplement"
+  },
+  {
+   "field": "dialogue",
+   "text": "depression",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "snore",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "stop breathing",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "apnea screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "covid-19 shot",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vaccination"
+  },
+  {
+   "field": "dialogue",
+   "text": "covid-19",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vaccination"
+  },
+  {
+   "field": "dialogue",
+   "text": "mmr",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vaccination"
+  },
+  {
+   "field": "dialogue",
+   "text": "shingles vaccine",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vaccination"
+  },
+  {
+   "field": "dialogue",
+   "text": "mmr titer",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "preventive lab"
+  },
+  {
+   "field": "note",
+   "text": "Eugene Walker",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Walker",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "61-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "01/22/2013",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "surgery date"
+  },
+  {
+   "field": "note",
+   "text": "09/09/2019",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "stress test date"
+  },
+  {
+   "field": "note",
+   "text": "01/15/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "vaccine date"
+  },
+  {
+   "field": "note",
+   "text": "02/05/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "vaccine date"
+  },
+  {
+   "field": "note",
+   "text": "04/10/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "blood work date"
+  },
+  {
+   "field": "note",
+   "text": "Lewis",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor name"
+  },
+  {
+   "field": "note",
+   "text": "Tyler Sanchez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "cardiologist name"
+  },
+  {
+   "field": "note",
+   "text": "rides his bike",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "cycling hobby"
+  },
+  {
+   "field": "note",
+   "text": "cycle 20 to 30 miles",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "cycling hobby"
+  },
+  {
+   "field": "note",
+   "text": "aortic valve replacement",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "completed treatment being followed up"
+  },
+  {
+   "field": "note",
+   "text": "ascending aortic aneurysm repair",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "completed treatment being followed up"
+  },
+  {
+   "field": "note",
+   "text": "aortic aneurysm repair",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "completed treatment being followed up"
+  },
+  {
+   "field": "note",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "post-valve follow-up"
+  },
+  {
+   "field": "note",
+   "text": "stress test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "post-valve follow-up"
+  },
+  {
+   "field": "note",
+   "text": "cardiology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "post-valve follow-up referral"
+  },
+  {
+   "field": "note",
+   "text": "clindamycin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z09",
+   "why": "endocarditis prophylaxis after valve replacement"
+  },
+  {
+   "field": "note",
+   "text": "alkaline phosphatase",
+   "category": "c",
+   "type": "LAB",
+   "code": "R74.8",
+   "why": "elevated serum enzyme"
+  },
+  {
+   "field": "note",
+   "text": "Elevated alkaline phosphate level",
+   "category": "c",
+   "type": "LAB",
+   "code": "R74.8",
+   "why": "coded abnormal enzyme"
+  },
+  {
+   "field": "note",
+   "text": "CMP",
+   "category": "c",
+   "type": "LAB",
+   "code": "R74.8",
+   "why": "lab showing elevation"
+  },
+  {
+   "field": "note",
+   "text": "liver",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R74.8",
+   "why": "possible source"
+  },
+  {
+   "field": "note",
+   "text": "bone health",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R74.8",
+   "why": "possible source"
+  },
+  {
+   "field": "note",
+   "text": "gamma GT",
+   "category": "c",
+   "type": "LAB",
+   "code": "R74.8",
+   "why": "alk phos workup"
+  },
+  {
+   "field": "note",
+   "text": "fatigued",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R91.8",
+   "why": "listed under lung field finding"
+  },
+  {
+   "field": "note",
+   "text": "pursed lips",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.8",
+   "why": "abnormal lung finding"
+  },
+  {
+   "field": "note",
+   "text": "purse his lips",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.8",
+   "why": "abnormal lung finding"
+  },
+  {
+   "field": "note",
+   "text": "Pursed lip breathing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.8",
+   "why": "abnormal lung finding"
+  },
+  {
+   "field": "note",
+   "text": "exhalation phase is low",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.8",
+   "why": "abnormal lung finding"
+  },
+  {
+   "field": "note",
+   "text": "exhalation phase was low",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.8",
+   "why": "abnormal lung finding"
+  },
+  {
+   "field": "note",
+   "text": "wheezing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.8",
+   "why": "lung finding workup"
+  },
+  {
+   "field": "note",
+   "text": "Lung field abnormal finding",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R91.8",
+   "why": "coded lung finding"
+  },
+  {
+   "field": "note",
+   "text": "pulmonary function testing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R91.8",
+   "why": "lung finding workup"
+  },
+  {
+   "field": "note",
+   "text": "nodule in his right testicle",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N50.89",
+   "why": "coded genital disorder"
+  },
+  {
+   "field": "note",
+   "text": "Right testicular nodule",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N50.89",
+   "why": "coded genital disorder"
+  },
+  {
+   "field": "note",
+   "text": "epididymis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N50.89",
+   "why": "nodule location"
+  },
+  {
+   "field": "note",
+   "text": "vasectomy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N50.89",
+   "why": "nodule history"
+  },
+  {
+   "field": "note",
+   "text": "Left testicle normal",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N50.89",
+   "why": "genital exam"
+  },
+  {
+   "field": "note",
+   "text": "urology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N50.89",
+   "why": "nodule referral"
+  },
+  {
+   "field": "note",
+   "text": "ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N50.89",
+   "why": "nodule workup"
+  },
+  {
+   "field": "note",
+   "text": "hernia",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "snores",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "apnea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "vitamin D3",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated supplement"
+  },
+  {
+   "field": "note",
+   "text": "shingles vaccine",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vaccination"
+  },
+  {
+   "field": "note",
+   "text": "MMR titer",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "preventive lab"
+  },
+  {
+   "field": "note",
+   "text": "COVID-19",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vaccination"
+  },
+  {
+   "field": "note",
+   "text": "lipid panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "note",
+   "text": "total cholesterol",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "note",
+   "text": "HDL",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "note",
+   "text": "LDL",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "note",
+   "text": "triglycerides",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "note",
+   "text": "TSH",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "note",
+   "text": "CBC",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "note",
+   "text": "vitamin D level",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  }
+ ]
+}

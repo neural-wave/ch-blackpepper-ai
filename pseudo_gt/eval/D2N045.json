@@ -1,0 +1,509 @@
+{
+ "encounter_id": "D2N045",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "abigail",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "sanchez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor surname"
+  },
+  {
+   "field": "dialogue",
+   "text": "wood",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "PCP surname"
+  },
+  {
+   "field": "dialogue",
+   "text": "lift weights and do like my squats",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby, not injury cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "at the gym",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal routine"
+  },
+  {
+   "field": "dialogue",
+   "text": "i like to run",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.02",
+   "why": "running activity causing sprain"
+  },
+  {
+   "field": "dialogue",
+   "text": "jogs",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.02",
+   "why": "running activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "5k",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.02",
+   "why": "running event; also identifying"
+  },
+  {
+   "field": "dialogue",
+   "text": "marathon",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.02",
+   "why": "running event; also identifying"
+  },
+  {
+   "field": "dialogue",
+   "text": "running",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.02",
+   "why": "activity causing injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "runner",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.02",
+   "why": "running activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "runners",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.02",
+   "why": "running activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "on my feet all day",
+   "category": "c",
+   "type": "QUASI",
+   "code": "X50.1XXA",
+   "why": "prolonged posture"
+  },
+  {
+   "field": "dialogue",
+   "text": "overuse",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "X50.1XXA",
+   "why": "overexertion mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.91XA",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.91XA",
+   "why": "injury site"
+  },
+  {
+   "field": "dialogue",
+   "text": "ache",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.91XA",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.91XA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "small amount of effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.91XA",
+   "why": "sprain exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "no redness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.91XA",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "no swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.91XA",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "hurts on the outside",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.91XA",
+   "why": "knee tenderness"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.91XA",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "joint spaces of that right knee are are well maintained",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.91XA",
+   "why": "imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.91XA",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.91XA",
+   "why": "ruled out differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "put ice on it",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.91XA",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice and ibuprofen",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.91XA",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice and rest",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.91XA",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.91XA",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.91XA",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.91XA",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "inflammation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.91XA",
+   "why": "sprain"
+  },
+  {
+   "field": "dialogue",
+   "text": "immune diseases",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness or tingling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "good pedal pulse",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "avid runner",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.02",
+   "why": "running activity"
+  },
+  {
+   "field": "note",
+   "text": "marathons",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.02",
+   "why": "running event; also identifying"
+  },
+  {
+   "field": "note",
+   "text": "runners",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.02",
+   "why": "running activity"
+  },
+  {
+   "field": "note",
+   "text": "running",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.02",
+   "why": "activity"
+  },
+  {
+   "field": "note",
+   "text": "overuse",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "X50.1XXA",
+   "why": "overexertion"
+  },
+  {
+   "field": "note",
+   "text": "Right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.91XA",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.91XA",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "Right knee sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.91XA",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "No pain with movement",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.91XA",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "No pain with strength testing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.91XA",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "No erythema or edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.91XA",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Small effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.91XA",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Tender to palpation over the lateral aspect of the knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.91XA",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "X-rays of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.91XA",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "well-maintained joint spaces",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.91XA",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "fracture or arthritis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.91XA",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.91XA",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.91XA",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.91XA",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "strength training exercises",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.91XA",
+   "why": "rehab"
+  },
+  {
+   "field": "note",
+   "text": "arthritis or other immune disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated family history"
+  },
+  {
+   "field": "note",
+   "text": "Denies fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "No fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "Normal pedal pulses",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "No murmurs, gallops or rubs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "No clubbing, cyanosis, or edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  }
+ ]
+}

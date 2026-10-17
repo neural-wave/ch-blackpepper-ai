@@ -1,0 +1,349 @@
+{
+ "encounter_id": "D2N094",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "james",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "cooper",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "42-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "when i was seven",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age at surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "last saturday",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "skiing",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S63.630A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "double black diamonds",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S63.630A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "lost control",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S63.630A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "jammed my , my index finger",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.630A",
+   "why": "finger injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "right index finger pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.630A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S63.630A",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "iced",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S63.630A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "splint",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S63.630A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S63.630A",
+   "why": "finger imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "right hand x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S63.630A",
+   "why": "finger imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "fractures",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S63.630A",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "sprain of your distar- distal interphalangeal joint",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.630A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "dip joint",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.630A",
+   "why": "sprained joint"
+  },
+  {
+   "field": "dialogue",
+   "text": "mobic",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S63.630A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "antiinflammatory",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S63.630A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hand therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S63.630A",
+   "why": "sprain rehab"
+  },
+  {
+   "field": "dialogue",
+   "text": "chronic constipation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "miralax",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "constipation med"
+  },
+  {
+   "field": "dialogue",
+   "text": "appendix out",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  },
+  {
+   "field": "note",
+   "text": "James",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "42-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "age 7",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age at surgery"
+  },
+  {
+   "field": "note",
+   "text": "Right index finger pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.630A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "note",
+   "text": "right index finger pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.630A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "note",
+   "text": "skiing",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S63.630A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "fell and jammed her finger",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.630A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "Ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S63.630A",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "icing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S63.630A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "note",
+   "text": "splint",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S63.630A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "note",
+   "text": "pain to palpation of the MCP and DIP joints",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S63.630A",
+   "why": "sprain exam"
+  },
+  {
+   "field": "note",
+   "text": "X-rays of the right index finger",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S63.630A",
+   "why": "finger imaging"
+  },
+  {
+   "field": "note",
+   "text": "fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S63.630A",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Right index finger DIP joint sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.630A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Mobic",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S63.630A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "note",
+   "text": "hand therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S63.630A",
+   "why": "sprain rehab"
+  },
+  {
+   "field": "note",
+   "text": "MiraLAX",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "constipation med"
+  },
+  {
+   "field": "note",
+   "text": "Chronic constipation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "note",
+   "text": "Appendectomy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  }
+ ]
+}

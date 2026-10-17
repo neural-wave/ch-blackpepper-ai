@@ -1,0 +1,493 @@
+{
+ "encounter_id": "D2N098",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "jose james",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "james",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "9/29/1957",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "isabella",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor name"
+  },
+  {
+   "field": "dialogue",
+   "text": "martha rivera",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "physical therapist name"
+  },
+  {
+   "field": "dialogue",
+   "text": "hit the gym and lifted weights",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "hitting the gym",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "my wife and i walk about 30 minutes almost every day",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "habit/family"
+  },
+  {
+   "field": "dialogue",
+   "text": "retired from my office job last year",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "former occupation"
+  },
+  {
+   "field": "dialogue",
+   "text": "it was icy",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M75.42",
+   "why": "fall mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "walk up a flight of stairs to my house",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M75.42",
+   "why": "fall mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "fell five months ago going up a stairs",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M75.42",
+   "why": "fall mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "fell on my left side",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M75.42",
+   "why": "fall mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain in his left shoulder and elbow",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.42",
+   "why": "impingement symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "constant pain in my left shoulder and left elbow",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.42",
+   "why": "impingement symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain in your wrist",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.42",
+   "why": "referred pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain is worse when i lift",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.42",
+   "why": "impingement symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "iced",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M75.42",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M75.42",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness or tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.42",
+   "why": "negated neuro screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "tender sa space",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.42",
+   "why": "impingement exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "warmth , erythema or deformity",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.42",
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "positive hawkins-kennedy and neer's test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.42",
+   "why": "impingement exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "upper extremity strength",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.42",
+   "why": "exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "median radial ulnar sensation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.42",
+   "why": "neuro exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "abduction to 90 degrees",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.42",
+   "why": "ROM exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "empty tan , can test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.42",
+   "why": "rotator cuff exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "impingement syndrome of your left shoulder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.42",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "impingement syndrome of left shoulder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.42",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M75.42",
+   "why": "impingement treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cortisone injection",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M75.42",
+   "why": "impingement treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "shot",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M75.42",
+   "why": "impingement treatment"
+  },
+  {
+   "field": "note",
+   "text": "Jose James",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "James",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "Jose",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "note",
+   "text": "64-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "strength training exercises",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "strength training activities",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "walks 30-minutes most days of the week",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "habit"
+  },
+  {
+   "field": "note",
+   "text": "Retired last year, was an office worker",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "former occupation"
+  },
+  {
+   "field": "note",
+   "text": "falling on his hand while going up stairs",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M75.42",
+   "why": "fall mechanism"
+  },
+  {
+   "field": "note",
+   "text": "a fall he incurred",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M75.42",
+   "why": "fall mechanism"
+  },
+  {
+   "field": "note",
+   "text": "Left shoulder and elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.42",
+   "why": "impingement symptom"
+  },
+  {
+   "field": "note",
+   "text": "left shoulder and elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.42",
+   "why": "impingement symptom"
+  },
+  {
+   "field": "note",
+   "text": "unable to lift more than 15-20 pounds",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.42",
+   "why": "functional limitation"
+  },
+  {
+   "field": "note",
+   "text": "iced",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M75.42",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "ice and rest",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M75.42",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "pain medications",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M75.42",
+   "why": "negated pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "tingling and numbness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.42",
+   "why": "negated neuro screen"
+  },
+  {
+   "field": "note",
+   "text": "tender subacromial space",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.42",
+   "why": "impingement exam"
+  },
+  {
+   "field": "note",
+   "text": "No warmth, erythema, or deformity",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.42",
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "Positive Hawkins-Kennedy and Neer\u2019s test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.42",
+   "why": "impingement exam"
+  },
+  {
+   "field": "note",
+   "text": "Normal proximal and distal upper extremity strength",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.42",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "Intact median, radial, ulnar sensation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.42",
+   "why": "neuro exam"
+  },
+  {
+   "field": "note",
+   "text": "Abduction to 90 degrees",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.42",
+   "why": "ROM exam"
+  },
+  {
+   "field": "note",
+   "text": "Normal empty can test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.42",
+   "why": "rotator cuff exam"
+  },
+  {
+   "field": "note",
+   "text": "Impingement syndrome of left shoulder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.42",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "impingement syndrome of his left shoulder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.42",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "left shoulder impingement",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.42",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M75.42",
+   "why": "impingement treatment"
+  },
+  {
+   "field": "note",
+   "text": "Cortisone injection",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M75.42",
+   "why": "impingement treatment"
+  }
+ ]
+}

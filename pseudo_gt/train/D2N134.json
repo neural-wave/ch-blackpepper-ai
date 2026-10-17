@@ -1,0 +1,613 @@
+{
+ "encounter_id": "D2N134",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "michelle",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "31-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "type 2 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "lyme titer",
+   "category": "c",
+   "type": "LAB",
+   "code": "A69.20",
+   "why": "lyme lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "lyme",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "lyme disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "insect bite",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "lyme exposure"
+  },
+  {
+   "field": "dialogue",
+   "text": "hiking in the woods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "A69.20",
+   "why": "exposure cause of tick bite"
+  },
+  {
+   "field": "dialogue",
+   "text": "tired",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "lyme symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "lacking a lot of energy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "lyme symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "swollen joints in my elbows",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "lyme symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "body aches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "lyme symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nauseous",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "lyme symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "lyme symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "lyme symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "bull's-eye",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "lyme rash"
+  },
+  {
+   "field": "dialogue",
+   "text": "bull's-eye rash",
+   "category": "c",
+   "type": "FINDING",
+   "code": "A69.20",
+   "why": "lyme rash"
+  },
+  {
+   "field": "dialogue",
+   "text": "high fevers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes control"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes control"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "staying away from the salty foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I10",
+   "why": "hypertension diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling of your , uh , elbow joints bilaterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "A69.20",
+   "why": "lyme arthritis exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation to both elbow joints",
+   "category": "c",
+   "type": "FINDING",
+   "code": "A69.20",
+   "why": "lyme arthritis exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "warm to palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "A69.20",
+   "why": "rash exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "cellulitis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled-out"
+  },
+  {
+   "field": "dialogue",
+   "text": "white blood cell count",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "normal lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "doxycycline",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "A69.20",
+   "why": "lyme treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "infectious disease doctor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "A69.20",
+   "why": "lyme consult"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipid panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "routine lab"
+  },
+  {
+   "field": "note",
+   "text": "31-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "type 2 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes type 2",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "insect bite",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "lyme exposure"
+  },
+  {
+   "field": "note",
+   "text": "hiking in the woods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "A69.20",
+   "why": "exposure cause"
+  },
+  {
+   "field": "note",
+   "text": "Lyme titer",
+   "category": "c",
+   "type": "LAB",
+   "code": "A69.20",
+   "why": "lyme lab"
+  },
+  {
+   "field": "note",
+   "text": "lyme titer",
+   "category": "c",
+   "type": "LAB",
+   "code": "A69.20",
+   "why": "lyme lab"
+  },
+  {
+   "field": "note",
+   "text": "Lyme disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "tired",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "lyme symptom"
+  },
+  {
+   "field": "note",
+   "text": "lacking a lot of energy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "lyme symptom"
+  },
+  {
+   "field": "note",
+   "text": "swollen elbow joints",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "lyme symptom"
+  },
+  {
+   "field": "note",
+   "text": "body aches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "lyme symptom"
+  },
+  {
+   "field": "note",
+   "text": "bullseye rash",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "lyme rash"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "lyme symptom"
+  },
+  {
+   "field": "note",
+   "text": "fatigue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "lyme symptom"
+  },
+  {
+   "field": "note",
+   "text": "bilateral elbow joint swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "lyme symptom"
+  },
+  {
+   "field": "note",
+   "text": "rash",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "A69.20",
+   "why": "lyme rash"
+  },
+  {
+   "field": "note",
+   "text": "high fevers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "fevers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes control"
+  },
+  {
+   "field": "note",
+   "text": "blood glucose levels",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes control"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "avoiding salty foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I10",
+   "why": "hypertension diet"
+  },
+  {
+   "field": "note",
+   "text": "limiting her sodium intake",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I10",
+   "why": "hypertension diet"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "note",
+   "text": "warmth to palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "A69.20",
+   "why": "rash exam"
+  },
+  {
+   "field": "note",
+   "text": "cellulitis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled-out"
+  },
+  {
+   "field": "note",
+   "text": "Swelling and pain to palpation of elbow joints bilaterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "A69.20",
+   "why": "lyme arthritis exam"
+  },
+  {
+   "field": "note",
+   "text": "Small bullseye rash on the left abdominal quadrant",
+   "category": "c",
+   "type": "FINDING",
+   "code": "A69.20",
+   "why": "lyme rash"
+  },
+  {
+   "field": "note",
+   "text": "WBC",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "normal lab"
+  },
+  {
+   "field": "note",
+   "text": "doxycycline",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "A69.20",
+   "why": "lyme treatment"
+  },
+  {
+   "field": "note",
+   "text": "infectious disease doctor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "A69.20",
+   "why": "lyme consult"
+  },
+  {
+   "field": "note",
+   "text": "lipid panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "routine lab"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  }
+ ]
+}

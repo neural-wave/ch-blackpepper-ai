@@ -1,0 +1,389 @@
+{
+ "encounter_id": "D2N069",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "thompson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "moore",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "43 year old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "trying to change a light bulb",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S83.241A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "up on a ladder",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S83.241A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "twisted my knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.241A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.241A",
+   "why": "coded injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.241A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.241A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.241A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "afib",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "digoxin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "afib medication"
+  },
+  {
+   "field": "dialogue",
+   "text": "nose job",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness over the medial portion of your knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.241A",
+   "why": "meniscus finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "medial meniscus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.241A",
+   "why": "meniscus finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "valgus stressing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.241A",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.241A",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.241A",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "fluid",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.241A",
+   "why": "effusion"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.241A",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "dislocation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.241A",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "acute medial meniscus sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.241A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee brace",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.241A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.241A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.241A",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "Thompson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "43-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.241A",
+   "why": "coded injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.241A",
+   "why": "coded injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "change a lightbulb on a ladder",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S83.241A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "twisted her knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.241A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "ice",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.241A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.241A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.241A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "digoxin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "afib medication"
+  },
+  {
+   "field": "note",
+   "text": "Atrial fibrillation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "note",
+   "text": "Rhinoplasty",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  },
+  {
+   "field": "note",
+   "text": "pain with flexion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.241A",
+   "why": "knee finding"
+  },
+  {
+   "field": "note",
+   "text": "Tenderness over the medial joint line",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.241A",
+   "why": "meniscus finding"
+  },
+  {
+   "field": "note",
+   "text": "Pain with valgus stress",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.241A",
+   "why": "knee finding"
+  },
+  {
+   "field": "note",
+   "text": "No pain in the calf",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated (DVT screen)"
+  },
+  {
+   "field": "note",
+   "text": "X-rays of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.241A",
+   "why": "knee imaging"
+  },
+  {
+   "field": "note",
+   "text": "acute fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.241A",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Mild effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.241A",
+   "why": "knee finding"
+  },
+  {
+   "field": "note",
+   "text": "Right knee acute medial meniscus sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.241A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "knee brace",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.241A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.241A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.241A",
+   "why": "workup"
+  }
+ ]
+}

@@ -1,0 +1,317 @@
+{
+ "encounter_id": "D2N172",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "roy",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "50-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "onboarding a couple new employees",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "work role detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "short-staffed",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "workplace detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "hosting some friends over vacation",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "at the beach",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "vacation location"
+  },
+  {
+   "field": "dialogue",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "zoloft",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "i have my bouts",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depressive episodes"
+  },
+  {
+   "field": "dialogue",
+   "text": "hurt yourself or anybody",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression safety screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "stressful",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression context"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "antihypertensive"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight gain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "a1c",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "note",
+   "text": "Roy Sanchez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "50-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "short-staffed at work",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "workplace detail"
+  },
+  {
+   "field": "note",
+   "text": "hosting friends over vacation",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life event"
+  },
+  {
+   "field": "note",
+   "text": "at the beach",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "vacation location"
+  },
+  {
+   "field": "note",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "depressionand",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis (typo-joined)"
+  },
+  {
+   "field": "note",
+   "text": "Depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Zoloft",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "note",
+   "text": "thoughts of self-harm",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression safety screen"
+  },
+  {
+   "field": "note",
+   "text": "suicidal ideation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression safety screen"
+  },
+  {
+   "field": "note",
+   "text": "stress",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression context"
+  },
+  {
+   "field": "note",
+   "text": "stressful",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression context"
+  },
+  {
+   "field": "note",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "antihypertensive"
+  },
+  {
+   "field": "note",
+   "text": "weight gain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "abnormal labs",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated labs"
+  },
+  {
+   "field": "note",
+   "text": "wheezes, rales, or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "gallops or rubs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  }
+ ]
+}

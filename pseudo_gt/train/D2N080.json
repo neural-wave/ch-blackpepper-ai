@@ -1,0 +1,661 @@
+{
+ "encounter_id": "D2N080",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "andrea",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "columbus georgia",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "travel destination"
+  },
+  {
+   "field": "dialogue",
+   "text": "lion's club function",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "organization membership"
+  },
+  {
+   "field": "dialogue",
+   "text": "line dances",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "planned activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "line dancing",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "planned activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "like to do a lot of travel",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "trip planned",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel plans"
+  },
+  {
+   "field": "dialogue",
+   "text": "left knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "coded symptom site"
+  },
+  {
+   "field": "dialogue",
+   "text": "gives out",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "knee instability"
+  },
+  {
+   "field": "dialogue",
+   "text": "whole kneecap",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "knee pain location"
+  },
+  {
+   "field": "dialogue",
+   "text": "pop",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "knee screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "cane",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.562",
+   "why": "knee assistive device"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "farxiga",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "amlodipine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hydrochlorothiazide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure medicine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "morning blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "two over six systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "lungs are clear to auscultation bilaterally",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "no ecchymosis or edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "no effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "no pain to palpation of the of the left medial knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "no decreased range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "negative varus and valgus test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "left knee x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.562",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "no evidence of fracture or bony abnormality",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "left knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "cause of knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.562",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.562",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "echocardiogram",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "murmur workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes mellitus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes-related lab"
+  },
+  {
+   "field": "note",
+   "text": "Andrea Barnes",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "34-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Columbus, Georgia",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "travel destination"
+  },
+  {
+   "field": "note",
+   "text": "Lion's Club",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "organization membership"
+  },
+  {
+   "field": "note",
+   "text": "likes to travel",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "planning a trip",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel plans"
+  },
+  {
+   "field": "note",
+   "text": "Left knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "left knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "sudden instability with ambulation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "knee symptom"
+  },
+  {
+   "field": "note",
+   "text": "instability",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "knee symptom"
+  },
+  {
+   "field": "note",
+   "text": "deep in her patella",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "knee pain location"
+  },
+  {
+   "field": "note",
+   "text": "trauma or injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "knee screening"
+  },
+  {
+   "field": "note",
+   "text": "pop in the knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "knee screening"
+  },
+  {
+   "field": "note",
+   "text": "cane",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.562",
+   "why": "knee assistive device"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "amlodipine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "hydrochlorothiazide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "type 2 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes mellitus type 2",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "fasting morning blood glucose",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "blood glucose levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "Metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "Farxiga",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "No ecchymosis or edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "No effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "No pain with palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Full range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Negative varus and valgus stress test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "X-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.562",
+   "why": "knee imaging"
+  },
+  {
+   "field": "note",
+   "text": "no evidence of fracture or bony abnormality",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee imaging"
+  },
+  {
+   "field": "note",
+   "text": "arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "cause of knee pain"
+  },
+  {
+   "field": "note",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.562",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.562",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "echocardiogram",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "murmur workup"
+  },
+  {
+   "field": "note",
+   "text": "murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes-related lab"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  }
+ ]
+}

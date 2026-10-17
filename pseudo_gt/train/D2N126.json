@@ -1,0 +1,613 @@
+{
+ "encounter_id": "D2N126",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "michelle",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "sandra",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "other person's name"
+  },
+  {
+   "field": "dialogue",
+   "text": "cold dancing",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "other person's activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "vermont",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "state"
+  },
+  {
+   "field": "dialogue",
+   "text": "my two four -year-old",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "children detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "four -year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "children's age"
+  },
+  {
+   "field": "dialogue",
+   "text": "twins",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "my husband",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "works a job where he is gone quite a bit",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "husband's job"
+  },
+  {
+   "field": "dialogue",
+   "text": "running",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "skiing",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.561",
+   "why": "injury activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "caught my ski when i was coming off the lift",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.561",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "my knee popped",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "injured your knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "ski patrol",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "post-injury care"
+  },
+  {
+   "field": "dialogue",
+   "text": "unable to bear weight",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "hurts on the outside",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee pain site"
+  },
+  {
+   "field": "dialogue",
+   "text": "buckle",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee instability"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbing or tingling in your toes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "neuro screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded site"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema and an effusion over the right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation of the right lateral knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "decreased flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "positive lachman sign",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "palpable palpable dorsalis pedis and posterior tibial pulse",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "leg edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "bony abnormality",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "ruptured your your acl",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "anterior cruciate ligament",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "acl can still be torn",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "knee pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "brace",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "graft",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment option"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "denied unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac"
+  },
+  {
+   "field": "note",
+   "text": "Michelle King",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "44-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Vermont",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "state"
+  },
+  {
+   "field": "note",
+   "text": "4-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "children's age"
+  },
+  {
+   "field": "note",
+   "text": "4-year-old twins",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "note",
+   "text": "running",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "her husband",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "works a job where he has gone quite a bit",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "husband's job"
+  },
+  {
+   "field": "note",
+   "text": "Right knee injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "right knee injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "skiing",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.561",
+   "why": "injury activity"
+  },
+  {
+   "field": "note",
+   "text": "caught her ski when coming off of the lift and fell",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.561",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "pop in her knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "unable to weight bear",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee symptom"
+  },
+  {
+   "field": "note",
+   "text": "ski patrol",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "post-injury care"
+  },
+  {
+   "field": "note",
+   "text": "lateral aspect of her knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee pain site"
+  },
+  {
+   "field": "note",
+   "text": "instability as well as buckling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee symptom"
+  },
+  {
+   "field": "note",
+   "text": "difficulty with knee flexion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee symptom"
+  },
+  {
+   "field": "note",
+   "text": "Full knee extension is also quite painful",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness or tingling in her toes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "neuro screen"
+  },
+  {
+   "field": "note",
+   "text": "numbness or tingling in toes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "neuro screen"
+  },
+  {
+   "field": "note",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "knee pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "right knee pain and limited range of motion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "Edema and effusion noted",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with palpation of the lateral knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Decreased flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Positive Lachman's",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Palpable dorsalis pedis and posterior tibial pulse",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "ankle edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "4 views of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee x-ray"
+  },
+  {
+   "field": "note",
+   "text": "bony abnormalities",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "ACL tear",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "MRI of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee workup"
+  },
+  {
+   "field": "note",
+   "text": "brace",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "high blood pressure or diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "denied unrelated history"
+  },
+  {
+   "field": "note",
+   "text": "murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac"
+  }
+ ]
+}

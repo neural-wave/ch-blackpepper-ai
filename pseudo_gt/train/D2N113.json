@@ -1,0 +1,453 @@
+{
+ "encounter_id": "D2N113",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "jacqueline",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "workaholic",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "work habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "my wife and my kids",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "hepatitis c",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B19.20",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "iv drug use",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B19.20",
+   "why": "HCV risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "use iv drugs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B19.20",
+   "why": "HCV risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "hepatitis c positive partners",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B19.20",
+   "why": "HCV risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "alcohol",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B19.20",
+   "why": "liver risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "beer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B19.20",
+   "why": "liver risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "tired",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B19.20",
+   "why": "possible HCV symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "jaundice",
+   "category": "c",
+   "type": "FINDING",
+   "code": "B19.20",
+   "why": "liver exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "hepatospleno splenomegaly",
+   "category": "c",
+   "type": "FINDING",
+   "code": "B19.20",
+   "why": "liver exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "hcv antibody test",
+   "category": "c",
+   "type": "LAB",
+   "code": "B19.20",
+   "why": "HCV diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "liver panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "B19.20",
+   "why": "liver evaluation"
+  },
+  {
+   "field": "dialogue",
+   "text": "elevated ast",
+   "category": "c",
+   "type": "LAB",
+   "code": "B19.20",
+   "why": "liver evaluation"
+  },
+  {
+   "field": "dialogue",
+   "text": "alt",
+   "category": "c",
+   "type": "LAB",
+   "code": "B19.20",
+   "why": "liver evaluation"
+  },
+  {
+   "field": "dialogue",
+   "text": "albumin",
+   "category": "c",
+   "type": "LAB",
+   "code": "B19.20",
+   "why": "liver evaluation"
+  },
+  {
+   "field": "dialogue",
+   "text": "total bilirubin",
+   "category": "c",
+   "type": "LAB",
+   "code": "B19.20",
+   "why": "liver evaluation"
+  },
+  {
+   "field": "dialogue",
+   "text": "viral infection that affects the liver",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B19.20",
+   "why": "HCV description"
+  },
+  {
+   "field": "dialogue",
+   "text": "hep c rna",
+   "category": "c",
+   "type": "LAB",
+   "code": "B19.20",
+   "why": "HCV confirmation"
+  },
+  {
+   "field": "dialogue",
+   "text": "hcv genotype",
+   "category": "c",
+   "type": "LAB",
+   "code": "B19.20",
+   "why": "HCV confirmation"
+  },
+  {
+   "field": "dialogue",
+   "text": "liver disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B19.20",
+   "why": "HCV severity"
+  },
+  {
+   "field": "dialogue",
+   "text": "fibrosis of the liver",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B19.20",
+   "why": "HCV severity"
+  },
+  {
+   "field": "dialogue",
+   "text": "special ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "B19.20",
+   "why": "fibroscan"
+  },
+  {
+   "field": "dialogue",
+   "text": "screening",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "B19.20",
+   "why": "HCV screening of family"
+  },
+  {
+   "field": "dialogue",
+   "text": "cigarettes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "smoking unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "depression",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "two out of six six systolic murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac"
+  },
+  {
+   "field": "dialogue",
+   "text": "wheezes rales or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated lung exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "gait disturbance",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "spouse and children",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "note",
+   "text": "Hepatitis C",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B19.20",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hepatitis C",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B19.20",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "intravenous drug use",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B19.20",
+   "why": "HCV risk factor"
+  },
+  {
+   "field": "note",
+   "text": "heavy alcohol use",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B19.20",
+   "why": "liver risk factor"
+  },
+  {
+   "field": "note",
+   "text": "beer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B19.20",
+   "why": "liver risk factor"
+  },
+  {
+   "field": "note",
+   "text": "fatigue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B19.20",
+   "why": "possible HCV symptom"
+  },
+  {
+   "field": "note",
+   "text": "hepatosplenomegaly",
+   "category": "c",
+   "type": "FINDING",
+   "code": "B19.20",
+   "why": "liver exam"
+  },
+  {
+   "field": "note",
+   "text": "jaundice",
+   "category": "c",
+   "type": "FINDING",
+   "code": "B19.20",
+   "why": "liver exam"
+  },
+  {
+   "field": "note",
+   "text": "HCV antibody",
+   "category": "c",
+   "type": "LAB",
+   "code": "B19.20",
+   "why": "HCV diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "AST",
+   "category": "c",
+   "type": "LAB",
+   "code": "B19.20",
+   "why": "liver evaluation"
+  },
+  {
+   "field": "note",
+   "text": "ALT",
+   "category": "c",
+   "type": "LAB",
+   "code": "B19.20",
+   "why": "liver evaluation"
+  },
+  {
+   "field": "note",
+   "text": "Albumin",
+   "category": "c",
+   "type": "LAB",
+   "code": "B19.20",
+   "why": "liver evaluation"
+  },
+  {
+   "field": "note",
+   "text": "Bilirubin, total",
+   "category": "c",
+   "type": "LAB",
+   "code": "B19.20",
+   "why": "liver evaluation"
+  },
+  {
+   "field": "note",
+   "text": "hepatitis C RNA",
+   "category": "c",
+   "type": "LAB",
+   "code": "B19.20",
+   "why": "HCV confirmation"
+  },
+  {
+   "field": "note",
+   "text": "HCV genotype",
+   "category": "c",
+   "type": "LAB",
+   "code": "B19.20",
+   "why": "HCV confirmation"
+  },
+  {
+   "field": "note",
+   "text": "Fibroscan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "B19.20",
+   "why": "HCV severity"
+  },
+  {
+   "field": "note",
+   "text": "cigarettes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "smoking unrelated"
+  },
+  {
+   "field": "note",
+   "text": "hypertension, diabetes, and depression",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "2/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac"
+  },
+  {
+   "field": "note",
+   "text": "wheezes, rales, or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated lung exam"
+  },
+  {
+   "field": "note",
+   "text": "masses or tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated abdominal exam"
+  },
+  {
+   "field": "note",
+   "text": "edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  }
+ ]
+}

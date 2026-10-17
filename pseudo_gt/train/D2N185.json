@@ -1,0 +1,1101 @@
+{
+ "encounter_id": "D2N185",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "ashley james",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "ashley",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "12/27/2006",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "14-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "dr. rogers",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor name"
+  },
+  {
+   "field": "dialogue",
+   "text": "mom and dad",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "i took work off",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "parent employment"
+  },
+  {
+   "field": "dialogue",
+   "text": "jacksonville",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "city of care"
+  },
+  {
+   "field": "dialogue",
+   "text": "atlanta",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "city of care"
+  },
+  {
+   "field": "dialogue",
+   "text": "four years old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age at past event"
+  },
+  {
+   "field": "dialogue",
+   "text": "my dad , aunt , and my cousins",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "my mom",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "died at 47",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "relative age at death"
+  },
+  {
+   "field": "dialogue",
+   "text": "in his 40s",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "relative age at death"
+  },
+  {
+   "field": "dialogue",
+   "text": "my dad's sister , so her great aunt",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "softball",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sport"
+  },
+  {
+   "field": "dialogue",
+   "text": "drill team",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "grandfather's",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "atrophic right kidney",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "small kidney",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "atrophic",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "her right kidney is a little bit smaller",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "one of her kidneys was working at all",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "nonfunctioning kidney"
+  },
+  {
+   "field": "dialogue",
+   "text": "one kidney was bigger",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "compensatory hypertrophy"
+  },
+  {
+   "field": "dialogue",
+   "text": "left kidney work harder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "compensatory hypertrophy"
+  },
+  {
+   "field": "dialogue",
+   "text": "abnormal renal ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q60.3",
+   "why": "diagnostic imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q60.3",
+   "why": "diagnostic imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney problems",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "renal condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "severe infection that might've affected her kidney",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "suspected cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney functions",
+   "category": "c",
+   "type": "LAB",
+   "code": "Q60.3",
+   "why": "renal monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "urinalysis",
+   "category": "c",
+   "type": "LAB",
+   "code": "Q60.3",
+   "why": "renal monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "proteinuria",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "renal risk monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "renal risk monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure check",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q60.3",
+   "why": "renal risk monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "non-steroidal anti-inflammatory medicines",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Q60.3",
+   "why": "nephrotoxic avoidance"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Q60.3",
+   "why": "nephrotoxic avoidance"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Q60.3",
+   "why": "kidney-safe analgesic"
+  },
+  {
+   "field": "dialogue",
+   "text": "dehydration",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "renal strain avoidance"
+  },
+  {
+   "field": "dialogue",
+   "text": "adult nephrologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q60.3",
+   "why": "renal follow-up"
+  },
+  {
+   "field": "dialogue",
+   "text": "hurting on her right side",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "abdominal pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "appendix",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "suspected condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "stomach virus",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "prior diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "throwing up",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cysts",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "lymph nodes were swollen",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "infection",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "infection"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain in her stomach",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "burning",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "antibiotic",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "infection treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pepcid",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated medication"
+  },
+  {
+   "field": "dialogue",
+   "text": "claritin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated medication"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "renal disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "breast cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney transplant",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "obstructive neuropathy",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "massive heart attack",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "end-stage renal disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "chronic kidney disease stage five",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "geneticist",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "specialist evaluation"
+  },
+  {
+   "field": "dialogue",
+   "text": "hard to start",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "urinary hesitancy"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood in your pee",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "burns when she pees",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "dysuria"
+  },
+  {
+   "field": "dialogue",
+   "text": "posterior urethral bowels valves",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "chronic kidney disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "dialysis",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "renal transplant",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "Ashley James",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Ashley",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "note",
+   "text": "14-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Jacksonville",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "city of care"
+  },
+  {
+   "field": "note",
+   "text": "Atlanta",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "city of care"
+  },
+  {
+   "field": "note",
+   "text": "4 years old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age at past event"
+  },
+  {
+   "field": "note",
+   "text": "softball team",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sport"
+  },
+  {
+   "field": "note",
+   "text": "drill team",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "activity"
+  },
+  {
+   "field": "note",
+   "text": "Paternal Grandfather",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "Deceased approximately 47",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "relative age at death"
+  },
+  {
+   "field": "note",
+   "text": "Paternal Great Aunt",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "03/22/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "test date"
+  },
+  {
+   "field": "note",
+   "text": "atrophic right kidney",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Renal hypoplasia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "right-sided renal hypoplasia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "small atrophic right kidney",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "right kidney was nonfunctioning, atrophic, and smaller than her left kidney",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "left kidney hypertrophy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "compensatory hypertrophy"
+  },
+  {
+   "field": "note",
+   "text": "compensatory hypertrophy of her left kidney",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "compensatory hypertrophy"
+  },
+  {
+   "field": "note",
+   "text": "hypertrophic left kidney",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "compensatory hypertrophy"
+  },
+  {
+   "field": "note",
+   "text": "abnormal renal ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q60.3",
+   "why": "diagnostic imaging"
+  },
+  {
+   "field": "note",
+   "text": "Abdominal ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q60.3",
+   "why": "diagnostic imaging"
+  },
+  {
+   "field": "note",
+   "text": "ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q60.3",
+   "why": "diagnostic imaging"
+  },
+  {
+   "field": "note",
+   "text": "CT abdomen and pelvis",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q60.3",
+   "why": "diagnostic imaging"
+  },
+  {
+   "field": "note",
+   "text": "CMP",
+   "category": "c",
+   "type": "LAB",
+   "code": "Q60.3",
+   "why": "renal function"
+  },
+  {
+   "field": "note",
+   "text": "creatinine",
+   "category": "c",
+   "type": "LAB",
+   "code": "Q60.3",
+   "why": "renal function"
+  },
+  {
+   "field": "note",
+   "text": "estimated GFR",
+   "category": "c",
+   "type": "LAB",
+   "code": "Q60.3",
+   "why": "renal function"
+  },
+  {
+   "field": "note",
+   "text": "kidney function",
+   "category": "c",
+   "type": "LAB",
+   "code": "Q60.3",
+   "why": "renal function"
+  },
+  {
+   "field": "note",
+   "text": "urinalysis",
+   "category": "c",
+   "type": "LAB",
+   "code": "Q60.3",
+   "why": "renal monitoring"
+  },
+  {
+   "field": "note",
+   "text": "kidney issues",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "renal condition"
+  },
+  {
+   "field": "note",
+   "text": "severe infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "suspected cause"
+  },
+  {
+   "field": "note",
+   "text": "proteinuria",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "renal risk monitoring"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "renal risk monitoring"
+  },
+  {
+   "field": "note",
+   "text": "chronic kidney disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "renal risk"
+  },
+  {
+   "field": "note",
+   "text": "nonsteroidal anti-inflammatory medications",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Q60.3",
+   "why": "nephrotoxic avoidance"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Q60.3",
+   "why": "kidney-safe analgesic"
+  },
+  {
+   "field": "note",
+   "text": "dehydration",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q60.3",
+   "why": "renal strain avoidance"
+  },
+  {
+   "field": "note",
+   "text": "adult nephrologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q60.3",
+   "why": "renal follow-up"
+  },
+  {
+   "field": "note",
+   "text": "pediatric nephrologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q60.3",
+   "why": "renal follow-up"
+  },
+  {
+   "field": "note",
+   "text": "right-sided abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "stomach virus",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "prior diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "stomach pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "vomited",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "cysts on her kidneys, ovaries, and other locations",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "lymph nodes were swollen",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "finding"
+  },
+  {
+   "field": "note",
+   "text": "a lot of infections",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "infection"
+  },
+  {
+   "field": "note",
+   "text": "antibiotics",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "infection treatment"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "stomach burning",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "hesitancy while urinating",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "urinary symptom"
+  },
+  {
+   "field": "note",
+   "text": "dysuria",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "urinary symptom"
+  },
+  {
+   "field": "note",
+   "text": "hematuria",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "Myocardial Infarction",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "Posterior Urethral Valves",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "Obstructive Neuropathy",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "End Stage Chronic Kidney Disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "Dialysis dependent",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "Failed Renal Transplant",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "Type II Diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "polycystic kidney disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated family history"
+  },
+  {
+   "field": "note",
+   "text": "Pepcid",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated medication"
+  },
+  {
+   "field": "note",
+   "text": "Claritin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated medication"
+  },
+  {
+   "field": "note",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated condition"
+  }
+ ]
+}

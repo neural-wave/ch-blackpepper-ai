@@ -1,0 +1,1029 @@
+{
+ "encounter_id": "D2N025",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "nicole miller",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "miller",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "dialogue",
+   "text": "martin",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "surgeon name"
+  },
+  {
+   "field": "dialogue",
+   "text": "09/18/1949",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "march",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "month of lab value"
+  },
+  {
+   "field": "dialogue",
+   "text": "april",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "month of visit"
+  },
+  {
+   "field": "dialogue",
+   "text": "january",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "month of heartburn episode"
+  },
+  {
+   "field": "dialogue",
+   "text": "june",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "pre-op/surgery month"
+  },
+  {
+   "field": "dialogue",
+   "text": "the 24th",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "surgery date"
+  },
+  {
+   "field": "dialogue",
+   "text": "east metro",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named hospital"
+  },
+  {
+   "field": "dialogue",
+   "text": "county surgical services",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named clinic"
+  },
+  {
+   "field": "dialogue",
+   "text": "valley medical",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named clinic"
+  },
+  {
+   "field": "dialogue",
+   "text": "springfield",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "city"
+  },
+  {
+   "field": "dialogue",
+   "text": "bartley regional",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named hospital"
+  },
+  {
+   "field": "dialogue",
+   "text": "rightley regional hospital",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named hospital"
+  },
+  {
+   "field": "dialogue",
+   "text": "medicare",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "insurance detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "private insurance",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "insurance detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "my husband's insurance",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family/insurance detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "pickle juice",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "ceiling fan",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "home detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "chronic congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.42",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "diastolic dysfunction",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.42",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.42",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.42",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "chronic chf",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.42",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "exacerbation of cf , chf",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.42",
+   "why": "CHF exacerbation"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart problems",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.42",
+   "why": "heart failure"
+  },
+  {
+   "field": "dialogue",
+   "text": "bmp",
+   "category": "c",
+   "type": "LAB",
+   "code": "I50.42",
+   "why": "heart failure marker (BNP)"
+  },
+  {
+   "field": "dialogue",
+   "text": "dyspneic",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.42",
+   "why": "heart failure symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "furosemide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.42",
+   "why": "heart failure diuretic"
+  },
+  {
+   "field": "dialogue",
+   "text": "torsemide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.42",
+   "why": "heart failure diuretic"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.42",
+   "why": "heart failure treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "potassium supplement",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.42",
+   "why": "diuretic management"
+  },
+  {
+   "field": "dialogue",
+   "text": "potassium",
+   "category": "c",
+   "type": "LAB",
+   "code": "I50.42",
+   "why": "diuretic monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "creatinine",
+   "category": "c",
+   "type": "LAB",
+   "code": "I50.42",
+   "why": "diuretic monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "bun",
+   "category": "c",
+   "type": "LAB",
+   "code": "I50.42",
+   "why": "diuretic monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "magnesium level",
+   "category": "c",
+   "type": "LAB",
+   "code": "I50.42",
+   "why": "heart failure monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "magnesium supplement",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.42",
+   "why": "heart failure management"
+  },
+  {
+   "field": "dialogue",
+   "text": "water pills",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.42",
+   "why": "diuretics"
+  },
+  {
+   "field": "dialogue",
+   "text": "water weight",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.42",
+   "why": "fluid status"
+  },
+  {
+   "field": "dialogue",
+   "text": "breathing is non-labored",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.42",
+   "why": "heart failure status"
+  },
+  {
+   "field": "dialogue",
+   "text": "cardiovascular status",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z01.810",
+   "why": "preprocedural cardiovascular eval"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee replaced",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z01.810",
+   "why": "planned procedure for pre-op"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z01.810",
+   "why": "planned procedure for pre-op"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee replacement",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z01.810",
+   "why": "planned procedure for pre-op"
+  },
+  {
+   "field": "dialogue",
+   "text": "pre-op examination",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z01.810",
+   "why": "coded encounter"
+  },
+  {
+   "field": "dialogue",
+   "text": "pre-op check",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z01.810",
+   "why": "coded encounter"
+  },
+  {
+   "field": "dialogue",
+   "text": "pre-op",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z01.810",
+   "why": "coded encounter"
+  },
+  {
+   "field": "dialogue",
+   "text": "ekg",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z01.810",
+   "why": "pre-op cardiac test"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-rays of your chest",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z01.810",
+   "why": "pre-op imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "clopidogrel",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z01.810",
+   "why": "held before surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "oxyglutinine",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "bladder medication"
+  },
+  {
+   "field": "dialogue",
+   "text": "urgency to use the bathroom",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "urinary symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "leg cramps",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "finger cramps",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cramps",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cream",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "topical for cramps"
+  },
+  {
+   "field": "dialogue",
+   "text": "iron supplement",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "anemia treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart burn",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "GI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "prilosec",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "GI medication"
+  },
+  {
+   "field": "dialogue",
+   "text": "stomach one",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "GI medication"
+  },
+  {
+   "field": "dialogue",
+   "text": "colonoscopy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "screening procedure"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin level",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "anemia monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "anemia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "dehydration",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "no hypertension code"
+  },
+  {
+   "field": "dialogue",
+   "text": "colon cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated family history"
+  },
+  {
+   "field": "note",
+   "text": "Nicole Miller",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "71-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "03/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date"
+  },
+  {
+   "field": "note",
+   "text": "04/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date"
+  },
+  {
+   "field": "note",
+   "text": "06/24/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "surgery date"
+  },
+  {
+   "field": "note",
+   "text": "01/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date"
+  },
+  {
+   "field": "note",
+   "text": "03/2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date"
+  },
+  {
+   "field": "note",
+   "text": "06/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date"
+  },
+  {
+   "field": "note",
+   "text": "June",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "pre-op month"
+  },
+  {
+   "field": "note",
+   "text": "East Metropolitan Hospital",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named hospital"
+  },
+  {
+   "field": "note",
+   "text": "County Hospital",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named hospital"
+  },
+  {
+   "field": "note",
+   "text": "Medicare",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "insurance detail"
+  },
+  {
+   "field": "note",
+   "text": "private insurance",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "insurance detail"
+  },
+  {
+   "field": "note",
+   "text": "pickle juice",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal habit"
+  },
+  {
+   "field": "note",
+   "text": "chronic congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.42",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Chronic Congestive Heart Failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.42",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Chronic congestive heart failure with mixed presentation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.42",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diastolic dysfunction",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.42",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "exacerbation of CHF",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.42",
+   "why": "CHF exacerbation"
+  },
+  {
+   "field": "note",
+   "text": "BNP",
+   "category": "c",
+   "type": "LAB",
+   "code": "I50.42",
+   "why": "heart failure marker"
+  },
+  {
+   "field": "note",
+   "text": "dyspneic",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.42",
+   "why": "heart failure symptom"
+  },
+  {
+   "field": "note",
+   "text": "furosemide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.42",
+   "why": "heart failure diuretic"
+  },
+  {
+   "field": "note",
+   "text": "torsemide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.42",
+   "why": "heart failure diuretic"
+  },
+  {
+   "field": "note",
+   "text": "Torsemide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.42",
+   "why": "heart failure diuretic"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.42",
+   "why": "heart failure treatment"
+  },
+  {
+   "field": "note",
+   "text": "Lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.42",
+   "why": "heart failure treatment"
+  },
+  {
+   "field": "note",
+   "text": "potassium supplement",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.42",
+   "why": "diuretic management"
+  },
+  {
+   "field": "note",
+   "text": "potassium",
+   "category": "c",
+   "type": "LAB",
+   "code": "I50.42",
+   "why": "diuretic monitoring"
+  },
+  {
+   "field": "note",
+   "text": "creatinine",
+   "category": "c",
+   "type": "LAB",
+   "code": "I50.42",
+   "why": "diuretic monitoring"
+  },
+  {
+   "field": "note",
+   "text": "BUN",
+   "category": "c",
+   "type": "LAB",
+   "code": "I50.42",
+   "why": "diuretic monitoring"
+  },
+  {
+   "field": "note",
+   "text": "Magnesium",
+   "category": "c",
+   "type": "LAB",
+   "code": "I50.42",
+   "why": "heart failure monitoring"
+  },
+  {
+   "field": "note",
+   "text": "magnesium supplement",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.42",
+   "why": "heart failure management"
+  },
+  {
+   "field": "note",
+   "text": "water weight",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.42",
+   "why": "fluid status"
+  },
+  {
+   "field": "note",
+   "text": "breathing is nonlabored",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.42",
+   "why": "heart failure status"
+  },
+  {
+   "field": "note",
+   "text": "cardiovascular status",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z01.810",
+   "why": "preprocedural cardiovascular eval"
+  },
+  {
+   "field": "note",
+   "text": "right knee replaced",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z01.810",
+   "why": "planned procedure for pre-op"
+  },
+  {
+   "field": "note",
+   "text": "right knee replacement",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z01.810",
+   "why": "planned procedure for pre-op"
+  },
+  {
+   "field": "note",
+   "text": "knee replacement surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z01.810",
+   "why": "planned procedure for pre-op"
+  },
+  {
+   "field": "note",
+   "text": "Preop examination",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z01.810",
+   "why": "coded encounter"
+  },
+  {
+   "field": "note",
+   "text": "preop check",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z01.810",
+   "why": "coded encounter"
+  },
+  {
+   "field": "note",
+   "text": "EKG",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z01.810",
+   "why": "pre-op cardiac test"
+  },
+  {
+   "field": "note",
+   "text": "clopidogrel",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z01.810",
+   "why": "held before surgery"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes mellitus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hgb A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "bilateral leg cramps",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "bilateral leg cramping",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "cramps",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "iron supplementation",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "anemia treatment"
+  },
+  {
+   "field": "note",
+   "text": "heartburn",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "GI symptom"
+  },
+  {
+   "field": "note",
+   "text": "gastrointestinal issues",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "GI symptom"
+  },
+  {
+   "field": "note",
+   "text": "Prilosec",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "GI medication"
+  },
+  {
+   "field": "note",
+   "text": "stomach medication",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "GI medication"
+  },
+  {
+   "field": "note",
+   "text": "colonoscopy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "screening procedure"
+  },
+  {
+   "field": "note",
+   "text": "Colonoscopy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "screening procedure"
+  },
+  {
+   "field": "note",
+   "text": "Iron deficiency Anemia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "anemia monitoring"
+  },
+  {
+   "field": "note",
+   "text": "colon cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated family history"
+  }
+ ]
+}

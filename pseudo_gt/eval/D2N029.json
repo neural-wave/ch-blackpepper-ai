@@ -1,0 +1,1013 @@
+{
+ "encounter_id": "D2N029",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "sophia jackson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "jackson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "dialogue",
+   "text": "mrnr472348",
+   "category": "a",
+   "type": "CONTACT_ID",
+   "code": null,
+   "why": "medical record number"
+  },
+  {
+   "field": "dialogue",
+   "text": "57 year old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "april 10th",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "biopsy visit date"
+  },
+  {
+   "field": "dialogue",
+   "text": "auto repair shop",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "patient owns business"
+  },
+  {
+   "field": "dialogue",
+   "text": "your wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "spouse detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "lesion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "melanoma lesion"
+  },
+  {
+   "field": "dialogue",
+   "text": "right inferior back",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "melanoma site"
+  },
+  {
+   "field": "dialogue",
+   "text": "melanoma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C43.59",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "malignant melanoma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C43.59",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "biopsy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "diagnostic procedure"
+  },
+  {
+   "field": "dialogue",
+   "text": "biopsied",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "diagnostic procedure"
+  },
+  {
+   "field": "dialogue",
+   "text": "pathology",
+   "category": "c",
+   "type": "LAB",
+   "code": "C43.59",
+   "why": "diagnostic pathology"
+  },
+  {
+   "field": "dialogue",
+   "text": "skin cancer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C43.59",
+   "why": "family history risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "moles",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "skin surveillance"
+  },
+  {
+   "field": "dialogue",
+   "text": "shave biopsy site",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "residual pigmentation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "intrinsic or satellite lesions",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "suspicious moles",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "axillary , cervical , or supraclavicular lymphadenopathy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "staging exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "soft lymph node in the right groin",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "staging exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "rule out metastasis"
+  },
+  {
+   "field": "dialogue",
+   "text": "metastasize",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C43.59",
+   "why": "melanoma spread"
+  },
+  {
+   "field": "dialogue",
+   "text": "wide local incision",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "wide local excision",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "sunscreen",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "prevention"
+  },
+  {
+   "field": "dialogue",
+   "text": "superficial spreading",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "dialogue",
+   "text": "clark level 4",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "dialogue",
+   "text": "breslow thickness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "dialogue",
+   "text": "radial growth phase",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "dialogue",
+   "text": "vertical growth phase",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "dialogue",
+   "text": "ulceration",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "dialogue",
+   "text": "lymphatic invasion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "dialogue",
+   "text": "perineural invasion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "dialogue",
+   "text": "microscopic satellitosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "dialogue",
+   "text": "infiltrating , uh , lymphocytes",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "dialogue",
+   "text": "melanocytic nevus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "dialogue",
+   "text": "epithelioid",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "dialogue",
+   "text": "peripheral margin positive",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "dialogue",
+   "text": "asymmetric black and brown nevus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "lesion photo"
+  },
+  {
+   "field": "dialogue",
+   "text": "irregular border",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "lesion photo"
+  },
+  {
+   "field": "dialogue",
+   "text": "intermediate thickness melanoma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C43.59",
+   "why": "biopsy result"
+  },
+  {
+   "field": "dialogue",
+   "text": "right inguinal lymph node with slightly atypical consistency",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "metastatic disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C43.59",
+   "why": "rule out"
+  },
+  {
+   "field": "dialogue",
+   "text": "skin graft closure",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "primary closure",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "sun avoidance",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "prevention"
+  },
+  {
+   "field": "dialogue",
+   "text": "skin self-examination",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "surveillance"
+  },
+  {
+   "field": "dialogue",
+   "text": "mole surveillance",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "surveillance"
+  },
+  {
+   "field": "dialogue",
+   "text": "basal cell",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "other skin cancer type"
+  },
+  {
+   "field": "dialogue",
+   "text": "squamous cell",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "other skin cancer type"
+  },
+  {
+   "field": "dialogue",
+   "text": "breast or ovarian",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "pancreatic cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "augmentin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "allergy"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoker",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "smoking unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoke",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "smoking unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "gall bladder and appendix",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "surgical history"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight changes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "fatigue",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "vision changes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "Sophia Jackson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Jackson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "note",
+   "text": "57-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "04/10",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "biopsy date"
+  },
+  {
+   "field": "note",
+   "text": "auto repair shop",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "patient owns business"
+  },
+  {
+   "field": "note",
+   "text": "Melanoma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C43.59",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "melanoma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C43.59",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "malignant melanoma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C43.59",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "right inferior back",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "melanoma site"
+  },
+  {
+   "field": "note",
+   "text": "lesion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "melanoma lesion"
+  },
+  {
+   "field": "note",
+   "text": "biopsied",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "atypical nevi",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C43.59",
+   "why": "melanoma risk history"
+  },
+  {
+   "field": "note",
+   "text": "mole checks",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "skin surveillance"
+  },
+  {
+   "field": "note",
+   "text": "Pathology",
+   "category": "c",
+   "type": "LAB",
+   "code": "C43.59",
+   "why": "diagnostic pathology"
+  },
+  {
+   "field": "note",
+   "text": "Pathology Report",
+   "category": "c",
+   "type": "LAB",
+   "code": "C43.59",
+   "why": "diagnostic pathology"
+  },
+  {
+   "field": "note",
+   "text": "shave biopsy site",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Shave biopsy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "residual pigmentation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "intrinsic or satellite lesions",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "suspicious moles",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "axillary, cervical, or supraclavicular lymphadenopathy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "staging exam"
+  },
+  {
+   "field": "note",
+   "text": "soft lymph node in the right groin",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "staging exam"
+  },
+  {
+   "field": "note",
+   "text": "Superficial spreading",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "note",
+   "text": "superficial spreading",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "note",
+   "text": "Clark level",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "note",
+   "text": "Breslow thickness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "note",
+   "text": "Radial growth phase",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "note",
+   "text": "Vertical growth phase",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "note",
+   "text": "Ulceration",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "note",
+   "text": "Regression",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "note",
+   "text": "Lymphatic invasion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "note",
+   "text": "Perineural invasion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "note",
+   "text": "Microscopic satellitosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "note",
+   "text": "Infiltrating lymphocytes",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "note",
+   "text": "Melanocytic nevus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "note",
+   "text": "epithelioid",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "note",
+   "text": "Peripheral margin",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "pathology"
+  },
+  {
+   "field": "note",
+   "text": "asymmetric black and brown nevus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "lesion photo"
+  },
+  {
+   "field": "note",
+   "text": "central amelanotic component",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "lesion photo"
+  },
+  {
+   "field": "note",
+   "text": "irregular border",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "lesion photo"
+  },
+  {
+   "field": "note",
+   "text": "intermediate thickness melanoma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C43.59",
+   "why": "biopsy result"
+  },
+  {
+   "field": "note",
+   "text": "right inguinal lymph node with slightly atypical consistency",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C43.59",
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "rule out metastasis"
+  },
+  {
+   "field": "note",
+   "text": "metastatic disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C43.59",
+   "why": "rule out"
+  },
+  {
+   "field": "note",
+   "text": "wide local excision",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Primary closure",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "skin graft closure",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "sun avoidance",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "prevention"
+  },
+  {
+   "field": "note",
+   "text": "skin self-examination",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "surveillance"
+  },
+  {
+   "field": "note",
+   "text": "mole surveillance",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C43.59",
+   "why": "surveillance"
+  },
+  {
+   "field": "note",
+   "text": "weight changes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "fatigue",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "vision changes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "Cholecystectomy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "surgical history"
+  },
+  {
+   "field": "note",
+   "text": "Appendectomy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "surgical history"
+  },
+  {
+   "field": "note",
+   "text": "Current smoker",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "smoking unrelated"
+  },
+  {
+   "field": "note",
+   "text": "pancreatic cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history unrelated"
+  },
+  {
+   "field": "note",
+   "text": "breast or ovarian cancers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Augmentin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "allergy"
+  }
+ ]
+}

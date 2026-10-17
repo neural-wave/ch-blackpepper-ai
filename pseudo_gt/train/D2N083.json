@@ -1,0 +1,373 @@
+{
+ "encounter_id": "D2N083",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "lawrence",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "during this pandemic",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "named period"
+  },
+  {
+   "field": "dialogue",
+   "text": "ceramics",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M77.01",
+   "why": "overuse cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "doing pottery",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M77.01",
+   "why": "overuse cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "pottery",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M77.01",
+   "why": "overuse cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "right elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "inside of my elbow",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "pain location"
+  },
+  {
+   "field": "dialogue",
+   "text": "go down a bit into my forearm",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "radiation"
+  },
+  {
+   "field": "dialogue",
+   "text": "trauma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "injury screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "keep you up at night",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "pain severity"
+  },
+  {
+   "field": "dialogue",
+   "text": "difficult for me sometimes to lift",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "functional limitation"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M77.01",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.01",
+   "why": "elbow finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "moderate tenderness of the medial epicondyle",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.01",
+   "why": "elbow finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain when you pronate",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.01",
+   "why": "elbow finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with resistance against flexion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.01",
+   "why": "elbow finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.01",
+   "why": "elbow imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture or bony abnormality",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.01",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "medial epicondylitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "overuse and potential damage of those tendons",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "sling",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.01",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "apply ice to the elbow",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.01",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Lawrence Butler",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "45-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "COVID-19 pandemic",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "named period"
+  },
+  {
+   "field": "note",
+   "text": "making pottery",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M77.01",
+   "why": "overuse cause"
+  },
+  {
+   "field": "note",
+   "text": "pottery",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M77.01",
+   "why": "overuse cause"
+  },
+  {
+   "field": "note",
+   "text": "Right elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "right elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "radiate into his forearm",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "radiation"
+  },
+  {
+   "field": "note",
+   "text": "trauma or injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "injury screen"
+  },
+  {
+   "field": "note",
+   "text": "ability to lift objects",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "functional limitation"
+  },
+  {
+   "field": "note",
+   "text": "Ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M77.01",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M77.01",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Moderate tenderness at the medial epicondyle",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.01",
+   "why": "elbow finding"
+  },
+  {
+   "field": "note",
+   "text": "No pain with supination of the forearm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.01",
+   "why": "elbow finding"
+  },
+  {
+   "field": "note",
+   "text": "Pain with pronation of the forearm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.01",
+   "why": "elbow finding"
+  },
+  {
+   "field": "note",
+   "text": "Pain with resistance against flexion of the wrist",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.01",
+   "why": "elbow finding"
+  },
+  {
+   "field": "note",
+   "text": "X-ray imaging of the right elbow",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.01",
+   "why": "elbow imaging"
+  },
+  {
+   "field": "note",
+   "text": "no evidence of fracture or bony abnormality",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.01",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Right medial epicondylitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "overuse and potential damage of the tendons",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "cause"
+  },
+  {
+   "field": "note",
+   "text": "sling",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.01",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "ice the elbow",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.01",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "rest his elbow",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.01",
+   "why": "treatment"
+  }
+ ]
+}

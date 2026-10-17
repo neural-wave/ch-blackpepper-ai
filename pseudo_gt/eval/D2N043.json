@@ -1,0 +1,581 @@
+{
+ "encounter_id": "D2N043",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "i'm 44",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "about to be a father",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "impending fatherhood life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "my daughter",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "new baby",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "your wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "birth of your new child",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "new father",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "laying people off",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "workplace event"
+  },
+  {
+   "field": "dialogue",
+   "text": "my birthday",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "birthday as quit date"
+  },
+  {
+   "field": "dialogue",
+   "text": "high school",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life history detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F17.200",
+   "why": "nicotine dependence"
+  },
+  {
+   "field": "dialogue",
+   "text": "quit smoking",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F17.200",
+   "why": "cessation"
+  },
+  {
+   "field": "dialogue",
+   "text": "pack and a half a day",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F17.200",
+   "why": "smoking amount"
+  },
+  {
+   "field": "dialogue",
+   "text": "tobacco products",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F17.200",
+   "why": "tobacco use"
+  },
+  {
+   "field": "dialogue",
+   "text": "cigarette",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F17.200",
+   "why": "tobacco use"
+  },
+  {
+   "field": "dialogue",
+   "text": "cold turkey",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F17.200",
+   "why": "prior cessation attempt"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoking cessation aid",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F17.200",
+   "why": "cessation"
+  },
+  {
+   "field": "dialogue",
+   "text": "patch",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F17.200",
+   "why": "nicotine replacement"
+  },
+  {
+   "field": "dialogue",
+   "text": "nicotine dependence",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F17.200",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "nicotine patch",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F17.200",
+   "why": "nicotine replacement"
+  },
+  {
+   "field": "dialogue",
+   "text": "skin irritation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F17.200",
+   "why": "patch side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoking triggers",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F17.200",
+   "why": "cessation counseling"
+  },
+  {
+   "field": "dialogue",
+   "text": "meditation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F17.200",
+   "why": "stress coping for cessation"
+  },
+  {
+   "field": "dialogue",
+   "text": "yoga",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F17.200",
+   "why": "stress coping for cessation"
+  },
+  {
+   "field": "dialogue",
+   "text": "joined the gym",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "exercise for diabetes/stress"
+  },
+  {
+   "field": "dialogue",
+   "text": "exercise routine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F17.200",
+   "why": "stress coping"
+  },
+  {
+   "field": "dialogue",
+   "text": "type two diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "diet and exercise",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes management"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "gout",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z87.39",
+   "why": "coded history"
+  },
+  {
+   "field": "dialogue",
+   "text": "allopurinol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z87.39",
+   "why": "gout treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "uric acid levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z87.39",
+   "why": "gout management"
+  },
+  {
+   "field": "dialogue",
+   "text": "drinking",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "alcohol mention"
+  },
+  {
+   "field": "dialogue",
+   "text": "oxygen saturation",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "vitals"
+  },
+  {
+   "field": "dialogue",
+   "text": "pulse ox",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "vitals"
+  },
+  {
+   "field": "dialogue",
+   "text": "two over six systolic murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "murmur not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "expiratory wheezes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negative lung exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "rales or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negative lung exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negative neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "carotid bruit",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negative neck exam"
+  },
+  {
+   "field": "note",
+   "text": "become a father",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "impending fatherhood"
+  },
+  {
+   "field": "note",
+   "text": "impending fatherhood",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life event"
+  },
+  {
+   "field": "note",
+   "text": "his birthday",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "birthday as quit date"
+  },
+  {
+   "field": "note",
+   "text": "Smoking cessation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F17.200",
+   "why": "chief complaint"
+  },
+  {
+   "field": "note",
+   "text": "smoker",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F17.200",
+   "why": "tobacco use"
+  },
+  {
+   "field": "note",
+   "text": "smoking cigarettes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F17.200",
+   "why": "tobacco use"
+  },
+  {
+   "field": "note",
+   "text": "1.5 packs per day",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F17.200",
+   "why": "smoking amount"
+  },
+  {
+   "field": "note",
+   "text": "smoking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F17.200",
+   "why": "tobacco use"
+  },
+  {
+   "field": "note",
+   "text": "Nicotine dependence",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F17.200",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "cessation aids",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F17.200",
+   "why": "cessation"
+  },
+  {
+   "field": "note",
+   "text": "nicotine patch",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F17.200",
+   "why": "nicotine replacement"
+  },
+  {
+   "field": "note",
+   "text": "skin irritation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F17.200",
+   "why": "patch side effect"
+  },
+  {
+   "field": "note",
+   "text": "smoking triggers",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F17.200",
+   "why": "cessation counseling"
+  },
+  {
+   "field": "note",
+   "text": "gym routine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F17.200",
+   "why": "stress coping"
+  },
+  {
+   "field": "note",
+   "text": "meditation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F17.200",
+   "why": "stress coping"
+  },
+  {
+   "field": "note",
+   "text": "yoga",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F17.200",
+   "why": "stress coping"
+  },
+  {
+   "field": "note",
+   "text": "type 2 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Type 2 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "healthy diet and perform regular exercise",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes management"
+  },
+  {
+   "field": "note",
+   "text": "blood glucose levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "Hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "gout",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z87.39",
+   "why": "coded history"
+  },
+  {
+   "field": "note",
+   "text": "History of gout",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z87.39",
+   "why": "coded history"
+  },
+  {
+   "field": "note",
+   "text": "allopurinol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z87.39",
+   "why": "gout treatment"
+  },
+  {
+   "field": "note",
+   "text": "uric acid levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z87.39",
+   "why": "gout management"
+  },
+  {
+   "field": "note",
+   "text": "2/6 Systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "murmur not coded"
+  },
+  {
+   "field": "note",
+   "text": "2/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "murmur not coded"
+  },
+  {
+   "field": "note",
+   "text": "Oxygen Saturation",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "vitals"
+  },
+  {
+   "field": "note",
+   "text": "lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negative exam"
+  },
+  {
+   "field": "note",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negative exam"
+  },
+  {
+   "field": "note",
+   "text": "expiratory wheezes, rales, or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negative lung exam"
+  },
+  {
+   "field": "note",
+   "text": "enlarged lymph nodes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negative exam"
+  }
+ ]
+}

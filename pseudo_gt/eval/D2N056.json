@@ -1,0 +1,509 @@
+{
+ "encounter_id": "D2N056",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "farmer",
+   "category": "c",
+   "type": "OCCUPATION",
+   "code": "J67.9",
+   "why": "occupational exposure causing HP"
+  },
+  {
+   "field": "dialogue",
+   "text": "working on the farm",
+   "category": "c",
+   "type": "OCCUPATION",
+   "code": "J67.9",
+   "why": "occupational exposure"
+  },
+  {
+   "field": "dialogue",
+   "text": "unloading hay",
+   "category": "c",
+   "type": "QUASI",
+   "code": "J67.9",
+   "why": "exposure causing HP"
+  },
+  {
+   "field": "dialogue",
+   "text": "hay",
+   "category": "c",
+   "type": "QUASI",
+   "code": "J67.9",
+   "why": "exposure causing HP"
+  },
+  {
+   "field": "dialogue",
+   "text": "my brother",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relative"
+  },
+  {
+   "field": "dialogue",
+   "text": "your brother",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relative"
+  },
+  {
+   "field": "dialogue",
+   "text": "ten of us",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "siblings",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "lower respiratory infections",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "recurrent HP episodes"
+  },
+  {
+   "field": "dialogue",
+   "text": "coughing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "HP symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "mucus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "HP symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "HP symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "low-grade fever",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "HP symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "robitussin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J67.9",
+   "why": "symptomatic treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pneumonia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "recurrent HP episodes"
+  },
+  {
+   "field": "dialogue",
+   "text": "antibiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J67.9",
+   "why": "treatment of episodes"
+  },
+  {
+   "field": "dialogue",
+   "text": "mask",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J67.9",
+   "why": "exposure prevention"
+  },
+  {
+   "field": "dialogue",
+   "text": "seasonal allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoke",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated smoking"
+  },
+  {
+   "field": "dialogue",
+   "text": "breathing a little fast",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J67.9",
+   "why": "tachypnea"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmurs rubs or gallops",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated cardiac"
+  },
+  {
+   "field": "dialogue",
+   "text": "fine rales",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J67.9",
+   "why": "lung exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "wheezes",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J67.9",
+   "why": "negated lung exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "clubbing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J67.9",
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J67.9",
+   "why": "HP imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "round glass opacities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J67.9",
+   "why": "HP imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "recurrent lung infections",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "HP presentation"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypersensitivity pneumonitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "farmer's lung",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "bacteria",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "HP cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "mold",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "HP cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergic reaction in your lungs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "HP mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "oral steroid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J67.9",
+   "why": "HP treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "inflammation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "HP"
+  },
+  {
+   "field": "dialogue",
+   "text": "cat scan of your lungs",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J67.9",
+   "why": "HP workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "pulmonary function test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J67.9",
+   "why": "HP workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "respiratory impairment",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "HP severity"
+  },
+  {
+   "field": "dialogue",
+   "text": "respirator",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J67.9",
+   "why": "exposure prevention"
+  },
+  {
+   "field": "note",
+   "text": "farmer",
+   "category": "c",
+   "type": "OCCUPATION",
+   "code": "J67.9",
+   "why": "occupational exposure causing HP"
+  },
+  {
+   "field": "note",
+   "text": "moving hay",
+   "category": "c",
+   "type": "QUASI",
+   "code": "J67.9",
+   "why": "exposure causing HP"
+  },
+  {
+   "field": "note",
+   "text": "hay",
+   "category": "c",
+   "type": "QUASI",
+   "code": "J67.9",
+   "why": "exposure causing HP"
+  },
+  {
+   "field": "note",
+   "text": "smoking",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "smokes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "seasonal allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "low-grade fever",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "HP symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "HP symptom"
+  },
+  {
+   "field": "note",
+   "text": "productive cough",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "HP symptom"
+  },
+  {
+   "field": "note",
+   "text": "fine rales",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J67.9",
+   "why": "lung exam"
+  },
+  {
+   "field": "note",
+   "text": "murmurs, gallops or rubs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated cardiac"
+  },
+  {
+   "field": "note",
+   "text": "clubbing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J67.9",
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the chest",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J67.9",
+   "why": "HP imaging"
+  },
+  {
+   "field": "note",
+   "text": "round glass opacities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J67.9",
+   "why": "HP imaging"
+  },
+  {
+   "field": "note",
+   "text": "Recurrent lung infections",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "HP presentation"
+  },
+  {
+   "field": "note",
+   "text": "hypersensitivity pneumonitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "bacteria and/or mold",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "HP cause"
+  },
+  {
+   "field": "note",
+   "text": "allergic reaction in the lungs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "HP mechanism"
+  },
+  {
+   "field": "note",
+   "text": "respirator",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J67.9",
+   "why": "exposure prevention"
+  },
+  {
+   "field": "note",
+   "text": "oral steroids",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J67.9",
+   "why": "HP treatment"
+  },
+  {
+   "field": "note",
+   "text": "lung inflammation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "HP"
+  },
+  {
+   "field": "note",
+   "text": "CT of the lungs",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J67.9",
+   "why": "HP workup"
+  },
+  {
+   "field": "note",
+   "text": "pulmonary function test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J67.9",
+   "why": "HP workup"
+  },
+  {
+   "field": "note",
+   "text": "respiratory impairment",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J67.9",
+   "why": "HP severity"
+  }
+ ]
+}

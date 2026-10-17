@@ -1,0 +1,541 @@
+{
+ "encounter_id": "D2N153",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "gregory",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "peloton",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific possession/hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "winter bike",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "possession"
+  },
+  {
+   "field": "dialogue",
+   "text": "rock music and regain music rides",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal preferences"
+  },
+  {
+   "field": "dialogue",
+   "text": "regade person",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal preferences"
+  },
+  {
+   "field": "dialogue",
+   "text": "you work in sales",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job"
+  },
+  {
+   "field": "dialogue",
+   "text": "gardening in the yard",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "moving pots",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "ride the bike",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "stepping off a curb",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "cause of knee sprain"
+  },
+  {
+   "field": "dialogue",
+   "text": "turned over my ankle",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "injured your knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "coded injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "outside of my right knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "lateral knee pain location"
+  },
+  {
+   "field": "dialogue",
+   "text": "clicks",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "knee symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "clicking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "knee symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "locked",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "knee symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "ankle soreness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "resolved ankle"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.421A",
+   "why": "knee pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "broke my foot",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated prior fracture"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated, from toe fracture"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbing and tingling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated, from toe fracture"
+  },
+  {
+   "field": "dialogue",
+   "text": "break your toe",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated prior fracture"
+  },
+  {
+   "field": "dialogue",
+   "text": "slight edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.421A",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "slight effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.421A",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation of the right lateral knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.421A",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "positive varus test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.421A",
+   "why": "LCL exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "negative lachman sign",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.421A",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "palpable dorsalis pedis and posterior tibialis pulse",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "vascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.421A",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "acute fracture or bony abnormality",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.421A",
+   "why": "xray negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "lateral collateral ligament strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.421A",
+   "why": "considered treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.421A",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.421A",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice it",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.421A",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "icing it",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.421A",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "knee symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.421A",
+   "why": "knee workup"
+  },
+  {
+   "field": "note",
+   "text": "Gregory Price",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "68-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "works in sales",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job"
+  },
+  {
+   "field": "note",
+   "text": "rides a bike",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "right knee injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "stepped off of a curb",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "cause of knee sprain"
+  },
+  {
+   "field": "note",
+   "text": "turned over his ankle",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "lateral aspect of his right knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "knee pain location"
+  },
+  {
+   "field": "note",
+   "text": "clicking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "knee symptom"
+  },
+  {
+   "field": "note",
+   "text": "locking of his knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "knee symptom"
+  },
+  {
+   "field": "note",
+   "text": "knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "knee symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness and tingling in his right foot",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated old injury"
+  },
+  {
+   "field": "note",
+   "text": "numbness and tingling in his toes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated old injury"
+  },
+  {
+   "field": "note",
+   "text": "fractured his 2nd toe",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated prior fracture"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.421A",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "icing his knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.421A",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "Palpable dorsalis pedis and posterior tibialis pulse",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "vascular exam"
+  },
+  {
+   "field": "note",
+   "text": "Slight edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.421A",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Slight effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.421A",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "No pain with palpation of the right lateral knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.421A",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Positive varus test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.421A",
+   "why": "LCL exam"
+  },
+  {
+   "field": "note",
+   "text": "Negative Lachman's",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.421A",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "4 views of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.421A",
+   "why": "knee imaging"
+  },
+  {
+   "field": "note",
+   "text": "fractures, dislocations, or bony abnormality",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.421A",
+   "why": "xray negative"
+  },
+  {
+   "field": "note",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.421A",
+   "why": "knee imaging"
+  },
+  {
+   "field": "note",
+   "text": "Right knee lateral collateral ligament strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.421A",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.421A",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.421A",
+   "why": "knee workup"
+  }
+ ]
+}

@@ -1,0 +1,693 @@
+{
+ "encounter_id": "D2N146",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "bobby",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "miller",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "referring doctor name"
+  },
+  {
+   "field": "dialogue",
+   "text": "i love photography",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "nature of photography",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "take foot photographs",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "the new park behind the rex center",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named place"
+  },
+  {
+   "field": "dialogue",
+   "text": "rex center",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named place"
+  },
+  {
+   "field": "dialogue",
+   "text": "get down near the river",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby location"
+  },
+  {
+   "field": "dialogue",
+   "text": "hiking",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "get back out there in nature",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain in my belly",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "cholecystitis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K80.00",
+   "why": "gallstone imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "gallstones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "high fat food",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K80.00",
+   "why": "gallstone trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "right hand side of my belly",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "cholecystitis pain site"
+  },
+  {
+   "field": "dialogue",
+   "text": "right underneath my ribs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "cholecystitis pain site"
+  },
+  {
+   "field": "dialogue",
+   "text": "squeezing severe pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "cholecystitis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nauseated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "cholecystitis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "related to eating",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "postprandial pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "type two diabetic",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "type two diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "diet and exercise",
+   "category": "c",
+   "type": "QUASI",
+   "code": "E11.9",
+   "why": "diabetes management"
+  },
+  {
+   "field": "dialogue",
+   "text": "cut back on sugar",
+   "category": "c",
+   "type": "QUASI",
+   "code": "E11.9",
+   "why": "diabetes management"
+  },
+  {
+   "field": "dialogue",
+   "text": "keto diet",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K80.00",
+   "why": "fatty diet trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "lost about twenty five pounds",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes diet result"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes control"
+  },
+  {
+   "field": "dialogue",
+   "text": "fatty foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K80.00",
+   "why": "gallstone trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "fatty food",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K80.00",
+   "why": "gallstone trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "pork grinds",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K80.00",
+   "why": "fatty food trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "pork rinses",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K80.00",
+   "why": "fatty food trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "family history of gallbladder disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "gallbladder disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "had to have their gallbladders off",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K80.00",
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "low grade fevers",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "cholecystitis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "cholecystitis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "thrown up",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated vomiting"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomited",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated vomiting"
+  },
+  {
+   "field": "dialogue",
+   "text": "ectopic beats",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "clicks rubs or murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "slight guarding there to the right upper quadrant",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K80.00",
+   "why": "abdominal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "rebound tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "murphy's signs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K80.00",
+   "why": "cholecystitis exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "peritoneal signs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K80.00",
+   "why": "gallstone imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "multiple gallstones present in the gallbladder",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K80.00",
+   "why": "imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild thickening",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K80.00",
+   "why": "gallbladder wall thickening"
+  },
+  {
+   "field": "dialogue",
+   "text": "common bile duct size",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K80.00",
+   "why": "imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild cholecystitis with gallstones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "frank obstruction",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "negated, coded without obstruction"
+  },
+  {
+   "field": "dialogue",
+   "text": "gallbladder is inflamed",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "cholecystitis"
+  },
+  {
+   "field": "dialogue",
+   "text": "laparoscopic cholecystectomy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K80.00",
+   "why": "cholecystitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "remove your gallbladder",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K80.00",
+   "why": "cholecystitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "laparoscopic procedure",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K80.00",
+   "why": "cholecystitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "endocrinologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes care"
+  },
+  {
+   "field": "note",
+   "text": "nature photography",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "hiking",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "Abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "cholecystitis symptom"
+  },
+  {
+   "field": "note",
+   "text": "type 2 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Type 2 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "family history of cholelithiasis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "risk factor"
+  },
+  {
+   "field": "note",
+   "text": "cholecystectomies",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K80.00",
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "low-grade fevers",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "cholecystitis symptom"
+  },
+  {
+   "field": "note",
+   "text": "right-sided abdominal pain and nausea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "cholecystitis symptom"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "No ectopic beats",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "No murmurs, clicks, or rubs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "Positive slight guarding to the right upper quadrant",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K80.00",
+   "why": "abdominal exam"
+  },
+  {
+   "field": "note",
+   "text": "without rebound tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "Positive for Murphy signs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K80.00",
+   "why": "cholecystitis exam"
+  },
+  {
+   "field": "note",
+   "text": "Peritoneal signs not appreciated",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "Abdominal ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K80.00",
+   "why": "gallstone imaging"
+  },
+  {
+   "field": "note",
+   "text": "ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K80.00",
+   "why": "gallstone imaging"
+  },
+  {
+   "field": "note",
+   "text": "multiple gallstones present in the gallbladder",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K80.00",
+   "why": "imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "mild thickening",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K80.00",
+   "why": "gallbladder wall thickening"
+  },
+  {
+   "field": "note",
+   "text": "common bile duct size",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K80.00",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "Mild cholecystitis with gallstones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "mild cholecystitis with gallstones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "frank obstruction",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "negated, coded without obstruction"
+  },
+  {
+   "field": "note",
+   "text": "gallbladder is inflamed",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K80.00",
+   "why": "cholecystitis"
+  },
+  {
+   "field": "note",
+   "text": "high fat foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K80.00",
+   "why": "gallstone trigger"
+  },
+  {
+   "field": "note",
+   "text": "dietary modifications",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K80.00",
+   "why": "failed conservative treatment"
+  },
+  {
+   "field": "note",
+   "text": "laparoscopic cholecystectomy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K80.00",
+   "why": "cholecystitis treatment"
+  },
+  {
+   "field": "note",
+   "text": "diet and exercise",
+   "category": "c",
+   "type": "QUASI",
+   "code": "E11.9",
+   "why": "diabetes management"
+  },
+  {
+   "field": "note",
+   "text": "endocrinologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes care"
+  }
+ ]
+}

@@ -1,0 +1,653 @@
+{
+ "encounter_id": "D2N166",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "kyle",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "i have a sedentary job",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job type"
+  },
+  {
+   "field": "dialogue",
+   "text": "soccer",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports history"
+  },
+  {
+   "field": "dialogue",
+   "text": "i played midfield",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports history"
+  },
+  {
+   "field": "dialogue",
+   "text": "tatnham hotsper",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "sports team"
+  },
+  {
+   "field": "dialogue",
+   "text": "manu",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "sports team"
+  },
+  {
+   "field": "dialogue",
+   "text": "low back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "disc herniation symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "lifting something",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "lifting a box of books",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "felt a pop",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "disc symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "achy and sharp",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "pain quality"
+  },
+  {
+   "field": "dialogue",
+   "text": "shoot down my left leg",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radiculopathy"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness or tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radiculopathy screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "loss of sensation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radiculopathy screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "weakness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radiculopathy screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "loss of control of your bladder or bowels",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "cauda equina screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.16",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.16",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "disc treatment option"
+  },
+  {
+   "field": "dialogue",
+   "text": "spine conditions",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "my dad has back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoke",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmurs rubs or gallops",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated cardiac exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "overlying redness or bruising",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "midline tenderness at the l4 l5 disk space",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "right sided lumbar paravertebral tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with lumbar flexion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "supine straight leg test is positive",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "radiculopathy exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "decreased sensation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "neuro exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "patella and achilles reflexes are symmetrical",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "neuro exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "disc imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "disk desiccation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "MRI finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "disk bulge",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "MRI finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "paracentral disk herniation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "MRI finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "moderate right neuroforaminal",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "MRI finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "neural foraminal stenosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "MRI finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "herniated disk with nerve impingement",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "lumbar back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "herniated disk with radiculopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "spinal injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "disc treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nsaid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.16",
+   "why": "injection component"
+  },
+  {
+   "field": "dialogue",
+   "text": "corticosteroid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.16",
+   "why": "injection component"
+  },
+  {
+   "field": "dialogue",
+   "text": "fluoroscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "injection guidance"
+  },
+  {
+   "field": "note",
+   "text": "Kyle Morales",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "58-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "sedentary job",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job type"
+  },
+  {
+   "field": "note",
+   "text": "playing soccer in the midfield position",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports history"
+  },
+  {
+   "field": "note",
+   "text": "low back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "disc symptom"
+  },
+  {
+   "field": "note",
+   "text": "lifting a box of books",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "felt a pop",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "aching and sharp",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "pain quality"
+  },
+  {
+   "field": "note",
+   "text": "radiate down his left leg",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radiculopathy"
+  },
+  {
+   "field": "note",
+   "text": "numbness, tingling, loss of sensation, weakness, and loss of control of his bladder or bowels",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radiculopathy/cauda equina screen"
+  },
+  {
+   "field": "note",
+   "text": "bowl or bladder control issues, numbness, tingling, decreased sensations, or weakness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "neuro screen"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.16",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.16",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "disc treatment option"
+  },
+  {
+   "field": "note",
+   "text": "smoking",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "father has back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "Reports low back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "murmurs, rubs, or gallops",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated cardiac exam"
+  },
+  {
+   "field": "note",
+   "text": "respiratory distress",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "No evidence of trauma or deformity",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "Patellar and Achilles reflexes are symmetrical",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "neuro exam"
+  },
+  {
+   "field": "note",
+   "text": "No ecchymosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "Midline tenderness at the L4-5 disc space",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "right-sided lumbar paravertebral tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with lumbar flexion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "Positive supine straight leg test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "radiculopathy exam"
+  },
+  {
+   "field": "note",
+   "text": "MRI of the lumbar spine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "disc imaging"
+  },
+  {
+   "field": "note",
+   "text": "disc desiccation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "MRI finding"
+  },
+  {
+   "field": "note",
+   "text": "disc bulge",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "MRI finding"
+  },
+  {
+   "field": "note",
+   "text": "paracentral disc herniation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "MRI finding"
+  },
+  {
+   "field": "note",
+   "text": "moderate right neural foraminal stenosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "MRI finding"
+  },
+  {
+   "field": "note",
+   "text": "Lumbar back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "herniated disc with radiculopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "corticosteroid injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "disc treatment"
+  },
+  {
+   "field": "note",
+   "text": "bleeding, infection, nerve damage, blood vessel damage",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "procedure risks"
+  },
+  {
+   "field": "note",
+   "text": "elevated glucose levels",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "procedure risk"
+  },
+  {
+   "field": "note",
+   "text": "diabetic",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "hypothetical condition"
+  }
+ ]
+}

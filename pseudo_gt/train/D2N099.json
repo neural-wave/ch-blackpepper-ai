@@ -1,0 +1,797 @@
+{
+ "encounter_id": "D2N099",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "randy gutierrez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "randy",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "dino",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient nickname"
+  },
+  {
+   "field": "dialogue",
+   "text": "8/10/2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "older sister",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "my nephew",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "play date",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "mama",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family relation"
+  },
+  {
+   "field": "dialogue",
+   "text": "runny nose",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "viral URI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "stuffy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "viral URI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "mucous",
+   "category": "c",
+   "type": "FINDING",
+   "code": "B34.9",
+   "why": "viral URI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cough",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "viral URI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "barky",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "croup screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "barking cough",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "croup warning"
+  },
+  {
+   "field": "dialogue",
+   "text": "barky cough",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "croup warning"
+  },
+  {
+   "field": "dialogue",
+   "text": "sore throat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "negated URI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pulling on his ears",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "rubbing at his nose",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "viral infection symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "low-grade fever",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "viral infection symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "rectal temperature",
+   "category": "c",
+   "type": "LAB",
+   "code": "B34.9",
+   "why": "fever measurement"
+  },
+  {
+   "field": "dialogue",
+   "text": "irritable",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "sick infant symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "sinus infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "sick contact exposure"
+  },
+  {
+   "field": "dialogue",
+   "text": "sinus infections",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "saline mist",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "B34.9",
+   "why": "URI treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "B34.9",
+   "why": "fever treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "sweating",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "fever symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "baby vick's",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "B34.9",
+   "why": "URI treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "humidifier",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "B34.9",
+   "why": "URI treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "viral",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "virus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "bacterial infections",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "antibiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "B34.9",
+   "why": "not needed for viral"
+  },
+  {
+   "field": "dialogue",
+   "text": "fluids , rest",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "B34.9",
+   "why": "viral infection care"
+  },
+  {
+   "field": "dialogue",
+   "text": "zarbee's",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "B34.9",
+   "why": "cough treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "his sister's medicine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "B34.9",
+   "why": "croup rescue med"
+  },
+  {
+   "field": "dialogue",
+   "text": "stuffy nose",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cradle cap",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L21.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "cradle cap brush",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L21.0",
+   "why": "seborrhea care"
+  },
+  {
+   "field": "dialogue",
+   "text": "aveno shampoo",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L21.0",
+   "why": "seborrhea care"
+  },
+  {
+   "field": "dialogue",
+   "text": "dandruff shampoo",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L21.0",
+   "why": "seborrhea treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "dandruff",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L21.0",
+   "why": "seborrhea"
+  },
+  {
+   "field": "dialogue",
+   "text": "head & shoulder's",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L21.0",
+   "why": "seborrhea treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "selsun blue",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L21.0",
+   "why": "seborrhea treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nizoral ad",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L21.0",
+   "why": "seborrhea treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "scales",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L21.0",
+   "why": "seborrhea finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "soft brush",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L21.0",
+   "why": "seborrhea care"
+  },
+  {
+   "field": "dialogue",
+   "text": "baby oil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L21.0",
+   "why": "seborrhea care"
+  },
+  {
+   "field": "dialogue",
+   "text": "honey",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "infant feeding counseling"
+  },
+  {
+   "field": "dialogue",
+   "text": "agave",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "infant feeding counseling"
+  },
+  {
+   "field": "dialogue",
+   "text": "botulism spores",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "counseling"
+  },
+  {
+   "field": "dialogue",
+   "text": "covid-19",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Randy Gutierrez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "9-month-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "his mother",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family relation"
+  },
+  {
+   "field": "note",
+   "text": "older sister",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "note",
+   "text": "a cousin",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "Older sister",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "note",
+   "text": "the mother",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family relation"
+  },
+  {
+   "field": "note",
+   "text": "Cough",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "viral URI symptom"
+  },
+  {
+   "field": "note",
+   "text": "cough",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "viral URI symptom"
+  },
+  {
+   "field": "note",
+   "text": "nasal congestion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "viral URI symptom"
+  },
+  {
+   "field": "note",
+   "text": "Nasal congestion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "B34.9",
+   "why": "viral URI exam"
+  },
+  {
+   "field": "note",
+   "text": "rhinorrhea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "viral URI symptom"
+  },
+  {
+   "field": "note",
+   "text": "clear nasal drainage",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "viral URI symptom"
+  },
+  {
+   "field": "note",
+   "text": "clear mucus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "B34.9",
+   "why": "viral URI exam"
+  },
+  {
+   "field": "note",
+   "text": "pulling on his ears bilaterally",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "note",
+   "text": "Bilateral pulling of ears",
+   "category": "c",
+   "type": "FINDING",
+   "code": "B34.9",
+   "why": "URI exam"
+  },
+  {
+   "field": "note",
+   "text": "rubbing his nose",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "note",
+   "text": "barky cough",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "croup screen"
+  },
+  {
+   "field": "note",
+   "text": "croup cough",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "croup warning"
+  },
+  {
+   "field": "note",
+   "text": "sore throat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "negated URI symptom"
+  },
+  {
+   "field": "note",
+   "text": "hoarseness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "negated URI symptom"
+  },
+  {
+   "field": "note",
+   "text": "rectal temperature",
+   "category": "c",
+   "type": "LAB",
+   "code": "B34.9",
+   "why": "fever measurement"
+  },
+  {
+   "field": "note",
+   "text": "warm to the touch",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "fever"
+  },
+  {
+   "field": "note",
+   "text": "sweaty",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "fever symptom"
+  },
+  {
+   "field": "note",
+   "text": "irritable",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "sick infant symptom"
+  },
+  {
+   "field": "note",
+   "text": "trouble falling asleep",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "sick infant symptom"
+  },
+  {
+   "field": "note",
+   "text": "sinus infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "sick contact exposure"
+  },
+  {
+   "field": "note",
+   "text": "saline nasal spray",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "B34.9",
+   "why": "URI treatment"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "B34.9",
+   "why": "fever treatment"
+  },
+  {
+   "field": "note",
+   "text": "baby Vick's",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "B34.9",
+   "why": "URI treatment"
+  },
+  {
+   "field": "note",
+   "text": "humidifier",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "B34.9",
+   "why": "URI treatment"
+  },
+  {
+   "field": "note",
+   "text": "Viral infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "viral infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "B34.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "antibiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "B34.9",
+   "why": "not needed for viral"
+  },
+  {
+   "field": "note",
+   "text": "fluids, rest",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "B34.9",
+   "why": "viral infection care"
+  },
+  {
+   "field": "note",
+   "text": "Zarbee\u2019s",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "B34.9",
+   "why": "cough treatment"
+  },
+  {
+   "field": "note",
+   "text": "dandruff",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L21.0",
+   "why": "seborrhea capitis"
+  },
+  {
+   "field": "note",
+   "text": "Dandruff",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L21.0",
+   "why": "seborrhea capitis"
+  },
+  {
+   "field": "note",
+   "text": "Aveeno shampoo",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L21.0",
+   "why": "seborrhea care"
+  },
+  {
+   "field": "note",
+   "text": "Head and Shoulders shampoo",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L21.0",
+   "why": "seborrhea treatment"
+  },
+  {
+   "field": "note",
+   "text": "Selsun Blue",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L21.0",
+   "why": "seborrhea treatment"
+  },
+  {
+   "field": "note",
+   "text": "Nizoral A-D",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L21.0",
+   "why": "seborrhea treatment"
+  },
+  {
+   "field": "note",
+   "text": "extra strength shampoos",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L21.0",
+   "why": "seborrhea treatment counseling"
+  },
+  {
+   "field": "note",
+   "text": "baby oil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L21.0",
+   "why": "seborrhea care"
+  },
+  {
+   "field": "note",
+   "text": "soft brush",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L21.0",
+   "why": "seborrhea care"
+  },
+  {
+   "field": "note",
+   "text": "honey",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "infant feeding counseling"
+  },
+  {
+   "field": "note",
+   "text": "botulism spores",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "counseling"
+  }
+ ]
+}

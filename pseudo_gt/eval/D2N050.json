@@ -1,0 +1,525 @@
+{
+ "encounter_id": "D2N050",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "mason",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "barn with the horses",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "farm/horses lifestyle"
+  },
+  {
+   "field": "dialogue",
+   "text": "moving some hay",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "farm work activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "throwing hay",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "farm work activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "my father's had them",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "my dad had them a lot",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney stone",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain in my right back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "renal colic"
+  },
+  {
+   "field": "dialogue",
+   "text": "broke out into a sweat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "renal colic symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nauseated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "renal colic symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cat scan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "radiated almost down to my groin",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "renal colic radiation"
+  },
+  {
+   "field": "dialogue",
+   "text": "straining my urine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone management"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood in your urine",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom review"
+  },
+  {
+   "field": "dialogue",
+   "text": "darker than usual",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "urine review"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "infected stone screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "no tenderness to to pain to palpation of the abdomen",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "rebound or guarding",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness on the right side",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "CVA tenderness"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness and inflammation over your kidney",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "ct",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "proximal right ureter",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone location"
+  },
+  {
+   "field": "dialogue",
+   "text": "hydronephrosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone complication ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "push fluids",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone passage"
+  },
+  {
+   "field": "dialogue",
+   "text": "oxycodone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "strainer",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone management"
+  },
+  {
+   "field": "dialogue",
+   "text": "bmp",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "stone workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "urinalysis",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "stone workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "urine culture",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "stone workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "antibiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "possible infection with stone"
+  },
+  {
+   "field": "dialogue",
+   "text": "infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone complication screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "lithotripsy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "shock wave",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "lithotripsy"
+  },
+  {
+   "field": "dialogue",
+   "text": "stroke",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "patient misunderstanding, unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Mason Ward",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "80-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "in his barn moving hay",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "farm activity"
+  },
+  {
+   "field": "note",
+   "text": "throwing hay",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "farm activity"
+  },
+  {
+   "field": "note",
+   "text": "his father has a history of kidney stones",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "Kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "kidney stone",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Right kidney stone",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "right back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "renal colic"
+  },
+  {
+   "field": "note",
+   "text": "broke out into a sweat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "renal colic symptom"
+  },
+  {
+   "field": "note",
+   "text": "nauseated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "renal colic symptom"
+  },
+  {
+   "field": "note",
+   "text": "CT scan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone imaging"
+  },
+  {
+   "field": "note",
+   "text": "radiate almost to his groin",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "renal colic radiation"
+  },
+  {
+   "field": "note",
+   "text": "straining his urine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone management"
+  },
+  {
+   "field": "note",
+   "text": "hematuria",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom review"
+  },
+  {
+   "field": "note",
+   "text": "No pain with palpation of the abdomen",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "rebound or guarding",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "CVA tenderness on the right side",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "proximal right ureter",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone location"
+  },
+  {
+   "field": "note",
+   "text": "hydronephrosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "complication ruled out"
+  },
+  {
+   "field": "note",
+   "text": "oxycodone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain"
+  },
+  {
+   "field": "note",
+   "text": "strainer",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone management"
+  },
+  {
+   "field": "note",
+   "text": "BMP",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "stone workup"
+  },
+  {
+   "field": "note",
+   "text": "urinalysis",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "stone workup"
+  },
+  {
+   "field": "note",
+   "text": "urine culture",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "stone workup"
+  },
+  {
+   "field": "note",
+   "text": "infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "complication screen"
+  },
+  {
+   "field": "note",
+   "text": "lithotripsy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone treatment"
+  }
+ ]
+}

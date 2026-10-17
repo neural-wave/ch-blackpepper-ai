@@ -1,0 +1,893 @@
+{
+ "encounter_id": "D2N199",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "billy",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "teacher",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "patient job"
+  },
+  {
+   "field": "dialogue",
+   "text": "cincinnati bangel",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports team"
+  },
+  {
+   "field": "dialogue",
+   "text": "super bowl",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "named event tied to time"
+  },
+  {
+   "field": "dialogue",
+   "text": "brown span",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports fan identity"
+  },
+  {
+   "field": "dialogue",
+   "text": "74",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "my wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "spouse"
+  },
+  {
+   "field": "dialogue",
+   "text": "your wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "spouse"
+  },
+  {
+   "field": "dialogue",
+   "text": "my husband",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "doctor's spouse"
+  },
+  {
+   "field": "dialogue",
+   "text": "cough",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "bringing up some yellow stuff",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "productive cough"
+  },
+  {
+   "field": "dialogue",
+   "text": "fevers",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "cough workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "feel warm",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "cough illness symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "cough workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "achy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "viral symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "cough workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "runny nose sore throat sinus pain or pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "URI review"
+  },
+  {
+   "field": "dialogue",
+   "text": "congested",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "drainage down my throat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pressure in my sinuses",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "dayquil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R05.9",
+   "why": "cough treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure cuff",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "BP monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure medicine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "salt intake",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "twisted my knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "twisted your knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "fell down the stairs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded site"
+  },
+  {
+   "field": "dialogue",
+   "text": "limp",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee function"
+  },
+  {
+   "field": "dialogue",
+   "text": "give out",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee instability review"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "sugar intake",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney dysfunction",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes complication counseling"
+  },
+  {
+   "field": "dialogue",
+   "text": "eye problems",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes complication counseling"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation of the bilateral maxillary sinuses",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "URI exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "erythema and edema of the nasal turbinates",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "URI exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "yellow discharge",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "URI exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "exudate in the peritonsillar space",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "throat exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "bilateral cervical lymphadenopathy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "URI exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "coarse rhonchi",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "lung exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "heart exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation on the right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "decreased flexion and extension of the right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecchymosis to the right medial knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "upper respiratory infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "cause of cough"
+  },
+  {
+   "field": "dialogue",
+   "text": "congestion in your in your lungs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "cough cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "inflammation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "viral syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "cause of cough"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild bronchitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "cause of cough"
+  },
+  {
+   "field": "dialogue",
+   "text": "guaifenesin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R05.9",
+   "why": "cough treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "antibiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R05.9",
+   "why": "cough treatment decision"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R05.9",
+   "why": "cough workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "pneumonia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "right medial collateral ligament strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "cause of knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipid panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lipids not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "teacher",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "patient job"
+  },
+  {
+   "field": "note",
+   "text": "Cough",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "cough",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "productive cough with yellow sputum",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "\"feeling warm\"",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "illness symptom"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "cough workup"
+  },
+  {
+   "field": "note",
+   "text": "nasal congestion, sore throat, and sinus pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "URI symptoms"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "cough workup"
+  },
+  {
+   "field": "note",
+   "text": "body aches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "viral symptom"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "right knee instability",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee review"
+  },
+  {
+   "field": "note",
+   "text": "Pain to palpation to the bilateral maxillary sinuses",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "URI exam"
+  },
+  {
+   "field": "note",
+   "text": "Erythema and edema of the nasal turbinates bilaterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "URI exam"
+  },
+  {
+   "field": "note",
+   "text": "yellow discharge",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "URI exam"
+  },
+  {
+   "field": "note",
+   "text": "Pharynx without erythema, swelling, or exudate",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "throat exam"
+  },
+  {
+   "field": "note",
+   "text": "Bilateral cervical lymphadenopathy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "URI exam"
+  },
+  {
+   "field": "note",
+   "text": "Coarse rhonchi",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "lung exam"
+  },
+  {
+   "field": "note",
+   "text": "No murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "heart exam"
+  },
+  {
+   "field": "note",
+   "text": "No masses or tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "abdominal exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain to palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Decreased flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Ecchymosis present medially",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "viral syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "cause of cough"
+  },
+  {
+   "field": "note",
+   "text": "mild bronchitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "cause of cough"
+  },
+  {
+   "field": "note",
+   "text": "antibiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R05.9",
+   "why": "cough treatment decision"
+  },
+  {
+   "field": "note",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R05.9",
+   "why": "cough workup"
+  },
+  {
+   "field": "note",
+   "text": "over-the-counter medications",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R05.9",
+   "why": "cough treatment"
+  },
+  {
+   "field": "note",
+   "text": "guaifenesin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R05.9",
+   "why": "cough treatment"
+  },
+  {
+   "field": "note",
+   "text": "right medial lateral ligament strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "cause of knee pain"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Right knee x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "lipid panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "blood sugar monitoring",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "kidney dysfunction",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "complication counseling"
+  },
+  {
+   "field": "note",
+   "text": "eye problems",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "complication counseling"
+  },
+  {
+   "field": "note",
+   "text": "Hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  }
+ ]
+}

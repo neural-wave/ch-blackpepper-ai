@@ -1,0 +1,533 @@
+{
+ "encounter_id": "D2N103",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "melissa sanchez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "sanchez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "9/23/1962",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "5484367",
+   "category": "a",
+   "type": "CONTACT_ID",
+   "code": null,
+   "why": "medical record number"
+  },
+  {
+   "field": "dialogue",
+   "text": "8/3/2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "surgery date"
+  },
+  {
+   "field": "dialogue",
+   "text": "9/17",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "prior visit date"
+  },
+  {
+   "field": "dialogue",
+   "text": "12/26/2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "ECG date"
+  },
+  {
+   "field": "dialogue",
+   "text": "hughes",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "reminder app",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal tool"
+  },
+  {
+   "field": "dialogue",
+   "text": "status post mitral valve repair",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "follow-up after completed treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "completed treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "mitral regurgitation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z09",
+   "why": "treated condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart valves are working well",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-repair assessment"
+  },
+  {
+   "field": "dialogue",
+   "text": "recovering from the surgery",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-repair recovery"
+  },
+  {
+   "field": "dialogue",
+   "text": "followup",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "follow-up exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecg",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "follow-up testing"
+  },
+  {
+   "field": "dialogue",
+   "text": "jvd",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op cardiac exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "reduced breath",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "s1 slightly accentuated",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op cardiac exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "s3",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op cardiac exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "trace peripheral edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "coumadin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z09",
+   "why": "post-valve repair medication"
+  },
+  {
+   "field": "dialogue",
+   "text": "lasix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z09",
+   "why": "post-repair medication"
+  },
+  {
+   "field": "dialogue",
+   "text": "atrial fibrillation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded comorbidity"
+  },
+  {
+   "field": "dialogue",
+   "text": "a-fib",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded comorbidity"
+  },
+  {
+   "field": "dialogue",
+   "text": "controlled ventricular response",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "AF ECG finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "t-wave inversion",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "ECG finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "irregularly irregular",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "AF finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "atenolol",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "AF rate control"
+  },
+  {
+   "field": "dialogue",
+   "text": "irritable",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "medication side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded history"
+  },
+  {
+   "field": "dialogue",
+   "text": "asthma",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded history"
+  },
+  {
+   "field": "dialogue",
+   "text": "recurrent chest discomfort",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "coronary artery disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "cardiac workup",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "prior workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pains",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "breathing gets shallow",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded symptom"
+  },
+  {
+   "field": "note",
+   "text": "Melissa Sanchez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Sanchez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "58-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "08/03/2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "surgery date"
+  },
+  {
+   "field": "note",
+   "text": "09/17/20",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "prior visit date"
+  },
+  {
+   "field": "note",
+   "text": "12/26/2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "ECG date"
+  },
+  {
+   "field": "note",
+   "text": "reminder app",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal tool"
+  },
+  {
+   "field": "note",
+   "text": "Status post mitral valve repair",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "follow-up after completed treatment"
+  },
+  {
+   "field": "note",
+   "text": "status post mitral valve repair",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "follow-up after completed treatment"
+  },
+  {
+   "field": "note",
+   "text": "Mitral valve repair",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "completed treatment"
+  },
+  {
+   "field": "note",
+   "text": "Mitral regurgitation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z09",
+   "why": "treated condition"
+  },
+  {
+   "field": "note",
+   "text": "JVD",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op cardiac exam"
+  },
+  {
+   "field": "note",
+   "text": "Lungs have reduced breath",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op exam"
+  },
+  {
+   "field": "note",
+   "text": "S1 slightly accentuated",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op cardiac exam"
+  },
+  {
+   "field": "note",
+   "text": "S3",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op cardiac exam"
+  },
+  {
+   "field": "note",
+   "text": "Trace peripheral edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op exam"
+  },
+  {
+   "field": "note",
+   "text": "ECG",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "follow-up testing"
+  },
+  {
+   "field": "note",
+   "text": "Coumadin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z09",
+   "why": "post-valve repair medication"
+  },
+  {
+   "field": "note",
+   "text": "Lasix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z09",
+   "why": "post-repair medication"
+  },
+  {
+   "field": "note",
+   "text": "Atrial fibrillation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded comorbidity"
+  },
+  {
+   "field": "note",
+   "text": "controlled ventricular response",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "AF ECG finding"
+  },
+  {
+   "field": "note",
+   "text": "t-wave inversion",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "ECG finding"
+  },
+  {
+   "field": "note",
+   "text": "irregularly irregular",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "AF finding"
+  },
+  {
+   "field": "note",
+   "text": "Atenolol",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "AF rate control"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes Type II",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded history"
+  },
+  {
+   "field": "note",
+   "text": "Asthma",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded history"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded symptom"
+  },
+  {
+   "field": "note",
+   "text": "chest pains",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded symptom"
+  }
+ ]
+}

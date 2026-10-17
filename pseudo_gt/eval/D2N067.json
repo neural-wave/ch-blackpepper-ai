@@ -1,0 +1,629 @@
+{
+ "encounter_id": "D2N067",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "elizabeth",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "fourteen",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age at prior surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "walk my dog",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "pet"
+  },
+  {
+   "field": "dialogue",
+   "text": "my grandma gave them to me",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "a really good gymnast",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "past sport achievement"
+  },
+  {
+   "field": "dialogue",
+   "text": "back summer salt",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific past event"
+  },
+  {
+   "field": "dialogue",
+   "text": "the athlete that i am",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "self-description"
+  },
+  {
+   "field": "dialogue",
+   "text": "intense gym and ski events",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobbies"
+  },
+  {
+   "field": "dialogue",
+   "text": "i ski probably three times a week",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby frequency"
+  },
+  {
+   "field": "dialogue",
+   "text": "gymnastics",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "skiing",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.23",
+   "why": "activity causing injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "black diamond",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.23",
+   "why": "ski run during injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "downhill skiing racing",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.23",
+   "why": "activity causing injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "ran into a tree",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W22.8XXA",
+   "why": "struck object"
+  },
+  {
+   "field": "dialogue",
+   "text": "twisted my knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.521A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "hurt my knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.521A",
+   "why": "injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "medial aspect of the right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.521A",
+   "why": "pain location"
+  },
+  {
+   "field": "dialogue",
+   "text": "bilateral knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.521A",
+   "why": "knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "my right knee hurts",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.521A",
+   "why": "knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "brace",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.521A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "thc cream",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.521A",
+   "why": "used for knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "thc gummies",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.521A",
+   "why": "used for knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "gummies",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.521A",
+   "why": "used for knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.521A",
+   "why": "knee symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "very stiff in the morning",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.521A",
+   "why": "knee symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shooting pain down to my ankle",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.521A",
+   "why": "knee exam response"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild swelling and bruising",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.521A",
+   "why": "knee exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "slight limp",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.521A",
+   "why": "gait finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "limping",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.521A",
+   "why": "gait finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain on dorsiflexion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.521A",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.521A",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.521A",
+   "why": "negated, ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "strain of your posterior cruciate ligament",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.521A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.521A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.521A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nsaid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.521A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.521A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "left knee just feels unstable",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "left knee not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery on my right knee",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "prior surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "reconstructed the whole thing",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "prior reconstruction"
+  },
+  {
+   "field": "dialogue",
+   "text": "arthritis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "vitamins",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "supplements"
+  },
+  {
+   "field": "note",
+   "text": "Elizabeth Ross",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "91-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "14 years old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age at prior surgery"
+  },
+  {
+   "field": "note",
+   "text": "age of 14",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age at prior surgery"
+  },
+  {
+   "field": "note",
+   "text": "good gymnast",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "past sport achievement"
+  },
+  {
+   "field": "note",
+   "text": "intense gym and ski events",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobbies"
+  },
+  {
+   "field": "note",
+   "text": "skis 3 times per week",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby frequency"
+  },
+  {
+   "field": "note",
+   "text": "gymnastics",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "downhill skiing",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.23",
+   "why": "activity causing injury"
+  },
+  {
+   "field": "note",
+   "text": "skiing",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.23",
+   "why": "activity causing injury"
+  },
+  {
+   "field": "note",
+   "text": "ran into a tree",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W22.8XXA",
+   "why": "struck object"
+  },
+  {
+   "field": "note",
+   "text": "twisted her right knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.521A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "Right knee injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.521A",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "right knee injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.521A",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "medial aspect of her right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.521A",
+   "why": "pain location"
+  },
+  {
+   "field": "note",
+   "text": "right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.521A",
+   "why": "knee pain"
+  },
+  {
+   "field": "note",
+   "text": "limping",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.521A",
+   "why": "gait finding"
+  },
+  {
+   "field": "note",
+   "text": "radiating pain",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.521A",
+   "why": "negated knee symptom"
+  },
+  {
+   "field": "note",
+   "text": "swelling and stiffness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.521A",
+   "why": "knee symptom"
+  },
+  {
+   "field": "note",
+   "text": "brace",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.521A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "note",
+   "text": "bracing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.521A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "note",
+   "text": "THC cream",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.521A",
+   "why": "used for knee pain"
+  },
+  {
+   "field": "note",
+   "text": "THC gummies",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.521A",
+   "why": "used for knee pain"
+  },
+  {
+   "field": "note",
+   "text": "Mild effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.521A",
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "antalgic gait",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.521A",
+   "why": "gait finding"
+  },
+  {
+   "field": "note",
+   "text": "Pain with dorsiflexion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.521A",
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "4 views of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.521A",
+   "why": "knee imaging"
+  },
+  {
+   "field": "note",
+   "text": "fractures",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.521A",
+   "why": "negated, ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Right knee posterior cruciate ligament strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.521A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.521A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "note",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.521A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.521A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "note",
+   "text": "pop in her left knee",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "left knee not coded"
+  },
+  {
+   "field": "note",
+   "text": "left knee pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "left knee not coded"
+  },
+  {
+   "field": "note",
+   "text": "right knee reconstruction",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "prior surgery"
+  },
+  {
+   "field": "note",
+   "text": "mild arthritis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  }
+ ]
+}

@@ -1,0 +1,685 @@
+{
+ "encounter_id": "D2N102",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "kelly wood",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "wood",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "february 15th , 1979",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "hematuria",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R31.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "bright red urine",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R31.9",
+   "why": "hematuria symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cherry kool-aid",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R31.9",
+   "why": "hematuria description"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood in the urine",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R31.9",
+   "why": "hematuria lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood in your urine",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R31.9",
+   "why": "hematuria"
+  },
+  {
+   "field": "dialogue",
+   "text": "bright red blood in your urine",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R31.9",
+   "why": "hematuria warning"
+  },
+  {
+   "field": "dialogue",
+   "text": "bleeding",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R31.9",
+   "why": "hematuria warning"
+  },
+  {
+   "field": "dialogue",
+   "text": "urine dipstick",
+   "category": "c",
+   "type": "LAB",
+   "code": "R31.9",
+   "why": "hematuria workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "leukocytes",
+   "category": "c",
+   "type": "LAB",
+   "code": "R31.9",
+   "why": "urinalysis"
+  },
+  {
+   "field": "dialogue",
+   "text": "nitrates",
+   "category": "c",
+   "type": "LAB",
+   "code": "R31.9",
+   "why": "urinalysis"
+  },
+  {
+   "field": "dialogue",
+   "text": "protein",
+   "category": "c",
+   "type": "LAB",
+   "code": "R31.9",
+   "why": "urinalysis"
+  },
+  {
+   "field": "dialogue",
+   "text": "ketone",
+   "category": "c",
+   "type": "LAB",
+   "code": "R31.9",
+   "why": "urinalysis"
+  },
+  {
+   "field": "dialogue",
+   "text": "bilirubin",
+   "category": "c",
+   "type": "LAB",
+   "code": "R31.9",
+   "why": "urinalysis"
+  },
+  {
+   "field": "dialogue",
+   "text": "glucose",
+   "category": "c",
+   "type": "LAB",
+   "code": "R31.9",
+   "why": "urinalysis"
+  },
+  {
+   "field": "dialogue",
+   "text": "urobilinogen",
+   "category": "c",
+   "type": "LAB",
+   "code": "R31.9",
+   "why": "urinalysis"
+  },
+  {
+   "field": "dialogue",
+   "text": "specific gravity",
+   "category": "c",
+   "type": "LAB",
+   "code": "R31.9",
+   "why": "urinalysis"
+  },
+  {
+   "field": "dialogue",
+   "text": "renal ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "stones , masses or hydronephrosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "renal imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "left renal stone non-obstructing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "stone in the left kidney",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney stone",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "passed what looked like two small stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone passage"
+  },
+  {
+   "field": "dialogue",
+   "text": "constantly having to pee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "it hurt something terrible",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "flank pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness in your lower back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgical intervention",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone management"
+  },
+  {
+   "field": "dialogue",
+   "text": "dehydration",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "digestive tract disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "mountain dew",
+   "category": "c",
+   "type": "QUASI",
+   "code": "N20.0",
+   "why": "dietary stone risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "water",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone prevention"
+  },
+  {
+   "field": "dialogue",
+   "text": "sugary drinks",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "sodium oxalate",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone risk diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "animal protein",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone risk diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "salty , processed food",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone risk diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "oxalate",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone risk diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "spinach , chocolate , beets , rhubarb and soy products",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone risk foods"
+  },
+  {
+   "field": "dialogue",
+   "text": "chronic urol ... urolithiasis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "alavert",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated antihistamine"
+  },
+  {
+   "field": "dialogue",
+   "text": "drug allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "allergy history"
+  },
+  {
+   "field": "dialogue",
+   "text": "normal vaginal exam",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "Kelly Wood",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Wood",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "41-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Hematuria",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R31.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hematuria",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R31.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "gross hematuria",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R31.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "cherry Kool-Aid",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R31.9",
+   "why": "hematuria description"
+  },
+  {
+   "field": "note",
+   "text": "Urine Dipstick without Micro",
+   "category": "c",
+   "type": "LAB",
+   "code": "R31.9",
+   "why": "hematuria workup"
+  },
+  {
+   "field": "note",
+   "text": "Urinalysis",
+   "category": "c",
+   "type": "LAB",
+   "code": "R31.9",
+   "why": "hematuria workup"
+  },
+  {
+   "field": "note",
+   "text": "Leukocytes",
+   "category": "c",
+   "type": "LAB",
+   "code": "R31.9",
+   "why": "urinalysis"
+  },
+  {
+   "field": "note",
+   "text": "Nitrate",
+   "category": "c",
+   "type": "LAB",
+   "code": "R31.9",
+   "why": "urinalysis"
+  },
+  {
+   "field": "note",
+   "text": "Urobilinogen",
+   "category": "c",
+   "type": "LAB",
+   "code": "R31.9",
+   "why": "urinalysis"
+  },
+  {
+   "field": "note",
+   "text": "Protein",
+   "category": "c",
+   "type": "LAB",
+   "code": "R31.9",
+   "why": "urinalysis"
+  },
+  {
+   "field": "note",
+   "text": "Blood: Trace, intact",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R31.9",
+   "why": "hematuria lab"
+  },
+  {
+   "field": "note",
+   "text": "trace amount of blood",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R31.9",
+   "why": "hematuria lab"
+  },
+  {
+   "field": "note",
+   "text": "Specific gravity",
+   "category": "c",
+   "type": "LAB",
+   "code": "R31.9",
+   "why": "urinalysis"
+  },
+  {
+   "field": "note",
+   "text": "Ketone",
+   "category": "c",
+   "type": "LAB",
+   "code": "R31.9",
+   "why": "urinalysis"
+  },
+  {
+   "field": "note",
+   "text": "Bilirubin",
+   "category": "c",
+   "type": "LAB",
+   "code": "R31.9",
+   "why": "urinalysis"
+  },
+  {
+   "field": "note",
+   "text": "Glucose",
+   "category": "c",
+   "type": "LAB",
+   "code": "R31.9",
+   "why": "urinalysis"
+  },
+  {
+   "field": "note",
+   "text": "Chronic urolithiasis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "chronic urolithiasis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "urolithiasis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "renal ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone imaging"
+  },
+  {
+   "field": "note",
+   "text": "Renal Ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone imaging"
+  },
+  {
+   "field": "note",
+   "text": "passed 2 small stone like structures",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone passage"
+  },
+  {
+   "field": "note",
+   "text": "passing two small stone like structures",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone passage"
+  },
+  {
+   "field": "note",
+   "text": "flank pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "stones, masses, or hydronephrosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "renal imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "6 mm left renal stone, non-obstructing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "non-obstructing renal stone in the left kidney",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "surgical intervention",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone management"
+  },
+  {
+   "field": "note",
+   "text": "urolithiasis prevention",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone prevention"
+  },
+  {
+   "field": "note",
+   "text": "limit salt, and animal protein",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone prevention diet"
+  },
+  {
+   "field": "note",
+   "text": "increase fluid consumption",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone prevention"
+  },
+  {
+   "field": "note",
+   "text": "sugary drinks",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone risk"
+  },
+  {
+   "field": "note",
+   "text": "dietary recommendations",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone prevention"
+  },
+  {
+   "field": "note",
+   "text": "Alavert",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated antihistamine"
+  },
+  {
+   "field": "note",
+   "text": "drug allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "allergy history"
+  },
+  {
+   "field": "note",
+   "text": "Normal vaginal exam",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  }
+ ]
+}

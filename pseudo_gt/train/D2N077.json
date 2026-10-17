@@ -1,0 +1,725 @@
+{
+ "encounter_id": "D2N077",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "diana",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "going on vacation",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel plans"
+  },
+  {
+   "field": "dialogue",
+   "text": "vacation in a month",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel plans"
+  },
+  {
+   "field": "dialogue",
+   "text": "walking up and down the stairs",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S52.531D",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "doing my laundry",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S52.531D",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "slipped",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S52.531D",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "put my arms out to catch myself",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S52.531D",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "missed a step",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S52.531D",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "injured your wrist",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S52.531D",
+   "why": "coded injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "wrist started to hurt",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S52.531D",
+   "why": "coded injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "swollen",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S52.531D",
+   "why": "fracture symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling in my wrist",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S52.531D",
+   "why": "fracture symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S52.531D",
+   "why": "fracture-related symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S52.531D",
+   "why": "fracture-related symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S52.531D",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ace wrap",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S52.531D",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S52.531D",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "adenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "thyromegaly",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "carotid bruit",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "lungs are clear to auscultation bilaterally",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "palpable pulses",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "lower edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain on flexion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "wrist finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "radial deviation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "wrist finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "wrist abduction adduction positive for pain on movement",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "wrist finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "obvious swelling ecchymosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "wrist finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "obvious swelling and bruising",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "wrist finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness on palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "wrist finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "bony crepitus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "fracture finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "potential fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "fracture finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure is a little elevated",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "vital sign, attributed to pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S52.531D",
+   "why": "fracture imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "colles' fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S52.531D",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "thumb spica",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S52.531D",
+   "why": "fracture treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "brace",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S52.531D",
+   "why": "fracture treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S52.531D",
+   "why": "fracture treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ultram",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S52.531D",
+   "why": "fracture pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S52.531D",
+   "why": "fracture rehab"
+  },
+  {
+   "field": "dialogue",
+   "text": "put screws in",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S52.531D",
+   "why": "fracture fixation"
+  },
+  {
+   "field": "dialogue",
+   "text": "extra-articular",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "fracture description"
+  },
+  {
+   "field": "dialogue",
+   "text": "dorsal angulation of the distal fracture fragment",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "fracture description"
+  },
+  {
+   "field": "dialogue",
+   "text": "dinner fork deformity",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "fracture description"
+  },
+  {
+   "field": "dialogue",
+   "text": "ulnar styloid fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "fracture description"
+  },
+  {
+   "field": "note",
+   "text": "Diana Scott",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "61-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "05/12/2022",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "injury date"
+  },
+  {
+   "field": "note",
+   "text": "going on vacation in 1 month",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel plans"
+  },
+  {
+   "field": "note",
+   "text": "2-week vacation planned in 1 month",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel plans"
+  },
+  {
+   "field": "note",
+   "text": "postponing her vacation",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel plans"
+  },
+  {
+   "field": "note",
+   "text": "Right wrist injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S52.531D",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "right wrist injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S52.531D",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "slipped on the stairs while carrying a laundry basket",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S52.531D",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "arms outstretched",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S52.531D",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "pain and swelling in her right wrist",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S52.531D",
+   "why": "fracture symptom"
+  },
+  {
+   "field": "note",
+   "text": "right wrist pain and swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S52.531D",
+   "why": "fracture symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness and tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S52.531D",
+   "why": "fracture-related symptom"
+  },
+  {
+   "field": "note",
+   "text": "icing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S52.531D",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "ACE wrap",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S52.531D",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S52.531D",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Blood Pressure: Elevated",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "vital sign"
+  },
+  {
+   "field": "note",
+   "text": "No swelling noted",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "No bilateral lower extremity edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "No carotid bruit",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "No murmurs, gallops or rubs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "Lungs clear to auscultation bilaterally",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "No adenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "No thyromegaly",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "Non-distended",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "Limited range of movement",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "wrist finding"
+  },
+  {
+   "field": "note",
+   "text": "Tenderness to palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "wrist finding"
+  },
+  {
+   "field": "note",
+   "text": "Pain on flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "wrist finding"
+  },
+  {
+   "field": "note",
+   "text": "Pain with radial deviation and lateral deviation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "wrist finding"
+  },
+  {
+   "field": "note",
+   "text": "Pain with wrist abduction and adduction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "wrist finding"
+  },
+  {
+   "field": "note",
+   "text": "Obvious swelling and bruising",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "wrist finding"
+  },
+  {
+   "field": "note",
+   "text": "bony crepitus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "fracture finding"
+  },
+  {
+   "field": "note",
+   "text": "potential fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "fracture finding"
+  },
+  {
+   "field": "note",
+   "text": "X-rays of the right wrist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S52.531D",
+   "why": "fracture imaging"
+  },
+  {
+   "field": "note",
+   "text": "extra-articular",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "fracture description"
+  },
+  {
+   "field": "note",
+   "text": "Dorsal angulation of the distal fracture fragment",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "fracture description"
+  },
+  {
+   "field": "note",
+   "text": "dinner fork deformity",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "fracture description"
+  },
+  {
+   "field": "note",
+   "text": "ulnar styloid fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S52.531D",
+   "why": "fracture description"
+  },
+  {
+   "field": "note",
+   "text": "Right wrist Colles fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S52.531D",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "right wrist Colles fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S52.531D",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "right wrist ORIF",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S52.531D",
+   "why": "fracture treatment"
+  },
+  {
+   "field": "note",
+   "text": "thumb spica brace",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S52.531D",
+   "why": "fracture treatment"
+  },
+  {
+   "field": "note",
+   "text": "Ultram",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S52.531D",
+   "why": "fracture pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S52.531D",
+   "why": "fracture rehab"
+  },
+  {
+   "field": "note",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S52.531D",
+   "why": "fracture treatment"
+  }
+ ]
+}

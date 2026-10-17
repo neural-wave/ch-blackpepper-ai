@@ -1,0 +1,765 @@
+{
+ "encounter_id": "D2N156",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "julia",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "twenty eighteen",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "year of stent"
+  },
+  {
+   "field": "dialogue",
+   "text": "walk my dog",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "pet/lifestyle"
+  },
+  {
+   "field": "dialogue",
+   "text": "walking my dog",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "pet/lifestyle"
+  },
+  {
+   "field": "dialogue",
+   "text": "good insurance",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal financial detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "rca stent",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "interior stemi",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD event"
+  },
+  {
+   "field": "dialogue",
+   "text": "stent",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart attack",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD event"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "leg swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "legs are a little swollen",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "lie flat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "orthopnea screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "salt intake",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF/HTN diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "pizza",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "high-salt diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "pepperoni",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "high-salt diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes control"
+  },
+  {
+   "field": "dialogue",
+   "text": "insulin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment option"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "jugular venous distention",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "HF exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "three over six systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I05.1",
+   "why": "valve exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "lower limb edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "HF exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pitting one plus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "HF exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "cath site is clean dry and intact without hematoma",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "post-PCI exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "ekg",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "normal sinus rhythm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "ekg"
+  },
+  {
+   "field": "dialogue",
+   "text": "good r wave progression",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "ekg"
+  },
+  {
+   "field": "dialogue",
+   "text": "evolutionary changes that are anticipated after a stemi",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "ekg"
+  },
+  {
+   "field": "dialogue",
+   "text": "echo",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.21",
+   "why": "HF workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "reduced ejection fraction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "HF evidence"
+  },
+  {
+   "field": "dialogue",
+   "text": "aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "brilinta",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "high dose statin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipitor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "toprol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cardiac rehab",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "reduced left ventricular dysfunction",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF evidence"
+  },
+  {
+   "field": "dialogue",
+   "text": "moderate mitral regurgitation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I05.1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "cath lab",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I11.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "retaining fluid",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF evidence"
+  },
+  {
+   "field": "dialogue",
+   "text": "acute heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "diuretic",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.21",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lasix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.21",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "aldactone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.21",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nutrition counseling",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I11.0",
+   "why": "HTN diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "preserved meat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "high-salt diet"
+  },
+  {
+   "field": "note",
+   "text": "2018",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "year of stent"
+  },
+  {
+   "field": "note",
+   "text": "inferior STEMI",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD event"
+  },
+  {
+   "field": "note",
+   "text": "STEMI",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD event"
+  },
+  {
+   "field": "note",
+   "text": "RCA stent",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Brilinta",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Lipitor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Toprol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I11.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "bilateral leg swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "jugular venous distention",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "HF exam"
+  },
+  {
+   "field": "note",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "neck exam"
+  },
+  {
+   "field": "note",
+   "text": "3/6 systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I05.1",
+   "why": "valve exam"
+  },
+  {
+   "field": "note",
+   "text": "cath site is clean, dry, and intact without hematoma",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "post-PCI exam"
+  },
+  {
+   "field": "note",
+   "text": "Bilateral lower limb edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "HF exam"
+  },
+  {
+   "field": "note",
+   "text": "Pitting 1+",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "HF exam"
+  },
+  {
+   "field": "note",
+   "text": "EKG",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD workup"
+  },
+  {
+   "field": "note",
+   "text": "normal sinus rhythm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "ekg"
+  },
+  {
+   "field": "note",
+   "text": "Good R wave progression",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "ekg"
+  },
+  {
+   "field": "note",
+   "text": "Evolutionary changes",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "ekg"
+  },
+  {
+   "field": "note",
+   "text": "Echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.21",
+   "why": "HF workup"
+  },
+  {
+   "field": "note",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.21",
+   "why": "HF workup"
+  },
+  {
+   "field": "note",
+   "text": "echo",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.21",
+   "why": "HF workup"
+  },
+  {
+   "field": "note",
+   "text": "reduced ejection fraction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "HF evidence"
+  },
+  {
+   "field": "note",
+   "text": "Coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "cardiac rehab",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Newly reduced left ventricular dysfunction",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF evidence"
+  },
+  {
+   "field": "note",
+   "text": "moderate mitral regurgitation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I05.1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "cath lab",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Acute heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "retaining fluid",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF evidence"
+  },
+  {
+   "field": "note",
+   "text": "Lasix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.21",
+   "why": "HF treatment"
+  },
+  {
+   "field": "note",
+   "text": "Aldactone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.21",
+   "why": "HF treatment"
+  },
+  {
+   "field": "note",
+   "text": "lab work",
+   "category": "c",
+   "type": "LAB",
+   "code": "I50.21",
+   "why": "HF monitoring"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "preserved meats",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "diet counseling"
+  },
+  {
+   "field": "note",
+   "text": "nutrition counseling",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I11.0",
+   "why": "HTN diet"
+  },
+  {
+   "field": "note",
+   "text": "Type 2 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "blood glucose levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  }
+ ]
+}

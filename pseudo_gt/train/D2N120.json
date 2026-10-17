@@ -1,0 +1,565 @@
+{
+ "encounter_id": "D2N120",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "larry",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "playing golf",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "golf",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "golf course",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "disc symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "moving furniture",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M51.16",
+   "why": "onset cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "sharp stabbing pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "pain character"
+  },
+  {
+   "field": "dialogue",
+   "text": "go down even down to my right leg",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radiculopathy"
+  },
+  {
+   "field": "dialogue",
+   "text": "my big toe",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radicular distribution"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness or tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radicular symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness and tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radicular symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "loss of sensation in the genital or the rectal area",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "cauda equina screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "weakness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radicular screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "loss of control of your bladder or your bowels",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "cauda equina screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "disc treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "strong pain medications",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.16",
+   "why": "disc treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "disc treatment option"
+  },
+  {
+   "field": "dialogue",
+   "text": "spine conditions",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "family history screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "erythema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecchymosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "midline tenderness at l4 l5 disk space",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "right-sided lumbar paravertebral tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with lumbar flexion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "supine straight leg test is positive",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "radiculopathy sign"
+  },
+  {
+   "field": "dialogue",
+   "text": "decreased sensation to light touch at the right lateral thigh at l4 dermatome",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "radiculopathy sign"
+  },
+  {
+   "field": "dialogue",
+   "text": "patellar and achilles reflexes are symmetrical",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "neuro exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "disc imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "disk herniation with nerve impingement",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "chronic lumbar back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "disc symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "l4 l5 herniated disk",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "radiculopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "spinal injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "disc treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "corticosteroid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.16",
+   "why": "disc treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "fluoroscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "injection guidance"
+  },
+  {
+   "field": "dialogue",
+   "text": "injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "disc treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "gained some weight",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoke",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "smoking history"
+  },
+  {
+   "field": "note",
+   "text": "Larry Garcia",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "41-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "disc symptom"
+  },
+  {
+   "field": "note",
+   "text": "lower back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "disc symptom"
+  },
+  {
+   "field": "note",
+   "text": "moving furniture",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M51.16",
+   "why": "onset cause"
+  },
+  {
+   "field": "note",
+   "text": "sharp and stabbing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "pain character"
+  },
+  {
+   "field": "note",
+   "text": "radiates distally into his right leg",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radiculopathy"
+  },
+  {
+   "field": "note",
+   "text": "great toe",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radicular distribution"
+  },
+  {
+   "field": "note",
+   "text": "numbness and tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radicular symptom"
+  },
+  {
+   "field": "note",
+   "text": "loss of sensation in his genital or rectal area",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "cauda equina screen"
+  },
+  {
+   "field": "note",
+   "text": "loss of bladder or bowel control",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "cauda equina screen"
+  },
+  {
+   "field": "note",
+   "text": "loss of bowl or bladder control",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "cauda equina screen"
+  },
+  {
+   "field": "note",
+   "text": "loss of sensation in the genital or rectal area",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "cauda equina screen"
+  },
+  {
+   "field": "note",
+   "text": "weakness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radicular screen"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "disc treatment"
+  },
+  {
+   "field": "note",
+   "text": "pain medications",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.16",
+   "why": "disc treatment"
+  },
+  {
+   "field": "note",
+   "text": "surgical procedure",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "disc treatment option"
+  },
+  {
+   "field": "note",
+   "text": "spine conditions",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "family history screen"
+  },
+  {
+   "field": "note",
+   "text": "Decreased sensation to light touch at the right lateral thigh at the L4 dermatome",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "radiculopathy sign"
+  },
+  {
+   "field": "note",
+   "text": "Patellar and Achilles reflexes are symmetrical",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "neuro exam"
+  },
+  {
+   "field": "note",
+   "text": "No overlying erythema or ecchymosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "Midline tenderness at L4-5 disc space",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "right-sided lumbar paravertebral tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with lumbar flexion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "Supine straight leg test is positive",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "radiculopathy sign"
+  },
+  {
+   "field": "note",
+   "text": "MRI of the lumbar spine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "disc imaging"
+  },
+  {
+   "field": "note",
+   "text": "disc herniation with nerve impingement",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "L4-5 herniated disc with radiculopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "corticosteroid injection under fluoroscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "disc treatment"
+  },
+  {
+   "field": "note",
+   "text": "cortisone injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "disc treatment"
+  },
+  {
+   "field": "note",
+   "text": "gained weight",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "weight gain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "quit smoking",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "smoking history"
+  }
+ ]
+}

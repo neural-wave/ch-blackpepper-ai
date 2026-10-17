@@ -1,0 +1,333 @@
+{
+ "encounter_id": "D2N137",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "christine",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "63-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "really stressed with work and putting in more hours",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "work detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "looking at a computer screen all day",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "work detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "dep- depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "carpal tunnel release",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "uncoded surgical history"
+  },
+  {
+   "field": "dialogue",
+   "text": "carpal tunnel",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "right , um , wrist",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "site of uncoded surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "hurting yourself",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated SI"
+  },
+  {
+   "field": "dialogue",
+   "text": "eating a lot of frozen meals",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I10",
+   "why": "dietary factor for blood pressure"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "hypertension symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness or tingling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "tingling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "adenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "hyperthyroidism",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "note",
+   "text": "Christine Flores",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "63-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "working more hours",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "work detail"
+  },
+  {
+   "field": "note",
+   "text": "increased workload",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "work detail"
+  },
+  {
+   "field": "note",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "blood pressure issues",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "note",
+   "text": "right carpal tunnel release",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "uncoded surgery"
+  },
+  {
+   "field": "note",
+   "text": "Carpal tunnel release",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "uncoded surgery"
+  },
+  {
+   "field": "note",
+   "text": "self-harm or harming others",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "dietary indiscretion",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I10",
+   "why": "hypertension factor"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "hypertension symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness or tingling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "thyromegaly or cervical lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "murmurs, gallops, or rubs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "hypertension treatment"
+  }
+ ]
+}

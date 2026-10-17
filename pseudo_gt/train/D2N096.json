@@ -1,0 +1,285 @@
+{
+ "encounter_id": "D2N096",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "anderson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "44-years-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "gymnastics class",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.512",
+   "why": "activity causing shoulder pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "toppled over into some weird position",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.512",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "left shoulder pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.512",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "any kind of movement on my left shoulder actually hurts",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.512",
+   "why": "shoulder pain on motion"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.512",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain medications",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.512",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.512",
+   "why": "shoulder imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "broken bone",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.512",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.512",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "hurt your joint",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.512",
+   "why": "shoulder injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.512",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain reliever",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.512",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.512",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "heat pad",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.512",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "rest my , your left arm",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.512",
+   "why": "rest"
+  },
+  {
+   "field": "dialogue",
+   "text": "advil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.512",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "aleve",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.512",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "past surgery on my , um , left arm",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  },
+  {
+   "field": "note",
+   "text": "Anderson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "44-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "gymnastics",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.512",
+   "why": "activity causing shoulder pain"
+  },
+  {
+   "field": "note",
+   "text": "Left shoulder pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.512",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "pain with any type of movement of her left shoulder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.512",
+   "why": "shoulder pain"
+  },
+  {
+   "field": "note",
+   "text": "pain with range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.512",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.512",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "X-rays of the left shoulder",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.512",
+   "why": "shoulder imaging"
+  },
+  {
+   "field": "note",
+   "text": "left shoulder x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.512",
+   "why": "shoulder imaging"
+  },
+  {
+   "field": "note",
+   "text": "fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.512",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.512",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "Aleve",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.512",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "ice or heat packs",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.512",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "rest her left arm",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.512",
+   "why": "rest"
+  },
+  {
+   "field": "note",
+   "text": "prior left upper extremity surgery",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  }
+ ]
+}

@@ -1,0 +1,789 @@
+{
+ "encounter_id": "D2N066",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "gabriel",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "scott",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor surname"
+  },
+  {
+   "field": "dialogue",
+   "text": "43 -year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "my wife held a gun to my head",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "your wife being a great cook and making cookies",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "she still makes cookies",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "video visit",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal context"
+  },
+  {
+   "field": "dialogue",
+   "text": "epic",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "record system name"
+  },
+  {
+   "field": "dialogue",
+   "text": "working in the yard",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M54.50",
+   "why": "cause of back pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "bent over to pick something up",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M54.50",
+   "why": "mechanism of back pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "across the lower part of my back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "low back pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "down my left leg",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "radiating pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "radicular symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "weakness or numbness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "negated neuro symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "loss of bowel or bladder function",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "red flag ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "back surgeries",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "negated back history"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness on the left paraspinal area",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.50",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "straight leg raise test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "paraspinal area",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.50",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "muscular sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "cause of back pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "naprosyn",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "anti-inflammatory",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "flexeril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "muscle relaxers",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back imaging deferred"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "diet and exercise",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "management"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hydrochlorothiazide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling in my ankles",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "side effect of HTN med"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling in your ankles",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "side effect of HTN med"
+  },
+  {
+   "field": "dialogue",
+   "text": "one plus nonpitting edema of your lower extremities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "side effect of HTN med"
+  },
+  {
+   "field": "dialogue",
+   "text": "one plus edema in your legs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "side effect of HTN med"
+  },
+  {
+   "field": "dialogue",
+   "text": "cbc",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "edema/HTN workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "bmp",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "edema/HTN workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney function",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "HTN workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "ekg",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "high cholesterol",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney failure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "hypothetical complication, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "eye problems",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "hypothetical complication, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "fifteen pounds lighter",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "weight, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "two over six systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "no jvd",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "no bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "no rales no wheezing",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "no calf tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "negative homans sign",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood clot",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "lower back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Lower back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "tingling in left leg",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "radicular"
+  },
+  {
+   "field": "note",
+   "text": "weakness or numbness in legs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "loss of bowl or bladder function",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "red flag ruled out"
+  },
+  {
+   "field": "note",
+   "text": "back surgeries",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "Tenderness on the left paraspinal area",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.50",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "Straight leg raise test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "muscular sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "cause"
+  },
+  {
+   "field": "note",
+   "text": "Naprosyn",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Flexeril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "deferred imaging"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "monitoring"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "monitoring"
+  },
+  {
+   "field": "note",
+   "text": "blood sugar levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "monitoring"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "hydrochlorothiazide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "ankle swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "HTN med side effect"
+  },
+  {
+   "field": "note",
+   "text": "1+ nonpitting edema of lower extremities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "HTN med side effect"
+  },
+  {
+   "field": "note",
+   "text": "1+ edema in his legs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "HTN med side effect"
+  },
+  {
+   "field": "note",
+   "text": "edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "HTN med side effect"
+  },
+  {
+   "field": "note",
+   "text": "CBC",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "BMP",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "EKG",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "high cholesterol",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "2/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "No JVD",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "No bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "No wheezes, rales",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "No calf tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "Negative Homan's sign",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "Cranial nerves grossly intact",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  }
+ ]
+}

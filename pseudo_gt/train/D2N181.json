@@ -1,0 +1,781 @@
+{
+ "encounter_id": "D2N181",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "michelle king",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "mrs. king",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "01/05/1986",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "mrnq27631",
+   "category": "a",
+   "type": "CONTACT_ID",
+   "code": null,
+   "why": "medical record number"
+  },
+  {
+   "field": "dialogue",
+   "text": "dr. phillips",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor name"
+  },
+  {
+   "field": "dialogue",
+   "text": "dr. scott",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "primary care doctor"
+  },
+  {
+   "field": "dialogue",
+   "text": "since i was around 12",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age at onset"
+  },
+  {
+   "field": "dialogue",
+   "text": "paralegal",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "patient job"
+  },
+  {
+   "field": "dialogue",
+   "text": "work stress",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "work context"
+  },
+  {
+   "field": "dialogue",
+   "text": "my grandmother",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "acid reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "gerd",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "heartburn",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "GERD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "burning",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "GERD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "omeprazole",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "GERD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ranititine -dine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "GERD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nexium",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "GERD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "protonix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "GERD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ppi",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "GERD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "egd",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K21.9",
+   "why": "GERD workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "upper endoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K21.9",
+   "why": "GERD workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "ph-impedance study",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K21.9",
+   "why": "GERD workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "difficulty with swallowing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "GERD alarm symptom screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "difficulty swallowing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "GERD alarm symptom screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "dysphagia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "GERD alarm symptom screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "spicy foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K21.9",
+   "why": "GERD trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "soda",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K21.9",
+   "why": "GERD trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "caffeine",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K21.9",
+   "why": "GERD trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "carbonated bev- beverages",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K21.9",
+   "why": "GERD trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "tomato-based products or citrus products",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K21.9",
+   "why": "GERD trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "tomato-based foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K21.9",
+   "why": "GERD trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "stress",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "GERD trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "functional etiology",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "GERD subtype"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypersensitivity",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "GERD differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "anxiety",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "seasonal allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea or vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "changes in bowel movements",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "constipation , diarrhea , rectal bleeding",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "appetite",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "appetite loss"
+  },
+  {
+   "field": "dialogue",
+   "text": "esophageal cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "well-healed abdominal surgical scars",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "intestines were twisted",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical history"
+  },
+  {
+   "field": "dialogue",
+   "text": "ulcers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "EGD target finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "precancerous or cancerous conditions",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "EGD target finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "biopsies",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "procedure"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight loss",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "Michelle King",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Ms. King",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "35 y.o.",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Dr. Scott",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "primary care doctor"
+  },
+  {
+   "field": "note",
+   "text": "age 12",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age at onset"
+  },
+  {
+   "field": "note",
+   "text": "paralegal",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "patient job"
+  },
+  {
+   "field": "note",
+   "text": "Maternal grandmother",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "acid reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Acid reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "GERD",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "heartburn",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "GERD symptom"
+  },
+  {
+   "field": "note",
+   "text": "burning sensation in her chest that travels up her esophagus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "GERD symptom"
+  },
+  {
+   "field": "note",
+   "text": "omeprazole",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "GERD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Omeprazole",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "GERD treatment"
+  },
+  {
+   "field": "note",
+   "text": "ranitidine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "GERD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Nexium",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "GERD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Protonix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "GERD treatment"
+  },
+  {
+   "field": "note",
+   "text": "EGD",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K21.9",
+   "why": "GERD workup"
+  },
+  {
+   "field": "note",
+   "text": "endoscopic procedure",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K21.9",
+   "why": "GERD workup"
+  },
+  {
+   "field": "note",
+   "text": "pH impedance study",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K21.9",
+   "why": "GERD workup"
+  },
+  {
+   "field": "note",
+   "text": "dysphagia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "GERD alarm symptom screen"
+  },
+  {
+   "field": "note",
+   "text": "difficulty swallowing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "GERD alarm symptom screen"
+  },
+  {
+   "field": "note",
+   "text": "spicy foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K21.9",
+   "why": "GERD trigger"
+  },
+  {
+   "field": "note",
+   "text": "soda",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K21.9",
+   "why": "GERD trigger"
+  },
+  {
+   "field": "note",
+   "text": "citrus or tomato-based products",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K21.9",
+   "why": "GERD trigger"
+  },
+  {
+   "field": "note",
+   "text": "carbonated beverages",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K21.9",
+   "why": "GERD trigger"
+  },
+  {
+   "field": "note",
+   "text": "tomato-based foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K21.9",
+   "why": "GERD trigger"
+  },
+  {
+   "field": "note",
+   "text": "trigger foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K21.9",
+   "why": "GERD trigger"
+  },
+  {
+   "field": "note",
+   "text": "stress",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "GERD trigger"
+  },
+  {
+   "field": "note",
+   "text": "functional etiology",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "GERD subtype"
+  },
+  {
+   "field": "note",
+   "text": "hypersensitivity",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "GERD differential"
+  },
+  {
+   "field": "note",
+   "text": "Anxiety",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "note",
+   "text": "stress and anxiety",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "psychiatric symptom"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "nausea/vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "changes in bowel movements",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "constipation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "rectal bleeding",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "blood in stools",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "unintentional weight loss",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "poor appetite",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "appetite loss"
+  },
+  {
+   "field": "note",
+   "text": "loss of appetite",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "appetite loss"
+  },
+  {
+   "field": "note",
+   "text": "Surgery as an infant",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "surgical history"
+  },
+  {
+   "field": "note",
+   "text": "twisted intestines",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical history"
+  },
+  {
+   "field": "note",
+   "text": "esophageal cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "Seasonal environmental allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "allergy"
+  },
+  {
+   "field": "note",
+   "text": "seasonal allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "allergy"
+  },
+  {
+   "field": "note",
+   "text": "well-healed abdominal surgical scar",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  }
+ ]
+}

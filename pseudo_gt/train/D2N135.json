@@ -1,0 +1,709 @@
+{
+ "encounter_id": "D2N135",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "hannah",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "52-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "holidays",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "holiday tied to event"
+  },
+  {
+   "field": "dialogue",
+   "text": "holiday gift baskets or clients bringing in treats",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "work detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "when i visit my family for the holidays",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel/family event"
+  },
+  {
+   "field": "dialogue",
+   "text": "staying with my family",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "living situation"
+  },
+  {
+   "field": "dialogue",
+   "text": "my mom and grandmother are big bakers",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood sugar",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes presentation"
+  },
+  {
+   "field": "dialogue",
+   "text": "eating a ton of sweets",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes dietary cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "light-headed",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "hyperglycemia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "seeing spots",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "hyperglycemia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizzy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "hyperglycemia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "iv fluids",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "hyperglycemia treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "fluids",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "hyperglycemia treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "osteoarthritis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "arterial fibrillation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I48.91",
+   "why": "coded diagnosis (misspoken)"
+  },
+  {
+   "field": "dialogue",
+   "text": "a-fib",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I48.91",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "atrial fibrillation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I48.91",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart racing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I48.91",
+   "why": "afib symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "anxious",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "protonix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "reflux treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever or chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "burning when you urinate",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "joint pain or muscle aches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "thyroid is a little enlarged",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "irregular rate and rhythm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I48.91",
+   "why": "afib exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema in your lower extremities",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood glucose",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes labs",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "type ii",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "type i diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "differential not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "complete metabolic panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "routine lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "autoimmune labs",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "type 1 workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "autoimmune disorder",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "insulin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "deferred type 1 treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "glucometer",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "metoprolol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I48.91",
+   "why": "afib treatment"
+  },
+  {
+   "field": "note",
+   "text": "Hannah Phillips",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "Phillips",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "52-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "holidays",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "holiday tied to event"
+  },
+  {
+   "field": "note",
+   "text": "staying with family during the holidays",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "living situation"
+  },
+  {
+   "field": "note",
+   "text": "high blood sugar",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes presentation"
+  },
+  {
+   "field": "note",
+   "text": "dietary indiscretion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes cause"
+  },
+  {
+   "field": "note",
+   "text": "eating more sweets",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes cause"
+  },
+  {
+   "field": "note",
+   "text": "lightheaded",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "hyperglycemia symptom"
+  },
+  {
+   "field": "note",
+   "text": "seeing spots in her vision",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "hyperglycemia symptom"
+  },
+  {
+   "field": "note",
+   "text": "dizzy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "hyperglycemia symptom"
+  },
+  {
+   "field": "note",
+   "text": "IV fluids",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "hyperglycemia treatment"
+  },
+  {
+   "field": "note",
+   "text": "fever or chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "burning when she urinates",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "joint pain or muscle aches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "osteoarthritis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "note",
+   "text": "joint pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "osteoarthritis symptom"
+  },
+  {
+   "field": "note",
+   "text": "atrial fibrillation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I48.91",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Atrial Fibrillation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I48.91",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "heart racing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I48.91",
+   "why": "afib symptom"
+  },
+  {
+   "field": "note",
+   "text": "anxious",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "metoprolol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I48.91",
+   "why": "afib treatment"
+  },
+  {
+   "field": "note",
+   "text": "acid reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Protonix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "reflux treatment"
+  },
+  {
+   "field": "note",
+   "text": "fever, chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "dysuria",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "Arthralgias, Myalgias",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "thyroid is a little enlarged",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "Irregular rate and rhythm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I48.91",
+   "why": "afib exam"
+  },
+  {
+   "field": "note",
+   "text": "no edema in lower extremities",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "Glucose",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "HbA1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "blood glucose",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "complete metabolic panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "routine lab"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "glucometer",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  }
+ ]
+}

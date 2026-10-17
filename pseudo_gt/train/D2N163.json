@@ -1,0 +1,581 @@
+{
+ "encounter_id": "D2N163",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "julie cruz",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "julie",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "17 -year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "non- binary",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "gender identity"
+  },
+  {
+   "field": "dialogue",
+   "text": "immensipated minor",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "legal status"
+  },
+  {
+   "field": "dialogue",
+   "text": "i do n't feel much like a girl",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "gender identity"
+  },
+  {
+   "field": "dialogue",
+   "text": "nongender",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "gender identity"
+  },
+  {
+   "field": "dialogue",
+   "text": "ride my bicycle a lot",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "ride the trails",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "went for a bike ride over the weekend",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "chocolate chip cookies",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "food preference"
+  },
+  {
+   "field": "dialogue",
+   "text": "i do n't really talk to my parents too much",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family relationship"
+  },
+  {
+   "field": "dialogue",
+   "text": "good relationship with my grandparents",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family relationship"
+  },
+  {
+   "field": "dialogue",
+   "text": "i live on my own now",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "living situation"
+  },
+  {
+   "field": "dialogue",
+   "text": "my apartment",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "living situation"
+  },
+  {
+   "field": "dialogue",
+   "text": "forty four or forty five",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "relative age at death"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypercholesterolemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood cholesterol",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "coded lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "cholesterol",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "coded lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "finger prick tests",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "cholesterol screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "elevated cholesterol",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "cookies",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "diet relevant to cholesterol"
+  },
+  {
+   "field": "dialogue",
+   "text": "clean diet",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "diet relevant to cholesterol"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypercholesterol serol anemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "family history screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoke",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "smoking exposure, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart disease or sudden death",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "family history screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart attack",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "family history relevant"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmur rubs or gallops",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated cardiac exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "zenthomas",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E78.00",
+   "why": "hyperlipidemia exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "thyroid megaly",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E78.00",
+   "why": "secondary cause screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "hepatomegaly or splenomegaly",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E78.00",
+   "why": "secondary cause screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "cholesterol level",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "coded lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "high cholesterol",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "premature heart attacks",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "cholesterol risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "full cholesterol panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "cholesterol workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "glucose",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "secondary cause workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "complete metabolic panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "secondary cause workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "thyroid studies",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "secondary cause workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "liver panels",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "secondary cause workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "genetic testing",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "familial workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "well balanced diet",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E78.00",
+   "why": "cholesterol treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "saturated fat and sugars",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E78.00",
+   "why": "cholesterol diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "nutritionist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E78.00",
+   "why": "cholesterol diet education"
+  },
+  {
+   "field": "dialogue",
+   "text": "bike riding",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E78.00",
+   "why": "exercise treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "dietary changes",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E78.00",
+   "why": "cholesterol treatment"
+  },
+  {
+   "field": "note",
+   "text": "parents smoked when they lived with them",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family/living situation"
+  },
+  {
+   "field": "note",
+   "text": "riding their bike on trails",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "in their 40's",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "relative age at death"
+  },
+  {
+   "field": "note",
+   "text": "Hypercholesterolemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hypercholesterolemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "smoking",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "heart attack",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "family history relevant"
+  },
+  {
+   "field": "note",
+   "text": "xanthomas",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E78.00",
+   "why": "hyperlipidemia exam"
+  },
+  {
+   "field": "note",
+   "text": "thyromegaly",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E78.00",
+   "why": "secondary cause screen"
+  },
+  {
+   "field": "note",
+   "text": "murmurs, gallops or rubs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated cardiac exam"
+  },
+  {
+   "field": "note",
+   "text": "hepatomegaly or splenomegaly",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E78.00",
+   "why": "secondary cause screen"
+  },
+  {
+   "field": "note",
+   "text": "cholesterol level",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "coded lab"
+  },
+  {
+   "field": "note",
+   "text": "Elevated cholesterol",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "cholesterol",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "coded lab"
+  },
+  {
+   "field": "note",
+   "text": "high cholesterol",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "pre-mature heart attacks",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "cholesterol risk"
+  },
+  {
+   "field": "note",
+   "text": "genetic testing",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "familial workup"
+  },
+  {
+   "field": "note",
+   "text": "Genetic testing",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "familial workup"
+  },
+  {
+   "field": "note",
+   "text": "balanced diet",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E78.00",
+   "why": "cholesterol treatment"
+  },
+  {
+   "field": "note",
+   "text": "low in saturated fat and sugars",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E78.00",
+   "why": "cholesterol diet"
+  },
+  {
+   "field": "note",
+   "text": "Full cholesterol panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "cholesterol workup"
+  },
+  {
+   "field": "note",
+   "text": "Hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "secondary cause workup"
+  },
+  {
+   "field": "note",
+   "text": "CMP",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "secondary cause workup"
+  },
+  {
+   "field": "note",
+   "text": "thyroid study",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "secondary cause workup"
+  },
+  {
+   "field": "note",
+   "text": "liver panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "secondary cause workup"
+  },
+  {
+   "field": "note",
+   "text": "Referral to nutritionist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E78.00",
+   "why": "cholesterol diet education"
+  },
+  {
+   "field": "note",
+   "text": "nutritionist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E78.00",
+   "why": "cholesterol diet education"
+  }
+ ]
+}

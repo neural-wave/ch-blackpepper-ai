@@ -1,0 +1,429 @@
+{
+ "encounter_id": "D2N007",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "sarah",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "27-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "age of 27",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age at surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded depression"
+  },
+  {
+   "field": "dialogue",
+   "text": "prozac",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "chronic back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G89.29",
+   "why": "coded chronic pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "back pain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "negated back pain radicular symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "weakness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "negated back pain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "stiff",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "back stiffness"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation of your lumbar spine",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.9",
+   "why": "back exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "decreased flexion of your back",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.9",
+   "why": "back exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "lumbar spine x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.9",
+   "why": "back imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "back x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.9",
+   "why": "back imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G89.29",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G89.29",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "coronary artery bypass grafting",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated cardiac surgery history"
+  },
+  {
+   "field": "dialogue",
+   "text": "congenital artery",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated congenital heart condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "cabg",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated cardiac surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart bypass",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated cardiac surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "thyroid enlargement",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated unrelated finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated unrelated finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecg",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "cardiac test unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "echocardiogram",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "cardiac test unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "aspirin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "cardiac medication unrelated"
+  },
+  {
+   "field": "note",
+   "text": "27-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded depression"
+  },
+  {
+   "field": "note",
+   "text": "Depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded depression"
+  },
+  {
+   "field": "note",
+   "text": "Prozac",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "note",
+   "text": "chronic back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G89.29",
+   "why": "coded chronic pain"
+  },
+  {
+   "field": "note",
+   "text": "Chronic back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G89.29",
+   "why": "coded chronic pain"
+  },
+  {
+   "field": "note",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "coded dorsalgia"
+  },
+  {
+   "field": "note",
+   "text": "stiffness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "back symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "back pain symptom"
+  },
+  {
+   "field": "note",
+   "text": "tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "negated radicular symptom"
+  },
+  {
+   "field": "note",
+   "text": "weakness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "Pain to palpation of the lumbar spine",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.9",
+   "why": "back exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Decreased flexion of back",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.9",
+   "why": "back exam finding"
+  },
+  {
+   "field": "note",
+   "text": "X-rays of the lumbar spine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.9",
+   "why": "back imaging"
+  },
+  {
+   "field": "note",
+   "text": "Physical therapy referral",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G89.29",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "pain medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G89.29",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "coronary artery bypass grafting",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated cardiac surgery"
+  },
+  {
+   "field": "note",
+   "text": "coronary artery bypass graft",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated cardiac surgery"
+  },
+  {
+   "field": "note",
+   "text": "congenital artery",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated congenital condition"
+  },
+  {
+   "field": "note",
+   "text": "CABG",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated cardiac surgery"
+  },
+  {
+   "field": "note",
+   "text": "thyromegaly",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated unrelated finding"
+  },
+  {
+   "field": "note",
+   "text": "wheezes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated lung finding"
+  },
+  {
+   "field": "note",
+   "text": "rales",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated lung finding"
+  },
+  {
+   "field": "note",
+   "text": "rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated lung finding"
+  },
+  {
+   "field": "note",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac finding"
+  },
+  {
+   "field": "note",
+   "text": "Echocardiogram",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "cardiac test unrelated"
+  },
+  {
+   "field": "note",
+   "text": "aspirin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "cardiac medication unrelated"
+  }
+ ]
+}

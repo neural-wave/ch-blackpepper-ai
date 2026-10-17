@@ -1,0 +1,789 @@
+{
+ "encounter_id": "D2N076",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "evelyn",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor name"
+  },
+  {
+   "field": "dialogue",
+   "text": "katherine",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "she's a twin",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "the twins",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "her twin",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "i have a son also who is nine",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "nine",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "sibling age"
+  },
+  {
+   "field": "dialogue",
+   "text": "two next month",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "dallas",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "city of residence"
+  },
+  {
+   "field": "dialogue",
+   "text": "dallas , georgia",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "residence"
+  },
+  {
+   "field": "dialogue",
+   "text": "kennesaw",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "clinic location"
+  },
+  {
+   "field": "dialogue",
+   "text": "town center location",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "clinic location"
+  },
+  {
+   "field": "dialogue",
+   "text": "22-month-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "ripple pea protein milk",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific product"
+  },
+  {
+   "field": "dialogue",
+   "text": "autism",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "sibling condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "stop breathing when she was eating",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "prematurity issue"
+  },
+  {
+   "field": "dialogue",
+   "text": "preemie",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "prematurity"
+  },
+  {
+   "field": "dialogue",
+   "text": "regulating her temperature",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "prematurity issue"
+  },
+  {
+   "field": "dialogue",
+   "text": "reflex really bad",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated GI reflux"
+  },
+  {
+   "field": "dialogue",
+   "text": "gi doctor",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "GI specialist"
+  },
+  {
+   "field": "dialogue",
+   "text": "dietician",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "diet specialist"
+  },
+  {
+   "field": "dialogue",
+   "text": "cow's milk",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergist",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "allergy specialist"
+  },
+  {
+   "field": "dialogue",
+   "text": "neurologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "diagnosed syndrome"
+  },
+  {
+   "field": "dialogue",
+   "text": "syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q93.88",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "smith magenis syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q93.88",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "chromosomal deletion syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q93.88",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "does n't walk",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q93.88",
+   "why": "developmental delay of syndrome"
+  },
+  {
+   "field": "dialogue",
+   "text": "was n't sitting by herself",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q93.88",
+   "why": "developmental delay of syndrome"
+  },
+  {
+   "field": "dialogue",
+   "text": "feeding therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome management"
+  },
+  {
+   "field": "dialogue",
+   "text": "occupational therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome management"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome management"
+  },
+  {
+   "field": "dialogue",
+   "text": "speech therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome management"
+  },
+  {
+   "field": "dialogue",
+   "text": "orthopedic",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome evaluation"
+  },
+  {
+   "field": "dialogue",
+   "text": "ophthalmologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome evaluation"
+  },
+  {
+   "field": "dialogue",
+   "text": "audiology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome evaluation"
+  },
+  {
+   "field": "dialogue",
+   "text": "geneticist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome evaluation"
+  },
+  {
+   "field": "dialogue",
+   "text": "trouble with their kidneys",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q93.88",
+   "why": "syndrome association"
+  },
+  {
+   "field": "dialogue",
+   "text": "fuse into one",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q93.88",
+   "why": "syndrome association"
+  },
+  {
+   "field": "dialogue",
+   "text": "problems with their legs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q93.88",
+   "why": "syndrome association"
+  },
+  {
+   "field": "dialogue",
+   "text": "shorter and chunkier",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q93.88",
+   "why": "syndrome feature"
+  },
+  {
+   "field": "dialogue",
+   "text": "congenital anomalies of the kidney and urinary tract",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q93.88",
+   "why": "syndrome screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney failure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "dialysis",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "family history negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "transplant",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "family history negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "eyes are small appearing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Q93.88",
+   "why": "syndrome feature"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild hypotonia",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Q93.88",
+   "why": "syndrome feature"
+  },
+  {
+   "field": "dialogue",
+   "text": "normal external female genitalia",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "Katherine Lopez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "Katherine",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "note",
+   "text": "22-month-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "9-year-old brother",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "sibling age"
+  },
+  {
+   "field": "note",
+   "text": "9 years old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "sibling age"
+  },
+  {
+   "field": "note",
+   "text": "twin sister",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "note",
+   "text": "Twin gestation",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "note",
+   "text": "Ripple Pea Protein milk",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific product"
+  },
+  {
+   "field": "note",
+   "text": "Dallas, Georgia",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "residence"
+  },
+  {
+   "field": "note",
+   "text": "Town Center location",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "clinic location"
+  },
+  {
+   "field": "note",
+   "text": "accompanied to appointment by her mother",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "Smith-Magenis syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q93.88",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "chromosomal deletion syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q93.88",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "global developmental delays",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q93.88",
+   "why": "syndrome feature"
+  },
+  {
+   "field": "note",
+   "text": "renal screening tests",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome screening"
+  },
+  {
+   "field": "note",
+   "text": "Renal screening tests",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome screening"
+  },
+  {
+   "field": "note",
+   "text": "nephrology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome screening"
+  },
+  {
+   "field": "note",
+   "text": "genetics",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome care"
+  },
+  {
+   "field": "note",
+   "text": "premature birth",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "prematurity"
+  },
+  {
+   "field": "note",
+   "text": "stop breathing",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "prematurity issue"
+  },
+  {
+   "field": "note",
+   "text": "regulating her body temperature",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "prematurity issue"
+  },
+  {
+   "field": "note",
+   "text": "severe reflux",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated GI"
+  },
+  {
+   "field": "note",
+   "text": "dietitian",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "diet specialist"
+  },
+  {
+   "field": "note",
+   "text": "cow\u2019s milk",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "diet"
+  },
+  {
+   "field": "note",
+   "text": "neurologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "diagnosed syndrome"
+  },
+  {
+   "field": "note",
+   "text": "geneticist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome evaluation"
+  },
+  {
+   "field": "note",
+   "text": "orthopedist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome evaluation"
+  },
+  {
+   "field": "note",
+   "text": "ophthalmologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome evaluation"
+  },
+  {
+   "field": "note",
+   "text": "audiologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome evaluation"
+  },
+  {
+   "field": "note",
+   "text": "not ambulatory",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q93.88",
+   "why": "developmental delay"
+  },
+  {
+   "field": "note",
+   "text": "did not sit up unassisted",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q93.88",
+   "why": "developmental delay"
+  },
+  {
+   "field": "note",
+   "text": "speech therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome management"
+  },
+  {
+   "field": "note",
+   "text": "occupational, feeding, and physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome management"
+  },
+  {
+   "field": "note",
+   "text": "kidneys fuse into one",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q93.88",
+   "why": "syndrome association"
+  },
+  {
+   "field": "note",
+   "text": "kidney issues",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q93.88",
+   "why": "syndrome association"
+  },
+  {
+   "field": "note",
+   "text": "issues with their legs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q93.88",
+   "why": "syndrome association"
+  },
+  {
+   "field": "note",
+   "text": "shorter and seems chubbier",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q93.88",
+   "why": "syndrome feature"
+  },
+  {
+   "field": "note",
+   "text": "autism",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "sibling condition"
+  },
+  {
+   "field": "note",
+   "text": "genetic conditions",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "kidney failure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history negative"
+  },
+  {
+   "field": "note",
+   "text": "dialysis",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "family history negative"
+  },
+  {
+   "field": "note",
+   "text": "kidney transplant",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "family history negative"
+  },
+  {
+   "field": "note",
+   "text": "microphthalmia",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Q93.88",
+   "why": "syndrome feature"
+  },
+  {
+   "field": "note",
+   "text": "mild hypotonia of lower extremities and the arms",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Q93.88",
+   "why": "syndrome feature"
+  },
+  {
+   "field": "note",
+   "text": "Normal external female genitalia",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "congenital anomalies of the kidney and urinary tract",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Q93.88",
+   "why": "syndrome screening"
+  },
+  {
+   "field": "note",
+   "text": "kidney ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome screening"
+  },
+  {
+   "field": "note",
+   "text": "ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Q93.88",
+   "why": "syndrome screening"
+  }
+ ]
+}

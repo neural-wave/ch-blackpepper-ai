@@ -1,0 +1,501 @@
+{
+ "encounter_id": "D2N160",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "philip",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "my oldest is thirteen and the other one is ten",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "children's ages"
+  },
+  {
+   "field": "dialogue",
+   "text": "thirteen -year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "child's age"
+  },
+  {
+   "field": "dialogue",
+   "text": "my kids",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "right elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S50.01XA",
+   "why": "coded injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "playing lacrosse",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S50.01XA",
+   "why": "cause of elbow contusion"
+  },
+  {
+   "field": "dialogue",
+   "text": "checking me several times with a sick",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S50.01XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "got hit",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S50.01XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "sharp pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S50.01XA",
+   "why": "elbow pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "radiates down the forearm",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S50.01XA",
+   "why": "elbow pain radiation"
+  },
+  {
+   "field": "dialogue",
+   "text": "advil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S50.01XA",
+   "why": "elbow pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "white coat syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "BP elevation explanation"
+  },
+  {
+   "field": "dialogue",
+   "text": "salt intake",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "low salt items",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "mediterranean diet",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "low salt diet",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes control"
+  },
+  {
+   "field": "dialogue",
+   "text": "insulin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment context"
+  },
+  {
+   "field": "dialogue",
+   "text": "a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes control"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "belly pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "grade two out of six systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "chronic murmur"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation of the olecranon area of the posterior elbow",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S50.01XA",
+   "why": "elbow exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild pain with flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S50.01XA",
+   "why": "elbow exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S50.01XA",
+   "why": "elbow imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "no fracture no bony abnormality",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S50.01XA",
+   "why": "xray negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "elbow contusion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S50.01XA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "lacrosse stick",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S50.01XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S50.01XA",
+   "why": "contusion finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "bruise",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S50.01XA",
+   "why": "contusion finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S50.01XA",
+   "why": "contusion treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice it",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S50.01XA",
+   "why": "contusion treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "play lacrosse",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S50.01XA",
+   "why": "injury activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Right elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S50.01XA",
+   "why": "coded injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "right elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S50.01XA",
+   "why": "coded injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated ROS"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated ROS"
+  },
+  {
+   "field": "note",
+   "text": "Grade 2/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "chronic murmur"
+  },
+  {
+   "field": "note",
+   "text": "Pain to palpation of the olecranon area of the posterior elbow",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S50.01XA",
+   "why": "elbow exam"
+  },
+  {
+   "field": "note",
+   "text": "Mild pain with flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S50.01XA",
+   "why": "elbow exam"
+  },
+  {
+   "field": "note",
+   "text": "swelling about the elbow",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S50.01XA",
+   "why": "contusion finding"
+  },
+  {
+   "field": "note",
+   "text": "mild ecchymosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S50.01XA",
+   "why": "contusion finding"
+  },
+  {
+   "field": "note",
+   "text": "Bruising noted over the right elbow",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S50.01XA",
+   "why": "contusion finding"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the right elbow",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S50.01XA",
+   "why": "elbow imaging"
+  },
+  {
+   "field": "note",
+   "text": "fracture or bony abnormalities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S50.01XA",
+   "why": "xray negative"
+  },
+  {
+   "field": "note",
+   "text": "Right elbow contusion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S50.01XA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "elbow contusion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S50.01XA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "son struck him with a lacrosse stick",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S50.01XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "playing lacrosse",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S50.01XA",
+   "why": "injury activity"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S50.01XA",
+   "why": "contusion treatment"
+  },
+  {
+   "field": "note",
+   "text": "ice the area",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S50.01XA",
+   "why": "contusion treatment"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "dietary modifications",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes control"
+  }
+ ]
+}

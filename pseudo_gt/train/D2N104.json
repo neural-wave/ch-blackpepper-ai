@@ -1,0 +1,317 @@
+{
+ "encounter_id": "D2N104",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "judy gomez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "judy",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "gomez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "869723",
+   "category": "a",
+   "type": "CONTACT_ID",
+   "code": null,
+   "why": "medical record number"
+  },
+  {
+   "field": "dialogue",
+   "text": "5 , 7 , 1961",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "desk job",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job type"
+  },
+  {
+   "field": "dialogue",
+   "text": "hotline",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal contact event"
+  },
+  {
+   "field": "dialogue",
+   "text": "psoriatic arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.50",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "psoriasis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.50",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.50",
+   "why": "PsA symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain in my feet",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.50",
+   "why": "PsA symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "feet joints",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.50",
+   "why": "PsA symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "good range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L40.50",
+   "why": "joint exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "ridges in nails",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L40.50",
+   "why": "psoriatic nail finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "prednisone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z79.899",
+   "why": "long-term drug therapy"
+  },
+  {
+   "field": "dialogue",
+   "text": "methotrexate",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z79.899",
+   "why": "long-term high-risk drug"
+  },
+  {
+   "field": "dialogue",
+   "text": "high-risk medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z79.899",
+   "why": "long-term drug therapy"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood drawn",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z79.899",
+   "why": "drug monitoring labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood work",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z79.899",
+   "why": "drug monitoring labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "bruises",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z79.899",
+   "why": "steroid side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "bruising",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z79.899",
+   "why": "steroid side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "covid shots",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vaccination"
+  },
+  {
+   "field": "dialogue",
+   "text": "vaccine",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vaccination"
+  },
+  {
+   "field": "dialogue",
+   "text": "first shot",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vaccination"
+  },
+  {
+   "field": "dialogue",
+   "text": "second dose",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vaccination"
+  },
+  {
+   "field": "note",
+   "text": "Judy Gomez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Gomez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "61-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "the next Wednesday",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "specific day of event"
+  },
+  {
+   "field": "note",
+   "text": "Psoriatic arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.50",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "psoriatic arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.50",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.50",
+   "why": "PsA symptom"
+  },
+  {
+   "field": "note",
+   "text": "pain in her bilateral feet",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.50",
+   "why": "PsA symptom"
+  },
+  {
+   "field": "note",
+   "text": "Full range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L40.50",
+   "why": "joint exam"
+  },
+  {
+   "field": "note",
+   "text": "Dystrophy of all the nails of the toes",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L40.50",
+   "why": "psoriatic nail finding"
+  },
+  {
+   "field": "note",
+   "text": "methotrexate",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z79.899",
+   "why": "long-term high-risk drug"
+  },
+  {
+   "field": "note",
+   "text": "prednisone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z79.899",
+   "why": "long-term drug therapy"
+  },
+  {
+   "field": "note",
+   "text": "High risk medication use",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z79.899",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "COVID-19 vaccine",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vaccination"
+  }
+ ]
+}

@@ -1,0 +1,605 @@
+{
+ "encounter_id": "D2N110",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "wayne",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "to travel with",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel plans"
+  },
+  {
+   "field": "dialogue",
+   "text": "rei",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named store"
+  },
+  {
+   "field": "dialogue",
+   "text": "hoka's",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific possession brand"
+  },
+  {
+   "field": "dialogue",
+   "text": "sore on your foot that's not healing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded ulcer"
+  },
+  {
+   "field": "dialogue",
+   "text": "wound on my right foot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded ulcer"
+  },
+  {
+   "field": "dialogue",
+   "text": "wound",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded ulcer"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetic foot ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "neuropathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "diabetic complication causing ulcer"
+  },
+  {
+   "field": "dialogue",
+   "text": "new pair of shoes",
+   "category": "c",
+   "type": "QUASI",
+   "code": "E11.621",
+   "why": "cause of ulcer"
+  },
+  {
+   "field": "dialogue",
+   "text": "blister",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ulcer origin"
+  },
+  {
+   "field": "dialogue",
+   "text": "podiatrist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "foot care"
+  },
+  {
+   "field": "dialogue",
+   "text": "antibiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.621",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "band-aid",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "wound care"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever chills drainage from the wound",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ulcer infection screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "hgb a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "diabetes control"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "diabetes control"
+  },
+  {
+   "field": "dialogue",
+   "text": "one by two inch circular wound",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "yellow slough",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "minimal granulation tissue",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "erythema or cellulitis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "fluid collection",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "necrosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "bony exposure",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "no palpable dp or pt pulses",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "vascular exam for ulcer"
+  },
+  {
+   "field": "dialogue",
+   "text": "doppler signs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "vascular exam for ulcer"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "osteomyelitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ruled-out complication"
+  },
+  {
+   "field": "dialogue",
+   "text": "bone infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ruled-out complication"
+  },
+  {
+   "field": "dialogue",
+   "text": "ankle brachial index",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "debridement",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "collagenase ointment",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.621",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "dry sterile dressing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgical shoe",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "offloading"
+  },
+  {
+   "field": "dialogue",
+   "text": "vascular specialist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetic consult",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "diabetes management"
+  },
+  {
+   "field": "dialogue",
+   "text": "issues with stability",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "Wayne Jenkins",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "43-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "prior to traveling",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel plans"
+  },
+  {
+   "field": "note",
+   "text": "right foot wound",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded ulcer"
+  },
+  {
+   "field": "note",
+   "text": "Right foot diabetic ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "wound",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded ulcer"
+  },
+  {
+   "field": "note",
+   "text": "blister",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ulcer origin"
+  },
+  {
+   "field": "note",
+   "text": "new pair of shoes",
+   "category": "c",
+   "type": "QUASI",
+   "code": "E11.621",
+   "why": "cause of ulcer"
+  },
+  {
+   "field": "note",
+   "text": "neuropathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "diabetic complication"
+  },
+  {
+   "field": "note",
+   "text": "podiatrist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "foot care"
+  },
+  {
+   "field": "note",
+   "text": "antibiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.621",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "note",
+   "text": "Band-Aid",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "wound care"
+  },
+  {
+   "field": "note",
+   "text": "drainage",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ulcer symptom screen"
+  },
+  {
+   "field": "note",
+   "text": "fever or chills",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "infection screen"
+  },
+  {
+   "field": "note",
+   "text": "fever and chills",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "infection screen"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1C",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "diabetes control"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "diabetes control"
+  },
+  {
+   "field": "note",
+   "text": "No palpable DP or PT pulses",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "vascular exam"
+  },
+  {
+   "field": "note",
+   "text": "Doppler signs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "vascular exam"
+  },
+  {
+   "field": "note",
+   "text": "fluid collection",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "1 x 2 inch circular wound",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "yellow slough",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "minimal granulation tissue",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "erythema or cellulitis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "necrosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "osteomyelitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ruled-out complication"
+  },
+  {
+   "field": "note",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "note",
+   "text": "ankle brachial index ABI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "note",
+   "text": "debridement",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "note",
+   "text": "collagenase ointment",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.621",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "note",
+   "text": "dry sterile dressing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "note",
+   "text": "surgical shoe",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "offloading"
+  },
+  {
+   "field": "note",
+   "text": "vascular specialist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer referral"
+  },
+  {
+   "field": "note",
+   "text": "diabetic consultation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "diabetes management"
+  },
+  {
+   "field": "note",
+   "text": "issues with stability",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  }
+ ]
+}

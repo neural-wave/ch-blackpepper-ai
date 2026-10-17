@@ -1,0 +1,541 @@
+{
+ "encounter_id": "D2N147",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "matthew",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "age 67",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "right handed",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "handedness"
+  },
+  {
+   "field": "dialogue",
+   "text": "injured your shoulder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S43.81XA",
+   "why": "coded injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "pick up football",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S43.81XA",
+   "why": "injury activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "i got tackled a couple of times",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S43.81XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "landed on my shoulder a little bit weird",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S43.81XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "tackle football",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S43.81XA",
+   "why": "injury activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "taggle football",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S43.81XA",
+   "why": "injury activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "right shoulder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S43.81XA",
+   "why": "coded site"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbing or tingling in your fingers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S43.81XA",
+   "why": "injury pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "neck problems",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "appendicitis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "appendectomy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever or chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "slight headache",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pass out",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "no tenderness to palpation of the cervical spine",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecchymosis or bruising",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation of the posterior shoulder at the acromioclavicular joint",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S43.81XA",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "decreased abduction and adduction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S43.81XA",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with supination and pronation of the right arm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S43.81XA",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "palpable radial radial artery pulse",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "shoulder x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S43.81XA",
+   "why": "injury imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "right shoulder x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S43.81XA",
+   "why": "injury imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "acute acromioclavicular joint fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S43.81XA",
+   "why": "shoulder girdle injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "small fracture of the acromion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S43.81XA",
+   "why": "shoulder girdle injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "right shoulder injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S43.81XA",
+   "why": "coded injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "sling",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S43.81XA",
+   "why": "injury treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S43.81XA",
+   "why": "injury treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cat scan of your right shoulder",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S43.81XA",
+   "why": "injury imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S43.81XA",
+   "why": "injury treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "flag football",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sport"
+  },
+  {
+   "field": "note",
+   "text": "Matthew Allen",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "Allen",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "67-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "right-hand-dominant",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "handedness"
+  },
+  {
+   "field": "note",
+   "text": "Right shoulder injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S43.81XA",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "right shoulder injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S43.81XA",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "tackled a couple of times playing pick up football",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S43.81XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "landed on his right shoulder",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S43.81XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "posterior aspect of his shoulder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S43.81XA",
+   "why": "pain location"
+  },
+  {
+   "field": "note",
+   "text": "numbness or tingling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S43.81XA",
+   "why": "injury pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "neck problems",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "fever or chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "headache",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "hit his head",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "pass out",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "appendectomy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  },
+  {
+   "field": "note",
+   "text": "right shoulder pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S43.81XA",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "neck pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "no tenderness to palpation",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated neck exam"
+  },
+  {
+   "field": "note",
+   "text": "No ecchymosis or bruising",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "pain to palpation of the posterior shoulder at the acromioclavicular joint",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S43.81XA",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "note",
+   "text": "decreased abduction and adduction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S43.81XA",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with supination and pronation of the right arm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S43.81XA",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "note",
+   "text": "Palpable radial artery pulse",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the right shoulder",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S43.81XA",
+   "why": "injury imaging"
+  },
+  {
+   "field": "note",
+   "text": "acute acromioclavicular joint fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S43.81XA",
+   "why": "shoulder girdle injury"
+  },
+  {
+   "field": "note",
+   "text": "Right shoulder acute acromioclavicular joint fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S43.81XA",
+   "why": "shoulder girdle injury"
+  },
+  {
+   "field": "note",
+   "text": "sling",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S43.81XA",
+   "why": "injury treatment"
+  },
+  {
+   "field": "note",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S43.81XA",
+   "why": "injury treatment"
+  },
+  {
+   "field": "note",
+   "text": "CT scan of the right shoulder",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S43.81XA",
+   "why": "injury imaging"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S43.81XA",
+   "why": "injury treatment"
+  },
+  {
+   "field": "note",
+   "text": "tackle football",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S43.81XA",
+   "why": "injury activity"
+  }
+ ]
+}

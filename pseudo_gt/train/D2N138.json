@@ -1,0 +1,901 @@
+{
+ "encounter_id": "D2N138",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "emily hernandez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "emily",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "march 26 2001",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "20 year old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "april 2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "last appointment date"
+  },
+  {
+   "field": "dialogue",
+   "text": "early spring of 2022",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "enlistment date"
+  },
+  {
+   "field": "dialogue",
+   "text": "2019",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "prior test year"
+  },
+  {
+   "field": "dialogue",
+   "text": "go into the military",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "career plan"
+  },
+  {
+   "field": "dialogue",
+   "text": "joining",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "military enlistment"
+  },
+  {
+   "field": "dialogue",
+   "text": "military",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "career plan"
+  },
+  {
+   "field": "dialogue",
+   "text": "enlisted",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "military enlistment"
+  },
+  {
+   "field": "dialogue",
+   "text": "work outside about three days a week",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "you worked with enterprise rent-a-car",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "employer"
+  },
+  {
+   "field": "dialogue",
+   "text": "enterprise rent-a-car",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named employer"
+  },
+  {
+   "field": "dialogue",
+   "text": "helen",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "staff name"
+  },
+  {
+   "field": "dialogue",
+   "text": "kaiser",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "insurer/health system"
+  },
+  {
+   "field": "dialogue",
+   "text": "kaiser permanente broadway",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named pharmacy"
+  },
+  {
+   "field": "dialogue",
+   "text": "airplanes",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel"
+  },
+  {
+   "field": "dialogue",
+   "text": "go for a run",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "exercise habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.40",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergic rhinitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J30.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "food allergy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "T78.01XA",
+   "why": "peanut allergy"
+  },
+  {
+   "field": "dialogue",
+   "text": "symbicort",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.40",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "wixela",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.40",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "zyrtec",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J30.9",
+   "why": "rhinitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "seasonal allergy symptoms",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J30.9",
+   "why": "rhinitis symptoms"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergies",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J30.9",
+   "why": "rhinitis"
+  },
+  {
+   "field": "dialogue",
+   "text": "peanut allergy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "T78.01XA",
+   "why": "coded allergy"
+  },
+  {
+   "field": "dialogue",
+   "text": "peanuts",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "T78.01XA",
+   "why": "allergen"
+  },
+  {
+   "field": "dialogue",
+   "text": "act score",
+   "category": "c",
+   "type": "LAB",
+   "code": "J45.40",
+   "why": "asthma control test"
+  },
+  {
+   "field": "dialogue",
+   "text": "albuterol inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.40",
+   "why": "asthma rescue"
+  },
+  {
+   "field": "dialogue",
+   "text": "albuterol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.40",
+   "why": "asthma rescue"
+  },
+  {
+   "field": "dialogue",
+   "text": "inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.40",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "rescue inhalers",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.40",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "strenuous activity",
+   "category": "c",
+   "type": "QUASI",
+   "code": "J45.40",
+   "why": "asthma trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "fitness test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.40",
+   "why": "asthma assessment"
+  },
+  {
+   "field": "dialogue",
+   "text": "prednisone",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "breathing test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.40",
+   "why": "spirometry"
+  },
+  {
+   "field": "dialogue",
+   "text": "one of the cars had a lot of peanuts in it that you were cleaning out",
+   "category": "c",
+   "type": "QUASI",
+   "code": "T78.01XA",
+   "why": "exposure mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "hives",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "T78.01XA",
+   "why": "allergic reaction"
+  },
+  {
+   "field": "dialogue",
+   "text": "reaction",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "T78.01XA",
+   "why": "allergic reaction"
+  },
+  {
+   "field": "dialogue",
+   "text": "epipen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "T78.01XA",
+   "why": "anaphylaxis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tree nuts",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded allergy"
+  },
+  {
+   "field": "dialogue",
+   "text": "almonds and cashews",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "tolerated nuts"
+  },
+  {
+   "field": "dialogue",
+   "text": "vaping and smoking",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "tobacco use, uncoded"
+  },
+  {
+   "field": "dialogue",
+   "text": "wax",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "ear finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoke",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.40",
+   "why": "asthma trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "there were so many fires",
+   "category": "c",
+   "type": "QUASI",
+   "code": "J45.40",
+   "why": "wildfire smoke exposure"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoke season",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.40",
+   "why": "asthma trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "alvesco",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.40",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nebulizer",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unused device"
+  },
+  {
+   "field": "dialogue",
+   "text": "bronchitis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "past unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "spirometry",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.40",
+   "why": "asthma testing"
+  },
+  {
+   "field": "dialogue",
+   "text": "spirometer",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.40",
+   "why": "asthma testing"
+  },
+  {
+   "field": "note",
+   "text": "Emily Hernandez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "Hernandez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "20-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "04/2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "last appointment date"
+  },
+  {
+   "field": "note",
+   "text": "early spring of 2022",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "enlistment date"
+  },
+  {
+   "field": "note",
+   "text": "2019",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "prior test year"
+  },
+  {
+   "field": "note",
+   "text": "join the military",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "career plan"
+  },
+  {
+   "field": "note",
+   "text": "enlisted in the military",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "career plan"
+  },
+  {
+   "field": "note",
+   "text": "joining the army",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "career plan"
+  },
+  {
+   "field": "note",
+   "text": "works outside",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job detail"
+  },
+  {
+   "field": "note",
+   "text": "Enterprise",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named employer"
+  },
+  {
+   "field": "note",
+   "text": "asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.40",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.40",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Moderate persistent asthma, uncomplicated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.40",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "allergic rhinitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J30.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Allergic rhinitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J30.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Allergy rhinitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J30.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "food allergy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "T78.01XA",
+   "why": "peanut allergy"
+  },
+  {
+   "field": "note",
+   "text": "Food allergies to peanut",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "T78.01XA",
+   "why": "peanut allergy"
+  },
+  {
+   "field": "note",
+   "text": "Symbicort",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.40",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "note",
+   "text": "Wixela",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.40",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "note",
+   "text": "Welixa",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.40",
+   "why": "asthma treatment (typo)"
+  },
+  {
+   "field": "note",
+   "text": "Wixela Inhub",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.40",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "note",
+   "text": "Zyrtec",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J30.9",
+   "why": "rhinitis treatment"
+  },
+  {
+   "field": "note",
+   "text": "seasonal allergy symptoms",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J30.9",
+   "why": "rhinitis symptoms"
+  },
+  {
+   "field": "note",
+   "text": "peanut",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "T78.01XA",
+   "why": "allergen"
+  },
+  {
+   "field": "note",
+   "text": "peanuts",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "T78.01XA",
+   "why": "allergen"
+  },
+  {
+   "field": "note",
+   "text": "Peanuts",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "T78.01XA",
+   "why": "allergen"
+  },
+  {
+   "field": "note",
+   "text": "tree nut allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded allergy"
+  },
+  {
+   "field": "note",
+   "text": "tree nuts",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded allergy"
+  },
+  {
+   "field": "note",
+   "text": "almonds and cashew",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "tolerated nuts"
+  },
+  {
+   "field": "note",
+   "text": "almonds",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "tolerated nuts"
+  },
+  {
+   "field": "note",
+   "text": "rescue or maintenance inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.40",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "note",
+   "text": "inhalers",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.40",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "note",
+   "text": "albuterol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.40",
+   "why": "asthma rescue"
+  },
+  {
+   "field": "note",
+   "text": "prednisone",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "exertional testing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.40",
+   "why": "asthma assessment"
+  },
+  {
+   "field": "note",
+   "text": "vaping and smoking",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "tobacco use"
+  },
+  {
+   "field": "note",
+   "text": "smokes tobacco and vapes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "tobacco use"
+  },
+  {
+   "field": "note",
+   "text": "nebulizer",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unused device"
+  },
+  {
+   "field": "note",
+   "text": "upper respiratory infections",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "past unrelated"
+  },
+  {
+   "field": "note",
+   "text": "cleaning an Enterprise rental car that had a lot of peanuts in it",
+   "category": "c",
+   "type": "QUASI",
+   "code": "T78.01XA",
+   "why": "exposure mechanism"
+  },
+  {
+   "field": "note",
+   "text": "contact hives",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "T78.01XA",
+   "why": "allergic reaction"
+  },
+  {
+   "field": "note",
+   "text": "EpiPen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "T78.01XA",
+   "why": "anaphylaxis treatment"
+  },
+  {
+   "field": "note",
+   "text": "Proair HFA",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.40",
+   "why": "asthma rescue"
+  },
+  {
+   "field": "note",
+   "text": "Alvesco",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.40",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "note",
+   "text": "severe, anaphylactic reaction",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "T78.01XA",
+   "why": "coded anaphylaxis"
+  },
+  {
+   "field": "note",
+   "text": "Anaphylactic reaction due to peanuts",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "T78.01XA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Montelukast sodium",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated drug allergy"
+  },
+  {
+   "field": "note",
+   "text": "\u201cseizure-like\u201d reaction",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated drug reaction"
+  },
+  {
+   "field": "note",
+   "text": "Asthma Control Test (ACT)",
+   "category": "c",
+   "type": "LAB",
+   "code": "J45.40",
+   "why": "asthma control test"
+  },
+  {
+   "field": "note",
+   "text": "ACT score",
+   "category": "c",
+   "type": "LAB",
+   "code": "J45.40",
+   "why": "asthma control test"
+  },
+  {
+   "field": "note",
+   "text": "food skin test",
+   "category": "c",
+   "type": "LAB",
+   "code": "T78.01XA",
+   "why": "allergy testing"
+  },
+  {
+   "field": "note",
+   "text": "spirometry test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.40",
+   "why": "asthma testing"
+  },
+  {
+   "field": "note",
+   "text": "spirometry",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.40",
+   "why": "asthma testing"
+  },
+  {
+   "field": "note",
+   "text": "breathing test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.40",
+   "why": "asthma testing"
+  },
+  {
+   "field": "note",
+   "text": "smoky from wildfires",
+   "category": "c",
+   "type": "QUASI",
+   "code": "J45.40",
+   "why": "asthma trigger"
+  },
+  {
+   "field": "note",
+   "text": "ACT",
+   "category": "c",
+   "type": "LAB",
+   "code": "J45.40",
+   "why": "asthma control test"
+  }
+ ]
+}

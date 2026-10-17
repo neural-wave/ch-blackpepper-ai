@@ -1,0 +1,525 @@
+{
+ "encounter_id": "D2N191",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "zachary",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "working around the house",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "daily activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "mowed grass",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "mowing grass",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "brother",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relative"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart doctor",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "relative occupation"
+  },
+  {
+   "field": "dialogue",
+   "text": "jobie",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "third person name"
+  },
+  {
+   "field": "dialogue",
+   "text": "joe biting",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "third person name"
+  },
+  {
+   "field": "dialogue",
+   "text": "pooten",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "third person name"
+  },
+  {
+   "field": "dialogue",
+   "text": "united states",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "country"
+  },
+  {
+   "field": "dialogue",
+   "text": "my nurse",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "care team member"
+  },
+  {
+   "field": "dialogue",
+   "text": "left elbow",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "arm pain site"
+  },
+  {
+   "field": "dialogue",
+   "text": "left arm",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "coded site"
+  },
+  {
+   "field": "dialogue",
+   "text": "elbow pain arm pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "arm pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "achiness achiness heaviness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "pain character"
+  },
+  {
+   "field": "dialogue",
+   "text": "motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M79.602",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "right elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "arm pain (mis-sided)"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure cuff",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "BP monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "white coat syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "BP interpretation"
+  },
+  {
+   "field": "dialogue",
+   "text": "norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "sot intake",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "salt diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "glucose test",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "p oct glucose",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "cardiac symptom not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "slight murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "cardiac finding not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild heart attack",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "suspected MI not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "musculoskeletal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "arm pain differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "ekg",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M79.602",
+   "why": "arm pain workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M79.602",
+   "why": "arm/chest pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nitroglycerin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M79.602",
+   "why": "arm/chest pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hospital",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "possible hospitalization"
+  },
+  {
+   "field": "dialogue",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "anxiety",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Zachary Wood",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "45-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "cutting the grass",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "activity"
+  },
+  {
+   "field": "note",
+   "text": "Left arm pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "left arm pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "left elbow",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "pain site"
+  },
+  {
+   "field": "note",
+   "text": "achiness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "pain character"
+  },
+  {
+   "field": "note",
+   "text": "Motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M79.602",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "left elbow, arm, and neck pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "arm pain"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "Slight murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "mild heart attack",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "suspected MI not coded"
+  },
+  {
+   "field": "note",
+   "text": "EKG",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M79.602",
+   "why": "arm pain workup"
+  },
+  {
+   "field": "note",
+   "text": "aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M79.602",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "nitroglycerin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M79.602",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "type 2 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Type 2 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "blood glucose levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  }
+ ]
+}

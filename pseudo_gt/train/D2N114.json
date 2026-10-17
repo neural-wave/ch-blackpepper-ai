@@ -1,0 +1,405 @@
+{
+ "encounter_id": "D2N114",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "Julie",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "doctor white",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "referring physician"
+  },
+  {
+   "field": "dialogue",
+   "text": "new balance",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "possession brand"
+  },
+  {
+   "field": "dialogue",
+   "text": "asics",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "possession brand"
+  },
+  {
+   "field": "dialogue",
+   "text": "nike",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "possession brand"
+  },
+  {
+   "field": "dialogue",
+   "text": "to run a lot",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "jog",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "since i was a teenager",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life-stage detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "menstrual",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51.9",
+   "why": "headache trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "stressed",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51.9",
+   "why": "headache trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "behind my eye",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51.9",
+   "why": "headache location"
+  },
+  {
+   "field": "dialogue",
+   "text": "pulsing sensation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51.9",
+   "why": "headache character"
+  },
+  {
+   "field": "dialogue",
+   "text": "ringing in my ears",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51.9",
+   "why": "associated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "blurred vision",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51.9",
+   "why": "associated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness or tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51.9",
+   "why": "neuro screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R51.9",
+   "why": "headache workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "funduscopic exam shows papilledema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R51.9",
+   "why": "headache exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "papilledema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R51.9",
+   "why": "headache exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "cranial nerves one through twelve are intact",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R51.9",
+   "why": "neuro exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "idiopathic intracranial hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51.9",
+   "why": "suspected cause of headache"
+  },
+  {
+   "field": "dialogue",
+   "text": "increased pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51.9",
+   "why": "IIH"
+  },
+  {
+   "field": "dialogue",
+   "text": "spinal tap",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R51.9",
+   "why": "headache workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "neuro-ophthalmologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R51.9",
+   "why": "headache workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight loss",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R51.9",
+   "why": "IIH treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmurs rubs or gallops",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac"
+  },
+  {
+   "field": "dialogue",
+   "text": "lose weight",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "weight"
+  },
+  {
+   "field": "note",
+   "text": "Julie Jenkins",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Dr. White",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "referring physician"
+  },
+  {
+   "field": "note",
+   "text": "33-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "enjoys running",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "New Balance or Asics",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "possession brands"
+  },
+  {
+   "field": "note",
+   "text": "teenager",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life-stage detail"
+  },
+  {
+   "field": "note",
+   "text": "Headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "menses",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51.9",
+   "why": "headache trigger"
+  },
+  {
+   "field": "note",
+   "text": "behind her eye",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51.9",
+   "why": "headache location"
+  },
+  {
+   "field": "note",
+   "text": "pulsing sensation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51.9",
+   "why": "headache character"
+  },
+  {
+   "field": "note",
+   "text": "ringing in her ears",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51.9",
+   "why": "associated symptom"
+  },
+  {
+   "field": "note",
+   "text": "blurred vision",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51.9",
+   "why": "associated symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness or tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51.9",
+   "why": "neuro screen"
+  },
+  {
+   "field": "note",
+   "text": "MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R51.9",
+   "why": "headache workup"
+  },
+  {
+   "field": "note",
+   "text": "MRI of the brain",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R51.9",
+   "why": "headache workup"
+  },
+  {
+   "field": "note",
+   "text": "Cranial nerves I through XII are intact",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R51.9",
+   "why": "neuro exam"
+  },
+  {
+   "field": "note",
+   "text": "papilledema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R51.9",
+   "why": "headache exam"
+  },
+  {
+   "field": "note",
+   "text": "idiopathic intracranial hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51.9",
+   "why": "suspected cause"
+  },
+  {
+   "field": "note",
+   "text": "spinal tap",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R51.9",
+   "why": "headache workup"
+  },
+  {
+   "field": "note",
+   "text": "neuro ophthalmologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R51.9",
+   "why": "headache workup"
+  },
+  {
+   "field": "note",
+   "text": "murmurs, rubs, or gallops",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac"
+  },
+  {
+   "field": "note",
+   "text": "lose weight",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "weight"
+  }
+ ]
+}

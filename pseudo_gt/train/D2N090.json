@@ -1,0 +1,621 @@
+{
+ "encounter_id": "D2N090",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "albert",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "62-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "reyes",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "nephrologist name"
+  },
+  {
+   "field": "dialogue",
+   "text": "my wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "my mother was actually in the hospital",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "had to do a hip replacement",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relative's surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "cafeteria",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life context"
+  },
+  {
+   "field": "dialogue",
+   "text": "having people over",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social life"
+  },
+  {
+   "field": "dialogue",
+   "text": "meditation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression self-management"
+  },
+  {
+   "field": "dialogue",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "medical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "type 2 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.65",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugar readings",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.65",
+   "why": "glucose monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "woozy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.65",
+   "why": "hyperglycemia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "hyperglycemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.65",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "glucose",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.65",
+   "why": "glucose lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.65",
+   "why": "glucose"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.65",
+   "why": "glucose"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes labs",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.65",
+   "why": "diabetes labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.65",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "diet",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.65",
+   "why": "diabetes management"
+  },
+  {
+   "field": "dialogue",
+   "text": "fast food",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.65",
+   "why": "dietary cause of hyperglycemia"
+  },
+  {
+   "field": "dialogue",
+   "text": "lantus",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.65",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney transplant",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z94.0",
+   "why": "coded status"
+  },
+  {
+   "field": "dialogue",
+   "text": "immunotherapy meds",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z94.0",
+   "why": "transplant immunosuppression"
+  },
+  {
+   "field": "dialogue",
+   "text": "immunosuppression medications",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z94.0",
+   "why": "transplant immunosuppression"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney function",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z94.0",
+   "why": "transplant function"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "lightheadedness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizziness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "pulse ox",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "vital sign"
+  },
+  {
+   "field": "dialogue",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "2/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "known murmur"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema in your lower extremities",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Albert Powell",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "62-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Dr. Reyes",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "nephrologist name"
+  },
+  {
+   "field": "note",
+   "text": "His wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "his mother is in the hospital",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family life event"
+  },
+  {
+   "field": "note",
+   "text": "personal stressors",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life events"
+  },
+  {
+   "field": "note",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "meditation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression self-management"
+  },
+  {
+   "field": "note",
+   "text": "meditating",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression self-management"
+  },
+  {
+   "field": "note",
+   "text": "therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "note",
+   "text": "type 2 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.65",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hyperglycemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.65",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "blood sugar readings",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.65",
+   "why": "glucose monitoring"
+  },
+  {
+   "field": "note",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.65",
+   "why": "glucose monitoring"
+  },
+  {
+   "field": "note",
+   "text": "woozy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.65",
+   "why": "hyperglycemia symptom"
+  },
+  {
+   "field": "note",
+   "text": "eating poorly",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.65",
+   "why": "cause of hyperglycemia"
+  },
+  {
+   "field": "note",
+   "text": "dietary indiscretion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.65",
+   "why": "cause of hyperglycemia"
+  },
+  {
+   "field": "note",
+   "text": "diet",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.65",
+   "why": "diabetes management"
+  },
+  {
+   "field": "note",
+   "text": "Lantus insulin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.65",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "Lantus",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.65",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "Fasting glucose",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.65",
+   "why": "glucose lab"
+  },
+  {
+   "field": "note",
+   "text": "blood glucose levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.65",
+   "why": "glucose"
+  },
+  {
+   "field": "note",
+   "text": "blood glucose level",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.65",
+   "why": "glucose"
+  },
+  {
+   "field": "note",
+   "text": "Hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.65",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.65",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "kidney transplant",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z94.0",
+   "why": "coded status"
+  },
+  {
+   "field": "note",
+   "text": "Status post renal transplant",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z94.0",
+   "why": "coded status"
+  },
+  {
+   "field": "note",
+   "text": "immunotherapy medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z94.0",
+   "why": "transplant immunosuppression"
+  },
+  {
+   "field": "note",
+   "text": "immunotherapy medications",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z94.0",
+   "why": "transplant immunosuppression"
+  },
+  {
+   "field": "note",
+   "text": "immunosuppression medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z94.0",
+   "why": "transplant immunosuppression"
+  },
+  {
+   "field": "note",
+   "text": "kidney function",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z94.0",
+   "why": "transplant function"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "lightheadedness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "dizziness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated finding"
+  },
+  {
+   "field": "note",
+   "text": "wheezes, rales, or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated lung findings"
+  },
+  {
+   "field": "note",
+   "text": "Grade 2/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "known murmur"
+  },
+  {
+   "field": "note",
+   "text": "1+ edema in the bilateral lower extremities",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam finding"
+  }
+ ]
+}

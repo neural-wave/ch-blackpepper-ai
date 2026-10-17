@@ -1,0 +1,509 @@
+{
+ "encounter_id": "D2N065",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "anna",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "my friend who was visiting",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social context"
+  },
+  {
+   "field": "dialogue",
+   "text": "in high school i used to play a lot of soccer",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "past sport"
+  },
+  {
+   "field": "dialogue",
+   "text": "play like all the time",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "past sport"
+  },
+  {
+   "field": "dialogue",
+   "text": "work on the computer",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job type"
+  },
+  {
+   "field": "dialogue",
+   "text": "your boss",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "employment detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "taking out the trash",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.E9",
+   "why": "activity at injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "slipping on a patch of ice",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W00.0XXA",
+   "why": "fall on ice"
+  },
+  {
+   "field": "dialogue",
+   "text": "get into the house",
+   "category": "c",
+   "type": "LOCATION",
+   "code": "Y92.009",
+   "why": "place of occurrence"
+  },
+  {
+   "field": "dialogue",
+   "text": "right ankle pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "heard this pop",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "limping",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "throbbing pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "warm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "sprain sign"
+  },
+  {
+   "field": "dialogue",
+   "text": "iced it",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "elevated",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecchymosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "bruising",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness to palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray of your ankle",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "ankle sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice it",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "air cast",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "possible workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "tingling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "laxity",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "bony tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "fractures",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "bony abnormalities",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "Anna Diaz",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "Ms. Diaz",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "31-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "play a lot of soccer in high school",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "past sport"
+  },
+  {
+   "field": "note",
+   "text": "other right foot injuries",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "prior injuries not coded"
+  },
+  {
+   "field": "note",
+   "text": "taking out the trash",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.E9",
+   "why": "activity at injury"
+  },
+  {
+   "field": "note",
+   "text": "slipped on a patch of ice",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W00.0XXA",
+   "why": "fall on ice"
+  },
+  {
+   "field": "note",
+   "text": "Right ankle pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "note",
+   "text": "right ankle pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "note",
+   "text": "heard a pop",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "limping",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "note",
+   "text": "constant and throbbing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "note",
+   "text": "warm to the touch",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "sprain sign"
+  },
+  {
+   "field": "note",
+   "text": "Positive warmth to the right foot",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "sprain sign"
+  },
+  {
+   "field": "note",
+   "text": "icing and elevating",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "ecchymosis over the lateral malleolus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "Tenderness to palpation anterolaterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the right ankle",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "Right ankle sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "right ankle sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Aircast",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "non-weight-bearing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "possible workup"
+  },
+  {
+   "field": "note",
+   "text": "numbness or tingling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "laxity",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "bony tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "fracture or bony abnormalities",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  }
+ ]
+}

@@ -1,0 +1,573 @@
+{
+ "encounter_id": "D2N071",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "ralph",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "62-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "dropped my oldest daughter off at college",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "moved her into her dorm",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "go for a run in the morning",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "exercise habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "4 to 5 miles a day",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "exercise habit detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "my workout",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "exercise habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "lobectomy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z90.2",
+   "why": "coded status"
+  },
+  {
+   "field": "dialogue",
+   "text": "prior lobectomy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z90.2",
+   "why": "coded status"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "prozac",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "incidents",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression episodes"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z90.2",
+   "why": "lung function after lobectomy"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath with with exertion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z90.2",
+   "why": "lung function after lobectomy"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "pollen",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated allergy trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "nasal congestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "cough",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "muscle aches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "pounding in my chest",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated palpitations"
+  },
+  {
+   "field": "dialogue",
+   "text": "two out of six systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "lungs sound nice and clear",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z90.2",
+   "why": "post-lobectomy lung exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "lower extremity edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation of the , of the sinuses",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "congestion",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated sinus"
+  },
+  {
+   "field": "dialogue",
+   "text": "ekg",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated test"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pounding",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z90.2",
+   "why": "post-lobectomy imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "breathing function is fine",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z90.2",
+   "why": "post-lobectomy status"
+  },
+  {
+   "field": "dialogue",
+   "text": "echocardiogram",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "murmur workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "routine blood work",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "62-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Ralph Barnes",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "moved his oldest daughter into college",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family life event"
+  },
+  {
+   "field": "note",
+   "text": "he runs in the morning",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "exercise habit"
+  },
+  {
+   "field": "note",
+   "text": "runs 4 to 5 miles a day",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "exercise habit"
+  },
+  {
+   "field": "note",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Endorses depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "prior lobectomy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z90.2",
+   "why": "coded status"
+  },
+  {
+   "field": "note",
+   "text": "History of lobectomy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z90.2",
+   "why": "coded status"
+  },
+  {
+   "field": "note",
+   "text": "lobectomy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z90.2",
+   "why": "coded status"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Prozac",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "note",
+   "text": "Norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "incidents",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression episodes"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath with exertion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z90.2",
+   "why": "lung function post-lobectomy"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z90.2",
+   "why": "lung function post-lobectomy"
+  },
+  {
+   "field": "note",
+   "text": "difficulty breathing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z90.2",
+   "why": "lung function post-lobectomy"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea on exertion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z90.2",
+   "why": "lung function post-lobectomy"
+  },
+  {
+   "field": "note",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "nasal congestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "pollen",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated allergy trigger"
+  },
+  {
+   "field": "note",
+   "text": "pounding in his chest",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated palpitations"
+  },
+  {
+   "field": "note",
+   "text": "intermittent palpitations",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "cough",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Pain to palpation to the sinuses",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Lungs are clear to auscultation bilaterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z90.2",
+   "why": "post-lobectomy lung exam"
+  },
+  {
+   "field": "note",
+   "text": "No wheezes, rales, or rhonchi",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z90.2",
+   "why": "post-lobectomy lung exam"
+  },
+  {
+   "field": "note",
+   "text": "2/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "No gallops or rubs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Electrocardiogram",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the chest",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z90.2",
+   "why": "post-lobectomy imaging"
+  },
+  {
+   "field": "note",
+   "text": "breathing function is back",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z90.2",
+   "why": "post-lobectomy status"
+  },
+  {
+   "field": "note",
+   "text": "routine blood work",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "echocardiogram",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "murmur workup"
+  },
+  {
+   "field": "note",
+   "text": "murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated"
+  }
+ ]
+}

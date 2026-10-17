@@ -1,0 +1,477 @@
+{
+ "encounter_id": "D2N091",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "jerry",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "54 year old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "traveling all over the country",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel"
+  },
+  {
+   "field": "dialogue",
+   "text": "stressful summer",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "meditation",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle"
+  },
+  {
+   "field": "dialogue",
+   "text": "stretching out every morning",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "annual exam",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z00.00",
+   "why": "coded encounter"
+  },
+  {
+   "field": "dialogue",
+   "text": "osteoporosis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M81.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "fosamax",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M81.0",
+   "why": "osteoporosis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "broken bones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M81.0",
+   "why": "fracture screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "multiple sclerosis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G35",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "neurologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G35",
+   "why": "MS follow-up"
+  },
+  {
+   "field": "dialogue",
+   "text": "weakness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G35",
+   "why": "MS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "weakness of your lower extremities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G35",
+   "why": "MS finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "reflexes",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G35",
+   "why": "neuro exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M17.11",
+   "why": "knee history"
+  },
+  {
+   "field": "dialogue",
+   "text": "arthritic changes of the right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M17.11",
+   "why": "knee OA finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M17.11",
+   "why": "knee OA imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray of your right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M17.11",
+   "why": "knee OA imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "changes from arthritis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M17.11",
+   "why": "knee OA finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "lack of sleep",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "insomnia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "melatonin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "insomnia treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Jerry Nguyen",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "54-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "traveling all over the country",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel"
+  },
+  {
+   "field": "note",
+   "text": "stressful summer",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life event"
+  },
+  {
+   "field": "note",
+   "text": "meditation",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle"
+  },
+  {
+   "field": "note",
+   "text": "stretching every morning",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "habit"
+  },
+  {
+   "field": "note",
+   "text": "annual exam",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z00.00",
+   "why": "coded encounter"
+  },
+  {
+   "field": "note",
+   "text": "osteoporosis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M81.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Osteoporosis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M81.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Fosamax",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M81.0",
+   "why": "osteoporosis treatment"
+  },
+  {
+   "field": "note",
+   "text": "broken bones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M81.0",
+   "why": "fracture screening"
+  },
+  {
+   "field": "note",
+   "text": "multiple sclerosis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G35",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Multiple Sclerosis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G35",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "neurologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G35",
+   "why": "MS follow-up"
+  },
+  {
+   "field": "note",
+   "text": "right leg weakness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G35",
+   "why": "MS symptom"
+  },
+  {
+   "field": "note",
+   "text": "Weakness in the lower extremities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G35",
+   "why": "MS finding"
+  },
+  {
+   "field": "note",
+   "text": "weakness of the bilateral lower extremities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G35",
+   "why": "MS finding"
+  },
+  {
+   "field": "note",
+   "text": "Reflexes",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G35",
+   "why": "neuro exam"
+  },
+  {
+   "field": "note",
+   "text": "right knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M17.11",
+   "why": "knee OA site"
+  },
+  {
+   "field": "note",
+   "text": "previous surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M17.11",
+   "why": "knee history"
+  },
+  {
+   "field": "note",
+   "text": "knee surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M17.11",
+   "why": "knee history"
+  },
+  {
+   "field": "note",
+   "text": "right knee discomfort",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M17.11",
+   "why": "knee OA symptom"
+  },
+  {
+   "field": "note",
+   "text": "Arthritic changes in the right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M17.11",
+   "why": "knee OA finding"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M17.11",
+   "why": "knee OA imaging"
+  },
+  {
+   "field": "note",
+   "text": "right knee x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M17.11",
+   "why": "knee OA imaging"
+  },
+  {
+   "field": "note",
+   "text": "arthritic changes",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M17.11",
+   "why": "knee OA finding"
+  },
+  {
+   "field": "note",
+   "text": "Right knee arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M17.11",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "lack of sleep",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded symptom"
+  },
+  {
+   "field": "note",
+   "text": "insomnia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded symptom"
+  },
+  {
+   "field": "note",
+   "text": "melatonin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "insomnia treatment"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "wheezes, rales, or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated lung findings"
+  }
+ ]
+}

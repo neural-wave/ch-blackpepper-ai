@@ -1,0 +1,869 @@
+{
+ "encounter_id": "D2N201",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "steven",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "sit at home all day",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle"
+  },
+  {
+   "field": "dialogue",
+   "text": "watch tv",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle"
+  },
+  {
+   "field": "dialogue",
+   "text": "fourth cousin",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relative"
+  },
+  {
+   "field": "dialogue",
+   "text": "my dad",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relative"
+  },
+  {
+   "field": "dialogue",
+   "text": "my cousin",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relative"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "lumbar disc symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "played basketball",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "fell on my back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "goes down my leg my left leg",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radiculopathy"
+  },
+  {
+   "field": "dialogue",
+   "text": "toes get numb",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radicular numbness"
+  },
+  {
+   "field": "dialogue",
+   "text": "loss of sensation in like the genital or rectal area",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "cauda equina screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "weakness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radicular weakness"
+  },
+  {
+   "field": "dialogue",
+   "text": "weak",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radicular weakness"
+  },
+  {
+   "field": "dialogue",
+   "text": "loss of control of like your bladder or your bowels",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "cauda equina screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "pooped myself",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "incontinence episode"
+  },
+  {
+   "field": "dialogue",
+   "text": "incontinence",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "incontinence episode"
+  },
+  {
+   "field": "dialogue",
+   "text": "drinking",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "alcohol use"
+  },
+  {
+   "field": "dialogue",
+   "text": "injections",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "prior back treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "prior back treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain medications",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.16",
+   "why": "prior back treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "white pill",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.16",
+   "why": "prior pain medication"
+  },
+  {
+   "field": "dialogue",
+   "text": "gained about eighty pounds",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "weight gain not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "spine conditions",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "scoliosis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoking",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "smoking history"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoked",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "smoking history"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoke",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "smoking history"
+  },
+  {
+   "field": "dialogue",
+   "text": "ninety five percentile",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "low oxygen saturation"
+  },
+  {
+   "field": "dialogue",
+   "text": "fat",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "obesity not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "oxygen",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "cousin oxygen therapy"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight gain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "heart exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "erythema or ecchymosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "midline tenderness on the l4 l5 disk space",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "lumbar exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "right sided lumbar paravertebral tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "lumbar exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with lumbar flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "lumbar exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "supine straight leg test positive",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "radiculopathy sign"
+  },
+  {
+   "field": "dialogue",
+   "text": "decreased sensation to light touch at the right lateral thigh at l4 dermatome",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "radiculopathy sign"
+  },
+  {
+   "field": "dialogue",
+   "text": "patella and achilles reflexes",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "neuro exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "lumbar imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "disk desiccation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "disc disorder"
+  },
+  {
+   "field": "dialogue",
+   "text": "disk bulge",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "disc disorder"
+  },
+  {
+   "field": "dialogue",
+   "text": "paracentral disk herniation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "disc disorder"
+  },
+  {
+   "field": "dialogue",
+   "text": "neural foraminal stenosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "nerve compression"
+  },
+  {
+   "field": "dialogue",
+   "text": "chronic lumbar back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "coded problem"
+  },
+  {
+   "field": "dialogue",
+   "text": "herniated disk at the l4 l5 with radiculopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "pinching on some nerves",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radiculopathy"
+  },
+  {
+   "field": "dialogue",
+   "text": "tingling in your leg",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radiculopathy"
+  },
+  {
+   "field": "dialogue",
+   "text": "spinal injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "corticosteroid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.16",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cotocoid steroid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.16",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "steroid shot",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "fluoroscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "injection guidance"
+  },
+  {
+   "field": "dialogue",
+   "text": "needles",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "needle phobia"
+  },
+  {
+   "field": "dialogue",
+   "text": "anxiety",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "procedural anxiety"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain pills",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.16",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.16",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain meds",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.16",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "possible treatment"
+  },
+  {
+   "field": "note",
+   "text": "Steven Reed",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "60-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "watch tv all day",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle"
+  },
+  {
+   "field": "note",
+   "text": "sits at home all day",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle"
+  },
+  {
+   "field": "note",
+   "text": "4th cousin",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relative"
+  },
+  {
+   "field": "note",
+   "text": "Back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "lumbar disc symptom"
+  },
+  {
+   "field": "note",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "lumbar disc symptom"
+  },
+  {
+   "field": "note",
+   "text": "fell and landed onto his back while playing basketball",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "playing basketball",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "radiate down his left lower extremity",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radiculopathy"
+  },
+  {
+   "field": "note",
+   "text": "numbness in his toes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radicular numbness"
+  },
+  {
+   "field": "note",
+   "text": "weak",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "radicular weakness"
+  },
+  {
+   "field": "note",
+   "text": "incontinence",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "incontinence episode"
+  },
+  {
+   "field": "note",
+   "text": "alcohol consumption",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "alcohol use"
+  },
+  {
+   "field": "note",
+   "text": "loss of sensation in the genital or rectal area",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "cauda equina screen"
+  },
+  {
+   "field": "note",
+   "text": "injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "back treatment"
+  },
+  {
+   "field": "note",
+   "text": "does not like needles",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "needle phobia"
+  },
+  {
+   "field": "note",
+   "text": "does not tolerate needles",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "needle phobia"
+  },
+  {
+   "field": "note",
+   "text": "Pain medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.16",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "pain medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.16",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "prior treatment"
+  },
+  {
+   "field": "note",
+   "text": "gained 80 lbs",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "weight gain not coded"
+  },
+  {
+   "field": "note",
+   "text": "history of smoking",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "smoking history"
+  },
+  {
+   "field": "note",
+   "text": "smoking",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "smoking history"
+  },
+  {
+   "field": "note",
+   "text": "scoliosis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "bowel or bladder changes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "cauda equina screen"
+  },
+  {
+   "field": "note",
+   "text": "Oxygen saturation",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "low oxygen saturation"
+  },
+  {
+   "field": "note",
+   "text": "No Murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "heart exam"
+  },
+  {
+   "field": "note",
+   "text": "Decreased sensation to light touch at the right lateral thigh at the L4 dermatome",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "radiculopathy sign"
+  },
+  {
+   "field": "note",
+   "text": "Patella and Achilles reflexes are symmetrical",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "neuro exam"
+  },
+  {
+   "field": "note",
+   "text": "No overlying erythema or ecchymosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "Midline tenderness along the L4-5 disc space",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "lumbar exam"
+  },
+  {
+   "field": "note",
+   "text": "right-sided lumbar paravertebral tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "lumbar exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with lumbar flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "lumbar exam"
+  },
+  {
+   "field": "note",
+   "text": "Positive supine straight leg raise",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "radiculopathy sign"
+  },
+  {
+   "field": "note",
+   "text": "MRI of the lumbar spine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "lumbar imaging"
+  },
+  {
+   "field": "note",
+   "text": "MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "lumbar imaging"
+  },
+  {
+   "field": "note",
+   "text": "disc desiccation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "disc disorder"
+  },
+  {
+   "field": "note",
+   "text": "disc bulge",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "disc disorder"
+  },
+  {
+   "field": "note",
+   "text": "paracentral disc herniation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "disc disorder"
+  },
+  {
+   "field": "note",
+   "text": "moderate right neural foraminal stenosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.16",
+   "why": "nerve compression"
+  },
+  {
+   "field": "note",
+   "text": "Chronic lumbar back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "coded problem"
+  },
+  {
+   "field": "note",
+   "text": "herniated disc at L4-5 with radiculopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.16",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "spinal corticosteroid injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "fluoroscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "injection guidance"
+  },
+  {
+   "field": "note",
+   "text": "spinal injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "anxiety",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "procedural anxiety"
+  },
+  {
+   "field": "note",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.16",
+   "why": "possible treatment"
+  }
+ ]
+}

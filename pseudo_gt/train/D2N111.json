@@ -1,0 +1,517 @@
+{
+ "encounter_id": "D2N111",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "william",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "with my wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "trampoline park",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S83.421A",
+   "why": "injury activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "on the trampoline",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S83.421A",
+   "why": "injury activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "injured your knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "coded injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "injury site"
+  },
+  {
+   "field": "dialogue",
+   "text": "heard a snap and instant pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "outside of the knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "LCL site"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.421A",
+   "why": "knee pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "limp",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "knee finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecchymosis and edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.421A",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.421A",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.421A",
+   "why": "knee workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture or bony abnormality",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "coded injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "lateral ligament strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.421A",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.421A",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure cuff",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "low salt diet",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "echo",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "watch my carbs",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "keto diet",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "diet unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipid panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "note",
+   "text": "William Russell",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "57-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Right knee injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "right knee injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "trampoline park",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S83.421A",
+   "why": "injury activity"
+  },
+  {
+   "field": "note",
+   "text": "jumping on a trampoline",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S83.421A",
+   "why": "injury activity"
+  },
+  {
+   "field": "note",
+   "text": "heard a snap",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.421A",
+   "why": "knee pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "Right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "Mild tenderness to palpation at the lateral aspect",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.421A",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Ecchymosis and edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.421A",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.421A",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with movement",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.421A",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "X-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.421A",
+   "why": "knee workup"
+  },
+  {
+   "field": "note",
+   "text": "fracture or bony abnormality",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "lateral ligament strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.421A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.421A",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.421A",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "blood pressure cuff",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN workup"
+  },
+  {
+   "field": "note",
+   "text": "type 2 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes type 2",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "blood glucose levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "limiting his carbohydrate intake",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes diet"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac"
+  },
+  {
+   "field": "note",
+   "text": "lipid panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  }
+ ]
+}

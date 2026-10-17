@@ -1,0 +1,1189 @@
+{
+ "encounter_id": "D2N021",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "christine hernandez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "christine",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "january 13th , 1982",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "wal-mart",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named pharmacy/store"
+  },
+  {
+   "field": "dialogue",
+   "text": "cvs",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named pharmacy"
+  },
+  {
+   "field": "dialogue",
+   "text": "july 8th",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "vacation date"
+  },
+  {
+   "field": "dialogue",
+   "text": "july",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of plan"
+  },
+  {
+   "field": "dialogue",
+   "text": "october",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "lab date"
+  },
+  {
+   "field": "dialogue",
+   "text": "january",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "lab date"
+  },
+  {
+   "field": "dialogue",
+   "text": "march",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "lab date"
+  },
+  {
+   "field": "dialogue",
+   "text": "december",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "medication stop date"
+  },
+  {
+   "field": "dialogue",
+   "text": "on vacation",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "gym",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "gym membership/hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "my contract",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "employment detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "coworker",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "reveals employment"
+  },
+  {
+   "field": "dialogue",
+   "text": "my cousin",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relative detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "she does n't work",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "cousin employment status"
+  },
+  {
+   "field": "dialogue",
+   "text": "i have a friend",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "covid vaccine",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated vaccination"
+  },
+  {
+   "field": "dialogue",
+   "text": "thyroid medicine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E03.9",
+   "why": "hypothyroidism treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "unithroid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E03.9",
+   "why": "hypothyroidism treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "thyroid",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E03.9",
+   "why": "hypothyroidism"
+  },
+  {
+   "field": "dialogue",
+   "text": "thyroid issue",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "coworker's condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "clindamycin gel",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "clindamycin topical",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "topical antibiotic",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "benzoyl peroxide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "peroxide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "epiduo",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "acne vulgaris",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "coded acne"
+  },
+  {
+   "field": "dialogue",
+   "text": "acne",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "coded acne"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight gain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R63.5",
+   "why": "coded weight gain"
+  },
+  {
+   "field": "dialogue",
+   "text": "abnormal weight gain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R63.5",
+   "why": "coded weight gain"
+  },
+  {
+   "field": "dialogue",
+   "text": "birth control",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R94.5",
+   "why": "cause of abnormal liver enzymes"
+  },
+  {
+   "field": "dialogue",
+   "text": "endocrine cause",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R63.5",
+   "why": "weight gain workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "hyperandrogynism",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "hirsutism workup, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "high testosterone",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "hirsutism workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "high dhea",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "hirsutism workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "hair growth",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "hirsutism, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "hirsutism",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "androgen levels",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "hirsutism workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "growth hormone",
+   "category": "c",
+   "type": "LAB",
+   "code": "R63.5",
+   "why": "weight gain workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight loss study",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R63.5",
+   "why": "weight gain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "meal plans",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R63.5",
+   "why": "weight gain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cla",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R63.5",
+   "why": "weight loss supplement"
+  },
+  {
+   "field": "dialogue",
+   "text": "chromium",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R63.5",
+   "why": "weight loss supplement"
+  },
+  {
+   "field": "dialogue",
+   "text": "amino acids",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R63.5",
+   "why": "weight loss supplement"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergic to any medications",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated allergy"
+  },
+  {
+   "field": "dialogue",
+   "text": "skin pretty sensitive",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "sensitive skin"
+  },
+  {
+   "field": "dialogue",
+   "text": "rashes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "skin reaction"
+  },
+  {
+   "field": "dialogue",
+   "text": "feet do swell up",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated edema"
+  },
+  {
+   "field": "dialogue",
+   "text": "constipation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "miralax",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "constipation treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "dexamethasone test",
+   "category": "c",
+   "type": "LAB",
+   "code": "R63.5",
+   "why": "weight gain workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "dexamethasone suppression test",
+   "category": "c",
+   "type": "LAB",
+   "code": "R63.5",
+   "why": "weight gain workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "cushing's syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R63.5",
+   "why": "ruled-out cause of weight gain"
+  },
+  {
+   "field": "dialogue",
+   "text": "cushing's",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R63.5",
+   "why": "ruled-out cause of weight gain"
+  },
+  {
+   "field": "dialogue",
+   "text": "salivary cortisol",
+   "category": "c",
+   "type": "LAB",
+   "code": "R63.5",
+   "why": "weight gain workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "cholesterol was quite high",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "hyperlipidemia not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "total cholesterol",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lipid lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "good cholesterol",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lipid lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "non-hdl",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lipid lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "screen for diabetes",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "vitamin d deficiency",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E55.9",
+   "why": "coded deficiency"
+  },
+  {
+   "field": "dialogue",
+   "text": "vitamin d",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E55.9",
+   "why": "deficiency treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pituitary hormones",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "other labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "iron levels",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "other labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "liver enzymes",
+   "category": "c",
+   "type": "LAB",
+   "code": "R94.5",
+   "why": "abnormal LFTs"
+  },
+  {
+   "field": "dialogue",
+   "text": "abnormal liver enzymes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R94.5",
+   "why": "coded abnormal LFTs"
+  },
+  {
+   "field": "dialogue",
+   "text": "alt",
+   "category": "c",
+   "type": "LAB",
+   "code": "R94.5",
+   "why": "abnormal LFTs"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes treatment",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "study drug indication"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "bmi",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R63.5",
+   "why": "weight criterion"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "friend/exclusion criterion"
+  },
+  {
+   "field": "dialogue",
+   "text": "psychiatric disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "exclusion criterion"
+  },
+  {
+   "field": "dialogue",
+   "text": "schizophrenia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "exclusion criterion"
+  },
+  {
+   "field": "dialogue",
+   "text": "bipolar",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "exclusion criterion"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "eligibility example"
+  },
+  {
+   "field": "dialogue",
+   "text": "high cholesterol",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "eligibility example"
+  },
+  {
+   "field": "dialogue",
+   "text": "low-carb diet",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R63.5",
+   "why": "weight gain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "avoid alcohol",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R94.5",
+   "why": "liver enzyme management"
+  },
+  {
+   "field": "dialogue",
+   "text": "phexxi",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R94.5",
+   "why": "birth control alternative for liver enzymes"
+  },
+  {
+   "field": "dialogue",
+   "text": "spermicide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R94.5",
+   "why": "birth control alternative"
+  },
+  {
+   "field": "dialogue",
+   "text": "hyperthyroidism",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E03.9",
+   "why": "misspoken hypothyroidism"
+  },
+  {
+   "field": "note",
+   "text": "Christine Hernandez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Hernandez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "note",
+   "text": "39-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Walmart",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named store"
+  },
+  {
+   "field": "note",
+   "text": "July",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of plan"
+  },
+  {
+   "field": "note",
+   "text": "on vacation",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life event"
+  },
+  {
+   "field": "note",
+   "text": "gym membership",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "gym membership"
+  },
+  {
+   "field": "note",
+   "text": "Hypothyroidism",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E03.9",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "hypothyroidism",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E03.9",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "thyroid medicine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E03.9",
+   "why": "hypothyroidism treatment"
+  },
+  {
+   "field": "note",
+   "text": "Unithroid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E03.9",
+   "why": "hypothyroidism treatment"
+  },
+  {
+   "field": "note",
+   "text": "Abnormal liver enzymes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R94.5",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "abnormal liver enzymes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R94.5",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "liver enzymes",
+   "category": "c",
+   "type": "LAB",
+   "code": "R94.5",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Hepatic Function Panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "R94.5",
+   "why": "LFTs"
+  },
+  {
+   "field": "note",
+   "text": "ALT",
+   "category": "c",
+   "type": "LAB",
+   "code": "R94.5",
+   "why": "LFTs"
+  },
+  {
+   "field": "note",
+   "text": "Microgestin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R94.5",
+   "why": "cause of abnormal LFTs"
+  },
+  {
+   "field": "note",
+   "text": "oral contraceptive",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R94.5",
+   "why": "cause of abnormal LFTs"
+  },
+  {
+   "field": "note",
+   "text": "Phexxi",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R94.5",
+   "why": "birth control alternative"
+  },
+  {
+   "field": "note",
+   "text": "spermicide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R94.5",
+   "why": "birth control alternative"
+  },
+  {
+   "field": "note",
+   "text": "birth control",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R94.5",
+   "why": "birth control alternative"
+  },
+  {
+   "field": "note",
+   "text": "abstain from alcohol",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R94.5",
+   "why": "liver management"
+  },
+  {
+   "field": "note",
+   "text": "Abnormal weight gain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R63.5",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "abnormal weight gain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R63.5",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "chromium",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R63.5",
+   "why": "weight loss supplement"
+  },
+  {
+   "field": "note",
+   "text": "CLA",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R63.5",
+   "why": "weight loss supplement"
+  },
+  {
+   "field": "note",
+   "text": "amino acids",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R63.5",
+   "why": "weight loss supplement"
+  },
+  {
+   "field": "note",
+   "text": "weight loss study",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R63.5",
+   "why": "weight treatment"
+  },
+  {
+   "field": "note",
+   "text": "weight loss",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R63.5",
+   "why": "weight treatment"
+  },
+  {
+   "field": "note",
+   "text": "low carbohydrate",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R63.5",
+   "why": "weight diet"
+  },
+  {
+   "field": "note",
+   "text": "Dexamethasone Suppression Test",
+   "category": "c",
+   "type": "LAB",
+   "code": "R63.5",
+   "why": "weight gain workup"
+  },
+  {
+   "field": "note",
+   "text": "Salivary Cortisol Tests",
+   "category": "c",
+   "type": "LAB",
+   "code": "R63.5",
+   "why": "weight gain workup"
+  },
+  {
+   "field": "note",
+   "text": "Cushing’s Syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R63.5",
+   "why": "ruled-out cause"
+  },
+  {
+   "field": "note",
+   "text": "Acne vulgaris",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "acne vulgaris",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Acne Vulgaris",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "acne",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Epiduo",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "clindamycin topical antibiotic",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "Clindamycin Gel",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "Clindamycin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "Benzoyl Peroxide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "benzoyl peroxide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "Vitamin D deficiency",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E55.9",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Vitamin D",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E55.9",
+   "why": "deficiency treatment"
+  },
+  {
+   "field": "note",
+   "text": "vitamin D",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E55.9",
+   "why": "deficiency treatment"
+  },
+  {
+   "field": "note",
+   "text": "hirsutism",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Hirsutism",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "androgen levels",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "hirsutism workup"
+  },
+  {
+   "field": "note",
+   "text": "FAI",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "androgen index"
+  },
+  {
+   "field": "note",
+   "text": "constipation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Constipation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "MiraLAX",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "constipation treatment"
+  },
+  {
+   "field": "note",
+   "text": "sensitive skin",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated skin"
+  },
+  {
+   "field": "note",
+   "text": "rashes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated skin"
+  },
+  {
+   "field": "note",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated allergy"
+  },
+  {
+   "field": "note",
+   "text": "Lipid Panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lipids not coded"
+  },
+  {
+   "field": "note",
+   "text": "Total cholesterol",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lipids"
+  },
+  {
+   "field": "note",
+   "text": "non-HDL",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lipids"
+  },
+  {
+   "field": "note",
+   "text": "HDL",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lipids"
+  },
+  {
+   "field": "note",
+   "text": "LDL",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lipids"
+  },
+  {
+   "field": "note",
+   "text": "low cholesterol",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "lipid diet"
+  }
+ ]
+}

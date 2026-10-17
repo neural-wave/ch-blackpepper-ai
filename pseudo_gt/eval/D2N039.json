@@ -1,0 +1,613 @@
+{
+ "encounter_id": "D2N039",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "virginia",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "cvs",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named store"
+  },
+  {
+   "field": "dialogue",
+   "text": "main street",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "street"
+  },
+  {
+   "field": "dialogue",
+   "text": "fifth street",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "street"
+  },
+  {
+   "field": "dialogue",
+   "text": "football season",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "watching my games",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "pizza wings subs",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "food habits"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "hypertension"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "uncontrolled hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure cuff",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "home BP monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "electronic blood pressure recorder",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "home BP monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "symptom when BP high"
+  },
+  {
+   "field": "dialogue",
+   "text": "norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "antihypertensive"
+  },
+  {
+   "field": "dialogue",
+   "text": "carvedilol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "antihypertensive"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "antihypertensive"
+  },
+  {
+   "field": "dialogue",
+   "text": "cardura",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "antihypertensive"
+  },
+  {
+   "field": "dialogue",
+   "text": "nonsteroidals",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "stopped due to BP"
+  },
+  {
+   "field": "dialogue",
+   "text": "nonsteroidal medicines",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "stopped due to BP"
+  },
+  {
+   "field": "dialogue",
+   "text": "advil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "NSAID stopped due to BP"
+  },
+  {
+   "field": "dialogue",
+   "text": "motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "NSAID stopped due to BP"
+  },
+  {
+   "field": "dialogue",
+   "text": "aleve",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "NSAID stopped due to BP"
+  },
+  {
+   "field": "dialogue",
+   "text": "beers",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "alcohol counseling for HTN"
+  },
+  {
+   "field": "dialogue",
+   "text": "alcohol",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "alcohol counseling for HTN"
+  },
+  {
+   "field": "dialogue",
+   "text": "salt intake",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "diet counseling for HTN"
+  },
+  {
+   "field": "dialogue",
+   "text": "nutritionist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "referral for HTN diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "renal artery ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "secondary HTN workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "urine collection",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "secondary HTN workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "aldosterone levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "secondary HTN workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "reining levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "secondary HTN workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "twenty four hour urine",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "secondary HTN workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "adrenal glands",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "secondary HTN workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidneys",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "kidney lab concern not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "leg swelling"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "jugular vein distention",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "murmur not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "one plus pitting edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "edema not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "pain medication"
+  },
+  {
+   "field": "note",
+   "text": "High blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension, uncontrolled",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "uncontrolled hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "elevated blood pressure",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "hypertension"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "symptom when BP high"
+  },
+  {
+   "field": "note",
+   "text": "Norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "antihypertensive"
+  },
+  {
+   "field": "note",
+   "text": "carvedilol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "antihypertensive"
+  },
+  {
+   "field": "note",
+   "text": "Cardura",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "antihypertensive"
+  },
+  {
+   "field": "note",
+   "text": "anti-inflammatories",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "stopped due to BP"
+  },
+  {
+   "field": "note",
+   "text": "beers",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "alcohol counseling"
+  },
+  {
+   "field": "note",
+   "text": "alcohol",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "alcohol counseling"
+  },
+  {
+   "field": "note",
+   "text": "salt intake",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "diet counseling"
+  },
+  {
+   "field": "note",
+   "text": "home blood pressure monitoring",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "BP monitoring"
+  },
+  {
+   "field": "note",
+   "text": "blood pressure log",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "BP monitoring"
+  },
+  {
+   "field": "note",
+   "text": "Renal artery ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "secondary HTN workup"
+  },
+  {
+   "field": "note",
+   "text": "Urine collection",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "secondary HTN workup"
+  },
+  {
+   "field": "note",
+   "text": "morning aldosterone levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "secondary HTN workup"
+  },
+  {
+   "field": "note",
+   "text": "renal levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "secondary HTN workup"
+  },
+  {
+   "field": "note",
+   "text": "24-hour urine",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "secondary HTN workup"
+  },
+  {
+   "field": "note",
+   "text": "nutritionist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN diet referral"
+  },
+  {
+   "field": "note",
+   "text": "kidney disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea on exertion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "bilateral lower extremity edema",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated ROS"
+  },
+  {
+   "field": "note",
+   "text": "jugular vein distension",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "murmur not coded"
+  },
+  {
+   "field": "note",
+   "text": "pitting edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "edema not coded"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "pain medication"
+  }
+ ]
+}

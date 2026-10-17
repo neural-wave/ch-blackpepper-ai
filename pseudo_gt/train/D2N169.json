@@ -1,0 +1,573 @@
+{
+ "encounter_id": "D2N169",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "alan",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "61-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "bike ride every morning",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby/routine"
+  },
+  {
+   "field": "dialogue",
+   "text": "very long bike ride",
+   "category": "c",
+   "type": "QUASI",
+   "code": "R06.02",
+   "why": "exertional trigger of dyspnea"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "short of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "hard to catch my breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "dyspnea description"
+  },
+  {
+   "field": "dialogue",
+   "text": "asthma exacerbation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "suspected cause of dyspnea"
+  },
+  {
+   "field": "dialogue",
+   "text": "expiratory wheeze",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R06.02",
+   "why": "exam finding for dyspnea"
+  },
+  {
+   "field": "dialogue",
+   "text": "wheezing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "dyspnea symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R06.02",
+   "why": "dyspnea workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "pulmonary function test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R06.02",
+   "why": "dyspnea workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "pfts",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R06.02",
+   "why": "dyspnea workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "albuterol inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R06.02",
+   "why": "dyspnea treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pulmonary referral",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R06.02",
+   "why": "dyspnea workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "migraines",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G43.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "imitrex",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G43.909",
+   "why": "migraine treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "avoided bright lights",
+   "category": "c",
+   "type": "QUASI",
+   "code": "G43.909",
+   "why": "migraine management"
+  },
+  {
+   "field": "dialogue",
+   "text": "reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "protonix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "reflux treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "light headed",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "associated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "associated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cough",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cold",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated illness"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea or vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cataract surgery",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgical history"
+  },
+  {
+   "field": "dialogue",
+   "text": "jugular venous distension",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "trace lower extremity edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pulmonary edema",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pneumonia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "labs",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lab tests"
+  },
+  {
+   "field": "note",
+   "text": "Alan Butler",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "61-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "very long bike ride",
+   "category": "c",
+   "type": "QUASI",
+   "code": "R06.02",
+   "why": "exertional trigger of dyspnea"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "short of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea on exertion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "difficult to catch his breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "dyspnea description"
+  },
+  {
+   "field": "note",
+   "text": "expiratory wheezing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R06.02",
+   "why": "exam finding for dyspnea"
+  },
+  {
+   "field": "note",
+   "text": "wheezing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "dyspnea symptom"
+  },
+  {
+   "field": "note",
+   "text": "exacerbation of asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "suspected cause of dyspnea"
+  },
+  {
+   "field": "note",
+   "text": "asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "suspected cause of dyspnea"
+  },
+  {
+   "field": "note",
+   "text": "Pulmonary function test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R06.02",
+   "why": "dyspnea workup"
+  },
+  {
+   "field": "note",
+   "text": "pulmonary function test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R06.02",
+   "why": "dyspnea workup"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the chest",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R06.02",
+   "why": "dyspnea workup"
+  },
+  {
+   "field": "note",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R06.02",
+   "why": "dyspnea workup"
+  },
+  {
+   "field": "note",
+   "text": "albuterol inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R06.02",
+   "why": "dyspnea treatment"
+  },
+  {
+   "field": "note",
+   "text": "pulmonology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R06.02",
+   "why": "dyspnea referral"
+  },
+  {
+   "field": "note",
+   "text": "migraines",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G43.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Migraines",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G43.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Imitrex",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G43.909",
+   "why": "migraine treatment"
+  },
+  {
+   "field": "note",
+   "text": "avoids exposure to bright lights",
+   "category": "c",
+   "type": "QUASI",
+   "code": "G43.909",
+   "why": "migraine management"
+  },
+  {
+   "field": "note",
+   "text": "reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Acid reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Protonix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "reflux treatment"
+  },
+  {
+   "field": "note",
+   "text": "lightheaded",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "associated symptom"
+  },
+  {
+   "field": "note",
+   "text": "lightheadedness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "associated symptom"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "associated symptom"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "fevers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "cough",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "cataract surgery",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgical history"
+  },
+  {
+   "field": "note",
+   "text": "jugular venous distension",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Trace edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "CBC",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lab test"
+  }
+ ]
+}

@@ -1,0 +1,493 @@
+{
+ "encounter_id": "D2N097",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "elizabeth",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "66-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "my grandkids",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "birthday parties",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social life"
+  },
+  {
+   "field": "dialogue",
+   "text": "my husband",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "my kids are right down the street from me",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family/residence detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "support system",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression coping"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure cuff",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "BP monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressures",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "BP monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "trace lower extremity edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "HTN-related finding, diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "diet",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN management"
+  },
+  {
+   "field": "dialogue",
+   "text": "ekg",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "vaccinated",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vaccination"
+  },
+  {
+   "field": "dialogue",
+   "text": "annual exam",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "uncoded encounter type"
+  },
+  {
+   "field": "dialogue",
+   "text": "mammogram",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "nasal congestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "2/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "known murmur"
+  },
+  {
+   "field": "note",
+   "text": "Elizabeth Peterson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "66-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "her grandchildren",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "birthday parties",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social life"
+  },
+  {
+   "field": "note",
+   "text": "her husband",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "her children live down the street",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family/residence detail"
+  },
+  {
+   "field": "note",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "note",
+   "text": "support system",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression coping"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "blood pressure cuff",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "BP monitoring"
+  },
+  {
+   "field": "note",
+   "text": "Lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "home monitoring",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "BP monitoring"
+  },
+  {
+   "field": "note",
+   "text": "Trace lower extremity edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "HTN-related finding"
+  },
+  {
+   "field": "note",
+   "text": "Electrocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN workup"
+  },
+  {
+   "field": "note",
+   "text": "vaccinated for COVID-19",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vaccination"
+  },
+  {
+   "field": "note",
+   "text": "annual exam",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "uncoded encounter type"
+  },
+  {
+   "field": "note",
+   "text": "Annual exam",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "uncoded encounter type"
+  },
+  {
+   "field": "note",
+   "text": "Healthcare maintenance",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "uncoded"
+  },
+  {
+   "field": "note",
+   "text": "mammogram",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "screening"
+  },
+  {
+   "field": "note",
+   "text": "nasal congestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated finding"
+  },
+  {
+   "field": "note",
+   "text": "wheezes, rales, or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated lung findings"
+  },
+  {
+   "field": "note",
+   "text": "Slight 2/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "known murmur"
+  }
+ ]
+}

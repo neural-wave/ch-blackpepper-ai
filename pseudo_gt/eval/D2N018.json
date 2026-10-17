@@ -1,0 +1,381 @@
+{
+ "encounter_id": "D2N018",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "russell",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "dialogue",
+   "text": "gutierrez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor surname"
+  },
+  {
+   "field": "dialogue",
+   "text": "39-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "volleyball",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.68",
+   "why": "activity causing injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "spike the ball",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.68",
+   "why": "activity causing injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "kicked my legs from under me",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W01.0XXA",
+   "why": "fall mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "i fell and landed on my arm",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W01.0XXA",
+   "why": "fall mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "right upper arm pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S42.201A",
+   "why": "fracture symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "proximal humerus fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S42.201A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "fractures",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S42.201A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "radiograph",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S42.201A",
+   "why": "fracture imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S42.201A",
+   "why": "fracture imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S42.201A",
+   "why": "taken for injury pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling and erythema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S42.201A",
+   "why": "shoulder exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness over your right shoulder",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S42.201A",
+   "why": "shoulder exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "normal pulses",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S42.201A",
+   "why": "neurovascular check of injured arm"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness or tingling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S42.201A",
+   "why": "neurovascular check of injured arm"
+  },
+  {
+   "field": "dialogue",
+   "text": "long arm cast",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S42.201A",
+   "why": "fracture treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "sling",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S42.201A",
+   "why": "fracture treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lortab",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S42.201A",
+   "why": "fracture pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "gallstones",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "pepcid",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated medication"
+  },
+  {
+   "field": "dialogue",
+   "text": "lumbar fusion",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgical history"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated allergies"
+  },
+  {
+   "field": "note",
+   "text": "Russell",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "note",
+   "text": "39-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "volleyball",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.68",
+   "why": "activity causing injury"
+  },
+  {
+   "field": "note",
+   "text": "fell and landed on her arm",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W01.0XXA",
+   "why": "fall mechanism"
+  },
+  {
+   "field": "note",
+   "text": "Right upper arm pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S42.201A",
+   "why": "fracture symptom"
+  },
+  {
+   "field": "note",
+   "text": "right upper arm pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S42.201A",
+   "why": "fracture symptom"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S42.201A",
+   "why": "taken for injury pain"
+  },
+  {
+   "field": "note",
+   "text": "numbness or tingling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S42.201A",
+   "why": "neurovascular check"
+  },
+  {
+   "field": "note",
+   "text": "swelling and erythema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S42.201A",
+   "why": "shoulder exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Tenderness over the right shoulder",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S42.201A",
+   "why": "shoulder exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Normal pulses",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S42.201A",
+   "why": "neurovascular check"
+  },
+  {
+   "field": "note",
+   "text": "X-rays of the right humerus",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S42.201A",
+   "why": "fracture imaging"
+  },
+  {
+   "field": "note",
+   "text": "proximal humerus fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S42.201A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Right proximal humerus fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S42.201A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "long arm cast",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S42.201A",
+   "why": "fracture treatment"
+  },
+  {
+   "field": "note",
+   "text": "sling",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S42.201A",
+   "why": "fracture treatment"
+  },
+  {
+   "field": "note",
+   "text": "repeat imaging",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S42.201A",
+   "why": "fracture follow-up"
+  },
+  {
+   "field": "note",
+   "text": "surigical options",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S42.201A",
+   "why": "possible fracture surgery"
+  },
+  {
+   "field": "note",
+   "text": "Lortab",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S42.201A",
+   "why": "fracture pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "gallstones",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "note",
+   "text": "Pepcid",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated medication"
+  },
+  {
+   "field": "note",
+   "text": "lumbar fusion",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgical history"
+  },
+  {
+   "field": "note",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated allergies"
+  }
+ ]
+}

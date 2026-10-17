@@ -1,0 +1,813 @@
+{
+ "encounter_id": "D2N041",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "teresa",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "wine",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "drinking preference"
+  },
+  {
+   "field": "dialogue",
+   "text": "peanut grooves",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "favorite wine"
+  },
+  {
+   "field": "dialogue",
+   "text": "little kids that go to school",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "little kids",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "cashier in a supermarket",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "patient job"
+  },
+  {
+   "field": "dialogue",
+   "text": "meds",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "sports team (location)"
+  },
+  {
+   "field": "dialogue",
+   "text": "yankie's",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "sports team (location)"
+  },
+  {
+   "field": "dialogue",
+   "text": "filly's",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "sports team (location)"
+  },
+  {
+   "field": "dialogue",
+   "text": "sore throat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "coded pharyngitis"
+  },
+  {
+   "field": "dialogue",
+   "text": "throat has been hurting",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "pharyngitis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "pharyngitis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "low-grade fever",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J02.9",
+   "why": "pharyngitis sign"
+  },
+  {
+   "field": "dialogue",
+   "text": "sweaty",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "pharyngitis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "pharyngitis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "sweating",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "pharyngitis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "hard to swallow",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "pharyngitis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "trouble eating",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "pharyngitis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "tonsils are swollen",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J02.9",
+   "why": "pharyngitis sign"
+  },
+  {
+   "field": "dialogue",
+   "text": "stuffy nose",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "URI symptom with pharyngitis"
+  },
+  {
+   "field": "dialogue",
+   "text": "strep throat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "pharyngitis history/differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "sick to your stomach",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "covid vaccine",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vaccination"
+  },
+  {
+   "field": "dialogue",
+   "text": "booster",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vaccination"
+  },
+  {
+   "field": "dialogue",
+   "text": "rapid covid test",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "covid not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "covid",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation of the frontal or maxillary sinuses",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated sinusitis"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema and erythema of the nasal turbinates",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J02.9",
+   "why": "URI finding in pharyngitis reasoning"
+  },
+  {
+   "field": "dialogue",
+   "text": "clear discharge",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J02.9",
+   "why": "URI finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "erythema and edema of the peritonsillar space",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J02.9",
+   "why": "pharyngitis exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "exudates",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J02.9",
+   "why": "pharyngitis exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "cervical lymphadenopathy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J02.9",
+   "why": "pharyngitis exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "coarse rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "lung finding, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "rub",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "upper respiratory infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "pharyngitis assessment"
+  },
+  {
+   "field": "dialogue",
+   "text": "strep",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "suspected pharyngitis cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "rapid strep test",
+   "category": "c",
+   "type": "LAB",
+   "code": "J02.9",
+   "why": "pharyngitis test"
+  },
+  {
+   "field": "dialogue",
+   "text": "amoxicillin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J02.9",
+   "why": "pharyngitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lidocaine swish and swallow",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J02.9",
+   "why": "pharyngitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J02.9",
+   "why": "pharyngitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hydrate",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J02.9",
+   "why": "pharyngitis counseling"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded hypertension"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure cuff",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "BP monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "BP monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "salt intake",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I10",
+   "why": "hypertension diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "chips",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I10",
+   "why": "salt intake"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "ordered for hypertension"
+  },
+  {
+   "field": "dialogue",
+   "text": "multivitamin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated supplement"
+  },
+  {
+   "field": "dialogue",
+   "text": "vitamin d",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated supplement"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diabetes"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "cashier in a supermarket",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "patient job"
+  },
+  {
+   "field": "note",
+   "text": "drinking wine",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "drinking preference"
+  },
+  {
+   "field": "note",
+   "text": "Sore throat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "coded pharyngitis"
+  },
+  {
+   "field": "note",
+   "text": "sore throat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "coded pharyngitis"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "pharyngitis symptom"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "pharyngitis symptom"
+  },
+  {
+   "field": "note",
+   "text": "profuse sweating",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "pharyngitis symptom"
+  },
+  {
+   "field": "note",
+   "text": "dysphagia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "pharyngitis symptom"
+  },
+  {
+   "field": "note",
+   "text": "difficulty swallowing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "pharyngitis symptom"
+  },
+  {
+   "field": "note",
+   "text": "tonsil swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J02.9",
+   "why": "pharyngitis sign"
+  },
+  {
+   "field": "note",
+   "text": "congestion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "note",
+   "text": "abdominal symptoms",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "pain to palpation of the frontal or maxillary sinuses",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated sinusitis"
+  },
+  {
+   "field": "note",
+   "text": "Edema and erythema of the nasal turbinates",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J02.9",
+   "why": "URI finding in reasoning"
+  },
+  {
+   "field": "note",
+   "text": "edema and erythema of her turbinates",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J02.9",
+   "why": "URI finding in reasoning"
+  },
+  {
+   "field": "note",
+   "text": "clear discharge",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J02.9",
+   "why": "URI finding"
+  },
+  {
+   "field": "note",
+   "text": "Erythema and edema of the peritonsillar space",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J02.9",
+   "why": "pharyngitis exam"
+  },
+  {
+   "field": "note",
+   "text": "erythema and edema of the peritonsillar space",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J02.9",
+   "why": "pharyngitis exam"
+  },
+  {
+   "field": "note",
+   "text": "exudates",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J02.9",
+   "why": "pharyngitis exam"
+  },
+  {
+   "field": "note",
+   "text": "cervical lymphadenopathy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J02.9",
+   "why": "pharyngitis exam"
+  },
+  {
+   "field": "note",
+   "text": "thyromegaly",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "Coarse rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "lung finding, not coded"
+  },
+  {
+   "field": "note",
+   "text": "murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "gallops",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "rubs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "Rapid COVID-19 test",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "covid not coded"
+  },
+  {
+   "field": "note",
+   "text": "hydration",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J02.9",
+   "why": "pharyngitis counseling"
+  },
+  {
+   "field": "note",
+   "text": "rapid strep test",
+   "category": "c",
+   "type": "LAB",
+   "code": "J02.9",
+   "why": "pharyngitis test"
+  },
+  {
+   "field": "note",
+   "text": "strep",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J02.9",
+   "why": "suspected pharyngitis cause"
+  },
+  {
+   "field": "note",
+   "text": "amoxicillin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J02.9",
+   "why": "pharyngitis treatment"
+  },
+  {
+   "field": "note",
+   "text": "lidocaine swish and swallow",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J02.9",
+   "why": "pharyngitis treatment"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J02.9",
+   "why": "pharyngitis treatment"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded hypertension"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded hypertension"
+  },
+  {
+   "field": "note",
+   "text": "blood pressure",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "BP monitoring"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "note",
+   "text": "diet modifications",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "hypertension counseling"
+  },
+  {
+   "field": "note",
+   "text": "Lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "ordered for hypertension"
+  },
+  {
+   "field": "note",
+   "text": "multi-vitamin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated supplement"
+  },
+  {
+   "field": "note",
+   "text": "vitamin D",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated supplement"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diabetes"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diabetes"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "healthy lifestyle",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes counseling"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  }
+ ]
+}

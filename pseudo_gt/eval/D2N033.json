@@ -1,0 +1,421 @@
+{
+ "encounter_id": "D2N033",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "sophia",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "jumping on my kid's trampoline",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.561",
+   "why": "cause of knee injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "back yard",
+   "category": "c",
+   "type": "LOCATION",
+   "code": "M25.561",
+   "why": "injury location"
+  },
+  {
+   "field": "dialogue",
+   "text": "hurt your knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee pain site"
+  },
+  {
+   "field": "dialogue",
+   "text": "pop",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelled up",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee swelling"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hurts quite a bit to stand",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "glucose monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart sounds normal",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmurs or gallops",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "lungs are clear",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain on palpation on the inside",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "limited range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain on both flexion and extension on the knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "mcmurray's test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "meniscus tear",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "torn or injured mcl",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "cause of knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "straight leg brace",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "mobic",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes med"
+  },
+  {
+   "field": "note",
+   "text": "Right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "right knee pain and swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Type 2 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "type 2 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "glucose monitoring"
+  },
+  {
+   "field": "note",
+   "text": "Clear bilaterally",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated lung exam"
+  },
+  {
+   "field": "note",
+   "text": "No murmurs, gallops",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated heart exam"
+  },
+  {
+   "field": "note",
+   "text": "Some swelling present",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Some pain to palpation on the medial aspect of the right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "pain on the lateral aspect of the right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Limited range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "pain on both flexion and extension of the knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "McMurray's Test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "torn MCL",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "cause of knee pain"
+  },
+  {
+   "field": "note",
+   "text": "pain on ambulation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee symptom"
+  },
+  {
+   "field": "note",
+   "text": "pop",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "bracing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "anti-inflammatories",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "icing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "straight leg brace",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Mobic",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee imaging"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes med"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  }
+ ]
+}

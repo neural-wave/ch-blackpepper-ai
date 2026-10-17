@@ -1,0 +1,949 @@
+{
+ "encounter_id": "D2N086",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "nicholas",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "barbara",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "wife name"
+  },
+  {
+   "field": "dialogue",
+   "text": "my wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "my dog",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "pet"
+  },
+  {
+   "field": "dialogue",
+   "text": "charlie's bunion",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "hiking destination"
+  },
+  {
+   "field": "dialogue",
+   "text": "new trails that that were just opened up here behind the park",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "local location"
+  },
+  {
+   "field": "dialogue",
+   "text": "you and your wife have been hiking",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "nonhealing foot ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "nonhealing diabetic foot ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "shoes that were little bit too tight",
+   "category": "c",
+   "type": "QUASI",
+   "code": "L97.419",
+   "why": "ulcer cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "burning",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "ulcer symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "stinging",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "ulcer symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "blister",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "ulcer origin"
+  },
+  {
+   "field": "dialogue",
+   "text": "foul smell",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "infected ulcer"
+  },
+  {
+   "field": "dialogue",
+   "text": "unroofed",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "ulcer"
+  },
+  {
+   "field": "dialogue",
+   "text": "thick soft mushy skin",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "ulcer"
+  },
+  {
+   "field": "dialogue",
+   "text": "yellow drainage",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "infected ulcer"
+  },
+  {
+   "field": "dialogue",
+   "text": "antibiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L97.419",
+   "why": "ulcer infection treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "infected ulcer symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "turned black around the outside of the wound",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "necrosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "cramping in my calf muscle",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "spreading infection"
+  },
+  {
+   "field": "dialogue",
+   "text": "red streak",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "spreading infection"
+  },
+  {
+   "field": "dialogue",
+   "text": "throbbing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "ulcer pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "inside of my calf muscle is really hard",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "spreading infection"
+  },
+  {
+   "field": "dialogue",
+   "text": "coughing",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "difficult time catching my breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetic",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetic neuropathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "diabetes complication"
+  },
+  {
+   "field": "dialogue",
+   "text": "a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "insulin pump",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "endocrinologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "diabetes care"
+  },
+  {
+   "field": "dialogue",
+   "text": "hikes",
+   "category": "c",
+   "type": "QUASI",
+   "code": "L97.419",
+   "why": "ulcer cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "hiking",
+   "category": "c",
+   "type": "QUASI",
+   "code": "L97.419",
+   "why": "ulcer cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "hiked",
+   "category": "c",
+   "type": "QUASI",
+   "code": "L97.419",
+   "why": "ulcer cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetic shoes and inserts",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "diabetic foot care"
+  },
+  {
+   "field": "dialogue",
+   "text": "prosthetist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "diabetic foot care"
+  },
+  {
+   "field": "dialogue",
+   "text": "slight fever",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "infected ulcer"
+  },
+  {
+   "field": "dialogue",
+   "text": "necrotic wound on your heel",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.419",
+   "why": "ulcer finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "sloughing of the of the tissue",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.419",
+   "why": "ulcer finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "cellulitis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.419",
+   "why": "ulcer finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "erythemia",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.419",
+   "why": "ulcer finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "bony exposure",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.419",
+   "why": "ulcer depth"
+  },
+  {
+   "field": "dialogue",
+   "text": "palpable pulses",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "vascular exam diabetic foot"
+  },
+  {
+   "field": "dialogue",
+   "text": "popliteal pulses",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "vascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "dorsalis pedis or posterior tibial",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "vascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "doppler",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "vascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "right foot x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L97.419",
+   "why": "ulcer imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "osteomyelitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "ruled out complication"
+  },
+  {
+   "field": "dialogue",
+   "text": "infection of the bone",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "ruled out complication"
+  },
+  {
+   "field": "dialogue",
+   "text": "test to check blood supply",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L97.419",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "debridement",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L97.419",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "culture",
+   "category": "c",
+   "type": "LAB",
+   "code": "L97.419",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "antibiotic therapy",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L97.419",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "redness that's moving up your leg",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "spreading infection"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling and pain that you have in your calf",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "spreading infection"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "Nicholas Gutierrez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "45-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "enjoys hiking",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "Non-healing ulcer on his right foot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "non-healing ulcer on his right foot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "shoes that were too tight",
+   "category": "c",
+   "type": "QUASI",
+   "code": "L97.419",
+   "why": "ulcer cause"
+  },
+  {
+   "field": "note",
+   "text": "burning, stinging, and throbbing sensation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "ulcer symptom"
+  },
+  {
+   "field": "note",
+   "text": "blister",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "ulcer origin"
+  },
+  {
+   "field": "note",
+   "text": "thick, soft, mushy skin",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "ulcer"
+  },
+  {
+   "field": "note",
+   "text": "unpleasant smell",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "infected ulcer"
+  },
+  {
+   "field": "note",
+   "text": "yellow drainage",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "infected ulcer"
+  },
+  {
+   "field": "note",
+   "text": "antibiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L97.419",
+   "why": "ulcer infection treatment"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "infected ulcer symptom"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "infected ulcer symptom"
+  },
+  {
+   "field": "note",
+   "text": "subjective fever and chills",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "infected ulcer symptom"
+  },
+  {
+   "field": "note",
+   "text": "nausea or vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negative"
+  },
+  {
+   "field": "note",
+   "text": "nausea and vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negative"
+  },
+  {
+   "field": "note",
+   "text": "turned black around the outside of the wound",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "necrosis"
+  },
+  {
+   "field": "note",
+   "text": "cramping in his calf muscle",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "spreading infection"
+  },
+  {
+   "field": "note",
+   "text": "burning red streak",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "spreading infection"
+  },
+  {
+   "field": "note",
+   "text": "stiffness in the muscle",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "spreading infection"
+  },
+  {
+   "field": "note",
+   "text": "coughing",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath with ambulation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "cough",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "diabetic shoes",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "diabetic foot care"
+  },
+  {
+   "field": "note",
+   "text": "diabetic",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diabetic neuropathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "diabetes complication"
+  },
+  {
+   "field": "note",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "insulin pump",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "endocrinologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "diabetes care"
+  },
+  {
+   "field": "note",
+   "text": "right foot pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "ulcer symptom"
+  },
+  {
+   "field": "note",
+   "text": "right calf cramping",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "spreading infection"
+  },
+  {
+   "field": "note",
+   "text": "right foot ulcer with yellow foul smelling drainage",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "red streaking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "spreading infection"
+  },
+  {
+   "field": "note",
+   "text": "Temperature is slightly elevated",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.419",
+   "why": "infection sign"
+  },
+  {
+   "field": "note",
+   "text": "Edema and pain in calf",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.419",
+   "why": "spreading infection"
+  },
+  {
+   "field": "note",
+   "text": "Bilateral palpable femoral and papiteal pulses",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "vascular exam"
+  },
+  {
+   "field": "note",
+   "text": "palpable dorsalis pedis or posterior tibial pulse",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "vascular exam"
+  },
+  {
+   "field": "note",
+   "text": "Doppler",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "vascular exam"
+  },
+  {
+   "field": "note",
+   "text": "necrotic wound on his heel",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.419",
+   "why": "ulcer finding"
+  },
+  {
+   "field": "note",
+   "text": "sloughing of the tissue",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.419",
+   "why": "ulcer finding"
+  },
+  {
+   "field": "note",
+   "text": "cellulitis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.419",
+   "why": "ulcer finding"
+  },
+  {
+   "field": "note",
+   "text": "erythema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.419",
+   "why": "ulcer finding"
+  },
+  {
+   "field": "note",
+   "text": "odor",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.419",
+   "why": "ulcer finding"
+  },
+  {
+   "field": "note",
+   "text": "bony exposure",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.419",
+   "why": "ulcer depth"
+  },
+  {
+   "field": "note",
+   "text": "3 views of the right foot",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L97.419",
+   "why": "ulcer imaging"
+  },
+  {
+   "field": "note",
+   "text": "osteomyelitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "ruled out complication"
+  },
+  {
+   "field": "note",
+   "text": "Right non-healing diabetic foot ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "redness that is moving up his leg",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.419",
+   "why": "spreading infection"
+  },
+  {
+   "field": "note",
+   "text": "venous ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L97.419",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "note",
+   "text": "debridement",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L97.419",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "note",
+   "text": "culture",
+   "category": "c",
+   "type": "LAB",
+   "code": "L97.419",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "note",
+   "text": "antibiotic therapy",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L97.419",
+   "why": "ulcer treatment"
+  }
+ ]
+}

@@ -1,0 +1,525 @@
+{
+ "encounter_id": "D2N064",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "matthew",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "my wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "new rex center",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named local facility"
+  },
+  {
+   "field": "dialogue",
+   "text": "working at home during covid",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "work arrangement"
+  },
+  {
+   "field": "dialogue",
+   "text": "we take walks all the time",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "on a walk",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W10.1XXA",
+   "why": "activity at time of fall"
+  },
+  {
+   "field": "dialogue",
+   "text": "stepped off the curb and landed on it wrong",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W10.1XXA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "curb",
+   "category": "c",
+   "type": "LOCATION",
+   "code": "Y92.480",
+   "why": "place of occurrence"
+  },
+  {
+   "field": "dialogue",
+   "text": "pop",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "sprain symptom review"
+  },
+  {
+   "field": "dialogue",
+   "text": "extended and stretched",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.492A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "injuries to that ankle",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.492A",
+   "why": "prior injury history"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.492A",
+   "why": "sprain pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.492A",
+   "why": "sprain pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "elevate it and ice it",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.492A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecchymosis or bruising over the lateral malleolus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness to palpation on the lateral side",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "soft tissue is swollen",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "laxity in the joint",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "bony tenderness to palpation of your foot",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "capillary refill is brisk",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "strong dorsalis pedis pulses",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "motor and sensation intact",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.492A",
+   "why": "imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.492A",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "bony abnormalities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "left ankle pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.492A",
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "ankle sprain of the lateral ligament complex",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.492A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.492A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "elevation and compression and ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.492A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "rice protocol",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.492A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "air cast",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.492A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.492A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nsaids",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.492A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Matthew Murphy",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "20-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "working from home since the start of COVID-19",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "work arrangement"
+  },
+  {
+   "field": "note",
+   "text": "taking lots of walks",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "habit"
+  },
+  {
+   "field": "note",
+   "text": "stepped off of a curb and landed on his left ankle wrong",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W10.1XXA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "curb",
+   "category": "c",
+   "type": "LOCATION",
+   "code": "Y92.480",
+   "why": "place of occurrence"
+  },
+  {
+   "field": "note",
+   "text": "Left ankle pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.492A",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "left ankle pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.492A",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "hearing a pop",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "sprain symptom review"
+  },
+  {
+   "field": "note",
+   "text": "extended and stretched",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.492A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "note",
+   "text": "previous injuries to his left ankle",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.492A",
+   "why": "prior injury history"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.492A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "iced and elevated",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.492A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Normal strength and sensation bilaterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "neuro exam"
+  },
+  {
+   "field": "note",
+   "text": "Ecchymosis noted over the lateral malleolus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "Edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "Tenderness to palpation laterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "No joint laxity",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "No bony tenderness to palpation of the foot",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "Capillary refill is brisk",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "Strong dorsalis pedis pulses",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "fracture or bony abnormalities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.492A",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Left ankle sprain of the lateral ligament complex",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.492A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "ankle sprain of the lateral ligament complex",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.492A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "RICE protocol",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.492A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "NSAIDs",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.492A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "pain and swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.492A",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "Aircast",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.492A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.492A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "non-weight-bearing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.492A",
+   "why": "treatment"
+  }
+ ]
+}

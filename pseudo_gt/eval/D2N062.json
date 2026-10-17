@@ -1,0 +1,829 @@
+{
+ "encounter_id": "D2N062",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "raymond",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "moving from the west coast of east coast",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relocation life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "west coast",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "region"
+  },
+  {
+   "field": "dialogue",
+   "text": "east coast",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "region"
+  },
+  {
+   "field": "dialogue",
+   "text": "west goes",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "region (west coast)"
+  },
+  {
+   "field": "dialogue",
+   "text": "my dog",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "pet"
+  },
+  {
+   "field": "dialogue",
+   "text": "carbo portion of the plane",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel plans"
+  },
+  {
+   "field": "dialogue",
+   "text": "driving",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel plans"
+  },
+  {
+   "field": "dialogue",
+   "text": "long trip",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel plans"
+  },
+  {
+   "field": "dialogue",
+   "text": "difficulty swallowing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K20.90",
+   "why": "esophagitis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "hard for me to swallow",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K20.90",
+   "why": "esophagitis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain when i swallow down in my chest",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K20.90",
+   "why": "esophagitis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "bigger pieces of food",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K20.90",
+   "why": "food sticking"
+  },
+  {
+   "field": "dialogue",
+   "text": "getting stuck",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K20.90",
+   "why": "food sticking"
+  },
+  {
+   "field": "dialogue",
+   "text": "drinking more",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K20.90",
+   "why": "esophagitis contributing factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "pizza burgers",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K20.90",
+   "why": "diet contributing to esophagitis"
+  },
+  {
+   "field": "dialogue",
+   "text": "stressed",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "stress, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "stressful",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "stress, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "gained some weight",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight gain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K20.90",
+   "why": "epigastric pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "belly hurts",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K20.90",
+   "why": "epigastric pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "epigastric pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K20.90",
+   "why": "esophagitis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation of epigastric area",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K20.90",
+   "why": "esophagitis exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood in your stool",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "dark dark tarry stool",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "ulcers",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated mouth exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "thrush",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated mouth exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "adenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "thyromegaly",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "murphy's sign",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "peritoneal signs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "rebound",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "rash",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "lesion",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "bruising",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "barium swallow",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K20.90",
+   "why": "esophagitis imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild narrowing in the mid and lower portions of your esophagus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K20.90",
+   "why": "esophagitis imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "acute esophagitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K20.90",
+   "why": "coded esophagitis"
+  },
+  {
+   "field": "dialogue",
+   "text": "esophagitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K20.90",
+   "why": "coded esophagitis"
+  },
+  {
+   "field": "dialogue",
+   "text": "protonix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K20.90",
+   "why": "esophagitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "carafate",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K20.90",
+   "why": "esophagitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "upper endoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K20.90",
+   "why": "esophagitis workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "endoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K20.90",
+   "why": "esophagitis workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "change your diet",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K20.90",
+   "why": "esophagitis counseling"
+  },
+  {
+   "field": "dialogue",
+   "text": "alcohol",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K20.90",
+   "why": "esophagitis counseling"
+  },
+  {
+   "field": "dialogue",
+   "text": "caffeine",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K20.90",
+   "why": "esophagitis counseling"
+  },
+  {
+   "field": "dialogue",
+   "text": "eating slowly",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K20.90",
+   "why": "esophagitis counseling"
+  },
+  {
+   "field": "dialogue",
+   "text": "chewing your food more thoroughly",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K20.90",
+   "why": "esophagitis counseling"
+  },
+  {
+   "field": "dialogue",
+   "text": "citrus foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K20.90",
+   "why": "esophagitis counseling"
+  },
+  {
+   "field": "dialogue",
+   "text": "spicy foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K20.90",
+   "why": "esophagitis counseling"
+  },
+  {
+   "field": "note",
+   "text": "Raymond Taylor",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Taylor",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "67-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "moved from the West Coast to the East Coast",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relocation life event"
+  },
+  {
+   "field": "note",
+   "text": "West Coast",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "region"
+  },
+  {
+   "field": "note",
+   "text": "East Coast",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "region"
+  },
+  {
+   "field": "note",
+   "text": "Difficulty swallowing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K20.90",
+   "why": "esophagitis symptom"
+  },
+  {
+   "field": "note",
+   "text": "difficulty swallowing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K20.90",
+   "why": "esophagitis symptom"
+  },
+  {
+   "field": "note",
+   "text": "dysphagia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K20.90",
+   "why": "esophagitis symptom"
+  },
+  {
+   "field": "note",
+   "text": "pain radiates to his chest",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K20.90",
+   "why": "odynophagia"
+  },
+  {
+   "field": "note",
+   "text": "big pieces of food",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K20.90",
+   "why": "food sticking"
+  },
+  {
+   "field": "note",
+   "text": "get stuck",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K20.90",
+   "why": "food sticking"
+  },
+  {
+   "field": "note",
+   "text": "drinking more",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K20.90",
+   "why": "esophagitis contributing factor"
+  },
+  {
+   "field": "note",
+   "text": "pizza",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K20.90",
+   "why": "diet contributing to esophagitis"
+  },
+  {
+   "field": "note",
+   "text": "burgers",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K20.90",
+   "why": "diet contributing to esophagitis"
+  },
+  {
+   "field": "note",
+   "text": "stressful",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "stress, not coded"
+  },
+  {
+   "field": "note",
+   "text": "Positive stress",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "stress, not coded"
+  },
+  {
+   "field": "note",
+   "text": "weight loss",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "weight gain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "epigastric pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K20.90",
+   "why": "esophagitis symptom"
+  },
+  {
+   "field": "note",
+   "text": "Pain to palpation of epigastric area",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K20.90",
+   "why": "esophagitis exam"
+  },
+  {
+   "field": "note",
+   "text": "dark, tarry stools",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "adenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "thyromegaly",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "respiratory distress",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "McMurphy's Sign",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "peritoneal signs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "rebound",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "rash",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "lesion",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "bruising",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "ulcers",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated mouth exam"
+  },
+  {
+   "field": "note",
+   "text": "thrush",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated mouth exam"
+  },
+  {
+   "field": "note",
+   "text": "barium swallow",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K20.90",
+   "why": "esophagitis imaging"
+  },
+  {
+   "field": "note",
+   "text": "mild narrowing in the mid and lower portions of your esophagus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K20.90",
+   "why": "esophagitis imaging"
+  },
+  {
+   "field": "note",
+   "text": "Acute esophagitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K20.90",
+   "why": "coded esophagitis"
+  },
+  {
+   "field": "note",
+   "text": "acute esophagitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K20.90",
+   "why": "coded esophagitis"
+  },
+  {
+   "field": "note",
+   "text": "Protonix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K20.90",
+   "why": "esophagitis treatment"
+  },
+  {
+   "field": "note",
+   "text": "Carafate",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K20.90",
+   "why": "esophagitis treatment"
+  },
+  {
+   "field": "note",
+   "text": "upper endoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K20.90",
+   "why": "esophagitis workup"
+  },
+  {
+   "field": "note",
+   "text": "endoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K20.90",
+   "why": "esophagitis workup"
+  },
+  {
+   "field": "note",
+   "text": "change his diet",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K20.90",
+   "why": "esophagitis counseling"
+  },
+  {
+   "field": "note",
+   "text": "alcohol",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K20.90",
+   "why": "esophagitis counseling"
+  },
+  {
+   "field": "note",
+   "text": "caffeine",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K20.90",
+   "why": "esophagitis counseling"
+  },
+  {
+   "field": "note",
+   "text": "citrus foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K20.90",
+   "why": "esophagitis counseling"
+  },
+  {
+   "field": "note",
+   "text": "spicy foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K20.90",
+   "why": "esophagitis counseling"
+  },
+  {
+   "field": "note",
+   "text": "eat slowly",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K20.90",
+   "why": "esophagitis counseling"
+  },
+  {
+   "field": "note",
+   "text": "chew his food thoroughly",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K20.90",
+   "why": "esophagitis counseling"
+  }
+ ]
+}

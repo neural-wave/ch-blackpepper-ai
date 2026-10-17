@@ -1,0 +1,445 @@
+{
+ "encounter_id": "D2N112",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "matthew",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "the mall",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "place visited"
+  },
+  {
+   "field": "dialogue",
+   "text": "play football",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sport/hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "i had a friend that saw you",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social context"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "disc herniation symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "lower back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "disc site"
+  },
+  {
+   "field": "dialogue",
+   "text": "fell off the roof",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "historical back injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "historical back injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain that radiates down your left leg",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "radiculopathy"
+  },
+  {
+   "field": "dialogue",
+   "text": "electrical tooth ache",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "radicular pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "medications",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.27",
+   "why": "pain medications"
+  },
+  {
+   "field": "dialogue",
+   "text": "burned some nerves",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.27",
+   "why": "nerve ablation"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness or tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "radicular screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "my legs are weak",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "radicular weakness"
+  },
+  {
+   "field": "dialogue",
+   "text": "leg pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "radicular pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "goes to the big toe",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "L5 root signature"
+  },
+  {
+   "field": "dialogue",
+   "text": "four five disk",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "disc level"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.27",
+   "why": "disc imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "my foot kinda drags",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "foot drop"
+  },
+  {
+   "field": "dialogue",
+   "text": "cane",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.27",
+   "why": "mobility aid"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation at the l4 vertebrae",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.27",
+   "why": "spine exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.27",
+   "why": "spine exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "four out of five strength in the left",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.27",
+   "why": "motor deficit"
+  },
+  {
+   "field": "dialogue",
+   "text": "reflexes are brisk",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.27",
+   "why": "neuro exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "disk herniation at the level of l4 l5",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "nerve root impingement",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "acute disk herniation at l4 l5",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "nsaids",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.27",
+   "why": "disc treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pt",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.27",
+   "why": "disc treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "epidural steroid injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.27",
+   "why": "disc treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "anti-inflammatory medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.27",
+   "why": "disc treatment"
+  },
+  {
+   "field": "note",
+   "text": "Matthew Hill",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "44-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "play football",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sport/hobby"
+  },
+  {
+   "field": "note",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "disc symptom"
+  },
+  {
+   "field": "note",
+   "text": "fell off of a roof",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "historical back injury"
+  },
+  {
+   "field": "note",
+   "text": "fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "historical back injury"
+  },
+  {
+   "field": "note",
+   "text": "lower back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "disc site"
+  },
+  {
+   "field": "note",
+   "text": "radiates into his left hip, down his left leg",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "radiculopathy"
+  },
+  {
+   "field": "note",
+   "text": "electrical tooth ache",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "radicular pain"
+  },
+  {
+   "field": "note",
+   "text": "cane",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.27",
+   "why": "mobility aid"
+  },
+  {
+   "field": "note",
+   "text": "left foot drags",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "foot drop"
+  },
+  {
+   "field": "note",
+   "text": "weakness in his bilateral legs and his back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "radicular weakness"
+  },
+  {
+   "field": "note",
+   "text": "numbness or tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "radicular screen"
+  },
+  {
+   "field": "note",
+   "text": "NSAIDs",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M51.27",
+   "why": "disc treatment"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.27",
+   "why": "disc treatment"
+  },
+  {
+   "field": "note",
+   "text": "Pain with palpation at the L4 vertebrae",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.27",
+   "why": "spine exam"
+  },
+  {
+   "field": "note",
+   "text": "Positive for pain with flexion and extension of the back",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.27",
+   "why": "spine exam"
+  },
+  {
+   "field": "note",
+   "text": "4/5 strength on the left",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.27",
+   "why": "motor deficit"
+  },
+  {
+   "field": "note",
+   "text": "Reflexes are brisk",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M51.27",
+   "why": "neuro exam"
+  },
+  {
+   "field": "note",
+   "text": "MRI of the lumbar spine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.27",
+   "why": "disc imaging"
+  },
+  {
+   "field": "note",
+   "text": "disc herniation at the level of the L4-5 vertebrae",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "nerve root impingement",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Acute disc herniation at L4-5",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.27",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "epidural steroid injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.27",
+   "why": "disc treatment"
+  }
+ ]
+}

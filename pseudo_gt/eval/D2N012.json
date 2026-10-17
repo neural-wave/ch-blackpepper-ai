@@ -1,0 +1,693 @@
+{
+ "encounter_id": "D2N012",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "joseph",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "59 year old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age"
+  },
+  {
+   "field": "dialogue",
+   "text": "sports tournaments for the kids",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family travel/life context"
+  },
+  {
+   "field": "dialogue",
+   "text": "ride , uh , our bike",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.901",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "pollen season",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.901",
+   "why": "asthma trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizziness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "lightheadedness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "lightheaded",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizzy",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.901",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "short of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.901",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "belly pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "joint pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "muscle aches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "my knees hurt",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fatigue",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.901",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "prozac",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F32.A",
+   "why": "depression med"
+  },
+  {
+   "field": "dialogue",
+   "text": "cervical lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "thyroid seems not enlarged",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "bilateral expiratory wheezing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J45.901",
+   "why": "asthma finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "wheezing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.901",
+   "why": "asthma finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pfts",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.901",
+   "why": "asthma testing"
+  },
+  {
+   "field": "dialogue",
+   "text": "breathing studies",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.901",
+   "why": "asthma testing"
+  },
+  {
+   "field": "dialogue",
+   "text": "exacerbations",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.901",
+   "why": "coded exacerbation"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes med"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.901",
+   "why": "asthma workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "pneumonia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "albuterol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.901",
+   "why": "asthma med"
+  },
+  {
+   "field": "dialogue",
+   "text": "symbicort",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.901",
+   "why": "asthma med"
+  },
+  {
+   "field": "dialogue",
+   "text": "zoloft",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F32.A",
+   "why": "depression med"
+  },
+  {
+   "field": "note",
+   "text": "Fisher",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "note",
+   "text": "Joseph",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "note",
+   "text": "59-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age"
+  },
+  {
+   "field": "note",
+   "text": "children's sports tournaments",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family life context"
+  },
+  {
+   "field": "note",
+   "text": "rides a bike",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Prozac",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F32.A",
+   "why": "depression med"
+  },
+  {
+   "field": "note",
+   "text": "asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.901",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.901",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "pollen season",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.901",
+   "why": "asthma trigger"
+  },
+  {
+   "field": "note",
+   "text": "inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.901",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes Type II",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "lightheadedness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "dizziness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.901",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "note",
+   "text": "knee pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "fevers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "fatigue",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea on exertion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.901",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "note",
+   "text": "wheezing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.901",
+   "why": "asthma finding"
+  },
+  {
+   "field": "note",
+   "text": "joint pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "muscle pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "anxiety",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "thyromegaly",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam finding"
+  },
+  {
+   "field": "note",
+   "text": "lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Bilateral expiratory wheezing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J45.901",
+   "why": "asthma finding"
+  },
+  {
+   "field": "note",
+   "text": "edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam finding"
+  },
+  {
+   "field": "note",
+   "text": "PFT",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.901",
+   "why": "asthma testing"
+  },
+  {
+   "field": "note",
+   "text": "pulmonary function tests",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.901",
+   "why": "asthma testing"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "Glucose",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "blood glucose",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the chest",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.901",
+   "why": "asthma workup"
+  },
+  {
+   "field": "note",
+   "text": "albuterol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.901",
+   "why": "asthma med"
+  },
+  {
+   "field": "note",
+   "text": "Symbicort",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.901",
+   "why": "asthma med"
+  },
+  {
+   "field": "note",
+   "text": "exacerbation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.901",
+   "why": "coded exacerbation"
+  },
+  {
+   "field": "note",
+   "text": "Zoloft",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F32.A",
+   "why": "depression med"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes med"
+  }
+ ]
+}

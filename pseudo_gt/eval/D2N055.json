@@ -1,0 +1,565 @@
+{
+ "encounter_id": "D2N055",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "karen nelson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "karen",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "3 -year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "isabella",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "friend/teammate name"
+  },
+  {
+   "field": "dialogue",
+   "text": "soccer",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "dad takes me to play every saturday",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "routine/family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "she tries to kick me and she pulls my hair",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "mcdugge's",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named restaurant"
+  },
+  {
+   "field": "dialogue",
+   "text": "mcdonald's",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named restaurant"
+  },
+  {
+   "field": "dialogue",
+   "text": "mcnuggates",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "food preference"
+  },
+  {
+   "field": "dialogue",
+   "text": "dresses and dogs",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal interests"
+  },
+  {
+   "field": "dialogue",
+   "text": "shopping for dresses",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal interests"
+  },
+  {
+   "field": "dialogue",
+   "text": "right eye twitch",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic presentation"
+  },
+  {
+   "field": "dialogue",
+   "text": "eye twitch",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic presentation"
+  },
+  {
+   "field": "dialogue",
+   "text": "twitch",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic presentation"
+  },
+  {
+   "field": "dialogue",
+   "text": "urge to move your face",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "premonitory urge"
+  },
+  {
+   "field": "dialogue",
+   "text": "whole side of her face moves",
+   "category": "c",
+   "type": "FINDING",
+   "code": "F95.0",
+   "why": "tic description"
+  },
+  {
+   "field": "dialogue",
+   "text": "blinking frequently",
+   "category": "c",
+   "type": "FINDING",
+   "code": "F95.0",
+   "why": "tic description"
+  },
+  {
+   "field": "dialogue",
+   "text": "urge to blink her eye",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "premonitory urge"
+  },
+  {
+   "field": "dialogue",
+   "text": "tick",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "eye tics",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "tics",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "transient tics",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "coded tic disorder"
+  },
+  {
+   "field": "dialogue",
+   "text": "shoulder shrugging",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic education"
+  },
+  {
+   "field": "dialogue",
+   "text": "facial grimacing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic education"
+  },
+  {
+   "field": "dialogue",
+   "text": "sniffling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic education"
+  },
+  {
+   "field": "dialogue",
+   "text": "excessive throat clearing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic education"
+  },
+  {
+   "field": "dialogue",
+   "text": "uncontrolled vocalization",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic education"
+  },
+  {
+   "field": "dialogue",
+   "text": "involuntary motor movements",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic definition"
+  },
+  {
+   "field": "dialogue",
+   "text": "focal neurologic findings",
+   "category": "c",
+   "type": "FINDING",
+   "code": "F95.0",
+   "why": "normal neuro exam supports tic"
+  },
+  {
+   "field": "dialogue",
+   "text": "pronator drift",
+   "category": "c",
+   "type": "FINDING",
+   "code": "F95.0",
+   "why": "normal neuro exam supports tic"
+  },
+  {
+   "field": "dialogue",
+   "text": "seizures",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "seizure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "tourette's syndrome",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "tourette",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "toret",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "nervous system disorder",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "tourette explanation"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "coughing",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "headache",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "problems with karen's sleep",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "Karen",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "note",
+   "text": "soccer every Saturday",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "a girl that tries to kick her and pulls her hair",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific life event"
+  },
+  {
+   "field": "note",
+   "text": "Right eye twitch",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic presentation"
+  },
+  {
+   "field": "note",
+   "text": "right eye twitch",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic presentation"
+  },
+  {
+   "field": "note",
+   "text": "twitch",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic presentation"
+  },
+  {
+   "field": "note",
+   "text": "Transient tics",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "coded tic disorder"
+  },
+  {
+   "field": "note",
+   "text": "eye tics",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "tick",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "tics",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "tic",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "shoulder shrugging",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic education"
+  },
+  {
+   "field": "note",
+   "text": "facial grimacing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic education"
+  },
+  {
+   "field": "note",
+   "text": "sniffling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic education"
+  },
+  {
+   "field": "note",
+   "text": "excessive throat clearing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic education"
+  },
+  {
+   "field": "note",
+   "text": "uncontrolled vocalization",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic education"
+  },
+  {
+   "field": "note",
+   "text": "involuntary motor movements",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F95.0",
+   "why": "tic definition"
+  },
+  {
+   "field": "note",
+   "text": "focal neurologic findings",
+   "category": "c",
+   "type": "FINDING",
+   "code": "F95.0",
+   "why": "normal neuro exam supports tic"
+  },
+  {
+   "field": "note",
+   "text": "pronator drift",
+   "category": "c",
+   "type": "FINDING",
+   "code": "F95.0",
+   "why": "normal neuro exam supports tic"
+  },
+  {
+   "field": "note",
+   "text": "seizures",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated family history"
+  },
+  {
+   "field": "note",
+   "text": "Tourette's syndrome",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated family history"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "changes in appetite",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "right eye pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "cough",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "sleep disturbances",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  }
+ ]
+}

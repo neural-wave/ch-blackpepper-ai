@@ -1,0 +1,573 @@
+{
+ "encounter_id": "D2N106",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "charles",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "moved out in the city",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relocation"
+  },
+  {
+   "field": "dialogue",
+   "text": "bought this big plot of land",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "property"
+  },
+  {
+   "field": "dialogue",
+   "text": "lots of deer round",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "residence detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "hunter",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "refrigerator full of venison",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "i have a dog",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "pet"
+  },
+  {
+   "field": "dialogue",
+   "text": "heavy drinking",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle"
+  },
+  {
+   "field": "dialogue",
+   "text": "catch my breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "short of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "eyes they're water",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "allergic symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergies",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "allergic trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "urgent care",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.909",
+   "why": "prior acute care"
+  },
+  {
+   "field": "dialogue",
+   "text": "nebulizer",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.909",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.909",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lip or throat swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "anaphylaxis screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "near your cat",
+   "category": "c",
+   "type": "QUASI",
+   "code": "J45.909",
+   "why": "asthma trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "cat",
+   "category": "c",
+   "type": "QUASI",
+   "code": "J45.909",
+   "why": "asthma trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "pulse ox",
+   "category": "c",
+   "type": "LAB",
+   "code": "J45.909",
+   "why": "oxygenation"
+  },
+  {
+   "field": "dialogue",
+   "text": "angioedema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J45.909",
+   "why": "allergic exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "audible stridor",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J45.909",
+   "why": "airway exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "faint expiratory wheezing bilaterally in all lung fields",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J45.909",
+   "why": "asthma exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.909",
+   "why": "dyspnea workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "pulmonary function test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.909",
+   "why": "asthma workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergic asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "albuterol inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.909",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "singulair",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.909",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergy testing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.909",
+   "why": "trigger identification"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergy test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.909",
+   "why": "trigger identification"
+  },
+  {
+   "field": "dialogue",
+   "text": "skin testing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.909",
+   "why": "trigger identification"
+  },
+  {
+   "field": "dialogue",
+   "text": "testing in your blood",
+   "category": "c",
+   "type": "LAB",
+   "code": "J45.909",
+   "why": "allergy workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "immunotherapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.909",
+   "why": "allergy treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "rash",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated, alcohol"
+  },
+  {
+   "field": "note",
+   "text": "Charles Sullivan",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "45-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "He enjoys hunting",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "large amounts of alcohol",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle"
+  },
+  {
+   "field": "note",
+   "text": "Shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "note",
+   "text": "mid-shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "note",
+   "text": "catch his breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "note",
+   "text": "urgent care",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.909",
+   "why": "prior acute care"
+  },
+  {
+   "field": "note",
+   "text": "nebulizer treatment",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.909",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "note",
+   "text": "inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.909",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "note",
+   "text": "living with a cat in his house",
+   "category": "c",
+   "type": "QUASI",
+   "code": "J45.909",
+   "why": "asthma trigger"
+  },
+  {
+   "field": "note",
+   "text": "epiphora with rheum",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "allergic symptom"
+  },
+  {
+   "field": "note",
+   "text": "allergies",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "allergic trigger"
+  },
+  {
+   "field": "note",
+   "text": "lip or throat swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "anaphylaxis screen"
+  },
+  {
+   "field": "note",
+   "text": "Oxygen Saturation",
+   "category": "c",
+   "type": "LAB",
+   "code": "J45.909",
+   "why": "oxygenation"
+  },
+  {
+   "field": "note",
+   "text": "angioedema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J45.909",
+   "why": "allergic exam"
+  },
+  {
+   "field": "note",
+   "text": "audible stridor",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J45.909",
+   "why": "airway exam"
+  },
+  {
+   "field": "note",
+   "text": "faint expiratory wheezing bilaterally in all lung fields",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J45.909",
+   "why": "asthma exam"
+  },
+  {
+   "field": "note",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.909",
+   "why": "dyspnea workup"
+  },
+  {
+   "field": "note",
+   "text": "Pulmonary function test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.909",
+   "why": "asthma workup"
+  },
+  {
+   "field": "note",
+   "text": "pulmonary function test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.909",
+   "why": "asthma workup"
+  },
+  {
+   "field": "note",
+   "text": "allergic asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "albuterol inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.909",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "note",
+   "text": "Singulair",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.909",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "note",
+   "text": "allergy skin test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.909",
+   "why": "trigger identification"
+  },
+  {
+   "field": "note",
+   "text": "skin testing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.909",
+   "why": "trigger identification"
+  },
+  {
+   "field": "note",
+   "text": "allergens",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma triggers"
+  },
+  {
+   "field": "note",
+   "text": "immunotherapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.909",
+   "why": "allergy treatment"
+  },
+  {
+   "field": "note",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated, alcohol"
+  },
+  {
+   "field": "note",
+   "text": "rash",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  }
+ ]
+}

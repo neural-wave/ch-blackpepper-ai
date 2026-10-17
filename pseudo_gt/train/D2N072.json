@@ -1,0 +1,397 @@
+{
+ "encounter_id": "D2N072",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "brooks",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "baker",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "sharon brooks",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "48 year old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "sunday",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "specific injury day"
+  },
+  {
+   "field": "dialogue",
+   "text": "when i was 18",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age at surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "skiing",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S60.021A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "tried moguls",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S60.021A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "strap caught on my finger",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S60.021A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "bent it back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S60.021A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "right finger pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S60.021A",
+   "why": "coded injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "right finger hurting",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S60.021A",
+   "why": "coded injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "hyper extended",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S60.021A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S60.021A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S60.021A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S60.021A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "constipation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "miralax",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "appendix taken out",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness over your distal phalanx",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S60.021A",
+   "why": "finger finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain flexion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S60.021A",
+   "why": "finger finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S60.021A",
+   "why": "finger imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S60.021A",
+   "why": "finger imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "fractures",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S60.021A",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "no fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S60.021A",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "contusion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S60.021A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "right hand , uh , index finger contusion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S60.021A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "aluminum foam splint",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S60.021A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Brooks",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "48-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Sunday",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "specific injury day"
+  },
+  {
+   "field": "note",
+   "text": "Right finger pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S60.021A",
+   "why": "coded injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "right finger pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S60.021A",
+   "why": "coded injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "skiing",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S60.021A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "hyperextended her finger",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S60.021A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "caught in a strap on a jump",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S60.021A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "ice",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S60.021A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S60.021A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S60.021A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "pain with movement",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S60.021A",
+   "why": "finger symptom"
+  },
+  {
+   "field": "note",
+   "text": "MiraLax",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Constipation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Appendectomy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  },
+  {
+   "field": "note",
+   "text": "tenderness over the distal phalanx",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S60.021A",
+   "why": "finger finding"
+  },
+  {
+   "field": "note",
+   "text": "Pain with flexion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S60.021A",
+   "why": "finger finding"
+  },
+  {
+   "field": "note",
+   "text": "X-rays of the right hand",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S60.021A",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S60.021A",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Right hand index finger contusion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S60.021A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "splint",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S60.021A",
+   "why": "treatment"
+  }
+ ]
+}

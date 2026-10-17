@@ -1,0 +1,805 @@
+{
+ "encounter_id": "D2N170",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "joyce",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "50 year old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "running, climbing",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobbies"
+  },
+  {
+   "field": "dialogue",
+   "text": "boyfriend",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relationship detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "my brother right down the road",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family/residence detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "copd",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "abnormal lab finding",
+   "category": "c",
+   "type": "LAB",
+   "code": "R79.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "abnormal lab",
+   "category": "c",
+   "type": "LAB",
+   "code": "R79.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin",
+   "category": "c",
+   "type": "LAB",
+   "code": "R79.9",
+   "why": "abnormal lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "low hemoglobin",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R79.9",
+   "why": "abnormal lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "abnormal hemoglobin",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R79.9",
+   "why": "abnormal lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "anemic",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R79.9",
+   "why": "abnormal lab interpretation"
+  },
+  {
+   "field": "dialogue",
+   "text": "anemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R79.9",
+   "why": "abnormal lab interpretation"
+  },
+  {
+   "field": "dialogue",
+   "text": "anemia labs",
+   "category": "c",
+   "type": "LAB",
+   "code": "R79.9",
+   "why": "workup of abnormal lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "tired",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R79.9",
+   "why": "symptom of low hemoglobin"
+  },
+  {
+   "field": "dialogue",
+   "text": "fatigue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R79.9",
+   "why": "symptom of low hemoglobin"
+  },
+  {
+   "field": "dialogue",
+   "text": "exhausted",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R79.9",
+   "why": "symptom of low hemoglobin"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizzy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R79.9",
+   "why": "symptom of low hemoglobin"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood in your stools",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R79.9",
+   "why": "bleeding source workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "dark or charry or black",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R79.9",
+   "why": "bleeding source workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "endoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R79.9",
+   "why": "bleeding workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "colonoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R79.9",
+   "why": "bleeding workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "gastroenterology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R79.9",
+   "why": "bleeding workup referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "COPD risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "emphysema changes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "COPD imaging evidence"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J44.9",
+   "why": "COPD imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "harder for me to breathe",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "COPD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "inhalers",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J44.9",
+   "why": "COPD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "salt intake",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I50.9",
+   "why": "heart failure management"
+  },
+  {
+   "field": "dialogue",
+   "text": "salty foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I50.9",
+   "why": "heart failure management"
+  },
+  {
+   "field": "dialogue",
+   "text": "toprol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "heart failure treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "heart failure treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "diuretic",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "heart failure treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lasix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "heart failure treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling in your legs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "negated heart failure sign"
+  },
+  {
+   "field": "dialogue",
+   "text": "lower extremity edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "negated heart failure sign"
+  },
+  {
+   "field": "dialogue",
+   "text": "spotting a lot with your periods",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated gyn symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "body aches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight loss",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "cervical lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness to palpation in your right lower quadrant",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Joyce Price",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "50-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "running and climbing",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobbies"
+  },
+  {
+   "field": "note",
+   "text": "boyfriend",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relationship detail"
+  },
+  {
+   "field": "note",
+   "text": "her boyfriend and her brother",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "note",
+   "text": "COPD",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "abnormal lab finding",
+   "category": "c",
+   "type": "LAB",
+   "code": "R79.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "abnormal labs",
+   "category": "c",
+   "type": "LAB",
+   "code": "R79.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Abnormal labs",
+   "category": "c",
+   "type": "LAB",
+   "code": "R79.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "R79.9",
+   "why": "reported abnormal lab"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin level",
+   "category": "c",
+   "type": "LAB",
+   "code": "R79.9",
+   "why": "abnormal lab"
+  },
+  {
+   "field": "note",
+   "text": "anemia labs",
+   "category": "c",
+   "type": "LAB",
+   "code": "R79.9",
+   "why": "workup of abnormal lab"
+  },
+  {
+   "field": "note",
+   "text": "Anemia labs",
+   "category": "c",
+   "type": "LAB",
+   "code": "R79.9",
+   "why": "workup of abnormal lab"
+  },
+  {
+   "field": "note",
+   "text": "anemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R79.9",
+   "why": "abnormal lab interpretation"
+  },
+  {
+   "field": "note",
+   "text": "really tired",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R79.9",
+   "why": "symptom of low hemoglobin"
+  },
+  {
+   "field": "note",
+   "text": "fatigue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R79.9",
+   "why": "symptom of low hemoglobin"
+  },
+  {
+   "field": "note",
+   "text": "dizziness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R79.9",
+   "why": "symptom of low hemoglobin"
+  },
+  {
+   "field": "note",
+   "text": "blood in her stool",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R79.9",
+   "why": "bleeding source workup"
+  },
+  {
+   "field": "note",
+   "text": "hematochezia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R79.9",
+   "why": "bleeding source workup"
+  },
+  {
+   "field": "note",
+   "text": "melena",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R79.9",
+   "why": "bleeding source workup"
+  },
+  {
+   "field": "note",
+   "text": "gastrointestinal bleeding",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R79.9",
+   "why": "bleeding source workup"
+  },
+  {
+   "field": "note",
+   "text": "endoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R79.9",
+   "why": "bleeding workup"
+  },
+  {
+   "field": "note",
+   "text": "colonoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R79.9",
+   "why": "bleeding workup"
+  },
+  {
+   "field": "note",
+   "text": "gastroenterology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R79.9",
+   "why": "bleeding workup referral"
+  },
+  {
+   "field": "note",
+   "text": "smoking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "COPD risk factor"
+  },
+  {
+   "field": "note",
+   "text": "tobacco use",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "COPD risk factor"
+  },
+  {
+   "field": "note",
+   "text": "harder for her to breathe",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "COPD symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath with seasonal changes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "COPD symptom"
+  },
+  {
+   "field": "note",
+   "text": "inhalers",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J44.9",
+   "why": "COPD treatment"
+  },
+  {
+   "field": "note",
+   "text": "salty foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I50.9",
+   "why": "heart failure management"
+  },
+  {
+   "field": "note",
+   "text": "sodium intake",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I50.9",
+   "why": "heart failure management"
+  },
+  {
+   "field": "note",
+   "text": "Toprol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "heart failure treatment"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "heart failure treatment"
+  },
+  {
+   "field": "note",
+   "text": "Lasix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "heart failure treatment"
+  },
+  {
+   "field": "note",
+   "text": "swelling in her legs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "negated heart failure sign"
+  },
+  {
+   "field": "note",
+   "text": "abnormal bleeding between menses",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated gyn symptom"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "fevers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "malaise",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "weight loss",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated condition"
+  },
+  {
+   "field": "note",
+   "text": "cervical lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "wheezes, rales, or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "gallops or rubs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Tenderness to palpation to the right lower quadrant",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  }
+ ]
+}

@@ -1,0 +1,533 @@
+{
+ "encounter_id": "D2N010",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "keith",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "58-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "sitting in the back of a car",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "recent personal event"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood sugar",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R73.9",
+   "why": "coded hyperglycemia"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "R73.9",
+   "why": "hyperglycemia evidence"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "R73.9",
+   "why": "hyperglycemia evidence"
+  },
+  {
+   "field": "dialogue",
+   "text": "hyperglycemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R73.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "sugars come from fruit",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R73.9",
+   "why": "dietary cause assessment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lyme titer",
+   "category": "c",
+   "type": "LAB",
+   "code": "R73.9",
+   "why": "cause of hyperglycemia per doctor"
+  },
+  {
+   "field": "dialogue",
+   "text": "rapid strep",
+   "category": "c",
+   "type": "LAB",
+   "code": "R73.9",
+   "why": "cause of hyperglycemia per doctor"
+  },
+  {
+   "field": "dialogue",
+   "text": "positive for strep",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R73.9",
+   "why": "infection causing hyperglycemia"
+  },
+  {
+   "field": "dialogue",
+   "text": "infections",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R73.9",
+   "why": "stated cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "amoxicillin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R73.9",
+   "why": "treats cause of hyperglycemia"
+  },
+  {
+   "field": "dialogue",
+   "text": "penicillin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R73.9",
+   "why": "treatment mention"
+  },
+  {
+   "field": "dialogue",
+   "text": "western blot",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R73.9",
+   "why": "workup of cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "western blot pcr for lyme",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R73.9",
+   "why": "workup of cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "lyme disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R73.9",
+   "why": "suspected cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "acute lyme",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R73.9",
+   "why": "suspected cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "inflammatory response",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R73.9",
+   "why": "stated mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever or chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "joint pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "knee pain site, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea or vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "belly pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "nauseous",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "burning when you urinate",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "reflux",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "GERD not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "protonix",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "reflux med not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "congestive heart failure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight gain or fluid retention",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "right rotator cuff",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "thyroid's a bit enlarged",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "erythema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "insect bite with associated fluctuants",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "lower extremity edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "alpha-gal syndrome",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergic reaction to meat",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "58-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "sitting in the back of a car",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "recent personal event"
+  },
+  {
+   "field": "note",
+   "text": "High blood sugar",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R73.9",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "high blood sugar",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R73.9",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "R73.9",
+   "why": "evidence"
+  },
+  {
+   "field": "note",
+   "text": "Hyperglycemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R73.9",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "inflammatory response",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R73.9",
+   "why": "stated mechanism"
+  },
+  {
+   "field": "note",
+   "text": "Lyme titer",
+   "category": "c",
+   "type": "LAB",
+   "code": "R73.9",
+   "why": "cause workup"
+  },
+  {
+   "field": "note",
+   "text": "Rapid strep test",
+   "category": "c",
+   "type": "LAB",
+   "code": "R73.9",
+   "why": "cause workup"
+  },
+  {
+   "field": "note",
+   "text": "rapid strep test",
+   "category": "c",
+   "type": "LAB",
+   "code": "R73.9",
+   "why": "cause workup"
+  },
+  {
+   "field": "note",
+   "text": "western blot PCR",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R73.9",
+   "why": "cause workup"
+  },
+  {
+   "field": "note",
+   "text": "Lyme disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R73.9",
+   "why": "suspected cause"
+  },
+  {
+   "field": "note",
+   "text": "amoxicillin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R73.9",
+   "why": "treats cause"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "body aches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "joint pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "right knee pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "nauseous",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "burning with urination",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "congestive heart failure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "weight gain or fluid retention",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "unintentional weight changes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "right rotator cuff issues",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "reflux",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "mild thyromegaly",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "erythema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "insect bite with associated fluctuance",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Trace edema in the right lower extremity",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  }
+ ]
+}

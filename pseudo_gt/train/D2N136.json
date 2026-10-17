@@ -1,0 +1,613 @@
+{
+ "encounter_id": "D2N136",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "janet",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "33-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "joint paint",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.92XA",
+   "why": "knee pain (typo)"
+  },
+  {
+   "field": "dialogue",
+   "text": "joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.92XA",
+   "why": "knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "knees",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.92XA",
+   "why": "knee sprain site"
+  },
+  {
+   "field": "dialogue",
+   "text": "stair type workouts",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S83.92XA",
+   "why": "cause of knee sprain"
+  },
+  {
+   "field": "dialogue",
+   "text": "rotator cuff repair",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgical history"
+  },
+  {
+   "field": "dialogue",
+   "text": "right shoulder",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "site of unrelated surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "pins and needles in your feet",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling in your legs",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes control"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever or chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea or vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pains",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "enlarged thyroid",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "slight erythema and edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.92XA",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "small efusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.92XA",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "decrease flexion and extension of your knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.92XA",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.92XA",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "left knee x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.92XA",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.92XA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "white blood cell count",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "normal lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "infection",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled-out"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes' labs",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "autoimmune labs",
+   "category": "c",
+   "type": "LAB",
+   "code": "S83.92XA",
+   "why": "knee pain workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "left knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.92XA",
+   "why": "coded injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.92XA",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "anti-inflammatory medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.92XA",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.92XA",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "autoimmune profile",
+   "category": "c",
+   "type": "LAB",
+   "code": "S83.92XA",
+   "why": "knee pain workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipid profile",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "routine lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "Janet Sullivan",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "33-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.92XA",
+   "why": "knee pain"
+  },
+  {
+   "field": "note",
+   "text": "joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.92XA",
+   "why": "knee pain"
+  },
+  {
+   "field": "note",
+   "text": "bilateral knees",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.92XA",
+   "why": "knee sprain site"
+  },
+  {
+   "field": "note",
+   "text": "stair workouts",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S83.92XA",
+   "why": "cause of knee sprain"
+  },
+  {
+   "field": "note",
+   "text": "pins and needles in her feet",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "swelling in her legs",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes type II",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "fever or chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "nausea or vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "chest pain or shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "right shoulder rotator cuff repair",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  },
+  {
+   "field": "note",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "note",
+   "text": "fever, chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "chest pain or lower leg swelling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "nausea, vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "Arthralgias",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.92XA",
+   "why": "knee pain"
+  },
+  {
+   "field": "note",
+   "text": "thyromegaly",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "Slight erythema and edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.92XA",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Small effusion present",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.92XA",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Decreased flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.92XA",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Four views left knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.92XA",
+   "why": "knee imaging"
+  },
+  {
+   "field": "note",
+   "text": "Knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.92XA",
+   "why": "imaging indication"
+  },
+  {
+   "field": "note",
+   "text": "fractures, dislocations",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled-out"
+  },
+  {
+   "field": "note",
+   "text": "Left knee strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.92XA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "autoimmune panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "S83.92XA",
+   "why": "knee pain workup"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.92XA",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "Physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.92XA",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.92XA",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "lipid profile",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "routine lab"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin a1C",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "blood glucose levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes control"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  }
+ ]
+}

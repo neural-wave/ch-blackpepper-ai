@@ -1,0 +1,573 @@
+{
+ "encounter_id": "D2N148",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "jeremy",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "my son was moving out of his college dorm",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "my gym",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal gym"
+  },
+  {
+   "field": "dialogue",
+   "text": "twenty eighteen",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "year"
+  },
+  {
+   "field": "dialogue",
+   "text": "spring of twenty twenty",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "surgery date"
+  },
+  {
+   "field": "dialogue",
+   "text": "hurt my lower back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "back injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "moving some boxes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "mechanism of back pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "pt",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tingled",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "radicular symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbing and tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "radicular symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "weakness in your legs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "back-related symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain down there in your lower back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "sharp pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "back pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "heat",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "stomach upset",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated GI"
+  },
+  {
+   "field": "dialogue",
+   "text": "upset stomach",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated GI"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "incontinence",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated, red flag screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee surgery",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgical history"
+  },
+  {
+   "field": "dialogue",
+   "text": "total knee replacement",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgical history"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever or chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "bony protuberance of the c5 c6",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "neck finding unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "arthritis in your neck",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "decreased flexion and extension of the lower back",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.50",
+   "why": "lumbar exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "positive straight leg raise",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.50",
+   "why": "lumbar exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "spasm of the paraspinal muscles of the lumbar spine",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.50",
+   "why": "lumbar exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "lumbar spine x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "no acute bony abnormality",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.50",
+   "why": "xray result"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.50",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "acute disk herniation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "cause of back pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "herniated disk",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "cause of back pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "lumbar spine mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "epidural steroid injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back treatment option"
+  },
+  {
+   "field": "note",
+   "text": "Jeremy Adams",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "57-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "son’s college dorm",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family life event"
+  },
+  {
+   "field": "note",
+   "text": "at his gym",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal gym"
+  },
+  {
+   "field": "note",
+   "text": "spring of 2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "surgery date"
+  },
+  {
+   "field": "note",
+   "text": "low back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Low back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "lower back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "moving boxes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "mechanism"
+  },
+  {
+   "field": "note",
+   "text": "tingling in his right toes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "radicular symptom"
+  },
+  {
+   "field": "note",
+   "text": "weakness in his legs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "back symptom"
+  },
+  {
+   "field": "note",
+   "text": "sharp pain in his lower back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "back pain"
+  },
+  {
+   "field": "note",
+   "text": "MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back workup"
+  },
+  {
+   "field": "note",
+   "text": "MRI of the lumbar spine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back workup"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back treatment"
+  },
+  {
+   "field": "note",
+   "text": "upset stomach",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated GI"
+  },
+  {
+   "field": "note",
+   "text": "bladder or bowels issues",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated red flag"
+  },
+  {
+   "field": "note",
+   "text": "bowel issues",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated ROS"
+  },
+  {
+   "field": "note",
+   "text": "bladder issues",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated ROS"
+  },
+  {
+   "field": "note",
+   "text": "fevers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated ROS"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated ROS"
+  },
+  {
+   "field": "note",
+   "text": "right total knee arthroplasty",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgical history"
+  },
+  {
+   "field": "note",
+   "text": "Bony protuberance of the C5-C6",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "neck finding unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Decreased flexion and extension of the lower back",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.50",
+   "why": "lumbar exam"
+  },
+  {
+   "field": "note",
+   "text": "Positive straight leg raise",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.50",
+   "why": "lumbar exam"
+  },
+  {
+   "field": "note",
+   "text": "Spasm of the paraspinal muscles of the lumbar spine",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.50",
+   "why": "lumbar exam"
+  },
+  {
+   "field": "note",
+   "text": "X-rays of the lumbar spine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back imaging"
+  },
+  {
+   "field": "note",
+   "text": "no acute bony abnormalities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.50",
+   "why": "xray result"
+  },
+  {
+   "field": "note",
+   "text": "acute disc herniation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "cause of back pain"
+  },
+  {
+   "field": "note",
+   "text": "fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.50",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "back pain treatment"
+  }
+ ]
+}

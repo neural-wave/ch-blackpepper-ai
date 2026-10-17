@@ -1,0 +1,357 @@
+{
+ "encounter_id": "D2N024",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "pamela cook",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "ruth sanchez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "PA name"
+  },
+  {
+   "field": "dialogue",
+   "text": "123546",
+   "category": "a",
+   "type": "CONTACT_ID",
+   "code": null,
+   "why": "medical record number"
+  },
+  {
+   "field": "dialogue",
+   "text": "36-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "10-10 20-20",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "surgery date"
+  },
+  {
+   "field": "dialogue",
+   "text": "in march",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "prior visit month"
+  },
+  {
+   "field": "dialogue",
+   "text": "enjoying summertime",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal context"
+  },
+  {
+   "field": "dialogue",
+   "text": "bilateral reduction mammoplasty",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z90.13",
+   "why": "cause of acquired absence"
+  },
+  {
+   "field": "dialogue",
+   "text": "incisions are well healed",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z90.13",
+   "why": "post-op status"
+  },
+  {
+   "field": "dialogue",
+   "text": "no signs of infection or any redness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z90.13",
+   "why": "post-op status"
+  },
+  {
+   "field": "dialogue",
+   "text": "scar tissue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L90.5",
+   "why": "coded scar"
+  },
+  {
+   "field": "dialogue",
+   "text": "scars",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L90.5",
+   "why": "coded scar"
+  },
+  {
+   "field": "dialogue",
+   "text": "scar did widen",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L90.5",
+   "why": "scar condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "scar gel",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L90.5",
+   "why": "scar treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "mederma scar gel",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L90.5",
+   "why": "scar treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "massages",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L90.5",
+   "why": "scar treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cut it out and re-close it",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L90.5",
+   "why": "scar revision"
+  },
+  {
+   "field": "dialogue",
+   "text": "revisions",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L90.5",
+   "why": "scar revision"
+  },
+  {
+   "field": "dialogue",
+   "text": "lump right here under my left breast",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L90.5",
+   "why": "scar tissue lump"
+  },
+  {
+   "field": "dialogue",
+   "text": "pictures",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L90.5",
+   "why": "scar monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills , fever , nausea , or vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Pamela Cook",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "Cook",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "note",
+   "text": "Ruth Sanchez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "PA name"
+  },
+  {
+   "field": "note",
+   "text": "36-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "10/10/2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "surgery date"
+  },
+  {
+   "field": "note",
+   "text": "03/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "prior visit date"
+  },
+  {
+   "field": "note",
+   "text": "bilateral reduction mammoplasty",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z90.13",
+   "why": "cause of acquired absence"
+  },
+  {
+   "field": "note",
+   "text": "bilateral reduction mammaplasty",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z90.13",
+   "why": "cause of acquired absence"
+  },
+  {
+   "field": "note",
+   "text": "Status post bilateral reduction mammoplasty",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z90.13",
+   "why": "coded status"
+  },
+  {
+   "field": "note",
+   "text": "Bilateral breast incisions well healed",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z90.13",
+   "why": "post-op"
+  },
+  {
+   "field": "note",
+   "text": "No signs of infection or erythema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z90.13",
+   "why": "post-op"
+  },
+  {
+   "field": "note",
+   "text": "lump along the left breast",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L90.5",
+   "why": "scar lump"
+  },
+  {
+   "field": "note",
+   "text": "left breast lower incisional lump",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L90.5",
+   "why": "scar lump"
+  },
+  {
+   "field": "note",
+   "text": "massages",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L90.5",
+   "why": "scar treatment"
+  },
+  {
+   "field": "note",
+   "text": "scar gel",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L90.5",
+   "why": "scar treatment"
+  },
+  {
+   "field": "note",
+   "text": "Mederma scar gel",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L90.5",
+   "why": "scar treatment"
+  },
+  {
+   "field": "note",
+   "text": "widening of the scar tissue",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L90.5",
+   "why": "scar condition"
+  },
+  {
+   "field": "note",
+   "text": "incisional scar massage",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L90.5",
+   "why": "scar treatment"
+  },
+  {
+   "field": "note",
+   "text": "bilateral breast photos",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L90.5",
+   "why": "scar monitoring"
+  },
+  {
+   "field": "note",
+   "text": "scars",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L90.5",
+   "why": "scar condition"
+  },
+  {
+   "field": "note",
+   "text": "back pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "fever, chills, nausea, or vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  }
+ ]
+}

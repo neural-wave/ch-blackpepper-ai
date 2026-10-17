@@ -1,0 +1,813 @@
+{
+ "encounter_id": "D2N087",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "richard",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "i heard that you were a a hunter",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "went hunting",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "hunting season",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "where they train dogs",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "grandchildren",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "big pie fan",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "food preference"
+  },
+  {
+   "field": "dialogue",
+   "text": "apples cherry chocolate",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "food preference"
+  },
+  {
+   "field": "dialogue",
+   "text": "out in the woods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S80.261A",
+   "why": "tick exposure"
+  },
+  {
+   "field": "dialogue",
+   "text": "out in the yard",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S80.261A",
+   "why": "tick exposure"
+  },
+  {
+   "field": "dialogue",
+   "text": "tick bite",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "coded injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "tick bite around my knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "coded injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "burns",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "bite symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "feels warm on that spot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "bite symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever or chills",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "lyme screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "lyme screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "arthritic pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "hard for you to move your knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "bite screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "problems walking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "bite screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "lyme disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "bite complication concern"
+  },
+  {
+   "field": "dialogue",
+   "text": "flu like symptoms",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "lyme screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "body aches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "lyme screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "headache",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "lyme symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "generally do n't feel well",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "lyme symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cough",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizziness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure cuff",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "sugar intake",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmur rub or gallop",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "lungs are nice and clear to auscultation bilaterally",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "erythema and edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.261A",
+   "why": "bite finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "area of fluctuance over your right patella",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.261A",
+   "why": "bite finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation of the right anterior knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.261A",
+   "why": "bite finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "typical grinding",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "arthritis"
+  },
+  {
+   "field": "dialogue",
+   "text": "full range of motion of the right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.261A",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "bull's-eye rash",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.261A",
+   "why": "bite finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "bull's eye rash",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.261A",
+   "why": "bite finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "inflammation over the over the right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.261A",
+   "why": "bite finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "doxycycline",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S80.261A",
+   "why": "bite/lyme treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lyme titer",
+   "category": "c",
+   "type": "LAB",
+   "code": "S80.261A",
+   "why": "lyme workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "western blot",
+   "category": "c",
+   "type": "LAB",
+   "code": "S80.261A",
+   "why": "lyme workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "intravenous antibiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S80.261A",
+   "why": "lyme treatment option"
+  },
+  {
+   "field": "dialogue",
+   "text": "oral antibiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S80.261A",
+   "why": "lyme treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood tests",
+   "category": "c",
+   "type": "LAB",
+   "code": "S80.261A",
+   "why": "lyme workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "HTN-related lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "cholesterol",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "HTN-related lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney function",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "metformin monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney issues",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "metformin concern"
+  },
+  {
+   "field": "dialogue",
+   "text": "basic metabolic panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "metformin monitoring"
+  },
+  {
+   "field": "note",
+   "text": "enjoys spending time outside in the woods",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "went hunting with his grandchildren",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby/family"
+  },
+  {
+   "field": "note",
+   "text": "Tick bite",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "arthritis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diabetes type 2",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes type 2",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "general ill feelings",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "lyme symptom"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "lyme screen"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "lyme screen"
+  },
+  {
+   "field": "note",
+   "text": "flu like symptoms",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "lyme screen"
+  },
+  {
+   "field": "note",
+   "text": "body aches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "lyme screen"
+  },
+  {
+   "field": "note",
+   "text": "trouble waking",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "cough or shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "note",
+   "text": "joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "lyme screen"
+  },
+  {
+   "field": "note",
+   "text": "problems with ambulation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "bite screen"
+  },
+  {
+   "field": "note",
+   "text": "warmth on the right knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "bite symptom"
+  },
+  {
+   "field": "note",
+   "text": "headache",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "lyme symptom"
+  },
+  {
+   "field": "note",
+   "text": "dizziness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "note",
+   "text": "Neck is supple without thyromegaly or lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "Clear bilaterally",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "No murmurs, gallops or rubs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "Erythema and edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.261A",
+   "why": "bite finding"
+  },
+  {
+   "field": "note",
+   "text": "area of fluctuance noted over the right patella",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.261A",
+   "why": "bite finding"
+  },
+  {
+   "field": "note",
+   "text": "pain to palpation of the right anterior knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.261A",
+   "why": "bite finding"
+  },
+  {
+   "field": "note",
+   "text": "bull\u2019s eye rash over the right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.261A",
+   "why": "bite finding"
+  },
+  {
+   "field": "note",
+   "text": "kidney function",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "metformin monitoring"
+  },
+  {
+   "field": "note",
+   "text": "Lyme disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.261A",
+   "why": "bite complication concern"
+  },
+  {
+   "field": "note",
+   "text": "blood testing",
+   "category": "c",
+   "type": "LAB",
+   "code": "S80.261A",
+   "why": "lyme workup"
+  },
+  {
+   "field": "note",
+   "text": "intravenous antibiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S80.261A",
+   "why": "lyme treatment option"
+  },
+  {
+   "field": "note",
+   "text": "oral antibiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S80.261A",
+   "why": "lyme treatment"
+  },
+  {
+   "field": "note",
+   "text": "doxycycline",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S80.261A",
+   "why": "lyme treatment"
+  },
+  {
+   "field": "note",
+   "text": "Lyme titer",
+   "category": "c",
+   "type": "LAB",
+   "code": "S80.261A",
+   "why": "lyme workup"
+  },
+  {
+   "field": "note",
+   "text": "Western blot",
+   "category": "c",
+   "type": "LAB",
+   "code": "S80.261A",
+   "why": "lyme workup"
+  },
+  {
+   "field": "note",
+   "text": "Lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "HTN-related lab"
+  },
+  {
+   "field": "note",
+   "text": "cholesterol levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "HTN-related lab"
+  },
+  {
+   "field": "note",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "Hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "Basic metabolic panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "metformin monitoring"
+  }
+ ]
+}

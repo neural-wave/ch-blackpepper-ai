@@ -1,0 +1,973 @@
+{
+ "encounter_id": "D2N028",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "patrick allen",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "allen",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "dialogue",
+   "text": "7/7/1977",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "1/23/2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "CT date"
+  },
+  {
+   "field": "dialogue",
+   "text": "edwards",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor surname"
+  },
+  {
+   "field": "dialogue",
+   "text": "gi specialty clinic",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "clinic"
+  },
+  {
+   "field": "dialogue",
+   "text": "my sister",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relative"
+  },
+  {
+   "field": "dialogue",
+   "text": "working in the yard",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "gerd",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "anxiety",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "depression",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "chronic abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.00",
+   "why": "attributed to constipation"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.00",
+   "why": "attributed to constipation"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal ct",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K59.00",
+   "why": "workup of pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "ct scan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K59.00",
+   "why": "workup of pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "ct of the ab- abdomen",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K59.00",
+   "why": "workup of pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "food-related, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "explosive diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "food-related, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "sensitive stomach",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "food sensitivity"
+  },
+  {
+   "field": "dialogue",
+   "text": "constipated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.00",
+   "why": "coded constipation"
+  },
+  {
+   "field": "dialogue",
+   "text": "constipation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.00",
+   "why": "coded constipation"
+  },
+  {
+   "field": "dialogue",
+   "text": "stool hard",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K59.00",
+   "why": "constipation symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood in your stool",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "heartburn",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "indigestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "irritable bowel syndrome",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "sister's condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "gi cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "liver disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R16.0",
+   "why": "hepatomegaly differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "negated surgical history"
+  },
+  {
+   "field": "dialogue",
+   "text": "colonoscopy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "never done"
+  },
+  {
+   "field": "dialogue",
+   "text": "colon cancer screening",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "bowel sounds",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K59.00",
+   "why": "abdominal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "stool in your lower colon",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K59.00",
+   "why": "constipation finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "enlargement of your liver",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R16.0",
+   "why": "hepatomegaly"
+  },
+  {
+   "field": "dialogue",
+   "text": "elevated liver enzymes",
+   "category": "c",
+   "type": "LAB",
+   "code": "R16.0",
+   "why": "hepatomegaly workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "liver enzymes",
+   "category": "c",
+   "type": "LAB",
+   "code": "R16.0",
+   "why": "hepatomegaly workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "ast",
+   "category": "c",
+   "type": "LAB",
+   "code": "R16.0",
+   "why": "liver enzyme"
+  },
+  {
+   "field": "dialogue",
+   "text": "alp",
+   "category": "c",
+   "type": "LAB",
+   "code": "R16.0",
+   "why": "liver enzyme"
+  },
+  {
+   "field": "dialogue",
+   "text": "crestor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R16.0",
+   "why": "possible cause of hepatomegaly"
+  },
+  {
+   "field": "dialogue",
+   "text": "olmesartan",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "BP medication"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "occasional analgesic"
+  },
+  {
+   "field": "dialogue",
+   "text": "alcohol",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R16.0",
+   "why": "hepatomegaly risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "beers",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R16.0",
+   "why": "alcohol use"
+  },
+  {
+   "field": "dialogue",
+   "text": "drug use",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "bruising or bleeding",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "ankles or feet swelling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "jaundice",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R16.0",
+   "why": "negated liver finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated cardiac finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "increased stool burden",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K59.00",
+   "why": "constipation finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "increase stool burden",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K59.00",
+   "why": "constipation finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "hepatomegaly",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R16.0",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "liver is enlarged",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R16.0",
+   "why": "hepatomegaly"
+  },
+  {
+   "field": "dialogue",
+   "text": "fiber supplement",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K59.00",
+   "why": "constipation treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "fatty liver disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R16.0",
+   "why": "hepatomegaly differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "hepatitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R16.0",
+   "why": "hepatomegaly differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "cirrhosis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R16.0",
+   "why": "hepatomegaly differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "wilson's disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R16.0",
+   "why": "hepatomegaly differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "alcohol abuse",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R16.0",
+   "why": "hepatomegaly differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "liver toxicity",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R16.0",
+   "why": "hepatomegaly cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "ultrasound of your liver",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R16.0",
+   "why": "hepatomegaly workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "liver ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R16.0",
+   "why": "hepatomegaly workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "PCP-managed HTN"
+  },
+  {
+   "field": "dialogue",
+   "text": "cholesterol",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "PCP-managed hyperlipidemia"
+  },
+  {
+   "field": "dialogue",
+   "text": "water intake",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K59.00",
+   "why": "constipation treatment"
+  },
+  {
+   "field": "note",
+   "text": "Patrick Allen",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Allen",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "note",
+   "text": "42-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "01/2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "ER visit date"
+  },
+  {
+   "field": "note",
+   "text": "01/23/2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "CT date"
+  },
+  {
+   "field": "note",
+   "text": "his sister",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relative"
+  },
+  {
+   "field": "note",
+   "text": "Abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.00",
+   "why": "attributed to constipation"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.00",
+   "why": "attributed to constipation"
+  },
+  {
+   "field": "note",
+   "text": "mid-abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.00",
+   "why": "attributed to constipation"
+  },
+  {
+   "field": "note",
+   "text": "constipation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.00",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Constipation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.00",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "constipated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.00",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "stools are hard",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K59.00",
+   "why": "constipation symptom"
+  },
+  {
+   "field": "note",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "food-related, not coded"
+  },
+  {
+   "field": "note",
+   "text": "CT scan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K59.00",
+   "why": "pain workup"
+  },
+  {
+   "field": "note",
+   "text": "CT of Abdomen",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K59.00",
+   "why": "pain workup"
+  },
+  {
+   "field": "note",
+   "text": "CT of abdomen",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K59.00",
+   "why": "pain workup"
+  },
+  {
+   "field": "note",
+   "text": "abdominal CT",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K59.00",
+   "why": "pain workup"
+  },
+  {
+   "field": "note",
+   "text": "AST",
+   "category": "c",
+   "type": "LAB",
+   "code": "R16.0",
+   "why": "liver enzyme"
+  },
+  {
+   "field": "note",
+   "text": "ALT",
+   "category": "c",
+   "type": "LAB",
+   "code": "R16.0",
+   "why": "liver enzyme"
+  },
+  {
+   "field": "note",
+   "text": "liver enzymes",
+   "category": "c",
+   "type": "LAB",
+   "code": "R16.0",
+   "why": "hepatomegaly workup"
+  },
+  {
+   "field": "note",
+   "text": "elevated liver enzymes",
+   "category": "c",
+   "type": "LAB",
+   "code": "R16.0",
+   "why": "hepatomegaly workup"
+  },
+  {
+   "field": "note",
+   "text": "liver enzyme labs",
+   "category": "c",
+   "type": "LAB",
+   "code": "R16.0",
+   "why": "hepatomegaly workup"
+  },
+  {
+   "field": "note",
+   "text": "Crestor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R16.0",
+   "why": "possible cause"
+  },
+  {
+   "field": "note",
+   "text": "olmesartan",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "BP medication"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "analgesic"
+  },
+  {
+   "field": "note",
+   "text": "beers",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R16.0",
+   "why": "alcohol use"
+  },
+  {
+   "field": "note",
+   "text": "heavy alcohol",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R16.0",
+   "why": "negated alcohol use"
+  },
+  {
+   "field": "note",
+   "text": "drug use",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "bruising or bleeding",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "lower extremity edema",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "blood in his stools",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "heartburn",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "indigestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "gastrointestinal cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated family history"
+  },
+  {
+   "field": "note",
+   "text": "liver disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R16.0",
+   "why": "negated family history relevant to liver"
+  },
+  {
+   "field": "note",
+   "text": "irritable bowel syndrome",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "sister's condition"
+  },
+  {
+   "field": "note",
+   "text": "IBS",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "sister's condition"
+  },
+  {
+   "field": "note",
+   "text": "abdominal surgeries",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "colonoscopy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "never done"
+  },
+  {
+   "field": "note",
+   "text": "murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "gallops",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "rubs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "bowel sounds",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K59.00",
+   "why": "abdominal exam"
+  },
+  {
+   "field": "note",
+   "text": "periumbilical tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K59.00",
+   "why": "abdominal exam"
+  },
+  {
+   "field": "note",
+   "text": "hepatomegaly",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R16.0",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Mild hepatomegaly",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R16.0",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Mild Hepatomegaly",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R16.0",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "increased stool burden",
+   "category": "c",
+   "type": "FINDING",
+   "code": "K59.00",
+   "why": "constipation finding"
+  },
+  {
+   "field": "note",
+   "text": "fiber supplement",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K59.00",
+   "why": "constipation treatment"
+  },
+  {
+   "field": "note",
+   "text": "water consumption",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K59.00",
+   "why": "constipation treatment"
+  },
+  {
+   "field": "note",
+   "text": "liver ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R16.0",
+   "why": "hepatomegaly workup"
+  },
+  {
+   "field": "note",
+   "text": "alcohol consumption",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R16.0",
+   "why": "hepatomegaly risk"
+  }
+ ]
+}

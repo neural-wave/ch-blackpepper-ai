@@ -1,0 +1,565 @@
+{
+ "encounter_id": "D2N044",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "julie",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "work from home",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "work arrangement"
+  },
+  {
+   "field": "dialogue",
+   "text": "working from home",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "work arrangement"
+  },
+  {
+   "field": "dialogue",
+   "text": "sitting at my desk",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "desk job"
+  },
+  {
+   "field": "dialogue",
+   "text": "i'm a big runner",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "run about five to six miles a day",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "i am a biker",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "doctor's hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "riding my bike",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "doctor's hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "bike trail",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby location"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "behind my kneecaps",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "symptom location"
+  },
+  {
+   "field": "dialogue",
+   "text": "deep achy pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "standing up from sitting",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "pain trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "going up and down the stairs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "pain trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee pain with squatting",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "pain trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M22.2X1",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "aleve",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M22.2X1",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M22.2X1",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "anti-inflammatories",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M22.2X1",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "three out of five for abduction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "weakness addressed by PT"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "positive patellar grind test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-rays of both your knees",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.2X1",
+   "why": "imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.2X1",
+   "why": "imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "patellofemoral pain syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.2X1",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lower extremity exercises",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.2X1",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "running mechanics",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.2X1",
+   "why": "treatment target"
+  },
+  {
+   "field": "dialogue",
+   "text": "redness or swelling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecchymosis",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "warmth",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "bruising",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "effusion",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "lachman",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated test"
+  },
+  {
+   "field": "dialogue",
+   "text": "anterior and posterior drawer",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated test"
+  },
+  {
+   "field": "dialogue",
+   "text": "mcmurray test",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated test"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "fractures",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "osteoarthritis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "injured or broken a bone",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated history"
+  },
+  {
+   "field": "note",
+   "text": "avid runner",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "works from home",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "work arrangement"
+  },
+  {
+   "field": "note",
+   "text": "Bilateral knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "bilateral knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "3/5 abduction strength",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "weakness addressed by PT"
+  },
+  {
+   "field": "note",
+   "text": "Tender to palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Positive patellar grind test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the bilateral knees",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.2X1",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.2X1",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.2X1",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "Patellofemoral pain syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "patellofemoral pain syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "NSAIDs",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M22.2X1",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.2X1",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "running mechanics",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.2X1",
+   "why": "treatment target"
+  },
+  {
+   "field": "note",
+   "text": "knee swelling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "redness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "masses",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated abdominal finding"
+  },
+  {
+   "field": "note",
+   "text": "Bowel sounds normal",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "abdominal exam"
+  },
+  {
+   "field": "note",
+   "text": "clubbing",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "cyanosis",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "erythema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "ecchymosis",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "warmth",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "effusion",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "Lachman, anterior and posterior drawer, and McMurray test",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated tests"
+  },
+  {
+   "field": "note",
+   "text": "fractures",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "osteoarthritis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  }
+ ]
+}

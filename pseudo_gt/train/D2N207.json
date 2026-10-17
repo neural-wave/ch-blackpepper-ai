@@ -1,0 +1,917 @@
+{
+ "encounter_id": "D2N207",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "frank",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "twenty eighteen",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "year of MI"
+  },
+  {
+   "field": "dialogue",
+   "text": "the holidays",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "holiday tied to event"
+  },
+  {
+   "field": "dialogue",
+   "text": "family get togethers",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family events"
+  },
+  {
+   "field": "dialogue",
+   "text": "nba playoff",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports interest"
+  },
+  {
+   "field": "dialogue",
+   "text": "self expand",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports fan identity"
+  },
+  {
+   "field": "dialogue",
+   "text": "nuts",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports team"
+  },
+  {
+   "field": "dialogue",
+   "text": "jason tatum",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "person name"
+  },
+  {
+   "field": "dialogue",
+   "text": "jaylen brown",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "person name"
+  },
+  {
+   "field": "dialogue",
+   "text": "doctor white",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "provider name"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "short of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "lasix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "coronary disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart attack",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD history"
+  },
+  {
+   "field": "dialogue",
+   "text": "stent in your right coronary artery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pumping function of your heart",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "cardiac function"
+  },
+  {
+   "field": "dialogue",
+   "text": "ejection fraction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "reduced EF"
+  },
+  {
+   "field": "dialogue",
+   "text": "salt intake",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling in your legs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF edema"
+  },
+  {
+   "field": "dialogue",
+   "text": "urinating any less",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "diuretic response"
+  },
+  {
+   "field": "dialogue",
+   "text": "urinate at night",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "nocturia on diuretic"
+  },
+  {
+   "field": "dialogue",
+   "text": "one pillow to two pillows",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "orthopnea"
+  },
+  {
+   "field": "dialogue",
+   "text": "wake up really short of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "PND"
+  },
+  {
+   "field": "dialogue",
+   "text": "nephrologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N18.30",
+   "why": "CKD follow-up"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney doctor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N18.30",
+   "why": "CKD follow-up"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney dysfunction about stage three",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N18.30",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N18.30",
+   "why": "NSAID avoidance in CKD"
+  },
+  {
+   "field": "dialogue",
+   "text": "advil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N18.30",
+   "why": "NSAID avoidance in CKD"
+  },
+  {
+   "field": "dialogue",
+   "text": "anti-inflammatories",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N18.30",
+   "why": "NSAID avoidance in CKD"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N18.30",
+   "why": "CKD-safe analgesic"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol's",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N18.30",
+   "why": "CKD-safe analgesic"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney function",
+   "category": "c",
+   "type": "LAB",
+   "code": "N18.30",
+   "why": "CKD"
+  },
+  {
+   "field": "dialogue",
+   "text": "dialysis",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N18.30",
+   "why": "CKD progression"
+  },
+  {
+   "field": "dialogue",
+   "text": "potassium",
+   "category": "c",
+   "type": "LAB",
+   "code": "N18.30",
+   "why": "CKD diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "high potassium foods",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N18.30",
+   "why": "CKD diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "bananas oranges",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N18.30",
+   "why": "CKD diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "potatoes",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N18.30",
+   "why": "CKD diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "potassium levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "N18.30",
+   "why": "CKD"
+  },
+  {
+   "field": "dialogue",
+   "text": "dietitian",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N18.30",
+   "why": "CKD diet referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain in my feet",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "foot pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "in front of the big toe",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "gout",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "possible gout flare",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "uric acid",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "gout workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "jugular venous distention",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF sign"
+  },
+  {
+   "field": "dialogue",
+   "text": "carotid bruits",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "vascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "bibasilar crackles",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF sign"
+  },
+  {
+   "field": "dialogue",
+   "text": "rhonchi",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "lung exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "three out of six systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "cardiac exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "cardiac exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "one to two plus pitting edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF edema"
+  },
+  {
+   "field": "dialogue",
+   "text": "retaining fluid",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "volume overload"
+  },
+  {
+   "field": "dialogue",
+   "text": "acute heart failure exacerbation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart failure exacerbation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "diuretic",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "intravenous diuretics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "admit you to the hospital",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF escalation"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "cardiac workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "stage three chronic kidney disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N18.30",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "chronic kidney disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N18.30",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "complete metabolic panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "N18.30",
+   "why": "kidney function check"
+  },
+  {
+   "field": "dialogue",
+   "text": "dietary indiscretion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF trigger"
+  },
+  {
+   "field": "note",
+   "text": "2018",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "year of MI and stent"
+  },
+  {
+   "field": "note",
+   "text": "fan of basketball",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports interest"
+  },
+  {
+   "field": "note",
+   "text": "Dr. White",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "provider name"
+  },
+  {
+   "field": "note",
+   "text": "Shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "coronary disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "acute myocardial infarction",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD history"
+  },
+  {
+   "field": "note",
+   "text": "stage 3 chronic kidney disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N18.30",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Stage 3 chronic kidney disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N18.30",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "chronic kidney disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N18.30",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "knee pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "gout",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "coronary artery stent in the right coronary artery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Lasix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "note",
+   "text": "changes in urination",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "diuretic response"
+  },
+  {
+   "field": "note",
+   "text": "swelling in bilateral lower extremities",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF edema"
+  },
+  {
+   "field": "note",
+   "text": "great toe pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Jugular venous distention",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF sign"
+  },
+  {
+   "field": "note",
+   "text": "carotid bruits",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "vascular exam"
+  },
+  {
+   "field": "note",
+   "text": "Bibasilar crackles with occasional rhonchi",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF sign"
+  },
+  {
+   "field": "note",
+   "text": "3 out of 6 systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "cardiac exam"
+  },
+  {
+   "field": "note",
+   "text": "1 to 2+ pitting edema bilaterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF edema"
+  },
+  {
+   "field": "note",
+   "text": "Acute heart failure exacerbation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "acute heart failure exacerbation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "heart failure exacerbation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "retaining fluid",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "volume overload"
+  },
+  {
+   "field": "note",
+   "text": "dietary indiscretion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF trigger"
+  },
+  {
+   "field": "note",
+   "text": "diuretic",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "note",
+   "text": "intravenous diuretics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "note",
+   "text": "salt intake",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF diet"
+  },
+  {
+   "field": "note",
+   "text": "salty foods",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF diet"
+  },
+  {
+   "field": "note",
+   "text": "Chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF workup"
+  },
+  {
+   "field": "note",
+   "text": "Coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Repeat echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "cardiac workup"
+  },
+  {
+   "field": "note",
+   "text": "heart murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "cardiac exam"
+  },
+  {
+   "field": "note",
+   "text": "nephrologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N18.30",
+   "why": "CKD follow-up"
+  },
+  {
+   "field": "note",
+   "text": "potassium rich foods",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N18.30",
+   "why": "CKD diet"
+  },
+  {
+   "field": "note",
+   "text": "bananas, oranges, and potatoes",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N18.30",
+   "why": "CKD diet"
+  },
+  {
+   "field": "note",
+   "text": "kidney function",
+   "category": "c",
+   "type": "LAB",
+   "code": "N18.30",
+   "why": "CKD"
+  },
+  {
+   "field": "note",
+   "text": "anti-inflammatories",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N18.30",
+   "why": "NSAID avoidance"
+  },
+  {
+   "field": "note",
+   "text": "Motrin or Advil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N18.30",
+   "why": "NSAID avoidance"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N18.30",
+   "why": "CKD-safe analgesic"
+  },
+  {
+   "field": "note",
+   "text": "dietician",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N18.30",
+   "why": "CKD diet referral"
+  },
+  {
+   "field": "note",
+   "text": "Complete metabolic panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "N18.30",
+   "why": "kidney function check"
+  },
+  {
+   "field": "note",
+   "text": "Possible gout flare",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "possible gout flare",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Uric acid test",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "gout workup"
+  }
+ ]
+}

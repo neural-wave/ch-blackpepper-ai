@@ -1,0 +1,637 @@
+{
+ "encounter_id": "D2N119",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "betty",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "my aunt's house",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "aunt's house",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "enjoyed hiking",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "going hiking",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "start hiking again",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "wreck center",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "local landmark"
+  },
+  {
+   "field": "dialogue",
+   "text": "new trails",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "local landmark"
+  },
+  {
+   "field": "dialogue",
+   "text": "go to the bars with some friends",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "around eight years old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age at hospitalization"
+  },
+  {
+   "field": "dialogue",
+   "text": "asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "coughing and wheezing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cold",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "asthma trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "flare",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "asthma flare"
+  },
+  {
+   "field": "dialogue",
+   "text": "her cat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "asthma trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "breathing type problems",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "urgent care",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.20",
+   "why": "asthma care"
+  },
+  {
+   "field": "dialogue",
+   "text": "antibiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.20",
+   "why": "asthma flare treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "steroids",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.20",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "emergency department",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.20",
+   "why": "asthma care"
+  },
+  {
+   "field": "dialogue",
+   "text": "inhalers",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.20",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.20",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "albuterol inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.20",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "albuterol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.20",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ventolin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.20",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hospitalized",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.20",
+   "why": "asthma hospitalization"
+  },
+  {
+   "field": "dialogue",
+   "text": "prednisone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.20",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "prednisone taper pack",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.20",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "dosepak",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.20",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "exacerbation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "asthma exacerbation"
+  },
+  {
+   "field": "dialogue",
+   "text": "acute exacerbation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "asthma exacerbation"
+  },
+  {
+   "field": "dialogue",
+   "text": "seasonal allergies",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "asthma trigger screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoke",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "asthma trigger screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "vape",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "asthma trigger screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "marijuana",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "asthma trigger screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "airborne particular",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "asthma trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "diminished lung sounds",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J45.20",
+   "why": "lung exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "expiratory wheeze",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J45.20",
+   "why": "lung exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "clubbing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J45.20",
+   "why": "chronic lung screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "pulmonary function test",
+   "category": "c",
+   "type": "LAB",
+   "code": "J45.20",
+   "why": "asthma diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "moderate intermittent asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "inhaled steroid inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.20",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "inhaled steroid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.20",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "rescue inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.20",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "asthma action plan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.20",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "dust",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "asthma trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "flovent",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.20",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ectopic beats",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac"
+  },
+  {
+   "field": "dialogue",
+   "text": "rubs murmurs or gallops",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac"
+  },
+  {
+   "field": "dialogue",
+   "text": "lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "carotid bruit",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "at a bar",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social habit"
+  },
+  {
+   "field": "note",
+   "text": "hiking",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "Asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "cigarette or tobacco product",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "trigger screen"
+  },
+  {
+   "field": "note",
+   "text": "marijuana",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "trigger screen"
+  },
+  {
+   "field": "note",
+   "text": "allows smoking inside",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "asthma trigger"
+  },
+  {
+   "field": "note",
+   "text": "seasonal allergies",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "trigger screen"
+  },
+  {
+   "field": "note",
+   "text": "albuterol inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.20",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "note",
+   "text": "coughing and wheezing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "note",
+   "text": "Diminished lung sounds",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J45.20",
+   "why": "lung exam"
+  },
+  {
+   "field": "note",
+   "text": "expiratory wheeze",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J45.20",
+   "why": "lung exam"
+  },
+  {
+   "field": "note",
+   "text": "No clubbing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J45.20",
+   "why": "chronic lung screen"
+  },
+  {
+   "field": "note",
+   "text": "Pulmonary function test",
+   "category": "c",
+   "type": "LAB",
+   "code": "J45.20",
+   "why": "asthma diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "PFT",
+   "category": "c",
+   "type": "LAB",
+   "code": "J45.20",
+   "why": "asthma diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Moderate intermittent asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "moderate intermittent asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "daily inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.20",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "note",
+   "text": "acute exacerbations",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.20",
+   "why": "asthma exacerbation"
+  },
+  {
+   "field": "note",
+   "text": "inhaled steroid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.20",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "note",
+   "text": "Flovent",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.20",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "note",
+   "text": "Ventolin inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.20",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "note",
+   "text": "asthma action plan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J45.20",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "note",
+   "text": "lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "carotid bruit",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "ectopic beats",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac"
+  },
+  {
+   "field": "note",
+   "text": "rubs, murmurs, or gallops",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac"
+  },
+  {
+   "field": "note",
+   "text": "enlarged lymph nodes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  }
+ ]
+}

@@ -1,0 +1,517 @@
+{
+ "encounter_id": "D2N189",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "betty",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "denver nuggets",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "favorite sports team"
+  },
+  {
+   "field": "dialogue",
+   "text": "denver",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "city"
+  },
+  {
+   "field": "dialogue",
+   "text": "brooklyn net",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports team"
+  },
+  {
+   "field": "dialogue",
+   "text": "nba playoffs",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports interest"
+  },
+  {
+   "field": "dialogue",
+   "text": "swimming",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "pizza",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "food preference"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart attack",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I21.11",
+   "why": "coded MI"
+  },
+  {
+   "field": "dialogue",
+   "text": "stent in your right coronary artery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I21.11",
+   "why": "RCA STEMI treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "stent",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I21.11",
+   "why": "MI treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "emergency room",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I21.11",
+   "why": "MI hospitalization"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I21.11",
+   "why": "MI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cardiac catheterization",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I21.11",
+   "why": "MI treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I21.11",
+   "why": "post MI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "brilinta",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I21.11",
+   "why": "antiplatelet post MI"
+  },
+  {
+   "field": "dialogue",
+   "text": "aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I21.11",
+   "why": "antiplatelet post MI"
+  },
+  {
+   "field": "dialogue",
+   "text": "baby aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I21.11",
+   "why": "antiplatelet post MI"
+  },
+  {
+   "field": "dialogue",
+   "text": "salt intake",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I21.11",
+   "why": "cardiac diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "ejection fraction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I21.11",
+   "why": "cardiac function"
+  },
+  {
+   "field": "dialogue",
+   "text": "pumping function of your heart",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I21.11",
+   "why": "cardiac function"
+  },
+  {
+   "field": "dialogue",
+   "text": "anxiety",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated mention"
+  },
+  {
+   "field": "dialogue",
+   "text": "jugular venous distention",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I21.11",
+   "why": "cardiac exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "carotid bruits",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I21.11",
+   "why": "cardiac exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "three out of six systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I21.11",
+   "why": "cardiac exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I21.11",
+   "why": "cardiac exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "right radial artery cardiac cath site",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I21.11",
+   "why": "cath site"
+  },
+  {
+   "field": "dialogue",
+   "text": "hematoma",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I21.11",
+   "why": "cath site"
+  },
+  {
+   "field": "dialogue",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I21.11",
+   "why": "cardiac workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild mitral regurgitation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "valve finding not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "inferior myocardial myocardial infarction",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I21.11",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "crestor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I21.11",
+   "why": "secondary prevention"
+  },
+  {
+   "field": "dialogue",
+   "text": "cardiac rehab",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I21.11",
+   "why": "MI rehab"
+  },
+  {
+   "field": "dialogue",
+   "text": "toprol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I21.11",
+   "why": "post MI beta blocker"
+  },
+  {
+   "field": "dialogue",
+   "text": "liver function studies",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "statin monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipid panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lipids not coded"
+  },
+  {
+   "field": "note",
+   "text": "Denver Nuggets basketball team",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "favorite sports team"
+  },
+  {
+   "field": "note",
+   "text": "swimming",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "myocardial infarction",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I21.11",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Inferior myocardial infarction",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I21.11",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "heart attack",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I21.11",
+   "why": "coded MI"
+  },
+  {
+   "field": "note",
+   "text": "stent placement in the right coronary artery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I21.11",
+   "why": "RCA treatment"
+  },
+  {
+   "field": "note",
+   "text": "stent",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I21.11",
+   "why": "MI treatment"
+  },
+  {
+   "field": "note",
+   "text": "Brilinta",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I21.11",
+   "why": "antiplatelet"
+  },
+  {
+   "field": "note",
+   "text": "aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I21.11",
+   "why": "antiplatelet"
+  },
+  {
+   "field": "note",
+   "text": "low-dose aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I21.11",
+   "why": "antiplatelet"
+  },
+  {
+   "field": "note",
+   "text": "Crestor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I21.11",
+   "why": "secondary prevention"
+  },
+  {
+   "field": "note",
+   "text": "Toprol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I21.11",
+   "why": "beta blocker"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I21.11",
+   "why": "MI symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath with exertion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I21.11",
+   "why": "post MI symptom"
+  },
+  {
+   "field": "note",
+   "text": "redness or infection in the right wrist",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I21.11",
+   "why": "cath site"
+  },
+  {
+   "field": "note",
+   "text": "jugular venous distention",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I21.11",
+   "why": "cardiac exam"
+  },
+  {
+   "field": "note",
+   "text": "carotid bruits",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I21.11",
+   "why": "cardiac exam"
+  },
+  {
+   "field": "note",
+   "text": "Slight 3/6 systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I21.11",
+   "why": "cardiac exam"
+  },
+  {
+   "field": "note",
+   "text": "gallops or rubs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I21.11",
+   "why": "cardiac exam"
+  },
+  {
+   "field": "note",
+   "text": "Right radial artery cardiac catheterization site",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I21.11",
+   "why": "cath site"
+  },
+  {
+   "field": "note",
+   "text": "catheterization site",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I21.11",
+   "why": "cath site"
+  },
+  {
+   "field": "note",
+   "text": "hematoma",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I21.11",
+   "why": "cath site"
+  },
+  {
+   "field": "note",
+   "text": "ejection fraction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I21.11",
+   "why": "cardiac function"
+  },
+  {
+   "field": "note",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I21.11",
+   "why": "cardiac workup"
+  },
+  {
+   "field": "note",
+   "text": "mild mitral regurgitation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "valve finding not coded"
+  },
+  {
+   "field": "note",
+   "text": "salt intake",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I21.11",
+   "why": "cardiac diet"
+  },
+  {
+   "field": "note",
+   "text": "cardiac rehab",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I21.11",
+   "why": "MI rehab"
+  },
+  {
+   "field": "note",
+   "text": "Liver function studies",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "statin monitoring"
+  },
+  {
+   "field": "note",
+   "text": "lipid panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lipids not coded"
+  }
+ ]
+}

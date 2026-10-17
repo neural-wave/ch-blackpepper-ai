@@ -1,0 +1,445 @@
+{
+ "encounter_id": "D2N152",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "noah",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "skiing",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "your family do n't they own that that bakery",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "family business"
+  },
+  {
+   "field": "dialogue",
+   "text": "corner of main street",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "business location"
+  },
+  {
+   "field": "dialogue",
+   "text": "the bakery",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family business"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "over the counter stuff",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "twisted",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "back injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "picked something up",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "back injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "cakes and donuts",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "lift your legs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.50",
+   "why": "straight leg raise exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness or tingling in your feet",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "radicular screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "low back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "musculoskeletal low back strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "cause of back pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "low back x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "disk issue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "back differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "flexeril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "muscle relaxant",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "diet and exercise",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes management"
+  },
+  {
+   "field": "dialogue",
+   "text": "glucometer",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain doctor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back pain referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "cat scan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back imaging"
+  },
+  {
+   "field": "note",
+   "text": "family owns and runs a bakery",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "family business"
+  },
+  {
+   "field": "note",
+   "text": "Back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Low back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "numbness or tingling in feet",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "radicular screen"
+  },
+  {
+   "field": "note",
+   "text": "redness, discharge, or icterus",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated eye exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain to palpation of the midline of the lower back",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.50",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "Mildly positive straight leg rise on the right",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.50",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "Positive straight leg rise on the left",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.50",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "musculoskeletal low back strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "cause of back pain"
+  },
+  {
+   "field": "note",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back imaging"
+  },
+  {
+   "field": "note",
+   "text": "Low back x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back imaging"
+  },
+  {
+   "field": "note",
+   "text": "disc issues",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "back differential"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "back treatment"
+  },
+  {
+   "field": "note",
+   "text": "muscle relaxers",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "Flexeril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.50",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "foods high in sugar",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes diet"
+  },
+  {
+   "field": "note",
+   "text": "Hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "diet and exercise",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes management"
+  },
+  {
+   "field": "note",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  }
+ ]
+}

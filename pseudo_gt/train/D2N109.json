@@ -1,0 +1,501 @@
+{
+ "encounter_id": "D2N109",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "stephanie morales",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "stephanie",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "36 -year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "walking to my car",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal context"
+  },
+  {
+   "field": "dialogue",
+   "text": "ankle pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.572",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "left ankle",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.572",
+   "why": "coded site"
+  },
+  {
+   "field": "dialogue",
+   "text": "i slipped",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.572",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "snow and ice",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.572",
+   "why": "injury cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.572",
+   "why": "ankle symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.572",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice and elevation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.572",
+   "why": "ankle treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness over the lateral malleolus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.572",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "fifth metatarsal",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.572",
+   "why": "ankle exam site"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with valgus stressing of your ankle",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.572",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "ankle sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.572",
+   "why": "ankle diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.572",
+   "why": "ankle workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.572",
+   "why": "ankle ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "air splint",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.572",
+   "why": "ankle treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.572",
+   "why": "ankle treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "naprosyn",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.572",
+   "why": "ankle pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "orthopedics",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.572",
+   "why": "ankle referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "eye exam",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetic eye screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "ophthalmologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetic eye screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "two over six systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "baseline labs",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "general labs"
+  },
+  {
+   "field": "note",
+   "text": "Left ankle pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.572",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "left ankle pain and swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.572",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Tender to palpation over the lateral malleolus and fifth metatarsal",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.572",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "Trace edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.572",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "Mild erythema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.572",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with valgus stress testing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.572",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "ankle sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.572",
+   "why": "ankle diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "X-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.572",
+   "why": "ankle workup"
+  },
+  {
+   "field": "note",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.572",
+   "why": "ankle workup"
+  },
+  {
+   "field": "note",
+   "text": "fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.572",
+   "why": "ankle ruled out"
+  },
+  {
+   "field": "note",
+   "text": "orthopedics",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.572",
+   "why": "ankle referral"
+  },
+  {
+   "field": "note",
+   "text": "air splint",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.572",
+   "why": "ankle treatment"
+  },
+  {
+   "field": "note",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.572",
+   "why": "ankle treatment"
+  },
+  {
+   "field": "note",
+   "text": "Naprosyn",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.572",
+   "why": "ankle pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "ice and elevation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.572",
+   "why": "ankle treatment"
+  },
+  {
+   "field": "note",
+   "text": "left calf pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "denied unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "lower left leg pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "denied unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "left knee pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "denied unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "type 2 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes type 2",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "Hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "diabetic eye exam",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetic screening"
+  },
+  {
+   "field": "note",
+   "text": "ophthalmology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetic screening"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "2/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac finding"
+  },
+  {
+   "field": "note",
+   "text": "bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "baseline labs",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "general labs"
+  }
+ ]
+}

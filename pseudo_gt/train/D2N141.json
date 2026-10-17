@@ -1,0 +1,1005 @@
+{
+ "encounter_id": "D2N141",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "christopher watson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "watson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "04/12/1934",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "86-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "august 1st , 2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "surgery date"
+  },
+  {
+   "field": "dialogue",
+   "text": "may of 2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "first visit date"
+  },
+  {
+   "field": "dialogue",
+   "text": "june 2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "diagnosis date"
+  },
+  {
+   "field": "dialogue",
+   "text": "10/15/2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "CT date"
+  },
+  {
+   "field": "dialogue",
+   "text": "theresa",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "daughter name"
+  },
+  {
+   "field": "dialogue",
+   "text": "hannah",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "daughter name"
+  },
+  {
+   "field": "dialogue",
+   "text": "my daughter",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "my sister",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "dad",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family relation"
+  },
+  {
+   "field": "dialogue",
+   "text": "your daughters",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "dining room",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "living setting"
+  },
+  {
+   "field": "dialogue",
+   "text": "adult hydrocephalus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G91.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "shunt surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G91.9",
+   "why": "hydrocephalus treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "sh- shunt surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G91.9",
+   "why": "hydrocephalus treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "shu- shunt surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G91.9",
+   "why": "hydrocephalus treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "shunt",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G91.9",
+   "why": "hydrocephalus treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "progressive gait impairment",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R26.89",
+   "why": "coded gait abnormality"
+  },
+  {
+   "field": "dialogue",
+   "text": "cognitive impairment",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G31.84",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "decreased bladder control",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N39.41",
+   "why": "incontinence symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "bladder control",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N39.41",
+   "why": "incontinence"
+  },
+  {
+   "field": "dialogue",
+   "text": "spino catheter protocol",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G91.9",
+   "why": "hydrocephalus diagnostic"
+  },
+  {
+   "field": "dialogue",
+   "text": "medtronic strata programmable shunt",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G91.9",
+   "why": "hydrocephalus device"
+  },
+  {
+   "field": "dialogue",
+   "text": "ventricular peritoneal configuration",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G91.9",
+   "why": "shunt configuration"
+  },
+  {
+   "field": "dialogue",
+   "text": "walking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R26.89",
+   "why": "gait"
+  },
+  {
+   "field": "dialogue",
+   "text": "wearing diapers",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N39.41",
+   "why": "incontinence management"
+  },
+  {
+   "field": "dialogue",
+   "text": "sores",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "decreased or painful urination",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "cognition",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G31.84",
+   "why": "cognitive status"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain in your belly",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "ct scan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G91.9",
+   "why": "hydrocephalus imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood fluid collection in the right parietal region",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "uncoded imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "movement speed",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R26.89",
+   "why": "mobility"
+  },
+  {
+   "field": "dialogue",
+   "text": "driver safety evaluation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R26.89",
+   "why": "mobility assessment"
+  },
+  {
+   "field": "dialogue",
+   "text": "driver safety program",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R26.89",
+   "why": "mobility assessment"
+  },
+  {
+   "field": "dialogue",
+   "text": "impaired ability to carry out daily functions",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "functional status"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever or unintentional weight loss",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "urinary incontinence",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N39.41",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "wearing a diaper",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N39.41",
+   "why": "incontinence management"
+  },
+  {
+   "field": "dialogue",
+   "text": "genital sores",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "walking impairment",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R26.89",
+   "why": "coded gait abnormality"
+  },
+  {
+   "field": "dialogue",
+   "text": "recent falls",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "hallucinations",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "depression , excessive worrying , or mood swings",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated psych"
+  },
+  {
+   "field": "dialogue",
+   "text": "shunt sight was clean , dry , and intact",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G91.9",
+   "why": "shunt site exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "mmse",
+   "category": "c",
+   "type": "LAB",
+   "code": "G31.84",
+   "why": "cognitive testing"
+  },
+  {
+   "field": "dialogue",
+   "text": "memory words",
+   "category": "c",
+   "type": "LAB",
+   "code": "G31.84",
+   "why": "cognitive testing"
+  },
+  {
+   "field": "dialogue",
+   "text": "tinetti assessment tool",
+   "category": "c",
+   "type": "LAB",
+   "code": "R26.89",
+   "why": "gait testing"
+  },
+  {
+   "field": "dialogue",
+   "text": "gait score",
+   "category": "c",
+   "type": "LAB",
+   "code": "R26.89",
+   "why": "gait testing"
+  },
+  {
+   "field": "dialogue",
+   "text": "balance score",
+   "category": "c",
+   "type": "LAB",
+   "code": "R26.89",
+   "why": "gait testing"
+  },
+  {
+   "field": "dialogue",
+   "text": "disarchria",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "coordination slow from no- finger to nose",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "frontal horn span at the level of foramen of monro",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G91.9",
+   "why": "hydrocephalus imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "third ventricular contour",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G91.9",
+   "why": "hydrocephalus imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "tiny amount of blood in the right front region",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "uncoded imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "tiny subdermal collection",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "uncoded imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "extra axial fluid collections",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "small vessel ischemic change",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "uncoded imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "gait impairment",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R26.89",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "urinary incontinence and urgency",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N39.41",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Christopher Watson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "Watson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "86-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "08/01/2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "surgery date"
+  },
+  {
+   "field": "note",
+   "text": "May 2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "first visit date"
+  },
+  {
+   "field": "note",
+   "text": "June 2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "diagnosis date"
+  },
+  {
+   "field": "note",
+   "text": "10/15/2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "CT date"
+  },
+  {
+   "field": "note",
+   "text": "Theresa",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "daughter name"
+  },
+  {
+   "field": "note",
+   "text": "Hannah",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "daughter name"
+  },
+  {
+   "field": "note",
+   "text": "his daughter",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "The other daughter",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "dining room",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "living setting"
+  },
+  {
+   "field": "note",
+   "text": "adult hydrocephalus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G91.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Adult hydrocephalus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G91.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hydrocephalus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G91.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "shunt surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G91.9",
+   "why": "hydrocephalus treatment"
+  },
+  {
+   "field": "note",
+   "text": "shunt",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G91.9",
+   "why": "hydrocephalus treatment"
+  },
+  {
+   "field": "note",
+   "text": "progressive gait impairment",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R26.89",
+   "why": "coded gait abnormality"
+  },
+  {
+   "field": "note",
+   "text": "Gait impairment",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R26.89",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "cognitive impairment",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G31.84",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Cognitive impairment",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G31.84",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "decreased bladder control",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N39.41",
+   "why": "incontinence symptom"
+  },
+  {
+   "field": "note",
+   "text": "bladder control",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N39.41",
+   "why": "incontinence"
+  },
+  {
+   "field": "note",
+   "text": "spinal catheter protocol",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G91.9",
+   "why": "hydrocephalus diagnostic"
+  },
+  {
+   "field": "note",
+   "text": "Medtronic Strata programmable shunt",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G91.9",
+   "why": "hydrocephalus device"
+  },
+  {
+   "field": "note",
+   "text": "ventriculoperitoneal configuration",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G91.9",
+   "why": "shunt configuration"
+  },
+  {
+   "field": "note",
+   "text": "walking impairment",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R26.89",
+   "why": "coded gait abnormality"
+  },
+  {
+   "field": "note",
+   "text": "balance",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R26.89",
+   "why": "mobility"
+  },
+  {
+   "field": "note",
+   "text": "wears a diaper",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N39.41",
+   "why": "incontinence management"
+  },
+  {
+   "field": "note",
+   "text": "wearing a diaper",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N39.41",
+   "why": "incontinence management"
+  },
+  {
+   "field": "note",
+   "text": "cognition",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G31.84",
+   "why": "cognitive status"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "pain at the shunt site or in the abdomen",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "Urinary incontinence",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N39.41",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "urinary incontinence",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N39.41",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Urinary incontinence and urgency",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N39.41",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "impaired ability to carry out daily functions",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "functional status"
+  },
+  {
+   "field": "note",
+   "text": "fever or unintentional weight loss",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "genital sores, decreased or painful output",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "recent falls, or hallucinations",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "depression, excessive worrying, or mood swings",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated psych"
+  },
+  {
+   "field": "note",
+   "text": "shunt site was clean, dry, and intact",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G91.9",
+   "why": "shunt site exam"
+  },
+  {
+   "field": "note",
+   "text": "MMSE",
+   "category": "c",
+   "type": "LAB",
+   "code": "G31.84",
+   "why": "cognitive testing"
+  },
+  {
+   "field": "note",
+   "text": "memory words",
+   "category": "c",
+   "type": "LAB",
+   "code": "G31.84",
+   "why": "cognitive testing"
+  },
+  {
+   "field": "note",
+   "text": "Tinetti assessment tool",
+   "category": "c",
+   "type": "LAB",
+   "code": "R26.89",
+   "why": "gait testing"
+  },
+  {
+   "field": "note",
+   "text": "gait score",
+   "category": "c",
+   "type": "LAB",
+   "code": "R26.89",
+   "why": "gait testing"
+  },
+  {
+   "field": "note",
+   "text": "No dysarthria",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "Slow for finger-to-nose",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "CT scan of the head",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G91.9",
+   "why": "hydrocephalus imaging"
+  },
+  {
+   "field": "note",
+   "text": "CT scan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G91.9",
+   "why": "hydrocephalus imaging"
+  },
+  {
+   "field": "note",
+   "text": "frontal horn span at the level of foramen of Munro",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G91.9",
+   "why": "hydrocephalus imaging"
+  },
+  {
+   "field": "note",
+   "text": "3rd ventricular contour",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G91.9",
+   "why": "hydrocephalus imaging"
+  },
+  {
+   "field": "note",
+   "text": "tiny amount of blood in the right frontal region",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "uncoded imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "tiny subdural collection",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "uncoded imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "extra axial fluid collections",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "small vessel ischemic change",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "uncoded imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "tiny fluid collection in the right parietal region",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "uncoded imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "fluid collection in the right parietal region",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "uncoded imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "speed of movement",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R26.89",
+   "why": "mobility"
+  },
+  {
+   "field": "note",
+   "text": "driver's safety evaluation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R26.89",
+   "why": "mobility assessment"
+  },
+  {
+   "field": "note",
+   "text": "driver's safety program",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R26.89",
+   "why": "mobility assessment"
+  }
+ ]
+}

@@ -1,0 +1,525 @@
+{
+ "encounter_id": "D2N035",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "christina",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "diane",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "friend name"
+  },
+  {
+   "field": "dialogue",
+   "text": "my friend",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "ankles were swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "could n't breathe",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "propped up in bed",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "orthopnea"
+  },
+  {
+   "field": "dialogue",
+   "text": "hard time talking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "dyspnea"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure was high",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I11.0",
+   "why": "hypertension"
+  },
+  {
+   "field": "dialogue",
+   "text": "salty foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I50.9",
+   "why": "cause of HF"
+  },
+  {
+   "field": "dialogue",
+   "text": "salt and vinegar potato chips",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I50.9",
+   "why": "cause of HF"
+  },
+  {
+   "field": "dialogue",
+   "text": "potato chips",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I50.9",
+   "why": "cause of HF"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "short of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "water pill",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "diuretic"
+  },
+  {
+   "field": "dialogue",
+   "text": "incontinence",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R32",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I11.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure cuff",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I11.0",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "problems sleeping",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "jugular venous distention",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "negated HF finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "stable murmur"
+  },
+  {
+   "field": "dialogue",
+   "text": "trace edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "preserved ef",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF echo"
+  },
+  {
+   "field": "dialogue",
+   "text": "abnormal diastolic filling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF echo"
+  },
+  {
+   "field": "dialogue",
+   "text": "mitral regurgitation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "valve finding not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "dietary indiscretion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "cause of HF"
+  },
+  {
+   "field": "dialogue",
+   "text": "uncontrolled hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "bumex",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "weigh yourself daily",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "nutritionist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF diet education"
+  },
+  {
+   "field": "dialogue",
+   "text": "cozaar",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I11.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I11.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "renal artery ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I11.0",
+   "why": "HTN workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "renal artery stenosis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "HTN differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "uncontrolled hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Bumex",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "note",
+   "text": "Cozaar",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I11.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "Norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I11.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "sleep disturbance",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "negated HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "urinary incontinence",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R32",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "diuretic medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R32",
+   "why": "cause of incontinence"
+  },
+  {
+   "field": "note",
+   "text": "jugular venous distention",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "negated HF finding"
+  },
+  {
+   "field": "note",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "stable murmur"
+  },
+  {
+   "field": "note",
+   "text": "Trace lower extremity edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF finding"
+  },
+  {
+   "field": "note",
+   "text": "Echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF workup"
+  },
+  {
+   "field": "note",
+   "text": "preserved ejection fraction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF echo"
+  },
+  {
+   "field": "note",
+   "text": "abnormal diastolic filling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF echo"
+  },
+  {
+   "field": "note",
+   "text": "mitral regurgitation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "valve finding not coded"
+  },
+  {
+   "field": "note",
+   "text": "Congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "dietary indiscretion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "cause of HF"
+  },
+  {
+   "field": "note",
+   "text": "sodium intake",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I50.9",
+   "why": "HF diet"
+  },
+  {
+   "field": "note",
+   "text": "food diary",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF diet monitoring"
+  },
+  {
+   "field": "note",
+   "text": "nutritionist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF diet education"
+  },
+  {
+   "field": "note",
+   "text": "Renal artery ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I11.0",
+   "why": "HTN workup"
+  },
+  {
+   "field": "note",
+   "text": "renal artery stenosis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "HTN differential"
+  },
+  {
+   "field": "note",
+   "text": "Kidney disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  }
+ ]
+}

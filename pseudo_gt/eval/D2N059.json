@@ -1,0 +1,533 @@
+{
+ "encounter_id": "D2N059",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "cooper",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor surname"
+  },
+  {
+   "field": "dialogue",
+   "text": "water polo",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "i tried to join sports",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "stop matches",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports participation"
+  },
+  {
+   "field": "dialogue",
+   "text": "step out of the the pool",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports participation"
+  },
+  {
+   "field": "dialogue",
+   "text": "sats",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "student exams"
+  },
+  {
+   "field": "dialogue",
+   "text": "saps",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "student exams"
+  },
+  {
+   "field": "dialogue",
+   "text": "ap classes",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "school detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "school expectations",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "student context"
+  },
+  {
+   "field": "dialogue",
+   "text": "asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "difficulty breathing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "catch my breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.909",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "albuterol inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.909",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "albuterol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.909",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "singulair",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.909",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoke",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma trigger exposure"
+  },
+  {
+   "field": "dialogue",
+   "text": "coughing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "phlegm",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest gets tight",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "wheezing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "lightheaded",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma attack symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shaky",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "albuterol side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "attack",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma attack"
+  },
+  {
+   "field": "dialogue",
+   "text": "aerobic workout",
+   "category": "c",
+   "type": "QUASI",
+   "code": "J45.909",
+   "why": "exercise trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "seasonal allergies",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "allergic component guiding asthma tx"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergies",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "allergic component guiding asthma tx"
+  },
+  {
+   "field": "dialogue",
+   "text": "mood",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F39",
+   "why": "coded mood disorder"
+  },
+  {
+   "field": "dialogue",
+   "text": "stressed out",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F39",
+   "why": "mood symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "really down",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F39",
+   "why": "mood symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "sadness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F39",
+   "why": "mood symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "feeling sad",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F39",
+   "why": "mood symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "not having motivation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F39",
+   "why": "mood symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "difficulty with focusing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F39",
+   "why": "mood screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "really tired",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F39",
+   "why": "mood symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "i'd rather be at home",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F39",
+   "why": "withdrawal"
+  },
+  {
+   "field": "dialogue",
+   "text": "therapist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F39",
+   "why": "mood treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "screening questionnaires",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F39",
+   "why": "mood workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "fluid in the ears",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "no tonsils",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "prior tonsillectomy"
+  },
+  {
+   "field": "dialogue",
+   "text": "reflexes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "student",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "patient role"
+  },
+  {
+   "field": "note",
+   "text": "water polo",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "school",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "student context"
+  },
+  {
+   "field": "note",
+   "text": "aerobics and running",
+   "category": "c",
+   "type": "QUASI",
+   "code": "J45.909",
+   "why": "exercise trigger"
+  },
+  {
+   "field": "note",
+   "text": "Asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "albuterol inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.909",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "albuterol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.909",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Singulair",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.909",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "daily asthma medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.909",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "seasonal allergies",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "allergic component"
+  },
+  {
+   "field": "note",
+   "text": "allergies",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "allergic component"
+  },
+  {
+   "field": "note",
+   "text": "Mood",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F39",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "mood changes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F39",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "fatigue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F39",
+   "why": "mood symptom"
+  },
+  {
+   "field": "note",
+   "text": "stress",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F39",
+   "why": "mood cause"
+  },
+  {
+   "field": "note",
+   "text": "therapist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F39",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "screening questionnaire",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F39",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "tonsillectomy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Tonsils have been previously removed",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Mild fluid in ears",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "No rash or lesions",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "No enlarged lymph nodes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  }
+ ]
+}

@@ -1,0 +1,605 @@
+{
+ "encounter_id": "D2N158",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "barbara",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "31 -year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "starbucks",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named store"
+  },
+  {
+   "field": "dialogue",
+   "text": "nitrocolbrus",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal preference"
+  },
+  {
+   "field": "dialogue",
+   "text": "venti",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal preference"
+  },
+  {
+   "field": "dialogue",
+   "text": "jog",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "exercise habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "go for a run",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "exercise habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes type two",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "drinking too much coffee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "cause of abdominal pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "coffee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "cause of abdominal pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "gastritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "cause of abdominal pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "GI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "GI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomited",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "GI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "diarrhea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "GI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "upper abdomen",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "pain location"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "abdominal pain screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes control"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "asthma attacks",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma control"
+  },
+  {
+   "field": "dialogue",
+   "text": "flovent",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.909",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "albuterol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.909",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "wheezing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "grade three out of six systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "chronic murmur"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild tenderness in the epigastrium",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R10.9",
+   "why": "abdominal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness in the right lower quadrant",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R10.9",
+   "why": "abdominal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness in the right upper quadrant",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R10.9",
+   "why": "abdominal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild end expiratory wheezes",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J45.909",
+   "why": "asthma exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "acute gastritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "cause of abdominal pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "caffeine intake",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "cause of gastritis"
+  },
+  {
+   "field": "dialogue",
+   "text": "caffeine",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "cause of gastritis"
+  },
+  {
+   "field": "dialogue",
+   "text": "alcohol use",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "gastritis risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "alcohol",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "gastritis risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "zantac",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R10.9",
+   "why": "gastritis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "urinalysis",
+   "category": "c",
+   "type": "LAB",
+   "code": "R10.9",
+   "why": "abdominal pain workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "urine pregnancy test",
+   "category": "c",
+   "type": "LAB",
+   "code": "R10.9",
+   "why": "abdominal pain workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "cbc",
+   "category": "c",
+   "type": "LAB",
+   "code": "R10.9",
+   "why": "abdominal pain workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "comprehensive metabolic panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "R10.9",
+   "why": "abdominal pain workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "spicy food",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "gastritis trigger"
+  },
+  {
+   "field": "note",
+   "text": "Abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diabetes type 2",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes type 2",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "gastritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "cause of abdominal pain"
+  },
+  {
+   "field": "note",
+   "text": "moderately heavy alcohol use",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "gastritis risk"
+  },
+  {
+   "field": "note",
+   "text": "coffee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "cause of abdominal pain"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "Metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "Flovent",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.909",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "note",
+   "text": "albuterol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J45.909",
+   "why": "asthma treatment"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "abdominal pain screen"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "GI symptom"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "GI symptom"
+  },
+  {
+   "field": "note",
+   "text": "diarrhea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "GI symptom"
+  },
+  {
+   "field": "note",
+   "text": "Mild end expiratory wheezes",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J45.909",
+   "why": "asthma exam"
+  },
+  {
+   "field": "note",
+   "text": "Grade 3/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "chronic murmur"
+  },
+  {
+   "field": "note",
+   "text": "Mild tenderness in the epigastrium",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R10.9",
+   "why": "abdominal exam"
+  },
+  {
+   "field": "note",
+   "text": "No tenderness in the right lower quadrant",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R10.9",
+   "why": "abdominal exam"
+  },
+  {
+   "field": "note",
+   "text": "No significant tenderness in the right upper quadrant",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R10.9",
+   "why": "abdominal exam"
+  },
+  {
+   "field": "note",
+   "text": "acute gastritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "cause of abdominal pain"
+  },
+  {
+   "field": "note",
+   "text": "caffeine intake",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "cause of gastritis"
+  },
+  {
+   "field": "note",
+   "text": "alcohol intake",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "gastritis risk"
+  },
+  {
+   "field": "note",
+   "text": "spicy foods",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.9",
+   "why": "gastritis trigger"
+  },
+  {
+   "field": "note",
+   "text": "Zantac",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R10.9",
+   "why": "gastritis treatment"
+  },
+  {
+   "field": "note",
+   "text": "urinalysis",
+   "category": "c",
+   "type": "LAB",
+   "code": "R10.9",
+   "why": "abdominal pain workup"
+  },
+  {
+   "field": "note",
+   "text": "urine pregnancy test",
+   "category": "c",
+   "type": "LAB",
+   "code": "R10.9",
+   "why": "abdominal pain workup"
+  },
+  {
+   "field": "note",
+   "text": "CBC",
+   "category": "c",
+   "type": "LAB",
+   "code": "R10.9",
+   "why": "abdominal pain workup"
+  },
+  {
+   "field": "note",
+   "text": "comprehensive metabolic panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "R10.9",
+   "why": "abdominal pain workup"
+  },
+  {
+   "field": "note",
+   "text": "home blood sugar monitoring",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes control"
+  },
+  {
+   "field": "note",
+   "text": "asthma attacks",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J45.909",
+   "why": "asthma control"
+  }
+ ]
+}

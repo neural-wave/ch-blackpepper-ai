@@ -1,0 +1,389 @@
+{
+ "encounter_id": "D2N037",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "dylan",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "basketball baseball and football",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "past sports"
+  },
+  {
+   "field": "dialogue",
+   "text": "golfing",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby question"
+  },
+  {
+   "field": "dialogue",
+   "text": "pitching",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby question"
+  },
+  {
+   "field": "dialogue",
+   "text": "expecting a newborn",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "lift heavy weights",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M77.01",
+   "why": "overuse cause of epicondylitis"
+  },
+  {
+   "field": "dialogue",
+   "text": "lift quite a bit of weights",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M77.01",
+   "why": "overuse cause of epicondylitis"
+  },
+  {
+   "field": "dialogue",
+   "text": "lift a lot of weights",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M77.01",
+   "why": "overuse cause of epicondylitis"
+  },
+  {
+   "field": "dialogue",
+   "text": "elbow is extremely sore",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "right elbow is hurting",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M77.01",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "icing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.01",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with both flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.01",
+   "why": "elbow exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "limited range of motion on extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.01",
+   "why": "elbow exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain on the medial side with palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.01",
+   "why": "elbow exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with torsion and twisting supination",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.01",
+   "why": "elbow exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with supination",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.02",
+   "why": "elbow exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.01",
+   "why": "elbow imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "medial epicondylitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "golfer's elbow",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "coded diagnosis synonym"
+  },
+  {
+   "field": "dialogue",
+   "text": "pictures elbow",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "coded diagnosis synonym"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.01",
+   "why": "workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "whole blood transfusion",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.01",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "inject it into my tendon",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.01",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "dry needling",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "not performed"
+  },
+  {
+   "field": "dialogue",
+   "text": "fractures",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated xray finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "bony misalignment",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated xray finding"
+  },
+  {
+   "field": "note",
+   "text": "Dylan Bennett",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "53-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "basketball, baseball, and football",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "past sports"
+  },
+  {
+   "field": "note",
+   "text": "expecting a newborn baby",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life event"
+  },
+  {
+   "field": "note",
+   "text": "heavy weights for strength training",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M77.01",
+   "why": "overuse cause of epicondylitis"
+  },
+  {
+   "field": "note",
+   "text": "bilateral elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "Bilateral elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "extremely sore",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M77.01",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Applying ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.01",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Limited range of motion with extension with pain",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.01",
+   "why": "elbow exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain to palpation along the medial aspect",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.01",
+   "why": "elbow exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with supination",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.01",
+   "why": "elbow exam"
+  },
+  {
+   "field": "note",
+   "text": "minimal pain with flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.02",
+   "why": "left elbow exam"
+  },
+  {
+   "field": "note",
+   "text": "Slight Limited ROM on extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M77.02",
+   "why": "left elbow exam"
+  },
+  {
+   "field": "note",
+   "text": "X-ray images of the bilateral elbows",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.01",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "Bilateral medial epicondylitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M77.01",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "MRI of the bilateral elbows",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.01",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "whole blood transfusion",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M77.01",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "fracture",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated xray finding"
+  },
+  {
+   "field": "note",
+   "text": "bony misalignment",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated xray finding"
+  }
+ ]
+}

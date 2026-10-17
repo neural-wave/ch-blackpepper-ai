@@ -1,0 +1,733 @@
+{
+ "encounter_id": "D2N151",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "teresa",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "son's birthday",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "ceramic bowl",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal project"
+  },
+  {
+   "field": "dialogue",
+   "text": "ceramics",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "baking",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "make cakes",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "family get togethers",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family context"
+  },
+  {
+   "field": "dialogue",
+   "text": "senna rules",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "baking hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "cinnamon rolls",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "baking hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "southern living magazine",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific personal detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "nature type area that goes across the bridge",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "neighborhood detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "walk around the neighborhood",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "neighborhood detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.521",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "pottery wheel",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.521",
+   "why": "overuse cause of elbow pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "pottery",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.521",
+   "why": "overuse cause of elbow pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "hurting on the inside of my elbow",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.521",
+   "why": "elbow pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "injured your elbow",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.521",
+   "why": "elbow history"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.521",
+   "why": "elbow pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.521",
+   "why": "elbow treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressures",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "sweet tooth",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetic consult",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes education"
+  },
+  {
+   "field": "dialogue",
+   "text": "dietitian",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes education"
+  },
+  {
+   "field": "dialogue",
+   "text": "cholesterol",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "five pound increase",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "weight not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "go for some walks",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "exercise for HTN control"
+  },
+  {
+   "field": "dialogue",
+   "text": "moderate tenderness at the medial epicondyle",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.521",
+   "why": "elbow exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with resisted pronation of right forearm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.521",
+   "why": "elbow exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with flexion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.521",
+   "why": "elbow exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "rub",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "gallop",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "rash",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "bruising",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.521",
+   "why": "elbow exam negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.521",
+   "why": "elbow exam negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "right elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.521",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "medial epicondylitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.521",
+   "why": "cause of elbow pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "sling",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.521",
+   "why": "elbow treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetic counseling",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes education"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray of my elbow",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.521",
+   "why": "elbow imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture or bony abnormality",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.521",
+   "why": "xray negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical rehab",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.521",
+   "why": "elbow treatment"
+  },
+  {
+   "field": "note",
+   "text": "Teresa Sullivan",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "33-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "bowl for her son",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family project"
+  },
+  {
+   "field": "note",
+   "text": "ceramics",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "baking cakes and cinnamon rolls",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "family gatherings",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family context"
+  },
+  {
+   "field": "note",
+   "text": "home baked goods",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "around her neighborhood",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "neighborhood detail"
+  },
+  {
+   "field": "note",
+   "text": "Right elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.521",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "right elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.521",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.521",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "pottery wheel",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.521",
+   "why": "overuse cause"
+  },
+  {
+   "field": "note",
+   "text": "pottery",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.521",
+   "why": "overuse cause"
+  },
+  {
+   "field": "note",
+   "text": "elbow injuries",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.521",
+   "why": "elbow history"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.521",
+   "why": "elbow pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "diabetes type 2",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes type 2",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "sweet tooth",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes diet"
+  },
+  {
+   "field": "note",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "walking routine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "exercise for HTN"
+  },
+  {
+   "field": "note",
+   "text": "5 lb increase",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "weight not coded"
+  },
+  {
+   "field": "note",
+   "text": "murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "rash or lesions",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "respiratory distress",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Moderate tenderness at the medial epicondyle",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.521",
+   "why": "elbow exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with resisted pronation of the right forearm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.521",
+   "why": "elbow exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with flexion and bending the right wrist",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.521",
+   "why": "elbow exam"
+  },
+  {
+   "field": "note",
+   "text": "No bruising or swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.521",
+   "why": "elbow exam"
+  },
+  {
+   "field": "note",
+   "text": "x-ray of the right elbow",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.521",
+   "why": "elbow imaging"
+  },
+  {
+   "field": "note",
+   "text": "fractures",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.521",
+   "why": "xray negative"
+  },
+  {
+   "field": "note",
+   "text": "medial epicondylitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.521",
+   "why": "cause of elbow pain"
+  },
+  {
+   "field": "note",
+   "text": "damage to the tendons",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.521",
+   "why": "cause of elbow pain"
+  },
+  {
+   "field": "note",
+   "text": "sling",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.521",
+   "why": "elbow treatment"
+  },
+  {
+   "field": "note",
+   "text": "ice her right elbow",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.521",
+   "why": "elbow treatment"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.521",
+   "why": "elbow treatment"
+  },
+  {
+   "field": "note",
+   "text": "diabetic counseling",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes education"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  }
+ ]
+}

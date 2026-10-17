@@ -1,0 +1,621 @@
+{
+ "encounter_id": "D2N171",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "evelyn",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "56-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "annual exam",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z00.00",
+   "why": "coded encounter reason"
+  },
+  {
+   "field": "dialogue",
+   "text": "coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "stenting",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "prior coronary intervention"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest discomfort",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "blockages",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecg",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD evaluation"
+  },
+  {
+   "field": "dialogue",
+   "text": "stress test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "cardiac stress test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "I25.10",
+   "why": "CAD workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "asprin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "toprol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "crestor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "carpal tunnel release",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z98.890",
+   "why": "postprocedural state"
+  },
+  {
+   "field": "dialogue",
+   "text": "carpal tunnel",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z98.890",
+   "why": "postprocedural state"
+  },
+  {
+   "field": "dialogue",
+   "text": "healed , uh , surgical scars on your- on your , uh , right wrist",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z98.890",
+   "why": "postprocedural finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "herniated disc",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.9",
+   "why": "disc symptom (negated)"
+  },
+  {
+   "field": "dialogue",
+   "text": "steroid injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.9",
+   "why": "disc treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.9",
+   "why": "disc treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbing and tingling in your hands",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea or vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "lower extremity edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "muscle aches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nasal congestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "pollen",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "allergen"
+  },
+  {
+   "field": "dialogue",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "echocardiogram",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "low pumping function of your heart",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "echo finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "mitral regurgitation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "echo finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "leaky heart valve",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "echo finding"
+  },
+  {
+   "field": "note",
+   "text": "Evelyn Morris",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "56-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "annual exam",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z00.00",
+   "why": "coded encounter reason"
+  },
+  {
+   "field": "note",
+   "text": "Annual exam",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z00.00",
+   "why": "coded encounter reason"
+  },
+  {
+   "field": "note",
+   "text": "coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "stenting",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "prior coronary intervention"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD symptom"
+  },
+  {
+   "field": "note",
+   "text": "ECG",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD evaluation"
+  },
+  {
+   "field": "note",
+   "text": "cardiac stress test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD workup"
+  },
+  {
+   "field": "note",
+   "text": "lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "I25.10",
+   "why": "CAD workup"
+  },
+  {
+   "field": "note",
+   "text": "aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Toprol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Crestor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "carpal tunnel release",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z98.890",
+   "why": "postprocedural state"
+  },
+  {
+   "field": "note",
+   "text": "Well-healed surgical scars on her right wrist",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z98.890",
+   "why": "postprocedural finding"
+  },
+  {
+   "field": "note",
+   "text": "herniated disc",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Herniated disc",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M51.9",
+   "why": "disc symptom (negated)"
+  },
+  {
+   "field": "note",
+   "text": "steroid injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.9",
+   "why": "disc treatment"
+  },
+  {
+   "field": "note",
+   "text": "steroid injections",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.9",
+   "why": "disc treatment"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M51.9",
+   "why": "disc treatment"
+  },
+  {
+   "field": "note",
+   "text": "numbness or tingling in her hands",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "nasal congestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated condition"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "lower extremity edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated finding"
+  },
+  {
+   "field": "note",
+   "text": "fevers, chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "muscle pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "wheezes, rales, or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Echocardiogram",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "echocardiogram",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "reduced ejection fraction",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "echo finding"
+  },
+  {
+   "field": "note",
+   "text": "mitral regurgitation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "echo finding"
+  }
+ ]
+}

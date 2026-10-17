@@ -1,0 +1,773 @@
+{
+ "encounter_id": "D2N051",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "jeremy",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "twenty eighteen",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "year of heart attack"
+  },
+  {
+   "field": "dialogue",
+   "text": "out in the backyard",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "hanging around the house",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "stepped on a nail",
+   "category": "c",
+   "type": "QUASI",
+   "code": "L97.519",
+   "why": "possible ulcer cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.519",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "ulcer on your foot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.519",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "foot wound",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.519",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "nonhealing ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.519",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "ulcerated lesion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.519",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "cellulitis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.519",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "granulation tissue",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.519",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "purulent discharge",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.519",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "palpable dorsalis pedis or posterior tibial pulses",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.519",
+   "why": "foot perfusion"
+  },
+  {
+   "field": "dialogue",
+   "text": "wound care",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L97.519",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood supply",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.519",
+   "why": "perfusion for healing"
+  },
+  {
+   "field": "dialogue",
+   "text": "stent to one of your arteries in your legs",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L97.519",
+   "why": "revascularization for ulcer"
+  },
+  {
+   "field": "dialogue",
+   "text": "bypass surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L97.519",
+   "why": "revascularization for ulcer"
+  },
+  {
+   "field": "dialogue",
+   "text": "arterial ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L97.519",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "podiatry consult",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L97.519",
+   "why": "ulcer care"
+  },
+  {
+   "field": "dialogue",
+   "text": "podiatrist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "diabetic foot exams"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetic",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "insulin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.621",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "glycemic control"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "glycemic control"
+  },
+  {
+   "field": "dialogue",
+   "text": "neuropathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "diabetic complication"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbing and tingling in your feet",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "diabetic neuropathy"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded CAD"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart attack",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD history"
+  },
+  {
+   "field": "dialogue",
+   "text": "stent into your right coronary artery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "baby aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "statin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cardiologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD care"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "negated angina"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoker",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever or chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "tension headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain in your calves",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated claudication"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "jugular venous distention",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Jeremy Roberts",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "79-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "2018",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "year of heart attack"
+  },
+  {
+   "field": "note",
+   "text": "work around the house",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal activity"
+  },
+  {
+   "field": "note",
+   "text": "working outside",
+   "category": "c",
+   "type": "QUASI",
+   "code": "L97.519",
+   "why": "possible ulcer cause"
+  },
+  {
+   "field": "note",
+   "text": "foot ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.519",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.519",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Non-healing ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.519",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "non-healing right foot ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.519",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "foot wound",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.519",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "ulcerated lesion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.519",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "cellulitis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.519",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "granulation tissue",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.519",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "purulent discharge",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.519",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "No palpable dorsalis pedis or posterior tibial pulses",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L97.519",
+   "why": "foot perfusion"
+  },
+  {
+   "field": "note",
+   "text": "wound care",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L97.519",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "note",
+   "text": "blood supply",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L97.519",
+   "why": "perfusion"
+  },
+  {
+   "field": "note",
+   "text": "stent placement or bypass surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L97.519",
+   "why": "revascularization"
+  },
+  {
+   "field": "note",
+   "text": "arterial ultrasound of the lower extremities",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L97.519",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "note",
+   "text": "podiatry",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L97.519",
+   "why": "ulcer care"
+  },
+  {
+   "field": "note",
+   "text": "podiatrist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "diabetic foot exams"
+  },
+  {
+   "field": "note",
+   "text": "diabetic",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "insulin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.621",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "glycemic control"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "glycemic control"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "glycemic control"
+  },
+  {
+   "field": "note",
+   "text": "numbness and tingling in his feet",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "diabetic neuropathy"
+  },
+  {
+   "field": "note",
+   "text": "numbness and tingling in feet",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "diabetic neuropathy"
+  },
+  {
+   "field": "note",
+   "text": "heart disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded CAD"
+  },
+  {
+   "field": "note",
+   "text": "heart attack",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD history"
+  },
+  {
+   "field": "note",
+   "text": "stent placement at the right coronary artery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "statin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "cardiologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD care"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "negated angina"
+  },
+  {
+   "field": "note",
+   "text": "former smoker",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD risk factor"
+  },
+  {
+   "field": "note",
+   "text": "fevers or chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "fevers and chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "tension headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "pain in his calves",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated claudication"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "jugular venous distention",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  }
+ ]
+}

@@ -1,0 +1,885 @@
+{
+ "encounter_id": "D2N032",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "reyes",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "dialogue",
+   "text": "56-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "february 2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "symptom onset date"
+  },
+  {
+   "field": "dialogue",
+   "text": "2018",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "year started weight watchers"
+  },
+  {
+   "field": "dialogue",
+   "text": "june 3rd 2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "imaging date"
+  },
+  {
+   "field": "dialogue",
+   "text": "infusion room",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "workplace detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "work at an infusion center",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "patient job"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight watchers",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "program participation"
+  },
+  {
+   "field": "dialogue",
+   "text": "lost 110 pounds",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific achievement"
+  },
+  {
+   "field": "dialogue",
+   "text": "roommate",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "living situation"
+  },
+  {
+   "field": "dialogue",
+   "text": "right hip degenerative joint disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M16.11",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "groin area",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M16.11",
+   "why": "hip OA pain location"
+  },
+  {
+   "field": "dialogue",
+   "text": "catches",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M16.11",
+   "why": "hip mechanical symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pivot",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M16.11",
+   "why": "aggravating movement"
+  },
+  {
+   "field": "dialogue",
+   "text": "sometimes i fall",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M16.11",
+   "why": "hip giving way"
+  },
+  {
+   "field": "dialogue",
+   "text": "range of motion is decreased in right hip",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M16.11",
+   "why": "hip exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain in the groin",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M16.11",
+   "why": "hip exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "resisted right hip flection",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M16.11",
+   "why": "hip exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain in the right groin region",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M16.11",
+   "why": "hip exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "radiographs",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M16.11",
+   "why": "hip imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "mr arthrogram of the right hip",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M16.11",
+   "why": "hip imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "high grade condromalacia",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M16.11",
+   "why": "OA imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "subchondral marrow edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M16.11",
+   "why": "OA imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "cyst formation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M16.11",
+   "why": "OA imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "low impact exercises",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M16.11",
+   "why": "OA treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "low impact exercise program",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M16.11",
+   "why": "OA treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nsaids",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M16.11",
+   "why": "OA treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nsaid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M16.11",
+   "why": "OA treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cane",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M16.11",
+   "why": "OA treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cortisone injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M16.11",
+   "why": "OA treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever or chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptoms"
+  },
+  {
+   "field": "dialogue",
+   "text": "tingling or numbness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptoms"
+  },
+  {
+   "field": "dialogue",
+   "text": "problems with your bowel or bladder",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptoms"
+  },
+  {
+   "field": "dialogue",
+   "text": "pcl",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "infertility",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "gall bladder removed",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "thyroid disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "gastric ulcers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "percocet",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "allergy"
+  },
+  {
+   "field": "dialogue",
+   "text": "vicodin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "allergy"
+  },
+  {
+   "field": "dialogue",
+   "text": "regulin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "allergy"
+  },
+  {
+   "field": "dialogue",
+   "text": "intentional weight loss",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "weight history"
+  },
+  {
+   "field": "dialogue",
+   "text": "tobacco",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated social history"
+  },
+  {
+   "field": "dialogue",
+   "text": "ankle edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "calf tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "spurling's test",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "bulging discs",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "spine history"
+  },
+  {
+   "field": "dialogue",
+   "text": "midline tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated back finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "sacroiliac signs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated SI exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "focal motor weakness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated neuro finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "focal sensory deficit",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated neuro finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "covid",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "injection risk context"
+  },
+  {
+   "field": "note",
+   "text": "Elizabeth Reyes",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "56-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "02/2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "symptom onset date"
+  },
+  {
+   "field": "note",
+   "text": "2018",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "year"
+  },
+  {
+   "field": "note",
+   "text": "06/03/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "imaging date"
+  },
+  {
+   "field": "note",
+   "text": "RN",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "patient job"
+  },
+  {
+   "field": "note",
+   "text": "Johnson",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named workplace"
+  },
+  {
+   "field": "note",
+   "text": "infusion center",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "workplace"
+  },
+  {
+   "field": "note",
+   "text": "infusion room",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "workplace"
+  },
+  {
+   "field": "note",
+   "text": "Weight Watchers",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "program participation"
+  },
+  {
+   "field": "note",
+   "text": "lost 110 pounds",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific achievement"
+  },
+  {
+   "field": "note",
+   "text": "roommate",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "living situation"
+  },
+  {
+   "field": "note",
+   "text": "Right hip pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M16.11",
+   "why": "OA symptom"
+  },
+  {
+   "field": "note",
+   "text": "pain in her right hip and groin region",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M16.11",
+   "why": "OA symptom"
+  },
+  {
+   "field": "note",
+   "text": "Right hip catches",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M16.11",
+   "why": "mechanical symptom"
+  },
+  {
+   "field": "note",
+   "text": "causing her to fall",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M16.11",
+   "why": "hip giving way"
+  },
+  {
+   "field": "note",
+   "text": "pivoting",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M16.11",
+   "why": "aggravating movement"
+  },
+  {
+   "field": "note",
+   "text": "Range of motion is decreased in the right hip",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M16.11",
+   "why": "hip exam finding"
+  },
+  {
+   "field": "note",
+   "text": "pain in the groin",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M16.11",
+   "why": "hip exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Resisted right hip flexion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M16.11",
+   "why": "hip exam finding"
+  },
+  {
+   "field": "note",
+   "text": "MR arthrogram of the right hip",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M16.11",
+   "why": "hip imaging"
+  },
+  {
+   "field": "note",
+   "text": "high-grade chondromalacia",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M16.11",
+   "why": "OA imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "subchondral marrow edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M16.11",
+   "why": "OA imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "cyst formation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M16.11",
+   "why": "OA imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "Right hip degenerative joint disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M16.11",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "low impact exercises",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M16.11",
+   "why": "OA treatment"
+  },
+  {
+   "field": "note",
+   "text": "analgesics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M16.11",
+   "why": "OA treatment"
+  },
+  {
+   "field": "note",
+   "text": "NSAID",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M16.11",
+   "why": "OA treatment"
+  },
+  {
+   "field": "note",
+   "text": "cane",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M16.11",
+   "why": "OA treatment"
+  },
+  {
+   "field": "note",
+   "text": "cortisone injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M16.11",
+   "why": "OA treatment"
+  },
+  {
+   "field": "note",
+   "text": "steroid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M16.11",
+   "why": "OA injection"
+  },
+  {
+   "field": "note",
+   "text": "bulging discs",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "spine history"
+  },
+  {
+   "field": "note",
+   "text": "back pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "bowel or bladder dysfunction",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "tingling or numbness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "PCOS",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "note",
+   "text": "Cholecystectomy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "Thyroid disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "Kidney disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "Gastric ulcers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "Percocet",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "allergy"
+  },
+  {
+   "field": "note",
+   "text": "Vicodin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "allergy"
+  },
+  {
+   "field": "note",
+   "text": "Reglan",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "allergy"
+  },
+  {
+   "field": "note",
+   "text": "tobacco use",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated social history"
+  },
+  {
+   "field": "note",
+   "text": "ankle edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "calf tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "Spurling's test",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "neck exam"
+  },
+  {
+   "field": "note",
+   "text": "focal motor weakness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated neuro"
+  },
+  {
+   "field": "note",
+   "text": "focal sensory deficit",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated neuro"
+  },
+  {
+   "field": "note",
+   "text": "COVID",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "injection risk context"
+  }
+ ]
+}

@@ -1,0 +1,421 @@
+{
+ "encounter_id": "D2N133",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "rebecca",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "27-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "carpal tunnel , um , uh , release",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.00",
+   "why": "carpal tunnel treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "carpal tunnel",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "chronic back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G89.29",
+   "why": "coded chronic pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "swimming",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M22.41",
+   "why": "cause of chondromalacia"
+  },
+  {
+   "field": "dialogue",
+   "text": "breaststroke",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M22.41",
+   "why": "cause of knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.41",
+   "why": "chondromalacia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.41",
+   "why": "coded site"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain going down your legs",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated radicular symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hurting yourself or others",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated SI/HI"
+  },
+  {
+   "field": "dialogue",
+   "text": "painful if i move your patella",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.41",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.41",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated knee swelling"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with , um , uh , range of motion of the knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.41",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "patellar inhibition",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.41",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "adenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "chondromalacia of the patella",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.41",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "overuse",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.41",
+   "why": "cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "anti-inflammatories",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M22.41",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M22.41",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "straight leg raising exercises",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.41",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lunges",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M22.41",
+   "why": "activity to avoid"
+  },
+  {
+   "field": "note",
+   "text": "Thompson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "27 y.o.",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "carpal tunnel release",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.00",
+   "why": "carpal tunnel treatment"
+  },
+  {
+   "field": "note",
+   "text": "carpal tunnel",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Carpal tunnel syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "chronic back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G89.29",
+   "why": "coded chronic pain"
+  },
+  {
+   "field": "note",
+   "text": "Chronic back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G89.29",
+   "why": "coded chronic pain"
+  },
+  {
+   "field": "note",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "note",
+   "text": "swimming",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M22.41",
+   "why": "cause of chondromalacia"
+  },
+  {
+   "field": "note",
+   "text": "swimming freestyle laps",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M22.41",
+   "why": "activity advice"
+  },
+  {
+   "field": "note",
+   "text": "right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.41",
+   "why": "chondromalacia symptom"
+  },
+  {
+   "field": "note",
+   "text": "right knee joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.41",
+   "why": "chondromalacia symptom"
+  },
+  {
+   "field": "note",
+   "text": "Joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.41",
+   "why": "presenting complaint"
+  },
+  {
+   "field": "note",
+   "text": "joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.41",
+   "why": "presenting complaint"
+  },
+  {
+   "field": "note",
+   "text": "injury or trauma to the knee",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "pain radiating down her legs",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "hurting herself or others",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "thyromegaly or cervical lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "No lower extremity edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with patellar inhibition",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.41",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with range of motion of the right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.41",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.41",
+   "why": "knee imaging"
+  },
+  {
+   "field": "note",
+   "text": "Chondromalacia of right patella",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.41",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M22.41",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "straight leg raising exercises",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.41",
+   "why": "treatment"
+  }
+ ]
+}

@@ -1,0 +1,637 @@
+{
+ "encounter_id": "D2N001",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "martha",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "50-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "washington",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "travel destination state"
+  },
+  {
+   "field": "dialogue",
+   "text": "northern cascades",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "hiking location"
+  },
+  {
+   "field": "dialogue",
+   "text": "mount baker",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "hiking location"
+  },
+  {
+   "field": "dialogue",
+   "text": "hiking",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "traveling",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle/travel"
+  },
+  {
+   "field": "dialogue",
+   "text": "fiscal year end data",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "low sodium diet",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "salty foods",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "diet relevant to HF"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pains",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom review"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom review"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling in your legs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom review"
+  },
+  {
+   "field": "dialogue",
+   "text": "therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "harm yourself or hurt others",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure medications",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I11.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I11.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "three out of six systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "cardiac finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "one plus pitting edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "fluid retention HF"
+  },
+  {
+   "field": "dialogue",
+   "text": "fluid in your legs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "fluid retention HF"
+  },
+  {
+   "field": "dialogue",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "low-ish pumping function",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "reduced EF"
+  },
+  {
+   "field": "dialogue",
+   "text": "mitral regurgitation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "echo finding heart disease"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I11.0",
+   "why": "HTN/HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lasix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "vaccine",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated vaccination"
+  },
+  {
+   "field": "dialogue",
+   "text": "nasal congestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "fall pollen and allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated allergies"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipid panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "cholesterol not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "cholesterol",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "mammogram",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "screening unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Martha Collins",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "50-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "traveling",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle/travel"
+  },
+  {
+   "field": "note",
+   "text": "hiking",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "salty foods",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "diet relevant to HF"
+  },
+  {
+   "field": "note",
+   "text": "dietary modifications",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom review"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom review"
+  },
+  {
+   "field": "note",
+   "text": "swelling in her legs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom review"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea on exertion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom review"
+  },
+  {
+   "field": "note",
+   "text": "therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "note",
+   "text": "suicidal or homicidal ideation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression screening"
+  },
+  {
+   "field": "note",
+   "text": "blood pressure medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I11.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "Grade 3/6 systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "cardiac finding"
+  },
+  {
+   "field": "note",
+   "text": "1+ pitting edema of the bilateral lower extremities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF edema"
+  },
+  {
+   "field": "note",
+   "text": "Echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF workup"
+  },
+  {
+   "field": "note",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF workup"
+  },
+  {
+   "field": "note",
+   "text": "decreased ejection fraction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "reduced EF"
+  },
+  {
+   "field": "note",
+   "text": "reduced ejection fraction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "reduced EF"
+  },
+  {
+   "field": "note",
+   "text": "Mitral regurgitation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "echo finding"
+  },
+  {
+   "field": "note",
+   "text": "mitral regurgitation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "echo finding"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I11.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "Lasix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "note",
+   "text": "COVID-19 vaccine",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated vaccination"
+  },
+  {
+   "field": "note",
+   "text": "nasal congestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "fall allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated ROS"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated ROS"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated ROS"
+  },
+  {
+   "field": "note",
+   "text": "Lipid panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "cholesterol not coded"
+  },
+  {
+   "field": "note",
+   "text": "lipid panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "cholesterol not coded"
+  },
+  {
+   "field": "note",
+   "text": "Elevated cholesterol",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "mammogram",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "screening unrelated"
+  }
+ ]
+}

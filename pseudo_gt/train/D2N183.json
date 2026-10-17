@@ -1,0 +1,413 @@
+{
+ "encounter_id": "D2N183",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "matthew rogers",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "5/24/2007",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "3/3/21",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "prior visit date"
+  },
+  {
+   "field": "dialogue",
+   "text": "walgreens on broad",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named pharmacy and street"
+  },
+  {
+   "field": "dialogue",
+   "text": "acne",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "acne vulgaris",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "clindamycin lotion",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "clindamycin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tretinoin cream",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tretinoin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tret-tret-tretinoin cream",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "trent- tretinoin cream",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "benzoyl peroxide wash",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "benzoyl peroxide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "benzol peroxide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "benzoyl peroxide base",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "antibiotic thing",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "sunscreen moisture stuff",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne regimen"
+  },
+  {
+   "field": "dialogue",
+   "text": "PanOxyl 10 %",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "PanOxyl 10 % foaming wash",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "redness , peeling , dryness , or irritation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "treatment side-effect screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "scattered inflammatory papules and pustules across the upper back and posterior shoulders",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L70.0",
+   "why": "acne exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "inflammatory papules on the forehead , cheeks , and chin",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L70.0",
+   "why": "acne exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild flare on the back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "acne flare"
+  },
+  {
+   "field": "note",
+   "text": "Matthew Rogers",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Matthew",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "note",
+   "text": "14-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "accompanied by his father",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "03/03/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "prior visit date"
+  },
+  {
+   "field": "note",
+   "text": "acne",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Acne vulgaris",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "acne vulgaris",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "facial acne",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "benzoyl peroxide facial wash",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "benzoyl peroxide wash",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "benzoyl peroxide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "clindamycin lotion",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "clindamycin 1% lotion",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "clindamycin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "tretinoin cream",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "Tretinoin cream",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "tretinoin 0.1 % cream",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "sunscreen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne regimen"
+  },
+  {
+   "field": "note",
+   "text": "moisturizer",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne regimen"
+  },
+  {
+   "field": "note",
+   "text": "moisturizing sunscreen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne regimen"
+  },
+  {
+   "field": "note",
+   "text": "PanOxyl 10 % wash",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "PanOxyl",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "redness, peeling, dryness, or irritation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "treatment side-effect screen"
+  },
+  {
+   "field": "note",
+   "text": "scattered inflammatory papules and pustules across the upper back and posterior shoulders",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L70.0",
+   "why": "acne exam finding"
+  },
+  {
+   "field": "note",
+   "text": "inflammatory papules on the forehead, cheeks, and chin",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L70.0",
+   "why": "acne exam finding"
+  },
+  {
+   "field": "note",
+   "text": "mild flare",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "acne flare"
+  }
+ ]
+}

@@ -1,0 +1,1045 @@
+{
+ "encounter_id": "D2N074",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "bruce ward",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "ward",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "henry howard",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "referring doctor"
+  },
+  {
+   "field": "dialogue",
+   "text": "howard",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "referring doctor"
+  },
+  {
+   "field": "dialogue",
+   "text": "flores",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor name"
+  },
+  {
+   "field": "dialogue",
+   "text": "deborah",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "scheduler name"
+  },
+  {
+   "field": "dialogue",
+   "text": "5/21/1969",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "52-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "3/1/21",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "visit date"
+  },
+  {
+   "field": "dialogue",
+   "text": "3/3/21",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "lab date"
+  },
+  {
+   "field": "dialogue",
+   "text": "3/4/21",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "imaging date"
+  },
+  {
+   "field": "dialogue",
+   "text": "in the fall",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "eye exam season"
+  },
+  {
+   "field": "dialogue",
+   "text": "computer programmer",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "occupation"
+  },
+  {
+   "field": "dialogue",
+   "text": "married for 25 years",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "marital detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "i was adopted",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "bought a small house",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "pituitary lesion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D35.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "mass on your pituitary gland",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D35.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "benign pituitary adenoma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D35.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "pituitary adenoma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D35.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "adenoma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D35.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "well defined mass",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D35.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D35.2",
+   "why": "presenting symptom of adenoma"
+  },
+  {
+   "field": "dialogue",
+   "text": "dull nagging ache",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D35.2",
+   "why": "headache description"
+  },
+  {
+   "field": "dialogue",
+   "text": "behind my eyes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D35.2",
+   "why": "headache location"
+  },
+  {
+   "field": "dialogue",
+   "text": "brain mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D35.2",
+   "why": "adenoma imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D35.2",
+   "why": "adenoma imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "cbc",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "normal labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "unes",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "normal labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "coagulation",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "normal labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "crp",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "normal labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "pituitary hormone profile",
+   "category": "c",
+   "type": "LAB",
+   "code": "D35.2",
+   "why": "pituitary workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "low tsh",
+   "category": "c",
+   "type": "LAB",
+   "code": "D35.2",
+   "why": "pituitary finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "compression of the optic chiasm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H53.47",
+   "why": "cause of field defect"
+  },
+  {
+   "field": "dialogue",
+   "text": "compressing the optic chiasm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H53.47",
+   "why": "cause of field defect"
+  },
+  {
+   "field": "dialogue",
+   "text": "optic chiasmal compression",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H53.47",
+   "why": "cause of field defect"
+  },
+  {
+   "field": "dialogue",
+   "text": "bumping into door frames",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H53.47",
+   "why": "field defect symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "bitemporal hemianopia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H53.47",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "vision loss",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H53.47",
+   "why": "coded diagnosis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "could n't see out of the side",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H53.47",
+   "why": "field defect symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "visual field testing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "H53.47",
+   "why": "field defect test"
+  },
+  {
+   "field": "dialogue",
+   "text": "visual field test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "H53.47",
+   "why": "field defect test"
+  },
+  {
+   "field": "dialogue",
+   "text": "eye doctor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "H53.47",
+   "why": "ophthalmology referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "rashes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "neck stiffness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "weakness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "passing out",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "tingling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "D35.2",
+   "why": "headache treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "drink any alcohol",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "social history"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoke",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "social history"
+  },
+  {
+   "field": "dialogue",
+   "text": "recreational drugs",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "social history"
+  },
+  {
+   "field": "dialogue",
+   "text": "visual acuity and eye movements are normal",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H53.47",
+   "why": "eye exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "color vision is normal",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H53.47",
+   "why": "eye exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "cranial nerve examination is grossly intact",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "neuro exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "transsphenoidal approach",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D35.2",
+   "why": "adenoma surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D35.2",
+   "why": "adenoma surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "pathology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D35.2",
+   "why": "adenoma diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart attack",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "stroke",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "infection",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "spinal fluid leak",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "seizure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "permanent numbness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "difficulty speaking",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "decompress the pituitary fossa",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D35.2",
+   "why": "adenoma surgery"
+  },
+  {
+   "field": "note",
+   "text": "Bruce Ward",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "Ward",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "Henry Howard",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "referring doctor"
+  },
+  {
+   "field": "note",
+   "text": "Howard",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "referring doctor"
+  },
+  {
+   "field": "note",
+   "text": "52-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "03/01/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "visit date"
+  },
+  {
+   "field": "note",
+   "text": "03/03/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "lab date"
+  },
+  {
+   "field": "note",
+   "text": "03/04/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "imaging date"
+  },
+  {
+   "field": "note",
+   "text": "computer programmer",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "occupation"
+  },
+  {
+   "field": "note",
+   "text": "Married for 25 years",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "marital detail"
+  },
+  {
+   "field": "note",
+   "text": "adopted",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "recently purchased a new house",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life event"
+  },
+  {
+   "field": "note",
+   "text": "Lives with wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "Pituitary lesion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D35.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "pituitary lesion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D35.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Pituitary adenoma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D35.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "pituitary adenoma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D35.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "adenoma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D35.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D35.2",
+   "why": "presenting symptom of adenoma"
+  },
+  {
+   "field": "note",
+   "text": "dull ache behind the eyes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D35.2",
+   "why": "headache description"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "D35.2",
+   "why": "headache treatment"
+  },
+  {
+   "field": "note",
+   "text": "MRI of the brain",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D35.2",
+   "why": "adenoma imaging"
+  },
+  {
+   "field": "note",
+   "text": "MRI brain",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D35.2",
+   "why": "adenoma imaging"
+  },
+  {
+   "field": "note",
+   "text": "MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D35.2",
+   "why": "adenoma imaging"
+  },
+  {
+   "field": "note",
+   "text": "bumping into door frames",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H53.47",
+   "why": "field defect symptom"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "note",
+   "text": "rash",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "note",
+   "text": "paresthesia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "note",
+   "text": "weakness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "note",
+   "text": "neck stiffness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "note",
+   "text": "syncope",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "note",
+   "text": "Alcohol Use",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "social history"
+  },
+  {
+   "field": "note",
+   "text": "Non-smoker",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "social history"
+  },
+  {
+   "field": "note",
+   "text": "Recreational Drugs",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "social history"
+  },
+  {
+   "field": "note",
+   "text": "Cranial nerve examination grossly intact",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "neuro exam"
+  },
+  {
+   "field": "note",
+   "text": "No focal motor or sensory deficit",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "neuro exam"
+  },
+  {
+   "field": "note",
+   "text": "Visual acuity and eye movements are normal",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H53.47",
+   "why": "eye exam"
+  },
+  {
+   "field": "note",
+   "text": "Pupils are equal and reactive",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H53.47",
+   "why": "eye exam"
+  },
+  {
+   "field": "note",
+   "text": "Visual field testing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "H53.47",
+   "why": "field test"
+  },
+  {
+   "field": "note",
+   "text": "visual field testing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "H53.47",
+   "why": "field test"
+  },
+  {
+   "field": "note",
+   "text": "bitemporal hemianopia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H53.47",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Bitemporal hemianopia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H53.47",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Color vision is normal",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H53.47",
+   "why": "eye exam"
+  },
+  {
+   "field": "note",
+   "text": "CBC",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "normal labs"
+  },
+  {
+   "field": "note",
+   "text": "U&Es",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "normal labs"
+  },
+  {
+   "field": "note",
+   "text": "coagulation",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "normal labs"
+  },
+  {
+   "field": "note",
+   "text": "CRP",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "normal labs"
+  },
+  {
+   "field": "note",
+   "text": "Pituitary hormone profile",
+   "category": "c",
+   "type": "LAB",
+   "code": "D35.2",
+   "why": "pituitary workup"
+  },
+  {
+   "field": "note",
+   "text": "low TSH",
+   "category": "c",
+   "type": "LAB",
+   "code": "D35.2",
+   "why": "pituitary finding"
+  },
+  {
+   "field": "note",
+   "text": "compression of the optic chiasm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H53.47",
+   "why": "cause of field defect"
+  },
+  {
+   "field": "note",
+   "text": "optic chiasmal compression",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H53.47",
+   "why": "cause of field defect"
+  },
+  {
+   "field": "note",
+   "text": "trans-sphenoidal resection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D35.2",
+   "why": "adenoma surgery"
+  },
+  {
+   "field": "note",
+   "text": "decompress the pituitary fossa",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D35.2",
+   "why": "adenoma surgery"
+  },
+  {
+   "field": "note",
+   "text": "pathological diagnosis",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D35.2",
+   "why": "adenoma diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "ophthalmology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "H53.47",
+   "why": "field defect referral"
+  },
+  {
+   "field": "note",
+   "text": "heart attack",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "note",
+   "text": "stroke",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "note",
+   "text": "infection",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "note",
+   "text": "spinal fluid leak",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "note",
+   "text": "seizure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "note",
+   "text": "permanent numbness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "note",
+   "text": "difficulty speaking",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  }
+ ]
+}

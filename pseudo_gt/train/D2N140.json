@@ -1,0 +1,693 @@
+{
+ "encounter_id": "D2N140",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "brittany edwards",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "edwards",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "07 , 1898",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth fragment"
+  },
+  {
+   "field": "dialogue",
+   "text": "32-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "august of 2019",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "last visit date"
+  },
+  {
+   "field": "dialogue",
+   "text": "friday's restaurant",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named restaurant"
+  },
+  {
+   "field": "dialogue",
+   "text": "drinking with your friends",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "going out to eat",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "i prefer patron",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal preference"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "irritable bowl",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "functional abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "IBS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "IBS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "IBS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "IBS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "flares of abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "IBS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "bentyl",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K58.9",
+   "why": "IBS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "reglan",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K58.9",
+   "why": "nausea treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "fiber supplement",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K58.9",
+   "why": "IBS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "citrucel",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K58.9",
+   "why": "IBS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "probiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K58.9",
+   "why": "IBS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "gas and bloating",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "IBS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "intestinal cramping",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "IBS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "zofran",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K58.9",
+   "why": "nausea treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "neuromodulators",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K58.9",
+   "why": "IBS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "neuromodulator",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K58.9",
+   "why": "IBS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "elavil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K58.9",
+   "why": "IBS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "buspar",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K58.9",
+   "why": "IBS treatment option"
+  },
+  {
+   "field": "dialogue",
+   "text": "spicy shrimp",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "spicy foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "fatty foods and alcohol",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "cramps",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "IBS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "diarrhea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "IBS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chicken alfredo",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "alfredo sauce",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "bloated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "IBS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "tequila or dark liquor",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "brown liquor",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "martini",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "cramping and sharp pains",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "IBS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "heavy foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "fried chicken",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "sodas",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "greasy or fatty foods and sugary drinks",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "masses or organomegaly",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "high stress , poor eating habits , and poor sleeping habits",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS aggravators"
+  },
+  {
+   "field": "dialogue",
+   "text": "greasy and fatty foods and alcohol consumption",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "note",
+   "text": "Brittany Edwards",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "Edwards",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "32-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "August 2019",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "last visit date"
+  },
+  {
+   "field": "note",
+   "text": "irritable bowel syndrome (IBS)",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "irritable bowel syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Irritable bowel syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "IBS",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "functional abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "IBS symptom"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "IBS symptom"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "IBS symptom"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "IBS symptom"
+  },
+  {
+   "field": "note",
+   "text": "Bentyl",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K58.9",
+   "why": "IBS treatment"
+  },
+  {
+   "field": "note",
+   "text": "Reglan",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K58.9",
+   "why": "nausea treatment"
+  },
+  {
+   "field": "note",
+   "text": "fiber supplement",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K58.9",
+   "why": "IBS treatment"
+  },
+  {
+   "field": "note",
+   "text": "Citrucel",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K58.9",
+   "why": "IBS treatment"
+  },
+  {
+   "field": "note",
+   "text": "probiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K58.9",
+   "why": "IBS treatment"
+  },
+  {
+   "field": "note",
+   "text": "gas and bloating",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "IBS symptom"
+  },
+  {
+   "field": "note",
+   "text": "intestinal cramping",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "IBS symptom"
+  },
+  {
+   "field": "note",
+   "text": "Zofran",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K58.9",
+   "why": "nausea treatment"
+  },
+  {
+   "field": "note",
+   "text": "Neuromodulators",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K58.9",
+   "why": "IBS treatment"
+  },
+  {
+   "field": "note",
+   "text": "neuromodulator",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K58.9",
+   "why": "IBS treatment"
+  },
+  {
+   "field": "note",
+   "text": "Elavil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K58.9",
+   "why": "IBS treatment"
+  },
+  {
+   "field": "note",
+   "text": "Buspar",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K58.9",
+   "why": "IBS treatment option"
+  },
+  {
+   "field": "note",
+   "text": "cramps and sharp pains",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "IBS symptom"
+  },
+  {
+   "field": "note",
+   "text": "shrimp",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "note",
+   "text": "upper and lower abdominal pain and bloating",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "IBS symptom"
+  },
+  {
+   "field": "note",
+   "text": "diarrhea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K58.9",
+   "why": "IBS symptom"
+  },
+  {
+   "field": "note",
+   "text": "chicken alfredo",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "note",
+   "text": "consuming alcohol",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "note",
+   "text": "tequila or brown liquor",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "note",
+   "text": "martini",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "note",
+   "text": "heavy foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "note",
+   "text": "fried chicken",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "note",
+   "text": "sodas",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  },
+  {
+   "field": "note",
+   "text": "masses or organomegaly",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "high stress, poor eating habits, and poor sleeping habits",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS aggravators"
+  },
+  {
+   "field": "note",
+   "text": "greasy fatty foods and alcohol consumption",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K58.9",
+   "why": "IBS trigger"
+  }
+ ]
+}

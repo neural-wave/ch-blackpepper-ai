@@ -1,0 +1,901 @@
+{
+ "encounter_id": "D2N178",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "maria martin",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "maria",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "03/05/1946",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "liberty road",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "clinic location"
+  },
+  {
+   "field": "dialogue",
+   "text": "optimum optometrists",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named clinic"
+  },
+  {
+   "field": "dialogue",
+   "text": "dr. sanchez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "optometrist name"
+  },
+  {
+   "field": "dialogue",
+   "text": "sanchez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "optometrist name"
+  },
+  {
+   "field": "dialogue",
+   "text": "my girl that i talk to",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social contact"
+  },
+  {
+   "field": "dialogue",
+   "text": "sugars are not very well controlled",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.51",
+   "why": "diabetes evidence"
+  },
+  {
+   "field": "dialogue",
+   "text": "a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.51",
+   "why": "diabetes evidence"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugar average",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.51",
+   "why": "diabetes evidence"
+  },
+  {
+   "field": "dialogue",
+   "text": "glimepiride",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.51",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.51",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "less sugars , less carbohydrates",
+   "category": "c",
+   "type": "QUASI",
+   "code": "E11.51",
+   "why": "diabetes diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "eye exams",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.51",
+   "why": "diabetic eye screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "low sugars",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.51",
+   "why": "hypoglycemia counseling"
+  },
+  {
+   "field": "dialogue",
+   "text": "weak , shaky , sweaty",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.51",
+   "why": "hypoglycemia symptoms"
+  },
+  {
+   "field": "dialogue",
+   "text": "peripheral neuropathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.51",
+   "why": "diabetic peripheral complication"
+  },
+  {
+   "field": "dialogue",
+   "text": "periphe- peripheral neuropathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.51",
+   "why": "diabetic peripheral complication"
+  },
+  {
+   "field": "dialogue",
+   "text": "mildly decreased sensation in the tips of the first and second toes",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.51",
+   "why": "diabetic foot exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "thickened nails",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.51",
+   "why": "diabetic foot exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "mildly dry skin",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.51",
+   "why": "diabetic foot exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "skin breakdown",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.51",
+   "why": "diabetic foot exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney function",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.51",
+   "why": "diabetes/hypertension monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "metoprolol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "antihypertensive"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril with hydrochlorothiazide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "antihypertensive"
+  },
+  {
+   "field": "dialogue",
+   "text": "amlodipine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "antihypertensive"
+  },
+  {
+   "field": "dialogue",
+   "text": "high cholesterol",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.5",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "atorvastatin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E78.5",
+   "why": "cholesterol treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipitor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E78.5",
+   "why": "cholesterol treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "vascular disease in your legs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I73.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "my feet feel like hell",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I73.9",
+   "why": "PVD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "my legs are bugging me",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I73.9",
+   "why": "PVD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain up to my hip",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I73.9",
+   "why": "PVD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain in the hips and upper legs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I73.9",
+   "why": "PVD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I73.9",
+   "why": "PVD risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "pulses are palpable on the dorsalis pedis posterial tibial",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I73.9",
+   "why": "vascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "keep the feet moisturized",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I73.9",
+   "why": "PVD foot care"
+  },
+  {
+   "field": "dialogue",
+   "text": "cataracts",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated eye condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "cataract surgery",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "iodine",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "eye procedure"
+  },
+  {
+   "field": "dialogue",
+   "text": "laser",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "eye procedure"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches or dizziness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "coughing",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "congested",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever , chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pains or pressure or tightness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea , vomiting , gi symptoms",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "slower stream",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "urinary symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "rasps or wheezing",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Maria Martin",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Ms. Martin",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "75-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Dr. Sanchez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "optometrist name"
+  },
+  {
+   "field": "note",
+   "text": "Optimum Optometrists",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named clinic"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.51",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Type 2 diabetes mellitus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.51",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "blood glucose levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.51",
+   "why": "diabetes evidence"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1C",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.51",
+   "why": "diabetes evidence"
+  },
+  {
+   "field": "note",
+   "text": "Hemoglobin A1C",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.51",
+   "why": "diabetes evidence"
+  },
+  {
+   "field": "note",
+   "text": "Hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.51",
+   "why": "diabetes evidence"
+  },
+  {
+   "field": "note",
+   "text": "glimepiride",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.51",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "Glimepiride",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.51",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.51",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "Metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.51",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "sugar and carbohydrate intake",
+   "category": "c",
+   "type": "QUASI",
+   "code": "E11.51",
+   "why": "diabetes diet"
+  },
+  {
+   "field": "note",
+   "text": "carbohydrate intake",
+   "category": "c",
+   "type": "QUASI",
+   "code": "E11.51",
+   "why": "diabetes diet"
+  },
+  {
+   "field": "note",
+   "text": "diabetic eye exams",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.51",
+   "why": "diabetic eye screening"
+  },
+  {
+   "field": "note",
+   "text": "hypoglycemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.51",
+   "why": "hypoglycemia counseling"
+  },
+  {
+   "field": "note",
+   "text": "glycemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.51",
+   "why": "diabetes control"
+  },
+  {
+   "field": "note",
+   "text": "peripheral neuropathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.51",
+   "why": "diabetic peripheral complication"
+  },
+  {
+   "field": "note",
+   "text": "neuropathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.51",
+   "why": "diabetic peripheral complication"
+  },
+  {
+   "field": "note",
+   "text": "Bilateral Diabetic Foot Exam",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.51",
+   "why": "diabetic foot exam"
+  },
+  {
+   "field": "note",
+   "text": "Mildly decreased sensation in the tips of the first and second toes bilaterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.51",
+   "why": "diabetic foot exam"
+  },
+  {
+   "field": "note",
+   "text": "Thickened nails",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.51",
+   "why": "diabetic foot exam"
+  },
+  {
+   "field": "note",
+   "text": "skin breakdown",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.51",
+   "why": "diabetic foot exam"
+  },
+  {
+   "field": "note",
+   "text": "kidney function test",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.51",
+   "why": "diabetes/hypertension monitoring"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "metoprolol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "antihypertensive"
+  },
+  {
+   "field": "note",
+   "text": "Metoprolol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "antihypertensive"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril/hydrochlorothiazide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "antihypertensive"
+  },
+  {
+   "field": "note",
+   "text": "Lisinopril/hydrochlorothiazide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "antihypertensive"
+  },
+  {
+   "field": "note",
+   "text": "amlodipine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "antihypertensive"
+  },
+  {
+   "field": "note",
+   "text": "Amlodipine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "antihypertensive"
+  },
+  {
+   "field": "note",
+   "text": "hyperlipidemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.5",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hyperlipidemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.5",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "atorvastatin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E78.5",
+   "why": "cholesterol treatment"
+  },
+  {
+   "field": "note",
+   "text": "Atorvastatin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E78.5",
+   "why": "cholesterol treatment"
+  },
+  {
+   "field": "note",
+   "text": "peripheral vascular disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I73.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Peripheral vascular disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I73.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "bilateral hip, thigh, and foot pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I73.9",
+   "why": "PVD symptom"
+  },
+  {
+   "field": "note",
+   "text": "mobility is limited",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I73.9",
+   "why": "PVD symptom"
+  },
+  {
+   "field": "note",
+   "text": "smoke cigarettes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I73.9",
+   "why": "PVD risk factor"
+  },
+  {
+   "field": "note",
+   "text": "Current tobacco smoker",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I73.9",
+   "why": "PVD risk factor"
+  },
+  {
+   "field": "note",
+   "text": "palpable dorsalis pedis and posterior tibial pulses",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I73.9",
+   "why": "vascular exam"
+  },
+  {
+   "field": "note",
+   "text": "moisturizing her feet",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I73.9",
+   "why": "PVD foot care"
+  },
+  {
+   "field": "note",
+   "text": "cataract surgery",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  },
+  {
+   "field": "note",
+   "text": "productive cough with clear sputum",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "congestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "slower urine stream",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "urinary symptom"
+  },
+  {
+   "field": "note",
+   "text": "urinary symptoms",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "urinary symptom"
+  },
+  {
+   "field": "note",
+   "text": "nocturia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "urinary symptom"
+  },
+  {
+   "field": "note",
+   "text": "rasping, wheezing",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "nausea or vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "No edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "polypharmacy",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "medication burden"
+  }
+ ]
+}

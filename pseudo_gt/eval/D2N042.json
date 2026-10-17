@@ -1,0 +1,605 @@
+{
+ "encounter_id": "D2N042",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "carolyn",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "a friend that was visiting",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "played soccer in college",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports history"
+  },
+  {
+   "field": "dialogue",
+   "text": "inner marrow soccer",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "intramural soccer hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "playing sports",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "major league soccer stadium",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "local landmark/team"
+  },
+  {
+   "field": "dialogue",
+   "text": "ankle pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "hurt your right ankle",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "take out the trash",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W00.9XXA",
+   "why": "activity at fall"
+  },
+  {
+   "field": "dialogue",
+   "text": "icy",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W00.9XXA",
+   "why": "ice cause of fall"
+  },
+  {
+   "field": "dialogue",
+   "text": "slipped",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "W00.9XXA",
+   "why": "fall mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "fell",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "W00.9XXA",
+   "why": "fall"
+  },
+  {
+   "field": "dialogue",
+   "text": "heard a pop",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "unable to walk",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "limping",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "iced",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.431A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "elevated",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.431A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.431A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "injuries to my ankle",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "prior other-ankle injuries"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness or tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "negated neuro symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecchymosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.431A",
+   "why": "sprain exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "bruising over the lateral malleolus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.431A",
+   "why": "sprain exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema or swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.431A",
+   "why": "sprain exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness to palpation of the anterior lateral soft tissue",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.431A",
+   "why": "sprain exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "laxity on anterior drawer",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.431A",
+   "why": "sprain exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "inversion stress",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.431A",
+   "why": "sprain exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "bony tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.431A",
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "capillary refill",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.431A",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "dorsalis pedis pulse",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.431A",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "sensation is intact to light touch",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.431A",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray of your right ankle",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.431A",
+   "why": "imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "right ankle pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "coded injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "right ankle sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "lateral ligament complex",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "sprain site"
+  },
+  {
+   "field": "dialogue",
+   "text": "anterior talofibular ligament",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "sprain site"
+  },
+  {
+   "field": "dialogue",
+   "text": "air cast",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.431A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.431A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nsaids",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.431A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "inflammation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "sprain"
+  },
+  {
+   "field": "note",
+   "text": "Carolyn Jones",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "38-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "intramural soccer league",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "played soccer in college",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports history"
+  },
+  {
+   "field": "note",
+   "text": "playing sports",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "Right ankle pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "right ankle pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "slipped and fell on ice",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "W00.9XXA",
+   "why": "fall due to ice"
+  },
+  {
+   "field": "note",
+   "text": "taking her garbage out",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W00.9XXA",
+   "why": "activity at fall"
+  },
+  {
+   "field": "note",
+   "text": "heard a pop",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness or tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "unable to bear weight",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "note",
+   "text": "antalgic gait",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.431A",
+   "why": "sprain"
+  },
+  {
+   "field": "note",
+   "text": "Ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.431A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "elevation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.431A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.431A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "several ankle injuries",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "prior injuries other ankle"
+  },
+  {
+   "field": "note",
+   "text": "Brisk capillary refill",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.431A",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "dorsalis pedis pulse",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.431A",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "Sensation in the right ankle is intact to light touch",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.431A",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "Ecchymosis over the lateral malleolus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.431A",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "trace edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.431A",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "Tenderness to palpation over the anterolateral soft tissue",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.431A",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "anterior drawer testing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.431A",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "inversion stress testing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.431A",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "bony tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.431A",
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "X-ray images of the right ankle",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.431A",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Lateral ligament complex sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "right ankle sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "anterior talofibular ligament",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "sprain site"
+  },
+  {
+   "field": "note",
+   "text": "inflammation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.431A",
+   "why": "sprain"
+  },
+  {
+   "field": "note",
+   "text": "Aircast",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.431A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.431A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "non-weight-bearing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.431A",
+   "why": "treatment"
+  }
+ ]
+}

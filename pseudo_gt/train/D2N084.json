@@ -1,0 +1,541 @@
+{
+ "encounter_id": "D2N084",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "david",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "megan",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "staff name"
+  },
+  {
+   "field": "dialogue",
+   "text": "around the holidays",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "holiday period"
+  },
+  {
+   "field": "dialogue",
+   "text": "i do lot of chips",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal diet habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "emergency department",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "follow-up after ER visit"
+  },
+  {
+   "field": "dialogue",
+   "text": "er",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "follow-up after ER visit"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain in my chest",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "ankles were swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "out of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure was two hundred over ninety",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I11.0",
+   "why": "HTN finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "bumex",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cozaar",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I11.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I11.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "salty foods",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "light salt",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure cuff",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I11.0",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "problems sleeping",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "heartburn",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "patient's attribution, unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "jugular venous distention",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "two out of six systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R01.1",
+   "why": "coded finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "lungs are clear bilaterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoking",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "social history"
+  },
+  {
+   "field": "dialogue",
+   "text": "trace edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "preserved ejection fraction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF echo"
+  },
+  {
+   "field": "dialogue",
+   "text": "normal diastolic filling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF echo"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild to moderate mitral regurgitation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R01.1",
+   "why": "murmur cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "chf",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "dietary indiscretion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "uncontrolled hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "consult to nutrition",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "weigh yourself daily",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "scale",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "renal artery ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I11.0",
+   "why": "HTN workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "nutritionist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF diet"
+  },
+  {
+   "field": "note",
+   "text": "tobacco use",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "social history"
+  },
+  {
+   "field": "note",
+   "text": "smoking",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "social history"
+  },
+  {
+   "field": "note",
+   "text": "Bumex",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "note",
+   "text": "Cozaar",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I11.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "Norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I11.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "problems sleeping",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "bilateral ankle swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "No JVD",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF exam"
+  },
+  {
+   "field": "note",
+   "text": "Clear bilaterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF exam"
+  },
+  {
+   "field": "note",
+   "text": "2/6 stable systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R01.1",
+   "why": "coded finding"
+  },
+  {
+   "field": "note",
+   "text": "trace edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF finding"
+  },
+  {
+   "field": "note",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF workup"
+  },
+  {
+   "field": "note",
+   "text": "An echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF workup"
+  },
+  {
+   "field": "note",
+   "text": "preserved ejection fraction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF echo"
+  },
+  {
+   "field": "note",
+   "text": "Normal diastolic filling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF echo"
+  },
+  {
+   "field": "note",
+   "text": "Mild to moderate mitral regurgitation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R01.1",
+   "why": "murmur cause"
+  },
+  {
+   "field": "note",
+   "text": "CHF",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "emergency room visit",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "follow-up after ER visit"
+  },
+  {
+   "field": "note",
+   "text": "dietary indiscretion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF cause"
+  },
+  {
+   "field": "note",
+   "text": "uncontrolled hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "scale to weigh himself daily",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF monitoring"
+  },
+  {
+   "field": "note",
+   "text": "nutritionist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF diet"
+  },
+  {
+   "field": "note",
+   "text": "sodium intake",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF diet"
+  },
+  {
+   "field": "note",
+   "text": "blood pressure cuff",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I11.0",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "note",
+   "text": "renal artery ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I11.0",
+   "why": "HTN workup"
+  },
+  {
+   "field": "note",
+   "text": "Systolic ejection murmur",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R01.1",
+   "why": "coded finding"
+  }
+ ]
+}

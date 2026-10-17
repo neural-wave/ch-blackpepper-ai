@@ -1,0 +1,453 @@
+{
+ "encounter_id": "D2N107",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "bryan",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "my husband",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "doctor's family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "partners",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relationship"
+  },
+  {
+   "field": "dialogue",
+   "text": "your partner",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relationship"
+  },
+  {
+   "field": "dialogue",
+   "text": "normally do n't do any physical activity",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle"
+  },
+  {
+   "field": "dialogue",
+   "text": "raking leaves",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S33.5XXA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "in my yard",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S33.5XXA",
+   "why": "injury place"
+  },
+  {
+   "field": "dialogue",
+   "text": "yard work",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S33.5XXA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "back started tightening up",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pins and needles in my right foot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "sprain-associated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "advils",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S33.5XXA",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hot shower",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "symptom relief"
+  },
+  {
+   "field": "dialogue",
+   "text": "hurts a little bit when i bend over",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "flexion pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "no pain on extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "some pain on flexion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation right around the l5",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "dorsiflexion is normal",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "neuro exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pulses are equal in all extremities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "vascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "tingling in your right leg",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "sprain-associated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "tingling sensation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "sprain-associated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "back imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "sprained your low back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S33.5XXA",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pt",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "stretches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "further workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unclear surgical mention"
+  },
+  {
+   "field": "note",
+   "text": "Bryan Brooks",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "39-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "his partner",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relationship"
+  },
+  {
+   "field": "note",
+   "text": "partner",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relationship"
+  },
+  {
+   "field": "note",
+   "text": "raking leaves",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S33.5XXA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "Low back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "note",
+   "text": "low back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "note",
+   "text": "tightening sensation in his low back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "note",
+   "text": "tingling in his right foot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "sprain-associated symptom"
+  },
+  {
+   "field": "note",
+   "text": "tingling in the right foot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "sprain-associated symptom"
+  },
+  {
+   "field": "note",
+   "text": "Ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "note",
+   "text": "Advil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S33.5XXA",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "hot shower",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "symptom relief"
+  },
+  {
+   "field": "note",
+   "text": "Normal strength and sensation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "neuro exam"
+  },
+  {
+   "field": "note",
+   "text": "No pain on extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "Some pain with flexion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with palpation around L5",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "Dorsiflexion is normal",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "neuro exam"
+  },
+  {
+   "field": "note",
+   "text": "Pulses are equal in all extremities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "vascular exam"
+  },
+  {
+   "field": "note",
+   "text": "X-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "back imaging"
+  },
+  {
+   "field": "note",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "back imaging"
+  },
+  {
+   "field": "note",
+   "text": "Low back sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "rest",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "note",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S33.5XXA",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "note",
+   "text": "formal physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "note",
+   "text": "MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "further workup"
+  }
+ ]
+}

@@ -1,0 +1,597 @@
+{
+ "encounter_id": "D2N193",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "hannah",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "my sister",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relative"
+  },
+  {
+   "field": "dialogue",
+   "text": "vacation",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life event travel"
+  },
+  {
+   "field": "dialogue",
+   "text": "hacking cough",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cough",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "coughing up some green phlegm",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "productive cough"
+  },
+  {
+   "field": "dialogue",
+   "text": "mucus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "productive cough"
+  },
+  {
+   "field": "dialogue",
+   "text": "sore throat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "URI symptom with cough"
+  },
+  {
+   "field": "dialogue",
+   "text": "nasal congestion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "URI symptom with cough"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "cough workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "cough workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "cough medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R05.9",
+   "why": "cough treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "seasonal allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "sneezing",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "allergy symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "runny runny nose",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "allergy symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "body aches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea or vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "type two diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "diarrhea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "metformin side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "sugar intake",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure has been a little bit high",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "hypertension"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "hydrochlorothiazide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "salty foods",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "frontal sinus tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "URI exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "bilateral maxillary sinus tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "URI exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "erythema of the pharynx",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "URI exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "exudates",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "URI exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "anterior cervical adenopathy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "URI exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "two out of six systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "cardiac finding not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "wheezes rales or rhonchi",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "lung exam for cough"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "upper respiratory infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "cause of cough"
+  },
+  {
+   "field": "dialogue",
+   "text": "virus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "cause of cough"
+  },
+  {
+   "field": "dialogue",
+   "text": "cough medicine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R05.9",
+   "why": "cough treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "coricidin hbp",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R05.9",
+   "why": "cough treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "covid",
+   "category": "c",
+   "type": "LAB",
+   "code": "R05.9",
+   "why": "cough workup"
+  },
+  {
+   "field": "note",
+   "text": "Cough",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "productive cough with green phlegm",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "seasonal allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "note",
+   "text": "diabetes type 2",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Type 2 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "hydrochlorothiazide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "cough workup"
+  },
+  {
+   "field": "note",
+   "text": "body aches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "sore throat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "note",
+   "text": "nasal congestion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "cough workup"
+  },
+  {
+   "field": "note",
+   "text": "nausea, vomiting, or diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "No frontal sinus tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "URI exam"
+  },
+  {
+   "field": "note",
+   "text": "Bilateral maxillary sinus tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "URI exam"
+  },
+  {
+   "field": "note",
+   "text": "Erythema of the pharynx",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "URI exam"
+  },
+  {
+   "field": "note",
+   "text": "exudates",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "URI exam"
+  },
+  {
+   "field": "note",
+   "text": "Anterior cervical adenopathy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "URI exam"
+  },
+  {
+   "field": "note",
+   "text": "wheezes, rales, or rhonchi",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R05.9",
+   "why": "lung exam"
+  },
+  {
+   "field": "note",
+   "text": "2 out of 6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "No edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "upper respiratory infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "cause of cough"
+  },
+  {
+   "field": "note",
+   "text": "virus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R05.9",
+   "why": "cause of cough"
+  },
+  {
+   "field": "note",
+   "text": "cough medicines",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R05.9",
+   "why": "cough treatment"
+  },
+  {
+   "field": "note",
+   "text": "cough medicine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R05.9",
+   "why": "cough treatment"
+  },
+  {
+   "field": "note",
+   "text": "Coricidin HBP",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R05.9",
+   "why": "cough treatment"
+  },
+  {
+   "field": "note",
+   "text": "COVID-19 test",
+   "category": "c",
+   "type": "LAB",
+   "code": "R05.9",
+   "why": "cough workup"
+  },
+  {
+   "field": "note",
+   "text": "dietary restrictions",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes diet"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "salty foods",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "note",
+   "text": "frequent urination",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect"
+  }
+ ]
+}

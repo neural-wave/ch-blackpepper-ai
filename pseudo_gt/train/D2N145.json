@@ -1,0 +1,485 @@
+{
+ "encounter_id": "D2N145",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "mrn49282721",
+   "category": "a",
+   "type": "CONTACT_ID",
+   "code": null,
+   "why": "medical record number"
+  },
+  {
+   "field": "dialogue",
+   "text": "jacqueline miller",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "jacqueline",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "breastfeeding",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "recent childbirth/lactation"
+  },
+  {
+   "field": "dialogue",
+   "text": "fitzpatrick skin type iv",
+   "category": "a",
+   "type": "ETHNICITY",
+   "code": null,
+   "why": "skin type reveals complexion"
+  },
+  {
+   "field": "dialogue",
+   "text": "pick'n save",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named pharmacy"
+  },
+  {
+   "field": "dialogue",
+   "text": "metro market",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named pharmacy"
+  },
+  {
+   "field": "dialogue",
+   "text": "rash",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L71.0",
+   "why": "perioral dermatitis"
+  },
+  {
+   "field": "dialogue",
+   "text": "doxycycline",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "dermatitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "elidel",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "dermatitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart transplant",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated context"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney transplant",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated context"
+  },
+  {
+   "field": "dialogue",
+   "text": "hematologic type cancers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "sulfacetamide wash",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "dermatitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "metro cream",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.8",
+   "why": "rosacea treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cetaphil cleanser",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "skin product"
+  },
+  {
+   "field": "dialogue",
+   "text": "neutrogena wipes",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "skin product"
+  },
+  {
+   "field": "dialogue",
+   "text": "few really faint erythematous papules",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L71.0",
+   "why": "dermatitis exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "redness around and underneath your nostrils",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L71.0",
+   "why": "dermatitis exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "upset stomach or heartburn",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "sunburn",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "sun sensitive",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "eucrisa",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "dermatitis treatment option"
+  },
+  {
+   "field": "dialogue",
+   "text": "tacrolimus",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "dermatitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "calcineurin inhibitor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "dermatitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "steroids",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "worsen dermatitis"
+  },
+  {
+   "field": "dialogue",
+   "text": "thinning of the skin",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "tingly or needle-like sensation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "tacrolimus ointment",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "dermatitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "clindamycin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "prior dermatitis medication"
+  },
+  {
+   "field": "dialogue",
+   "text": "vanicream",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.8",
+   "why": "rosacea care"
+  },
+  {
+   "field": "dialogue",
+   "text": "petroleum jelly",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "moisturizer"
+  },
+  {
+   "field": "dialogue",
+   "text": "perioral dermatitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L71.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "rosacea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L71.8",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "ocular rosacea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L71.8",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "wash her eyelids",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L71.8",
+   "why": "ocular rosacea care"
+  },
+  {
+   "field": "dialogue",
+   "text": "bruder mask",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L71.8",
+   "why": "ocular rosacea care"
+  },
+  {
+   "field": "note",
+   "text": "Jacqueline Miller",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "40-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Fitzpatrick skin type is 4 to 5",
+   "category": "a",
+   "type": "ETHNICITY",
+   "code": null,
+   "why": "skin type reveals complexion"
+  },
+  {
+   "field": "note",
+   "text": "perioral dermatitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L71.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Perioral dermatitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L71.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "rosacea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L71.8",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Rosacea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L71.8",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "ocular rosacea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L71.8",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "doxycycline",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "dermatitis treatment"
+  },
+  {
+   "field": "note",
+   "text": "Doxycycline cream",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "dermatitis treatment"
+  },
+  {
+   "field": "note",
+   "text": "sulfacetamide wash",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "dermatitis treatment"
+  },
+  {
+   "field": "note",
+   "text": "Sulfacetamide wash",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "dermatitis treatment"
+  },
+  {
+   "field": "note",
+   "text": "Sulfacetamide face wash",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "dermatitis treatment"
+  },
+  {
+   "field": "note",
+   "text": "MetroCream",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.8",
+   "why": "rosacea treatment"
+  },
+  {
+   "field": "note",
+   "text": "Cetaphil lotion or soap",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "skin product"
+  },
+  {
+   "field": "note",
+   "text": "Neutrogena wipes",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "skin product"
+  },
+  {
+   "field": "note",
+   "text": "Elidel",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "dermatitis treatment"
+  },
+  {
+   "field": "note",
+   "text": "very faint, erythematous papules",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L71.0",
+   "why": "dermatitis exam"
+  },
+  {
+   "field": "note",
+   "text": "mild redness around and underneath the nostrils",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L71.0",
+   "why": "dermatitis exam"
+  },
+  {
+   "field": "note",
+   "text": "Tacrolimus",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.0",
+   "why": "dermatitis treatment"
+  },
+  {
+   "field": "note",
+   "text": "Bruder mask",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L71.8",
+   "why": "ocular rosacea care"
+  },
+  {
+   "field": "note",
+   "text": "wash her eyelids",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L71.8",
+   "why": "ocular rosacea care"
+  },
+  {
+   "field": "note",
+   "text": "Vanicream",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L71.8",
+   "why": "rosacea care"
+  }
+ ]
+}

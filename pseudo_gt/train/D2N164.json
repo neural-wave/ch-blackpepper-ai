@@ -1,0 +1,613 @@
+{
+ "encounter_id": "D2N164",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "elizabeth",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "53 -year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R07.9",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pressure and chest pain in my chest",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R07.9",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R07.9",
+   "why": "chest pain quality"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R07.9",
+   "why": "chest pain associated screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "sweats or clamminess",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R07.9",
+   "why": "chest pain associated screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "ekg",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R07.9",
+   "why": "chest pain workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart attack",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R07.9",
+   "why": "chest pain differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "diet and exercise",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes management"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes control"
+  },
+  {
+   "field": "dialogue",
+   "text": "sodas",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes control"
+  },
+  {
+   "field": "dialogue",
+   "text": "ophthalmology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetic eye exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "eye exam",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetic eye exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea vomiting or diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "jvd",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R07.9",
+   "why": "chest pain exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "crackles or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated lung exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "two over six systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "chronic murmur"
+  },
+  {
+   "field": "dialogue",
+   "text": "no tenderness no guarding no masses",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated abdominal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "one plus nonpitting edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "edema treated with HCTZ"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling in your legs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "edema treated with HCTZ"
+  },
+  {
+   "field": "dialogue",
+   "text": "calf tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "unstable angina",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R07.9",
+   "why": "suspected cause of chest pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "family history of of heart disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R07.9",
+   "why": "chest pain risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "cardiology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R07.9",
+   "why": "chest pain referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "blockage",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R07.9",
+   "why": "chest pain cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R07.9",
+   "why": "chest pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "baby aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R07.9",
+   "why": "chest pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nitroglycerin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R07.9",
+   "why": "chest pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "stress test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R07.9",
+   "why": "chest pain workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "less blood flow to your heart",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R07.9",
+   "why": "ischemia"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetic retinopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "hydrochlorothiazide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure cuff",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure medications",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "sulfa medications",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "cross-reaction mention"
+  },
+  {
+   "field": "note",
+   "text": "Chest pain on exertion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R07.9",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "Chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R07.9",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R07.9",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "diabetes type 2",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Type 2 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "family history of heart disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R07.9",
+   "why": "chest pain risk factor"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "diaphoresis or clamminess",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R07.9",
+   "why": "chest pain associated screen"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R07.9",
+   "why": "chest pain associated screen"
+  },
+  {
+   "field": "note",
+   "text": "nausea, vomiting, or diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated ROS"
+  },
+  {
+   "field": "note",
+   "text": "JVD",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R07.9",
+   "why": "chest pain exam"
+  },
+  {
+   "field": "note",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated neck exam"
+  },
+  {
+   "field": "note",
+   "text": "wheezes, rales, or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated lung exam"
+  },
+  {
+   "field": "note",
+   "text": "2/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "chronic murmur"
+  },
+  {
+   "field": "note",
+   "text": "masses or tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated abdominal exam"
+  },
+  {
+   "field": "note",
+   "text": "1+ nonpitting edema in the ankles",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "edema treated with HCTZ"
+  },
+  {
+   "field": "note",
+   "text": "calf tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "EKG",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R07.9",
+   "why": "chest pain workup"
+  },
+  {
+   "field": "note",
+   "text": "Hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes control"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes control"
+  },
+  {
+   "field": "note",
+   "text": "unstable angina",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R07.9",
+   "why": "suspected cause"
+  },
+  {
+   "field": "note",
+   "text": "heart attack",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R07.9",
+   "why": "chest pain differential"
+  },
+  {
+   "field": "note",
+   "text": "blockage",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R07.9",
+   "why": "chest pain cause"
+  },
+  {
+   "field": "note",
+   "text": "sublingual nitroglycerin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R07.9",
+   "why": "chest pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "nitroglycerin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R07.9",
+   "why": "chest pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "baby aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R07.9",
+   "why": "chest pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "cardiology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R07.9",
+   "why": "chest pain referral"
+  },
+  {
+   "field": "note",
+   "text": "ophthalmology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetic eye exam"
+  },
+  {
+   "field": "note",
+   "text": "diabetic retinopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes screening"
+  },
+  {
+   "field": "note",
+   "text": "dietary modifications",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes management"
+  },
+  {
+   "field": "note",
+   "text": "blood pressures",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "note",
+   "text": "hydrochlorothiazide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  }
+ ]
+}

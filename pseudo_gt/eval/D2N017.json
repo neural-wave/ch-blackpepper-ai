@@ -1,0 +1,389 @@
+{
+ "encounter_id": "D2N017",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "peterson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "dialogue",
+   "text": "taylor",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor surname"
+  },
+  {
+   "field": "dialogue",
+   "text": "43-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "bowling",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.54",
+   "why": "activity causing injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "bowling ball",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W21.09XA",
+   "why": "struck by ball"
+  },
+  {
+   "field": "dialogue",
+   "text": "hit it right into my leg",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W21.09XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "right leg pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.11XA",
+   "why": "contusion symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "left leg pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.11XA",
+   "why": "misspoken leg pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "bruising",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.11XA",
+   "why": "contusion"
+  },
+  {
+   "field": "dialogue",
+   "text": "swell",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.11XA",
+   "why": "contusion assessment"
+  },
+  {
+   "field": "dialogue",
+   "text": "sore to walk on",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.11XA",
+   "why": "contusion symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "significant tenderness to the lateral aspect of your um right upper leg",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.11XA",
+   "why": "contusion exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "contusion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.11XA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S80.11XA",
+   "why": "injury imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.11XA",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S80.11XA",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S80.11XA",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "mobic",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S80.11XA",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "anti-inflammatory",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S80.11XA",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "use some ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S80.11XA",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "atopic eczema",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "eczema",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "fluocinonide",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "itchy",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "colectomy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "diverticulosis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "diverticulitis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "remove a little bit of my colon",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Peterson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "note",
+   "text": "43-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "bowling",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.54",
+   "why": "activity causing injury"
+  },
+  {
+   "field": "note",
+   "text": "hit her leg with the ball",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W21.09XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "Right leg pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.11XA",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "right leg pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.11XA",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "mild bruising",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.11XA",
+   "why": "contusion"
+  },
+  {
+   "field": "note",
+   "text": "swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.11XA",
+   "why": "contusion assessment"
+  },
+  {
+   "field": "note",
+   "text": "significant tenderness to the lateral aspect of the right upper leg",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.11XA",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "X-rays of the right lower extremity",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S80.11XA",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "fractures or dislocations",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.11XA",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Right leg contusion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.11XA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S80.11XA",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S80.11XA",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "Mobic",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S80.11XA",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "use ice for pain",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S80.11XA",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "atopic eczema",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Fluocinonide topical cream",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "colectomy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "diverticulosis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  }
+ ]
+}

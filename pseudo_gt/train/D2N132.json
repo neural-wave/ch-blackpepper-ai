@@ -1,0 +1,341 @@
+{
+ "encounter_id": "D2N132",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "lee",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "40-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "birthday party",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "surprise party",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "coded injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fell down the little stair",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S33.5XXA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "rammed my back into the railing",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S33.5XXA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "twisting",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S33.5XXA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain shooting down your legs",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated radicular symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fusion",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "prior unrelated surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "lumbar fusion",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "prior unrelated surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "injury imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "compression fractures",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled-out"
+  },
+  {
+   "field": "dialogue",
+   "text": "injury to your back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "coded injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "stiffness with rotation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "exam finding of sprain"
+  },
+  {
+   "field": "dialogue",
+   "text": "pinched nerved",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled-out"
+  },
+  {
+   "field": "dialogue",
+   "text": "radiculopathy",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled-out"
+  },
+  {
+   "field": "dialogue",
+   "text": "strain of your lower back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S33.5XXA",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S33.5XXA",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "anxiety",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice and heat",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "note",
+   "text": "Lee",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "40-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "birthday party",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific life event"
+  },
+  {
+   "field": "note",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "coded injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "Back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "coded injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "ran her back into the railing of the staircase",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S33.5XXA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "twisted her back",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S33.5XXA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "pain radiating down her legs",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S33.5XXA",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "note",
+   "text": "Ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S33.5XXA",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "note",
+   "text": "Anxiety",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated condition"
+  },
+  {
+   "field": "note",
+   "text": "Lumbar fusion",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "prior unrelated surgery"
+  },
+  {
+   "field": "note",
+   "text": "lumbar fusion",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "prior unrelated surgery"
+  },
+  {
+   "field": "note",
+   "text": "Straight leg raise is negative",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "X-rays of the lumbar spine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "injury imaging"
+  },
+  {
+   "field": "note",
+   "text": "acute fracture",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled-out"
+  },
+  {
+   "field": "note",
+   "text": "Lumbar spine strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "ice and heat",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "note",
+   "text": "Motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S33.5XXA",
+   "why": "sprain treatment"
+  }
+ ]
+}

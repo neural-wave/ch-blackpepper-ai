@@ -1,0 +1,485 @@
+{
+ "encounter_id": "D2N082",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "kyle",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "your family owns that donut shop",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "family business"
+  },
+  {
+   "field": "dialogue",
+   "text": "down at the end of the street",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "business location"
+  },
+  {
+   "field": "dialogue",
+   "text": "zambia",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "travel destination"
+  },
+  {
+   "field": "dialogue",
+   "text": "recently traveled internationally",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel"
+  },
+  {
+   "field": "dialogue",
+   "text": "abnormal lab work",
+   "category": "c",
+   "type": "LAB",
+   "code": "D80.2",
+   "why": "IgA finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "low immunoglobulin a level",
+   "category": "c",
+   "type": "LAB",
+   "code": "D80.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "immunoglobulin a",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "frequent infections",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "IgA deficiency symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "infections",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "IgA deficiency symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "colds",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "IgA deficiency symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal infections",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "IgA deficiency symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "diarrhea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "IgA deficiency symptom screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "immune deficiencies",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "family history screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "diabetes medication"
+  },
+  {
+   "field": "dialogue",
+   "text": "type two diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated (not coded)"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated (not coded)"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood transfusion",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D80.2",
+   "why": "IgA transfusion risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood products",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D80.2",
+   "why": "IgA transfusion risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "give blood",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D80.2",
+   "why": "transfusion history"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal vitals"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "lungs are clear",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "wheezes rales or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "belly is soft",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "iga deficiency",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "a iga deficiency",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "immunodeficiency",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "immunodeficiencies",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "IgA associated"
+  },
+  {
+   "field": "dialogue",
+   "text": "respiratory tract or sinus or abdominal infections",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "IgA complications"
+  },
+  {
+   "field": "dialogue",
+   "text": "additional blood work",
+   "category": "c",
+   "type": "LAB",
+   "code": "D80.2",
+   "why": "IgA workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "other antibodies",
+   "category": "c",
+   "type": "LAB",
+   "code": "D80.2",
+   "why": "IgA workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "severe diarrhea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "IgA complication"
+  },
+  {
+   "field": "note",
+   "text": "Kyle Lee",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "46-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Zambia",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "travel destination"
+  },
+  {
+   "field": "note",
+   "text": "traveled internationally",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel"
+  },
+  {
+   "field": "note",
+   "text": "His family owns a local doughnut shop",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "family business"
+  },
+  {
+   "field": "note",
+   "text": "low immunoglobulin A level",
+   "category": "c",
+   "type": "LAB",
+   "code": "D80.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "routine labs revealed abnormalities",
+   "category": "c",
+   "type": "LAB",
+   "code": "D80.2",
+   "why": "IgA finding"
+  },
+  {
+   "field": "note",
+   "text": "frequent infections",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "IgA symptom"
+  },
+  {
+   "field": "note",
+   "text": "frequent colds",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "IgA symptom"
+  },
+  {
+   "field": "note",
+   "text": "abdominal issues",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "IgA screen"
+  },
+  {
+   "field": "note",
+   "text": "diarrhea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "IgA screen"
+  },
+  {
+   "field": "note",
+   "text": "type 2 diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated (not coded)"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "diabetes medication"
+  },
+  {
+   "field": "note",
+   "text": "blood transfusions",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D80.2",
+   "why": "IgA transfusion risk"
+  },
+  {
+   "field": "note",
+   "text": "immune deficiencies",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "family history screen"
+  },
+  {
+   "field": "note",
+   "text": "No swelling noted",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "No lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "no murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "Lungs are clear",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "no wheezes, rales, or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "Abdomen is soft and without tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "IgA deficiency",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "additional blood work",
+   "category": "c",
+   "type": "LAB",
+   "code": "D80.2",
+   "why": "IgA workup"
+  },
+  {
+   "field": "note",
+   "text": "other antibodies",
+   "category": "c",
+   "type": "LAB",
+   "code": "D80.2",
+   "why": "IgA workup"
+  },
+  {
+   "field": "note",
+   "text": "lingering infections",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "IgA complication"
+  },
+  {
+   "field": "note",
+   "text": "abdominal changes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D80.2",
+   "why": "IgA complication"
+  }
+ ]
+}

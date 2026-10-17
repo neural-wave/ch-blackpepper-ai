@@ -1,0 +1,605 @@
+{
+ "encounter_id": "D2N143",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "grace ross",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "ross",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "8-23-97",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "diaz",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor name"
+  },
+  {
+   "field": "dialogue",
+   "text": "i was 20",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age at prior event"
+  },
+  {
+   "field": "dialogue",
+   "text": "we've been dating for three years",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relationship detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "std testing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z11.3",
+   "why": "coded screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "full spectrum std testing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z11.3",
+   "why": "coded screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "stds",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z11.3",
+   "why": "screening target"
+  },
+  {
+   "field": "dialogue",
+   "text": "discomfort",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z11.3",
+   "why": "presenting symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "change in discharge",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z11.3",
+   "why": "presenting symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "odor in her vaginal region",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z11.3",
+   "why": "presenting symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "right side of her vagina is starting to become painful",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z11.3",
+   "why": "presenting symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fevers or chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "her partner has been in sexual encounters with other people",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Z11.3",
+   "why": "screening reason"
+  },
+  {
+   "field": "dialogue",
+   "text": "my boyfriend has been cheating on me",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Z11.3",
+   "why": "screening reason"
+  },
+  {
+   "field": "dialogue",
+   "text": "he started cheating on me",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Z11.3",
+   "why": "screening reason"
+  },
+  {
+   "field": "dialogue",
+   "text": "weird discharge",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z11.3",
+   "why": "presenting symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "right side of my vagina was hurting",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z11.3",
+   "why": "presenting symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "irregular pap smear",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z11.3",
+   "why": "risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "pap smear",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z11.3",
+   "why": "screening history"
+  },
+  {
+   "field": "dialogue",
+   "text": "pelvic exam",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z11.3",
+   "why": "screening exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "external lesions",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "normal labia majora and labia minora",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "normal physiological discharge",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "cervix is normal",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "vaginal wall is normal",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "cervical motion tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "adnexal tenderness or masses",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "speculum",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z11.3",
+   "why": "screening exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "swabs",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z11.3",
+   "why": "screening sample"
+  },
+  {
+   "field": "dialogue",
+   "text": "gonorrhea",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z11.3",
+   "why": "screening test"
+  },
+  {
+   "field": "dialogue",
+   "text": "chlamydia",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z11.3",
+   "why": "screening test"
+  },
+  {
+   "field": "dialogue",
+   "text": "trichomoniasis",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z11.3",
+   "why": "screening test"
+  },
+  {
+   "field": "dialogue",
+   "text": "syphilis",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z11.3",
+   "why": "screening test"
+  },
+  {
+   "field": "dialogue",
+   "text": "hiv",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z11.3",
+   "why": "screening test"
+  },
+  {
+   "field": "dialogue",
+   "text": "hepatitis c",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z11.3",
+   "why": "screening test"
+  },
+  {
+   "field": "dialogue",
+   "text": "screen for std",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z11.3",
+   "why": "coded screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "abnormal pap smear",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z11.3",
+   "why": "risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "her sexual partner having multiple partners",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Z11.3",
+   "why": "screening reason"
+  },
+  {
+   "field": "note",
+   "text": "Ross",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "23-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "around the age of 20",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age at prior event"
+  },
+  {
+   "field": "note",
+   "text": "her partner of 3 years",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relationship detail"
+  },
+  {
+   "field": "note",
+   "text": "Full-spectrum sexually transmitted disease testing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z11.3",
+   "why": "coded screening"
+  },
+  {
+   "field": "note",
+   "text": "full-spectrum STD testing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z11.3",
+   "why": "coded screening"
+  },
+  {
+   "field": "note",
+   "text": "sexually transmitted diseases",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z11.3",
+   "why": "screening target"
+  },
+  {
+   "field": "note",
+   "text": "discomfort",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z11.3",
+   "why": "presenting symptom"
+  },
+  {
+   "field": "note",
+   "text": "change in discharge",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z11.3",
+   "why": "presenting symptom"
+  },
+  {
+   "field": "note",
+   "text": "odor in her vaginal region",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z11.3",
+   "why": "presenting symptom"
+  },
+  {
+   "field": "note",
+   "text": "right side of her vagina is starting to become painful",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z11.3",
+   "why": "presenting symptom"
+  },
+  {
+   "field": "note",
+   "text": "fever or chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "engaging in sexual encounters with other people",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Z11.3",
+   "why": "screening reason"
+  },
+  {
+   "field": "note",
+   "text": "change in the odor, color, and consistency of her vaginal discharge",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z11.3",
+   "why": "presenting symptom"
+  },
+  {
+   "field": "note",
+   "text": "right side of her vagina became painful and sore",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z11.3",
+   "why": "presenting symptom"
+  },
+  {
+   "field": "note",
+   "text": "abnormal Pap Smear",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z11.3",
+   "why": "risk factor"
+  },
+  {
+   "field": "note",
+   "text": "abnormal pap smear",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z11.3",
+   "why": "risk factor"
+  },
+  {
+   "field": "note",
+   "text": "Pap Smears",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z11.3",
+   "why": "screening history"
+  },
+  {
+   "field": "note",
+   "text": "Pelvic exam",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z11.3",
+   "why": "screening exam"
+  },
+  {
+   "field": "note",
+   "text": "No external lesions",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "normal labia majora and labia minora",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "Normal physiological discharge",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "Cervix is normal",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "vaginal wall is normal",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "no cervical motion tenderness or masses",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "Swabs",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z11.3",
+   "why": "screening sample"
+  },
+  {
+   "field": "note",
+   "text": "sexual transmitted disease testing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z11.3",
+   "why": "coded screening"
+  },
+  {
+   "field": "note",
+   "text": "Screening for sexually transmitted disease",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z11.3",
+   "why": "coded screening"
+  },
+  {
+   "field": "note",
+   "text": "gonorrhea",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z11.3",
+   "why": "screening test"
+  },
+  {
+   "field": "note",
+   "text": "chlamydia",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z11.3",
+   "why": "screening test"
+  },
+  {
+   "field": "note",
+   "text": "trichomoniasis",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z11.3",
+   "why": "screening test"
+  },
+  {
+   "field": "note",
+   "text": "syphilis",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z11.3",
+   "why": "screening test"
+  },
+  {
+   "field": "note",
+   "text": "HIV",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z11.3",
+   "why": "screening test"
+  },
+  {
+   "field": "note",
+   "text": "hepatitis C",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z11.3",
+   "why": "screening test"
+  },
+  {
+   "field": "note",
+   "text": "her sexual partner having multiple partners",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Z11.3",
+   "why": "screening reason"
+  }
+ ]
+}

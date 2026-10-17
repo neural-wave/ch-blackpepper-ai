@@ -1,0 +1,653 @@
+{
+ "encounter_id": "D2N139",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "jordan roberts",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "roberts",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "3/2/1972",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "49 year old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "march 1st , 2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "lab date"
+  },
+  {
+   "field": "dialogue",
+   "text": "back in march",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "ER visit date"
+  },
+  {
+   "field": "dialogue",
+   "text": "my girlfriend",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relationship detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "a few cups of coffee",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart.org",
+   "category": "a",
+   "type": "CONTACT_ID",
+   "code": null,
+   "why": "URL"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I1A.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "resistant hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I1A.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I1A.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "palpitations",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "thyroid profile",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "panic attack",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "family history of this",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I1A.0",
+   "why": "family history of hypertension"
+  },
+  {
+   "field": "dialogue",
+   "text": "benicar hct",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I1A.0",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hydrochlorothiazide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I1A.0",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "water pill",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I1A.0",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "amlodipine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I1A.0",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "salt intake",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I1A.0",
+   "why": "hypertension diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "dash eating plan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I1A.0",
+   "why": "hypertension diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "walk on the treadmill",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I1A.0",
+   "why": "hypertension exercise"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "potassium",
+   "category": "c",
+   "type": "LAB",
+   "code": "I1A.0",
+   "why": "monitoring for antihypertensives"
+  },
+  {
+   "field": "dialogue",
+   "text": "hyperaldosterone",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "differential cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "parathyroid levels",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "differential workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "spironolactone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I1A.0",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "aldosterone",
+   "category": "c",
+   "type": "LAB",
+   "code": "I1A.0",
+   "why": "resistant hypertension mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "dehydration",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizziness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizzy",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "sodium levels",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "electrolyte monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "gynecomastia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "swollen breasts",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart failure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney failure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "strokes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "resistant hypertension clinic",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I1A.0",
+   "why": "hypertension referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "renal , uh , denervation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I1A.0",
+   "why": "hypertension procedure"
+  },
+  {
+   "field": "dialogue",
+   "text": "carvedilol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I1A.0",
+   "why": "hypertension treatment option"
+  },
+  {
+   "field": "dialogue",
+   "text": "erectile dysfunction",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "electrolyte disturbances",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "metabolic panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "monitoring lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "electrolytes",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "monitoring lab"
+  },
+  {
+   "field": "note",
+   "text": "Jordan Roberts",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "Roberts",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "49-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "In March",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "ER visit date"
+  },
+  {
+   "field": "note",
+   "text": "03/01/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "lab date"
+  },
+  {
+   "field": "note",
+   "text": "several cups of coffee",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle detail"
+  },
+  {
+   "field": "note",
+   "text": "heart.org",
+   "category": "a",
+   "type": "CONTACT_ID",
+   "code": null,
+   "why": "URL"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I1A.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I1A.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "High blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I1A.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Resistant hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I1A.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "resistant hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I1A.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "palpitations",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded symptom"
+  },
+  {
+   "field": "note",
+   "text": "panic attack",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "note",
+   "text": "family history of hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I1A.0",
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "salt intake",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I1A.0",
+   "why": "hypertension diet"
+  },
+  {
+   "field": "note",
+   "text": "walks on his treadmill",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I1A.0",
+   "why": "hypertension exercise"
+  },
+  {
+   "field": "note",
+   "text": "Benicar HCT",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I1A.0",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "note",
+   "text": "Amlodipine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I1A.0",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "note",
+   "text": "no tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "abdominal exam"
+  },
+  {
+   "field": "note",
+   "text": "no edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "Thyroid profile",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "note",
+   "text": "spironolactone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I1A.0",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "note",
+   "text": "potassium",
+   "category": "c",
+   "type": "LAB",
+   "code": "I1A.0",
+   "why": "antihypertensive monitoring"
+  },
+  {
+   "field": "note",
+   "text": "sodium",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "electrolyte monitoring"
+  },
+  {
+   "field": "note",
+   "text": "basic metabolic panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "monitoring lab"
+  },
+  {
+   "field": "note",
+   "text": "carvedilol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I1A.0",
+   "why": "hypertension treatment option"
+  },
+  {
+   "field": "note",
+   "text": "erectile dysfunction",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect risk"
+  },
+  {
+   "field": "note",
+   "text": "gynecomastia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect risk"
+  },
+  {
+   "field": "note",
+   "text": "electrolyte disturbances",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect risk"
+  },
+  {
+   "field": "note",
+   "text": "dehydration",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect risk"
+  },
+  {
+   "field": "note",
+   "text": "dizziness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect risk"
+  },
+  {
+   "field": "note",
+   "text": "resistant hypertension clinic",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I1A.0",
+   "why": "hypertension referral"
+  },
+  {
+   "field": "note",
+   "text": "DASH diet",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I1A.0",
+   "why": "hypertension diet"
+  },
+  {
+   "field": "note",
+   "text": "30-min of walking",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I1A.0",
+   "why": "hypertension exercise"
+  },
+  {
+   "field": "note",
+   "text": "sodium intake",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I1A.0",
+   "why": "hypertension diet"
+  }
+ ]
+}

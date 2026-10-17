@@ -1,0 +1,381 @@
+{
+ "encounter_id": "D2N092",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "martinez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "gomez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "43-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "lawn work",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "playing tennis",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S63.501A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "backhand",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S63.501A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "hit the top of the net but the pole part",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S63.501A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "jarred my arm",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.501A",
+   "why": "injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "my arm hurts",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.501A",
+   "why": "wrist sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain in your distal radius",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.501A",
+   "why": "wrist sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.501A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain when you move your wrist",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.501A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness in your hand",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.501A",
+   "why": "negated, sprain workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray of your arm",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S63.501A",
+   "why": "sprain imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S63.501A",
+   "why": "sprain imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "fractures",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S63.501A",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S63.501A",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness over your distal radius",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S63.501A",
+   "why": "sprain exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain when i stress especially your thumb",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S63.501A",
+   "why": "sprain exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.501A",
+   "why": "diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "contusion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.501A",
+   "why": "diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S63.501A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "anti inflammatory",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S63.501A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S63.501A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "flonase",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "allergy medication"
+  },
+  {
+   "field": "dialogue",
+   "text": "stabbing",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "past trauma"
+  },
+  {
+   "field": "dialogue",
+   "text": "on my rake",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "past trauma mechanism"
+  },
+  {
+   "field": "note",
+   "text": "Martinez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "43-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Right arm pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.501A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "note",
+   "text": "right arm pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.501A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "note",
+   "text": "hitting her arm on a pole",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S63.501A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "playing tennis",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S63.501A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.501A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "note",
+   "text": "pain with motion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.501A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness or tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.501A",
+   "why": "negated, sprain workup"
+  },
+  {
+   "field": "note",
+   "text": "tenderness over the distal radius",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S63.501A",
+   "why": "sprain exam"
+  },
+  {
+   "field": "note",
+   "text": "pain with flexion of the wrist and thumb",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S63.501A",
+   "why": "sprain exam"
+  },
+  {
+   "field": "note",
+   "text": "X-rays of the left wrist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S63.501A",
+   "why": "sprain imaging"
+  },
+  {
+   "field": "note",
+   "text": "acute fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S63.501A",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Right wrist sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S63.501A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S63.501A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "note",
+   "text": "anti-inflammatory medications",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S63.501A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "note",
+   "text": "Motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S63.501A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "note",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "note",
+   "text": "Flonase",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "allergy medication"
+  }
+ ]
+}

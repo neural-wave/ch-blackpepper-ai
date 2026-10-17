@@ -1,0 +1,637 @@
+{
+ "encounter_id": "D2N165",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "sophia",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "i work from home",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "work arrangement"
+  },
+  {
+   "field": "dialogue",
+   "text": "watching tv",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle"
+  },
+  {
+   "field": "dialogue",
+   "text": "treadmill",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "possession/habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "boston",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "city"
+  },
+  {
+   "field": "dialogue",
+   "text": "harbor",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "local landmark"
+  },
+  {
+   "field": "dialogue",
+   "text": "boston marathon",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "local event"
+  },
+  {
+   "field": "dialogue",
+   "text": "sixth grade",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "time of childhood fracture"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "deep achy pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "knee pain quality"
+  },
+  {
+   "field": "dialogue",
+   "text": "behind my kneecaps",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "patellofemoral location"
+  },
+  {
+   "field": "dialogue",
+   "text": "creaking in my knees",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "crepitus"
+  },
+  {
+   "field": "dialogue",
+   "text": "going up and down stairs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "aggravating factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "putting ice on it",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.2X1",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ace bandage",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.2X1",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M22.2X1",
+   "why": "knee pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "aleve",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M22.2X1",
+   "why": "knee pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "run like five to six miles a day",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "running load relevant to PFPS"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling or redness in your knees",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "knee screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "injured your knees",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "knee history"
+  },
+  {
+   "field": "dialogue",
+   "text": "break my arm",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated old fracture"
+  },
+  {
+   "field": "dialogue",
+   "text": "broken a bone",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated cardiac"
+  },
+  {
+   "field": "dialogue",
+   "text": "strength is three out of five for abduction of legs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "knee/hip strength"
+  },
+  {
+   "field": "dialogue",
+   "text": "overlying erythema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecchymosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness to palpation of the bilateral retinacular retinaculum",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "positive patellar grind test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "PFPS exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee pain with squatting",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "PFPS exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "lachman anterior and posterior drawer and mcmurray tests are all negative",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "patella and achilles reflexes are symmetrical",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "neuro exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.2X1",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "fractures or osteoarthritis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "xray negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "bilateral knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.2X1",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "patellofemoral pain syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "anti-inflammatory",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M22.2X1",
+   "why": "knee pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.2X1",
+   "why": "PFPS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lower extremity exercises",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.2X1",
+   "why": "PFPS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "incorrect running mechanics",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "PFPS cause"
+  },
+  {
+   "field": "note",
+   "text": "Sophia Jackson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "30-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "She works from home",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "work arrangement"
+  },
+  {
+   "field": "note",
+   "text": "6th grade",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "time of childhood fracture"
+  },
+  {
+   "field": "note",
+   "text": "Bilateral knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "bilateral knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "deep, achy pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "knee pain quality"
+  },
+  {
+   "field": "note",
+   "text": "posterior aspect of her patellae",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "patellofemoral location"
+  },
+  {
+   "field": "note",
+   "text": "creaking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "crepitus"
+  },
+  {
+   "field": "note",
+   "text": "crepitus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "PFPS symptom"
+  },
+  {
+   "field": "note",
+   "text": "swelling or redness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "knee screen"
+  },
+  {
+   "field": "note",
+   "text": "ascending and descending stairs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "aggravating factor"
+  },
+  {
+   "field": "note",
+   "text": "icing her knees",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.2X1",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "ACE bandage",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.2X1",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M22.2X1",
+   "why": "knee pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "Aleve",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M22.2X1",
+   "why": "knee pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "running outdoors",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "running load relevant to PFPS"
+  },
+  {
+   "field": "note",
+   "text": "run 5 to 6 miles per day",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "running load"
+  },
+  {
+   "field": "note",
+   "text": "injuries to her knees",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "knee history"
+  },
+  {
+   "field": "note",
+   "text": "upper extremity fracture",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated old fracture"
+  },
+  {
+   "field": "note",
+   "text": "murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated cardiac"
+  },
+  {
+   "field": "note",
+   "text": "Patella and Achilles reflexes are symmetrical",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "neuro exam"
+  },
+  {
+   "field": "note",
+   "text": "Abduction strength is 3/5",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "strength exam"
+  },
+  {
+   "field": "note",
+   "text": "No overlying erythema, ecchymosis, or warmth of the skin",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "No effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Tenderness to palpation of the bilateral retinaculum",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Positive patellar grind test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "PFPS exam"
+  },
+  {
+   "field": "note",
+   "text": "Knee pain with squatting",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "PFPS exam"
+  },
+  {
+   "field": "note",
+   "text": "Negative Lachman test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Negative anterior and posterior drawer tests",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Negative McMurray test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "X-rays of the bilateral knees",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.2X1",
+   "why": "knee imaging"
+  },
+  {
+   "field": "note",
+   "text": "fractures or osteoarthritis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M22.2X1",
+   "why": "xray negative"
+  },
+  {
+   "field": "note",
+   "text": "Bilateral knee patellofemoral pain syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "patellofemoral pain syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M22.2X1",
+   "why": "PFPS treatment"
+  },
+  {
+   "field": "note",
+   "text": "incorrect running mechanics",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M22.2X1",
+   "why": "PFPS cause"
+  },
+  {
+   "field": "note",
+   "text": "anti-inflammatories",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M22.2X1",
+   "why": "knee pain treatment"
+  }
+ ]
+}

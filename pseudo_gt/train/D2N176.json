@@ -1,0 +1,381 @@
+{
+ "encounter_id": "D2N176",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "alexander",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "62-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "my job's going great",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "employment"
+  },
+  {
+   "field": "dialogue",
+   "text": "standing all day",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "big-",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family size"
+  },
+  {
+   "field": "dialogue",
+   "text": "all my kids-",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "protonix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "reflux treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "discomfort",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "reflux symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "caffeine",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K21.9",
+   "why": "reflux trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "spicy foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K21.9",
+   "why": "reflux trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "alcohol",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K21.9",
+   "why": "reflux trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "energy drinks",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K21.9",
+   "why": "reflux trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "green tea",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K21.9",
+   "why": "reflux diet change"
+  },
+  {
+   "field": "dialogue",
+   "text": "endoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K21.9",
+   "why": "reflux workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "endoscope",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K21.9",
+   "why": "reflux workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild gastritis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "endoscopy finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "belly pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea or vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "1+ pitting edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "retaining a little bit of fluid",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "edema"
+  },
+  {
+   "field": "note",
+   "text": "Alexander Myers",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "62-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "his job is going well",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "employment"
+  },
+  {
+   "field": "note",
+   "text": "all of his children",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "note",
+   "text": "reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "acid reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Acid reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Protonix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "reflux treatment"
+  },
+  {
+   "field": "note",
+   "text": "energy drinks",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K21.9",
+   "why": "reflux trigger"
+  },
+  {
+   "field": "note",
+   "text": "green tea",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K21.9",
+   "why": "reflux diet change"
+  },
+  {
+   "field": "note",
+   "text": "Endoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K21.9",
+   "why": "reflux workup"
+  },
+  {
+   "field": "note",
+   "text": "mild gastritis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "endoscopy finding"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea on exertion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "wheezes, rales, or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "1+ pitting edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  }
+ ]
+}

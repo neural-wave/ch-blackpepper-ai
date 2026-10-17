@@ -1,0 +1,957 @@
+{
+ "encounter_id": "D2N093",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "lawrence",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "62-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "house parties",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social life"
+  },
+  {
+   "field": "dialogue",
+   "text": "chocolate bars",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal preference"
+  },
+  {
+   "field": "dialogue",
+   "text": "stretches outdoors every morning",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "holiday season",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "holiday tied to event"
+  },
+  {
+   "field": "dialogue",
+   "text": "red bull",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "consumption habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "type i diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E10.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E10.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "insulin pump",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E10.9",
+   "why": "T1DM treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E10.9",
+   "why": "glucose monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E10.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "endocrinologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E10.9",
+   "why": "diabetes follow-up"
+  },
+  {
+   "field": "dialogue",
+   "text": "eye exam",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E10.9",
+   "why": "diabetic eye screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "acute heart failure exacerbation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "short of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling up",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling in your legs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "salty foods",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "lethargic",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "walking up a flight of stairs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "exertional dyspnea"
+  },
+  {
+   "field": "dialogue",
+   "text": "lying flat in bed",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "orthopnea screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "wake up acutely short of breath at night",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "PND"
+  },
+  {
+   "field": "dialogue",
+   "text": "jugular venous distension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "crackles",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "1+ pitting edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "retaining some fluid",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "fluid overload"
+  },
+  {
+   "field": "dialogue",
+   "text": "dietary indiscretion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "dyspnea workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "test x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "dyspnea workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "airspace disease",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "dyspnea workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "pulse ox",
+   "category": "c",
+   "type": "LAB",
+   "code": "I50.9",
+   "why": "oxygenation in dyspnea"
+  },
+  {
+   "field": "dialogue",
+   "text": "lasix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "weigh yourself every day",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "intravenous diuretics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "3 out of 6 systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "cardiac finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "hurt yourself or anyone else",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "psychiatry",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "talk therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "omeprazole",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "GERD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "caffeine",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "GERD trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "alcohol intake",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "GERD trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "lifestyle modifications",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K21.9",
+   "why": "GERD management"
+  },
+  {
+   "field": "dialogue",
+   "text": "stiff",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "morning stiffness unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "cough",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "belly pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "labs",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "general labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "white blood cell count",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "infection screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "infection",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "pneumonia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Lawrence Walker",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "62-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "house parties",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social life"
+  },
+  {
+   "field": "note",
+   "text": "chocolate bars",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal preference"
+  },
+  {
+   "field": "note",
+   "text": "daily outdoor stretching",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "habit"
+  },
+  {
+   "field": "note",
+   "text": "outdoor stretching",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "habit"
+  },
+  {
+   "field": "note",
+   "text": "red bull",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "consumption habit"
+  },
+  {
+   "field": "note",
+   "text": "holiday season",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "holiday tied to event"
+  },
+  {
+   "field": "note",
+   "text": "type 1 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E10.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Type 1 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E10.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "insulin pump",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E10.9",
+   "why": "T1DM treatment"
+  },
+  {
+   "field": "note",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E10.9",
+   "why": "glucose monitoring"
+  },
+  {
+   "field": "note",
+   "text": "sugar",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E10.9",
+   "why": "diet for diabetes"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E10.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "endocrinologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E10.9",
+   "why": "diabetes follow-up"
+  },
+  {
+   "field": "note",
+   "text": "eye exam",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E10.9",
+   "why": "diabetic eye screening"
+  },
+  {
+   "field": "note",
+   "text": "congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Acute heart failure exacerbation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "leg swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "salty foods",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF trigger"
+  },
+  {
+   "field": "note",
+   "text": "walking up the stairs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "exertional dyspnea"
+  },
+  {
+   "field": "note",
+   "text": "woke from sleep once with shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "PND"
+  },
+  {
+   "field": "note",
+   "text": "discomfort lying flat in bed",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "orthopnea"
+  },
+  {
+   "field": "note",
+   "text": "fatigue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea on exertion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea at rest",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF warning sign"
+  },
+  {
+   "field": "note",
+   "text": "lower extremity edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF sign"
+  },
+  {
+   "field": "note",
+   "text": "jugular venous distention",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF exam"
+  },
+  {
+   "field": "note",
+   "text": "Rales",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF exam"
+  },
+  {
+   "field": "note",
+   "text": "3/6 systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "cardiac finding"
+  },
+  {
+   "field": "note",
+   "text": "1+ pitting bilateral lower extremity edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF exam"
+  },
+  {
+   "field": "note",
+   "text": "Chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "dyspnea workup"
+  },
+  {
+   "field": "note",
+   "text": "airspace disease",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "dyspnea workup"
+  },
+  {
+   "field": "note",
+   "text": "retaining fluid",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "fluid overload"
+  },
+  {
+   "field": "note",
+   "text": "fluid retention",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "fluid overload"
+  },
+  {
+   "field": "note",
+   "text": "dietary indiscretion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF trigger"
+  },
+  {
+   "field": "note",
+   "text": "Lasix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "note",
+   "text": "daily weights",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF monitoring"
+  },
+  {
+   "field": "note",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "suicidal and homicidal ideation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depression screen"
+  },
+  {
+   "field": "note",
+   "text": "psychiatry",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression referral"
+  },
+  {
+   "field": "note",
+   "text": "reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "GERD",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Acid reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "omeprazole",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "GERD treatment"
+  },
+  {
+   "field": "note",
+   "text": "caffeine",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "GERD trigger"
+  },
+  {
+   "field": "note",
+   "text": "alcohol intake",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "GERD trigger"
+  },
+  {
+   "field": "note",
+   "text": "lifestyle modifications",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K21.9",
+   "why": "GERD management"
+  },
+  {
+   "field": "note",
+   "text": "musculoskeletal stiffness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "fevers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "cough",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "coughor wheezing",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated finding"
+  },
+  {
+   "field": "note",
+   "text": "WBC",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "infection screen"
+  }
+ ]
+}

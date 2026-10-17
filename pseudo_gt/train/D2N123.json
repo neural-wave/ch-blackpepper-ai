@@ -1,0 +1,653 @@
+{
+ "encounter_id": "D2N123",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "tyler",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "56 -year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "difficulty swallowing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "swallowing problem",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "something is always stuck in my throat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "dysphagia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "choked",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "dysphagia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "choking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "dysphagia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "coughing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "dysphagia screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood in your stools",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "dysphagia red flag screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting blood",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "dysphagia red flag screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "coughing up blood",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "dysphagia red flag screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight loss",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "dysphagia red flag screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "epigastric tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R13.10",
+   "why": "dysphagia exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "masses",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R13.10",
+   "why": "neck/throat exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "narrowing in your throat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "dysphagia cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "stricture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "dysphagia cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "narrowing of the esophagus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "dysphagia cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "dilate",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R13.10",
+   "why": "dysphagia treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "gastroenterology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R13.10",
+   "why": "dysphagia referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "scope",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R13.10",
+   "why": "dysphagia workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "gi",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R13.10",
+   "why": "dysphagia referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "prilosec",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R13.10",
+   "why": "dysphagia treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "reflux medicine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R13.10",
+   "why": "dysphagia treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "dysphagia contributor"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea vomiting or diarrhea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "metformin side effects"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney function",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "ophthalmology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetic eye screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "retinopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetic eye screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain or shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "thyroid feels normal",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "lymph nodes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "carotid bruit",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac"
+  },
+  {
+   "field": "note",
+   "text": "Tyler Green",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "56-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Difficulty swallowing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "difficulty swallowing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "dysphagia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "something stuck in his throat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "dysphagia symptom"
+  },
+  {
+   "field": "note",
+   "text": "choked",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "dysphagia symptom"
+  },
+  {
+   "field": "note",
+   "text": "choking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "dysphagia symptom"
+  },
+  {
+   "field": "note",
+   "text": "hematochezia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "red flag screen"
+  },
+  {
+   "field": "note",
+   "text": "vomiting blood",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "red flag screen"
+  },
+  {
+   "field": "note",
+   "text": "coughing up blood",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "red flag screen"
+  },
+  {
+   "field": "note",
+   "text": "weight changes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "red flag screen"
+  },
+  {
+   "field": "note",
+   "text": "hemoptysis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "red flag screen"
+  },
+  {
+   "field": "note",
+   "text": "hematemesis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "red flag screen"
+  },
+  {
+   "field": "note",
+   "text": "Epigastric tenderness noted",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R13.10",
+   "why": "dysphagia exam"
+  },
+  {
+   "field": "note",
+   "text": "No masses noted",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R13.10",
+   "why": "neck exam"
+  },
+  {
+   "field": "note",
+   "text": "narrowing in his throat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "dysphagia cause"
+  },
+  {
+   "field": "note",
+   "text": "gastroenterology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R13.10",
+   "why": "dysphagia referral"
+  },
+  {
+   "field": "note",
+   "text": "scope",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R13.10",
+   "why": "dysphagia workup"
+  },
+  {
+   "field": "note",
+   "text": "Prilosec",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R13.10",
+   "why": "dysphagia treatment"
+  },
+  {
+   "field": "note",
+   "text": "reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "dysphagia contributor"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "nausea, vomiting, or diarrhea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "metformin side effects"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "kidney function test",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "ophthalmology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetic eye screening"
+  },
+  {
+   "field": "note",
+   "text": "retinopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetic eye screening"
+  },
+  {
+   "field": "note",
+   "text": "diabetic lab results",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "High blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "thyromegaly or lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "wheezes, rales, or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated lung exam"
+  },
+  {
+   "field": "note",
+   "text": "murmurs, gallops or rubs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac"
+  },
+  {
+   "field": "note",
+   "text": "enlarged lymph nodes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  }
+ ]
+}

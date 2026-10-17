@@ -1,0 +1,885 @@
+{
+ "encounter_id": "D2N058",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "russell ramirez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "russell",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "45 -year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "twenty eighteen",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "year of prior stent"
+  },
+  {
+   "field": "dialogue",
+   "text": "two thousand eighteen",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "year of prior MI"
+  },
+  {
+   "field": "dialogue",
+   "text": "rex center",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named place"
+  },
+  {
+   "field": "dialogue",
+   "text": "new trails",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "local trails"
+  },
+  {
+   "field": "dialogue",
+   "text": "walking the trails",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "plant a lot of flowers",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "gardening",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "photography",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "nature pictures",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "dawn knots",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "celebrity name reference"
+  },
+  {
+   "field": "dialogue",
+   "text": "insurance there through the plant",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "employer hint"
+  },
+  {
+   "field": "dialogue",
+   "text": "at the park",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal routine"
+  },
+  {
+   "field": "dialogue",
+   "text": "cad",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "rca stent",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "anterior stemi",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD event"
+  },
+  {
+   "field": "dialogue",
+   "text": "drug-eluting stent",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lad",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "stented artery"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart attack",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD event"
+  },
+  {
+   "field": "dialogue",
+   "text": "my little procedure",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "PCI"
+  },
+  {
+   "field": "dialogue",
+   "text": "my sense to close up",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "stents"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "negated angina"
+  },
+  {
+   "field": "dialogue",
+   "text": "coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "brilinta",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "high dose statin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "atorvastatin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipitor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "toprol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cardiac rehab",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cath site",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "post-PCI exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "hematoma",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "post-PCI exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "palpable rra pulse",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "post-PCI exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "right radial artery",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "post-PCI exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "ekg",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "normal sinus rhythm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "ekg"
+  },
+  {
+   "field": "dialogue",
+   "text": "evolutionary changes",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "post-MI ekg"
+  },
+  {
+   "field": "dialogue",
+   "text": "reduced ejection fraction",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.1",
+   "why": "LV failure"
+  },
+  {
+   "field": "dialogue",
+   "text": "ejection fraction",
+   "category": "c",
+   "type": "LAB",
+   "code": "I50.1",
+   "why": "LV function"
+  },
+  {
+   "field": "dialogue",
+   "text": "way my heart pumps",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.1",
+   "why": "LV dysfunction"
+  },
+  {
+   "field": "dialogue",
+   "text": "keep fluid on my legs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.1",
+   "why": "HF risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "legs swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.1",
+   "why": "HF symptom check"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling or edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.1",
+   "why": "HF exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "lay flat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.1",
+   "why": "orthopnea check"
+  },
+  {
+   "field": "dialogue",
+   "text": "two pillows",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.1",
+   "why": "orthopnea check"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.1",
+   "why": "HF symptom check"
+  },
+  {
+   "field": "dialogue",
+   "text": "tired",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.1",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "jugular venous distention",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.1",
+   "why": "HF exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "salt intake",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.1",
+   "why": "HF diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "pizza",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I50.1",
+   "why": "salt source for HF"
+  },
+  {
+   "field": "dialogue",
+   "text": "salty foods",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.1",
+   "why": "HF diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "left ventricular dysfunction",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.1",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "pumping function",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.1",
+   "why": "LV function"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart muscle is just stunned",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.1",
+   "why": "LV dysfunction"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.1",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "diuretic",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.1",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "aldactone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.1",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.1",
+   "why": "LV/MR follow-up"
+  },
+  {
+   "field": "dialogue",
+   "text": "echocardiocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.1",
+   "why": "LV/MR follow-up"
+  },
+  {
+   "field": "dialogue",
+   "text": "mitral regurgitation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I34.0",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I34.0",
+   "why": "murmur with MR"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressures",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes mellitus",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "2018",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "year of prior stent"
+  },
+  {
+   "field": "note",
+   "text": "walking outside",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "gardening",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "nature photography",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "STEMI",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD event"
+  },
+  {
+   "field": "note",
+   "text": "CAD",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "RCA stent",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "drug-eluting stent placement in the LAD",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Brilinta",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Lipitor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Toprol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "cardiac rehab",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "cardiac cath lab",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "PCI"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "negated angina"
+  },
+  {
+   "field": "note",
+   "text": "Cath site",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "post-PCI exam"
+  },
+  {
+   "field": "note",
+   "text": "hematoma",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "post-PCI exam"
+  },
+  {
+   "field": "note",
+   "text": "Palpable right radial artery pulse",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "post-PCI exam"
+  },
+  {
+   "field": "note",
+   "text": "Electrocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD workup"
+  },
+  {
+   "field": "note",
+   "text": "normal sinus rhythm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "ekg"
+  },
+  {
+   "field": "note",
+   "text": "evolutionary changes",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "post-MI ekg"
+  },
+  {
+   "field": "note",
+   "text": "fatigue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.1",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.1",
+   "why": "HF symptom check"
+  },
+  {
+   "field": "note",
+   "text": "lower extremity swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.1",
+   "why": "HF symptom check"
+  },
+  {
+   "field": "note",
+   "text": "swelling or edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.1",
+   "why": "HF exam"
+  },
+  {
+   "field": "note",
+   "text": "salt intake",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.1",
+   "why": "HF diet"
+  },
+  {
+   "field": "note",
+   "text": "left ventricular dysfunction",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.1",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "pumping function",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.1",
+   "why": "LV function"
+  },
+  {
+   "field": "note",
+   "text": "diuretic",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.1",
+   "why": "HF treatment"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.1",
+   "why": "HF treatment"
+  },
+  {
+   "field": "note",
+   "text": "Aldactone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.1",
+   "why": "HF treatment"
+  },
+  {
+   "field": "note",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.1",
+   "why": "LV/MR follow-up"
+  },
+  {
+   "field": "note",
+   "text": "mitral regurgitation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I34.0",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I34.0",
+   "why": "murmur with MR"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "home blood pressure monitoring",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "note",
+   "text": "diabetes mellitus",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "changes in sleep",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  }
+ ]
+}

@@ -1,0 +1,589 @@
+{
+ "encounter_id": "D2N003",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "john",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "61-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "climbing the three flights of stairs to my apartment",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "living situation detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "running to catch the bus",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal routine"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney stone",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "symptom of kidney stone"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood in your urine",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "hematuria from stone"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "taken for stone pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "cda tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "flank tenderness from stone"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness of the palpation of the right lower quadrant",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "abdominal tenderness with stone"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain in my abdomen",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone-related pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "creatinine",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "kidney obstruction workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "obstruction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone obstruction"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "ct scan without contrast of your abdomen and pelvis",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "cat scan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "ultram",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "push fluids and strain your urine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone management"
+  },
+  {
+   "field": "dialogue",
+   "text": "migraines",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G43.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "migraine",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G43.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "imitrex",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G43.909",
+   "why": "migraine treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "acid reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "diet changes",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K21.9",
+   "why": "reflux management"
+  },
+  {
+   "field": "dialogue",
+   "text": "protonix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "reflux treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea and vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizzy",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "light headed",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizziness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "muscle aches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "body aches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure's a little high",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "elevated BP not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart sounds nice and clear",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "lungs are clear",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "John Perry",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "61-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "climbs the stairs to his apartment",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "living situation detail"
+  },
+  {
+   "field": "note",
+   "text": "runs to catch the bus",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal routine"
+  },
+  {
+   "field": "note",
+   "text": "kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "kidney stone",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain"
+  },
+  {
+   "field": "note",
+   "text": "hematuria",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "urine discoloration",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "pain in his abdomen",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "Tender to palpation to the right lower quadrant",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone exam"
+  },
+  {
+   "field": "note",
+   "text": "CVA tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone exam"
+  },
+  {
+   "field": "note",
+   "text": "Creatinine level slightly elevated",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "stone obstruction"
+  },
+  {
+   "field": "note",
+   "text": "Abdominal x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone imaging"
+  },
+  {
+   "field": "note",
+   "text": "abdominal x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone imaging"
+  },
+  {
+   "field": "note",
+   "text": "CT scan of the abdomen and pelvis without contrast",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone imaging"
+  },
+  {
+   "field": "note",
+   "text": "Ultram",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain"
+  },
+  {
+   "field": "note",
+   "text": "strain his urine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone management"
+  },
+  {
+   "field": "note",
+   "text": "migraines",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G43.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Migraines",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G43.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Imitrex",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G43.909",
+   "why": "migraine treatment"
+  },
+  {
+   "field": "note",
+   "text": "Denies headaches",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G43.909",
+   "why": "migraine status"
+  },
+  {
+   "field": "note",
+   "text": "gastroesophageal reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "dietary modifications",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K21.9",
+   "why": "reflux management"
+  },
+  {
+   "field": "note",
+   "text": "Protonix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "reflux treatment"
+  },
+  {
+   "field": "note",
+   "text": "nausea and vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "dizziness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "lightheadedness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "body aches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Blood Pressure: Elevated",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Lungs are clear to auscultation bilaterally",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "No murmurs, gallops, or rubs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  }
+ ]
+}

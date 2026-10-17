@@ -1,0 +1,429 @@
+{
+ "encounter_id": "D2N202",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "sharon",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "remodeling your house",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "home project"
+  },
+  {
+   "field": "dialogue",
+   "text": "remodel",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "home project"
+  },
+  {
+   "field": "dialogue",
+   "text": "my wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "doctor's spouse"
+  },
+  {
+   "field": "dialogue",
+   "text": "lowe's",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named store"
+  },
+  {
+   "field": "dialogue",
+   "text": "flooring",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "home project"
+  },
+  {
+   "field": "dialogue",
+   "text": "right shoulder pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.31",
+   "why": "right shoulder tendinitis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shoulder pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.31",
+   "why": "shoulder symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "up on a ladder painting",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.31",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "took a fall",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.31",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "braced myself",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.31",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "direct trauma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.31",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "iced the arm",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M75.31",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "advil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M75.31",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M75.31",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M75.31",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nsaid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M75.31",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain lifting overhead",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.31",
+   "why": "shoulder symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness or tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.31",
+   "why": "neuro review"
+  },
+  {
+   "field": "dialogue",
+   "text": "limited active and passive range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.31",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness to the greater tuberosity of the humerus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.31",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "sternoclavicular joint",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.31",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "capillary refill",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.31",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M75.31",
+   "why": "shoulder imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "no fracture or bony abnormality",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.31",
+   "why": "imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "rotator cuff tendinopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.31",
+   "why": "tendinitis diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "injured the tendons",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.31",
+   "why": "tendon injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M75.31",
+   "why": "workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M75.31",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pt",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M75.31",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "steroid injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M75.31",
+   "why": "possible treatment"
+  },
+  {
+   "field": "note",
+   "text": "Sharon Wright",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "36-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Right shoulder pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.31",
+   "why": "shoulder symptom"
+  },
+  {
+   "field": "note",
+   "text": "right shoulder pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.31",
+   "why": "shoulder symptom"
+  },
+  {
+   "field": "note",
+   "text": "painting on a ladder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.31",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "fell",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.31",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "braced herself with her right arm",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.31",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "numbness and tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.31",
+   "why": "neuro review"
+  },
+  {
+   "field": "note",
+   "text": "iced her arm",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M75.31",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Advil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M75.31",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "pain with lifting her arm overhead",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.31",
+   "why": "shoulder symptom"
+  },
+  {
+   "field": "note",
+   "text": "Brisk capillary refill",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.31",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "note",
+   "text": "Neurovascularly intact distally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.31",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "note",
+   "text": "limited active and passive ROM",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.31",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "note",
+   "text": "Tenderness over the greater tuberosity of the humerus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.31",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "note",
+   "text": "No tenderness over the sternoclavicular joint",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.31",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the right shoulder",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M75.31",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "no fracture or bony abnormality",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M75.31",
+   "why": "imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "Right shoulder rotator cuff tendinopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.31",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "rotator cuff tendinopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M75.31",
+   "why": "tendinitis diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "MRI of the right shoulder",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M75.31",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "formal physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M75.31",
+   "why": "treatment"
+  }
+ ]
+}

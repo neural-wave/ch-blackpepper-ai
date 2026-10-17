@@ -1,0 +1,573 @@
+{
+ "encounter_id": "D2N116",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "bobby",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "playing baseball",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "past sport"
+  },
+  {
+   "field": "dialogue",
+   "text": "outdoor shower",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "home project detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "extending our patio",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "home project detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "flower boxes",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "home project detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "laundry lift",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "home possession"
+  },
+  {
+   "field": "dialogue",
+   "text": "my wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "doing some work in my backyard",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M67.813",
+   "why": "cause of shoulder injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "putting down stone",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M67.813",
+   "why": "cause of shoulder injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "right shoulder pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M67.813",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "right shoulder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M67.813",
+   "why": "coded site"
+  },
+  {
+   "field": "dialogue",
+   "text": "i hurt that same shoulder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M67.813",
+   "why": "prior shoulder injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "rotator cuff",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M67.813",
+   "why": "shoulder tendon"
+  },
+  {
+   "field": "dialogue",
+   "text": "tender on the outside when i raise my arm",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M67.813",
+   "why": "shoulder symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "advil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M67.813",
+   "why": "shoulder pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "icing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M67.813",
+   "why": "shoulder treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness in your arm or your hands",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M67.813",
+   "why": "neuro screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "limited active and passive range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M67.813",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness at the great tuberosity of the humerus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M67.813",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "sternoclavicular or acro acromioclavicular joints",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M67.813",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "good hand grip",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M67.813",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "capillary refill",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M67.813",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "shoulder x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M67.813",
+   "why": "shoulder workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M67.813",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "left shoulder pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M67.813",
+   "why": "coded shoulder (misspoken side)"
+  },
+  {
+   "field": "dialogue",
+   "text": "rotator cuff rotator cuff tendinopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M67.813",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "injured the tendons",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M67.813",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M67.813",
+   "why": "shoulder workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M67.813",
+   "why": "shoulder treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M67.813",
+   "why": "shoulder pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "steroid injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M67.813",
+   "why": "shoulder treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "my feet are actually really sore",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.671",
+   "why": "coded foot pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "yard work",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M79.671",
+   "why": "cause of foot pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "ankle joints",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.671",
+   "why": "foot/ankle pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "stiff",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.671",
+   "why": "foot symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "put ice on them keep them elevated",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M79.671",
+   "why": "foot treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "epsom salts",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M79.671",
+   "why": "foot treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "i do n't drink enough water",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "hydration unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Bobby Flores",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "56-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "playing baseball",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "past sport"
+  },
+  {
+   "field": "note",
+   "text": "projects in his backyard",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M67.813",
+   "why": "cause of shoulder injury"
+  },
+  {
+   "field": "note",
+   "text": "Right shoulder pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M67.813",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "right shoulder pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M67.813",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "lateral aspect of his right shoulder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M67.813",
+   "why": "shoulder site"
+  },
+  {
+   "field": "note",
+   "text": "pain at night",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M67.813",
+   "why": "shoulder symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness in his arm or hands",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M67.813",
+   "why": "neuro screen"
+  },
+  {
+   "field": "note",
+   "text": "numbness in hands",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M67.813",
+   "why": "neuro screen"
+  },
+  {
+   "field": "note",
+   "text": "Advil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M67.813",
+   "why": "shoulder pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "icing his shoulder",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M67.813",
+   "why": "shoulder treatment"
+  },
+  {
+   "field": "note",
+   "text": "Capillary refill is less than 3 seconds",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M67.813",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "note",
+   "text": "Neurovascularly intact on the right",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M67.813",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "note",
+   "text": "Limited active and passive ROM",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M67.813",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "note",
+   "text": "Tenderness at the greater tuberosity of the humerus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M67.813",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "note",
+   "text": "No tenderness at the sternoclavicular or AC joints",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M67.813",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "note",
+   "text": "Good hand grip",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M67.813",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "note",
+   "text": "3 views of the right shoulder",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M67.813",
+   "why": "shoulder x-ray"
+  },
+  {
+   "field": "note",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M67.813",
+   "why": "shoulder x-ray"
+  },
+  {
+   "field": "note",
+   "text": "fracture or dislocation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M67.813",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Right shoulder rotator cuff tendinopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M67.813",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "MRI of the right shoulder",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M67.813",
+   "why": "shoulder workup"
+  },
+  {
+   "field": "note",
+   "text": "rotator cuff tear",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M67.813",
+   "why": "differential"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M67.813",
+   "why": "shoulder treatment"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M67.813",
+   "why": "shoulder pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "cortisone injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M67.813",
+   "why": "shoulder treatment"
+  },
+  {
+   "field": "note",
+   "text": "bilateral foot and ankle pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.671",
+   "why": "coded foot pain"
+  },
+  {
+   "field": "note",
+   "text": "Bilateral foot pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.671",
+   "why": "coded foot pain"
+  },
+  {
+   "field": "note",
+   "text": "bilateral feet pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.671",
+   "why": "coded foot pain"
+  },
+  {
+   "field": "note",
+   "text": "yard work",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M79.671",
+   "why": "cause of foot pain"
+  },
+  {
+   "field": "note",
+   "text": "iced and elevated them",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M79.671",
+   "why": "foot treatment"
+  },
+  {
+   "field": "note",
+   "text": "Epsom salt soak",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M79.671",
+   "why": "foot treatment"
+  }
+ ]
+}

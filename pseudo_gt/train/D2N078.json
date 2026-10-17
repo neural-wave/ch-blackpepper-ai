@@ -1,0 +1,501 @@
+{
+ "encounter_id": "D2N078",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "philip",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "during the pandemic",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "named period"
+  },
+  {
+   "field": "dialogue",
+   "text": "work out in the yard",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "household detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "if you have any kids",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "doing some work on my property",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S83.411A",
+   "why": "injury activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "slipped and fell down",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "coded injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee issues",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "coded injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "flexing my knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "knee symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "feel something pop",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "swollen",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "knee symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.411A",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure was a little bit high",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "HTN finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "white coat syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "BP finding explanation"
+  },
+  {
+   "field": "dialogue",
+   "text": "reducing your sodium intake",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "lower that salt intake",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "referral to nutrition",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "belly pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "lungs are clear bilaterally",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "wheezes or crackles",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "grade two out of six systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation of the medial aspect of your right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "MCL finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with flexion extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "knee finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema around the knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "knee finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "knee finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "fluid in there",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "knee finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.411A",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "no fractures",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "mcl strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "medial collateral ligament strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "twisted",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee brace",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.411A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice the knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.411A",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "elevate your leg",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.411A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "coded injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "coded injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated negative"
+  },
+  {
+   "field": "note",
+   "text": "Clear bilaterally",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "No wheezes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "Grade 2/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac finding"
+  },
+  {
+   "field": "note",
+   "text": "Some edema and effusion noted around the right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "knee finding"
+  },
+  {
+   "field": "note",
+   "text": "Some effusion noted around the right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "knee finding"
+  },
+  {
+   "field": "note",
+   "text": "Pain to palpation of the medial aspect",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "MCL finding"
+  },
+  {
+   "field": "note",
+   "text": "No pain to palpation of the lateral aspect",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "knee finding"
+  },
+  {
+   "field": "note",
+   "text": "Pain with flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "knee finding"
+  },
+  {
+   "field": "note",
+   "text": "X-rays of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.411A",
+   "why": "knee imaging"
+  },
+  {
+   "field": "note",
+   "text": "no fractures or bony abnormalities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S83.411A",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Right knee MCL strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "MCL strain of the right knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S83.411A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S83.411A",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "knee brace",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.411A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "ice the knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.411A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "elevate his leg",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S83.411A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "nutritionist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN diet referral"
+  }
+ ]
+}

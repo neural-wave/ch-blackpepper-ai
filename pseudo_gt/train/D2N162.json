@@ -1,0 +1,509 @@
+{
+ "encounter_id": "D2N162",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "gregory",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "soccer",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "community league",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports league membership"
+  },
+  {
+   "field": "dialogue",
+   "text": "do your kids come and watch you play",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "the oldest one is old enough to play himself",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "four and five -year-olds",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "child age group"
+  },
+  {
+   "field": "dialogue",
+   "text": "my husband's really into soccer",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "a friend who was with me",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "right ankle pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "ankle sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "ankle sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fell",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "take off the trash",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "activity at injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "patch of ice",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "cause of fall"
+  },
+  {
+   "field": "dialogue",
+   "text": "slipped",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "falling on the ice",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "elevated",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "icing it",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "icing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "limping",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.401A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "injured this ankle",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "ankle history"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "neuro screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecchymosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "bruising",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "over the lateral malleolus associated swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness to palpation and anterolaterally in the soft tissue",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "laxity on anterior drawer and inversion stress",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "bony tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "right ankle x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "ankle imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "no fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "xray negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "right ankle sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "aircast",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nsaids",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.401A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "note",
+   "text": "Gregory Hernandez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "42-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "playing soccer",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "community soccer league",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports league membership"
+  },
+  {
+   "field": "note",
+   "text": "a friend had to help him up",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social detail"
+  },
+  {
+   "field": "note",
+   "text": "Right ankle pain and swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "ankle sprain symptoms"
+  },
+  {
+   "field": "note",
+   "text": "right ankle pain and swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "ankle sprain symptoms"
+  },
+  {
+   "field": "note",
+   "text": "right ankle pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "ankle sprain symptom"
+  },
+  {
+   "field": "note",
+   "text": "slipped and fell on the ice",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "taking out the trash",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "activity at injury"
+  },
+  {
+   "field": "note",
+   "text": "ice and elevate",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "note",
+   "text": "limping",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "sprain symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "neuro screen"
+  },
+  {
+   "field": "note",
+   "text": "ice and elevation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.401A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "note",
+   "text": "Mild edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "Ecchymosis is present",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "swelling over the lateral malleolus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "Tenderness to palpation anterolaterally in the soft tissue",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "No laxity on anterior drawer and inversion stress",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "No bony tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "3 views of the right ankle",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "ankle imaging"
+  },
+  {
+   "field": "note",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "ankle imaging"
+  },
+  {
+   "field": "note",
+   "text": "fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.401A",
+   "why": "xray negative"
+  },
+  {
+   "field": "note",
+   "text": "Right ankle sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "right ankle sprain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.401A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Aircast",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "note",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.401A",
+   "why": "sprain treatment"
+  },
+  {
+   "field": "note",
+   "text": "NSAIDs",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.401A",
+   "why": "sprain treatment"
+  }
+ ]
+}

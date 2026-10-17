@@ -1,0 +1,789 @@
+{
+ "encounter_id": "D2N048",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "brittany",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "tennis less lessons",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "me and my friends just hit the balls",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "playing my tennis with my friends",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "rest of the season",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports season"
+  },
+  {
+   "field": "dialogue",
+   "text": "right handed",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "handedness"
+  },
+  {
+   "field": "dialogue",
+   "text": "playing tennis",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W19.XXXA",
+   "why": "activity causing fall"
+  },
+  {
+   "field": "dialogue",
+   "text": "volley the ball",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W19.XXXA",
+   "why": "activity causing fall"
+  },
+  {
+   "field": "dialogue",
+   "text": "double game",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W19.XXXA",
+   "why": "activity causing fall"
+  },
+  {
+   "field": "dialogue",
+   "text": "got in front of another player",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W19.XXXA",
+   "why": "fall mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "falling on top of my foot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "W19.XXXA",
+   "why": "fall mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "twisted",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "right foot pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "Lisfranc injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain in my foot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "Lisfranc injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "right leg pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "Lisfranc injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "could n't put weight on my foot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "Lisfranc injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "injured that foot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "injury history question"
+  },
+  {
+   "field": "dialogue",
+   "text": "injured my other foot",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "prior other-side injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "injured your your left leg",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "prior other-side injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "ace wraps",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.324A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "wrapped it",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.324A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "iced it",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.324A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.324A",
+   "why": "injury pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "negated, injury neuro check"
+  },
+  {
+   "field": "dialogue",
+   "text": "tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "negated, injury neuro check"
+  },
+  {
+   "field": "dialogue",
+   "text": "loss in sensation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "negated, injury neuro check"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmur rub or gallop",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "stridor",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated lung finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "wheezes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "rales",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "rebound",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "guarding",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "bruising of the plantar and dorsal aspects of the foot",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.324A",
+   "why": "foot exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.324A",
+   "why": "foot exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness to palpation of the midfoot",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.324A",
+   "why": "foot exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "piano key test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.324A",
+   "why": "Lisfranc test"
+  },
+  {
+   "field": "dialogue",
+   "text": "warm to touch",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.324A",
+   "why": "foot exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray of your right foot",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.324A",
+   "why": "injury imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "dorsal displacement of the base of the second metatarsal",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.324A",
+   "why": "Lisfranc x-ray"
+  },
+  {
+   "field": "dialogue",
+   "text": "three millimeter separation of the first and second metatarsal bases",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.324A",
+   "why": "Lisfranc x-ray"
+  },
+  {
+   "field": "dialogue",
+   "text": "bony fragment in the lisfranc joint space",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.324A",
+   "why": "Lisfranc x-ray"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisfranc fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "coded Lisfranc injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "coded Lisfranc injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.324A",
+   "why": "Lisfranc treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "plates and screws",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.324A",
+   "why": "Lisfranc fixation"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.324A",
+   "why": "ligament assessment"
+  },
+  {
+   "field": "dialogue",
+   "text": "injury to the ligaments",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "Lisfranc ligament injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "poor bone alignment",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "injury complication"
+  },
+  {
+   "field": "dialogue",
+   "text": "poor ligament healing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "injury complication"
+  },
+  {
+   "field": "dialogue",
+   "text": "flat-footed",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "injury complication"
+  },
+  {
+   "field": "dialogue",
+   "text": "arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "injury complication"
+  },
+  {
+   "field": "dialogue",
+   "text": "day surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.324A",
+   "why": "Lisfranc treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cast",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.324A",
+   "why": "Lisfranc treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.324A",
+   "why": "Lisfranc treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.324A",
+   "why": "post-op rehab"
+  },
+  {
+   "field": "dialogue",
+   "text": "bleeding",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "nerve damage",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "note",
+   "text": "Brittany Edwards",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "76-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "right-hand-dominant",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "handedness"
+  },
+  {
+   "field": "note",
+   "text": "playing tennis",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W19.XXXA",
+   "why": "activity causing fall"
+  },
+  {
+   "field": "note",
+   "text": "volley the ball",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W19.XXXA",
+   "why": "activity causing fall"
+  },
+  {
+   "field": "note",
+   "text": "got in front of another player",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W19.XXXA",
+   "why": "fall mechanism"
+  },
+  {
+   "field": "note",
+   "text": "fell on the dorsal aspect of her right foot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "W19.XXXA",
+   "why": "fall mechanism"
+  },
+  {
+   "field": "note",
+   "text": "twisted her foot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "right foot pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "Lisfranc injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "Right foot pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "Lisfranc injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "wrapped her foot",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.324A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "note",
+   "text": "iced it",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.324A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.324A",
+   "why": "injury pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "numbness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "negated, injury neuro check"
+  },
+  {
+   "field": "note",
+   "text": "loss of sensation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "negated, injury neuro check"
+  },
+  {
+   "field": "note",
+   "text": "left leg injury",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "prior other-side injury"
+  },
+  {
+   "field": "note",
+   "text": "Bruising of the plantar and dorsal aspects of the foot",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.324A",
+   "why": "foot exam"
+  },
+  {
+   "field": "note",
+   "text": "Associated swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.324A",
+   "why": "foot exam"
+  },
+  {
+   "field": "note",
+   "text": "Tenderness to palpation of the midfoot",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.324A",
+   "why": "foot exam"
+  },
+  {
+   "field": "note",
+   "text": "Positive piano key test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.324A",
+   "why": "Lisfranc test"
+  },
+  {
+   "field": "note",
+   "text": "Warm to touch",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.324A",
+   "why": "foot exam"
+  },
+  {
+   "field": "note",
+   "text": "3 views of the right foot",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.324A",
+   "why": "injury imaging"
+  },
+  {
+   "field": "note",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.324A",
+   "why": "injury imaging"
+  },
+  {
+   "field": "note",
+   "text": "subtle dorsal displacement of the base of the 2nd metatarsal",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.324A",
+   "why": "Lisfranc x-ray"
+  },
+  {
+   "field": "note",
+   "text": "3 mm separation of the 1st and 2nd metatarsal bases",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.324A",
+   "why": "Lisfranc x-ray"
+  },
+  {
+   "field": "note",
+   "text": "bony fragment in the Lisfranc joint space",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.324A",
+   "why": "Lisfranc x-ray"
+  },
+  {
+   "field": "note",
+   "text": "Lisfranc fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.324A",
+   "why": "coded Lisfranc injury"
+  },
+  {
+   "field": "note",
+   "text": "surgical intervention",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.324A",
+   "why": "Lisfranc treatment"
+  },
+  {
+   "field": "note",
+   "text": "right foot ORIF",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.324A",
+   "why": "Lisfranc treatment"
+  },
+  {
+   "field": "note",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.324A",
+   "why": "Lisfranc treatment"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.324A",
+   "why": "rehab"
+  },
+  {
+   "field": "note",
+   "text": "infection",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "note",
+   "text": "nonunion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "note",
+   "text": "malunion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "note",
+   "text": "failure of hardware",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "note",
+   "text": "amputation",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "note",
+   "text": "heart attack",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "note",
+   "text": "stroke",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "note",
+   "text": "blood clots",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "note",
+   "text": "pulmonary embolism",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  },
+  {
+   "field": "note",
+   "text": "chronic pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "surgical risk"
+  }
+ ]
+}

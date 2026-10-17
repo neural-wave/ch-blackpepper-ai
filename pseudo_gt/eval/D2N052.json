@@ -1,0 +1,477 @@
+{
+ "encounter_id": "D2N052",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "anna",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "easter easter break",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "holiday tied to event"
+  },
+  {
+   "field": "dialogue",
+   "text": "easter egg hunt",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "adult easter hag hunt",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "doctor personal event"
+  },
+  {
+   "field": "dialogue",
+   "text": "my dad had kidney stones",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history, not patient diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney stone",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood in my urine",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "hematuria from stone"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain when you're urinating",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom check"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "azo",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "urinary analgesic asked"
+  },
+  {
+   "field": "dialogue",
+   "text": "nauseated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild pain and tenderness to palpation of the abdomen",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "cva",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "flank tenderness"
+  },
+  {
+   "field": "dialogue",
+   "text": "flank tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "inflammation of your kidney",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "ct of your your side",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "proximal right ureter",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone location"
+  },
+  {
+   "field": "dialogue",
+   "text": "hydronephrosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone complication ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "push fluids",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone management"
+  },
+  {
+   "field": "dialogue",
+   "text": "strainer",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone management"
+  },
+  {
+   "field": "dialogue",
+   "text": "bmp",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "stone workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "urinalysis",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "stone workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "urine culture",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "stone workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "lithotripsy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "shock waves",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "lithotripsy"
+  },
+  {
+   "field": "dialogue",
+   "text": "antibiotics",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "for possible infection, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "infection",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea vomiting fever chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "rebound or guarding",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "Anna Diaz",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "29-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "her father has had kidney stones",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "right-sided back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "hematuria",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Kidney stone",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "kidney stone",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "pain with urination",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom check"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain"
+  },
+  {
+   "field": "note",
+   "text": "Mild pain and tenderness to palpation of the abdomen",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "CVA",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "flank exam"
+  },
+  {
+   "field": "note",
+   "text": "CT scan of the abdomen",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "CT scan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "proximal right ureter",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone location"
+  },
+  {
+   "field": "note",
+   "text": "hydronephrosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "drink plenty of fluids",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "management"
+  },
+  {
+   "field": "note",
+   "text": "urine strainer",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "management"
+  },
+  {
+   "field": "note",
+   "text": "BMP",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "urinalysis",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "urine culture",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "lithotripsy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "antibiotics",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "No rebound or guarding",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  }
+ ]
+}

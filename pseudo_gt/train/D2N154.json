@@ -1,0 +1,413 @@
+{
+ "encounter_id": "D2N154",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "dennis",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "training for a triathlon",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "overuse cause of Achilles tendinitis"
+  },
+  {
+   "field": "dialogue",
+   "text": "triathlon training",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "overuse cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "run about ten klometers",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "overuse cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "get on the bike",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "overuse training"
+  },
+  {
+   "field": "dialogue",
+   "text": "aquatic center",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "place frequented"
+  },
+  {
+   "field": "dialogue",
+   "text": "swim",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "training activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "do n't stretch at all",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "risk factor for tendinitis"
+  },
+  {
+   "field": "dialogue",
+   "text": "back of my heel hurts",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "Achilles pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "back of my heel",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "Achilles pain location"
+  },
+  {
+   "field": "dialogue",
+   "text": "calf",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "pain radiation"
+  },
+  {
+   "field": "dialogue",
+   "text": "really tight",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "Achilles symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "thompson test is negative",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M76.61",
+   "why": "Achilles exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "real tender",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M76.61",
+   "why": "Achilles exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "achilles tendinitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "overuse",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M76.61",
+   "why": "tendinitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "advil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M76.61",
+   "why": "tendinitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "anti-inflammatory",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M76.61",
+   "why": "tendinitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tendinitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M76.61",
+   "why": "tendinitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M76.61",
+   "why": "possible workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "pittsburgh",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "city/team"
+  },
+  {
+   "field": "dialogue",
+   "text": "pang one hockey game",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports team fan"
+  },
+  {
+   "field": "dialogue",
+   "text": "track meet",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal interest"
+  },
+  {
+   "field": "dialogue",
+   "text": "new york",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "city/team"
+  },
+  {
+   "field": "dialogue",
+   "text": "hockey",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal interest"
+  },
+  {
+   "field": "dialogue",
+   "text": "detroit",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "prior residence"
+  },
+  {
+   "field": "dialogue",
+   "text": "hockey town",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "prior residence nickname"
+  },
+  {
+   "field": "dialogue",
+   "text": "red wings",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "sports team"
+  },
+  {
+   "field": "note",
+   "text": "Dennis Martin",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "46-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "aquatic center",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "place frequented"
+  },
+  {
+   "field": "note",
+   "text": "right heel pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "Achilles symptom"
+  },
+  {
+   "field": "note",
+   "text": "training for a triathlon",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "overuse cause"
+  },
+  {
+   "field": "note",
+   "text": "posterior aspect of his heel",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "Achilles pain location"
+  },
+  {
+   "field": "note",
+   "text": "calf",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "radiation"
+  },
+  {
+   "field": "note",
+   "text": "runs 10 kilometers",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "overuse cause"
+  },
+  {
+   "field": "note",
+   "text": "long run and a long bike ride",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "overuse training"
+  },
+  {
+   "field": "note",
+   "text": "does not stretch at all",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "risk factor"
+  },
+  {
+   "field": "note",
+   "text": "left leg pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated contralateral"
+  },
+  {
+   "field": "note",
+   "text": "Pain with resisted extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M76.61",
+   "why": "heel exam"
+  },
+  {
+   "field": "note",
+   "text": "Mild pain with flexion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M76.61",
+   "why": "heel exam"
+  },
+  {
+   "field": "note",
+   "text": "Positive calcaneal squeeze test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M76.61",
+   "why": "heel exam"
+  },
+  {
+   "field": "note",
+   "text": "Severe tenderness to the Achilles tendon",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M76.61",
+   "why": "heel exam"
+  },
+  {
+   "field": "note",
+   "text": "Thompson test is negative",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M76.61",
+   "why": "Achilles exam"
+  },
+  {
+   "field": "note",
+   "text": "Right Achilles tendinitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "overuse",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M76.61",
+   "why": "cause"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M76.61",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M76.61",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M76.61",
+   "why": "possible workup"
+  }
+ ]
+}

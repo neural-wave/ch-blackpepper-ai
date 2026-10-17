@@ -1,0 +1,453 @@
+{
+ "encounter_id": "D2N200",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "theresa",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "mcdonald's",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named restaurant"
+  },
+  {
+   "field": "dialogue",
+   "text": "big mac",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "food preference"
+  },
+  {
+   "field": "dialogue",
+   "text": "flare of fish",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "food preference"
+  },
+  {
+   "field": "dialogue",
+   "text": "fully of fish",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "food preference"
+  },
+  {
+   "field": "dialogue",
+   "text": "my kids",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "easter",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "holiday tied to event"
+  },
+  {
+   "field": "dialogue",
+   "text": "iphone",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal device"
+  },
+  {
+   "field": "dialogue",
+   "text": "headache",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "HTN symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "HTN symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure has been running high",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "elevated BP"
+  },
+  {
+   "field": "dialogue",
+   "text": "chlorthalidone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "stomachache",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "HTN med side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "headache treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizziness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "HTN symptom review"
+  },
+  {
+   "field": "dialogue",
+   "text": "lightheadedness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "HTN symptom review"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizzy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "HTN symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "vision gets a little blurry",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "HTN symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "HTN symptom review"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "HTN symptom review"
+  },
+  {
+   "field": "dialogue",
+   "text": "low sodium diet",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "fast foods",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "sodium intake"
+  },
+  {
+   "field": "dialogue",
+   "text": "sodium intake",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "easter candy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "sugar intake"
+  },
+  {
+   "field": "dialogue",
+   "text": "jugular venous distention",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "cardiac exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "carotid bruits",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "vascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "two out of six systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "slight edema bilaterally on your upper extremities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "salt retention"
+  },
+  {
+   "field": "dialogue",
+   "text": "one plus pitting edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "salt retention"
+  },
+  {
+   "field": "dialogue",
+   "text": "uncontrolled hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure monitor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "BP monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nutritionist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "diet counseling"
+  },
+  {
+   "field": "note",
+   "text": "Headache and high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "HTN review"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "HTN review"
+  },
+  {
+   "field": "note",
+   "text": "blurry vision, dizziness, and headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "HTN symptoms"
+  },
+  {
+   "field": "note",
+   "text": "No jugular venous distention",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "cardiac exam"
+  },
+  {
+   "field": "note",
+   "text": "No carotid bruits",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "vascular exam"
+  },
+  {
+   "field": "note",
+   "text": "Slight 2/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Slight edema to bilateral upper extremities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "salt retention"
+  },
+  {
+   "field": "note",
+   "text": "1+ pitting edema noted in the bilateral lower extremities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "salt retention"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension, uncontrolled",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "elevated blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "elevated BP"
+  },
+  {
+   "field": "note",
+   "text": "nutritionist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "diet counseling"
+  },
+  {
+   "field": "note",
+   "text": "DASH diet",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "note",
+   "text": "Type 2 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diabetes is uncontrolled",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  }
+ ]
+}

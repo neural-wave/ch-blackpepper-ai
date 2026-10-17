@@ -1,0 +1,509 @@
+{
+ "encounter_id": "D2N085",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "russell",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "sharp pain on the right side of my abdomen below my ribs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cat scan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney stone",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis/history"
+  },
+  {
+   "field": "dialogue",
+   "text": "urologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "goes to my lower abdomen in into my groin",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone pain radiation"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain when you urinate",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "burns",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "dysuria"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "hematuria screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "urine looks a little dark",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nauseated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "my father had them",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "family history of stones"
+  },
+  {
+   "field": "dialogue",
+   "text": "no tenderness to palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "abdominal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "rebound or guarding",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "abdominal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "peritoneal signs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "abdominal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "positive cva tenderness on the right flank",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "inflammation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "kidney"
+  },
+  {
+   "field": "dialogue",
+   "text": "ct scan of your abdomen",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "proximal right ureter",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone location"
+  },
+  {
+   "field": "dialogue",
+   "text": "hydronephrosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone complication"
+  },
+  {
+   "field": "dialogue",
+   "text": "acute nephrolithiasis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "push fluids",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "oxycodone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "strainer",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone collection"
+  },
+  {
+   "field": "dialogue",
+   "text": "basic metabolic panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "stone workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "urinalysis",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "stone workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "urine culture",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "stone workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "lithotripsy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ureteroscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone treatment"
+  },
+  {
+   "field": "note",
+   "text": "Right-sided abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "right-sided abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis/history"
+  },
+  {
+   "field": "note",
+   "text": "his father has a history of kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negative"
+  },
+  {
+   "field": "note",
+   "text": "dysuria",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "dark colored urine",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "hematuria",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom screen"
+  },
+  {
+   "field": "note",
+   "text": "No masses or tenderness to palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "abdominal exam"
+  },
+  {
+   "field": "note",
+   "text": "No rebound or guarding",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "abdominal exam"
+  },
+  {
+   "field": "note",
+   "text": "No peritoneal signs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "abdominal exam"
+  },
+  {
+   "field": "note",
+   "text": "Positive CVA tenderness on the right flank",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone finding"
+  },
+  {
+   "field": "note",
+   "text": "CT scan of the abdomen",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone imaging"
+  },
+  {
+   "field": "note",
+   "text": "CT scan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone imaging"
+  },
+  {
+   "field": "note",
+   "text": "kidney stone",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "proximal right ureter",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone location"
+  },
+  {
+   "field": "note",
+   "text": "hydronephrosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone complication"
+  },
+  {
+   "field": "note",
+   "text": "Acute nephrolithiasis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "push fluids",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone treatment"
+  },
+  {
+   "field": "note",
+   "text": "strainer",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone collection"
+  },
+  {
+   "field": "note",
+   "text": "oxycodone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "basic metabolic panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "stone workup"
+  },
+  {
+   "field": "note",
+   "text": "urinalysis",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "stone workup"
+  },
+  {
+   "field": "note",
+   "text": "urine culture",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "stone workup"
+  },
+  {
+   "field": "note",
+   "text": "lithotripsy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone treatment"
+  },
+  {
+   "field": "note",
+   "text": "ureteroscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone treatment"
+  }
+ ]
+}

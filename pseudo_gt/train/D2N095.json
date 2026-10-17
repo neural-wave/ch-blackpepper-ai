@@ -1,0 +1,661 @@
+{
+ "encounter_id": "D2N095",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "cheryl",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "34-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "my boyfriend",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relationship detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "walking a lot lately",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M54.9",
+   "why": "activity triggering back pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "deadlifts",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M54.9",
+   "why": "activity causing back pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "lifting more",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M54.9",
+   "why": "activity causing back pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "back just kind of seized up",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "back pain onset"
+  },
+  {
+   "field": "dialogue",
+   "text": "spasm",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "back pain description"
+  },
+  {
+   "field": "dialogue",
+   "text": "stiff",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "back symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "lower back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "pain location"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.9",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "heat",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.9",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbing or tingling in your legs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "radiculopathy screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "weakness in your lower extremities",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "radiculopathy screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation on the right lateral aspect of your lumbar spine",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.9",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.9",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "negative straight leg raise",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.9",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "back x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.9",
+   "why": "back imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray of the lumbar spine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.9",
+   "why": "back imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "boney alignment",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.9",
+   "why": "imaging result"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.9",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "lumbar strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "back pain diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.9",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice the area",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.9",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.9",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "cuff",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "BP monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "diet",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN management"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure readings",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "BP monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "cough",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "nasal congestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "seasonal allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "two out of six systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "known murmur"
+  },
+  {
+   "field": "dialogue",
+   "text": "white blood cell count",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "infection screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "infection",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Ramirez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "34-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "walking a lot lately",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M54.9",
+   "why": "activity triggering back pain"
+  },
+  {
+   "field": "note",
+   "text": "weightlifting",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M54.9",
+   "why": "activity causing back pain"
+  },
+  {
+   "field": "note",
+   "text": "deadlifts",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M54.9",
+   "why": "activity causing back pain"
+  },
+  {
+   "field": "note",
+   "text": "lifting weights",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M54.9",
+   "why": "activity causing back pain"
+  },
+  {
+   "field": "note",
+   "text": "Back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "back seize up",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "back pain onset"
+  },
+  {
+   "field": "note",
+   "text": "spasm",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "back pain description"
+  },
+  {
+   "field": "note",
+   "text": "stiff",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "back symptom"
+  },
+  {
+   "field": "note",
+   "text": "mid lower back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "pain location"
+  },
+  {
+   "field": "note",
+   "text": "bilateral low back pain and stiffness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "back pain"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.9",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "heat",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.9",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "lower extremity numbness, tingling, and weakness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "radiculopathy screen"
+  },
+  {
+   "field": "note",
+   "text": "Pain to palpation along the right lateral aspect of her lumbar spine",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.9",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.9",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "Negative straight leg raise",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.9",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "Back x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.9",
+   "why": "back imaging"
+  },
+  {
+   "field": "note",
+   "text": "lumbar spine x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.9",
+   "why": "back imaging"
+  },
+  {
+   "field": "note",
+   "text": "bony alignment",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.9",
+   "why": "imaging result"
+  },
+  {
+   "field": "note",
+   "text": "fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M54.9",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "lumbar strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.9",
+   "why": "back pain diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M54.9",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.9",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "strengthening exercises",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.9",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "ice and heat",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.9",
+   "why": "back pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diet",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN management"
+  },
+  {
+   "field": "note",
+   "text": "dietary modifications",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN management"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "home monitoring",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "BP monitoring"
+  },
+  {
+   "field": "note",
+   "text": "elevated blood pressures",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "note",
+   "text": "nasal congestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "seasonal allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated condition"
+  },
+  {
+   "field": "note",
+   "text": "numbness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated neuro"
+  },
+  {
+   "field": "note",
+   "text": "Slight 2/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "known murmur"
+  },
+  {
+   "field": "note",
+   "text": "Labs",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "general labs"
+  }
+ ]
+}

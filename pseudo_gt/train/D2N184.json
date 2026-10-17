@@ -1,0 +1,365 @@
+{
+ "encounter_id": "D2N184",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "stephanie morales",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "113322",
+   "category": "a",
+   "type": "CONTACT_ID",
+   "code": null,
+   "why": "medical record number"
+  },
+  {
+   "field": "dialogue",
+   "text": "44-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "i work for ups",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "employer"
+  },
+  {
+   "field": "dialogue",
+   "text": "ups job",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "employer"
+  },
+  {
+   "field": "dialogue",
+   "text": "going up and down steps with the position i have",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job duties"
+  },
+  {
+   "field": "dialogue",
+   "text": "sit for the shift with breaks",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job duties"
+  },
+  {
+   "field": "dialogue",
+   "text": "labor-intensive work",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job type"
+  },
+  {
+   "field": "dialogue",
+   "text": "anna",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "nurse name"
+  },
+  {
+   "field": "dialogue",
+   "text": "right medial unicompartmental arthroplasty",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "completed treatment being followed up"
+  },
+  {
+   "field": "dialogue",
+   "text": "six-week post-op meeting exam",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "follow-up exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "completed treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z09",
+   "why": "post-op symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "incision",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "post-op imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "radiographs",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "post-op imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "implants in stable position",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "loosening or early complications",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op complication screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "pt",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "post-op rehab"
+  },
+  {
+   "field": "dialogue",
+   "text": "antalgic",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op gait finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "slight limp",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op gait finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "decreased velocity",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op gait finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "assistive device",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op gait finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "healed surgical scar",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness- tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "aches and pains",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z09",
+   "why": "post-op symptom"
+  },
+  {
+   "field": "note",
+   "text": "Stephanie Morales",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Ms. Morales",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "44-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "UPS",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "employer"
+  },
+  {
+   "field": "note",
+   "text": "physical job requirements",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job type"
+  },
+  {
+   "field": "note",
+   "text": "labor-intensive job",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job type"
+  },
+  {
+   "field": "note",
+   "text": "right medial knee unicompartmental arthroplasty",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "completed treatment being followed up"
+  },
+  {
+   "field": "note",
+   "text": "postoperative follow up",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "follow-up encounter"
+  },
+  {
+   "field": "note",
+   "text": "numbness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z09",
+   "why": "post-op symptom"
+  },
+  {
+   "field": "note",
+   "text": "home physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "post-op rehab"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "post-op rehab"
+  },
+  {
+   "field": "note",
+   "text": "Antalgic",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op gait finding"
+  },
+  {
+   "field": "note",
+   "text": "Healed surgical scar",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op finding"
+  },
+  {
+   "field": "note",
+   "text": "Mild swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op finding"
+  },
+  {
+   "field": "note",
+   "text": "Along incision",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op finding"
+  },
+  {
+   "field": "note",
+   "text": "Radiographs",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z09",
+   "why": "post-op imaging"
+  },
+  {
+   "field": "note",
+   "text": "implants in stable position",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "loosening or early complication",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z09",
+   "why": "post-op complication screen"
+  }
+ ]
+}

@@ -1,0 +1,709 @@
+{
+ "encounter_id": "D2N002",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "andrew",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "62-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "gutierrez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "provider name"
+  },
+  {
+   "field": "dialogue",
+   "text": "moving boxes up and down our basements stairs",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "saturday night",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "specific day of event"
+  },
+  {
+   "field": "dialogue",
+   "text": "arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M17.0",
+   "why": "coded OA"
+  },
+  {
+   "field": "dialogue",
+   "text": "joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M17.0",
+   "why": "OA symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M17.0",
+   "why": "OA symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee problems",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M17.0",
+   "why": "knee history"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M17.0",
+   "why": "treatment for knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M17.0",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "erythema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M17.0",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M17.0",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "decreased range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M17.0",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M17.0",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "acute exacerbation of your arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M17.0",
+   "why": "assessment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ultram",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M17.0",
+   "why": "OA treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "autoimmune panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "M17.0",
+   "why": "arthritis workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M17.0",
+   "why": "OA plan"
+  },
+  {
+   "field": "dialogue",
+   "text": "anti-inflammatory medications",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M17.0",
+   "why": "OA treatment constraint"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypothyroidism",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E03.9",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "hyperthyroidism",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E03.9",
+   "why": "misspoken thyroid dx"
+  },
+  {
+   "field": "dialogue",
+   "text": "synthroid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E03.9",
+   "why": "thyroid treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "thyroid labs",
+   "category": "c",
+   "type": "LAB",
+   "code": "E03.9",
+   "why": "thyroid workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "thyroid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "E03.9",
+   "why": "thyroid workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "fatigue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E03.9",
+   "why": "hypothyroid symptom check"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight gain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E03.9",
+   "why": "hypothyroid symptom check"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney transplant",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z94.0",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "polycystic kidneys",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z94.0",
+   "why": "reason for transplant"
+  },
+  {
+   "field": "dialogue",
+   "text": "immunosuppressive medications",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z94.0",
+   "why": "transplant meds"
+  },
+  {
+   "field": "dialogue",
+   "text": "immunocompromised",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z94.0",
+   "why": "transplant status"
+  },
+  {
+   "field": "dialogue",
+   "text": "white blood cell count",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z94.0",
+   "why": "transplant monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney function",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z94.0",
+   "why": "transplant monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "muscle aches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "elbow",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "elbow pain not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "cardiac finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "acute fracture",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated xray finding"
+  },
+  {
+   "field": "note",
+   "text": "Andrew Perez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "62-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Dr. Gutierrez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "provider name"
+  },
+  {
+   "field": "note",
+   "text": "moving boxes up and down the basement stairs",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific life event"
+  },
+  {
+   "field": "note",
+   "text": "Saturday",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "specific day of event"
+  },
+  {
+   "field": "note",
+   "text": "arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M17.0",
+   "why": "coded OA"
+  },
+  {
+   "field": "note",
+   "text": "Arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M17.0",
+   "why": "coded OA"
+  },
+  {
+   "field": "note",
+   "text": "joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M17.0",
+   "why": "OA symptom"
+  },
+  {
+   "field": "note",
+   "text": "knee problems",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M17.0",
+   "why": "knee history"
+  },
+  {
+   "field": "note",
+   "text": "knee soreness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M17.0",
+   "why": "OA symptom"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M17.0",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "edema and erythema of the right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M17.0",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "pain to palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M17.0",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Range of motion is decreased",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M17.0",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M17.0",
+   "why": "knee imaging"
+  },
+  {
+   "field": "note",
+   "text": "acute exacerbation of his arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M17.0",
+   "why": "assessment"
+  },
+  {
+   "field": "note",
+   "text": "autoimmune panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "M17.0",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "Ultram",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M17.0",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M17.0",
+   "why": "plan"
+  },
+  {
+   "field": "note",
+   "text": "hypothyroidism",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E03.9",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Hypothyroidism",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E03.9",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Synthroid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E03.9",
+   "why": "thyroid treatment"
+  },
+  {
+   "field": "note",
+   "text": "thyroid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "E03.9",
+   "why": "thyroid workup"
+  },
+  {
+   "field": "note",
+   "text": "fatigue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E03.9",
+   "why": "hypothyroid symptom check"
+  },
+  {
+   "field": "note",
+   "text": "kidney transplant",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z94.0",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "renal transplant",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z94.0",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "polycystic kidneys",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z94.0",
+   "why": "reason for transplant"
+  },
+  {
+   "field": "note",
+   "text": "immunosuppressant medications",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z94.0",
+   "why": "transplant meds"
+  },
+  {
+   "field": "note",
+   "text": "immunosuppressive medications",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "Z94.0",
+   "why": "transplant meds"
+  },
+  {
+   "field": "note",
+   "text": "White blood cell count",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z94.0",
+   "why": "transplant monitoring"
+  },
+  {
+   "field": "note",
+   "text": "white blood cell count",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z94.0",
+   "why": "transplant monitoring"
+  },
+  {
+   "field": "note",
+   "text": "Kidney function",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z94.0",
+   "why": "transplant monitoring"
+  },
+  {
+   "field": "note",
+   "text": "kidney function",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z94.0",
+   "why": "transplant monitoring"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "muscle aches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "weight loss",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "muscle pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "pain in his elbow",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "elbow pain not coded"
+  },
+  {
+   "field": "note",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "cardiac finding"
+  },
+  {
+   "field": "note",
+   "text": "acute fractures",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated xray finding"
+  }
+ ]
+}

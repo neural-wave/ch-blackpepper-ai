@@ -1,0 +1,693 @@
+{
+ "encounter_id": "D2N060",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "jean",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "monday morning",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "surgery day"
+  },
+  {
+   "field": "dialogue",
+   "text": "like four five",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age started soccer"
+  },
+  {
+   "field": "dialogue",
+   "text": "almost sixteen",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "doctor's daughter age"
+  },
+  {
+   "field": "dialogue",
+   "text": "our youngest daughter",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "doctor's family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "inner marrial soccer league",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "named league"
+  },
+  {
+   "field": "dialogue",
+   "text": "rex center",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named venue"
+  },
+  {
+   "field": "dialogue",
+   "text": "local town leak",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "local league"
+  },
+  {
+   "field": "dialogue",
+   "text": "high school teams",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "school sports history"
+  },
+  {
+   "field": "dialogue",
+   "text": "soccer game",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.66",
+   "why": "activity causing injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "playing soccer",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.66",
+   "why": "activity causing injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "soccer",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.66",
+   "why": "activity causing injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "steal the ball from another player",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W21.02XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "falling directly onto my right foot",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S93.325A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "twisting around her",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S93.325A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "foot pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.325A",
+   "why": "injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "right foot pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.325A",
+   "why": "injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "icing it",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.325A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "wrapped it",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.325A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.325A",
+   "why": "injury pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness or tingling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "neurovascular check"
+  },
+  {
+   "field": "dialogue",
+   "text": "bruising on the bottom of your foot",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "foot exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "associated swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "foot exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness to palpation of your midfoot",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "foot exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "piano key test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "Lisfranc test"
+  },
+  {
+   "field": "dialogue",
+   "text": "brisk capillary refill",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "dorsalis pedis pulse",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "motor and sensation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "diagnostic imaging",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.325A",
+   "why": "foot imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.325A",
+   "why": "foot imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "subtle dorsal displacement of the base of the second metatarsal",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "three millimeter separation of the first and second metatarsal bases",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "bony fragment in the lisfranc joint space",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisfranc fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.325A",
+   "why": "coded injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.325A",
+   "why": "ligament assessment"
+  },
+  {
+   "field": "dialogue",
+   "text": "injury to any of these ligaments",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.325A",
+   "why": "ligament injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "day surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.325A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "plates and screws",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.325A",
+   "why": "fixation"
+  },
+  {
+   "field": "dialogue",
+   "text": "cast",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.325A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.325A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "losing the arch of your foot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.325A",
+   "why": "complication risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "flat-footed",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.325A",
+   "why": "complication risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.325A",
+   "why": "complication risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "a lot of injuries in soccer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "prior injuries"
+  },
+  {
+   "field": "dialogue",
+   "text": "clicks rubs or murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated cardiac findings"
+  },
+  {
+   "field": "dialogue",
+   "text": "ectopic beats",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated cardiac findings"
+  },
+  {
+   "field": "note",
+   "text": "Jean Martinez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "27-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "4 or 5 years old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age started soccer"
+  },
+  {
+   "field": "note",
+   "text": "local league",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports participation"
+  },
+  {
+   "field": "note",
+   "text": "Monday",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "surgery day"
+  },
+  {
+   "field": "note",
+   "text": "playing soccer",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.66",
+   "why": "activity causing injury"
+  },
+  {
+   "field": "note",
+   "text": "soccer season",
+   "category": "c",
+   "type": "QUASI",
+   "code": "Y93.66",
+   "why": "activity"
+  },
+  {
+   "field": "note",
+   "text": "entangled with another player",
+   "category": "c",
+   "type": "QUASI",
+   "code": "W21.02XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "fall onto the patient's foot",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S93.325A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "Left foot pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.325A",
+   "why": "injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "left foot pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.325A",
+   "why": "injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "trainer wrapped her foot",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.325A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "note",
+   "text": "ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.325A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "note",
+   "text": "elevation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.325A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S93.325A",
+   "why": "injury pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "numbness, tingling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "neurovascular check"
+  },
+  {
+   "field": "note",
+   "text": "left foot numbness or tingling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "neurovascular check"
+  },
+  {
+   "field": "note",
+   "text": "Brisk capillary refill",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "note",
+   "text": "Dorsalis pedis pulse",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "note",
+   "text": "Motor and sensation in the left foot",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "note",
+   "text": "Ecchymosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "foot exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Associated swelling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "foot exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Tenderness to palpation of the midfoot",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "foot exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Positive piano key test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "Lisfranc test"
+  },
+  {
+   "field": "note",
+   "text": "X-ray images of the left foot",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.325A",
+   "why": "foot imaging"
+  },
+  {
+   "field": "note",
+   "text": "subtle dorsal displacement of the base of the 2nd metatarsal",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "3 mm separation of the 1st and 2nd metatarsal bases",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "bony fragment in the Lisfranc joint space",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S93.325A",
+   "why": "imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "Lisfranc fracture, left foot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.325A",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.325A",
+   "why": "ligament assessment"
+  },
+  {
+   "field": "note",
+   "text": "ligamentous injuries",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.325A",
+   "why": "ligament injury"
+  },
+  {
+   "field": "note",
+   "text": "surgery of the left foot",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.325A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "note",
+   "text": "surgical intervention",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S93.325A",
+   "why": "injury treatment"
+  },
+  {
+   "field": "note",
+   "text": "poor bone and ligament healing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.325A",
+   "why": "complication risk"
+  },
+  {
+   "field": "note",
+   "text": "pes planus deformation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.325A",
+   "why": "complication risk"
+  },
+  {
+   "field": "note",
+   "text": "arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S93.325A",
+   "why": "complication risk"
+  },
+  {
+   "field": "note",
+   "text": "several injuries in the past",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "prior injuries"
+  },
+  {
+   "field": "note",
+   "text": "several soccer injuries",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "prior injuries"
+  },
+  {
+   "field": "note",
+   "text": "clicks, rubs, or murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated cardiac findings"
+  },
+  {
+   "field": "note",
+   "text": "ectopic beats",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated cardiac findings"
+  }
+ ]
+}

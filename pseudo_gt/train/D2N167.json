@@ -1,0 +1,541 @@
+{
+ "encounter_id": "D2N167",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "angela",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "she is five",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "niece's age"
+  },
+  {
+   "field": "dialogue",
+   "text": "my niece",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "your niece",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "take off the training wheels for her bike",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "left knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "running around with my niece",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "cause of knee injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "fell",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "twisted my knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "limping",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "knee symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pop",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "throbbing kind of pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "knee pain quality"
+  },
+  {
+   "field": "dialogue",
+   "text": "ulcer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "advil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.562",
+   "why": "NSAID contraindicated"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.562",
+   "why": "NSAID contraindicated"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.562",
+   "why": "knee pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "kinesiology tape",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.562",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "mess up your liver",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "acetaminophen risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "fluid in the knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "moderate range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain on flexion and extension of the knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "negative lachman's test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "negative valgus and varus test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray of your left knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.562",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "no fractures no bony abnormalities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "xray negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "mcl strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "cause of knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "medial collateral ligament",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "cause of knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "strained that ligament",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "cause of knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "nsaid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.562",
+   "why": "knee pain treatment class"
+  },
+  {
+   "field": "dialogue",
+   "text": "tramadol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.562",
+   "why": "knee pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee immobilizer",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.562",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice it",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.562",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.562",
+   "why": "knee imaging"
+  },
+  {
+   "field": "note",
+   "text": "Angela Powell",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "81-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "her niece",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "left knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Left knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "running around with her niece",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "cause of knee injury"
+  },
+  {
+   "field": "note",
+   "text": "fell",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "heard a pop",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "twisted her knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "limping",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "knee symptom"
+  },
+  {
+   "field": "note",
+   "text": "throbbing pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "knee pain quality"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.562",
+   "why": "knee pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "kinesiology tape",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.562",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.562",
+   "why": "NSAID contraindicated"
+  },
+  {
+   "field": "note",
+   "text": "ulcer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "note",
+   "text": "Edema and effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Moderate ROM",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with flexion and extension of the knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Negative Lachman's",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Negative valgus and varus stress test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "4 views of the left knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.562",
+   "why": "knee imaging"
+  },
+  {
+   "field": "note",
+   "text": "fractures or dislocations",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "xray negative"
+  },
+  {
+   "field": "note",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.562",
+   "why": "knee imaging"
+  },
+  {
+   "field": "note",
+   "text": "tear",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.562",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "MCL strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "cause of knee pain"
+  },
+  {
+   "field": "note",
+   "text": "knee immobilizer",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.562",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "immobilizer",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.562",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "tramadol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.562",
+   "why": "knee pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "ice her left knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.562",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "running",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.562",
+   "why": "activity restriction"
+  },
+  {
+   "field": "note",
+   "text": "MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.562",
+   "why": "knee imaging"
+  }
+ ]
+}

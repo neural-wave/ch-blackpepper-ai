@@ -1,0 +1,653 @@
+{
+ "encounter_id": "D2N089",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "andrea",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "52-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "yoga",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "walking",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "exercise habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "meditation",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle"
+  },
+  {
+   "field": "dialogue",
+   "text": "running with my dog",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby/pet"
+  },
+  {
+   "field": "dialogue",
+   "text": "soda",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "diet habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "rheumatoid arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M06.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M06.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M06.9",
+   "why": "RA symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "stiffness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M06.9",
+   "why": "RA symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "flare ups",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M06.9",
+   "why": "RA flares"
+  },
+  {
+   "field": "dialogue",
+   "text": "methotrexate",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M06.9",
+   "why": "RA treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "autoimmune panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "M06.9",
+   "why": "RA lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "rheumatologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M06.9",
+   "why": "RA referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "atrial fibrillation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I48.91",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "a-fib",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I48.91",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "palpitations",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I48.91",
+   "why": "AF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "event monitor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I48.91",
+   "why": "AF workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "conversion pause",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I48.91",
+   "why": "AF monitor result"
+  },
+  {
+   "field": "dialogue",
+   "text": "normal sinus rhythm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I48.91",
+   "why": "rhythm goal"
+  },
+  {
+   "field": "dialogue",
+   "text": "regular rate and rhythm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I48.91",
+   "why": "rhythm exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "cardiac ablation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I48.91",
+   "why": "AF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cardiology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I48.91",
+   "why": "AF referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "protonix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "GERD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "dietary modifications",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K21.9",
+   "why": "GERD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "coffee and spicy foods",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K21.9",
+   "why": "GERD triggers"
+  },
+  {
+   "field": "dialogue",
+   "text": "nasal congestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "2/6 systolic- systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "known benign murmur"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema and some erythema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "elbow finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation of the right elbow",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "elbow finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "lower extremity edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated finding"
+  },
+  {
+   "field": "note",
+   "text": "Andrea Roberts",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "52-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "yoga",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "walking",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "exercise habit"
+  },
+  {
+   "field": "note",
+   "text": "meditation",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle"
+  },
+  {
+   "field": "note",
+   "text": "running with her dog",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby/pet"
+  },
+  {
+   "field": "note",
+   "text": "soda",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "diet habit"
+  },
+  {
+   "field": "note",
+   "text": "rheumatoid arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M06.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Rheumatoid arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M06.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M06.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "stiffness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M06.9",
+   "why": "RA symptom"
+  },
+  {
+   "field": "note",
+   "text": "joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M06.9",
+   "why": "RA symptom"
+  },
+  {
+   "field": "note",
+   "text": "methotrexate",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M06.9",
+   "why": "RA treatment"
+  },
+  {
+   "field": "note",
+   "text": "Autoimmune panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "M06.9",
+   "why": "RA lab"
+  },
+  {
+   "field": "note",
+   "text": "autoimmune panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "M06.9",
+   "why": "RA lab"
+  },
+  {
+   "field": "note",
+   "text": "rheumatologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M06.9",
+   "why": "RA referral"
+  },
+  {
+   "field": "note",
+   "text": "atrial fibrillation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I48.91",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Atrial fibrillation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I48.91",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "palpitations",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I48.91",
+   "why": "AF symptom"
+  },
+  {
+   "field": "note",
+   "text": "event monitor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I48.91",
+   "why": "AF workup"
+  },
+  {
+   "field": "note",
+   "text": "Event monitor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I48.91",
+   "why": "AF workup"
+  },
+  {
+   "field": "note",
+   "text": "cardiac event monitor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I48.91",
+   "why": "AF workup"
+  },
+  {
+   "field": "note",
+   "text": "conversion pause",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I48.91",
+   "why": "AF monitor result"
+  },
+  {
+   "field": "note",
+   "text": "normal sinus rhythm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I48.91",
+   "why": "rhythm"
+  },
+  {
+   "field": "note",
+   "text": "Regular rate and rhythm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I48.91",
+   "why": "rhythm exam"
+  },
+  {
+   "field": "note",
+   "text": "cardiac ablation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I48.91",
+   "why": "AF treatment"
+  },
+  {
+   "field": "note",
+   "text": "cardiology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I48.91",
+   "why": "AF referral"
+  },
+  {
+   "field": "note",
+   "text": "reflux",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "GERD",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K21.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Protonix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K21.9",
+   "why": "GERD treatment"
+  },
+  {
+   "field": "note",
+   "text": "dietary modifications",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K21.9",
+   "why": "GERD treatment"
+  },
+  {
+   "field": "note",
+   "text": "nasal congestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated condition"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "vomitting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "wheezes, rales, or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated lung findings"
+  },
+  {
+   "field": "note",
+   "text": "Slight 2/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "known benign murmur"
+  },
+  {
+   "field": "note",
+   "text": "lower extremity edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated finding"
+  },
+  {
+   "field": "note",
+   "text": "Edema and erythema of the right elbow",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "elbow finding"
+  },
+  {
+   "field": "note",
+   "text": "Pain to palpation of the right elbow",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "elbow finding"
+  }
+ ]
+}

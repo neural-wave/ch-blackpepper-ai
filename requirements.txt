@@ -1,0 +1,12 @@
+torch==2.14.1
+transformers==5.20.1
+huggingface_hub==2.2.0
+spacy==3.7.5
+scispacy==0.6.2
+simple_icd_10_cm==1.5.0
+numpy==1.26.4
+tqdm==4.70.1
+# spaCy models
+en_ner_bc5cdr_md @ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bc5cdr_md-0.5.4.tar.gz
+# evaluation reference only
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl

@@ -1,0 +1,589 @@
+{
+ "encounter_id": "D2N204",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "joe",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "with some with some friends",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social context"
+  },
+  {
+   "field": "dialogue",
+   "text": "saturday",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "trip up up north",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel"
+  },
+  {
+   "field": "dialogue",
+   "text": "mount saint helen",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "travel location"
+  },
+  {
+   "field": "dialogue",
+   "text": "washington",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "travel state"
+  },
+  {
+   "field": "dialogue",
+   "text": "maple syrup",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel anecdote"
+  },
+  {
+   "field": "dialogue",
+   "text": "hikers kayakers",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel anecdote"
+  },
+  {
+   "field": "dialogue",
+   "text": "one of the locals",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel anecdote"
+  },
+  {
+   "field": "dialogue",
+   "text": "i like going to skiing",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "skiing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.01XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "skis i kind of dug into the snow",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.01XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "cart wheel",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.01XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "cartwheel",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.01XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "pop in my my right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.01XA",
+   "why": "knee injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "swollen",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.01XA",
+   "why": "knee swelling"
+  },
+  {
+   "field": "dialogue",
+   "text": "advil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S80.01XA",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "icing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S80.01XA",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "heat",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S80.01XA",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee injuries",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.01XA",
+   "why": "knee history"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "vitals"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.01XA",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecchymosis around surrounding your knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.01XA",
+   "why": "contusion finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "positive pain to palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.01XA",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.01XA",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "full range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.01XA",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S80.01XA",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "no fracture appreciated no bony abnormalities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.01XA",
+   "why": "imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee contusion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.01XA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "rest",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S80.01XA",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "apply ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S80.01XA",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nsaids",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S80.01XA",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S80.01XA",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S80.01XA",
+   "why": "treatment option"
+  },
+  {
+   "field": "dialogue",
+   "text": "shoulder feels a little bruised",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.511",
+   "why": "shoulder injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "landed on that lead shoulder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.511",
+   "why": "shoulder mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "bruising",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.511",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "tender",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.511",
+   "why": "shoulder pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray of that right shoulder",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.511",
+   "why": "shoulder imaging"
+  },
+  {
+   "field": "note",
+   "text": "Joe Reed",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "42-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "skiing with some friends",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.01XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "skis dug into the snow",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.01XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "cartwheel",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.01XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "right knee injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.01XA",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "Right knee injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.01XA",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "pop",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.01XA",
+   "why": "knee injury"
+  },
+  {
+   "field": "note",
+   "text": "pain and swelling in his right knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.01XA",
+   "why": "knee symptom"
+  },
+  {
+   "field": "note",
+   "text": "Right knee pain and swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.01XA",
+   "why": "knee symptom"
+  },
+  {
+   "field": "note",
+   "text": "Advil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S80.01XA",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "icing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S80.01XA",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "applying heat",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S80.01XA",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "knee injuries",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.01XA",
+   "why": "knee history"
+  },
+  {
+   "field": "note",
+   "text": "right shoulder pain and bruising",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.511",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Right shoulder pain and bruising",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.511",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "landed on his right shoulder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.511",
+   "why": "shoulder mechanism"
+  },
+  {
+   "field": "note",
+   "text": "tenderness with raising his arm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.511",
+   "why": "shoulder pain"
+  },
+  {
+   "field": "note",
+   "text": "Mild edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.01XA",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "Edema and ecchymosis surrounding the knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.01XA",
+   "why": "contusion finding"
+  },
+  {
+   "field": "note",
+   "text": "Positive pain to palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.01XA",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.01XA",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Full ROM",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.01XA",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Mild bruising",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.511",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "note",
+   "text": "X-rays of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S80.01XA",
+   "why": "knee imaging"
+  },
+  {
+   "field": "note",
+   "text": "No fracture is appreciated",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S80.01XA",
+   "why": "imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "Right knee contusion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S80.01XA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Right shoulder pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.511",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "rest his right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S80.01XA",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "apply ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S80.01XA",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "non-steroidal anti-inflammatory drugs",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S80.01XA",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S80.01XA",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "formal physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S80.01XA",
+   "why": "treatment option"
+  },
+  {
+   "field": "note",
+   "text": "x-rays of the right shoulder",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.511",
+   "why": "shoulder imaging"
+  }
+ ]
+}

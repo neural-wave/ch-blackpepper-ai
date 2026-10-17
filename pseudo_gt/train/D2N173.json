@@ -1,0 +1,541 @@
+{
+ "encounter_id": "D2N173",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "logan",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "57-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "we did a little bit of travel",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel"
+  },
+  {
+   "field": "dialogue",
+   "text": "take off work",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "employment"
+  },
+  {
+   "field": "dialogue",
+   "text": "household family members",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "household detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "covid",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "U07.1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "covid infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "U07.1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "covid test",
+   "category": "c",
+   "type": "LAB",
+   "code": "U07.1",
+   "why": "COVID diagnostic"
+  },
+  {
+   "field": "dialogue",
+   "text": "upper respiratory infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "U07.1",
+   "why": "COVID presentation"
+  },
+  {
+   "field": "dialogue",
+   "text": "cold",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "U07.1",
+   "why": "COVID symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "post nasal drip",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "U07.1",
+   "why": "COVID symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "congestion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "U07.1",
+   "why": "COVID symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cervical lymphadenopathy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "U07.1",
+   "why": "COVID exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "bilateral ronchi",
+   "category": "c",
+   "type": "FINDING",
+   "code": "U07.1",
+   "why": "COVID exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "wheezing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "U07.1",
+   "why": "COVID exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "lymph nodes that are swollen",
+   "category": "c",
+   "type": "FINDING",
+   "code": "U07.1",
+   "why": "COVID exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "vaccinated",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "U07.1",
+   "why": "COVID vaccination status"
+  },
+  {
+   "field": "dialogue",
+   "text": "vaccine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "U07.1",
+   "why": "COVID vaccination status"
+  },
+  {
+   "field": "dialogue",
+   "text": "quarantine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "U07.1",
+   "why": "COVID management"
+  },
+  {
+   "field": "dialogue",
+   "text": "fevers",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "U07.1",
+   "why": "COVID symptom screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "U07.1",
+   "why": "COVID symptom screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "hyperlipidemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "high cholesterol",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "crestor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E78.00",
+   "why": "cholesterol treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "cholesterol monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "muscle aches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "statin side-effect screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "coronary artery bypass grafting",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z95.1",
+   "why": "coded status"
+  },
+  {
+   "field": "dialogue",
+   "text": "bypass grafting",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z95.1",
+   "why": "coded status"
+  },
+  {
+   "field": "dialogue",
+   "text": "coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z95.1",
+   "why": "reason for bypass"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z95.1",
+   "why": "post-CABG symptom screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "stress test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z95.1",
+   "why": "post-CABG monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "ocd",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated psychiatric history"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain in your sinuses",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "Logan Harris",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "57-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "He did a little travel",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel"
+  },
+  {
+   "field": "note",
+   "text": "COVID-19",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "U07.1",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "COVID-19 test",
+   "category": "c",
+   "type": "LAB",
+   "code": "U07.1",
+   "why": "COVID diagnostic"
+  },
+  {
+   "field": "note",
+   "text": "upper respiratory infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "U07.1",
+   "why": "COVID presentation"
+  },
+  {
+   "field": "note",
+   "text": "Upper respiratory infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "U07.1",
+   "why": "COVID presentation"
+  },
+  {
+   "field": "note",
+   "text": "upper respiratory symptoms",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "U07.1",
+   "why": "COVID presentation"
+  },
+  {
+   "field": "note",
+   "text": "cold",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "U07.1",
+   "why": "COVID symptom"
+  },
+  {
+   "field": "note",
+   "text": "postnasal drip",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "U07.1",
+   "why": "COVID symptom"
+  },
+  {
+   "field": "note",
+   "text": "post nasal drip",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "U07.1",
+   "why": "COVID symptom"
+  },
+  {
+   "field": "note",
+   "text": "chest congestion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "U07.1",
+   "why": "COVID symptom"
+  },
+  {
+   "field": "note",
+   "text": "cervical lymphadenopathy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "U07.1",
+   "why": "COVID exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Rhonchi and wheezing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "U07.1",
+   "why": "COVID exam finding"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "U07.1",
+   "why": "COVID symptom screen"
+  },
+  {
+   "field": "note",
+   "text": "fevers",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "U07.1",
+   "why": "COVID symptom screen"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "U07.1",
+   "why": "COVID symptom screen"
+  },
+  {
+   "field": "note",
+   "text": "vaccinated",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "U07.1",
+   "why": "COVID vaccination status"
+  },
+  {
+   "field": "note",
+   "text": "vaccination",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "U07.1",
+   "why": "COVID vaccination status"
+  },
+  {
+   "field": "note",
+   "text": "quarantine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "U07.1",
+   "why": "COVID management"
+  },
+  {
+   "field": "note",
+   "text": "hyperlipidemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "high cholesterol",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypercholesterolemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Crestor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E78.00",
+   "why": "cholesterol treatment"
+  },
+  {
+   "field": "note",
+   "text": "Lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "cholesterol monitoring"
+  },
+  {
+   "field": "note",
+   "text": "lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.00",
+   "why": "cholesterol monitoring"
+  },
+  {
+   "field": "note",
+   "text": "muscle aches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "statin side-effect screen"
+  },
+  {
+   "field": "note",
+   "text": "coronary artery bypass grafting",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z95.1",
+   "why": "coded status"
+  },
+  {
+   "field": "note",
+   "text": "bypass grafting",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z95.1",
+   "why": "coded status"
+  },
+  {
+   "field": "note",
+   "text": "coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z95.1",
+   "why": "reason for bypass"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z95.1",
+   "why": "post-CABG symptom screen"
+  },
+  {
+   "field": "note",
+   "text": "stress test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z95.1",
+   "why": "post-CABG monitoring"
+  },
+  {
+   "field": "note",
+   "text": "OCD",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated psychiatric history"
+  },
+  {
+   "field": "note",
+   "text": "obsessive compulsive disorder",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated psychiatric history"
+  }
+ ]
+}

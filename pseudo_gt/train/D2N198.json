@@ -1,0 +1,717 @@
+{
+ "encounter_id": "D2N198",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "michael",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "ride a bike",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "march madness",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "sports interest"
+  },
+  {
+   "field": "dialogue",
+   "text": "school",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "student"
+  },
+  {
+   "field": "dialogue",
+   "text": "good grades",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "academic detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "physics teachers",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "school detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "brother who smokes",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relative detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "siblings",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "class",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "student"
+  },
+  {
+   "field": "dialogue",
+   "text": "go to work",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "employment"
+  },
+  {
+   "field": "dialogue",
+   "text": "changing jobs",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "employment change"
+  },
+  {
+   "field": "dialogue",
+   "text": "new job",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "employment"
+  },
+  {
+   "field": "dialogue",
+   "text": "old boss",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "employment"
+  },
+  {
+   "field": "dialogue",
+   "text": "restaurant",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "workplace type"
+  },
+  {
+   "field": "dialogue",
+   "text": "no insurance",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "insurance status"
+  },
+  {
+   "field": "dialogue",
+   "text": "your mom is paying",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family finance"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "presenting symptom of nephritis"
+  },
+  {
+   "field": "dialogue",
+   "text": "left back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "presenting symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "tired",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "appetite",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "drinking a lot more water",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "renal symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "increase in urine output",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "renal symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pee more than i normally do",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "renal symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "covid",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "sick contacts"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoke",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "secondhand smoke exposure"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoker",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "secondhand smoke exposure"
+  },
+  {
+   "field": "dialogue",
+   "text": "recurrent strep",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "cause of glomerulonephritis"
+  },
+  {
+   "field": "dialogue",
+   "text": "strep",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "cause of glomerulonephritis"
+  },
+  {
+   "field": "dialogue",
+   "text": "sore throats",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "strep history"
+  },
+  {
+   "field": "dialogue",
+   "text": "sore throat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "strep history"
+  },
+  {
+   "field": "dialogue",
+   "text": "erythema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N05.9",
+   "why": "throat exam for strep"
+  },
+  {
+   "field": "dialogue",
+   "text": "tonsils are midline",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N05.9",
+   "why": "throat exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "lymphadenopathy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N05.9",
+   "why": "strep exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "cervical adenopathy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N05.9",
+   "why": "strep exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "strep infection"
+  },
+  {
+   "field": "dialogue",
+   "text": "wheezes rales rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "lung exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "heart exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "no rebound no guarding",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "abdominal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "ct",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N05.9",
+   "why": "imaging showing GN"
+  },
+  {
+   "field": "dialogue",
+   "text": "glomerular nephritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "glomerulonephritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "chronic kidney disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "GN complication"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "GN complication"
+  },
+  {
+   "field": "dialogue",
+   "text": "ent",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N05.9",
+   "why": "referral for strep source"
+  },
+  {
+   "field": "dialogue",
+   "text": "taking out your tonsils",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N05.9",
+   "why": "tonsillectomy for recurrent strep"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipid panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "ua",
+   "category": "c",
+   "type": "LAB",
+   "code": "N05.9",
+   "why": "renal workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "cmp",
+   "category": "c",
+   "type": "LAB",
+   "code": "N05.9",
+   "why": "renal workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "cbc",
+   "category": "c",
+   "type": "LAB",
+   "code": "N05.9",
+   "why": "workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "vitamin d",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "tsh",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "fasting",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "lab prep"
+  },
+  {
+   "field": "dialogue",
+   "text": "salt intake",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N05.9",
+   "why": "renal diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "shot",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "injection question"
+  },
+  {
+   "field": "note",
+   "text": "Back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "presenting symptom"
+  },
+  {
+   "field": "note",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "presenting symptom"
+  },
+  {
+   "field": "note",
+   "text": "left-side back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "presenting symptom"
+  },
+  {
+   "field": "note",
+   "text": "strep throat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "cause of GN"
+  },
+  {
+   "field": "note",
+   "text": "recurrent strep throat",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "cause of GN"
+  },
+  {
+   "field": "note",
+   "text": "student",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "student"
+  },
+  {
+   "field": "note",
+   "text": "rides his bike",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "switching jobs",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "employment change"
+  },
+  {
+   "field": "note",
+   "text": "restaurant",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "workplace type"
+  },
+  {
+   "field": "note",
+   "text": "siblings",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "note",
+   "text": "brother who smokes",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relative detail"
+  },
+  {
+   "field": "note",
+   "text": "fatigue or change in appetite",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "increased urine output",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "renal symptom"
+  },
+  {
+   "field": "note",
+   "text": "increased water consumption",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "renal symptom"
+  },
+  {
+   "field": "note",
+   "text": "Pharynx without erythema, swelling, or exudate",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N05.9",
+   "why": "throat exam for strep"
+  },
+  {
+   "field": "note",
+   "text": "Tonsils are midline",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N05.9",
+   "why": "throat exam"
+  },
+  {
+   "field": "note",
+   "text": "lymphadenopathy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N05.9",
+   "why": "strep exam"
+  },
+  {
+   "field": "note",
+   "text": "No cervical adenopathy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N05.9",
+   "why": "strep exam"
+  },
+  {
+   "field": "note",
+   "text": "enlarged lymph nodes",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N05.9",
+   "why": "strep exam"
+  },
+  {
+   "field": "note",
+   "text": "wheezes, rales, or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "lung exam"
+  },
+  {
+   "field": "note",
+   "text": "murmurs, gallops or rubs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "heart exam"
+  },
+  {
+   "field": "note",
+   "text": "No rebound or guarding",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "abdominal exam"
+  },
+  {
+   "field": "note",
+   "text": "No back tenderness with palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N05.9",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "CT scan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N05.9",
+   "why": "imaging showing GN"
+  },
+  {
+   "field": "note",
+   "text": "glomerulonephritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Glomerulonephritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N05.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "salt intake",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N05.9",
+   "why": "renal diet"
+  },
+  {
+   "field": "note",
+   "text": "ENT",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N05.9",
+   "why": "referral for strep source"
+  },
+  {
+   "field": "note",
+   "text": "lipid panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "UA",
+   "category": "c",
+   "type": "LAB",
+   "code": "N05.9",
+   "why": "renal workup"
+  },
+  {
+   "field": "note",
+   "text": "CMP",
+   "category": "c",
+   "type": "LAB",
+   "code": "N05.9",
+   "why": "renal workup"
+  },
+  {
+   "field": "note",
+   "text": "CBC",
+   "category": "c",
+   "type": "LAB",
+   "code": "N05.9",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "vitamin D",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "TSH",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "work note",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "employment detail"
+  }
+ ]
+}

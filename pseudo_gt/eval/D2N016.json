@@ -1,0 +1,541 @@
+{
+ "encounter_id": "D2N016",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "edward",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "59 year old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "swimming at the pool",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "cvs pharmacy",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named store"
+  },
+  {
+   "field": "dialogue",
+   "text": "stretching with a yoga ball",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "counselor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression therapy"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "burger and wine",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I10",
+   "why": "dietary salt cause of uncontrolled HTN"
+  },
+  {
+   "field": "dialogue",
+   "text": "salt",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "dietary factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure readings",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure's a little elevated",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "HTN finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling in my ankles",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "attributed to salt intake/HTN"
+  },
+  {
+   "field": "dialogue",
+   "text": "pitting edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "attributed to salt intake/HTN"
+  },
+  {
+   "field": "dialogue",
+   "text": "creatinine",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney function",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "ekg",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "HTN workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "rotator cuff repair",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "prior surgery not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "rotator cuff repaired",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "prior surgery not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapist",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "shoulder rehab"
+  },
+  {
+   "field": "dialogue",
+   "text": "exercises at home",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "shoulder rehab"
+  },
+  {
+   "field": "dialogue",
+   "text": "nasal congestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "cardiac finding not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "coronary artery disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "Edward Butler",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "59-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "swimming at the pool",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "CVS",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named store"
+  },
+  {
+   "field": "note",
+   "text": "stretches with a yoga ball",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal activity"
+  },
+  {
+   "field": "note",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "counselor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression therapy"
+  },
+  {
+   "field": "note",
+   "text": "therapy and physical activity",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression management"
+  },
+  {
+   "field": "note",
+   "text": "Appropriate mood and affect",
+   "category": "c",
+   "type": "FINDING",
+   "code": "F32.A",
+   "why": "psych exam"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "drinking wine and eating burgers",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I10",
+   "why": "dietary cause of uncontrolled HTN"
+  },
+  {
+   "field": "note",
+   "text": "dietary indiscretion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "dietary factor"
+  },
+  {
+   "field": "note",
+   "text": "swelling in his ankles",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "attributed to salt/HTN"
+  },
+  {
+   "field": "note",
+   "text": "Bilateral ankle swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "attributed to salt/HTN"
+  },
+  {
+   "field": "note",
+   "text": "pitting edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "attributed to salt/HTN"
+  },
+  {
+   "field": "note",
+   "text": "Elevated",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "elevated BP"
+  },
+  {
+   "field": "note",
+   "text": "Creatinine",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "note",
+   "text": "Electrocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN workup"
+  },
+  {
+   "field": "note",
+   "text": "lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "HTN workup"
+  },
+  {
+   "field": "note",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN workup"
+  },
+  {
+   "field": "note",
+   "text": "rotator cuff repair",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "prior surgery not coded"
+  },
+  {
+   "field": "note",
+   "text": "rotator cuff repaired",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "prior surgery not coded"
+  },
+  {
+   "field": "note",
+   "text": "physical therapist",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "shoulder rehab"
+  },
+  {
+   "field": "note",
+   "text": "formal physical therapy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "shoulder rehab"
+  },
+  {
+   "field": "note",
+   "text": "home exercise",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "shoulder rehab"
+  },
+  {
+   "field": "note",
+   "text": "nasal congestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea on exertion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "wheezes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated lung finding"
+  },
+  {
+   "field": "note",
+   "text": "rales",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated lung finding"
+  },
+  {
+   "field": "note",
+   "text": "rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated lung finding"
+  },
+  {
+   "field": "note",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "cardiac finding not coded"
+  },
+  {
+   "field": "note",
+   "text": "coronary artery disease",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  }
+ ]
+}

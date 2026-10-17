@@ -1,0 +1,645 @@
+{
+ "encounter_id": "D2N100",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "kayla ward",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "kayla",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "ward",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "family last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "4/28/07",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "3-8-4-9-2-0",
+   "category": "a",
+   "type": "CONTACT_ID",
+   "code": null,
+   "why": "medical record number"
+  },
+  {
+   "field": "dialogue",
+   "text": "juan price",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor name"
+  },
+  {
+   "field": "dialogue",
+   "text": "her mother",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family relation"
+  },
+  {
+   "field": "dialogue",
+   "text": "lives with her parents and sister",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "household structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "they have a dog , bird , and bunnies",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "pets"
+  },
+  {
+   "field": "dialogue",
+   "text": "7th grade",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "school grade (age proxy)"
+  },
+  {
+   "field": "dialogue",
+   "text": "basketball",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "volleyball",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "tap",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "elf facial cleanser",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific product brand"
+  },
+  {
+   "field": "dialogue",
+   "text": "super clarity cleanser",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific product brand"
+  },
+  {
+   "field": "dialogue",
+   "text": "school sports in the fall",
+   "category": "c",
+   "type": "QUASI",
+   "code": "L70.0",
+   "why": "acne flare trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "sweating",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "acne flare trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "acne",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild to moderate acne",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "persa-gel",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "itching",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "negated associated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "bleeding",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "negated associated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "washes",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne care"
+  },
+  {
+   "field": "dialogue",
+   "text": "toner",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne care"
+  },
+  {
+   "field": "dialogue",
+   "text": "greasy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "acne-related skin"
+  },
+  {
+   "field": "dialogue",
+   "text": "periods",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "hormonal flare screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "regular period",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "hormonal history for acne"
+  },
+  {
+   "field": "dialogue",
+   "text": "facial care regimen",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L70.0",
+   "why": "acne care"
+  },
+  {
+   "field": "dialogue",
+   "text": "scattered skin colored papules",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L70.0",
+   "why": "acne exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "open and closed comedones",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L70.0",
+   "why": "acne exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "erythmateous papules on the face",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L70.0",
+   "why": "acne exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "comodonal with small inflammatory component",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L70.0",
+   "why": "acne type"
+  },
+  {
+   "field": "dialogue",
+   "text": "topical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild cleanser",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne care"
+  },
+  {
+   "field": "dialogue",
+   "text": "noncomedogenic",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne care"
+  },
+  {
+   "field": "dialogue",
+   "text": "moisturizer",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne care"
+  },
+  {
+   "field": "dialogue",
+   "text": "sunscreen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "retinoid photosensitivity"
+  },
+  {
+   "field": "dialogue",
+   "text": "adapalene",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "atopic retinoid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "dryness or irritation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "retinoid side effects"
+  },
+  {
+   "field": "dialogue",
+   "text": "multiple benign nevi on the trunk and extremities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D22.5",
+   "why": "coded nevi"
+  },
+  {
+   "field": "dialogue",
+   "text": "multiple benign moles",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D22.5",
+   "why": "coded nevi"
+  },
+  {
+   "field": "dialogue",
+   "text": "moles",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D22.5",
+   "why": "coded nevi"
+  },
+  {
+   "field": "dialogue",
+   "text": "worrisome features",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D22.5",
+   "why": "nevi assessment"
+  },
+  {
+   "field": "note",
+   "text": "Kayla Ward",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Kayla",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "note",
+   "text": "15-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "her mother",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family relation"
+  },
+  {
+   "field": "note",
+   "text": "mother",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family relation"
+  },
+  {
+   "field": "note",
+   "text": "Lives with parents and sister",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "household structure"
+  },
+  {
+   "field": "note",
+   "text": "They have a dog, bird, and rabbits in the home",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "pets"
+  },
+  {
+   "field": "note",
+   "text": "7th grade",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "school grade (age proxy)"
+  },
+  {
+   "field": "note",
+   "text": "basketball, volleyball, and tap dancing",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobbies"
+  },
+  {
+   "field": "note",
+   "text": "e.l.f. SuperClarify Cleanser",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific product brand"
+  },
+  {
+   "field": "note",
+   "text": "playing school sports",
+   "category": "c",
+   "type": "QUASI",
+   "code": "L70.0",
+   "why": "acne flare trigger"
+  },
+  {
+   "field": "note",
+   "text": "acne",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "acne flares",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "acne course"
+  },
+  {
+   "field": "note",
+   "text": "periods",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "hormonal flare screen"
+  },
+  {
+   "field": "note",
+   "text": "Comedonal acne",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "comedonal acne with a small inflammatory component",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "itching",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "negated associated symptom"
+  },
+  {
+   "field": "note",
+   "text": "bleeding",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "negated associated symptom"
+  },
+  {
+   "field": "note",
+   "text": "Persa-Gel",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "toner",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne care"
+  },
+  {
+   "field": "note",
+   "text": "sunscreen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "retinoid photosensitivity"
+  },
+  {
+   "field": "note",
+   "text": "Scattered skin-colored papules",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L70.0",
+   "why": "acne exam"
+  },
+  {
+   "field": "note",
+   "text": "open and closed comedones",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L70.0",
+   "why": "acne exam"
+  },
+  {
+   "field": "note",
+   "text": "erythematous papules on the face",
+   "category": "c",
+   "type": "FINDING",
+   "code": "L70.0",
+   "why": "acne exam"
+  },
+  {
+   "field": "note",
+   "text": "topical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "mild cleanser",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne care"
+  },
+  {
+   "field": "note",
+   "text": "non-comedogenic moisturizer",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne care"
+  },
+  {
+   "field": "note",
+   "text": "topical retinoid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "Retin-A",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "Differin gel",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L70.0",
+   "why": "acne treatment"
+  },
+  {
+   "field": "note",
+   "text": "sun sensitivity",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "retinoid side effect"
+  },
+  {
+   "field": "note",
+   "text": "dryness or irritation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L70.0",
+   "why": "retinoid side effects"
+  },
+  {
+   "field": "note",
+   "text": "multiple benign nevi on the trunk and extremities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D22.5",
+   "why": "coded nevi"
+  },
+  {
+   "field": "note",
+   "text": "Multiple benign melanocytic nevi of upper and lower extremities and trunk",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D22.5",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "multiple benign melanocytic nevi of upper and lower extremities and trunk",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D22.5",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "moles",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D22.5",
+   "why": "coded nevi"
+  }
+ ]
+}

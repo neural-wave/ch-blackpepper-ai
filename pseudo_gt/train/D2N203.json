@@ -1,0 +1,797 @@
+{
+ "encounter_id": "D2N203",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "matthew",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "my wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "spouse"
+  },
+  {
+   "field": "dialogue",
+   "text": "your wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "spouse"
+  },
+  {
+   "field": "dialogue",
+   "text": "the wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "spouse"
+  },
+  {
+   "field": "dialogue",
+   "text": "eat out almost every night",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "go out to eat every night",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "my office has paneling",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "workplace detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "italium place",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named restaurant"
+  },
+  {
+   "field": "dialogue",
+   "text": "main street",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "street"
+  },
+  {
+   "field": "dialogue",
+   "text": "basement of that big building",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "restaurant location"
+  },
+  {
+   "field": "dialogue",
+   "text": "saprano family",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "anecdote"
+  },
+  {
+   "field": "dialogue",
+   "text": "saprano's",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "anecdote"
+  },
+  {
+   "field": "dialogue",
+   "text": "egg plant parmer's john",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "food preference"
+  },
+  {
+   "field": "dialogue",
+   "text": "bio marsal",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "food preference"
+  },
+  {
+   "field": "dialogue",
+   "text": "red wine",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "anecdote"
+  },
+  {
+   "field": "dialogue",
+   "text": "vision changes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "AMD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "trouble with your right eye",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "right eye symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "trouble adjusting in the that dark dim environment",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "AMD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "decreased vision when you're reading",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "AMD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "looking a little crooked",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "metamorphopsia"
+  },
+  {
+   "field": "dialogue",
+   "text": "look wavy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "metamorphopsia"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoke",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "smoking not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoking",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "smoking not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "pack a day",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "smoking amount"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypnosis",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "smoking cessation"
+  },
+  {
+   "field": "dialogue",
+   "text": "lozenges",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "smoking cessation"
+  },
+  {
+   "field": "dialogue",
+   "text": "chewing gum",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "smoking cessation"
+  },
+  {
+   "field": "dialogue",
+   "text": "cigarette",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "smoking"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure medication",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure pill",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure medicine",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "glasses",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vision correction"
+  },
+  {
+   "field": "dialogue",
+   "text": "posterior chamber intraocular lenses",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "prior cataract surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "cornea is clear",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "anterior eye exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "no nvi",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "neovascularization check"
+  },
+  {
+   "field": "dialogue",
+   "text": "cup to disc",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "optic nerve exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "retina to be attached",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "retina exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "no holes or tears",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "retina exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "rpe changes in the fovea",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "macular finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "drusen in the macula",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "AMD finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "retinal thickening",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "AMD finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "subretinal fluid",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "wet AMD finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "exudate accumulation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "wet AMD finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemorrhage",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "wet AMD finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "otc exam",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "H35.3211",
+   "why": "retinal imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "drusen deposits under the rpe",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "AMD finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "srf accumulation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "wet AMD finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "choroidal neovascular membrane",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "CNV"
+  },
+  {
+   "field": "dialogue",
+   "text": "fluorescein angiography",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "H35.3211",
+   "why": "AMD workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "focal area of the leakage in the right eye",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "CNV leakage"
+  },
+  {
+   "field": "dialogue",
+   "text": "neurovascular age related macular degeneration",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "neovascular age related macular degeneration",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "wet macular degeneration",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "severe vision loss",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "AMD consequence"
+  },
+  {
+   "field": "dialogue",
+   "text": "vision loss",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "AMD consequence"
+  },
+  {
+   "field": "dialogue",
+   "text": "abnormal blood vessels",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "CNV"
+  },
+  {
+   "field": "dialogue",
+   "text": "large blind spot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "AMD consequence"
+  },
+  {
+   "field": "dialogue",
+   "text": "black dot in the center of your vision field",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "AMD consequence"
+  },
+  {
+   "field": "dialogue",
+   "text": "injection of lucent",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "H35.3211",
+   "why": "anti-VEGF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "injected in the vitreous portion of the eye",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "H35.3211",
+   "why": "intravitreal injection"
+  },
+  {
+   "field": "dialogue",
+   "text": "needle in your eye",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "H35.3211",
+   "why": "intravitreal injection"
+  },
+  {
+   "field": "dialogue",
+   "text": "vision decline",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "AMD progression"
+  },
+  {
+   "field": "note",
+   "text": "Vision changes in the right eye",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "AMD symptom"
+  },
+  {
+   "field": "note",
+   "text": "right eye vision changes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "AMD symptom"
+  },
+  {
+   "field": "note",
+   "text": "high blood pressure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "smoking 1 pack of cigarettes daily",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "smoking not coded"
+  },
+  {
+   "field": "note",
+   "text": "Posterior chamber intraocular lenses",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "prior cataract surgery"
+  },
+  {
+   "field": "note",
+   "text": "cornea is clear",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "anterior eye exam"
+  },
+  {
+   "field": "note",
+   "text": "Cornea is clear",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "anterior eye exam"
+  },
+  {
+   "field": "note",
+   "text": "without NVI",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "neovascularization check"
+  },
+  {
+   "field": "note",
+   "text": "No NVI",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "left eye exam"
+  },
+  {
+   "field": "note",
+   "text": "cup-disc ratio",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "optic nerve exam"
+  },
+  {
+   "field": "note",
+   "text": "Cup-disc ration",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "optic nerve exam"
+  },
+  {
+   "field": "note",
+   "text": "retina is intact 360 degrees without holes or tears",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "retina exam"
+  },
+  {
+   "field": "note",
+   "text": "RPE changes in fovea",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "macular finding"
+  },
+  {
+   "field": "note",
+   "text": "drusen of the macula",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "AMD finding"
+  },
+  {
+   "field": "note",
+   "text": "retinal thickening",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "AMD finding"
+  },
+  {
+   "field": "note",
+   "text": "subretinal fluid and exudate accumulation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "wet AMD finding"
+  },
+  {
+   "field": "note",
+   "text": "Positive hemorrhage",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "wet AMD finding"
+  },
+  {
+   "field": "note",
+   "text": "No hemorrhage noted or subretinal fluid noted",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "left eye exam"
+  },
+  {
+   "field": "note",
+   "text": "OTC",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "H35.3211",
+   "why": "retinal imaging"
+  },
+  {
+   "field": "note",
+   "text": "Drusen deposits under the RPE",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "AMD finding"
+  },
+  {
+   "field": "note",
+   "text": "SRF accumulation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "wet AMD finding"
+  },
+  {
+   "field": "note",
+   "text": "choroidal neovascular membrane",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "CNV"
+  },
+  {
+   "field": "note",
+   "text": "Fluorescein angiography",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "H35.3211",
+   "why": "AMD workup"
+  },
+  {
+   "field": "note",
+   "text": "focal area of the leakage in the right eye",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "CNV leakage"
+  },
+  {
+   "field": "note",
+   "text": "neovascular age related macular degeneration",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "neovascular age-related macular degeneration",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Wet macular degeneration",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "wet macular degeneration",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "severe vision loss",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "AMD consequence"
+  },
+  {
+   "field": "note",
+   "text": "abnormal blood vessels",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3211",
+   "why": "CNV"
+  },
+  {
+   "field": "note",
+   "text": "large blind spot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "AMD consequence"
+  },
+  {
+   "field": "note",
+   "text": "injected in the vitreous portion of the eye",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "H35.3211",
+   "why": "intravitreal injection"
+  },
+  {
+   "field": "note",
+   "text": "vision decline",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "AMD progression"
+  },
+  {
+   "field": "note",
+   "text": "vision loss",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3211",
+   "why": "AMD consequence"
+  },
+  {
+   "field": "note",
+   "text": "blood pressure medication",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Lucentis injections",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "H35.3211",
+   "why": "anti-VEGF treatment"
+  }
+ ]
+}

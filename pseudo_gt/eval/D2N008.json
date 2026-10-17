@@ -1,0 +1,925 @@
+{
+ "encounter_id": "D2N008",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "stephanie",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "49-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "vermont",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "travel destination"
+  },
+  {
+   "field": "dialogue",
+   "text": "mcdonald's",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named restaurant"
+  },
+  {
+   "field": "dialogue",
+   "text": "traveling",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "explore the mountains",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby/travel"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin",
+   "category": "c",
+   "type": "LAB",
+   "code": "D64.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "red blood cell count",
+   "category": "c",
+   "type": "LAB",
+   "code": "D64.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "anemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "anemia profile",
+   "category": "c",
+   "type": "LAB",
+   "code": "D64.9",
+   "why": "anemia workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "tired",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizzy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizziness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fatigue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "worn out",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood in your stools",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia source workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "dark or tarry or black",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia source workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "heavy menstrual bleeding",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia source workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "passed out",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia symptom review"
+  },
+  {
+   "field": "dialogue",
+   "text": "passing out",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia symptom review"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight loss",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "loss of appetite",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "colonoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D64.9",
+   "why": "GI workup for anemia"
+  },
+  {
+   "field": "dialogue",
+   "text": "diverticulosis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "prior GI bleed source"
+  },
+  {
+   "field": "dialogue",
+   "text": "endoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D64.9",
+   "why": "GI workup for anemia"
+  },
+  {
+   "field": "dialogue",
+   "text": "gastroenterology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D64.9",
+   "why": "referral for anemia"
+  },
+  {
+   "field": "dialogue",
+   "text": "congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "slightly reduced heart function",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF"
+  },
+  {
+   "field": "dialogue",
+   "text": "salt intake",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling in my , my legs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF edema"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom review"
+  },
+  {
+   "field": "dialogue",
+   "text": "problems lying flat at night",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "orthopnea review"
+  },
+  {
+   "field": "dialogue",
+   "text": "three out of six systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "cardiac finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "trace to one plus pitting edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF edema"
+  },
+  {
+   "field": "dialogue",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "low pumping function",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "reduced EF"
+  },
+  {
+   "field": "dialogue",
+   "text": "moderate mitral regurgitation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "echo finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "lasix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "toprol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "diuretic",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom review"
+  },
+  {
+   "field": "dialogue",
+   "text": "flank pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom review"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood in your urine",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom review"
+  },
+  {
+   "field": "dialogue",
+   "text": "stay hydrated",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone prevention"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "nasal congestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "sore throat",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "cough",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "seasonal allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Stephanie Diaz",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Diaz",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "note",
+   "text": "49-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "traveling",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel habit"
+  },
+  {
+   "field": "note",
+   "text": "Anemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin",
+   "category": "c",
+   "type": "LAB",
+   "code": "D64.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "note",
+   "text": "Hemoglobin",
+   "category": "c",
+   "type": "LAB",
+   "code": "D64.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "note",
+   "text": "anemia profile",
+   "category": "c",
+   "type": "LAB",
+   "code": "D64.9",
+   "why": "anemia workup"
+  },
+  {
+   "field": "note",
+   "text": "tired",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "note",
+   "text": "dizzy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "note",
+   "text": "dizziness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "note",
+   "text": "fatigue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "note",
+   "text": "blood in her stools",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia source workup"
+  },
+  {
+   "field": "note",
+   "text": "blood in her stool",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia source workup"
+  },
+  {
+   "field": "note",
+   "text": "black, tarry stools",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia source workup"
+  },
+  {
+   "field": "note",
+   "text": "heavy menstrual bleeding",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia source workup"
+  },
+  {
+   "field": "note",
+   "text": "abnormal menstrual bleeding",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia source workup"
+  },
+  {
+   "field": "note",
+   "text": "unintentional weight loss",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia workup"
+  },
+  {
+   "field": "note",
+   "text": "weight loss",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia workup"
+  },
+  {
+   "field": "note",
+   "text": "syncope",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia symptom review"
+  },
+  {
+   "field": "note",
+   "text": "hematochezia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia source workup"
+  },
+  {
+   "field": "note",
+   "text": "melena",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia source workup"
+  },
+  {
+   "field": "note",
+   "text": "gastrointestinal bleeding or urinary tract bleeding",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia source workup"
+  },
+  {
+   "field": "note",
+   "text": "colonoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D64.9",
+   "why": "GI workup for anemia"
+  },
+  {
+   "field": "note",
+   "text": "mild diverticulitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "prior GI bleed source"
+  },
+  {
+   "field": "note",
+   "text": "mild diverticulosis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "prior GI bleed source"
+  },
+  {
+   "field": "note",
+   "text": "endoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D64.9",
+   "why": "GI workup for anemia"
+  },
+  {
+   "field": "note",
+   "text": "gastroenterology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D64.9",
+   "why": "referral for anemia"
+  },
+  {
+   "field": "note",
+   "text": "congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "salt intake",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF diet"
+  },
+  {
+   "field": "note",
+   "text": "sodium intake",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF diet"
+  },
+  {
+   "field": "note",
+   "text": "swelling in her legs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF edema"
+  },
+  {
+   "field": "note",
+   "text": "bilateral leg swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF edema"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom review"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom review"
+  },
+  {
+   "field": "note",
+   "text": "Grade 3/6 systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "cardiac finding"
+  },
+  {
+   "field": "note",
+   "text": "Trace to 1+ edema in the bilateral ankles",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF edema"
+  },
+  {
+   "field": "note",
+   "text": "lower extremity edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF edema"
+  },
+  {
+   "field": "note",
+   "text": "Echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF workup"
+  },
+  {
+   "field": "note",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF workup"
+  },
+  {
+   "field": "note",
+   "text": "decreased ejection fraction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "reduced EF"
+  },
+  {
+   "field": "note",
+   "text": "reduced ejection fraction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "reduced EF"
+  },
+  {
+   "field": "note",
+   "text": "Moderate mitral regurgitation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "echo finding"
+  },
+  {
+   "field": "note",
+   "text": "moderate mitral regurgitation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "echo finding"
+  },
+  {
+   "field": "note",
+   "text": "Lasix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "note",
+   "text": "Toprol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "note",
+   "text": "daily weights",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF monitoring"
+  },
+  {
+   "field": "note",
+   "text": "kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "low back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom review"
+  },
+  {
+   "field": "note",
+   "text": "flank pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom review"
+  },
+  {
+   "field": "note",
+   "text": "blood in her urine",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom review"
+  },
+  {
+   "field": "note",
+   "text": "proper hydration",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone prevention"
+  },
+  {
+   "field": "note",
+   "text": "dietary modifications",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone prevention"
+  },
+  {
+   "field": "note",
+   "text": "nasal congestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "seasonal allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated ROS"
+  },
+  {
+   "field": "note",
+   "text": "fevers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated ROS"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated ROS"
+  },
+  {
+   "field": "note",
+   "text": "sore throat",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated ROS"
+  },
+  {
+   "field": "note",
+   "text": "cough",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated ROS"
+  }
+ ]
+}

@@ -1,0 +1,781 @@
+{
+ "encounter_id": "D2N192",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "karen",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "34 -year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "super bowl",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "named event tied to time"
+  },
+  {
+   "field": "dialogue",
+   "text": "packers",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "favorite sports team"
+  },
+  {
+   "field": "dialogue",
+   "text": "travel travel fan",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "trip to europe",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "travel"
+  },
+  {
+   "field": "dialogue",
+   "text": "europe",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "travel destination"
+  },
+  {
+   "field": "dialogue",
+   "text": "last summer",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "time of trip"
+  },
+  {
+   "field": "dialogue",
+   "text": "wisconsin",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "state"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.811",
+   "why": "RUQ pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild discomfort in on my right side",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.811",
+   "why": "RUQ pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "worse after a meal",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R10.811",
+   "why": "biliary pattern"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.811",
+   "why": "associated GI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "heartburn",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.811",
+   "why": "associated GI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.811",
+   "why": "associated GI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "tender",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R10.811",
+   "why": "abdominal tenderness"
+  },
+  {
+   "field": "dialogue",
+   "text": "urinary symptoms",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood in your urine",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood in your stool",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "nauseated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.811",
+   "why": "associated GI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fatigued",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "chronic migraines",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G43.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "migraines",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G43.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "migraine",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G43.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "migraine headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G43.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "breakthrough migraines",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G43.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "sumatriptan",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G43.909",
+   "why": "migraine treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "excedrin migraine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G43.909",
+   "why": "migraine treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "excedrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G43.909",
+   "why": "migraine treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "analgesic",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G43.909",
+   "why": "migraine treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "alcohol binges",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G43.909",
+   "why": "migraine trigger counseling"
+  },
+  {
+   "field": "dialogue",
+   "text": "caffeine binges",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G43.909",
+   "why": "migraine trigger counseling"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "grade three out of six systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "cardiac finding not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness in the right upper quadrant",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R10.811",
+   "why": "coded finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "right upper quadrant tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R10.811",
+   "why": "coded finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "equivocal murphy's sign",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R10.811",
+   "why": "RUQ exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "cva tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R10.811",
+   "why": "abdominal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "gallstones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.811",
+   "why": "suspected cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "infection in your gallbladder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.811",
+   "why": "suspected cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood tests",
+   "category": "c",
+   "type": "LAB",
+   "code": "R10.811",
+   "why": "workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "cbc",
+   "category": "c",
+   "type": "LAB",
+   "code": "R10.811",
+   "why": "workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "chem twelve",
+   "category": "c",
+   "type": "LAB",
+   "code": "R10.811",
+   "why": "workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "urinalysis",
+   "category": "c",
+   "type": "LAB",
+   "code": "R10.811",
+   "why": "workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "pregnancy test",
+   "category": "c",
+   "type": "LAB",
+   "code": "R10.811",
+   "why": "workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "right upper quadrant ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R10.811",
+   "why": "workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R10.811",
+   "why": "workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "emergency department",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R10.811",
+   "why": "possible escalation"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R10.811",
+   "why": "possible treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "traveling",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "Europe",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "travel destination"
+  },
+  {
+   "field": "note",
+   "text": "last summer",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "time of trip"
+  },
+  {
+   "field": "note",
+   "text": "Abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.811",
+   "why": "RUQ pain"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.811",
+   "why": "RUQ pain"
+  },
+  {
+   "field": "note",
+   "text": "chronic migraines",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G43.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "migraines",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G43.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Migraine headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G43.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "breakthrough migraine pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G43.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Excedrin Migraine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G43.909",
+   "why": "migraine treatment"
+  },
+  {
+   "field": "note",
+   "text": "Excedrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G43.909",
+   "why": "migraine treatment"
+  },
+  {
+   "field": "note",
+   "text": "sumatriptan",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G43.909",
+   "why": "migraine treatment"
+  },
+  {
+   "field": "note",
+   "text": "alcohol binges",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G43.909",
+   "why": "trigger counseling"
+  },
+  {
+   "field": "note",
+   "text": "caffeine binges",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G43.909",
+   "why": "trigger counseling"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "blood pressure monitoring",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "note",
+   "text": "fatigue",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "decreased appetite",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.811",
+   "why": "associated GI symptom"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.811",
+   "why": "associated GI symptom"
+  },
+  {
+   "field": "note",
+   "text": "heartburn",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.811",
+   "why": "associated GI symptom"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.811",
+   "why": "associated GI symptom"
+  },
+  {
+   "field": "note",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "hematochezia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "dysuria",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "hematuria",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "wheezes, rales, or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "lung exam"
+  },
+  {
+   "field": "note",
+   "text": "Grade 3 out of 6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Mild to moderate tenderness to palpation in right upper quadrant",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R10.811",
+   "why": "coded finding"
+  },
+  {
+   "field": "note",
+   "text": "right upper quadrant tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R10.811",
+   "why": "coded finding"
+  },
+  {
+   "field": "note",
+   "text": "Equivocal Murphy's sign",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R10.811",
+   "why": "RUQ exam"
+  },
+  {
+   "field": "note",
+   "text": "CVA tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R10.811",
+   "why": "abdominal exam"
+  },
+  {
+   "field": "note",
+   "text": "cholelithiasis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.811",
+   "why": "suspected cause"
+  },
+  {
+   "field": "note",
+   "text": "cholecystitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R10.811",
+   "why": "suspected cause"
+  },
+  {
+   "field": "note",
+   "text": "NPO",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R10.811",
+   "why": "pre-surgical"
+  },
+  {
+   "field": "note",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R10.811",
+   "why": "possible treatment"
+  },
+  {
+   "field": "note",
+   "text": "CBC",
+   "category": "c",
+   "type": "LAB",
+   "code": "R10.811",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "chem 12",
+   "category": "c",
+   "type": "LAB",
+   "code": "R10.811",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "urinalysis",
+   "category": "c",
+   "type": "LAB",
+   "code": "R10.811",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "HCG qualitative",
+   "category": "c",
+   "type": "LAB",
+   "code": "R10.811",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "right upper quadrant ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R10.811",
+   "why": "workup"
+  }
+ ]
+}

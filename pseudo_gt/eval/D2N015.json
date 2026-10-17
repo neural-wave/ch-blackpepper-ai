@@ -1,0 +1,493 @@
+{
+ "encounter_id": "D2N015",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "rachel",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "48-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "covid 15",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal weight-gain context"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "COPD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "short of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "COPD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "COPD cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "two packs a day",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "smoking history COPD cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "cigarettes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "smoking COPD cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "smokers",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "COPD cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "pulmonary function tests",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J44.9",
+   "why": "COPD workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "PFT differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "copd",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "chronic obstructive pulmonary disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J44.9",
+   "why": "COPD workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J44.9",
+   "why": "COPD workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "diaphragm is a little bit flatter",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J44.9",
+   "why": "COPD imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild wheezes in all your lung fields",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J44.9",
+   "why": "COPD exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "combivent",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J44.9",
+   "why": "COPD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J44.9",
+   "why": "COPD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "albuterol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J44.9",
+   "why": "COPD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "steroids",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J44.9",
+   "why": "COPD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "prednisone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J44.9",
+   "why": "COPD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "extremely low",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depressive symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "effexor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "chronic back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G89.29",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "gabapentin neurontin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G89.29",
+   "why": "chronic pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "neurontin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G89.29",
+   "why": "chronic pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "yoga",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "recommended back pain/depression treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "palpitating",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "palpitations not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "48-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "COPD symptom"
+  },
+  {
+   "field": "note",
+   "text": "Shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "COPD symptom"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea on exertion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "COPD symptom"
+  },
+  {
+   "field": "note",
+   "text": "smoking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "COPD cause"
+  },
+  {
+   "field": "note",
+   "text": "two packs a day",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "smoking history"
+  },
+  {
+   "field": "note",
+   "text": "cigarettes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "smoking"
+  },
+  {
+   "field": "note",
+   "text": "smoking cessation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J44.9",
+   "why": "COPD counseling"
+  },
+  {
+   "field": "note",
+   "text": "Mild wheezes bilaterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J44.9",
+   "why": "COPD exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Pulmonary function test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J44.9",
+   "why": "COPD workup"
+  },
+  {
+   "field": "note",
+   "text": "pulmonary function tests",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J44.9",
+   "why": "COPD workup"
+  },
+  {
+   "field": "note",
+   "text": "mild asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "PFT differential"
+  },
+  {
+   "field": "note",
+   "text": "asthma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "PFT differential"
+  },
+  {
+   "field": "note",
+   "text": "COPD",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J44.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the chest",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J44.9",
+   "why": "COPD workup"
+  },
+  {
+   "field": "note",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J44.9",
+   "why": "COPD workup"
+  },
+  {
+   "field": "note",
+   "text": "flattening of the diaphragm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J44.9",
+   "why": "COPD imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "Combivent",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J44.9",
+   "why": "COPD treatment"
+  },
+  {
+   "field": "note",
+   "text": "albuterol inhaler",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J44.9",
+   "why": "COPD treatment"
+  },
+  {
+   "field": "note",
+   "text": "prednisone taper pack",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J44.9",
+   "why": "COPD treatment"
+  },
+  {
+   "field": "note",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Effexor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "note",
+   "text": "chronic back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G89.29",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Chronic back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G89.29",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M54.50",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Neurontin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G89.29",
+   "why": "chronic pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "yoga",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M54.50",
+   "why": "recommended back pain/depression treatment"
+  },
+  {
+   "field": "note",
+   "text": "palpitations",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "palpitations not coded"
+  }
+ ]
+}

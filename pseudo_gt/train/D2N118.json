@@ -1,0 +1,549 @@
+{
+ "encounter_id": "D2N118",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "angela",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "doctor harris",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "urologist name"
+  },
+  {
+   "field": "dialogue",
+   "text": "apple",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "device brand"
+  },
+  {
+   "field": "dialogue",
+   "text": "iphone",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "device brand"
+  },
+  {
+   "field": "dialogue",
+   "text": "i'm a provider",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "provider occupation context"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney stone",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "seventh or eighth kidney stone",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "recurrence"
+  },
+  {
+   "field": "dialogue",
+   "text": "emergency room",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone care"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood in your urine",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "percocet",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain medicine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "urologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone care"
+  },
+  {
+   "field": "dialogue",
+   "text": "urology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "belly pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness to palpation of the abdomen",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "cva",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "urinalysis",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "stone workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "urine culture",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "stone workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "white coat syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "BP context"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure cuff",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "fast food",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "sodium",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "dietitian",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "consult to nutrition",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "type two diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "insomnia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G47.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "stay awake just kinda worrying about things",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G47.00",
+   "why": "insomnia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "meditation apps",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G47.00",
+   "why": "insomnia treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "sleep hygiene",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G47.00",
+   "why": "insomnia treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "melatonin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G47.00",
+   "why": "insomnia treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "sleeping pills",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G47.00",
+   "why": "insomnia treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "crackles",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated lung exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "grade two out of six systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac"
+  },
+  {
+   "field": "note",
+   "text": "Dr. Harris",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "urologist name"
+  },
+  {
+   "field": "note",
+   "text": "Kidney stone",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone screen"
+  },
+  {
+   "field": "note",
+   "text": "hematuria",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone screen"
+  },
+  {
+   "field": "note",
+   "text": "No tenderness of the CVA",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone exam"
+  },
+  {
+   "field": "note",
+   "text": "No masses or tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "abdominal exam"
+  },
+  {
+   "field": "note",
+   "text": "urology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone referral"
+  },
+  {
+   "field": "note",
+   "text": "Urine culture",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "stone workup"
+  },
+  {
+   "field": "note",
+   "text": "urinalysis",
+   "category": "c",
+   "type": "LAB",
+   "code": "N20.0",
+   "why": "stone workup"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "Referral to nutrition",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "insomnia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G47.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Insomnia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G47.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "sleep hygiene",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G47.00",
+   "why": "insomnia treatment"
+  },
+  {
+   "field": "note",
+   "text": "melatonin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G47.00",
+   "why": "insomnia treatment"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "wheezes, rales, or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated lung exam"
+  },
+  {
+   "field": "note",
+   "text": "Grade 2/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac"
+  }
+ ]
+}

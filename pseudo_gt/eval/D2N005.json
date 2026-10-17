@@ -1,0 +1,309 @@
+{
+ "encounter_id": "D2N005",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "hill",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "dialogue",
+   "text": "james",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor name"
+  },
+  {
+   "field": "dialogue",
+   "text": "41-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age"
+  },
+  {
+   "field": "dialogue",
+   "text": "saturday",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "day of injury event"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain at the end of my right middle finger",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S62.662A",
+   "why": "symptom of coded fracture"
+  },
+  {
+   "field": "dialogue",
+   "text": "rear-ended",
+   "category": "c",
+   "type": "QUASI",
+   "code": "V89.2XXA",
+   "why": "accident mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "vehicle accident",
+   "category": "c",
+   "type": "QUASI",
+   "code": "V89.2XXA",
+   "why": "coded MVA"
+  },
+  {
+   "field": "dialogue",
+   "text": "motor vehicle accident",
+   "category": "c",
+   "type": "QUASI",
+   "code": "V89.2XXA",
+   "why": "coded MVA"
+  },
+  {
+   "field": "dialogue",
+   "text": "flip him the bird",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S62.662A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "hit the ceiling of the car",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S62.662A",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "four-way stop",
+   "category": "c",
+   "type": "LOCATION",
+   "code": "V89.2XXA",
+   "why": "accident location"
+  },
+  {
+   "field": "dialogue",
+   "text": "right middle finger pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S62.662A",
+   "why": "symptom of coded fracture"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S62.662A",
+   "why": "imaging for fracture"
+  },
+  {
+   "field": "dialogue",
+   "text": "distal phalanx fracture in the middle finger",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S62.662A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness over your distal phalanx of your right middle finger",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S62.662A",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "distal phalanx fracture of the middle finger",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S62.662A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S62.662A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "tramadol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S62.662A",
+   "why": "pain treatment for fracture"
+  },
+  {
+   "field": "dialogue",
+   "text": "finger splint",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S62.662A",
+   "why": "fracture treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "follow-up x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S62.662A",
+   "why": "fracture follow-up"
+  },
+  {
+   "field": "dialogue",
+   "text": "digoxin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "afib med, unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "afib",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "atrial fibrillation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "note",
+   "text": "Hill",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "note",
+   "text": "41-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age"
+  },
+  {
+   "field": "note",
+   "text": "Right middle finger pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S62.662A",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "right middle finger pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S62.662A",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "rear-ended",
+   "category": "c",
+   "type": "QUASI",
+   "code": "V89.2XXA",
+   "why": "accident mechanism"
+  },
+  {
+   "field": "note",
+   "text": "motor vehicle accident",
+   "category": "c",
+   "type": "QUASI",
+   "code": "V89.2XXA",
+   "why": "coded MVA"
+  },
+  {
+   "field": "note",
+   "text": "tenderness over the distal phalanx",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S62.662A",
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "X-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S62.662A",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "comminuted distal phalanx fracture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S62.662A",
+   "why": "imaging result"
+  },
+  {
+   "field": "note",
+   "text": "Right middle finger distal phalanx fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S62.662A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Tramadol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S62.662A",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "finger splint",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S62.662A",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "follow-up x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S62.662A",
+   "why": "follow-up imaging"
+  },
+  {
+   "field": "note",
+   "text": "Digoxin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated med"
+  },
+  {
+   "field": "note",
+   "text": "Atrial Fibrillation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  }
+ ]
+}

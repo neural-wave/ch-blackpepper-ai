@@ -1,0 +1,701 @@
+{
+ "encounter_id": "D2N174",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "james",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "57 year old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "putting a , a few more miles on the bike each day",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "cycling hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "riding the bike the everyday",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "cycling hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "doubled the miles",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "cycling detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "lupus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M32.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "flareup of your lupus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M32.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M32.9",
+   "why": "lupus flare symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M32.9",
+   "why": "lupus flare symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "knees have been killing me",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M32.9",
+   "why": "lupus flare symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "stiff and sore",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M32.9",
+   "why": "lupus flare symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "inflamed",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M32.9",
+   "why": "lupus flare symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "bilateral , uh , edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M32.9",
+   "why": "lupus flare exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "slight erythema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M32.9",
+   "why": "lupus flare exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "slight effusion present on the right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M32.9",
+   "why": "lupus flare exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation of the right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M32.9",
+   "why": "lupus flare exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "decreased range of motion of the knees bilaterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M32.9",
+   "why": "lupus flare exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M32.9",
+   "why": "joint pain workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray of your right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M32.9",
+   "why": "joint pain workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "autoimmune panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "M32.9",
+   "why": "lupus workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney function",
+   "category": "c",
+   "type": "LAB",
+   "code": "M32.9",
+   "why": "lupus monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "stent",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "plavix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "crestor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD symptom screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "ekg",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD evaluation"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "I25.10",
+   "why": "CAD workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling of your knees",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "redness of your knees",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fatigue",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "injury",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "boney abnormality",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "James Moore",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Moore",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "57-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "putting a few more miles on the bike each day",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "cycling hobby"
+  },
+  {
+   "field": "note",
+   "text": "lupus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M32.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Lupus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M32.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "lupus flare",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M32.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M32.9",
+   "why": "lupus flare symptom"
+  },
+  {
+   "field": "note",
+   "text": "Joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M32.9",
+   "why": "lupus flare symptom"
+  },
+  {
+   "field": "note",
+   "text": "stiffness and soreness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M32.9",
+   "why": "lupus flare symptom"
+  },
+  {
+   "field": "note",
+   "text": "swelling and redness in his knees",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M32.9",
+   "why": "lupus flare symptom"
+  },
+  {
+   "field": "note",
+   "text": "joint pain, stiffness, swelling, and erythema in bilateral knees",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M32.9",
+   "why": "lupus flare symptom"
+  },
+  {
+   "field": "note",
+   "text": "inflammation in his bilateral knees",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M32.9",
+   "why": "lupus flare symptom"
+  },
+  {
+   "field": "note",
+   "text": "Edema and slight erythema of bilateral knees",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M32.9",
+   "why": "lupus flare exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Slight effusion of the right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M32.9",
+   "why": "lupus flare exam finding"
+  },
+  {
+   "field": "note",
+   "text": "pain to palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M32.9",
+   "why": "lupus flare exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Decreased range of motion in bilateral knees",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M32.9",
+   "why": "lupus flare exam finding"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M32.9",
+   "why": "joint pain workup"
+  },
+  {
+   "field": "note",
+   "text": "knee x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M32.9",
+   "why": "joint pain workup"
+  },
+  {
+   "field": "note",
+   "text": "autoimmune panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "M32.9",
+   "why": "lupus workup"
+  },
+  {
+   "field": "note",
+   "text": "coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Crestor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Plavix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "CAD symptom screen"
+  },
+  {
+   "field": "note",
+   "text": "Electrocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD evaluation"
+  },
+  {
+   "field": "note",
+   "text": "EKG",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD evaluation"
+  },
+  {
+   "field": "note",
+   "text": "lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "I25.10",
+   "why": "CAD workup"
+  },
+  {
+   "field": "note",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD workup"
+  },
+  {
+   "field": "note",
+   "text": "fatigue",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "injury to his knees",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated injury"
+  },
+  {
+   "field": "note",
+   "text": "pain in any other joints",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "fevers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "vomitting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "wheezes, rales, or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "bony abnormalities or fractures",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated imaging finding"
+  }
+ ]
+}

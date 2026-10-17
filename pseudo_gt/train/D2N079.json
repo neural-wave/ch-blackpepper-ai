@@ -1,0 +1,405 @@
+{
+ "encounter_id": "D2N079",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "wayne",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "doing a lot of work in our basement",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "home project"
+  },
+  {
+   "field": "dialogue",
+   "text": "renovating the basement",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "home project"
+  },
+  {
+   "field": "dialogue",
+   "text": "man cave",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "home project detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "i am active",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle"
+  },
+  {
+   "field": "dialogue",
+   "text": "left shoulder pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.512",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.512",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "extra strength tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.512",
+   "why": "pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "aches and pains",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.512",
+   "why": "shoulder pain history"
+  },
+  {
+   "field": "dialogue",
+   "text": "trouble when i'm trying to reach for something",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.512",
+   "why": "shoulder symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "lay on that shoulder it's unbearable",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.512",
+   "why": "shoulder symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.512",
+   "why": "neuro screen of shoulder pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.512",
+   "why": "neuro screen of shoulder pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "limited active and passive range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.512",
+   "why": "shoulder finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness of the greater tuberosity of the humerus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.512",
+   "why": "shoulder finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "no tenderness at the sternoclavicular or acromioclavicular joints",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.512",
+   "why": "shoulder finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "good hand grips",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.512",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "capillary refill",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.512",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "sensation is intact to light touch",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.512",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "shoulder x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.512",
+   "why": "shoulder imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "no fractures",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.512",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "rotator cuff tendinopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.512",
+   "why": "cause of shoulder pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.512",
+   "why": "shoulder imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.512",
+   "why": "shoulder treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "steroid injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.512",
+   "why": "shoulder treatment"
+  },
+  {
+   "field": "note",
+   "text": "Wayne Taylor",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "66-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "renovating his basement",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "home project"
+  },
+  {
+   "field": "note",
+   "text": "he is active",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle"
+  },
+  {
+   "field": "note",
+   "text": "Left shoulder pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.512",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "left shoulder pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.512",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "aches and pains in his left shoulder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.512",
+   "why": "shoulder history"
+  },
+  {
+   "field": "note",
+   "text": "difficulty reaching for or lifting any objects",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.512",
+   "why": "shoulder symptom"
+  },
+  {
+   "field": "note",
+   "text": "avoids reaching overhead",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.512",
+   "why": "shoulder symptom"
+  },
+  {
+   "field": "note",
+   "text": "unbearable when lying on his left shoulder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.512",
+   "why": "shoulder symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness or tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.512",
+   "why": "neuro screen"
+  },
+  {
+   "field": "note",
+   "text": "Extra Strength Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.512",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.512",
+   "why": "pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "Capillary refill",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.512",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "note",
+   "text": "Sensation is intact to light touch",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.512",
+   "why": "neurovascular exam"
+  },
+  {
+   "field": "note",
+   "text": "Limited active and passive ROM",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.512",
+   "why": "shoulder finding"
+  },
+  {
+   "field": "note",
+   "text": "Tenderness over the greater tuberosity of the humerus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.512",
+   "why": "shoulder finding"
+  },
+  {
+   "field": "note",
+   "text": "No tenderness at the sternoclavicular or acromioclavicular joints",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.512",
+   "why": "shoulder finding"
+  },
+  {
+   "field": "note",
+   "text": "Good hand grip",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.512",
+   "why": "shoulder exam"
+  },
+  {
+   "field": "note",
+   "text": "X-rays of the left shoulder",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.512",
+   "why": "shoulder imaging"
+  },
+  {
+   "field": "note",
+   "text": "no fractures",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.512",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "rotator cuff tendinopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.512",
+   "why": "cause of shoulder pain"
+  },
+  {
+   "field": "note",
+   "text": "MRI of the left shoulder",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.512",
+   "why": "shoulder imaging"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.512",
+   "why": "shoulder treatment"
+  },
+  {
+   "field": "note",
+   "text": "steroid injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.512",
+   "why": "shoulder treatment"
+  }
+ ]
+}

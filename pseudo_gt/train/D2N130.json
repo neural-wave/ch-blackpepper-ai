@@ -1,0 +1,725 @@
+{
+ "encounter_id": "D2N130",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "anna",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "26-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "i sit at my desk a lot for work , and type",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "desk job"
+  },
+  {
+   "field": "dialogue",
+   "text": "right-handed",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "handedness"
+  },
+  {
+   "field": "dialogue",
+   "text": "left elbow",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.522",
+   "why": "coded site"
+  },
+  {
+   "field": "dialogue",
+   "text": "joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.522",
+   "why": "elbow pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "left elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.522",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.522",
+   "why": "elbow swelling"
+  },
+  {
+   "field": "dialogue",
+   "text": "weakness in your arm",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.522",
+   "why": "elbow symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbing or tingling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever or chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "epilepsy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G40.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "seizures",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G40.909",
+   "why": "epilepsy symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "seizure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G40.909",
+   "why": "epilepsy symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "keppra",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G40.909",
+   "why": "epilepsy treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "down",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "depressive symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "wanting to hurt yourself or somebody else",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated SI/HI"
+  },
+  {
+   "field": "dialogue",
+   "text": "peptic ulcer disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K27.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K27.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "endoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K27.9",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "gastritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K27.9",
+   "why": "ulcer finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "protonix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K27.9",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea or vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nasal congestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "erythema and edema of your left elbow",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.522",
+   "why": "elbow exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation of the olecranon",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.522",
+   "why": "elbow exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "warm to palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.522",
+   "why": "elbow exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with flexion and extension of the left elbow",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.522",
+   "why": "elbow exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "palpable left radial pulse",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "left elbow x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.522",
+   "why": "elbow imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "elbow x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.522",
+   "why": "elbow imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "left arm x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.522",
+   "why": "elbow imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "elbow fracture",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled-out condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "olecranon bursitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.522",
+   "why": "cause of elbow pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "repetitive trauma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.522",
+   "why": "cause of elbow pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.522",
+   "why": "elbow pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lexapro",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "note",
+   "text": "Anna Morris",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "26-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "sits at her desk all day for work",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "desk job"
+  },
+  {
+   "field": "note",
+   "text": "right-handed",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "handedness"
+  },
+  {
+   "field": "note",
+   "text": "joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.522",
+   "why": "elbow pain"
+  },
+  {
+   "field": "note",
+   "text": "left elbow",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.522",
+   "why": "coded site"
+  },
+  {
+   "field": "note",
+   "text": "Left elbow pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.522",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "left elbow joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.522",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "swelling on the olecranon",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.522",
+   "why": "elbow swelling"
+  },
+  {
+   "field": "note",
+   "text": "weakness in her arm",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.522",
+   "why": "elbow symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness or tingling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "fever or chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "epilepsy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G40.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Epilepsy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G40.909",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "seizures",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G40.909",
+   "why": "epilepsy symptom"
+  },
+  {
+   "field": "note",
+   "text": "seizure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G40.909",
+   "why": "epilepsy symptom"
+  },
+  {
+   "field": "note",
+   "text": "Keppra",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G40.909",
+   "why": "epilepsy treatment"
+  },
+  {
+   "field": "note",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "note",
+   "text": "suicidal and homicidal ideations",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "peptic ulcer disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K27.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Peptic ulcer disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K27.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "peptic ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K27.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K27.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "endoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K27.9",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "note",
+   "text": "EGD",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K27.9",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "note",
+   "text": "gastritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K27.9",
+   "why": "ulcer finding"
+  },
+  {
+   "field": "note",
+   "text": "Protonix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K27.9",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "nausea, or vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea on exertion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "medial nasal congestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated condition"
+  },
+  {
+   "field": "note",
+   "text": "erythema and edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.522",
+   "why": "elbow exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain to palpation of the left olecranon",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.522",
+   "why": "elbow exam"
+  },
+  {
+   "field": "note",
+   "text": "Warm to palpation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.522",
+   "why": "elbow exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.522",
+   "why": "elbow exam"
+  },
+  {
+   "field": "note",
+   "text": "Palpable left radial pulse",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "Left arm x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.522",
+   "why": "elbow imaging"
+  },
+  {
+   "field": "note",
+   "text": "elbow fracture",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled-out"
+  },
+  {
+   "field": "note",
+   "text": "left olecranon bursitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.522",
+   "why": "cause of elbow pain"
+  },
+  {
+   "field": "note",
+   "text": "repetitive trauma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.522",
+   "why": "cause of elbow pain"
+  },
+  {
+   "field": "note",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.522",
+   "why": "elbow pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "Lexapro",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F32.A",
+   "why": "depression treatment"
+  }
+ ]
+}

@@ -1,0 +1,605 @@
+{
+ "encounter_id": "D2N161",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "kevin",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "82 -year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "football",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby/fan"
+  },
+  {
+   "field": "dialogue",
+   "text": "we go to parties on the weekends",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social life"
+  },
+  {
+   "field": "dialogue",
+   "text": "dallas cowboys",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "sports team"
+  },
+  {
+   "field": "dialogue",
+   "text": "cowboys",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "sports team"
+  },
+  {
+   "field": "dialogue",
+   "text": "chiefs",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "sports team"
+  },
+  {
+   "field": "dialogue",
+   "text": "big cheese man",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal preference"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I13.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "stage three chronic kidney disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N18.30",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "acute on chronic chf exacerbation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "ankles were swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "short of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "special mask to breathe",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF acute treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure was super high",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I13.0",
+   "why": "uncontrolled HTN"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "pizza",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "dietary indiscretion cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "chicken wings",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "dietary indiscretion cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "water pill",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF diuretic"
+  },
+  {
+   "field": "dialogue",
+   "text": "water pills",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF diuretic"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure cuff",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I13.0",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "problems sleeping",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "jugular venous distention",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "two out of six systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "chronic murmur"
+  },
+  {
+   "field": "dialogue",
+   "text": "trace of edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "preserved ef",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF echo"
+  },
+  {
+   "field": "dialogue",
+   "text": "abnormal diastolic filling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF echo"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild to moderate mitral regurgitation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF echo"
+  },
+  {
+   "field": "dialogue",
+   "text": "congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "dietary indiscretion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "uncontrolled hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I13.0",
+   "why": "HF cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "bumex",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "salty foods",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "weigh yourself",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "nutritionist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF diet education"
+  },
+  {
+   "field": "dialogue",
+   "text": "cozaar",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I13.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I13.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "renal artery ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I13.0",
+   "why": "HTN/kidney workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N18.30",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "labs",
+   "category": "c",
+   "type": "LAB",
+   "code": "N18.30",
+   "why": "CKD monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood work",
+   "category": "c",
+   "type": "LAB",
+   "code": "N18.30",
+   "why": "CKD monitoring"
+  },
+  {
+   "field": "note",
+   "text": "football fan",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby/fan"
+  },
+  {
+   "field": "note",
+   "text": "acute on chronic CHF exacerbation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "acute CHF exacerbation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I13.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I13.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "uncontrolled hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I13.0",
+   "why": "HF cause"
+  },
+  {
+   "field": "note",
+   "text": "stage 3 chronic kidney disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N18.30",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Kidney disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N18.30",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Bumex",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "note",
+   "text": "Cozaar",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I13.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "Norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I13.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated ROS"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "bilateral ankle swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "sleep disturbance",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "jugular venous distension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF exam"
+  },
+  {
+   "field": "note",
+   "text": "2/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "chronic murmur"
+  },
+  {
+   "field": "note",
+   "text": "trace edema to the bilateral lower extremities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF exam"
+  },
+  {
+   "field": "note",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF workup"
+  },
+  {
+   "field": "note",
+   "text": "preserved EF",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF echo"
+  },
+  {
+   "field": "note",
+   "text": "abnormal diastolic filling",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF echo"
+  },
+  {
+   "field": "note",
+   "text": "mild to moderate mitral regurgitation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF echo"
+  },
+  {
+   "field": "note",
+   "text": "Congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "dietary indiscretion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF cause"
+  },
+  {
+   "field": "note",
+   "text": "salty foods",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF diet"
+  },
+  {
+   "field": "note",
+   "text": "weigh himself every day",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF monitoring"
+  },
+  {
+   "field": "note",
+   "text": "weight gain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF monitoring"
+  },
+  {
+   "field": "note",
+   "text": "Referral to nutrition",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF diet education"
+  },
+  {
+   "field": "note",
+   "text": "home blood pressure monitoring",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I13.0",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "note",
+   "text": "Renal artery ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I13.0",
+   "why": "HTN/kidney workup"
+  },
+  {
+   "field": "note",
+   "text": "Lab work",
+   "category": "c",
+   "type": "LAB",
+   "code": "N18.30",
+   "why": "CKD monitoring"
+  }
+ ]
+}

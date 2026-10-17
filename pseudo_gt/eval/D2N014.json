@@ -1,0 +1,605 @@
+{
+ "encounter_id": "D2N014",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "louis",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "58-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "playing tennis",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "saturday",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "day of event"
+  },
+  {
+   "field": "dialogue",
+   "text": "sunday",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "day of event"
+  },
+  {
+   "field": "dialogue",
+   "text": "thursday",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "day of surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "my wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "short of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF exacerbation symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "struggling breathing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF exacerbation symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "light-head",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "symptom of episode"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizzy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "symptom of episode"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart attack",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "feared, ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded HF"
+  },
+  {
+   "field": "dialogue",
+   "text": "congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded HF"
+  },
+  {
+   "field": "dialogue",
+   "text": "salty foods",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I50.9",
+   "why": "cause of HF exacerbation"
+  },
+  {
+   "field": "dialogue",
+   "text": "salty food",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I50.9",
+   "why": "cause of HF exacerbation"
+  },
+  {
+   "field": "dialogue",
+   "text": "dietary indiscretion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "cause of HF exacerbation"
+  },
+  {
+   "field": "dialogue",
+   "text": "cataract",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z98.49",
+   "why": "cataract extraction status"
+  },
+  {
+   "field": "dialogue",
+   "text": "cataract surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z98.49",
+   "why": "cataract extraction"
+  },
+  {
+   "field": "dialogue",
+   "text": "vision problems",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z98.49",
+   "why": "post-cataract follow-up"
+  },
+  {
+   "field": "dialogue",
+   "text": "skin cancer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z85.828",
+   "why": "history of skin cancer"
+  },
+  {
+   "field": "dialogue",
+   "text": "skin cancer removal",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z85.828",
+   "why": "skin cancer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "skin biopsy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z85.828",
+   "why": "skin cancer pathology"
+  },
+  {
+   "field": "dialogue",
+   "text": "pathology report",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z85.828",
+   "why": "skin cancer pathology"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure is a little high",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "elevated BP, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure was high",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "elevated BP, not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "fibular venous distention",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "negated HF exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated cardiac finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "fine crackles",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "lower extremity edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "extra fluid",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "fluid overload"
+  },
+  {
+   "field": "dialogue",
+   "text": "retain some fluid",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "fluid overload"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecg",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "left ventricular hypertrophy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "cause of HF"
+  },
+  {
+   "field": "dialogue",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "pumping function of your heart is a little low",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "reduced EF"
+  },
+  {
+   "field": "dialogue",
+   "text": "exacerbation of your heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded HF"
+  },
+  {
+   "field": "dialogue",
+   "text": "lasix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "carvedilol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "note",
+   "text": "Louis Williams",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "58-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "playing tennis",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "Saturday",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "day of event"
+  },
+  {
+   "field": "note",
+   "text": "Sunday",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "day of event"
+  },
+  {
+   "field": "note",
+   "text": "His wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "struggling to breathe",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF exacerbation symptom"
+  },
+  {
+   "field": "note",
+   "text": "heart attack",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "feared, ruled out"
+  },
+  {
+   "field": "note",
+   "text": "lightheaded",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "symptom of episode"
+  },
+  {
+   "field": "note",
+   "text": "dizzy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "symptom of episode"
+  },
+  {
+   "field": "note",
+   "text": "congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded HF"
+  },
+  {
+   "field": "note",
+   "text": "heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "coded HF"
+  },
+  {
+   "field": "note",
+   "text": "dietary indiscretion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "cause of HF exacerbation"
+  },
+  {
+   "field": "note",
+   "text": "avoiding salt",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I50.9",
+   "why": "HF diet"
+  },
+  {
+   "field": "note",
+   "text": "cataract extraction",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z98.49",
+   "why": "coded status"
+  },
+  {
+   "field": "note",
+   "text": "cataract surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z98.49",
+   "why": "coded status"
+  },
+  {
+   "field": "note",
+   "text": "vision problems",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z98.49",
+   "why": "post-cataract follow-up"
+  },
+  {
+   "field": "note",
+   "text": "skin cancer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z85.828",
+   "why": "history of skin cancer"
+  },
+  {
+   "field": "note",
+   "text": "Skin cancer pathology",
+   "category": "c",
+   "type": "LAB",
+   "code": "Z85.828",
+   "why": "skin cancer pathology"
+  },
+  {
+   "field": "note",
+   "text": "clear margins",
+   "category": "c",
+   "type": "FINDING",
+   "code": "Z85.828",
+   "why": "skin cancer pathology"
+  },
+  {
+   "field": "note",
+   "text": "basal cell carcinoma",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z85.828",
+   "why": "history of skin cancer"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea on exertion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "lightheadedness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "symptom of episode"
+  },
+  {
+   "field": "note",
+   "text": "dizziness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "symptom of episode"
+  },
+  {
+   "field": "note",
+   "text": "jugular venous distention",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "negated HF exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Fine crackles",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF exam finding"
+  },
+  {
+   "field": "note",
+   "text": "murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated cardiac finding"
+  },
+  {
+   "field": "note",
+   "text": "Bilateral lower extremity edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "HF exam finding"
+  },
+  {
+   "field": "note",
+   "text": "ECG",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF workup"
+  },
+  {
+   "field": "note",
+   "text": "left ventricular hypertrophy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.9",
+   "why": "cause of HF"
+  },
+  {
+   "field": "note",
+   "text": "Echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.9",
+   "why": "HF workup"
+  },
+  {
+   "field": "note",
+   "text": "diminished ejection fraction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "reduced EF"
+  },
+  {
+   "field": "note",
+   "text": "fluid retention",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.9",
+   "why": "fluid overload"
+  },
+  {
+   "field": "note",
+   "text": "Lasix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  },
+  {
+   "field": "note",
+   "text": "carvedilol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.9",
+   "why": "HF treatment"
+  }
+ ]
+}

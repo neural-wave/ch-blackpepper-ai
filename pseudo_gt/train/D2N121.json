@@ -1,0 +1,589 @@
+{
+ "encounter_id": "D2N121",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "kenneth",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "the holiday weekend",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "holiday tied to event"
+  },
+  {
+   "field": "dialogue",
+   "text": "lake martin",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named lake"
+  },
+  {
+   "field": "dialogue",
+   "text": "my boat",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "possession"
+  },
+  {
+   "field": "dialogue",
+   "text": "frequent water skier",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "baseball fan",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "interest"
+  },
+  {
+   "field": "dialogue",
+   "text": "my husband",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "the meds",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "sports team"
+  },
+  {
+   "field": "dialogue",
+   "text": "big weekend plan",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal plan"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "out on my boat skiing",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.561",
+   "why": "injury activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "water skiing",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.561",
+   "why": "injury activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "did a jump and kinda twisted when i landed",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded site"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelled up",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "squatting or bending is really pretty sore",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbing or tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "neuro screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "aleve",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "knee pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cold pack",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecchymosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation of the right medial knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "decreased range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "negative varus and valgus test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "negative lachman sign",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "palpable dorsalis pedis and posterior tibial pulse",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "fluid in your knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "medial collateral ligament strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "broken bones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment option"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "tonsils out",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipid panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "tetanus shot",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "health maintenance"
+  },
+  {
+   "field": "note",
+   "text": "Lake Martin",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named lake"
+  },
+  {
+   "field": "note",
+   "text": "has a boat",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "possession"
+  },
+  {
+   "field": "note",
+   "text": "frequent water skier",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "Right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "right knee pain and swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness or tingling in the right foot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "neuro screen"
+  },
+  {
+   "field": "note",
+   "text": "Ecchymosis noted",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Effusion present",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain to palpation medially",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Decreased range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Negative varus and valgus test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Negative Lachman sign",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Palpable dorsalis pedis and posterior tibial pulse",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "lower extremity edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "medial collateral ligament strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment option"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee workup"
+  },
+  {
+   "field": "note",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee workup"
+  },
+  {
+   "field": "note",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "tonsillectomy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgery"
+  },
+  {
+   "field": "note",
+   "text": "lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated cardiac"
+  },
+  {
+   "field": "note",
+   "text": "enlarged lymph nodes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "Lipid panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated lab"
+  },
+  {
+   "field": "note",
+   "text": "tetanus vaccine",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "health maintenance"
+  }
+ ]
+}

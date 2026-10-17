@@ -1,0 +1,549 @@
+{
+ "encounter_id": "D2N124",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "jerry",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "doctor michael",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "physician name"
+  },
+  {
+   "field": "dialogue",
+   "text": "sean",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "son's name"
+  },
+  {
+   "field": "dialogue",
+   "text": "step kurry",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "named person"
+  },
+  {
+   "field": "dialogue",
+   "text": "45 -year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "he is only ten",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "son's age"
+  },
+  {
+   "field": "dialogue",
+   "text": "april",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "calendar month tied to event"
+  },
+  {
+   "field": "dialogue",
+   "text": "my son",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "going to the gym",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal routine"
+  },
+  {
+   "field": "dialogue",
+   "text": "volunteer to coach",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "role"
+  },
+  {
+   "field": "dialogue",
+   "text": "coaching",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "role"
+  },
+  {
+   "field": "dialogue",
+   "text": "i work from home",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "work arrangement"
+  },
+  {
+   "field": "dialogue",
+   "text": "walk my dogs",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "pets"
+  },
+  {
+   "field": "dialogue",
+   "text": "dog walker",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "doctor detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "playing basketball",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S82.61XA",
+   "why": "injury activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "went up for a shot",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S82.61XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "landed awkwardly",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S82.61XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "rolled and twisted my my ankle",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S82.61XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "ankle injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S82.61XA",
+   "why": "coded injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "bruised up and a bit swollen",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S82.61XA",
+   "why": "fracture symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "trouble walking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S82.61XA",
+   "why": "fracture symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "does n't feel solid really stable",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S82.61XA",
+   "why": "fracture symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "exquisite tenderness tenderness laterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S82.61XA",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness over the medial deltoid region",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S82.61XA",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling on the lateral side of the ankle",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S82.61XA",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "epidermolysis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S82.61XA",
+   "why": "ankle exam (closed fracture)"
+  },
+  {
+   "field": "dialogue",
+   "text": "brisk capillary refill",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S82.61XA",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "horrible malalignment",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S82.61XA",
+   "why": "ankle exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S82.61XA",
+   "why": "fracture imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "displaced lateral malleolus at the weber c level",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S82.61XA",
+   "why": "coded fracture"
+  },
+  {
+   "field": "dialogue",
+   "text": "medial or posterior malleolar fractures",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S82.61XA",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "lateral malleolar fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S82.61XA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S82.61XA",
+   "why": "fracture treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "plate and some screws",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S82.61XA",
+   "why": "fracture fixation"
+  },
+  {
+   "field": "dialogue",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S82.61XA",
+   "why": "fracture treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S82.61XA",
+   "why": "fracture swelling treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice it",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S82.61XA",
+   "why": "fracture treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "elevated",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S82.61XA",
+   "why": "fracture treatment"
+  },
+  {
+   "field": "note",
+   "text": "Jerry Cook",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "45-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "with his son",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "note",
+   "text": "works from home",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "work arrangement"
+  },
+  {
+   "field": "note",
+   "text": "coach his son\u2019s basketball team",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "role"
+  },
+  {
+   "field": "note",
+   "text": "04/2022",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "calendar date"
+  },
+  {
+   "field": "note",
+   "text": "consistent gym routine",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal routine"
+  },
+  {
+   "field": "note",
+   "text": "Right ankle injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S82.61XA",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "right ankle injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S82.61XA",
+   "why": "coded injury"
+  },
+  {
+   "field": "note",
+   "text": "playing basketball",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S82.61XA",
+   "why": "injury activity"
+  },
+  {
+   "field": "note",
+   "text": "landed awkwardly and twisted his right ankle",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S82.61XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "jumping to make a layup",
+   "category": "c",
+   "type": "QUASI",
+   "code": "S82.61XA",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "bruising and swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S82.61XA",
+   "why": "fracture symptom"
+  },
+  {
+   "field": "note",
+   "text": "feelings of instability",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S82.61XA",
+   "why": "fracture symptom"
+  },
+  {
+   "field": "note",
+   "text": "right ankle pain and instability",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S82.61XA",
+   "why": "fracture symptom"
+  },
+  {
+   "field": "note",
+   "text": "right ankle bruising and swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S82.61XA",
+   "why": "fracture symptom"
+  },
+  {
+   "field": "note",
+   "text": "Brisk capillary refill",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S82.61XA",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "No epidermolysis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S82.61XA",
+   "why": "closed fracture"
+  },
+  {
+   "field": "note",
+   "text": "Exquisite tenderness laterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S82.61XA",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "Mild tenderness over the medial deltoid region",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S82.61XA",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "Swelling on the lateral side of the ankle",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S82.61XA",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "No horrible malalignment",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S82.61XA",
+   "why": "ankle exam"
+  },
+  {
+   "field": "note",
+   "text": "X-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S82.61XA",
+   "why": "fracture imaging"
+  },
+  {
+   "field": "note",
+   "text": "displaced lateral malleolus at the Weber C level",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S82.61XA",
+   "why": "coded fracture"
+  },
+  {
+   "field": "note",
+   "text": "medial or posterior malleolar fractures",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S82.61XA",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Right lateral malleolar fracture",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S82.61XA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "open reduction internal fixation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S82.61XA",
+   "why": "fracture treatment"
+  },
+  {
+   "field": "note",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S82.61XA",
+   "why": "fracture swelling treatment"
+  },
+  {
+   "field": "note",
+   "text": "ice and elevate",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S82.61XA",
+   "why": "fracture treatment"
+  },
+  {
+   "field": "note",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S82.61XA",
+   "why": "fracture treatment"
+  }
+ ]
+}

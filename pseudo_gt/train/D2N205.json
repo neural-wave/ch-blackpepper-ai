@@ -1,0 +1,837 @@
+{
+ "encounter_id": "D2N205",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "angela",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "walk my dog around the block",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "pet/activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "run with your dogs",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "pet/activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "mile long walks",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "my husband",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "spouse"
+  },
+  {
+   "field": "dialogue",
+   "text": "your husband",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "spouse"
+  },
+  {
+   "field": "dialogue",
+   "text": "dobrman",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "pet breed"
+  },
+  {
+   "field": "dialogue",
+   "text": "my daughter",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "stage three nonsmol cell lung cancer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C34.90",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "lung cancer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C34.90",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "neo adevant chemotherapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C34.90",
+   "why": "cancer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "chemotherapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C34.90",
+   "why": "cancer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "chemo",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C34.90",
+   "why": "cancer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cancer therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C34.90",
+   "why": "cancer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "four point four centimeter left upper lobe nodule",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C34.90",
+   "why": "tumor"
+  },
+  {
+   "field": "dialogue",
+   "text": "tumor",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C34.90",
+   "why": "tumor"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J70.0",
+   "why": "radiation pneumonitis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "short of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J70.0",
+   "why": "radiation pneumonitis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "dry cough",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J70.0",
+   "why": "radiation pneumonitis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "phlegm",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J70.0",
+   "why": "cough review"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "body aches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "sore throat",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "sinus pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "cold",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "every time i swallow it hurts",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "painful swallowing"
+  },
+  {
+   "field": "dialogue",
+   "text": "food is getting stuck",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "dysphagia review"
+  },
+  {
+   "field": "dialogue",
+   "text": "ensure",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R13.10",
+   "why": "nutrition support"
+  },
+  {
+   "field": "dialogue",
+   "text": "milk shake",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R13.10",
+   "why": "liquid diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "dehydrated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "hydration concern"
+  },
+  {
+   "field": "dialogue",
+   "text": "radiation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C34.90",
+   "why": "cancer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "devastated",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "emotional state"
+  },
+  {
+   "field": "dialogue",
+   "text": "sysplatin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "C34.90",
+   "why": "chemotherapy"
+  },
+  {
+   "field": "dialogue",
+   "text": "a topicide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "C34.90",
+   "why": "chemotherapy"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C34.90",
+   "why": "chemo side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "nauseated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C34.90",
+   "why": "chemo side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "fatigue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C34.90",
+   "why": "chemo side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "tired",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C34.90",
+   "why": "chemo side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "zofran",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "C34.90",
+   "why": "chemo antiemetic"
+  },
+  {
+   "field": "dialogue",
+   "text": "cervical lymphadenopathy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C34.90",
+   "why": "cancer staging exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "subclavicular adenopathy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C34.90",
+   "why": "cancer staging exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "heart exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "crackles in your lungs bilaterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J70.0",
+   "why": "lung exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "fluid",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J70.0",
+   "why": "lung exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "erythema on the anterior aspect of your chest",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "radiation skin burn not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "radiation burn",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "radiation dermatitis not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "lower extremity edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J70.0",
+   "why": "pneumonitis imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild radiation umitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J70.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "inflammation of your lungs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J70.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "radiation pneumonitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J70.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "radiation treatment",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C34.90",
+   "why": "cancer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "resection of that tumor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C34.90",
+   "why": "planned surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "steroid",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J70.0",
+   "why": "pneumonitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "steroids",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J70.0",
+   "why": "pneumonitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "prednisone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J70.0",
+   "why": "pneumonitis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "jittery",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "steroid side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "gain weight",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "steroid side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "muscle aches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "steroid side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight gain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "steroid side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "oddy ophagia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "odynophagia"
+  },
+  {
+   "field": "dialogue",
+   "text": "painful swallowing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "odynophagia"
+  },
+  {
+   "field": "dialogue",
+   "text": "esophagus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "esophageal inflammation"
+  },
+  {
+   "field": "dialogue",
+   "text": "lidocaine squishy and swallow",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R13.10",
+   "why": "odynophagia treatment"
+  },
+  {
+   "field": "note",
+   "text": "stage III non-small cell lung cancer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C34.90",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Stage III non-small cell lung cancer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C34.90",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "mile long walks",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "activity"
+  },
+  {
+   "field": "note",
+   "text": "doberman",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "pet breed"
+  },
+  {
+   "field": "note",
+   "text": "her husband",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "spouse"
+  },
+  {
+   "field": "note",
+   "text": "Her daughter",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "note",
+   "text": "chemotherapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C34.90",
+   "why": "cancer treatment"
+  },
+  {
+   "field": "note",
+   "text": "Cisplatin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "C34.90",
+   "why": "chemotherapy"
+  },
+  {
+   "field": "note",
+   "text": "etoposide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "C34.90",
+   "why": "chemotherapy"
+  },
+  {
+   "field": "note",
+   "text": "Zofran",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "C34.90",
+   "why": "chemo antiemetic"
+  },
+  {
+   "field": "note",
+   "text": "fatigue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C34.90",
+   "why": "chemo side effect"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "odynophagia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "painful swallowing"
+  },
+  {
+   "field": "note",
+   "text": "Odynophagia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "painful swallowing"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea and dry cough",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J70.0",
+   "why": "pneumonitis symptoms"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C34.90",
+   "why": "chemo side effect"
+  },
+  {
+   "field": "note",
+   "text": "cervical lymphadenopathy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C34.90",
+   "why": "staging exam"
+  },
+  {
+   "field": "note",
+   "text": "subclavicular adenopathy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C34.90",
+   "why": "staging exam"
+  },
+  {
+   "field": "note",
+   "text": "Rales in the lungs bilaterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J70.0",
+   "why": "lung exam"
+  },
+  {
+   "field": "note",
+   "text": "No murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "heart exam"
+  },
+  {
+   "field": "note",
+   "text": "No edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "erythema on the left anterior aspect of the chest",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "radiation skin change not coded"
+  },
+  {
+   "field": "note",
+   "text": "enlarged lymph nodes",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C34.90",
+   "why": "staging exam"
+  },
+  {
+   "field": "note",
+   "text": "Pathology report",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C34.90",
+   "why": "cancer diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "pathology report",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C34.90",
+   "why": "cancer diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "4.4 cm left upper lobe nodule",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C34.90",
+   "why": "tumor"
+  },
+  {
+   "field": "note",
+   "text": "Chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J70.0",
+   "why": "pneumonitis imaging"
+  },
+  {
+   "field": "note",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J70.0",
+   "why": "pneumonitis imaging"
+  },
+  {
+   "field": "note",
+   "text": "mild radiation pneumonitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J70.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Radiation pneumonitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J70.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "radiation pneumonitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J70.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "tumor resection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C34.90",
+   "why": "planned surgery"
+  },
+  {
+   "field": "note",
+   "text": "radiation",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C34.90",
+   "why": "cancer treatment"
+  },
+  {
+   "field": "note",
+   "text": "inflammation of the lungs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J70.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "radiation treatment",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J70.0",
+   "why": "cause of pneumonitis"
+  },
+  {
+   "field": "note",
+   "text": "prednisone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J70.0",
+   "why": "pneumonitis treatment"
+  },
+  {
+   "field": "note",
+   "text": "painful swallowing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "odynophagia"
+  },
+  {
+   "field": "note",
+   "text": "esophagus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R13.10",
+   "why": "esophageal inflammation"
+  },
+  {
+   "field": "note",
+   "text": "nutrition and hydration",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R13.10",
+   "why": "swallowing support"
+  },
+  {
+   "field": "note",
+   "text": "lidocaine viscous solution",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R13.10",
+   "why": "odynophagia treatment"
+  }
+ ]
+}

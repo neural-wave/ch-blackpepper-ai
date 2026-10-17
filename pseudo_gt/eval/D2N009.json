@@ -1,0 +1,613 @@
+{
+ "encounter_id": "D2N009",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "bryan",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "55-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "push a , uh , refrigerator",
+   "category": "c",
+   "type": "QUASI",
+   "code": "X50.0XXA",
+   "why": "overexertion mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "helping to move it",
+   "category": "c",
+   "type": "QUASI",
+   "code": "X50.0XXA",
+   "why": "overexertion mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "lumbar sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain in your back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "lumbar sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "hurts to bend over",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "lumbar sprain symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S33.5XXA",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S33.5XXA",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation of the right lumbar spine",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "paraspinal muscles",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "decreased flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "positive straight leg raise",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "back exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "injured your back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "assessment"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray of your lumbar spine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "back x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "lumbar strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S33.5XXA",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ultram",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S33.5XXA",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "discectomy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "prior surgery not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain in your legs",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbing",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "tingling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "problems with your bladder or your bowels",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fracture",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated xray finding"
+  },
+  {
+   "field": "note",
+   "text": "Bryan Smith",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "55-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "pushing a refrigerator",
+   "category": "c",
+   "type": "QUASI",
+   "code": "X50.0XXA",
+   "why": "overexertion mechanism"
+  },
+  {
+   "field": "note",
+   "text": "moving a refrigerator",
+   "category": "c",
+   "type": "QUASI",
+   "code": "X50.0XXA",
+   "why": "overexertion mechanism"
+  },
+  {
+   "field": "note",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "Back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "right-sided low back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "pain while bending over",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S33.5XXA",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S33.5XXA",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Pain to palpation to the right lumbar spine",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "paraspinal muscles",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "Decreased flexion and extension of the back",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "Positive straight leg raise",
+   "category": "c",
+   "type": "FINDING",
+   "code": "S33.5XXA",
+   "why": "back exam"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the lumbar spine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of his lumbar spine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "Lumbar strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "S33.5XXA",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "MRI of the lumbar spine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "workup"
+  },
+  {
+   "field": "note",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S33.5XXA",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Ultram",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "S33.5XXA",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "S33.5XXA",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "discectomy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "prior surgery not coded"
+  },
+  {
+   "field": "note",
+   "text": "numbness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "tingling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "problems with his bladder or bowels",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea on exertion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "hematemesis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "hematochezia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "melena",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "heartburn",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "urinary urgency",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "incontinence",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated symptom"
+  },
+  {
+   "field": "note",
+   "text": "wheezes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated lung finding"
+  },
+  {
+   "field": "note",
+   "text": "rales",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated lung finding"
+  },
+  {
+   "field": "note",
+   "text": "rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated lung finding"
+  },
+  {
+   "field": "note",
+   "text": "murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated cardiac finding"
+  },
+  {
+   "field": "note",
+   "text": "gallops",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated cardiac finding"
+  },
+  {
+   "field": "note",
+   "text": "rubs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated cardiac finding"
+  },
+  {
+   "field": "note",
+   "text": "fractures",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated xray finding"
+  }
+ ]
+}

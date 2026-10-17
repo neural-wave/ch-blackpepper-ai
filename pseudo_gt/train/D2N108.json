@@ -1,0 +1,445 @@
+{
+ "encounter_id": "D2N108",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "gregory",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "dewey beach",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "beach visited"
+  },
+  {
+   "field": "dialogue",
+   "text": "in my ambulance",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal context"
+  },
+  {
+   "field": "dialogue",
+   "text": "nonhealing foot ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetic foot ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "walking barefoot on the beach",
+   "category": "c",
+   "type": "QUASI",
+   "code": "E11.621",
+   "why": "cause of ulcer"
+  },
+  {
+   "field": "dialogue",
+   "text": "red and is draining",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "throbbing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ulcer symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "antibiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.621",
+   "why": "ulcer infection treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "diabetes control"
+  },
+  {
+   "field": "dialogue",
+   "text": "one by two inch circular wound",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "redness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "drainage",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "necrosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "bony exposure",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "infected ulcer"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "osteomyelitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ulcer complication ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "bone infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ulcer complication ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "ankle brachial index",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "abi",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "debridement",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "clindamycin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.621",
+   "why": "ulcer infection treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgical shoe",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer offloading"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "general symptom"
+  },
+  {
+   "field": "note",
+   "text": "Gregory Hernandez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "40-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "non-healing right foot ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Right foot ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Right diabetic foot ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "right foot ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "walking barefoot on the beach",
+   "category": "c",
+   "type": "QUASI",
+   "code": "E11.621",
+   "why": "cause of ulcer"
+  },
+  {
+   "field": "note",
+   "text": "throbbing pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ulcer symptom"
+  },
+  {
+   "field": "note",
+   "text": "antibiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.621",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "note",
+   "text": "diabetic",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "A1C",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "diabetes control"
+  },
+  {
+   "field": "note",
+   "text": "right foot pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ulcer symptom"
+  },
+  {
+   "field": "note",
+   "text": "1 x 2 inch circular wound",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "redness and drainage",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "necrosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "bony exposure",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "osteomyelitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ruled out complication"
+  },
+  {
+   "field": "note",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "note",
+   "text": "ankle brachial index",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "note",
+   "text": "Debridement",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "note",
+   "text": "debridement",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "note",
+   "text": "clindamycin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.621",
+   "why": "infection treatment"
+  },
+  {
+   "field": "note",
+   "text": "infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "infected ulcer"
+  },
+  {
+   "field": "note",
+   "text": "surgical shoe",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "offloading"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "general symptom"
+  }
+ ]
+}

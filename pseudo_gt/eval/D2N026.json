@@ -1,0 +1,765 @@
+{
+ "encounter_id": "D2N026",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "donald",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "clark",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "dialogue",
+   "text": "03/04/1937",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "miller",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor name"
+  },
+  {
+   "field": "dialogue",
+   "text": "betty",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "referring provider name"
+  },
+  {
+   "field": "dialogue",
+   "text": "roy",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "staff name"
+  },
+  {
+   "field": "dialogue",
+   "text": "i am a va",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "veteran status"
+  },
+  {
+   "field": "dialogue",
+   "text": "one percent disabled",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "disability rating"
+  },
+  {
+   "field": "dialogue",
+   "text": "my lady friend",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal relationship"
+  },
+  {
+   "field": "dialogue",
+   "text": "white",
+   "category": "a",
+   "type": "ETHNICITY",
+   "code": null,
+   "why": "race"
+  },
+  {
+   "field": "dialogue",
+   "text": "wheelchair",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "mobility aid"
+  },
+  {
+   "field": "dialogue",
+   "text": "6421",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "x-ray date"
+  },
+  {
+   "field": "dialogue",
+   "text": "left arm pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain this arm",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "arm pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "hurting something awful",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "arm pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M79.602",
+   "why": "treatment for arm pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "pinched nerve",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "cause of arm pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "weakness in your hand",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "arm symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "i hurt it some time ago",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated finger injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "prednisone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M79.602",
+   "why": "treatment for arm pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "oral steroids",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M79.602",
+   "why": "treatment for arm pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbing medicine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M79.602",
+   "why": "treatment for arm pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "neck pill",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M79.602",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "gabapentin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M79.602",
+   "why": "nerve pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "issues from my knees down to my feet",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated leg neuropathy"
+  },
+  {
+   "field": "dialogue",
+   "text": "neuropathy",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "leg peripheral neuropathy"
+  },
+  {
+   "field": "dialogue",
+   "text": "little strain",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M50.30",
+   "why": "neck exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray of your neck",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M50.30",
+   "why": "cervical imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "arthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M50.30",
+   "why": "cervical degeneration"
+  },
+  {
+   "field": "dialogue",
+   "text": "disc to be pushing on a nerve",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M50.30",
+   "why": "cervical disc disease"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M50.30",
+   "why": "cervical imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri of your neck",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M50.30",
+   "why": "cervical imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri of the neck",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M50.30",
+   "why": "cervical imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "nerve pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "arm nerve pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "epidural",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M50.30",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "one of your lower back",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated lumbar mri"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood thinners",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "negated, unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "eliquis",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated med"
+  },
+  {
+   "field": "dialogue",
+   "text": "non-tender over his cervical spine",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M50.30",
+   "why": "neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "mildly restricted cervical exte- extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M50.30",
+   "why": "neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild lateral neck pain",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M50.30",
+   "why": "neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "radi- radicular pain",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M79.602",
+   "why": "negated radicular pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "spurling's maneuver is benign",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M79.602",
+   "why": "exam for radiculopathy"
+  },
+  {
+   "field": "dialogue",
+   "text": "one plus bilateral biceps",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M79.602",
+   "why": "reflex exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "cervical x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M50.30",
+   "why": "cervical imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "significant disc degeneration at c56",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M50.30",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "lower lumbar facet arthropathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M50.30",
+   "why": "spine degeneration on cervical x-ray"
+  },
+  {
+   "field": "dialogue",
+   "text": "left upper extremity neuropathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "arm symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cervical radicularopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "cause of arm pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "peripheral neuropathy",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated neuropathy"
+  },
+  {
+   "field": "dialogue",
+   "text": "neck pain in the setting of arthritis disc degeneration",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M50.30",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "cervical mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M50.30",
+   "why": "cervical imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "left c7-t1 epidural",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M50.30",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "home exercise program",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M50.30",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Betty Ross",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "referring provider name"
+  },
+  {
+   "field": "note",
+   "text": "Clark",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient surname"
+  },
+  {
+   "field": "note",
+   "text": "veteran",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "veteran status"
+  },
+  {
+   "field": "note",
+   "text": "1% disability",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "disability rating"
+  },
+  {
+   "field": "note",
+   "text": "Caucasian",
+   "category": "a",
+   "type": "ETHNICITY",
+   "code": null,
+   "why": "race"
+  },
+  {
+   "field": "note",
+   "text": "wheelchair",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "mobility aid"
+  },
+  {
+   "field": "note",
+   "text": "06/04/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "x-ray date"
+  },
+  {
+   "field": "note",
+   "text": "Left arm pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "left arm pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "intense pain in his left arm and hand",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "arm pain"
+  },
+  {
+   "field": "note",
+   "text": "left arm and hand pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "arm pain"
+  },
+  {
+   "field": "note",
+   "text": "ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M79.602",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "pinched nerve",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "cause of arm pain"
+  },
+  {
+   "field": "note",
+   "text": "x-rays of the cervical spine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M50.30",
+   "why": "cervical imaging"
+  },
+  {
+   "field": "note",
+   "text": "gabapentin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M79.602",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Gabapentin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M79.602",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "prednisone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M79.602",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Prednisone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M79.602",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "left finger injury",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated injury"
+  },
+  {
+   "field": "note",
+   "text": "neuropathy in one leg",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated neuropathy"
+  },
+  {
+   "field": "note",
+   "text": "Peripheral neuropathy",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated neuropathy"
+  },
+  {
+   "field": "note",
+   "text": "1+ bilateral biceps, triceps, brachioradialis, reflexes",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M79.602",
+   "why": "arm neuro exam"
+  },
+  {
+   "field": "note",
+   "text": "Negative Hoffman's",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M79.602",
+   "why": "neuro exam"
+  },
+  {
+   "field": "note",
+   "text": "Nontender over cervical spine",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M50.30",
+   "why": "neck exam"
+  },
+  {
+   "field": "note",
+   "text": "Mildly restricted cervical extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M50.30",
+   "why": "neck exam"
+  },
+  {
+   "field": "note",
+   "text": "mild lateral neck pain",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M50.30",
+   "why": "neck exam"
+  },
+  {
+   "field": "note",
+   "text": "radicular pain",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M79.602",
+   "why": "negated radicular pain"
+  },
+  {
+   "field": "note",
+   "text": "Spurling's maneuver is benign",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M79.602",
+   "why": "exam for radiculopathy"
+  },
+  {
+   "field": "note",
+   "text": "X-ray Cervical Spine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M50.30",
+   "why": "cervical imaging"
+  },
+  {
+   "field": "note",
+   "text": "Significant disc degeneration at C5-6",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M50.30",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Significant lower facet arthropathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M50.30",
+   "why": "spine degeneration"
+  },
+  {
+   "field": "note",
+   "text": "Left upper extremity neuropathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "arm symptom"
+  },
+  {
+   "field": "note",
+   "text": "cervical radiculopathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M79.602",
+   "why": "cause of arm pain"
+  },
+  {
+   "field": "note",
+   "text": "peripheral neuropathy",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated neuropathy"
+  },
+  {
+   "field": "note",
+   "text": "Neck pain in the setting of arthritis and disc generation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M50.30",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "cervical MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M50.30",
+   "why": "cervical imaging"
+  },
+  {
+   "field": "note",
+   "text": "MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M50.30",
+   "why": "cervical imaging"
+  },
+  {
+   "field": "note",
+   "text": "left C7-T1 epidural",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M50.30",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "epidural injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M50.30",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "home exercise program",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M50.30",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "blood thinners",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "negated, unrelated"
+  }
+ ]
+}

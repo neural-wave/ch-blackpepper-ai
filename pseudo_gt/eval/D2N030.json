@@ -1,0 +1,749 @@
+{
+ "encounter_id": "D2N030",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "donna torres",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "donna",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "08/01/1980",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "dr. brown",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "provider name"
+  },
+  {
+   "field": "dialogue",
+   "text": "dr. ward",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "provider name"
+  },
+  {
+   "field": "dialogue",
+   "text": "november and december",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "dates of anxiety episode"
+  },
+  {
+   "field": "dialogue",
+   "text": "2019",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "year of last pap"
+  },
+  {
+   "field": "dialogue",
+   "text": "2009",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "year of abnormal pap"
+  },
+  {
+   "field": "dialogue",
+   "text": "golive",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific work event"
+  },
+  {
+   "field": "dialogue",
+   "text": "lead the process of delivering the results to patients with covid",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job role"
+  },
+  {
+   "field": "dialogue",
+   "text": "evaluation centers and the covid clinic",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "workplace"
+  },
+  {
+   "field": "dialogue",
+   "text": "my husband",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "my daughter",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "my son",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family structure"
+  },
+  {
+   "field": "dialogue",
+   "text": "almost 40",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "almost 45",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "mother's age at diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "my mom",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family member history"
+  },
+  {
+   "field": "dialogue",
+   "text": "breastfed",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "breast cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "lumps",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N60.01",
+   "why": "breast cysts"
+  },
+  {
+   "field": "dialogue",
+   "text": "little bumps",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N60.01",
+   "why": "breast cysts on exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "denser",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N60.02",
+   "why": "breast density on exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "cysts",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N60.01",
+   "why": "breast cysts"
+  },
+  {
+   "field": "dialogue",
+   "text": "fibroadenomas",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N60.01",
+   "why": "benign breast differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "breast issue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N60.01",
+   "why": "breast cysts"
+  },
+  {
+   "field": "dialogue",
+   "text": "breast issues",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N60.01",
+   "why": "breast cysts"
+  },
+  {
+   "field": "dialogue",
+   "text": "breast specialist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N60.01",
+   "why": "referral for cysts"
+  },
+  {
+   "field": "dialogue",
+   "text": "ultrasound",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N60.01",
+   "why": "cyst workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "biopsy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N60.01",
+   "why": "cyst workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "surveillance",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N60.01",
+   "why": "cyst monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "sore",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N60.02",
+   "why": "breast tenderness"
+  },
+  {
+   "field": "dialogue",
+   "text": "pap",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R87.619",
+   "why": "cervical cytology"
+  },
+  {
+   "field": "dialogue",
+   "text": "abnormal pap",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R87.619",
+   "why": "abnormal cervical cytology"
+  },
+  {
+   "field": "dialogue",
+   "text": "abnormal paps",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R87.619",
+   "why": "abnormal cervical cytology"
+  },
+  {
+   "field": "dialogue",
+   "text": "normal pap",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R87.619",
+   "why": "cervical cytology"
+  },
+  {
+   "field": "dialogue",
+   "text": "negative/negative",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R87.619",
+   "why": "cervical cytology result"
+  },
+  {
+   "field": "dialogue",
+   "text": "buspar",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "anxiety not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "anxiety",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "singulair",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "irritability",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "hormonal",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "progesterone",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "menstrual regulation"
+  },
+  {
+   "field": "dialogue",
+   "text": "regulating your periods",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "menstrual issue"
+  },
+  {
+   "field": "dialogue",
+   "text": "camila birth control",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "hunger level",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "appetite"
+  },
+  {
+   "field": "dialogue",
+   "text": "lost some weight",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "weight change"
+  },
+  {
+   "field": "dialogue",
+   "text": "covid",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "vaccine",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "covid vaccine"
+  },
+  {
+   "field": "dialogue",
+   "text": "immunocompromising",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "clog",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "breastfeeding duct clog"
+  },
+  {
+   "field": "dialogue",
+   "text": "itching or discomfort",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "vaginal symptoms"
+  },
+  {
+   "field": "dialogue",
+   "text": "cream",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "vaginal cream"
+  },
+  {
+   "field": "dialogue",
+   "text": "cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Donna Torres",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "Mrs. Torres",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "40-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "2019",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "year of last pap"
+  },
+  {
+   "field": "note",
+   "text": "2009",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "year of abnormal pap"
+  },
+  {
+   "field": "note",
+   "text": "11/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "anxiety date"
+  },
+  {
+   "field": "note",
+   "text": "12/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "anxiety date"
+  },
+  {
+   "field": "note",
+   "text": "Dr. Brown",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "provider name"
+  },
+  {
+   "field": "note",
+   "text": "Employed in healthcare",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job"
+  },
+  {
+   "field": "note",
+   "text": "Covid evaluation centers and clinics",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "workplace"
+  },
+  {
+   "field": "note",
+   "text": "Mother, deceased age 45",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family history detail"
+  },
+  {
+   "field": "note",
+   "text": "age 45",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "mother's age at death"
+  },
+  {
+   "field": "note",
+   "text": "breast cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history not coded"
+  },
+  {
+   "field": "note",
+   "text": "breast cysts",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N60.01",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Bilateral breast cysts",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N60.01",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "cysts",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N60.01",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "lumps",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N60.01",
+   "why": "breast cysts"
+  },
+  {
+   "field": "note",
+   "text": "soreness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N60.02",
+   "why": "breast tenderness"
+  },
+  {
+   "field": "note",
+   "text": "Breast density",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N60.02",
+   "why": "breast exam"
+  },
+  {
+   "field": "note",
+   "text": "breast density",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N60.02",
+   "why": "breast exam"
+  },
+  {
+   "field": "note",
+   "text": "breast specialist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N60.01",
+   "why": "referral"
+  },
+  {
+   "field": "note",
+   "text": "surveillance",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N60.01",
+   "why": "cyst monitoring"
+  },
+  {
+   "field": "note",
+   "text": "pap smear",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R87.619",
+   "why": "cervical cytology"
+  },
+  {
+   "field": "note",
+   "text": "Pap smear",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R87.619",
+   "why": "cervical cytology"
+  },
+  {
+   "field": "note",
+   "text": "abnormal pap smear",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R87.619",
+   "why": "abnormal cytology"
+  },
+  {
+   "field": "note",
+   "text": "pap smears",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R87.619",
+   "why": "repeat cytology"
+  },
+  {
+   "field": "note",
+   "text": "negative/negative",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R87.619",
+   "why": "cytology result"
+  },
+  {
+   "field": "note",
+   "text": "progesterone",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "menstrual regulation"
+  },
+  {
+   "field": "note",
+   "text": "normalization of menstruation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "menstrual issue"
+  },
+  {
+   "field": "note",
+   "text": "vaginal cream",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "itching and discomfort",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "vaginal symptoms"
+  },
+  {
+   "field": "note",
+   "text": "anxiety",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Anxiety",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Buspar",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Singulair",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Covid vaccinations",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Camila birth control",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "increase in appetite",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "lost weight",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "aging",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  }
+ ]
+}

@@ -1,0 +1,685 @@
+{
+ "encounter_id": "D2N142",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "amanda taylor",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "taylor",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "october 31st 1949",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "72 year old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "april 16th",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "last visit date"
+  },
+  {
+   "field": "dialogue",
+   "text": "on monday",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of last drink"
+  },
+  {
+   "field": "dialogue",
+   "text": "february 9th",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "vaccine date"
+  },
+  {
+   "field": "dialogue",
+   "text": "may 17th",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "injection date"
+  },
+  {
+   "field": "dialogue",
+   "text": "in june",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "follow-up month"
+  },
+  {
+   "field": "dialogue",
+   "text": "june 14th",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "follow-up date"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "alcohol use disorder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F10.90",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypercholesterolemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "hydrochlorothiazide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cmp",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "routine lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "cbc",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "routine lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "drinking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F10.90",
+   "why": "alcohol use"
+  },
+  {
+   "field": "dialogue",
+   "text": "hard alcohol",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F10.90",
+   "why": "alcohol use"
+  },
+  {
+   "field": "dialogue",
+   "text": "drinking alcohol four to five days per week to excess",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F10.90",
+   "why": "alcohol use"
+  },
+  {
+   "field": "dialogue",
+   "text": "shot",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F10.90",
+   "why": "naltrexone injection"
+  },
+  {
+   "field": "dialogue",
+   "text": "lethargic and tired",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "medication side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "medication side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "swooshing that started in my left ear",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "medication side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest tightness or pressure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever , cough , shortness of breath or sore throat",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "coronavirus",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated exposure"
+  },
+  {
+   "field": "dialogue",
+   "text": "coronavirus vaccine",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated vaccine"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "naltrexone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F10.90",
+   "why": "alcohol use treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "vivitrol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F10.90",
+   "why": "alcohol use treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "naltrexone injection",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F10.90",
+   "why": "alcohol use treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea , headache , dizziness , anxi- anxiety , tiredness and trouble sleeping",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effects"
+  },
+  {
+   "field": "dialogue",
+   "text": "tobacco",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "substance abuse",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetic",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "tremor",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "cva tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "gallop",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "jvp flat",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "anxious , agitated or depressed",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "alcohol cessation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F10.90",
+   "why": "alcohol use plan"
+  },
+  {
+   "field": "dialogue",
+   "text": "influenza vaccination",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated vaccine"
+  },
+  {
+   "field": "dialogue",
+   "text": "shingrix",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated vaccine"
+  },
+  {
+   "field": "note",
+   "text": "Amanda Taylor",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "Taylor",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "72-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "April 16",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "last visit date"
+  },
+  {
+   "field": "note",
+   "text": "May 17",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "injection date"
+  },
+  {
+   "field": "note",
+   "text": "June 14th",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "follow-up date"
+  },
+  {
+   "field": "note",
+   "text": "June 14",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "follow-up date"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Alcohol use disorder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F10.90",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "alcohol use disorder",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F10.90",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hypercholesterolemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypercholesterolemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.00",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hydrochlorothiazide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "note",
+   "text": "Hydrochlorothiazide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "note",
+   "text": "Lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "hypertension treatment"
+  },
+  {
+   "field": "note",
+   "text": "CMP",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "routine lab"
+  },
+  {
+   "field": "note",
+   "text": "CBC",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "routine lab"
+  },
+  {
+   "field": "note",
+   "text": "consuming alcohol",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F10.90",
+   "why": "alcohol use"
+  },
+  {
+   "field": "note",
+   "text": "alcohol consumption",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F10.90",
+   "why": "alcohol use"
+  },
+  {
+   "field": "note",
+   "text": "alcohol cessation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F10.90",
+   "why": "alcohol use plan"
+  },
+  {
+   "field": "note",
+   "text": "Naltrexone injections",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F10.90",
+   "why": "alcohol use treatment"
+  },
+  {
+   "field": "note",
+   "text": "naltrexone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F10.90",
+   "why": "alcohol use treatment"
+  },
+  {
+   "field": "note",
+   "text": "naltrexone injection",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "F10.90",
+   "why": "alcohol use treatment"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "medication side effect"
+  },
+  {
+   "field": "note",
+   "text": "\u201cswooshing\u201d in her left ear",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "medication side effect"
+  },
+  {
+   "field": "note",
+   "text": "lethargy",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "medication side effect"
+  },
+  {
+   "field": "note",
+   "text": "No fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "No tobacco or other substance use",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "anxious, agitated or depressed",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "JVP flat",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "No cough or shortness of breath",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "No CVA tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "No murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "No gallop",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "No ankle edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "influenza vaccination",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated vaccine"
+  },
+  {
+   "field": "note",
+   "text": "Shingrix",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated vaccine"
+  }
+ ]
+}

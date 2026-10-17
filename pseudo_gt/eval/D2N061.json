@@ -1,0 +1,621 @@
+{
+ "encounter_id": "D2N061",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "virginia",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "jerry",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "other player name"
+  },
+  {
+   "field": "dialogue",
+   "text": "the wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "garbled personal context"
+  },
+  {
+   "field": "dialogue",
+   "text": "your family do n't they own that sports store",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family business"
+  },
+  {
+   "field": "dialogue",
+   "text": "main street",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "store location"
+  },
+  {
+   "field": "dialogue",
+   "text": "playing basketball",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.561",
+   "why": "cause of knee injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "ran into me",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.561",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "fall to the ground",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.561",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "landed on my side",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.561",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "inside of my knee hurts",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ace wrap",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee still looks a little swollen",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetic",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated (diabetes not coded)"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated (not coded)"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated diabetes med"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "pop in your knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "negated injury symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "exercises",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "mobic",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecchymosis and swelling on the inside of that right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with palpation on the medial aspect of that right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "decreased range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "negative varus and valgus stress test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "medial collateral ligament strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "cause of knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee brace",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "bony alignment's in good position",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "evidence of any fractures",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "negated fracture"
+  },
+  {
+   "field": "dialogue",
+   "text": "nonsteroidals",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "pain med"
+  },
+  {
+   "field": "dialogue",
+   "text": "motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "pain med"
+  },
+  {
+   "field": "dialogue",
+   "text": "advil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "pain med"
+  },
+  {
+   "field": "dialogue",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cat scan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri of that knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee imaging"
+  },
+  {
+   "field": "note",
+   "text": "Virginia Phillips",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "53-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age"
+  },
+  {
+   "field": "note",
+   "text": "the Y",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named gym"
+  },
+  {
+   "field": "note",
+   "text": "Right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "playing basketball",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.561",
+   "why": "cause of injury"
+  },
+  {
+   "field": "note",
+   "text": "another player ran into her",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.561",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "fell to the ground and landed on her side",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.561",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "pop",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "negated injury symptom"
+  },
+  {
+   "field": "note",
+   "text": "ice",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "ACE wrap",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "exercises",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "Mobic",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "diabetic",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated (not coded)"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated (not coded)"
+  },
+  {
+   "field": "note",
+   "text": "blood sugar",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated monitoring"
+  },
+  {
+   "field": "note",
+   "text": "blood sugars",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "unrelated monitoring"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated diabetes med"
+  },
+  {
+   "field": "note",
+   "text": "plays basketball",
+   "category": "c",
+   "type": "QUASI",
+   "code": "M25.561",
+   "why": "cause of injury"
+  },
+  {
+   "field": "note",
+   "text": "No pain to palpation of the lateral aspect of the right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with palpation on the medial aspect of the knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "Ecchymosis and swelling on the medial aspect of the knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "Effusion is appreciated",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "Decreased ROM",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "Negative varus and valgus stress test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "exam"
+  },
+  {
+   "field": "note",
+   "text": "X-rays of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "bony alignment in good position",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "no evidence of any fractures",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "effusion present",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "medial collateral ligament strain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "cause of knee pain"
+  },
+  {
+   "field": "note",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "anti-inflammatory",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "pain med"
+  },
+  {
+   "field": "note",
+   "text": "Motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "pain med"
+  },
+  {
+   "field": "note",
+   "text": "Advil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "pain med"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "right knee brace",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "treatment"
+  },
+  {
+   "field": "note",
+   "text": "CT",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee imaging"
+  },
+  {
+   "field": "note",
+   "text": "MRI of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee imaging"
+  }
+ ]
+}

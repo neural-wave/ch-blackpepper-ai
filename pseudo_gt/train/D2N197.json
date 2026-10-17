@@ -1,0 +1,421 @@
+{
+ "encounter_id": "D2N197",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "donna",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "37 -year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "doctor ruth",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "provider name"
+  },
+  {
+   "field": "dialogue",
+   "text": "walking",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "exercise habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "my walks",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "exercise habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "headache",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "hypertension with headaches"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "hypertension with headaches"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure has been running high",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "elevated BP"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure medicine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "headache treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "urinating more than usual",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes symptom review"
+  },
+  {
+   "field": "dialogue",
+   "text": "migraine",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "history not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "congestion",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "cough",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "runny nose",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "seasonal allergies"
+  },
+  {
+   "field": "dialogue",
+   "text": "frontal sinus tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "sinus exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "maxillary sinus tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "sinus exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood tests",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood work",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "routine labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetic education",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes education"
+  },
+  {
+   "field": "dialogue",
+   "text": "exercise",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "lifestyle for HTN"
+  },
+  {
+   "field": "note",
+   "text": "Dr. Ruth",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "provider name"
+  },
+  {
+   "field": "note",
+   "text": "walks for exercise",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "exercise habit"
+  },
+  {
+   "field": "note",
+   "text": "walking program",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "exercise habit"
+  },
+  {
+   "field": "note",
+   "text": "Headache",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "hypertension with headaches"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "hypertension with headaches"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension with headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "elevated blood pressure readings",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "elevated BP"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "headache treatment"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "polyuria",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "diabetes symptom review"
+  },
+  {
+   "field": "note",
+   "text": "elevated glucose levels",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.9",
+   "why": "hyperglycemia"
+  },
+  {
+   "field": "note",
+   "text": "diabetic education",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes education"
+  },
+  {
+   "field": "note",
+   "text": "Hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "Routine blood work",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "routine labs"
+  },
+  {
+   "field": "note",
+   "text": "migraines",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "history not coded"
+  },
+  {
+   "field": "note",
+   "text": "seasonal allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "congestion or runny nose",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "cough",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "frontal or maxillary sinus tenderness",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "sinus exam"
+  },
+  {
+   "field": "note",
+   "text": "lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "neck exam"
+  },
+  {
+   "field": "note",
+   "text": "enlarged lymph nodes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "lymph exam"
+  }
+ ]
+}

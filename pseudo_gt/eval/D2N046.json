@@ -1,0 +1,693 @@
+{
+ "encounter_id": "D2N046",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "my dog and my three cats",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "pets"
+  },
+  {
+   "field": "dialogue",
+   "text": "i was adopted",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family/life detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "thirteen for my period",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age at menarche"
+  },
+  {
+   "field": "dialogue",
+   "text": "twenty eighth for menopause",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age at menopause"
+  },
+  {
+   "field": "dialogue",
+   "text": "ovarian cancer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C56.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "severe pain and bleeding",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C56.2",
+   "why": "presenting symptoms"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight loss",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C56.2",
+   "why": "cancer symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "constipation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C56.2",
+   "why": "cancer symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "mass on the left side",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C56.2",
+   "why": "left ovarian mass"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness to palpation of the left lower quadrant",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C56.2",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "left adnexal mass",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C56.2",
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "vaginal exam",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "pelvic exam for mass"
+  },
+  {
+   "field": "dialogue",
+   "text": "bimanual exam",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "pelvic exam for mass"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal ct",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "ct scan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "three centimeter left ovarian mass",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C56.2",
+   "why": "imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "localized lymph node involvement",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C56.2",
+   "why": "staging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "lymph node involvement",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C56.2",
+   "why": "staging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "gross peritoneal or metastatic disease",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C56.2",
+   "why": "staging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "stage three a disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C56.2",
+   "why": "stage"
+  },
+  {
+   "field": "dialogue",
+   "text": "tumor",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C56.2",
+   "why": "ovarian tumor"
+  },
+  {
+   "field": "dialogue",
+   "text": "ca-125",
+   "category": "c",
+   "type": "LAB",
+   "code": "C56.2",
+   "why": "tumor marker"
+  },
+  {
+   "field": "dialogue",
+   "text": "hcg",
+   "category": "c",
+   "type": "LAB",
+   "code": "C56.2",
+   "why": "tumor marker"
+  },
+  {
+   "field": "dialogue",
+   "text": "afp",
+   "category": "c",
+   "type": "LAB",
+   "code": "C56.2",
+   "why": "tumor marker"
+  },
+  {
+   "field": "dialogue",
+   "text": "ldh",
+   "category": "c",
+   "type": "LAB",
+   "code": "C56.2",
+   "why": "tumor marker"
+  },
+  {
+   "field": "dialogue",
+   "text": "genetic counseling and testing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "cancer workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "genetic predisposition",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C56.2",
+   "why": "cancer workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "adjunct chemotherapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "cancer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "chemotherapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "cancer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hysterectomy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "cancer surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "remove both ovaries",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "cancer surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "lymph node dissection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "cancer surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "pathology reports",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "staging"
+  },
+  {
+   "field": "dialogue",
+   "text": "pathology report",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "staging"
+  },
+  {
+   "field": "dialogue",
+   "text": "cisplatin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "C56.2",
+   "why": "chemotherapy"
+  },
+  {
+   "field": "dialogue",
+   "text": "taxol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "C56.2",
+   "why": "chemotherapy"
+  },
+  {
+   "field": "dialogue",
+   "text": "intraperitoneal intraperitoneal chemo",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "chemotherapy"
+  },
+  {
+   "field": "dialogue",
+   "text": "type two diabetes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded history"
+  },
+  {
+   "field": "dialogue",
+   "text": "depressed",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "mood not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "issues with urination",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "pregnant",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "obstetric history"
+  },
+  {
+   "field": "dialogue",
+   "text": "menopause",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "reproductive history"
+  },
+  {
+   "field": "dialogue",
+   "text": "oral hormone replacement therapy",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "endometriosis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "gynecological cancers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history unknown"
+  },
+  {
+   "field": "dialogue",
+   "text": "rebounding or guarding",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "external lesions on the labia",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "adopted",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family/life detail"
+  },
+  {
+   "field": "note",
+   "text": "ovarian cancer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C56.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Ovarian cancer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C56.2",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "unintentional weight loss",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C56.2",
+   "why": "cancer symptom"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C56.2",
+   "why": "cancer symptom"
+  },
+  {
+   "field": "note",
+   "text": "constipation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C56.2",
+   "why": "cancer symptom"
+  },
+  {
+   "field": "note",
+   "text": "abnormal vaginal bleeding",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C56.2",
+   "why": "presenting symptom"
+  },
+  {
+   "field": "note",
+   "text": "tenderness to palpation of the left lower quadrant",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C56.2",
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "left adnexal mass",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C56.2",
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "CT scan of the abdomen",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "abdominal CT",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "imaging"
+  },
+  {
+   "field": "note",
+   "text": "3 cm left ovarian mass",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C56.2",
+   "why": "imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "localized lymph node involvement",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C56.2",
+   "why": "staging finding"
+  },
+  {
+   "field": "note",
+   "text": "lymph node involvement",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C56.2",
+   "why": "staging finding"
+  },
+  {
+   "field": "note",
+   "text": "gross peritoneal or metastatic disease",
+   "category": "c",
+   "type": "FINDING",
+   "code": "C56.2",
+   "why": "staging finding"
+  },
+  {
+   "field": "note",
+   "text": "stage IIIA disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C56.2",
+   "why": "stage"
+  },
+  {
+   "field": "note",
+   "text": "CA-125",
+   "category": "c",
+   "type": "LAB",
+   "code": "C56.2",
+   "why": "tumor marker"
+  },
+  {
+   "field": "note",
+   "text": "hCG",
+   "category": "c",
+   "type": "LAB",
+   "code": "C56.2",
+   "why": "tumor marker"
+  },
+  {
+   "field": "note",
+   "text": "AFP",
+   "category": "c",
+   "type": "LAB",
+   "code": "C56.2",
+   "why": "tumor marker"
+  },
+  {
+   "field": "note",
+   "text": "LDH",
+   "category": "c",
+   "type": "LAB",
+   "code": "C56.2",
+   "why": "tumor marker"
+  },
+  {
+   "field": "note",
+   "text": "genetic counseling and testing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "cancer workup"
+  },
+  {
+   "field": "note",
+   "text": "genetic predisposition",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "C56.2",
+   "why": "cancer workup"
+  },
+  {
+   "field": "note",
+   "text": "surgical intervention",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "cancer surgery"
+  },
+  {
+   "field": "note",
+   "text": "adjunct chemotherapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "cancer treatment"
+  },
+  {
+   "field": "note",
+   "text": "chemotherapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "cancer treatment"
+  },
+  {
+   "field": "note",
+   "text": "hysterectomy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "cancer surgery"
+  },
+  {
+   "field": "note",
+   "text": "oophorectomy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "cancer surgery"
+  },
+  {
+   "field": "note",
+   "text": "lymph node dissection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "cancer surgery"
+  },
+  {
+   "field": "note",
+   "text": "biopsied",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "staging"
+  },
+  {
+   "field": "note",
+   "text": "pathology report",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "staging"
+  },
+  {
+   "field": "note",
+   "text": "cisplatin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "C56.2",
+   "why": "chemotherapy"
+  },
+  {
+   "field": "note",
+   "text": "Taxol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "C56.2",
+   "why": "chemotherapy"
+  },
+  {
+   "field": "note",
+   "text": "intraperitoneal chemotherapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "C56.2",
+   "why": "chemotherapy"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "urinary issues",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "depression",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "mood not coded"
+  },
+  {
+   "field": "note",
+   "text": "No rebounding or guarding",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "external lesions on the labia",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  }
+ ]
+}

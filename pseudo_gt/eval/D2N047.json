@@ -1,0 +1,709 @@
+{
+ "encounter_id": "D2N047",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "billy",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "moore",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "cardiologist name"
+  },
+  {
+   "field": "dialogue",
+   "text": "twenty eighteen",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "year of stent"
+  },
+  {
+   "field": "dialogue",
+   "text": "november",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "month of last cardiology visit"
+  },
+  {
+   "field": "dialogue",
+   "text": "big college football fan",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "georgia",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "team/state"
+  },
+  {
+   "field": "dialogue",
+   "text": "alabama",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "team/state"
+  },
+  {
+   "field": "dialogue",
+   "text": "national championships",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "event watched"
+  },
+  {
+   "field": "dialogue",
+   "text": "nick saving",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "named person (coach)"
+  },
+  {
+   "field": "dialogue",
+   "text": "the dogs",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "team"
+  },
+  {
+   "field": "dialogue",
+   "text": "long horns",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "team"
+  },
+  {
+   "field": "dialogue",
+   "text": "originally not from georgia",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "origin"
+  },
+  {
+   "field": "dialogue",
+   "text": "difficulty urinating",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R39.198",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "not peeing right",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R39.198",
+   "why": "urination difficulty"
+  },
+  {
+   "field": "dialogue",
+   "text": "urination stream weak",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R39.198",
+   "why": "urination symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "emptying your bladder fully",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R39.198",
+   "why": "urination symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "getting up three or four times a night",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R39.198",
+   "why": "nocturia"
+  },
+  {
+   "field": "dialogue",
+   "text": "burning when you urinate",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R39.198",
+   "why": "negated urinary symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "constipation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated bowel symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "urinary retention",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R39.198",
+   "why": "negated urinary symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "catheter",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R39.198",
+   "why": "urinary retention treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "urologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R39.198",
+   "why": "referral for urinary problem"
+  },
+  {
+   "field": "dialogue",
+   "text": "stent placed in your right coronary artery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "negated CAD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "negated CAD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "glucose monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes med"
+  },
+  {
+   "field": "dialogue",
+   "text": "rectal exam",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R39.198",
+   "why": "prostate exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "three out of six systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "murmur followed under CAD"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "murmur followed under CAD"
+  },
+  {
+   "field": "dialogue",
+   "text": "lungs are clear to auscultation bilaterally",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdomen is nontender and nondistended",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "masses or any rebound or guarding",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "enlarged prostate",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R39.198",
+   "why": "cause of urinary difficulty"
+  },
+  {
+   "field": "dialogue",
+   "text": "prostate seems a little bit enlarged",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R39.198",
+   "why": "cause of urinary difficulty"
+  },
+  {
+   "field": "dialogue",
+   "text": "psa",
+   "category": "c",
+   "type": "LAB",
+   "code": "R39.198",
+   "why": "urinary workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "prostate cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled-out differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "flomax",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R39.198",
+   "why": "urinary treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizzy",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "urinalysis",
+   "category": "c",
+   "type": "LAB",
+   "code": "R39.198",
+   "why": "urinary workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "urine culture",
+   "category": "c",
+   "type": "LAB",
+   "code": "R39.198",
+   "why": "urinary workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD follow-up"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipitor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD med"
+  },
+  {
+   "field": "dialogue",
+   "text": "aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD med"
+  },
+  {
+   "field": "dialogue",
+   "text": "metoprolol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD med"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "I25.10",
+   "why": "CAD lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "2018",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "year of stent"
+  },
+  {
+   "field": "note",
+   "text": "Moore",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "cardiologist name"
+  },
+  {
+   "field": "note",
+   "text": "college football fan",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "Difficulty urinating",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R39.198",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "difficulty urinating",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R39.198",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "difficulty with urination",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R39.198",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Coronary artery disease",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "right coronary arter stent placement",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD treatment"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "negated CAD symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I25.10",
+   "why": "negated CAD symptom"
+  },
+  {
+   "field": "note",
+   "text": "change in bowel movements",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated bowel symptom"
+  },
+  {
+   "field": "note",
+   "text": "dysuria",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R39.198",
+   "why": "negated urinary symptom"
+  },
+  {
+   "field": "note",
+   "text": "urinary retention",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R39.198",
+   "why": "negated urinary symptom"
+  },
+  {
+   "field": "note",
+   "text": "Clear bilaterally",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated lung exam"
+  },
+  {
+   "field": "note",
+   "text": "Slight 3/6 systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "murmur followed under CAD"
+  },
+  {
+   "field": "note",
+   "text": "3/6 systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "murmur followed under CAD"
+  },
+  {
+   "field": "note",
+   "text": "murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I25.10",
+   "why": "murmur followed under CAD"
+  },
+  {
+   "field": "note",
+   "text": "Nontender and nondistended",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated abdominal exam"
+  },
+  {
+   "field": "note",
+   "text": "No masses, rebound or guarding",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated abdominal exam"
+  },
+  {
+   "field": "note",
+   "text": "Enlarged prostate",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R39.198",
+   "why": "cause of urinary difficulty"
+  },
+  {
+   "field": "note",
+   "text": "prostate also felt slightly enlarged",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R39.198",
+   "why": "cause of urinary difficulty"
+  },
+  {
+   "field": "note",
+   "text": "prostate cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled-out differential"
+  },
+  {
+   "field": "note",
+   "text": "PSA",
+   "category": "c",
+   "type": "LAB",
+   "code": "R39.198",
+   "why": "urinary workup"
+  },
+  {
+   "field": "note",
+   "text": "urologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R39.198",
+   "why": "referral"
+  },
+  {
+   "field": "note",
+   "text": "urinalysis",
+   "category": "c",
+   "type": "LAB",
+   "code": "R39.198",
+   "why": "urinary workup"
+  },
+  {
+   "field": "note",
+   "text": "urine culture",
+   "category": "c",
+   "type": "LAB",
+   "code": "R39.198",
+   "why": "urinary workup"
+  },
+  {
+   "field": "note",
+   "text": "Flomax",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R39.198",
+   "why": "urinary treatment"
+  },
+  {
+   "field": "note",
+   "text": "dizziness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "side effect"
+  },
+  {
+   "field": "note",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I25.10",
+   "why": "CAD follow-up"
+  },
+  {
+   "field": "note",
+   "text": "lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "I25.10",
+   "why": "CAD lab"
+  },
+  {
+   "field": "note",
+   "text": "Lipitor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD med"
+  },
+  {
+   "field": "note",
+   "text": "aspirin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD med"
+  },
+  {
+   "field": "note",
+   "text": "metoprolol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I25.10",
+   "why": "CAD med"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes med"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  }
+ ]
+}

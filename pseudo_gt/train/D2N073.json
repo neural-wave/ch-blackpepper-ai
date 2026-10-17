@@ -1,0 +1,853 @@
+{
+ "encounter_id": "D2N073",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "christina cooper",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "cooper",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "diane nelson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "referring provider"
+  },
+  {
+   "field": "dialogue",
+   "text": "flores",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "hematologist name"
+  },
+  {
+   "field": "dialogue",
+   "text": "07/01/1954",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "december",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "month of event"
+  },
+  {
+   "field": "dialogue",
+   "text": "1996",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "year of surgery"
+  },
+  {
+   "field": "dialogue",
+   "text": "12-2019",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "diagnosis date"
+  },
+  {
+   "field": "dialogue",
+   "text": "01/20/20",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "lab date"
+  },
+  {
+   "field": "dialogue",
+   "text": "13 years old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age at onset"
+  },
+  {
+   "field": "dialogue",
+   "text": "65 year old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "iron deficiency anemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "anemic",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "anemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "donate blood",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D50.9",
+   "why": "how anemia detected"
+  },
+  {
+   "field": "dialogue",
+   "text": "fatigued",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "feverish",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "ca n't catch my breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "wheezing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chilling sensations",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "get cold so easily",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "anxiety",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated psych"
+  },
+  {
+   "field": "dialogue",
+   "text": "depression",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated psych"
+  },
+  {
+   "field": "dialogue",
+   "text": "heavy periods",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "iron loss cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "hysterectomy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D50.9",
+   "why": "relevant to anemia cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "colonoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D50.9",
+   "why": "GI bleed workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "polyps",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D50.9",
+   "why": "GI bleed workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "pacemaker",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "defibrillator",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "sleep apnea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "oxygen at night",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "drink alcohol",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "social history"
+  },
+  {
+   "field": "dialogue",
+   "text": "iron pills",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "D50.9",
+   "why": "anemia treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ferrous sulfate",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "D50.9",
+   "why": "anemia treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "iron",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "D50.9",
+   "why": "anemia treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "vitamin b12",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "D50.9",
+   "why": "anemia supplement"
+  },
+  {
+   "field": "dialogue",
+   "text": "internal bleeding",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "anemia cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "upper endoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D50.9",
+   "why": "GI bleed workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "pill camera",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D50.9",
+   "why": "GI bleed workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "capsule endoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D50.9",
+   "why": "GI bleed workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "hematologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D50.9",
+   "why": "anemia referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "intravenous iron",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "D50.9",
+   "why": "anemia treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "sedation",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "procedural"
+  },
+  {
+   "field": "dialogue",
+   "text": "bowel prep",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D50.9",
+   "why": "colonoscopy prep"
+  },
+  {
+   "field": "dialogue",
+   "text": "orange juice",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "D50.9",
+   "why": "iron absorption"
+  },
+  {
+   "field": "dialogue",
+   "text": "vitamin c",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "D50.9",
+   "why": "iron absorption"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin",
+   "category": "c",
+   "type": "LAB",
+   "code": "D50.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "hematocrit",
+   "category": "c",
+   "type": "LAB",
+   "code": "D50.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "iron labs",
+   "category": "c",
+   "type": "LAB",
+   "code": "D50.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "ferritin",
+   "category": "c",
+   "type": "LAB",
+   "code": "D50.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "cbc",
+   "category": "c",
+   "type": "LAB",
+   "code": "D50.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "b12",
+   "category": "c",
+   "type": "LAB",
+   "code": "D50.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "folate",
+   "category": "c",
+   "type": "LAB",
+   "code": "D50.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "egd",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D50.9",
+   "why": "GI bleed workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "gi bleed",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "anemia cause"
+  },
+  {
+   "field": "note",
+   "text": "Christina Cooper",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "Cooper",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "65-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "13 years old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age at onset"
+  },
+  {
+   "field": "note",
+   "text": "12/2019",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "event date"
+  },
+  {
+   "field": "note",
+   "text": "1996",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "year of surgery"
+  },
+  {
+   "field": "note",
+   "text": "01/2020",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "lab date"
+  },
+  {
+   "field": "note",
+   "text": "Iron deficiency anemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "iron deficiency anemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "anemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "donate blood",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D50.9",
+   "why": "how anemia detected"
+  },
+  {
+   "field": "note",
+   "text": "heavy menstruation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "iron loss cause"
+  },
+  {
+   "field": "note",
+   "text": "hysterectomy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D50.9",
+   "why": "relevant to anemia cause"
+  },
+  {
+   "field": "note",
+   "text": "Hysterectomy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D50.9",
+   "why": "relevant to anemia cause"
+  },
+  {
+   "field": "note",
+   "text": "colonoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D50.9",
+   "why": "GI bleed workup"
+  },
+  {
+   "field": "note",
+   "text": "Colonoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D50.9",
+   "why": "GI bleed workup"
+  },
+  {
+   "field": "note",
+   "text": "pacemaker",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "defibrillator",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "sleep apnea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "using oxygen",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "fatigued",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "note",
+   "text": "feverish",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "note",
+   "text": "cannot catch her breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "note",
+   "text": "wheezing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "note",
+   "text": "tingling sensations",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "note",
+   "text": "cold sensitivity",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "note",
+   "text": "anxiety",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated psych"
+  },
+  {
+   "field": "note",
+   "text": "depression",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated psych"
+  },
+  {
+   "field": "note",
+   "text": "alcohol",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "social history"
+  },
+  {
+   "field": "note",
+   "text": "Ferrous Sulfate",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "D50.9",
+   "why": "anemia treatment"
+  },
+  {
+   "field": "note",
+   "text": "ferrous sulfate",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "D50.9",
+   "why": "anemia treatment"
+  },
+  {
+   "field": "note",
+   "text": "Vitamin B12",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "D50.9",
+   "why": "anemia supplement"
+  },
+  {
+   "field": "note",
+   "text": "vitamin C",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "D50.9",
+   "why": "iron absorption"
+  },
+  {
+   "field": "note",
+   "text": "orange juice",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "D50.9",
+   "why": "iron absorption"
+  },
+  {
+   "field": "note",
+   "text": "Abdomen non-tender",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin",
+   "category": "c",
+   "type": "LAB",
+   "code": "D50.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "note",
+   "text": "hematocrit",
+   "category": "c",
+   "type": "LAB",
+   "code": "D50.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "note",
+   "text": "iron labs",
+   "category": "c",
+   "type": "LAB",
+   "code": "D50.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "note",
+   "text": "ferritin",
+   "category": "c",
+   "type": "LAB",
+   "code": "D50.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "note",
+   "text": "CBC",
+   "category": "c",
+   "type": "LAB",
+   "code": "D50.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "note",
+   "text": "B-12",
+   "category": "c",
+   "type": "LAB",
+   "code": "D50.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "note",
+   "text": "folate",
+   "category": "c",
+   "type": "LAB",
+   "code": "D50.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "note",
+   "text": "hematologist",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D50.9",
+   "why": "anemia referral"
+  },
+  {
+   "field": "note",
+   "text": "EGD",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D50.9",
+   "why": "GI bleed workup"
+  },
+  {
+   "field": "note",
+   "text": "GI bleed",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D50.9",
+   "why": "anemia cause"
+  },
+  {
+   "field": "note",
+   "text": "capsule endoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D50.9",
+   "why": "GI bleed workup"
+  },
+  {
+   "field": "note",
+   "text": "upper endoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D50.9",
+   "why": "GI bleed workup"
+  }
+ ]
+}

@@ -1,0 +1,709 @@
+{
+ "encounter_id": "D2N068",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "brian",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "58 year old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "labor day",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "holiday tied to symptom onset"
+  },
+  {
+   "field": "dialogue",
+   "text": "halloween",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "holiday reference"
+  },
+  {
+   "field": "dialogue",
+   "text": "construction on our kitchen",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "home renovations",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "my wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "fatigued",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "lightheaded",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "swollen legs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom review"
+  },
+  {
+   "field": "dialogue",
+   "text": "bloated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF fluid symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "short of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom review"
+  },
+  {
+   "field": "dialogue",
+   "text": "slight cramps",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "chest discomfort HF"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizziness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "cough",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated respiratory symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cold",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure cuff",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I11.0",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "jugular venous distention",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "HF finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "three out of six systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "cardiac finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "fine crackles at the bases bilaterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "HF finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "1+ pitting edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "HF finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "retaining a little bit of fluid",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "HF finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.21",
+   "why": "HF workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "fluid in your lungs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "HF finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.21",
+   "why": "HF workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "pumping function of your heart is a little bit reduced",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "reduced EF"
+  },
+  {
+   "field": "dialogue",
+   "text": "mitral regurgitation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "echo finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "leaky valve",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "echo finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "lasix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.21",
+   "why": "HF treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I11.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "Brian White",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "58-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Labor Day",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "holiday tied to event"
+  },
+  {
+   "field": "note",
+   "text": "construction on their kitchen",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "specific life event"
+  },
+  {
+   "field": "note",
+   "text": "congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Congestive heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "heart failure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I11.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "fatigue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "lightheadedness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "chest cramps",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "bloated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "bloating",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "swelling in the lower extremities",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom review"
+  },
+  {
+   "field": "note",
+   "text": "weight gain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom review"
+  },
+  {
+   "field": "note",
+   "text": "dizziness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea on exertion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "chest discomfort",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF symptom"
+  },
+  {
+   "field": "note",
+   "text": "salt intake",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF diet"
+  },
+  {
+   "field": "note",
+   "text": "dietary indiscretion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I50.21",
+   "why": "HF exacerbation cause"
+  },
+  {
+   "field": "note",
+   "text": "cough",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "fevers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "weight loss",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Lasix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I50.21",
+   "why": "HF treatment"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I11.0",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "JVD",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "HF finding"
+  },
+  {
+   "field": "note",
+   "text": "Rales bilateral bases",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "HF finding"
+  },
+  {
+   "field": "note",
+   "text": "3/6 systolic ejection murmur",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "cardiac finding"
+  },
+  {
+   "field": "note",
+   "text": "1+ pitting edema bilateral lower extremities",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "HF finding"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the chest",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.21",
+   "why": "HF workup"
+  },
+  {
+   "field": "note",
+   "text": "fluid in the lungs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "HF finding"
+  },
+  {
+   "field": "note",
+   "text": "Echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.21",
+   "why": "HF workup"
+  },
+  {
+   "field": "note",
+   "text": "echocardiogram",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I50.21",
+   "why": "HF workup"
+  },
+  {
+   "field": "note",
+   "text": "decreased ejection fraction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "reduced EF"
+  },
+  {
+   "field": "note",
+   "text": "reduced ejection fraction",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "reduced EF"
+  },
+  {
+   "field": "note",
+   "text": "mitral regurgitation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "echo finding"
+  },
+  {
+   "field": "note",
+   "text": "jugular venous distention",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "HF finding"
+  },
+  {
+   "field": "note",
+   "text": "lung base crackles",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "HF finding"
+  },
+  {
+   "field": "note",
+   "text": "lower extremity edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I50.21",
+   "why": "HF finding"
+  }
+ ]
+}

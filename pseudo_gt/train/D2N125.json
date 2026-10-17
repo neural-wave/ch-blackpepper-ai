@@ -1,0 +1,525 @@
+{
+ "encounter_id": "D2N125",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "miss edwards",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "mister edwards",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "doctor cruz",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "physician name"
+  },
+  {
+   "field": "dialogue",
+   "text": "54 -year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "eustachian descent",
+   "category": "a",
+   "type": "ETHNICITY",
+   "code": null,
+   "why": "ethnicity (East Asian, garbled)"
+  },
+  {
+   "field": "dialogue",
+   "text": "facial pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "stabbing shooting pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "TN pain character"
+  },
+  {
+   "field": "dialogue",
+   "text": "right face",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "TN site"
+  },
+  {
+   "field": "dialogue",
+   "text": "cheek bone area",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "TN site"
+  },
+  {
+   "field": "dialogue",
+   "text": "shooting stabbing kind of a pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "TN pain character"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness or tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "sensory screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "sensory loss",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "sensory screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "weakness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "facial weakness screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "excruciating pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "TN pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "cold",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "TN trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "wind",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "TN trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G50.0",
+   "why": "TN pain treatment tried"
+  },
+  {
+   "field": "dialogue",
+   "text": "motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G50.0",
+   "why": "TN pain treatment tried"
+  },
+  {
+   "field": "dialogue",
+   "text": "tiger balm",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G50.0",
+   "why": "TN pain treatment tried"
+  },
+  {
+   "field": "dialogue",
+   "text": "neurosurgeon",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G50.0",
+   "why": "TN referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "multiple sclerosis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "secondary TN cause screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "brain tumors",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "secondary TN cause screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "stabbing you with an ice pick",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "TN pain character"
+  },
+  {
+   "field": "dialogue",
+   "text": "a little bit numb on my right side",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G50.0",
+   "why": "sensory exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "a little bit dull on my left on my right side",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G50.0",
+   "why": "sensory exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G50.0",
+   "why": "TN imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "small blood vessel that is abutting and perhaps even pinching the trigeminal nerve",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G50.0",
+   "why": "TN cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "trigeminal neuralgia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "nerve compression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "TN cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "shooting electrical pain in the face",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "TN pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "gabapentin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G50.0",
+   "why": "TN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tegretol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G50.0",
+   "why": "TN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery to decompress the nerve",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G50.0",
+   "why": "TN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G50.0",
+   "why": "TN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgical options",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G50.0",
+   "why": "TN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "memory loss tingling imbalance",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "tegretol side effects"
+  },
+  {
+   "field": "dialogue",
+   "text": "skin reaction",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "tegretol side effect"
+  },
+  {
+   "field": "dialogue",
+   "text": "genetic testing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G50.0",
+   "why": "tegretol safety"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "migraines",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "headache treatment"
+  },
+  {
+   "field": "note",
+   "text": "East Asian descent",
+   "category": "a",
+   "type": "ETHNICITY",
+   "code": null,
+   "why": "ethnicity"
+  },
+  {
+   "field": "note",
+   "text": "Right-sided facial pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "right sided facial pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "left sided facial pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "TN screen"
+  },
+  {
+   "field": "note",
+   "text": "vision changes or weakness in right eye",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "TN screen"
+  },
+  {
+   "field": "note",
+   "text": "sensory loss, numbness, or tingling in the right cheek",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "sensory screen"
+  },
+  {
+   "field": "note",
+   "text": "right sided facial weakness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "TN screen"
+  },
+  {
+   "field": "note",
+   "text": "Light touch testing of the right side of the face reveals numbness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G50.0",
+   "why": "sensory exam"
+  },
+  {
+   "field": "note",
+   "text": "Pinprick testing is sharp on the left side of the face; dull on the right side of the face",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G50.0",
+   "why": "sensory exam"
+  },
+  {
+   "field": "note",
+   "text": "finger rub test is negative",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G50.0",
+   "why": "cranial nerve exam"
+  },
+  {
+   "field": "note",
+   "text": "MRI of the head",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G50.0",
+   "why": "TN imaging"
+  },
+  {
+   "field": "note",
+   "text": "small blood vessel that is abutting, and perhaps even pinching, the right trigeminal nerve",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G50.0",
+   "why": "TN cause"
+  },
+  {
+   "field": "note",
+   "text": "Trigeminal neuralgia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "facial pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "small blood vessel abutting, or perhaps even pinching, the right trigeminal nerve",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G50.0",
+   "why": "TN cause"
+  },
+  {
+   "field": "note",
+   "text": "compression of the blood vessel against this nerve",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "TN cause"
+  },
+  {
+   "field": "note",
+   "text": "gabapentin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G50.0",
+   "why": "TN treatment"
+  },
+  {
+   "field": "note",
+   "text": "Tegretol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G50.0",
+   "why": "TN treatment"
+  },
+  {
+   "field": "note",
+   "text": "memory loss, tingling, and imbalance",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "tegretol side effects"
+  },
+  {
+   "field": "note",
+   "text": "genetic testing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G50.0",
+   "why": "tegretol safety"
+  },
+  {
+   "field": "note",
+   "text": "dermatologic reactions",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G50.0",
+   "why": "tegretol side effect"
+  },
+  {
+   "field": "note",
+   "text": "surgical treatment to decompress the nerve",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G50.0",
+   "why": "TN treatment"
+  },
+  {
+   "field": "note",
+   "text": "surgical options",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G50.0",
+   "why": "TN treatment"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  }
+ ]
+}

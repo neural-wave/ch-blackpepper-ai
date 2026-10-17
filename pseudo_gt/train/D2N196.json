@@ -1,0 +1,629 @@
+{
+ "encounter_id": "D2N196",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "mister thompson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "dialogue",
+   "text": "thompson",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "jerry",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "67 -year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "grandson",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relative"
+  },
+  {
+   "field": "dialogue",
+   "text": "little league tournament",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relative's event"
+  },
+  {
+   "field": "dialogue",
+   "text": "softball",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "relative's sport"
+  },
+  {
+   "field": "dialogue",
+   "text": "golfer",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "golfing",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "walk the full course",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "pill box",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "med adherence"
+  },
+  {
+   "field": "dialogue",
+   "text": "pillbox",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "med adherence"
+  },
+  {
+   "field": "dialogue",
+   "text": "essential hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "elevated and fluctuating blood pressures",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "elevated blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "lightheaded",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "BP symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "slight headache",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "BP symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "passed out",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "BP symptom review"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "BP symptom review"
+  },
+  {
+   "field": "dialogue",
+   "text": "heaviness in my chest",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "BP symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness or weakness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "neuro review for BP"
+  },
+  {
+   "field": "dialogue",
+   "text": "balance instability",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "neuro review for BP"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizziness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "BP symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "unsteady",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "BP symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "palpitations",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "cardiac review for BP"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hydrochlorothiazide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "hyperlipidemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.5",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "high cholesterol",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.5",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "atorvastatin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E78.5",
+   "why": "HLD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "osteoarthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M19.90",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M19.90",
+   "why": "OA pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "grade three out of six systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "mild bibasilar rales",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "lung finding not coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "wheezes or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "lung exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "trace lower extremity edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "HTN exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "cholesterol panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.5",
+   "why": "HLD monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "cbc with differential",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.5",
+   "why": "HLD labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "comprehensive metabolic panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.5",
+   "why": "HLD labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "urinalysis",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "kidney check for HTN"
+  },
+  {
+   "field": "dialogue",
+   "text": "dehydrated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "fluid counseling"
+  },
+  {
+   "field": "dialogue",
+   "text": "beer",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "alcohol counseling for BP"
+  },
+  {
+   "field": "note",
+   "text": "essential hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Elevated and fluctuating blood pressures",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Elevated blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hyperlipidemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.5",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hyperlipidemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E78.5",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "osteoarthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M19.90",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Osteoarthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M19.90",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "playing golf",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "golfing",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "hydrochlorothiazide",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "atorvastatin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E78.5",
+   "why": "HLD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M19.90",
+   "why": "OA pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "heaviness in chest",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "BP symptom"
+  },
+  {
+   "field": "note",
+   "text": "heart palpitations",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "cardiac review"
+  },
+  {
+   "field": "note",
+   "text": "syncope",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "BP symptom review"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "BP symptom review"
+  },
+  {
+   "field": "note",
+   "text": "nausea, vomiting, or diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ROS"
+  },
+  {
+   "field": "note",
+   "text": "headache",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "BP symptom"
+  },
+  {
+   "field": "note",
+   "text": "lightheadedness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "BP symptom"
+  },
+  {
+   "field": "note",
+   "text": "Mild bibasilar rales",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "lung finding not coded"
+  },
+  {
+   "field": "note",
+   "text": "wheezes or rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "lung exam"
+  },
+  {
+   "field": "note",
+   "text": "Grade 3 out of 6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "not coded"
+  },
+  {
+   "field": "note",
+   "text": "Trace lower extremity edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "HTN exam"
+  },
+  {
+   "field": "note",
+   "text": "dehydrated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "fluid counseling"
+  },
+  {
+   "field": "note",
+   "text": "alcoholic beverages",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "alcohol counseling"
+  },
+  {
+   "field": "note",
+   "text": "cholesterol panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.5",
+   "why": "HLD monitoring"
+  },
+  {
+   "field": "note",
+   "text": "CBC with differential",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.5",
+   "why": "HLD labs"
+  },
+  {
+   "field": "note",
+   "text": "comprehensive metabolic panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "E78.5",
+   "why": "HLD labs"
+  },
+  {
+   "field": "note",
+   "text": "urinalysis",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "kidney check"
+  },
+  {
+   "field": "note",
+   "text": "kidney function",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "kidney check"
+  }
+ ]
+}

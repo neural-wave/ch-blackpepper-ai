@@ -1,0 +1,973 @@
+{
+ "encounter_id": "D2N182",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "michelle king",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "michelle",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "05/07/1982",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "district regional hospital",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named hospital"
+  },
+  {
+   "field": "dialogue",
+   "text": "06/29/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "admission date"
+  },
+  {
+   "field": "dialogue",
+   "text": "07/02/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "discharge date"
+  },
+  {
+   "field": "dialogue",
+   "text": "39-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "the last two weeks of june",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "time of event"
+  },
+  {
+   "field": "dialogue",
+   "text": "she is somewhat homeopathic",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal belief"
+  },
+  {
+   "field": "dialogue",
+   "text": "constipation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.09",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "significant constipation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.09",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "constipated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.09",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "acute to chronic constipation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.09",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "constipation issues",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.09",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "severe constipation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.09",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "hardly pooped",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.09",
+   "why": "constipation symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "had n't had a regular bowel movement in a while",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.09",
+   "why": "constipation symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "backed up",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.09",
+   "why": "constipation symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "miralax",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K59.09",
+   "why": "constipation treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lactulose",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K59.09",
+   "why": "constipation treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "bowel regimen",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K59.09",
+   "why": "constipation treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "dehydrated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.09",
+   "why": "constipation cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K59.09",
+   "why": "constipation evaluation"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K59.09",
+   "why": "constipation evaluation"
+  },
+  {
+   "field": "dialogue",
+   "text": "vaccine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z28.310",
+   "why": "COVID vaccination status"
+  },
+  {
+   "field": "dialogue",
+   "text": "vaccinated",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z28.310",
+   "why": "COVID vaccination status"
+  },
+  {
+   "field": "dialogue",
+   "text": "unvaccinated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z28.310",
+   "why": "coded status"
+  },
+  {
+   "field": "dialogue",
+   "text": "covid",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z28.310",
+   "why": "COVID vaccine context"
+  },
+  {
+   "field": "dialogue",
+   "text": "covid vaccine status",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z28.310",
+   "why": "coded status"
+  },
+  {
+   "field": "dialogue",
+   "text": "hesitant",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z28.310",
+   "why": "vaccine hesitancy"
+  },
+  {
+   "field": "dialogue",
+   "text": "vaccine injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z28.310",
+   "why": "vaccine hesitancy reason"
+  },
+  {
+   "field": "dialogue",
+   "text": "quadriplegia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "spinal cord injury",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "spasms",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "lightheadedness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "diaphoresis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "febrile",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "white blood cell count",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "white cell count",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "white count",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "white blood cells",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "leukocytosis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "lab abnormality"
+  },
+  {
+   "field": "dialogue",
+   "text": "urinary tract infection",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "suspected infection"
+  },
+  {
+   "field": "dialogue",
+   "text": "uti",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "suspected infection"
+  },
+  {
+   "field": "dialogue",
+   "text": "infection",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "suspected infection"
+  },
+  {
+   "field": "dialogue",
+   "text": "iv antibiotic therapy",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "infection treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "labile blood pressure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure fluctuations",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "headache",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "throw up",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "supra-pubic catheter",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "device"
+  },
+  {
+   "field": "dialogue",
+   "text": "cultures",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "urine cultures",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "automatic dysreflexia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "dysreflexia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "inflammation",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "cat scan",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "imaging (not done)"
+  },
+  {
+   "field": "dialogue",
+   "text": "complete blood work",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "full panel of cholesterol",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "cbc",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "fasting labs",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "vitamin c",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "supplement"
+  },
+  {
+   "field": "dialogue",
+   "text": "multivitamins",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "supplement"
+  },
+  {
+   "field": "dialogue",
+   "text": "supplements",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "supplement"
+  },
+  {
+   "field": "dialogue",
+   "text": "flu shot",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vaccine history"
+  },
+  {
+   "field": "dialogue",
+   "text": "guillain-barre",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "vaccine side effect discussion"
+  },
+  {
+   "field": "dialogue",
+   "text": "monoclonal antibodies",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "covid treatment discussion"
+  },
+  {
+   "field": "note",
+   "text": "Michelle King",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "39-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "District Regional Hospital",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named hospital"
+  },
+  {
+   "field": "note",
+   "text": "06/29/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "admission date"
+  },
+  {
+   "field": "note",
+   "text": "07/02/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "discharge date"
+  },
+  {
+   "field": "note",
+   "text": "She is somewhat homeopathic",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal belief"
+  },
+  {
+   "field": "note",
+   "text": "constipation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.09",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "significant constipation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.09",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "constipated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.09",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Chronic constipation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.09",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Acute to chronic constipation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.09",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "severe constipation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.09",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "did not have a bowel movement",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "K59.09",
+   "why": "constipation symptom"
+  },
+  {
+   "field": "note",
+   "text": "MiraLAX",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K59.09",
+   "why": "constipation treatment"
+  },
+  {
+   "field": "note",
+   "text": "Lactulose",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "K59.09",
+   "why": "constipation treatment"
+  },
+  {
+   "field": "note",
+   "text": "bowel regimen",
+   "category": "c",
+   "type": "QUASI",
+   "code": "K59.09",
+   "why": "constipation treatment"
+  },
+  {
+   "field": "note",
+   "text": "x-rays",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "K59.09",
+   "why": "constipation evaluation"
+  },
+  {
+   "field": "note",
+   "text": "COVID-19 vaccinations",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z28.310",
+   "why": "COVID vaccination status"
+  },
+  {
+   "field": "note",
+   "text": "COVID vaccine status",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z28.310",
+   "why": "coded status"
+  },
+  {
+   "field": "note",
+   "text": "vaccine",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z28.310",
+   "why": "COVID vaccination status"
+  },
+  {
+   "field": "note",
+   "text": "vaccinated",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "Z28.310",
+   "why": "COVID vaccination status"
+  },
+  {
+   "field": "note",
+   "text": "COVID",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z28.310",
+   "why": "COVID vaccine context"
+  },
+  {
+   "field": "note",
+   "text": "hesitant",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "Z28.310",
+   "why": "vaccine hesitancy"
+  },
+  {
+   "field": "note",
+   "text": "quadriplegia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "note",
+   "text": "Quadriplegia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "note",
+   "text": "spinal cord injury",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "note",
+   "text": "Spinal cord injury",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "note",
+   "text": "spasms",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "lightheadedness",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "diaphoresis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "uncontrolled blood pressure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "elevated blood pressure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "labile blood pressure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "blood pressure fluctuations",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded history"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "febrile",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "symptom"
+  },
+  {
+   "field": "note",
+   "text": "white blood cell count",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lab"
+  },
+  {
+   "field": "note",
+   "text": "leukocytosis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "lab abnormality"
+  },
+  {
+   "field": "note",
+   "text": "Cultures",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "lab"
+  },
+  {
+   "field": "note",
+   "text": "urinary tract infection",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "suspected infection"
+  },
+  {
+   "field": "note",
+   "text": "infection",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "suspected infection"
+  },
+  {
+   "field": "note",
+   "text": "suprapubic catheter",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "device"
+  },
+  {
+   "field": "note",
+   "text": "IV antibiotic therapy",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "infection treatment"
+  },
+  {
+   "field": "note",
+   "text": "Automatic dysreflexia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "note",
+   "text": "dysreflexia",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "note",
+   "text": "vitamin C",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "supplement"
+  },
+  {
+   "field": "note",
+   "text": "multivitamin",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "supplement"
+  },
+  {
+   "field": "note",
+   "text": "supplements",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "supplement"
+  },
+  {
+   "field": "note",
+   "text": "flu vaccine",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vaccine history"
+  },
+  {
+   "field": "note",
+   "text": "fasting labs",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "labs"
+  },
+  {
+   "field": "note",
+   "text": "CBC",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "labs"
+  }
+ ]
+}

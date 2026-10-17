@@ -1,0 +1,469 @@
+{
+ "encounter_id": "D2N128",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "carolyn",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "49-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "sitting at the computer , at the desk more , um , in the office",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "office desk job"
+  },
+  {
+   "field": "dialogue",
+   "text": "i'm typing all day versus writing",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "right-handed",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "handedness"
+  },
+  {
+   "field": "dialogue",
+   "text": "osteoarthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M19.021",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "elbows",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M19.021",
+   "why": "site of osteoarthritis"
+  },
+  {
+   "field": "dialogue",
+   "text": "right elbow",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M19.021",
+   "why": "site of coded osteoarthritis"
+  },
+  {
+   "field": "dialogue",
+   "text": "joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M19.021",
+   "why": "osteoarthritis symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbing",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "tingling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "gout",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M10.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "inflammation of your toe",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M10.9",
+   "why": "gout episode"
+  },
+  {
+   "field": "dialogue",
+   "text": "psoriasis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "clobetasol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L40.9",
+   "why": "psoriasis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "steroid cream",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L40.9",
+   "why": "psoriasis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "cervical lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema and inflammation of your right olecranon",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M19.021",
+   "why": "elbow exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M19.021",
+   "why": "elbow effusion"
+  },
+  {
+   "field": "dialogue",
+   "text": "olecranon bursa",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M19.021",
+   "why": "elbow exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with pronation and supination",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M19.021",
+   "why": "elbow exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain with flexion and extension of the right arm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M19.021",
+   "why": "elbow exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "lower extremity edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "autoimmune panel",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "workup for systemic arthritis"
+  },
+  {
+   "field": "dialogue",
+   "text": "autoimmune labs",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "autoimmune profile",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "esr",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "inflammatory marker"
+  },
+  {
+   "field": "dialogue",
+   "text": "uric acid",
+   "category": "c",
+   "type": "LAB",
+   "code": "M10.9",
+   "why": "gout lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "systemic arthritis",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled-out condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "colchicine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M10.9",
+   "why": "gout treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "right elbow x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M19.021",
+   "why": "osteoarthritis imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M19.021",
+   "why": "osteoarthritis treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M19.021",
+   "why": "osteoarthritis treatment"
+  },
+  {
+   "field": "note",
+   "text": "Carolyn Garcia",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "49-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "sitting at the computer more in the office",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "office job"
+  },
+  {
+   "field": "note",
+   "text": "typing all day versus writing",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "job detail"
+  },
+  {
+   "field": "note",
+   "text": "osteoarthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M19.021",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Osteoarthritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M19.021",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "elbows",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M19.021",
+   "why": "site of osteoarthritis"
+  },
+  {
+   "field": "note",
+   "text": "right elbow",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M19.021",
+   "why": "site of osteoarthritis"
+  },
+  {
+   "field": "note",
+   "text": "joint pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M19.021",
+   "why": "osteoarthritis symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness and tingling",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "gout",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M10.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Gout",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M10.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "inflammation of her toe",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M10.9",
+   "why": "gout episode"
+  },
+  {
+   "field": "note",
+   "text": "psoriasis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Psoriasis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "L40.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "colchicine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M10.9",
+   "why": "gout treatment"
+  },
+  {
+   "field": "note",
+   "text": "lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam finding"
+  },
+  {
+   "field": "note",
+   "text": "No edema to the lower extremity",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam finding"
+  },
+  {
+   "field": "note",
+   "text": "edema and inflammation of the right olecranon",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M19.021",
+   "why": "elbow exam"
+  },
+  {
+   "field": "note",
+   "text": "tenderness to palpation of the olecranon bursa",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M19.021",
+   "why": "elbow exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with pronation and supination",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M19.021",
+   "why": "elbow exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with flexion and extension of the right arm",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M19.021",
+   "why": "elbow exam"
+  },
+  {
+   "field": "note",
+   "text": "right elbow x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M19.021",
+   "why": "osteoarthritis imaging"
+  },
+  {
+   "field": "note",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M19.021",
+   "why": "osteoarthritis treatment"
+  },
+  {
+   "field": "note",
+   "text": "steroid cream",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "L40.9",
+   "why": "psoriasis treatment"
+  }
+ ]
+}

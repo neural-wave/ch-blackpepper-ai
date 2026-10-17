@@ -1,0 +1,885 @@
+{
+ "encounter_id": "D2N088",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "andrew",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "59-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "work out in the yard",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "landscaping",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "carrying some heavy bags of soil",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "my wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "barre classes",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "house parties",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social life"
+  },
+  {
+   "field": "dialogue",
+   "text": "end of the summer",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "season tied to event"
+  },
+  {
+   "field": "dialogue",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "type two diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "upper respiratory infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "really tired",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "short of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cold",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI"
+  },
+  {
+   "field": "dialogue",
+   "text": "coughing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "cough",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fevers",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "winded",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "covid vaccines",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vaccination"
+  },
+  {
+   "field": "dialogue",
+   "text": "seasonal allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "muscle aches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "joint pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fatigue",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "my elbows hurt",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated MSK"
+  },
+  {
+   "field": "dialogue",
+   "text": "tension around my knees",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated MSK"
+  },
+  {
+   "field": "dialogue",
+   "text": "sugar levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "diet",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes management"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressures at home",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "cuff",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "scattered ronchi",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J06.9",
+   "why": "respiratory finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema of your lower extremities",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation of your elbows",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J06.9",
+   "why": "URI workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "airspace disease",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J06.9",
+   "why": "URI workup negative"
+  },
+  {
+   "field": "dialogue",
+   "text": "pneumonia",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J06.9",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetic labs",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "viral syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI etiology"
+  },
+  {
+   "field": "dialogue",
+   "text": "covid test",
+   "category": "c",
+   "type": "LAB",
+   "code": "J06.9",
+   "why": "URI workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "covid",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "robitussin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J06.9",
+   "why": "URI treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J06.9",
+   "why": "URI symptomatic treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J06.9",
+   "why": "URI symptomatic treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "psychotherapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "HTN workup"
+  },
+  {
+   "field": "note",
+   "text": "Andrew Campbell",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "59-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "work out in the yard",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "activity"
+  },
+  {
+   "field": "note",
+   "text": "His wife",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "barre classes",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "house parties",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "social life"
+  },
+  {
+   "field": "note",
+   "text": "lifting heavy bags",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "activity"
+  },
+  {
+   "field": "note",
+   "text": "Upper respiratory infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "upper respiratory infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Depression",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "F32.A",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "type 2 diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes type 2",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "really tired",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "note",
+   "text": "short of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "note",
+   "text": "dyspnea on exertion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "note",
+   "text": "coughing up phlegm",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "note",
+   "text": "cough",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI symptom"
+  },
+  {
+   "field": "note",
+   "text": "cold",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI"
+  },
+  {
+   "field": "note",
+   "text": "respiratory symptoms",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI symptoms"
+  },
+  {
+   "field": "note",
+   "text": "elbows hurt",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated MSK"
+  },
+  {
+   "field": "note",
+   "text": "tension around his knees",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated MSK"
+  },
+  {
+   "field": "note",
+   "text": "bilateral elbow and knee pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated MSK"
+  },
+  {
+   "field": "note",
+   "text": "COVID vaccinations",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vaccination"
+  },
+  {
+   "field": "note",
+   "text": "COVID-19 vaccination",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "vaccination"
+  },
+  {
+   "field": "note",
+   "text": "seasonal allergies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "sugar levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "blood glucose levels",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "lisinopril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "diarrhea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Scattered rhonchi",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J06.9",
+   "why": "respiratory finding"
+  },
+  {
+   "field": "note",
+   "text": "murmurs, gallops, or rubs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated cardiac finding"
+  },
+  {
+   "field": "note",
+   "text": "Edema in the bilateral lower extremities",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Pain to palpation of the bilateral elbows",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam finding"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the chest",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J06.9",
+   "why": "URI workup"
+  },
+  {
+   "field": "note",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "J06.9",
+   "why": "URI workup"
+  },
+  {
+   "field": "note",
+   "text": "airspace disease",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J06.9",
+   "why": "URI workup negative"
+  },
+  {
+   "field": "note",
+   "text": "pneumonia",
+   "category": "c",
+   "type": "FINDING",
+   "code": "J06.9",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "viral syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "J06.9",
+   "why": "URI etiology"
+  },
+  {
+   "field": "note",
+   "text": "COVID-19 test",
+   "category": "c",
+   "type": "LAB",
+   "code": "J06.9",
+   "why": "URI workup"
+  },
+  {
+   "field": "note",
+   "text": "Robitussin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J06.9",
+   "why": "URI treatment"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J06.9",
+   "why": "URI symptomatic treatment"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "J06.9",
+   "why": "URI symptomatic treatment"
+  },
+  {
+   "field": "note",
+   "text": "psychotherapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "F32.A",
+   "why": "depression treatment"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "lipid panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "I10",
+   "why": "HTN workup"
+  }
+ ]
+}

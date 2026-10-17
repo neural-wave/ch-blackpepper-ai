@@ -1,0 +1,533 @@
+{
+ "encounter_id": "D2N149",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "dennis",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "nita",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "name used for patient"
+  },
+  {
+   "field": "dialogue",
+   "text": "57 -year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "short of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "coded symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "asthma",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded history"
+  },
+  {
+   "field": "dialogue",
+   "text": "coughing up blood",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "SOB workup symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling in your legs",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "SOB differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "bruising",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "bleeding from your teeth",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "leg swelling or calf swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "clot screen for SOB"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee problem",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "fevers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated ROS"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "dexcom",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "glucose monitor"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes control"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "rails and some rhonchi",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R06.02",
+   "why": "lung exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "wheezing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R06.02",
+   "why": "lung exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "diminished breath sounds",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R06.02",
+   "why": "lung exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "jvd",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R06.02",
+   "why": "SOB exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "neck exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "successolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "chronic murmur unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "one plus nonpitting edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R06.02",
+   "why": "edema exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "calf tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R06.02",
+   "why": "clot screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "homan sign",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R06.02",
+   "why": "clot screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "lung cause of SOB"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R06.02",
+   "why": "SOB workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "cat scan of your chest",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R06.02",
+   "why": "SOB workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood work",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R06.02",
+   "why": "SOB workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood clot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "SOB differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "pneumonia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "SOB differential"
+  },
+  {
+   "field": "note",
+   "text": "Shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "shortness of breath",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "coded symptom"
+  },
+  {
+   "field": "note",
+   "text": "hemoptysis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "SOB associated symptom"
+  },
+  {
+   "field": "note",
+   "text": "coughing up blood",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "SOB associated symptom"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "asthma",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded history"
+  },
+  {
+   "field": "note",
+   "text": "knee pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "Norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated ROS"
+  },
+  {
+   "field": "note",
+   "text": "bleeding gums",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated ROS"
+  },
+  {
+   "field": "note",
+   "text": "lower extremity edema",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "SOB differential"
+  },
+  {
+   "field": "note",
+   "text": "bruising",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated ROS"
+  },
+  {
+   "field": "note",
+   "text": "JVD",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R06.02",
+   "why": "SOB exam"
+  },
+  {
+   "field": "note",
+   "text": "carotid bruits",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "neck exam"
+  },
+  {
+   "field": "note",
+   "text": "rales and rhonchi",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R06.02",
+   "why": "lung exam"
+  },
+  {
+   "field": "note",
+   "text": "wheezing",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R06.02",
+   "why": "lung exam"
+  },
+  {
+   "field": "note",
+   "text": "diminished breath sounds",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R06.02",
+   "why": "lung exam"
+  },
+  {
+   "field": "note",
+   "text": "2/6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "chronic murmur unrelated"
+  },
+  {
+   "field": "note",
+   "text": "1+ nonpitting edema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R06.02",
+   "why": "edema exam"
+  },
+  {
+   "field": "note",
+   "text": "calf tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R06.02",
+   "why": "clot screen"
+  },
+  {
+   "field": "note",
+   "text": "Negative Homan's sign",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R06.02",
+   "why": "clot screen"
+  },
+  {
+   "field": "note",
+   "text": "pneumonia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R06.02",
+   "why": "SOB differential"
+  },
+  {
+   "field": "note",
+   "text": "chest x-ray",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R06.02",
+   "why": "SOB workup"
+  },
+  {
+   "field": "note",
+   "text": "CT scan",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R06.02",
+   "why": "SOB workup"
+  },
+  {
+   "field": "note",
+   "text": "blood work",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R06.02",
+   "why": "SOB workup"
+  },
+  {
+   "field": "note",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes control"
+  },
+  {
+   "field": "note",
+   "text": "A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  }
+ ]
+}

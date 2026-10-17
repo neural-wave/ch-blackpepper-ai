@@ -1,0 +1,749 @@
+{
+ "encounter_id": "D2N020",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "vincent",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "56-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "chopping some onions",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "personal activity"
+  },
+  {
+   "field": "dialogue",
+   "text": "abnormal lab findings",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D64.9",
+   "why": "low hemoglobin"
+  },
+  {
+   "field": "dialogue",
+   "text": "low hemoglobin",
+   "category": "c",
+   "type": "LAB",
+   "code": "D64.9",
+   "why": "anemia evidence"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin",
+   "category": "c",
+   "type": "LAB",
+   "code": "D64.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizziness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "lightheadedness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "lightheaded",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "bleeding",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia cause"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood in your stools",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia cause workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "slight nick from a knife",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "minor injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "weight loss",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "decreased appetite",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "night sweats",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "coughs",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "motion-related"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "nauseous",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "motion-related"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee replacement",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgical history"
+  },
+  {
+   "field": "dialogue",
+   "text": "lung cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "dialogue",
+   "text": "biopsy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "lung biopsy"
+  },
+  {
+   "field": "dialogue",
+   "text": "benign",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "lung biopsy result"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness to the right lower quadrant",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "endoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D64.9",
+   "why": "anemia source workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "endoscope results",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D64.9",
+   "why": "anemia source workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "gastritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "bleeding source of anemia"
+  },
+  {
+   "field": "dialogue",
+   "text": "inflammation of your stomach",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "gastritis explained"
+  },
+  {
+   "field": "dialogue",
+   "text": "polyp",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "incidental polyp"
+  },
+  {
+   "field": "dialogue",
+   "text": "biopsied",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "polyp biopsy"
+  },
+  {
+   "field": "dialogue",
+   "text": "anemia panel",
+   "category": "c",
+   "type": "LAB",
+   "code": "D64.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "anemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "coded anemia"
+  },
+  {
+   "field": "dialogue",
+   "text": "protonix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "D64.9",
+   "why": "treats bleeding gastritis"
+  },
+  {
+   "field": "dialogue",
+   "text": "proton pump inhibitor",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "D64.9",
+   "why": "treats bleeding gastritis"
+  },
+  {
+   "field": "dialogue",
+   "text": "caffeine",
+   "category": "c",
+   "type": "QUASI",
+   "code": "D64.9",
+   "why": "counseling for bleeding gastritis"
+  },
+  {
+   "field": "dialogue",
+   "text": "coffee's",
+   "category": "c",
+   "type": "QUASI",
+   "code": "D64.9",
+   "why": "counseling for bleeding gastritis"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "D64.9",
+   "why": "avoid NSAIDs for bleeding gastritis"
+  },
+  {
+   "field": "dialogue",
+   "text": "alcohol",
+   "category": "c",
+   "type": "QUASI",
+   "code": "D64.9",
+   "why": "counseling for bleeding gastritis"
+  },
+  {
+   "field": "dialogue",
+   "text": "cbc",
+   "category": "c",
+   "type": "LAB",
+   "code": "D64.9",
+   "why": "anemia monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "complete blood count",
+   "category": "c",
+   "type": "LAB",
+   "code": "D64.9",
+   "why": "anemia monitoring"
+  },
+  {
+   "field": "note",
+   "text": "Vincent Young",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "56-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Abnormal labs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D64.9",
+   "why": "low hemoglobin"
+  },
+  {
+   "field": "note",
+   "text": "abnormal labs",
+   "category": "c",
+   "type": "FINDING",
+   "code": "D64.9",
+   "why": "low hemoglobin"
+  },
+  {
+   "field": "note",
+   "text": "low hemoglobin",
+   "category": "c",
+   "type": "LAB",
+   "code": "D64.9",
+   "why": "anemia evidence"
+  },
+  {
+   "field": "note",
+   "text": "Hemoglobin",
+   "category": "c",
+   "type": "LAB",
+   "code": "D64.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin",
+   "category": "c",
+   "type": "LAB",
+   "code": "D64.9",
+   "why": "anemia lab"
+  },
+  {
+   "field": "note",
+   "text": "lightheaded",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "note",
+   "text": "lightheadedness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia symptom"
+  },
+  {
+   "field": "note",
+   "text": "hematochezia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "bleeding source workup"
+  },
+  {
+   "field": "note",
+   "text": "decrease in appetite",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "decreased appetite",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated symptom"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "fevers",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "vomiting",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "weight loss",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "night sweats",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "cough",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "knee arthroplasty",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "unrelated surgical history"
+  },
+  {
+   "field": "note",
+   "text": "biopsy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "lung biopsy"
+  },
+  {
+   "field": "note",
+   "text": "lung cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "note",
+   "text": "nodule",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "lung nodule"
+  },
+  {
+   "field": "note",
+   "text": "benign",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "lung biopsy result"
+  },
+  {
+   "field": "note",
+   "text": "thyromegaly",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "lymphadenopathy",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "wheezes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "rales",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "murmurs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "gallops",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "rubs",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "normal exam"
+  },
+  {
+   "field": "note",
+   "text": "Right lower quadrant tender to palpation",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated exam"
+  },
+  {
+   "field": "note",
+   "text": "lower extremity edema",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam"
+  },
+  {
+   "field": "note",
+   "text": "Endoscopy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "D64.9",
+   "why": "anemia source workup"
+  },
+  {
+   "field": "note",
+   "text": "gastritis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "bleeding source of anemia"
+  },
+  {
+   "field": "note",
+   "text": "source of bleeding",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "anemia cause"
+  },
+  {
+   "field": "note",
+   "text": "polyp",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "incidental polyp"
+  },
+  {
+   "field": "note",
+   "text": "polypectomy",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "polyp removal"
+  },
+  {
+   "field": "note",
+   "text": "biopsy results",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "polyp pathology"
+  },
+  {
+   "field": "note",
+   "text": "pathology",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "polyp pathology"
+  },
+  {
+   "field": "note",
+   "text": "anemia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "D64.9",
+   "why": "coded anemia"
+  },
+  {
+   "field": "note",
+   "text": "caffeine consumption",
+   "category": "c",
+   "type": "QUASI",
+   "code": "D64.9",
+   "why": "counseling for bleeding gastritis"
+  },
+  {
+   "field": "note",
+   "text": "NSAIDs",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "D64.9",
+   "why": "avoid for bleeding gastritis"
+  },
+  {
+   "field": "note",
+   "text": "alcohol",
+   "category": "c",
+   "type": "QUASI",
+   "code": "D64.9",
+   "why": "counseling for bleeding gastritis"
+  },
+  {
+   "field": "note",
+   "text": "CBC",
+   "category": "c",
+   "type": "LAB",
+   "code": "D64.9",
+   "why": "anemia monitoring"
+  },
+  {
+   "field": "note",
+   "text": "Protonix",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "D64.9",
+   "why": "treats bleeding gastritis"
+  }
+ ]
+}

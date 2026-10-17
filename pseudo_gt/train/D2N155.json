@@ -1,0 +1,605 @@
+{
+ "encounter_id": "D2N155",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "christina",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "thursday",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "visit day"
+  },
+  {
+   "field": "dialogue",
+   "text": "the zoo",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "weekend plan location"
+  },
+  {
+   "field": "dialogue",
+   "text": "this zoo",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "weekend plan location"
+  },
+  {
+   "field": "dialogue",
+   "text": "zoo",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "weekend plan location"
+  },
+  {
+   "field": "dialogue",
+   "text": "eating out",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "lifestyle"
+  },
+  {
+   "field": "dialogue",
+   "text": "nonhealing foot ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "type two diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "wound",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ulcer"
+  },
+  {
+   "field": "dialogue",
+   "text": "blister",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ulcer origin"
+  },
+  {
+   "field": "dialogue",
+   "text": "infected",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ulcer infection"
+  },
+  {
+   "field": "dialogue",
+   "text": "antibiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.621",
+   "why": "ulcer infection treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "keflex",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.621",
+   "why": "ulcer infection treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "do n't have much feeling in my foot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "diabetic neuropathy"
+  },
+  {
+   "field": "dialogue",
+   "text": "neuropathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "diabetic complication"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "infection screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "infection screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "drainage",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ulcer symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "tired",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "fatigue"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "diabetes control"
+  },
+  {
+   "field": "dialogue",
+   "text": "a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "diabetes control"
+  },
+  {
+   "field": "dialogue",
+   "text": "insulin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.621",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.621",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "circular wound on the dorsal aspect of the lateral right foot",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "yellow slough",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "minimal granulation tissue",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "erythema or cellulitis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "fluid collection",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "necrosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "dead tissue",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "odor",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "bony exposure",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "x-ray of your right foot",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "osteomyelitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "bone infection",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ruled out"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetic foot ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "ankle brachial index",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "abi",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "debridement",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "colaganase ointment",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.621",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "sterile dressing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgical shoe",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer offloading"
+  },
+  {
+   "field": "note",
+   "text": "Christina Cooper",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "77-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Non-healing right foot ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "non-healing right foot ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "wound",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ulcer"
+  },
+  {
+   "field": "note",
+   "text": "blister",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ulcer origin"
+  },
+  {
+   "field": "note",
+   "text": "Keflex",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.621",
+   "why": "ulcer infection treatment"
+  },
+  {
+   "field": "note",
+   "text": "antibiotics",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.621",
+   "why": "ulcer infection treatment"
+  },
+  {
+   "field": "note",
+   "text": "decreased sensation in her foot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "diabetic neuropathy"
+  },
+  {
+   "field": "note",
+   "text": "drainage",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ulcer symptom"
+  },
+  {
+   "field": "note",
+   "text": "fatigue",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "non-specific"
+  },
+  {
+   "field": "note",
+   "text": "type 2 diabetes with neuropathy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "diabetes control"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1C",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.621",
+   "why": "diabetes control"
+  },
+  {
+   "field": "note",
+   "text": "right foot ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "infection screen"
+  },
+  {
+   "field": "note",
+   "text": "wound on the dorsal aspect of the lateral right foot",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "yellow slough",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "minimal granulation tissue",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "erythema or cellulitis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "fluid collection",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "necrosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "bony exposure",
+   "category": "c",
+   "type": "FINDING",
+   "code": "E11.621",
+   "why": "ulcer exam"
+  },
+  {
+   "field": "note",
+   "text": "X-ray of the right foot",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "note",
+   "text": "osteomyelitis",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "ruled out"
+  },
+  {
+   "field": "note",
+   "text": "Right diabetic foot ulcer",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.621",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "ankle brachial index",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer workup"
+  },
+  {
+   "field": "note",
+   "text": "debridement",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "note",
+   "text": "surgical shoe",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer offloading"
+  },
+  {
+   "field": "note",
+   "text": "collagenase ointment",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.621",
+   "why": "ulcer treatment"
+  },
+  {
+   "field": "note",
+   "text": "sterile dressing",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.621",
+   "why": "ulcer treatment"
+  }
+ ]
+}

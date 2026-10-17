@@ -1,0 +1,565 @@
+{
+ "encounter_id": "D2N187",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "emily",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "my husband",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "dialogue",
+   "text": "mcdonalds",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "named restaurant"
+  },
+  {
+   "field": "dialogue",
+   "text": "arlington",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "city"
+  },
+  {
+   "field": "dialogue",
+   "text": "egg plant parmajon",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "food preference"
+  },
+  {
+   "field": "dialogue",
+   "text": "macular degeneration",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "neurovascular age related macular degeneration",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "neovascular age related macular degeneration",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "wet amd",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "sudden visual distortions",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "AMD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "sudden visual distortion",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "AMD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "blurring of your vision",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "AMD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "blurring of vision",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "AMD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "decrease in vision when reading",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "AMD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "door frames have been looking crooked",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "AMD symptom (metamorphopsia)"
+  },
+  {
+   "field": "dialogue",
+   "text": "trouble adjusting to those dim lights",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "AMD symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "smoking",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "AMD risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "pack of cigarettes a day",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "AMD risk factor"
+  },
+  {
+   "field": "dialogue",
+   "text": "pe changes in the fovea",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "drusen in the macula",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "thickening of the retina",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "subretinal fluid",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "exudates accumulation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemorrhage",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "oct",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "H35.3231",
+   "why": "AMD imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "drusen deposit",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "subretinal fluid accumulation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "choroidal neovascular membrane",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "fluorescein angiography",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "H35.3231",
+   "why": "AMD imaging"
+  },
+  {
+   "field": "dialogue",
+   "text": "focal areas of leakage in the right eye",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD imaging finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "abnormal blood vessels start to grow beneath the retina",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "AMD mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "large blind spot",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "AMD consequence"
+  },
+  {
+   "field": "dialogue",
+   "text": "severe vision loss",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "AMD consequence"
+  },
+  {
+   "field": "dialogue",
+   "text": "lucentes",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "H35.3231",
+   "why": "AMD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "injection",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "H35.3231",
+   "why": "AMD treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "uncoded condition"
+  },
+  {
+   "field": "dialogue",
+   "text": "posterior chamber intraocular lenses",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "pseudophakia"
+  },
+  {
+   "field": "dialogue",
+   "text": "pciol",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "pseudophakia"
+  },
+  {
+   "field": "dialogue",
+   "text": "the cornea is clear",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "mvi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "cup to disc",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "tears or holes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Neovascular age-related macular degeneration",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "neovascular age-related macular degeneration",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Changes in vision",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "AMD symptom"
+  },
+  {
+   "field": "note",
+   "text": "visual distortions",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "AMD symptom"
+  },
+  {
+   "field": "note",
+   "text": "blurred vision",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "AMD symptom"
+  },
+  {
+   "field": "note",
+   "text": "smokes approximately 1 pack of cigarettes per day",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "H35.3231",
+   "why": "AMD risk factor"
+  },
+  {
+   "field": "note",
+   "text": "RPE changes in the fovea",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD exam finding"
+  },
+  {
+   "field": "note",
+   "text": "drusen in the macula",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD exam finding"
+  },
+  {
+   "field": "note",
+   "text": "thickening of the retina",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD exam finding"
+  },
+  {
+   "field": "note",
+   "text": "subretinal fluid and exudates accumulation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD exam finding"
+  },
+  {
+   "field": "note",
+   "text": "subretinal fluid",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Positive for hemorrhage",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD exam finding"
+  },
+  {
+   "field": "note",
+   "text": "hemorrhage",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Optical coherence tomography",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "H35.3231",
+   "why": "AMD imaging"
+  },
+  {
+   "field": "note",
+   "text": "drusen deposit",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "subretinal fluid accumulation",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "choroidal neovascular membrane",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "Fluorescein angiography",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "H35.3231",
+   "why": "AMD imaging"
+  },
+  {
+   "field": "note",
+   "text": "focal areas of leakage in the right eye",
+   "category": "c",
+   "type": "FINDING",
+   "code": "H35.3231",
+   "why": "AMD imaging finding"
+  },
+  {
+   "field": "note",
+   "text": "Lucentis injections",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "H35.3231",
+   "why": "AMD treatment"
+  },
+  {
+   "field": "note",
+   "text": "Lucenti's injections",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "H35.3231",
+   "why": "AMD treatment"
+  },
+  {
+   "field": "note",
+   "text": "posterior chamber intraocular lenses",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "pseudophakia"
+  },
+  {
+   "field": "note",
+   "text": "PCIOL",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "pseudophakia"
+  },
+  {
+   "field": "note",
+   "text": "The cornea is clear",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "MVI",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "cup to disc",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "Cup to disc",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "exam finding"
+  },
+  {
+   "field": "note",
+   "text": "tears or holes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated exam finding"
+  }
+ ]
+}

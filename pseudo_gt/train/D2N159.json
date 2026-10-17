@@ -1,0 +1,357 @@
+{
+ "encounter_id": "D2N159",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "alexis",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "sit at the keyboard all day long",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.01",
+   "why": "repetitive cause of CTS"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness and tingling in my right hand",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.01",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness and tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.01",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "typing on the keyboard",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.01",
+   "why": "CTS trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "mouse",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.01",
+   "why": "CTS trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G56.01",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "motrin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G56.01",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain on flexion and extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G56.01",
+   "why": "wrist exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness in your thumb and your index finger",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.01",
+   "why": "median nerve distribution"
+  },
+  {
+   "field": "dialogue",
+   "text": "less grip strength on the right",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G56.01",
+   "why": "hand exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "positive tinel's sign",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G56.01",
+   "why": "CTS exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "carpal tunnel syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.01",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "wrist splint",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.01",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "splint",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.01",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofens",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.01",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "emg",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.01",
+   "why": "CTS workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "nerve conduction study",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.01",
+   "why": "CTS workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "nerve conduction studies",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.01",
+   "why": "CTS workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "nerve conduction test",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.01",
+   "why": "CTS workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "compressing some of those nerves",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.01",
+   "why": "CTS mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.01",
+   "why": "CTS treatment option"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.01",
+   "why": "CTS treatment option"
+  },
+  {
+   "field": "dialogue",
+   "text": "therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.01",
+   "why": "CTS treatment option"
+  },
+  {
+   "field": "note",
+   "text": "Alexis Gutierrez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "33-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "Right hand pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.01",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "note",
+   "text": "right hand pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.01",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "note",
+   "text": "numbness and tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.01",
+   "why": "CTS symptom"
+  },
+  {
+   "field": "note",
+   "text": "typing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.01",
+   "why": "CTS trigger"
+  },
+  {
+   "field": "note",
+   "text": "mouse",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.01",
+   "why": "CTS trigger"
+  },
+  {
+   "field": "note",
+   "text": "working on a keyboard",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.01",
+   "why": "repetitive cause"
+  },
+  {
+   "field": "note",
+   "text": "works on a keyboard all day",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.01",
+   "why": "repetitive cause"
+  },
+  {
+   "field": "note",
+   "text": "sleep disturbance",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "G56.01",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "note",
+   "text": "Pain with flexion and extension of the wrist",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G56.01",
+   "why": "wrist exam"
+  },
+  {
+   "field": "note",
+   "text": "Decreased grip strength on the right",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G56.01",
+   "why": "hand exam"
+  },
+  {
+   "field": "note",
+   "text": "Positive Tinel's sign",
+   "category": "c",
+   "type": "FINDING",
+   "code": "G56.01",
+   "why": "CTS exam"
+  },
+  {
+   "field": "note",
+   "text": "Right carpal tunnel syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.01",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "carpal tunnel syndrome",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "G56.01",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "nighttime wrist splinting",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.01",
+   "why": "CTS treatment"
+  },
+  {
+   "field": "note",
+   "text": "EMG/Nerve conduction study",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.01",
+   "why": "CTS workup"
+  },
+  {
+   "field": "note",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.01",
+   "why": "CTS treatment option"
+  },
+  {
+   "field": "note",
+   "text": "carpal tunnel release",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "G56.01",
+   "why": "CTS treatment option"
+  }
+ ]
+}

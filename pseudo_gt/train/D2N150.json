@@ -1,0 +1,413 @@
+{
+ "encounter_id": "D2N150",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "scott",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "i typically sit behind a desk",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "desk job"
+  },
+  {
+   "field": "dialogue",
+   "text": "jog often",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "my dog",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "pet"
+  },
+  {
+   "field": "dialogue",
+   "text": "right knee injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "pickup soccer games",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "cause of knee injury"
+  },
+  {
+   "field": "dialogue",
+   "text": "pop in my right knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "dialogue",
+   "text": "swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "swollen",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "anti-inflammatories",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "knee pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "knee pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "marked limp",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "gait finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "significant effusion in the right knee",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "ecchymosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain to palpation at the medial joint line",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "difficulty with some passive range of motion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "positive lachman exam",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "anterior cruciate ligament tear",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "suspected cause of knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "acl tear",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "suspected cause of knee pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "mri",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "surgery",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "possible knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "knee pain treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "ice the knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "knee immobilizer",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "Scott Miller",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient name"
+  },
+  {
+   "field": "note",
+   "text": "36-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "works at a desk",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "desk job"
+  },
+  {
+   "field": "note",
+   "text": "jogging",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "Right knee injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded knee pain"
+  },
+  {
+   "field": "note",
+   "text": "right knee injury",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded knee pain"
+  },
+  {
+   "field": "note",
+   "text": "Right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "right knee pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "pickup soccer games",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "cause of knee injury"
+  },
+  {
+   "field": "note",
+   "text": "pop in his right knee",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "injury mechanism"
+  },
+  {
+   "field": "note",
+   "text": "swelling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "knee symptom"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "knee pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "Marked limp in the right leg",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "gait finding"
+  },
+  {
+   "field": "note",
+   "text": "Significant effusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Slight ecchymosis",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Pain with palpation at the medial joint line",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Difficulty with passive ROM",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Lacking a few degrees of terminal extension",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "Positive Lachman's test",
+   "category": "c",
+   "type": "FINDING",
+   "code": "M25.561",
+   "why": "knee exam"
+  },
+  {
+   "field": "note",
+   "text": "anterior cruciate ligament tear",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "M25.561",
+   "why": "suspected cause"
+  },
+  {
+   "field": "note",
+   "text": "MRI of the right knee",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee workup"
+  },
+  {
+   "field": "note",
+   "text": "MRI",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee workup"
+  },
+  {
+   "field": "note",
+   "text": "meloxicam",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "M25.561",
+   "why": "knee pain treatment"
+  },
+  {
+   "field": "note",
+   "text": "knee immobilizer",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "crutches",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment"
+  },
+  {
+   "field": "note",
+   "text": "activity modification",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "M25.561",
+   "why": "knee treatment"
+  }
+ ]
+}

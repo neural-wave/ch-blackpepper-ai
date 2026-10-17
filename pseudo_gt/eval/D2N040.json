@@ -1,0 +1,573 @@
+{
+ "encounter_id": "D2N040",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "carolyn",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "34 -year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "age"
+  },
+  {
+   "field": "dialogue",
+   "text": "big golfer",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "golfing",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "golf",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "dialogue",
+   "text": "florida",
+   "category": "a",
+   "type": "LOCATION",
+   "code": null,
+   "why": "state of residence"
+  },
+  {
+   "field": "dialogue",
+   "text": "the masters",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "event watched"
+  },
+  {
+   "field": "dialogue",
+   "text": "working a lot on the computer for work",
+   "category": "c",
+   "type": "OCCUPATION",
+   "code": "R51",
+   "why": "cause of tension headache"
+  },
+  {
+   "field": "dialogue",
+   "text": "working at the computer",
+   "category": "c",
+   "type": "OCCUPATION",
+   "code": "R51",
+   "why": "cause of tension headache"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes mellitus type two",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes mellitus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "headache",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "dull pain in the back of my head",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51",
+   "why": "headache symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "flushing in my ears",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51",
+   "why": "headache-associated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "dizzy",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51",
+   "why": "headache-associated symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R51",
+   "why": "headache treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "advil",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R51",
+   "why": "headache treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "stress",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51",
+   "why": "headache trigger"
+  },
+  {
+   "field": "dialogue",
+   "text": "tightness in the back of your neck",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "visual changes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "wavy lines in your vision",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "spots in your vision",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes med"
+  },
+  {
+   "field": "dialogue",
+   "text": "extraocular motions are intact without pain",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R51",
+   "why": "headache workup exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "funduscopic exam",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "R51",
+   "why": "headache workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "no papilledema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R51",
+   "why": "headache workup"
+  },
+  {
+   "field": "dialogue",
+   "text": "posterior paraspinal muscular tenderness in the cervical spine",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R51",
+   "why": "cause of tension headache"
+  },
+  {
+   "field": "dialogue",
+   "text": "bilateral trapezius musculature",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R51",
+   "why": "tension headache finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "grade three out of six systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated heart finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "tension type headache",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "tightness in those muscles",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R51",
+   "why": "tension headache finding"
+  },
+  {
+   "field": "dialogue",
+   "text": "muscle relaxant",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R51",
+   "why": "headache treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "flexeril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R51",
+   "why": "headache treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "stroke",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled-out differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "bleeding in your brain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled-out differential"
+  },
+  {
+   "field": "dialogue",
+   "text": "hemoglobin a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "cbc",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "chem-12",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes labs"
+  },
+  {
+   "field": "dialogue",
+   "text": "trauma",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "hit your head",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "golfing",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "hobby"
+  },
+  {
+   "field": "note",
+   "text": "Headache",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "headaches",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "tension headache",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "diabetes mellitus type 2",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes mellitus",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes med"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "vision changes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "ear flushing",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51",
+   "why": "headache-associated symptom"
+  },
+  {
+   "field": "note",
+   "text": "dizziness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51",
+   "why": "headache-associated symptom"
+  },
+  {
+   "field": "note",
+   "text": "No papilledema",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R51",
+   "why": "headache workup"
+  },
+  {
+   "field": "note",
+   "text": "Grossly Intact without pain",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R51",
+   "why": "headache workup exam"
+  },
+  {
+   "field": "note",
+   "text": "Mild posterior paraspinal muscular tenderness in the cervical spine",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R51",
+   "why": "cause of tension headache"
+  },
+  {
+   "field": "note",
+   "text": "bilateral trapezius musculature",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R51",
+   "why": "tension headache finding"
+  },
+  {
+   "field": "note",
+   "text": "Grade 3 out of 6 systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "unrelated heart finding"
+  },
+  {
+   "field": "note",
+   "text": "tension and tightness in her paraspinal muscles",
+   "category": "c",
+   "type": "FINDING",
+   "code": "R51",
+   "why": "cause of headache"
+  },
+  {
+   "field": "note",
+   "text": "working at the computer",
+   "category": "c",
+   "type": "OCCUPATION",
+   "code": "R51",
+   "why": "cause of headache"
+  },
+  {
+   "field": "note",
+   "text": "stress level",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "R51",
+   "why": "headache trigger"
+  },
+  {
+   "field": "note",
+   "text": "stroke",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled-out differential"
+  },
+  {
+   "field": "note",
+   "text": "brain bleeding",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "ruled-out differential"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R51",
+   "why": "headache treatment"
+  },
+  {
+   "field": "note",
+   "text": "Flexeril",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "R51",
+   "why": "headache treatment"
+  },
+  {
+   "field": "note",
+   "text": "blood sugar",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "CBC",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes labs"
+  },
+  {
+   "field": "note",
+   "text": "CMP",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes labs"
+  }
+ ]
+}

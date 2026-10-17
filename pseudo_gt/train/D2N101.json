@@ -1,0 +1,1069 @@
+{
+ "encounter_id": "D2N101",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "julia jones",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "dialogue",
+   "text": "julia",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "5/16/1996",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "date of birth"
+  },
+  {
+   "field": "dialogue",
+   "text": "gonzalez",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "doctor last name"
+  },
+  {
+   "field": "dialogue",
+   "text": "catherine",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "staff name"
+  },
+  {
+   "field": "dialogue",
+   "text": "blue cross blue shield",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "insurance provider"
+  },
+  {
+   "field": "dialogue",
+   "text": "blue cross",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "insurance provider"
+  },
+  {
+   "field": "dialogue",
+   "text": "my husband just accepted a new job",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family life event"
+  },
+  {
+   "field": "dialogue",
+   "text": "july",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "insurance change date"
+  },
+  {
+   "field": "dialogue",
+   "text": "working at my desk all day",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "work context"
+  },
+  {
+   "field": "dialogue",
+   "text": "studying psychology",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "field of study"
+  },
+  {
+   "field": "dialogue",
+   "text": "going to school",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "student"
+  },
+  {
+   "field": "dialogue",
+   "text": "mom was 40",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "mother's age at cancer"
+  },
+  {
+   "field": "dialogue",
+   "text": "i'm 25",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "25 year old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "dialogue",
+   "text": "wine",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "alcohol habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "breast reduction",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "treatment for macromastia"
+  },
+  {
+   "field": "dialogue",
+   "text": "breast reduction surgeries",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "treatment for macromastia"
+  },
+  {
+   "field": "dialogue",
+   "text": "breast reduction consult",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "macromastia consult"
+  },
+  {
+   "field": "dialogue",
+   "text": "symptomatic macromastia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "dialogue",
+   "text": "extremely large breasts",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "macromastia"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "macromastia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "neck pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "macromastia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chiropractor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "nonsurgical treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "bra strap indentations",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "macromastia sign"
+  },
+  {
+   "field": "dialogue",
+   "text": "indentations",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "macromastia sign"
+  },
+  {
+   "field": "dialogue",
+   "text": "g cup",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "breast size"
+  },
+  {
+   "field": "dialogue",
+   "text": "34 e sports bra",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "breast size"
+  },
+  {
+   "field": "dialogue",
+   "text": "numbness or tingling",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "macromastia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nipple pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "macromastia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "rashes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "intertrigo screen"
+  },
+  {
+   "field": "dialogue",
+   "text": "sweaty",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "macromastia symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "activities are limited",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "functional limitation"
+  },
+  {
+   "field": "dialogue",
+   "text": "physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "nonsurgical treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain medicine",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N62",
+   "why": "nonsurgical treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "one breast is a little lower than the other",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "breast exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "remove the tissue out of the breast",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "surgery description"
+  },
+  {
+   "field": "dialogue",
+   "text": "elevate the nipple position",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "surgery description"
+  },
+  {
+   "field": "dialogue",
+   "text": "incision around the nipple",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "surgery description"
+  },
+  {
+   "field": "dialogue",
+   "text": "anchor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "incision pattern"
+  },
+  {
+   "field": "dialogue",
+   "text": "b cup",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "desired size"
+  },
+  {
+   "field": "dialogue",
+   "text": "small c.",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "expected size"
+  },
+  {
+   "field": "dialogue",
+   "text": "drains",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "postoperative care"
+  },
+  {
+   "field": "dialogue",
+   "text": "scars",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "postoperative outcome"
+  },
+  {
+   "field": "dialogue",
+   "text": "breastfeed",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "surgical risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "nipple sensation",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "surgical risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "bruised",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "postoperative outcome"
+  },
+  {
+   "field": "dialogue",
+   "text": "nauseated",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "postoperative risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "vomiting",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "postoperative risk"
+  },
+  {
+   "field": "dialogue",
+   "text": "bilateral reduction mammoplasty",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "planned procedure"
+  },
+  {
+   "field": "dialogue",
+   "text": "nonsurgical treatments",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "prior treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "schnur scale",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "resection estimate"
+  },
+  {
+   "field": "dialogue",
+   "text": "bsa",
+   "category": "c",
+   "type": "LAB",
+   "code": "N62",
+   "why": "resection estimate"
+  },
+  {
+   "field": "dialogue",
+   "text": "nipple graft",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "surgical option"
+  },
+  {
+   "field": "dialogue",
+   "text": "asymmetrical breasts",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "breast exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "severe ptosis bilaterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "breast exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "nipple retraction or discharge",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "breast exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "breast tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "breast exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "masses",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "breast exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "axillary lymphadenopathy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "breast exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "migraine medication",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "dialogue",
+   "text": "propranolol",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "migraine medication"
+  },
+  {
+   "field": "dialogue",
+   "text": "breast cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "dialogue",
+   "text": "mammograms",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "mammogram",
+   "category": "b",
+   "type": "PROCEDURE",
+   "code": null,
+   "why": "screening"
+  },
+  {
+   "field": "dialogue",
+   "text": "lost about 10 pounds",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "weight change"
+  },
+  {
+   "field": "dialogue",
+   "text": "tobacco",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated substance use"
+  },
+  {
+   "field": "dialogue",
+   "text": "drugs",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated substance use"
+  },
+  {
+   "field": "dialogue",
+   "text": "alcohol",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "substance use"
+  },
+  {
+   "field": "dialogue",
+   "text": "children",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "pregnancy history"
+  },
+  {
+   "field": "dialogue",
+   "text": "pregnancy",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "counseling"
+  },
+  {
+   "field": "note",
+   "text": "Julia Jones",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient full name"
+  },
+  {
+   "field": "note",
+   "text": "Jones",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient last name"
+  },
+  {
+   "field": "note",
+   "text": "25-year-old",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "patient age"
+  },
+  {
+   "field": "note",
+   "text": "age 40",
+   "category": "a",
+   "type": "AGE",
+   "code": null,
+   "why": "mother's age at cancer"
+  },
+  {
+   "field": "note",
+   "text": "Blue Cross Blue Shield",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "insurance provider"
+  },
+  {
+   "field": "note",
+   "text": "her spouse\u2019s insurance plan",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family detail"
+  },
+  {
+   "field": "note",
+   "text": "07/2021",
+   "category": "a",
+   "type": "DATE",
+   "code": null,
+   "why": "insurance change date"
+  },
+  {
+   "field": "note",
+   "text": "Mother with prior history of breast cancer",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "family history detail"
+  },
+  {
+   "field": "note",
+   "text": "Currently studying to be a psychologist",
+   "category": "a",
+   "type": "OCCUPATION",
+   "code": null,
+   "why": "field of study"
+  },
+  {
+   "field": "note",
+   "text": "One glass per week",
+   "category": "a",
+   "type": "QUASI",
+   "code": null,
+   "why": "alcohol habit"
+  },
+  {
+   "field": "note",
+   "text": "Macromastia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "macromastia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "symptomatic macromastia",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "coded diagnosis"
+  },
+  {
+   "field": "note",
+   "text": "breast reduction",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "treatment for macromastia"
+  },
+  {
+   "field": "note",
+   "text": "G cup",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "breast size"
+  },
+  {
+   "field": "note",
+   "text": "34 E sports bra",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "breast size"
+  },
+  {
+   "field": "note",
+   "text": "B or C cup",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "desired size"
+  },
+  {
+   "field": "note",
+   "text": "back and neck pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "macromastia symptom"
+  },
+  {
+   "field": "note",
+   "text": "chiropractor",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "nonsurgical treatment"
+  },
+  {
+   "field": "note",
+   "text": "Chronic upper back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "macromastia symptom"
+  },
+  {
+   "field": "note",
+   "text": "Bra strap grooving in shoulders",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "macromastia sign"
+  },
+  {
+   "field": "note",
+   "text": "indentation on lateral chest wall",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "macromastia sign"
+  },
+  {
+   "field": "note",
+   "text": "Neck pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "macromastia symptom"
+  },
+  {
+   "field": "note",
+   "text": "Nipple pain or numbness",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "macromastia symptom"
+  },
+  {
+   "field": "note",
+   "text": "Paresthesia of the hands or arms",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "macromastia symptom"
+  },
+  {
+   "field": "note",
+   "text": "Intertrigo, rash or yeast or other skin problems beneath breasts",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "macromastia symptom"
+  },
+  {
+   "field": "note",
+   "text": "persistent sweating",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "macromastia symptom"
+  },
+  {
+   "field": "note",
+   "text": "Stooped posture",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "macromastia sign"
+  },
+  {
+   "field": "note",
+   "text": "Physical activity limited by breast size",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "functional limitation"
+  },
+  {
+   "field": "note",
+   "text": "Physical therapy",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "nonsurgical treatment"
+  },
+  {
+   "field": "note",
+   "text": "Special bras",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "nonsurgical treatment"
+  },
+  {
+   "field": "note",
+   "text": "Non-narcotic pain medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N62",
+   "why": "nonsurgical treatment"
+  },
+  {
+   "field": "note",
+   "text": "Narcotic pain medication",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N62",
+   "why": "nonsurgical treatment"
+  },
+  {
+   "field": "note",
+   "text": "Previous reconstruction",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "breast surgical history"
+  },
+  {
+   "field": "note",
+   "text": "BSA",
+   "category": "c",
+   "type": "LAB",
+   "code": "N62",
+   "why": "resection estimate"
+  },
+  {
+   "field": "note",
+   "text": "asymmetrical\u202fbreasts",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "breast exam"
+  },
+  {
+   "field": "note",
+   "text": "severe ptosis bilaterally",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "breast exam"
+  },
+  {
+   "field": "note",
+   "text": "nipple retraction or discharge",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "breast exam"
+  },
+  {
+   "field": "note",
+   "text": "breast tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "breast exam"
+  },
+  {
+   "field": "note",
+   "text": "masses",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "breast exam"
+  },
+  {
+   "field": "note",
+   "text": "axillary lymphadenopathy",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "breast exam"
+  },
+  {
+   "field": "note",
+   "text": "non-surgical treatments",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "prior treatment"
+  },
+  {
+   "field": "note",
+   "text": "bilateral reduction mammoplasty",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "planned procedure"
+  },
+  {
+   "field": "note",
+   "text": "bilateral reduction mammaplasty",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "planned procedure"
+  },
+  {
+   "field": "note",
+   "text": "Schnur scale",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "resection estimate"
+  },
+  {
+   "field": "note",
+   "text": "extremely large breasts",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "macromastia"
+  },
+  {
+   "field": "note",
+   "text": "free nipple graft",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N62",
+   "why": "surgical option"
+  },
+  {
+   "field": "note",
+   "text": "insensate nipple",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "surgical risk"
+  },
+  {
+   "field": "note",
+   "text": "inability to breast feed",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "surgical risk"
+  },
+  {
+   "field": "note",
+   "text": "nipple perfusion",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N62",
+   "why": "intraoperative assessment"
+  },
+  {
+   "field": "note",
+   "text": "breast feeding",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N62",
+   "why": "surgical counseling"
+  },
+  {
+   "field": "note",
+   "text": "weight loss",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "weight change"
+  },
+  {
+   "field": "note",
+   "text": "pregnancies",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "pregnancy history"
+  },
+  {
+   "field": "note",
+   "text": "migraine headaches",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated history"
+  },
+  {
+   "field": "note",
+   "text": "migraine prevention",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "unrelated"
+  },
+  {
+   "field": "note",
+   "text": "Propranolol",
+   "category": "b",
+   "type": "MEDICATION",
+   "code": null,
+   "why": "migraine medication"
+  },
+  {
+   "field": "note",
+   "text": "breast cancer",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "family history"
+  },
+  {
+   "field": "note",
+   "text": "Tobacco",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated substance use"
+  },
+  {
+   "field": "note",
+   "text": "Alcohol",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "substance use"
+  },
+  {
+   "field": "note",
+   "text": "Drug",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated substance use"
+  },
+  {
+   "field": "note",
+   "text": "BMI",
+   "category": "b",
+   "type": "LAB",
+   "code": null,
+   "why": "body habitus"
+  },
+  {
+   "field": "note",
+   "text": "smoking history",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "substance use"
+  }
+ ]
+}

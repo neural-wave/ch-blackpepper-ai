@@ -1,0 +1,661 @@
+{
+ "encounter_id": "D2N049",
+ "spans": [
+  {
+   "field": "dialogue",
+   "text": "linda",
+   "category": "a",
+   "type": "NAME",
+   "code": null,
+   "why": "patient first name"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney stone",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "recurrent kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "pain on my left back",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "groin",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "radiating stone pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "seeing some blood",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "hematuria"
+  },
+  {
+   "field": "dialogue",
+   "text": "nausea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "nauseous",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "chills",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "fever",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "negated stone symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "high blood pressure",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure was a was a little bit high",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "BP reading"
+  },
+  {
+   "field": "dialogue",
+   "text": "norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood pressure cuff",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "salt intake",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "dialogue",
+   "text": "french fries",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I10",
+   "why": "HTN dietary habit"
+  },
+  {
+   "field": "dialogue",
+   "text": "strokes",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "complication mentioned generically"
+  },
+  {
+   "field": "dialogue",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded"
+  },
+  {
+   "field": "dialogue",
+   "text": "a1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "blood sugars",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "dialogue",
+   "text": "glucose test",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "dialogue",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "dialogue",
+   "text": "abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "negated stone symptom"
+  },
+  {
+   "field": "dialogue",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "known murmur"
+  },
+  {
+   "field": "dialogue",
+   "text": "crackles or wheezes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated lung findings"
+  },
+  {
+   "field": "dialogue",
+   "text": "tenderness to palpation of the abdomen",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "rebound or guarding",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "negated stone exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "cva tinnitus",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "CVA tenderness"
+  },
+  {
+   "field": "dialogue",
+   "text": "inflammation around your kidney",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone exam"
+  },
+  {
+   "field": "dialogue",
+   "text": "oxycodone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain"
+  },
+  {
+   "field": "dialogue",
+   "text": "pushing fluids",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "strainer",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone treatment"
+  },
+  {
+   "field": "dialogue",
+   "text": "urology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone referral"
+  },
+  {
+   "field": "dialogue",
+   "text": "dietitian",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes diet"
+  },
+  {
+   "field": "note",
+   "text": "Left-sided back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "left-sided back pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Hypertension",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "I10",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Diabetes",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "E11.9",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "kidney stones",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Kidney stone",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "kidney stone",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "coded"
+  },
+  {
+   "field": "note",
+   "text": "Tylenol",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain"
+  },
+  {
+   "field": "note",
+   "text": "ibuprofen",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain"
+  },
+  {
+   "field": "note",
+   "text": "Norvasc",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "I10",
+   "why": "HTN treatment"
+  },
+  {
+   "field": "note",
+   "text": "metformin",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "E11.9",
+   "why": "diabetes treatment"
+  },
+  {
+   "field": "note",
+   "text": "chills",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "decreased appetite",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "fever",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "chest pain",
+   "category": "b",
+   "type": "CONDITION",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "nausea",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "abdominal pain",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "hematuria",
+   "category": "c",
+   "type": "CONDITION",
+   "code": "N20.0",
+   "why": "stone symptom"
+  },
+  {
+   "field": "note",
+   "text": "Blood pressure is slightly elevated",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "BP reading"
+  },
+  {
+   "field": "note",
+   "text": "blood pressure was slightly elevated",
+   "category": "c",
+   "type": "FINDING",
+   "code": "I10",
+   "why": "BP reading"
+  },
+  {
+   "field": "note",
+   "text": "wheezes",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "rales",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "rhonchi",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "systolic ejection murmur",
+   "category": "b",
+   "type": "FINDING",
+   "code": null,
+   "why": "known murmur"
+  },
+  {
+   "field": "note",
+   "text": "Tenderness to palpation of the abdomen",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone exam"
+  },
+  {
+   "field": "note",
+   "text": "rebound or guarding",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "negated"
+  },
+  {
+   "field": "note",
+   "text": "CVA tenderness",
+   "category": "c",
+   "type": "FINDING",
+   "code": "N20.0",
+   "why": "stone exam"
+  },
+  {
+   "field": "note",
+   "text": "hemoglobin A1c",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes lab"
+  },
+  {
+   "field": "note",
+   "text": "oxycodone",
+   "category": "c",
+   "type": "MEDICATION",
+   "code": "N20.0",
+   "why": "stone pain"
+  },
+  {
+   "field": "note",
+   "text": "pushing fluids",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone treatment"
+  },
+  {
+   "field": "note",
+   "text": "push fluids",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone treatment"
+  },
+  {
+   "field": "note",
+   "text": "urine strainer",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone treatment"
+  },
+  {
+   "field": "note",
+   "text": "urology",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "N20.0",
+   "why": "stone referral"
+  },
+  {
+   "field": "note",
+   "text": "home blood pressure monitoring",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "I10",
+   "why": "HTN monitoring"
+  },
+  {
+   "field": "note",
+   "text": "limiting salt",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "note",
+   "text": "salt intake",
+   "category": "c",
+   "type": "QUASI",
+   "code": "I10",
+   "why": "HTN diet"
+  },
+  {
+   "field": "note",
+   "text": "glucose readings",
+   "category": "c",
+   "type": "LAB",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "home glucose monitoring",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes monitoring"
+  },
+  {
+   "field": "note",
+   "text": "dietitian",
+   "category": "c",
+   "type": "PROCEDURE",
+   "code": "E11.9",
+   "why": "diabetes diet"
+  }
+ ]
+}
