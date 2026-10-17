@@ -160,3 +160,153 @@ Remaining missed a-occurrences: train 380 / 2067, eval 182 / 955. 92 % are never
 - Bare kin words are safe to generalize: train GT kin spans are 129 a vs 6 c.
 - Activity keep gate: 151 kept activities are GT c vs 56 GT a — gate precision ~73 %; not fixable by code group alone.
 - Some GT a spans are debatable (e.g. "wheelchair", "G5P5", "epic", "my nurse", doctor's own hobby).
+
+## 2026-10-17 — Ablation: t_keep × t_remove
+Settings: current defaults (signals 1+2+3+4, keep_symptoms off, personal rules 1–7 on, entity model off).
+Command: `python -m anonymizer.sweep --grid thresholds --split train --out outputs/thresholds_train` (full grid,
+results.json there); eval only for the candidates (t_remove 0.5). Score distribution: continuous SapBERT values
+< ~0.52, then steps 0.6 (same chapter), 0.9 (same block), 0.95 (same category), 1.0 (lexical) — t_keep only matters
+between steps.
+
+### Train (140), t_remove = 0.5
+| t_keep | a_removed | b_removed | privacy | c_kept | b:COND | b:FINDING | c:COND | c:FINDING | c:MED | c:PROC |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 0.55 | 0.814 | 0.448 | 0.624 | 0.851 | 0.59 | 0.24 | 0.87 | 0.82 | 0.67 | 0.96 |
+| 0.60 | 0.814 | 0.468 | 0.635 | 0.842 | 0.61 | 0.25 | 0.86 | 0.80 | 0.66 | 0.95 |
+| **0.72** | 0.816 | 0.542 | 0.674 | 0.804 | 0.71 | 0.31 | 0.81 | 0.72 | 0.65 | 0.94 |
+| 0.90 | 0.816 | 0.547 | 0.676 | 0.796 | 0.71 | 0.33 | 0.80 | 0.69 | 0.65 | 0.94 |
+| 0.93 | 0.817 | 0.558 | 0.683 | 0.785 | 0.73 | 0.33 | 0.78 | 0.68 | 0.65 | 0.93 |
+| 0.97 | 0.817 | 0.558 | 0.683 | 0.770 | 0.73 | 0.33 | 0.76 | 0.65 | 0.65 | 0.93 |
+| 1.00 | 0.817 | 0.558 | 0.683 | 0.768 | 0.73 | 0.33 | 0.76 | 0.65 | 0.65 | 0.93 |
+
+t_remove 0.3 → 0.6 at any t_keep: b_removed +0.004–0.005, c_kept −0.001, a unchanged.
+
+### Eval (67), t_remove = 0.5
+| t_keep | a_removed | b_removed | privacy | c_kept | b:COND | b:FINDING | c:COND | c:FINDING | c:MED | c:PROC |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 0.55 | 0.804 | 0.439 | 0.583 | 0.848 | 0.55 | 0.24 | 0.88 | 0.87 | 0.61 | 0.95 |
+| 0.60 | 0.804 | 0.455 | 0.592 | 0.830 | 0.58 | 0.24 | 0.86 | 0.84 | 0.58 | 0.95 |
+| **0.72** | 0.809 | 0.535 | 0.643 | 0.790 | 0.69 | 0.30 | 0.80 | 0.76 | 0.57 | 0.94 |
+| 0.90 | 0.809 | 0.536 | 0.644 | 0.783 | 0.69 | 0.30 | 0.80 | 0.74 | 0.57 | 0.94 |
+| 0.93 | 0.812 | 0.567 | 0.663 | 0.773 | 0.74 | 0.31 | 0.78 | 0.73 | 0.56 | 0.94 |
+
+### Findings
+- **t_remove is nearly inert** for the metric: generalizing and removing both make the original string disappear.
+  It only decides how informative the replacement is (block label vs "[other condition]") — choose it for
+  readability / downstream coding, not for the score. Keep 0.5.
+- **t_keep is the knob**, and it acts at the score steps:
+  - 0.60 → 0.72 (stop treating "same ICD chapter" as evidence): privacy +0.04/+0.05, c_kept −0.04 (train/eval).
+  - 0.72 → 0.90 (stop trusting "same block"): ≈ 0 privacy, −0.007 c_kept → dominated; 0.72 beats 0.9.
+  - 0.90 → 0.93 (stop trusting "same category"): train +0.006 / −0.011, eval +0.019 / −0.010 → split-dependent.
+  - ≥ 0.97 (lexical only): no privacy gain, −0.015 c_kept → dominated.
+- **a is affected slightly** (train 0.814 → 0.817, eval 0.804 → 0.812 from t_keep 0.55 → 0.93): the relevance
+  guard keeps personal spans (places, activities, pets, occupations) that score ≥ t_keep as code evidence, and the
+  small-talk filter skips units holding a kept clinical span; a lower t_keep keeps more of both.
+- Pareto points: t_keep 0.55, 0.60, 0.72, 0.93. Default 0.72 stays the balanced choice.
+- Lowering t_keep is a cheaper way to buy utility than keeping symptoms: eval t_keep 0.55 + symptoms off
+  (0.583 privacy / 0.848 c_kept) beats t_keep 0.72 + symptoms on (0.512 / 0.839) on both axes.
+
+## 2026-10-17 — Learned evidence (signal 5), entity model, t_keep re-tune
+Diagnosis first (train, defaults): of c occurrences 49 % are never detected (stay → count as kept), 32 % detected
+and kept, **18 % lost because the relevance score is < t_keep** (1509 in the SapBERT range < 0.52, 604 at the
+chapter step), 1.3 % lost to personal rules. Of b, 43 % are never detected, only 2.7 % wrongly kept. → c is limited by
+scoring (clinical links that are not textual similarity: ibuprofen ↔ knee pain, JVD ↔ heart failure), b by detection.
+
+**Signal 5** (`anonymizer/evidence.py`): per term, in how many train encounters the pseudo GT marks it as evidence for
+a code of the same ICD category (→ score 0.92) or chapter (≥ 2 encounters → 0.80), against how often it is b with
+such a code present; unseen terms inherit from the nearest lexicon term (SapBERT ≥ 0.9). Out-of-fold on train
+(same 5 folds as small talk); full train lexicon on eval. Entity-model spans are now cached too.
+
+All runs: keep_symptoms off, personal rules 1–7 on, t_remove = min(0.5, t_keep).
+
+### Signal 5 at t_keep 0.72, no entity model
+| split | signals | a_removed | b_removed | privacy | c_kept | c:MED | c:FINDING |
+|---|---|---|---|---|---|---|---|
+| train | 1–4 | 0.816 | 0.542 | 0.674 | 0.804 | 0.65 | 0.72 |
+| train | 1–5 | 0.815 | 0.508 | 0.656 | 0.862 | 0.82 | 0.80 |
+| train | 1–5, t_keep 0.85 (category level only) | 0.816 | 0.534 | 0.670 | 0.843 | 0.76 | – |
+| eval | 1–4 | 0.809 | 0.535 | 0.643 | 0.790 | 0.57 | 0.76 |
+| eval | 1–5 | 0.807 | 0.498 | 0.620 | 0.856 | 0.80 | 0.83 |
+| eval | 1–5, t_keep 0.85 (category level only) | 0.809 | 0.521 | 0.635 | 0.839 | 0.77 | – |
+
+### t_keep × entity model (signals 1–5)
+| t_keep | train no-ent priv / c | train entity priv / c | eval no-ent priv / c | eval entity priv / c |
+|---|---|---|---|---|
+| 0.30 | 0.366 / 0.980 | 0.337 / 0.971 | | |
+| 0.40 | 0.469 / 0.943 | 0.515 / 0.888 | | |
+| 0.45 | 0.534 / 0.922 | 0.635 / 0.833 | | 0.609 / 0.841 |
+| 0.50 | 0.585 / 0.904 | 0.722 / 0.794 | 0.537 / 0.904 | **0.681 / 0.804** |
+| 0.55 | 0.614 / 0.892 | 0.762 / 0.761 | | |
+| 0.60 | 0.624 / 0.884 | 0.775 / 0.746 | 0.581 / 0.882 | 0.741 / 0.762 |
+| 0.72 | 0.656 / 0.862 | 0.827 / 0.701 | 0.620 / 0.856 | 0.806 / 0.705 |
+| 0.85 | 0.670 / 0.843 | 0.844 / 0.665 | 0.635 / 0.839 | 0.823 / 0.664 |
+Entity model at signals 1–4, t_keep 0.72: train 0.858 / 0.591, eval 0.835 / 0.583 (signal 5 recovers +0.11 c).
+
+### Findings
+- Signal 5 is the biggest utility gain so far: eval c_kept +0.066 (c:MEDICATION 0.57 → 0.80) for −0.023 privacy —
+  better than any t_keep move on the old scorer (t_keep 0.55 gave 0.583 / 0.848). Its category level is nearly free
+  (eval +0.049 c for −0.009 privacy); the chapter level is a ~1:1 trade.
+- The entity model moves the curve into the high-privacy region (privacy 0.68–0.82) that the no-entity pipeline cannot
+  reach (max ≈ 0.67). Below privacy ≈ 0.65 the no-entity pipeline keeps ~0.04 more c at equal privacy.
+- **Entity model + signal 5 + t_keep 0.5 beats the previous best on both axes**: eval 0.681 / 0.804 vs 0.643 / 0.790
+  (train 0.722 / 0.794 vs 0.674 / 0.804).
+- Low t_keep also lowers a_removed (train entity: 0.88 at 0.72 → 0.59 at 0.30; eval entity 0.45: 0.761): more spans
+  count as code evidence, which protects places/activities (relevance guard) and blocks small-talk removal.
+- Remaining c loss with the entity model is procedures and exam findings (c:PROCEDURE 0.65, c:FINDING 0.50–0.56):
+  they rarely resemble a diagnosis description and the evidence lexicon covers few of them.
+
+Operating points (eval privacy / c_kept):
+- utility-leaning: no entity, signals 1–5, t_keep 0.72 → 0.620 / 0.856 (or 0.85 → 0.635 / 0.839)
+- balanced: entity, signals 1–5, t_keep 0.50 → 0.681 / 0.804
+- privacy-leaning: entity, signals 1–5, t_keep 0.60 → 0.741 / 0.762
+
+## 2026-10-17 — Entity gate: which entity kinds need an ICD-similarity check
+Signal 5 in one line: a train-learned table "term → was it code evidence for this ICD category / chapter" (score 0.92 /
+0.80), out-of-fold on train; it captures clinical links that are not text similarity (drug ↔ indication).
+
+Before: entity spans of kind "clinical detail" are left untouched when score < t_keep and nearest-ICD similarity < 0.65;
+marked kinds (test, procedure, exam finding) were always scored and removed below t_keep. Now configurable:
+`Config.entity_sim_gate` = kinds that get the check. Base = balanced pipeline (entity model, signals 1–5,
+t_keep 0.5, keep_symptoms off, rules 1–7).
+
+| split | gate applies to | a_removed | b_removed | privacy | c_kept | c:FINDING | c:PROCEDURE |
+|---|---|---|---|---|---|---|---|
+| train | clinical detail (before) | 0.853 | 0.600 | 0.722 | 0.794 | 0.69 | 0.78 |
+| train | nothing (change 1) | 0.924 | 0.684 | 0.799 | 0.703 | 0.51 | 0.64 |
+| train | all kinds (change 2) | 0.851 | 0.574 | 0.707 | **0.822** | 0.73 | 0.88 |
+| train | marked kinds only (1 + 2) | 0.922 | 0.660 | 0.786 | 0.729 | 0.54 | 0.73 |
+| eval | clinical detail (before) | 0.823 | 0.588 | 0.681 | 0.804 | 0.74 | 0.73 |
+| eval | nothing (change 1) | 0.906 | 0.652 | 0.752 | 0.709 | 0.53 | 0.64 |
+| eval | all kinds (change 2) | 0.822 | 0.552 | 0.658 | **0.833** | 0.78 | 0.84 |
+| eval | marked kinds only (1 + 2) | 0.905 | 0.617 | 0.730 | 0.738 | 0.57 | 0.74 |
+
+Compared against the t_keep curve of the same pipeline (interpolated at equal privacy):
+- Change 2 (gate tests/procedures/exam findings too) moves the curve outward: +0.021 c (train) / +0.017 (eval) at
+  equal privacy; c:PROCEDURE 0.78 → 0.88. Procedures/tests are mostly code evidence in this data, and the ones that
+  look like no ICD concept are now left in place instead of removed.
+- Change 1 (no gate on clinical details) is dominated: −0.02 (train) / −0.04 (eval) c vs simply raising t_keep to the
+  same privacy. It removes many everyday words: a_removed jumps 0.85 → 0.92 (small talk words are entities too), but
+  c:FINDING falls 0.69 → 0.51.
+- Both together is also below the curve.
+→ Keep the gate on clinical details and extend it to all kinds: `entity_sim_gate` = all four kinds.
+
+Follow-up: same "all four kinds" gate but on the **relevance score** instead of nearest-ICD similarity
+(`entity_gate_on = "relevance"`, threshold 0.65). With t_keep 0.5 this reduces to "relevance < 0.5 → untouched",
+so entity spans are either kept or left in place, never removed.
+
+| split | gate | a_removed | b_removed | privacy | c_kept | c:FINDING | c:PROCEDURE |
+|---|---|---|---|---|---|---|---|
+| train | all four kinds, relevance only | 0.788 | 0.378 | 0.575 | 0.908 | 0.89 | 0.97 |
+| eval | all four kinds, relevance only | 0.761 | 0.364 | 0.520 | 0.913 | 0.91 | 0.96 |
+
+- Behaves like the pipeline without the entity model (eval no-entity, t_keep 0.5: privacy 0.537 / c 0.904) but slightly
+  worse on privacy (−0.017) and a_removed (0.80 → 0.76): entity spans kept as evidence now protect nearby places /
+  activities and block small-talk removal, while no entity span is ever removed.
+- Nearest-ICD similarity is what lets the gate separate "medical but unrelated" (remove) from "not diagnosis-like"
+  (leave); with relevance alone the entity model adds detection without any removal.
+
+## Baseline set as defaults (2026-10-17)
+`config.py` now defaults to the leaderboard baseline (entity model, signals 1–5, t_keep 0.5, nearest-ICD gate on all four
+entity kinds, keep_symptoms off, rules 1–7). A plain `python -m anonymizer.cli` run reproduces it exactly: train
+a 0.851 / b 0.574 / privacy 0.707 / c 0.822, eval 0.822 / 0.552 / 0.658 / 0.833. Supersedes "Current best
+configuration" above. Ranking of all runs: [leaderboard.md](leaderboard.md).

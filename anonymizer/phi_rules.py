@@ -48,7 +48,8 @@ LONG_DIGITS = r"(?<![\d.])\d{7,}(?![\d.])"
 ADDRESS = (r"\b\d{1,5}\s+(?:[a-z]+\s){1,3}(?:street|st|avenue|ave|road|rd|drive|lane|ln|boulevard|blvd|way|"
            r"court|ct|place|pl|circle|terrace|highway|hwy)\b\.?")
 
-OCCUPATION_CONTEXT = (r"\b(?:i'm|i am|i was|he's|he is|he was|she's|she is|she was|they're|works? as|worked as|"
+OCCUPATION_CONTEXT = (r"\b(?:i'm|i am|i was|he's|he is|he was|she's|she is|she was|they're|you're|you are|you were|"
+                      r"your job|works? as|worked as|"
                       r"working as|job as|career as|retired|former|used to be|employed as|occupation|profession)"
                       r"\b[\w\s,'-]{0,25}$")
 
@@ -64,7 +65,9 @@ ETHNICITY = (rf"\b(?P<eth>{_ETHNIC})(?=\s+(?:male|female|man|woman|gentleman|lad
 _NAME_TOK = r"[a-z][a-z'\-]+"
 TITLE_NAME = rf"\b(?:mr|mrs|ms|miss|mister|dr)\s*\.?\s+(?P<n1>{_NAME_TOK})(?:\s+(?P<n2>{_NAME_TOK}))?"
 DOCTOR_NAME = rf"\bdoctor\s+(?P<n1>{_NAME_TOK})(?:\s+(?P<n2>{_NAME_TOK}))?"
-GREETING_NAME = rf"\b(?:hi|hey|hello|morning|good morning|good afternoon|good evening|thanks|thank you|bye)\s*,?\s+(?P<n1>{_NAME_TOK})\b"
+# Filler between greeting and name ("hey there mark") is skipped.
+GREETING_NAME = (rf"\b(?:hi|hey|hello|morning|good morning|good afternoon|good evening|thanks|thank you|bye)\s*,?\s+"
+                 rf"(?:(?:there|again|back)\s*,?\s+)?(?P<n1>{_NAME_TOK})\b")
 INTRO_NAME = (rf"\b(?:my name is|my name's|name is|this is|i am seeing|i'm seeing|seeing|patient named|"
               rf"patient is|meet)\s+(?:patient\s+)?(?P<n1>{_NAME_TOK})(?:\s+(?P<n2>{_NAME_TOK}))?")
 
@@ -76,12 +79,12 @@ def _find(pattern: str, text: str, field: str, label: str, source: str, group: s
             yield Span(field, s, e, text[s:e], label, source, extra={"match": m})
 
 
-def _is_name_token(tok: str, original: str, strict: bool) -> bool:
+def _is_name_token(tok: str, original: str, strict: bool, anchored: bool = False) -> bool:
     t = tok.lower()
     if t in NOT_NAMES or len(t) < 2:
         return False
     if t in AMBIGUOUS_NAMES:
-        return original[:1].isupper()
+        return original[:1].isupper() or anchored
     if strict:
         return t in FIRST_NAMES or original[:1].isupper()
     return True
@@ -108,7 +111,10 @@ def detect_names(text: str, field: str) -> list[Span]:
                 # The second token must look like a name on its own (avoid "dr. smith said").
                 if g == "n2" and not (first_ok and _is_name_token(tok, tok, strict=True)):
                     break
-                if not _is_name_token(tok, tok, strict):
+                # A greeting anchors an ambiguous name ("hey there mark") unless a verb follows ("hi, will you").
+                anchored = src == "rule:greeting" and g == "n1" and not re.match(
+                    r"\s+(?:i|you|we|he|she|is|are|be|have|has|do|does|was|need|go|get|see|take)\b", text[m.end(g):], _I)
+                if not _is_name_token(tok, tok, strict, anchored):
                     break
                 first_ok = True
                 s, e = m.span(g)

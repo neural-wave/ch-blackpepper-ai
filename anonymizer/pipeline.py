@@ -6,29 +6,36 @@ import random
 import re
 from collections import defaultdict
 
-from . import medical, phi_ner, phi_rules
+from . import cache, medical, phi_context, phi_ner, phi_rules, smalltalk
 from .config import Config
 from .models import resolve_device
 from .relevance import Embedder, ICDIndex, RelevanceScorer, block_description, category
-from .resources.lexicons import AMBIGUOUS_NAMES, EPONYM_CONTEXT, EPONYMS, NOT_NAMES
+from .resources.lexicons import AMBIGUOUS_NAMES, EPONYM_CONTEXT, EPONYMS, GENERIC_TERMS, NOT_NAMES
 from .spans import (CLINICAL_CODE, CLINICAL_OTHER, DIRECT_IDENTIFIERS, GENERALIZE, KEEP, PERSONAL, PERTURB,
                     PSEUDONYMIZE, REMOVE, Span)
 
 FIELDS = ("dialogue", "note")
 TAGS = {"DATE": "[DATE]", "DOB": "[DATE]", "YEAR": "[YEAR]", "PHONE": "[PHONE]", "EMAIL": "[EMAIL]", "URL": "[URL]",
         "ID": "[ID]", "ADDRESS": "[ADDRESS]", "LOC": "[LOCATION]", "HOSP": "[HOSPITAL]", "ORG": "[ORGANIZATION]",
-        "OTHERPHI": "[REDACTED]"}
+        "OTHERPHI": "[REDACTED]", "SMALLTALK": "[small talk]"}
 # Higher = wins overlaps.
-PRIORITY = {"direct": 4, "code": 3, "personal": 2, "clinical": 1, "measure": 0}
+PRIORITY = {"smalltalk": 5, "direct": 4, "code": 3, "personal": 2, "clinical": 1, "measure": 0}
 # Personal spans that could themselves be code evidence (e.g. Y92 place, Y93 activity) get a relevance guard.
-GUARDED = {"LOC", "HOSP", "ORG", "OTHERPHI", "OCCUPATION"}
+GUARDED = {"LOC", "HOSP", "ORG", "OTHERPHI", "OCCUPATION", "ACTIVITY", "PET", "WORKPLACE"}
+# Detected once in an encounter -> every other mention of the same string is treated the same way.
+PROPAGATED = {"LOC", "HOSP", "ORG", "OCCUPATION", "WORKPLACE"}
+# An activity/pet next to an injury or allergy cue is the mechanism of a coded problem when one of these is coded.
+CAUSE_CODES = {"ACTIVITY": ("S", "T", "M", "W", "X", "V", "Y"),
+               "PET": ("J30", "J45", "L23", "L50", "T78", "W53", "W54", "W55", "A69")}
+GENERALIZED_TAGS = {"FAMILY": "[family member]", "PET": "[pet]", "ACTIVITY": "[activity]", "WORKPLACE": "[workplace]",
+                    "QUASI": "[life event]"}
 
 
 class Anonymizer:
     def __init__(self, cfg: Config | None = None):
         self.cfg = cfg or Config()
         self.device = resolve_device(self.cfg.device)
-        self.embedder = Embedder(self.cfg.sapbert_model, self.device)
+        self.embedder = Embedder(self.cfg.sapbert_model, self.device, persist=self.cfg.cache)
         self.index = ICDIndex(self.embedder)
         self.scorer = RelevanceScorer(self.embedder, self.index, self.cfg.signals)
 
@@ -36,6 +43,7 @@ class Anonymizer:
     def anonymize(self, enc: dict, codes: list[dict] | None = None) -> tuple[dict, dict]:
         """Return (anonymized encounter, decision log). `codes` overrides the encounter's codes (no-code mode)."""
         codes = enc["icd10_codes"] if codes is None else codes
+        self._eid = enc.get("encounter_id")
         rng = random.Random(f"{self.cfg.seed}:{enc.get('encounter_id')}")
         texts = {f: enc[f] for f in FIELDS}
 
@@ -44,7 +52,11 @@ class Anonymizer:
         names = self._name_spans(texts, personal, clinical)
         personal = [s for s in personal if s.label != "NAME"] + names
         self._guard_personal(personal, codes)
-        chosen = self._resolve(clinical + personal)
+        personal += self._propagate(texts, personal)
+        spans = clinical + personal
+        if self.cfg.smalltalk:
+            spans += self._smalltalk_spans(texts["dialogue"], spans, enc.get("encounter_id"))
+        chosen = self._resolve(spans)
 
         out = dict(enc)
         for f in FIELDS:
@@ -67,11 +79,20 @@ class Anonymizer:
     def _clinical_spans(self, texts: dict, codes: list[dict]) -> list[Span]:
         spans = []
         for f, text in texts.items():
-            spans += medical.detect(text, f, self.cfg.scispacy_model)
-        scores = self.scorer.score([s.text for s in spans], codes)
+            typed = cache.spans(medical.detect, text, f, self.cfg.scispacy_model, enabled=self.cfg.cache)
+            spans += typed
+            if self.cfg.entity_model:
+                spans += cache.spans(medical.detect_entities, text, f, self.cfg.entity_model, typed,
+                                     enabled=self.cfg.cache)
+        scores = self.scorer.score([s.text for s in spans], codes, self._eid)
         for s, r in zip(spans, scores):
             s.score, s.matched_code = r["score"], r["code"]
             s.extra["nearest"], s.extra["nearest_sim"] = r["nearest"], r["nearest_sim"]
+            gate_value = r["score"] if self.cfg.entity_gate_on == "relevance" else r["nearest_sim"]
+            if (s.label == "ENTITY" and s.extra["kind"] in self.cfg.entity_sim_gate and r["score"] < self.cfg.t_keep
+                    and gate_value < self.cfg.entity_min_sim):
+                s.extra["drop"] = True
+                continue
             is_symptom = r["nearest"].startswith("R") and r["nearest_sim"] >= 0.6
             if r["score"] >= self.cfg.t_keep:
                 s.category, s.action, s.reason = CLINICAL_CODE, KEEP, f"code evidence for {r['code']}: {r['reason']}"
@@ -86,6 +107,7 @@ class Anonymizer:
                 s.category, s.action = CLINICAL_OTHER, REMOVE
                 s.reason = f"unrelated to encounter codes (score {r['score']:.2f}); removed"
             s.extra["prio"] = PRIORITY["code"] if s.category == CLINICAL_CODE else PRIORITY["clinical"]
+        spans = [s for s in spans if not s.extra.get("drop")]
         for f, text in texts.items():
             for s in medical.detect_measurements(text, f):
                 s.category, s.action, s.reason = CLINICAL_CODE, PERTURB, "measurement value slightly perturbed"
@@ -98,8 +120,9 @@ class Anonymizer:
         spans = []
         for f, text in texts.items():
             spans += phi_rules.detect(text, f)
+            spans += phi_context.detect(text, f)
             if self.cfg.use_deid_ner:
-                spans += phi_ner.detect(text, f, self.cfg.deid_model, self.device)
+                spans += cache.spans(phi_ner.detect, text, f, self.cfg.deid_model, self.device, enabled=self.cfg.cache)
         for s in spans:
             s.category = PERSONAL
             direct = s.label in DIRECT_IDENTIFIERS
@@ -108,17 +131,66 @@ class Anonymizer:
                 s.action, s.reason = GENERALIZE, "age generalized to a 10-year band"
             elif s.label == "OCCUPATION":
                 s.action, s.reason = GENERALIZE, "occupation is a quasi-identifier; generalized to sector"
+            elif s.label in GENERALIZED_TAGS:
+                s.action, s.reason = GENERALIZE, f"{s.label.lower()} is a quasi-identifier ({s.source}); generalized"
             else:
                 s.action, s.reason = REMOVE, f"{s.label.lower()} is personal data ({s.source})"
         return spans
 
     def _guard_personal(self, spans: list[Span], codes: list[dict]):
-        guarded = [s for s in spans if s.label in GUARDED]
-        for s, r in zip(guarded, self.scorer.score([s.text for s in guarded], codes)):
+        # A cue at any mention marks the activity as the mechanism for the whole encounter (the cue is often
+        # several turns away from later mentions).
+        cued = {_stem(s.text) for s in spans if s.extra.get("cause_cue")}
+        for s in spans:
+            prefixes = CAUSE_CODES.get(s.label)
+            if prefixes and _stem(s.text) in cued:
+                code = next((c["code"] for c in codes if c["code"].startswith(prefixes)), None)
+                if code:
+                    s.category, s.action, s.matched_code = CLINICAL_CODE, KEEP, code
+                    s.reason = f"{s.label.lower()} next to an injury/exposure cue: mechanism for {code}; kept"
+                    s.extra["prio"] = PRIORITY["code"]
+        guarded = [s for s in spans if s.label in GUARDED and s.action != KEEP]
+        for s, r in zip(guarded, self.scorer.score([s.text for s in guarded], codes, self._eid)):
             if r["score"] >= self.cfg.t_keep:
                 s.category, s.action, s.score, s.matched_code = CLINICAL_CODE, KEEP, r["score"], r["code"]
                 s.reason = f"{s.label.lower()} kept: evidence for {r['code']} ({r['reason']})"
                 s.extra["prio"] = PRIORITY["code"]
+
+    def _smalltalk_spans(self, text: str, spans: list[Span], encounter_id: str | None) -> list[Span]:
+        """Whole dialogue units classified as small talk, unless they hold anything kept for the codes."""
+        out = []
+        for s, e, p in smalltalk.predict(text, encounter_id):
+            if p < self.cfg.smalltalk_threshold:
+                continue
+            inside = [x for x in spans if x.field == "dialogue" and x.start < e and s < x.end]
+            if any(x.category == CLINICAL_CODE or x.start < s or x.end > e for x in inside):
+                continue
+            sp = Span("dialogue", s, e, text[s:e], "SMALLTALK", "smalltalk", category=PERSONAL, action=REMOVE,
+                      reason=f"small talk (p={p:.2f}): personal context without clinical content; removed")
+            sp.extra["prio"] = PRIORITY["smalltalk"]
+            out.append(sp)
+        return out
+
+    @staticmethod
+    def _propagate(texts: dict, spans: list[Span]) -> list[Span]:
+        """Mentions the detectors missed ("you're a teacher" after "i work as a teacher") follow the first one."""
+        seen = {}
+        for s in spans:
+            t = s.text.lower().strip()
+            if (s.label in PROPAGATED and s.action != KEEP and len(t) >= 3 and t not in GENERIC_TERMS
+                    and t not in NOT_NAMES):
+                seen.setdefault(t, s)
+        out = []
+        for t, src in seen.items():
+            for f, text in texts.items():
+                for m in re.finditer(rf"(?<!\w){re.escape(t)}s?(?!\w)", text, re.IGNORECASE):
+                    if any(o.field == f and o.start <= m.start() < o.end for o in spans + out):
+                        continue
+                    sp = Span(f, m.start(), m.end(), m.group(0), src.label, "propagated", category=src.category,
+                              action=src.action, reason=f"same string as a detected {src.label.lower()}",
+                              extra={k: v for k, v in src.extra.items() if k != "match"})
+                    out.append(sp)
+        return out
 
     # ---------------------------------------- names: registry, eponyms, propagation
     def _is_eponym_use(self, text: str, s: Span, clinical: list[Span]) -> bool:
@@ -169,8 +241,8 @@ class Anonymizer:
                               "registry", category=PERSONAL, action=PSEUDONYMIZE, replacement=tag,
                               reason=f"name of a person, consistently pseudonymized as {tag}")
                     sp.extra["prio"] = PRIORITY["direct"]
-                    if tok in AMBIGUOUS_NAMES and not m.group(0)[:1].isupper() and not any(
-                            s.overlaps(sp) for s in seeds):
+                    if (tok in AMBIGUOUS_NAMES and not m.group(0)[:1].isupper()
+                            and not any(s.overlaps(sp) for s in seeds) and _common_word_use(tok, text, m)):
                         continue
                     if self._is_eponym_use(text, sp, clinical):
                         continue
@@ -207,7 +279,9 @@ class Anonymizer:
                 return s.text[:a] + band + s.text[b:]
             return band
         if s.label == "OCCUPATION":
-            return f"[{s.extra['sector']} worker]"
+            return f"[{s.extra['sector']} worker]" if "sector" in s.extra else "[occupation]"
+        if s.label in GENERALIZED_TAGS:
+            return GENERALIZED_TAGS[s.label]
         if s.label == "ETHNICITY":
             return "[ETHNICITY]"
         if s.label in ("DISEASE", "CHEMICAL"):
@@ -218,6 +292,8 @@ class Anonymizer:
                 block = block_description(s.extra["nearest"]) if reliable else None
                 return f"[{block.lower()}]" if block else f"[{kind}]"
             return f"[other {kind}]"
+        if s.label == "ENTITY":
+            return f"[{s.extra['kind']}]"
         if s.action == PERTURB:
             return _perturb(s.text, self.cfg.perturb_pct, rng)
         return TAGS.get(s.label, "[REDACTED]")
@@ -243,6 +319,25 @@ class Anonymizer:
                 leaks += n
             out[f] = text
         return out, leaks
+
+
+def _stem(text: str) -> str:
+    """'hiking' / 'hikes' / 'hiked' -> 'hik': mentions of one activity share a key."""
+    return re.sub(r"(?:ing|ed|es|s)$", "", text.lower().strip())
+
+
+# Ambiguous names whose ordinary sense dominates ("may", "will"): never propagated in lowercase.
+_COMMON_SENSE_NAMES = {"may", "will", "june", "april", "august", "art", "sky", "stone", "win", "rich", "max", "miles",
+                       "joy", "hope", "faith", "grace", "summer", "dawn", "pat", "ray", "bill", "chase", "drew",
+                       "sunny", "autumn"}
+
+
+def _common_word_use(tok: str, text: str, m: re.Match) -> bool:
+    """True when a lowercase ambiguous name is likely the ordinary word ("a mark on", "to be frank")."""
+    if tok in _COMMON_SENSE_NAMES:
+        return True
+    before = re.findall(r"[a-z']+", text[max(0, m.start() - 20):m.start()].lower())[-1:]
+    return bool(before) and before[0] in {"a", "the", "this", "that", "be", "any", "no", "birth", "check", "question"}
 
 
 def _perturb(value: str, pct: float, rng: random.Random) -> str:

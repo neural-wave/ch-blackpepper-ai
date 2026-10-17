@@ -7,6 +7,9 @@ Implements [strategy.md](strategy.md). Package: `anonymizer/`. Entry points: `an
    ▼
  [1] KEEP MASK              medical.py, relevance.py
      scispaCy BC5CDR → DISEASE / CHEMICAL spans
+     scispaCy en_core_sci_md → untyped ENTITY spans where BC5CDR found nothing (procedures, labs, exam findings);
+       generic words dropped (lexicon), kind from head word (test / procedure / exam finding / clinical detail),
+       "clinical detail" acted on only if nearest ICD similarity ≥ entity_min_sim
      relevance per span vs code concept set:
        lexical hit (description, ICD ancestors, inclusion terms, curated expansions) → 1.0
        SapBERT cosine to concept set
@@ -14,22 +17,32 @@ Implements [strategy.md](strategy.md). Package: `anonymizer/`. Entry points: `an
      ≥ t_keep → c keep | ICD chapter R symptom → keep | ≥ t_remove → generalize | else remove
      measurements (%, mmHg, bpm, kg, …, BP) → perturb ±3 %
    ▼
- [2] PERSONAL DATA          phi_rules.py, phi_ner.py
+ [2] PERSONAL DATA          phi_rules.py, phi_context.py, phi_ner.py, smalltalk.py
      rules: dates, DOB, years, ages, phone, email, URL, IDs, addresses, occupations (in self-context),
             ethnicity (as person attribute), title / greeting / intro-anchored names
+     quasi-identifiers: holidays / named events, family members, pets, stores / brands / teams, workplaces,
+            schooling, job changes, life events (trips, weddings), hobbies / activities (lexicon + hobby frames)
+     small talk: TF-IDF + logistic regression over dialogue units, trained on the train pseudo GT
+            (out-of-fold model for train encounters); units ≥ smalltalk_threshold with no code evidence → removed
      NER:   obi/deid_roberta_i2b2 (PATIENT, STAFF, AGE, DATE, LOC, HOSP, …), sliding window, word-snapped
    ▼
  [3] NAMES + CONFLICTS      pipeline.py
      name registry per encounter: NER on the cased note seeds roles → tokens propagated to dialogue
      eponym check (Parkinson's disease, Neer's test, Clark level …) → not a name
-     relevance guard on LOC/HOSP/ORG/OCCUPATION (Y92 place, Y93 activity codes) → keep if code evidence
+     relevance guard on LOC/HOSP/ORG/OCCUPATION/ACTIVITY/PET (Y92 place, Y93 activity codes) → keep if code evidence
+     injury-cause gate: activity/pet with an injury or exposure cue at any of its mentions + an S/T/M/W/X/V/Y
+       (pets: allergy/bite) code → kept at every mention as mechanism (c)
+     propagation: a detected occupation / place / org / workplace → all its other mentions
      greedy overlap resolution by priority: direct identifier > code evidence > personal > other clinical > measurement
    ▼
  [4] TRANSFORM
      names → consistent pseudonyms [PATIENT], [CLINICIAN_n], [PERSON_n]
      dates → [DATE], years → [YEAR], age → decade ("50s"), occupation → "[sector worker]", ethnicity → [ETHNICITY]
+     family → [family member], pet → [pet], activity → [activity], workplace → [workplace],
+     life event → [life event], brand/team → [ORGANIZATION], small-talk unit → [small talk]
      b-soft → ICD block label (e.g. "[influenza and pneumonia]") or [condition]/[medication]
      b-hard → [other condition] / [other medication]
+     ENTITY (b) → [test] / [procedure] / [exam finding] / [clinical detail]
    ▼
  [5] VERIFY
      sweep: any registered name token left → replaced
@@ -42,6 +55,7 @@ Implements [strategy.md](strategy.md). Package: `anonymizer/`. Entry points: `an
 | Model | Role | Size | Device |
 |---|---|---|---|
 | `en_ner_bc5cdr_md` (scispaCy) | medical NER | ~120 MB | CPU |
+| `en_core_sci_md` (scispaCy) | untyped biomedical NER | ~120 MB | CPU |
 | `cambridgeltl/SapBERT-from-PubMedBERT-fulltext` | relevance embeddings + ICD index | 110M params, ~0.45 GB | GPU/MPS/CPU |
 | `obi/deid_roberta_i2b2` | clinical de-id NER | 355M params, ~0.7 GB fp16 | GPU/MPS/CPU |
 

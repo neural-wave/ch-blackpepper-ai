@@ -17,6 +17,7 @@ import numpy as np
 import simple_icd_10_cm as cm
 import torch
 
+from .cache import EmbeddingStore
 from .config import CACHE_DIR
 from .models import load_hf
 
@@ -24,13 +25,18 @@ EXPANSIONS = json.loads((Path(__file__).parent / "resources" / "code_expansions.
 
 
 class Embedder:
-    def __init__(self, model_name: str, device: str):
+    def __init__(self, model_name: str, device: str, persist: bool = False):
         self.tok, self.model = load_hf(model_name, "base", device)
         self.model_name = model_name
         self._cache: dict[str, np.ndarray] = {}
+        self._store = EmbeddingStore(model_name) if persist else None
 
     def __call__(self, texts: list[str], batch_size: int = 256) -> np.ndarray:
         missing = [t for t in dict.fromkeys(texts) if t not in self._cache]
+        if self._store and missing:
+            self._cache.update(self._store.get_many(missing))
+            missing = [t for t in missing if t not in self._cache]
+        fresh = {}
         for i in range(0, len(missing), batch_size):
             batch = missing[i:i + batch_size]
             enc = self.tok(batch, padding=True, truncation=True, max_length=32, return_tensors="pt").to(self.model.device)
@@ -38,6 +44,9 @@ class Embedder:
                 cls = self.model(**enc).last_hidden_state[:, 0].float()  # SapBERT uses [CLS]
             cls = torch.nn.functional.normalize(cls, dim=-1).cpu().numpy()
             self._cache.update(zip(batch, cls))
+            fresh.update(zip(batch, cls))
+        if self._store:
+            self._store.put_many(fresh)
         dim = self.model.config.hidden_size
         return np.stack([self._cache[t] for t in texts]) if texts else np.zeros((0, dim), dtype=np.float32)
 
@@ -123,7 +132,8 @@ def concept_terms(code: str, description: str) -> tuple[str, ...]:
 
 class RelevanceScorer:
     def __init__(self, embedder: Embedder, index: ICDIndex, signals: tuple[int, ...] = (1, 2, 3, 4)):
-        """signals: 1 = SapBERT similarity, 2 = lexical match, 3 = same ICD category, 4 = same block/chapter."""
+        """signals: 1 = SapBERT similarity, 2 = lexical match, 3 = same ICD category, 4 = same block/chapter,
+        5 = learned evidence from the train pseudo GT (evidence.py)."""
         self.embed = embedder
         self.index = index
         self.signals = set(signals)
@@ -131,10 +141,15 @@ class RelevanceScorer:
     def code_concepts(self, codes: list[dict]) -> list[tuple[str, str]]:
         return [(c["code"], t) for c in codes for t in concept_terms(c["code"], c["description"])]
 
-    def score(self, texts: list[str], codes: list[dict]) -> list[dict]:
-        """For each text: relevance score, best code, reason, nearest ICD code (any)."""
+    def score(self, texts: list[str], codes: list[dict], encounter_id: str | None = None) -> list[dict]:
+        """For each text: relevance score, best code, reason, nearest ICD code (any).
+        encounter_id selects the out-of-fold evidence lexicon for train encounters (signal 5)."""
         if not texts:
             return []
+        learned = [(0.0, None, "")] * len(texts)
+        if 5 in self.signals and codes:
+            from . import evidence
+            learned = evidence.score(texts, [c["code"] for c in codes], self.embed, encounter_id)
         concepts = self.code_concepts(codes)
         span_vecs = self.embed([t.lower() for t in texts])
         nearest = self.index.nearest(span_vecs, k=1)
@@ -171,5 +186,8 @@ class RelevanceScorer:
                 elif near_chapter in code_chapters and best["score"] < 0.6:
                     best.update(score=0.6, code=code_chapters[near_chapter],
                                 reason=f"nearest ICD code {near_code} is in the same organ-system chapter")
+            ev_score, ev_code, ev_reason = learned[i]
+            if ev_score > best["score"]:
+                best.update(score=ev_score, code=ev_code, reason=f"learned: {ev_reason}")
             results.append(best)
         return results
