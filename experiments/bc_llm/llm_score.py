@@ -103,7 +103,12 @@ def score(tok, model, prompts: list[str], batch: int, device: str) -> tuple[np.n
         idx = order[i:i + batch]
         enc = tok([prompts[j] for j in idx], return_tensors="pt", padding=True, add_special_tokens=False).to(device)
         n_tok += int(enc["attention_mask"].sum())
-        logp = torch.log_softmax(model(**enc).logits[:, -1, :].float(), dim=-1)
+        # logits_to_keep=1: only the last position; full logits (batch x tokens x ~250k vocab) dominated peak VRAM.
+        try:
+            logits = model(**enc, logits_to_keep=1).logits[:, -1, :]
+        except TypeError:
+            logits = model(**enc).logits[:, -1, :]
+        logp = torch.log_softmax(logits.float(), dim=-1)
         y = torch.logsumexp(logp[:, yes], dim=-1)
         n = torch.logsumexp(logp[:, no], dim=-1)
         p_yes[idx] = torch.sigmoid(y - n).cpu().numpy()
@@ -127,6 +132,8 @@ def main(argv=None):
     p.add_argument("--attn", default=None, help="attn_implementation, e.g. sdpa / flash_attention_2")
     p.add_argument("--device", default="auto")
     p.add_argument("--limit", type=int, default=None, help="first N spans per split (smoke test)")
+    p.add_argument("--vram-cap-gb", type=float, default=None,
+                   help="hard CUDA memory cap (e.g. 4): the run fails with OOM if the model needs more")
     a = p.parse_args(argv)
     a.quant = None if a.quant == "none" else a.quant
     model_id = LLM_PRESETS.get(a.model, a.model)
@@ -135,6 +142,9 @@ def main(argv=None):
         tag += {"4bit": "_q4", "8bit": "_q8"}[a.quant]
     device = a.device if a.device != "auto" else (
         "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
+    if a.vram_cap_gb and device.startswith("cuda"):
+        total = torch.cuda.get_device_properties(0).total_memory / 1e9
+        torch.cuda.set_per_process_memory_fraction(min(1.0, a.vram_cap_gb / total))
     tok, model = load_model(model_id, device, a.dtype, a.quant, a.attn)
     for split in a.splits.split(","):
         rows = load_json(OUT / f"features_{split}.json")[:a.limit]
