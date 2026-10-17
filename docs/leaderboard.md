@@ -18,8 +18,9 @@ Config: study G config + `decider=True`, `decider_theta=0.8`, `llm_model="Qwen/Q
 stage 3.47 GB (batch 1, hard 4 GB cap, RTX 4090); it runs alone after SapBERT / de-id are released.
 
 Notes:
-- Numbers from `experiments/bc_llm` (E4, RTX 4090; train out-of-fold). The integrated `anonymizer.cli` run is to be
-  confirmed on the GPU box (it reuses the same features, prompt and classifier).
+- Numbers from `experiments/bc_llm` (E4, RTX 4090; train out-of-fold). End-to-end `anonymizer.cli --vram-cap-gb 4`
+  on eval reproduces them (a 0.887 / b 0.732 / privacy 0.793 / c 0.884 / score 0.838), peak VRAM 3.34 GB,
+  7.9 s/encounter at `llm_batch=1` (RTX 4090). Train end-to-end pending.
 - Previous baseline (study G, `--no-decider`): train 0.774 / eval 0.754 → +0.072 / +0.084.
 - E5 (same without SapBERT features) ties: 0.844 / 0.840; E6 cascade (LLM on 18 % of spans) 0.838 / 0.824.
 
