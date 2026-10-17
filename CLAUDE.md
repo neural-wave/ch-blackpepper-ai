@@ -21,6 +21,9 @@ utility. Must run on-prem, ≤4 GB VRAM at eval. Strategy in `docs/strategy.md`,
   - `evaluate_gt.py` — scores output against pseudo ground truth (a_removed, b_removed, privacy, c_kept)
   - `sweep.py` — ablation grids (`--grid signals|thresholds|a_ideas`), writes `<out>/results.json`
   - `resources/lexicons.py` (names, eponyms, occupations, generic-term stoplist), `resources/code_expansions.json` (ICD category → terms)
+- `experiments/bc_llm/` — b/c decider study (run on a GPU box): `features.py` (spans + features + GT labels,
+  `DeciderAnonymizer` = pipeline with external keep/remove), `llm_score.py` (LLM P(Yes) per span, `--model` preset
+  or HF id), `run.py` (E0–E6 with real metrics, `--summary`); outputs in `outputs/bc_llm/`
 - `pseudo_gt/` — LLM-annotated a/b/c spans: `guidelines.md`, `validate.py`, `train/<encounter_id>.json` (all 140),
   `eval/<encounter_id>.json` (all 67). Tune on train; use eval only for final scoring.
 - `docs/` — strategy, architecture, `experiments.md` (log of studies/results — append new ones), `leaderboard.md` (all runs ranked; current baseline); `outputs/` — generated (gitignored); `.cache/` — ICD index (gitignored)
