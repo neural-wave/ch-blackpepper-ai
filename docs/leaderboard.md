@@ -4,28 +4,29 @@ Score = mean of privacy (a + b removed) and c_kept, both from `anonymizer/evalua
 **Ranked by train** (140 encounters, where we tune); eval (67) shown for reporting only. Signal-5 runs on train are
 out-of-fold. Details of every study: [experiments.md](experiments.md).
 
-## Baseline (from 2026-10-17)
+## Baseline (from 2026-10-17, updated with study G)
 **Entity model on, signals 1–5, t_keep 0.5, t_remove 0.5, nearest-ICD gate on all four entity kinds,
-keep_symptoms off, personal rules 1–7 on.**
+keep_symptoms off, personal rules 1–7 on, personal-data extensions 1–4 on (study G).**
 
 | split | a_removed | b_removed | privacy | c_kept | score |
 |---|---|---|---|---|---|
-| train | 0.851 | 0.574 | 0.707 | 0.822 | 0.764 |
-| eval | 0.822 | 0.552 | 0.658 | 0.833 | 0.746 |
+| train | 0.888 | 0.578 | 0.727 | 0.821 | 0.774 |
+| eval | 0.860 | 0.554 | 0.674 | 0.834 | 0.754 |
 
 Config: `entity_model="en_core_sci_md"`, `signals=(1,2,3,4,5)`, `t_keep=0.5`, `t_remove=0.5`,
 `entity_sim_gate=("clinical detail","test","procedure","exam finding")`, `entity_gate_on="nearest_sim"`,
-`entity_min_sim=0.65`, `keep_symptoms=False`, `smalltalk=True` (threshold 0.6).
+`entity_min_sim=0.65`, `keep_symptoms=False`, `smalltalk=True` (threshold 0.6), `a_ideas=(1,2,3,4)`.
 
 Notes:
-- This config is still the default in `config.py`. Study G (personal-data extensions, `--a-ideas 1,2,3,4`) on top of it
-  is now rank 1: train 0.774 / eval 0.754, +0.010 / +0.008 score, all from privacy (a +0.037 / +0.038) at
-  c_kept −0.001 / +0.001. Not yet promoted to default.
-- Among the pre-G runs, the baseline and entity t_keep 0.72 tie on train (0.7645 vs 0.7640); t_keep 0.72 scores
-  higher on eval (0.756) but keeps only 70 % of code evidence. Differences below ~0.01 are noise at this size.
+- Previous baseline (same config with `a_ideas=()`, `--a-ideas ''`): train 0.764 / eval 0.746. Study G adds
+  +0.010 / +0.008 score, all from privacy (a +0.037 / +0.038) at c_kept −0.001 / +0.001.
+- Ranks 1 and 2 (with / without idea 4) tie on train (0.7739 vs 0.7737); idea 4 is a small eval plus (+0.0014).
+- Entity t_keep 0.72 (pre-G) ties the previous baseline on train and scores 0.755 on eval, but keeps only 70 % of
+  code evidence. Differences below ~0.01 are noise at this size.
+- Runs of studies A–F were made before study G, i.e. with `a_ideas=()`.
 
 ## Study G — personal-data extensions (2026-10-17)
-On top of the baseline above; switch `--a-ideas` / `Config.a_ideas`, off by default. Ideas: 1 extended rules (bare
+On top of the previous baseline (`a_ideas=()`); switch `--a-ideas` / `Config.a_ideas`, all on by default since this study. Ideas: 1 extended rules (bare
 kin, third-person hobbies, exercise routines, work phrases, household, life events), 2 SOCIAL HISTORY sentences
 without code evidence generalized, 3 activities / life events propagated across dialogue ↔ note, 4 strict injury cue
 for keeping activities. Per-type columns = share removed (a) / kept (c).

@@ -312,7 +312,7 @@ a 0.851 / b 0.574 / privacy 0.707 / c 0.822, eval 0.822 / 0.552 / 0.658 / 0.833.
 configuration" above. Ranking of all runs: [leaderboard.md](leaderboard.md).
 
 ## 2026-10-17 — Study G: personal-data extensions on the new baseline
-Follow-up to the category-a error analysis. Ideas behind `Config.a_ideas` / `--a-ideas` (off by default), on top of
+Follow-up to the category-a error analysis. Ideas behind `Config.a_ideas` / `--a-ideas` (off during the study), on top of
 the leaderboard baseline (entity on, s1–5, t0.5). Sweep: `python -m anonymizer.sweep --grid a_ideas --split train`.
 1. Extended rules (`phi_context._detect_extended`): bare kin ("Older sister", "Maternal grandmother"), household
    ("lives with …", "no siblings", "expecting a newborn"), third-person hobbies ("avid runner", "enjoys …"),
@@ -338,4 +338,5 @@ the leaderboard baseline (entity on, s1–5, t0.5). Sweep: `python -m anonymizer
 - Idea 4 swaps keeps rather than reducing them (121 → 114 kept activities on train: drops hunting-as-hobby but also
   gymnastics / trampoline injuries; adds yoga, golf, football via "after/from/playing").
 - A pseudo-GT cleanup (idea 6) was prototyped and dropped: the GT stays fixed for comparability.
+- Promoted: `a_ideas=(1,2,3,4)` is the default baseline (defaults reproduce train 0.774 / eval 0.754).
 - Next: small LLM / GLiNER span extractor for the long tail (idea 5), pending model download.

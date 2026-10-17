@@ -32,7 +32,8 @@ def main(argv: list[str] | None = None) -> None:
                    help="keep symptoms/findings regardless of relevance score")
     p.add_argument("--no-smalltalk", action="store_true", help="disable the small-talk unit filter")
     p.add_argument("--smalltalk-threshold", type=float, default=Config.smalltalk_threshold)
-    p.add_argument("--a-ideas", default="", help="personal-data extensions of study G, e.g. 1,2,3,4 (default none)")
+    p.add_argument("--a-ideas", default=",".join(map(str, Config.a_ideas)),
+                   help="personal-data extensions of study G; '' turns them off")
     p.add_argument("--no-cache", action="store_true", help="recompute model outputs instead of reusing .cache/")
     p.add_argument("--device", default="auto")
     p.add_argument("--limit", type=int, default=None)
