@@ -3,8 +3,10 @@
 Anonymizes doctor–patient dialogues and clinical notes while preserving the information that supports the
 encounter's ICD-10 codes. Runs fully on-prem (no cloud models, < 4 GB VRAM).
 
-- Strategy: [docs/strategy.md](docs/strategy.md)
-- Architecture: [docs/architecture.md](docs/architecture.md)
+## Deliverables
+Report and Video are at .deliverables/
+
+Results json from the pipeline are here: https://drive.google.com/drive/folders/1-7vN66R5Nq-t7xXAtxgRARoFn5lrNb4D?usp=sharing
 
 ## Setup
 ```bash
